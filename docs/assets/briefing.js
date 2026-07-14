@@ -11,7 +11,6 @@ function itemHTML(it) {
     ? `<a class="src" href="${esc(it.source_url)}" target="_blank" rel="noopener">원문 보기 ↗</a>`
     : "";
   return `<article class="item">
-    <div class="meta"><b>${esc(it.competitor)}</b> · ${esc(it.keyword)}</div>
     <h3>${esc(it.headline)}</h3>
     <p>${esc(it.summary)}</p>
     ${src}
