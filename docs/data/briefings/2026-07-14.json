@@ -1,55 +1,47 @@
 {
   "id": "2026-07-14",
   "date": "2026-07-14",
-  "title": "공정위 정보공개서 기반 프랜차이즈·가맹점 동향",
-  "summary": "공정거래위원회 정보공개서 자료를 바탕으로 한식 프랜차이즈 창업 비용과 브랜드별 성장·존속 현황이 다각도로 조명됐습니다. 세븐일레븐, 얌샘김밥 등이 우수 프랜차이즈로 선정된 반면, 이디야커피는 가맹망 축소와 실적 후퇴 지적을 받았습니다. 프랜차이즈 산업의 평균 존속 연수와 시스템 경쟁력에 대한 분석도 함께 다뤄졌습니다.",
+  "title": "공정위, 전자상거래법 개정·쿠팡 총수지정 제동",
+  "summary": "공정위가 전자상거래법 개정안을 시행해 C2C 개인정보 확인 간소화와 반복 위반 시 과징금 최대 100% 가중을 도입했다. 법원은 김범석 쿠팡 의장의 동일인 지정 처분 효력을 정지했으며, 대웅제약 거점도매 민원은 종결됐다.",
   "competitors": [
     "공정거래위원회"
   ],
   "keywords": [
-    "가맹점"
+    "전체동향"
   ],
   "items": [
     {
       "competitor": "공정거래위원회",
-      "keyword": "가맹점",
-      "headline": "한식 프랜차이즈 창업 비용 분석, 국밥류 강세",
-      "summary": "공정위 정보공개서와 프랜차이즈 평가 순위를 토대로 한식 프랜차이즈 76~111위 브랜드의 창업 비용을 분석한 결과, 감자탕·순댓국·국밥 브랜드가 강세를 보였습니다.",
-      "source_url": "https://ilyosisa.co.kr/mobile/article.html?no=256856",
-      "published_at": "26분 전"
+      "keyword": "전체동향",
+      "headline": "전자상거래법 개정안 시행",
+      "summary": "중고거래 시 신원 노출을 최소화하고 상습 위반 사업자 과징금 가중, 알리·테무 등 해외 직구 플랫폼의 국내 대리인 지정 의무를 강화했다.",
+      "source_url": "http://www.smedaily.co.kr/news/articleView.html?idxno=360283",
+      "published_at": "12분 전"
     },
     {
       "competitor": "공정거래위원회",
-      "keyword": "가맹점",
-      "headline": "얌샘김밥, 매일경제 100대 프랜차이즈 선정",
-      "summary": "분식 프랜차이즈 얌샘김밥이 매일경제 미디어그룹 주관 '매일경제 100대 프랜차이즈'에 경쟁력 있는 가맹 브랜드로 선정됐습니다.",
-      "source_url": "https://www.segye.com/newsView/20260714514793",
-      "published_at": "38분 전"
+      "keyword": "전체동향",
+      "headline": "법원, 김범석 동일인 지정 효력정지",
+      "summary": "법원이 쿠팡 창업주 김범석 의장을 총수(동일인)로 지정한 공정위 처분의 효력을 본안 판결 시까지 정지했다.",
+      "source_url": "https://imnews.imbc.com/news/2026/society/article/6837318_36918.html",
+      "published_at": "1시간 전"
     },
     {
       "competitor": "공정거래위원회",
-      "keyword": "가맹점",
-      "headline": "이디야커피 가맹망 축소·실적 후퇴 지적",
-      "summary": "이디야커피가 '지속 성장'을 내세워 예비 창업자를 모집했으나, 실제로는 가맹망이 줄고 실적도 후퇴한 것으로 나타났습니다.",
-      "source_url": "http://www.fieldnews.kr/news/articleViewAmp.html?idxno=29938",
-      "published_at": "4시간 전"
+      "keyword": "전체동향",
+      "headline": "하반기 하도급대금 결제조건 공시 점검",
+      "summary": "공정위가 공시대상기업집단의 2025년 하반기 하도급대금 결제조건 공시 이행 점검 결과를 발표했다.",
+      "source_url": "https://nuriilbo.com/news/article.html?no=878652",
+      "published_at": "24분 전"
     },
     {
       "competitor": "공정거래위원회",
-      "keyword": "가맹점",
-      "headline": "프랜차이즈 종합대상에 세븐일레븐",
-      "summary": "고물가와 소비 위축 등 각종 위기 속에서 성장한 프랜차이즈 브랜드 중 세븐일레븐이 종합대상을 수상했습니다.",
-      "source_url": "https://news.nate.com/view/20260713n24677",
-      "published_at": "23시간 전"
-    },
-    {
-      "competitor": "공정거래위원회",
-      "keyword": "가맹점",
-      "headline": "프랜차이즈 평균 존속 연수와 시스템 경쟁력",
-      "summary": "공정거래위원회 자료에 따르면 프랜차이즈 브랜드 평균 존속 연수는 5~8년으로, 외식업 5.4년, 서비스업 7.2년, 도소매업 8.4년으로 나타났습니다.",
-      "source_url": "https://news.nate.com/view/20260713n24286",
-      "published_at": "23시간 전"
+      "keyword": "전체동향",
+      "headline": "쿠팡 프레시백 계약해지 공정위 신고",
+      "summary": "쿠팡 택배 노동자들이 프레시백 수거 업무 관련 계약 해지 문제로 쿠팡로지스틱스서비스를 공정위에 신고했다.",
+      "source_url": "https://www.yna.co.kr/view/AKR20260714104300004",
+      "published_at": "2시간 전"
     }
   ],
-  "generated_at": "2026-07-14T06:05:06.358Z"
+  "generated_at": "2026-07-14T06:15:36.294Z"
 }
