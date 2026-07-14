@@ -198,8 +198,8 @@ async function summarizeCommittee(rawItems) {
       // 문서관리번호 접두어(예: "운영지원과-8889 (4181) 2026. 7. 13. - ")가 남아있으면 방어적으로 한 번 더 제거
       const stripDocRef = (s) => s.replace(/^\S+-\d+\s*\(\d+\)\s*\d{4}\.\s*\d{1,2}\.\s*\d{1,2}\.\s*-\s*/, "");
       const parts = [];
-      if (schedule.length) parts.push(`[주요일정]\n${schedule.map((s) => `· ${stripDocRef(s)}`).join("\n")}`);
-      if (personnel.length) parts.push(`[인사발령]\n${personnel.map((s) => `· ${stripDocRef(s)}`).join("\n")}`);
+      if (schedule.length) parts.push(`##[주요일정]##\n${schedule.map((s) => `· ${stripDocRef(s)}`).join("\n")}`);
+      if (personnel.length) parts.push(`##[인사발령]##\n${personnel.map((s) => `· ${stripDocRef(s)}`).join("\n")}`);
       return {
         category: "committee",
         category_label: CATEGORY_LABELS.committee,

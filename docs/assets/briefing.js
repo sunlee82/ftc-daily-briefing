@@ -5,10 +5,11 @@ function esc(s) {
     "&": "&amp;", "<": "&lt;", ">": "&gt;", '"': "&quot;", "'": "&#39;",
   }[c]));
 }
-// 이스케이프 후 줄바꿈은 <br>로, **볼드** 마크다운은 인물 강조 <strong>으로 되살린다
-// (위원회 소식처럼 여러 줄 요약 + 사람 이름/직함 강조가 필요한 항목에 사용)
+// 이스케이프 후 줄바꿈은 <br>로, **볼드**는 인물 강조(색상 포함), ##볼드##는 섹션
+// 라벨 강조(색상 변경 없이 굵기만)로 되살린다. (위원회 소식 요약에서 사용)
 function escBr(s) {
   return esc(s)
+    .replace(/##(.+?)##/g, '<strong class="section-label">$1</strong>')
     .replace(/\*\*(.+?)\*\*/g, '<strong class="person-name">$1</strong>')
     .replace(/\n/g, "<br>");
 }
