@@ -71,24 +71,54 @@ function renderPreview() {
   $("preview-panel").scrollIntoView({ behavior: "smooth", block: "start" });
 }
 
+// 카테고리 표시 순서 고정 (보도자료 → 위원회 소식 → 뉴스)
+const CATEGORY_ORDER = ["press", "committee", "news"];
+const CATEGORY_LABELS = { press: "공정위 보도자료", committee: "위원회 소식", news: "뉴스 보도내용" };
+
 function renderItems() {
   const box = $("items");
   box.innerHTML = "";
-  brief.items.forEach((it, i) => {
-    const div = document.createElement("div");
-    div.className = "edit-item";
-    div.innerHTML = `
-      <div class="top">
-        <span class="tag">${esc(it.keyword)}</span>
-        <button class="link-danger" data-del="${i}" type="button">삭제</button>
-      </div>
-      <input class="h" data-field="headline" data-i="${i}" value="${esc(it.headline)}" />
-      <textarea data-field="summary" data-i="${i}" rows="2">${esc(it.summary)}</textarea>
-      ${it.source_url
-        ? `<a class="src" href="${esc(it.source_url)}" target="_blank" rel="noopener noreferrer">${esc(it.source_url)} ↗</a>`
-        : ""}`;
-    box.appendChild(div);
-  });
+
+  for (const cat of CATEGORY_ORDER) {
+    // [글로벌 인덱스, 항목] 쌍만 모아서 해당 카테고리 내 위/아래 이동 범위를 계산
+    const group = brief.items
+      .map((it, i) => [i, it])
+      .filter(([, it]) => it.category === cat);
+    if (!group.length) continue;
+
+    const section = document.createElement("section");
+    section.className = "item-group";
+    section.innerHTML = `<h3 class="group-title">${esc(CATEGORY_LABELS[cat] || cat)} <small>(${group.length}건)</small></h3>`;
+
+    group.forEach(([i, it], pos) => {
+      const div = document.createElement("div");
+      div.className = "edit-item";
+      div.innerHTML = `
+        <div class="top">
+          <span class="tag">${esc(it.keyword || it.category_label || CATEGORY_LABELS[cat])}</span>
+          <div class="order-controls">
+            <button class="icon-btn" data-up="${i}" type="button" ${pos === 0 ? "disabled" : ""} title="위로">▲</button>
+            <button class="icon-btn" data-down="${i}" type="button" ${pos === group.length - 1 ? "disabled" : ""} title="아래로">▼</button>
+            <button class="link-danger" data-del="${i}" type="button">삭제</button>
+          </div>
+        </div>
+        <input class="h" data-field="headline" data-i="${i}" value="${esc(it.headline)}" />
+        <textarea data-field="summary" data-i="${i}" rows="2">${esc(it.summary)}</textarea>
+        ${it.source_url
+          ? `<a class="src" href="${esc(it.source_url)}" target="_blank" rel="noopener noreferrer">${esc(it.source_url)} ↗</a>`
+          : ""}`;
+      section.appendChild(div);
+    });
+    box.appendChild(section);
+  }
+}
+
+// 같은 카테고리 내에서 i번째 항목을 j번째(글로벌 인덱스)로 이동(스왑)
+function moveItem(i, j) {
+  if (j < 0 || j >= brief.items.length) return;
+  if (brief.items[i].category !== brief.items[j].category) return;
+  [brief.items[i], brief.items[j]] = [brief.items[j], brief.items[i]];
+  renderItems();
 }
 
 // 편집 반영 (이벤트 위임)
@@ -99,10 +129,15 @@ $("items").addEventListener("input", (e) => {
   if (i != null && field) brief.items[Number(i)][field] = t.value;
 });
 $("items").addEventListener("click", (e) => {
+  const up = e.target.getAttribute("data-up");
+  if (up != null) return moveItem(Number(up), Number(up) - 1);
+  const down = e.target.getAttribute("data-down");
+  if (down != null) return moveItem(Number(down), Number(down) + 1);
   const del = e.target.getAttribute("data-del");
-  if (del == null) return;
-  brief.items.splice(Number(del), 1);
-  renderItems();
+  if (del != null) {
+    brief.items.splice(Number(del), 1);
+    renderItems();
+  }
 });
 $("edit-title").addEventListener("input", (e) => { brief.title = e.target.value; });
 $("edit-summary").addEventListener("input", (e) => { brief.summary = e.target.value; });
@@ -123,8 +158,11 @@ async function publish() {
     });
     const data = await res.json();
     if (!res.ok) throw new Error(data.error || "배포 실패");
+    const gitLine = data.git?.pushed
+      ? `🚀 GitHub Pages에도 push 완료 (1분 내 반영)`
+      : `⚠️ git push는 안 됨 — ${esc(data.git?.note || "알 수 없음")} (로컬 저장은 완료)`;
     $("pub-status").innerHTML =
-      `✅ 배포 완료 (총 ${data.count}건). <a href="${data.archiveUrl}" target="_blank">아카이브에서 보기 ↗</a>`;
+      `✅ 로컬 배포 완료 (총 ${data.count}건). <a href="${data.archiveUrl}" target="_blank">로컬 미리보기 ↗</a><br />${gitLine}`;
     $("pub-status").className = "status ok";
   } catch (err) {
     setStatus($("pub-status"), err.message, "err");

@@ -8,12 +8,13 @@
 //   4) 아카이브 로컬 미리보기 GET /archive/*     docs/ 정적 서빙
 //
 //  외부 연동(serper.dev 검색, Claude 요약)은 tool/pipeline/*.js 안에만 격리되어 있고,
-//  git push는 6단계 seam(publishToGit)으로 남겨둔 상태(현재 로컬 저장만).
+//  배포 시 docs/data 변경분을 git add/commit/push까지 자동으로 반영한다(publishToGit).
 "use strict";
 
 const http = require("http");
 const fs = require("fs");
 const path = require("path");
+const { execFileSync } = require("child_process");
 
 // .env 로더 (의존성 없이 최소 구현) — 서버 시작 시 process.env로 주입
 (function loadDotEnv() {
@@ -28,7 +29,8 @@ const path = require("path");
 })();
 
 const { collect, dedupeAndSort } = require("./pipeline/collect");
-const { summarize } = require("./pipeline/summarize");
+const { summarize, buildPressItems, summarizeCommittee } = require("./pipeline/summarize");
+const { fetchPressReleases, fetchCommitteeNews } = require("./pipeline/collectFtcBoard");
 
 const ROOT = path.join(__dirname, "..");
 const DOCS = path.join(ROOT, "docs");
@@ -83,6 +85,16 @@ function serveStatic(res, filePath) {
 // 감시 대상은 공정거래위원회로 고정. 사용자는 관심 키워드만 입력(비우면 전체 동향 검색).
 const MONITORED_AGENCY = "공정거래위원회";
 
+// 실패해도 브리핑 생성 전체를 막지 않도록 각 카테고리를 개별적으로 감싼다(부분 성공).
+async function safely(label, fn, fallback) {
+  try {
+    return { ok: true, value: await fn() };
+  } catch (err) {
+    console.warn(`[generate] ${label} 실패: ${err.message}`);
+    return { ok: false, value: fallback, error: err.message };
+  }
+}
+
 async function generate(input) {
   const keywords = (input.keywords || []).map((s) => String(s).trim()).filter(Boolean);
   const competitors = [MONITORED_AGENCY];
@@ -97,9 +109,30 @@ async function generate(input) {
   // 표시/저장용: 빈 검색은 "전체동향"으로 라벨링
   const displayKeywords = keywords.length ? keywords : ["전체동향"];
 
-  const rawAll = await collect(competitors, searchKeywords, opts);
-  const raw = dedupeAndSort(rawAll);                          // 중복 제거 + 최신순
-  const { title, summary, items } = await summarize(raw, { competitors, keywords: displayKeywords, date });
+  // (1) 공정위 보도자료, (2) 위원회 소식, (3) 뉴스 보도내용 — 세 카테고리를 병렬 수집
+  const [pressResult, committeeRawResult, newsRawResult] = await Promise.all([
+    safely("공정위 보도자료 수집", () => fetchPressReleases(opts.windowHours), []),
+    safely("위원회 소식 수집", () => fetchCommitteeNews(opts.windowHours), []),
+    safely("뉴스 검색(serper)", () => collect(competitors, searchKeywords, opts), []),
+  ]);
+
+  const pressItems = buildPressItems(pressResult.value);
+
+  const committeeResult = await safely(
+    "위원회 소식 PDF 요약",
+    () => summarizeCommittee(committeeRawResult.value),
+    []
+  );
+  const committeeItems = committeeResult.value;
+
+  const newsRaw = dedupeAndSort(newsRawResult.value);
+  const { title, summary, items: newsItems } = await summarize(newsRaw, {
+    competitors,
+    keywords: displayKeywords,
+    date,
+  });
+
+  const items = [...pressItems, ...committeeItems, ...newsItems];
 
   return {
     id: date,
@@ -111,10 +144,14 @@ async function generate(input) {
     items,
     generated_at: new Date().toISOString(),
     _meta: {
-      sources: ["serper.dev/news"],
+      sources: ["ftc.go.kr(보도자료)", "ftc.go.kr(위원회 소식)", "serper.dev/news"],
       summarizer: process.env.CLAUDE_MODEL || "claude-opus-4-8",
-      collected: rawAll.length,
-      deduped: raw.length,
+      categoryCounts: { press: pressItems.length, committee: committeeItems.length, news: newsItems.length },
+      collected: newsRawResult.value.length,
+      deduped: newsRaw.length,
+      errors: [pressResult, committeeRawResult, newsRawResult, committeeResult]
+        .filter((r) => !r.ok)
+        .map((r) => r.error),
     },
   };
 }
@@ -125,9 +162,30 @@ function toSnapshot(brief) {
   return clean;
 }
 
-// 6단계 seam: 실제 배포에서는 여기서 git add/commit/push. 현재는 로컬 저장만.
-async function publishToGit() {
-  return { pushed: false, note: "git push는 아직 연결 전(로컬 저장만 수행)" };
+// docs/data 변경분을 커밋하고 원격으로 push한다. 저장소가 아니거나 변경/push가
+// 실패해도 예외를 던지지 않는다 — 로컬 파일 저장은 이미 끝났으므로 배포 자체는
+// 항상 성공으로 취급하고, git 결과만 별도로 알려준다.
+function runGit(args) {
+  return execFileSync("git", args, { cwd: ROOT, encoding: "utf8", stdio: ["ignore", "pipe", "pipe"] }).trim();
+}
+
+async function publishToGit(snapshot) {
+  if (!fs.existsSync(path.join(ROOT, ".git"))) {
+    return { pushed: false, note: "git 저장소가 아닙니다 (git init 필요)" };
+  }
+  try {
+    runGit(["add", "docs/data"]);
+    const staged = runGit(["diff", "--cached", "--name-only"]);
+    if (!staged) {
+      return { pushed: false, note: "변경 사항 없음 (이미 최신 상태)" };
+    }
+    runGit(["commit", "-m", `brief: ${snapshot.id}`]);
+    runGit(["push"]);
+    return { pushed: true, note: `git push 완료 (brief: ${snapshot.id})` };
+  } catch (err) {
+    const msg = (err.stderr ? err.stderr.toString() : err.message).split("\n").find(Boolean) || err.message;
+    return { pushed: false, note: `git 처리 실패: ${msg}` };
+  }
 }
 
 async function publish(brief) {
@@ -155,7 +213,7 @@ async function publish(brief) {
   index.sort((a, b) => (a.date < b.date ? 1 : -1));
   fs.writeFileSync(INDEX_FILE, JSON.stringify(index, null, 2) + "\n");
 
-  const git = await publishToGit();
+  const git = await publishToGit(snapshot);
   return { ok: true, id: snapshot.id, count: index.length, archiveUrl: `/archive/briefing.html?date=${snapshot.id}`, git };
 }
 

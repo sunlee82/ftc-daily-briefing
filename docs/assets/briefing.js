@@ -21,6 +21,21 @@ function chips(arr) {
   return (arr || []).map((k) => `<span class="chip">${esc(k)}</span>`).join("");
 }
 
+// 카테고리 표시 순서 고정 (보도자료 → 위원회 소식 → 뉴스)
+const CATEGORY_ORDER = ["press", "committee", "news"];
+const CATEGORY_LABELS = { press: "공정위 보도자료", committee: "위원회 소식", news: "뉴스 보도내용" };
+
+function itemsByCategoryHTML(items) {
+  return CATEGORY_ORDER.map((cat) => {
+    const group = (items || []).filter((it) => (it.category || "news") === cat);
+    if (!group.length) return "";
+    return `<section class="item-group">
+      <h2 class="group-title">${esc(CATEGORY_LABELS[cat])} <small>(${group.length}건)</small></h2>
+      ${group.map(itemHTML).join("")}
+    </section>`;
+  }).join("");
+}
+
 async function load() {
   const el = document.getElementById("detail");
   const params = new URLSearchParams(location.search);
@@ -44,7 +59,7 @@ async function load() {
           ${chips(b.keywords)}
         </div>
       </div>
-      ${(b.items || []).map(itemHTML).join("")}
+      ${itemsByCategoryHTML(b.items)}
     `;
   } catch (err) {
     el.innerHTML = `<p class="error">브리핑을 불러오지 못했습니다.<br /><small>${esc(err.message)}</small></p>`;

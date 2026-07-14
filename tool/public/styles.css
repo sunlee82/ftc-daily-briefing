@@ -81,6 +81,15 @@ button.ghost { background: var(--accent-soft); border-color: transparent; color:
 button.ghost:hover { filter: brightness(0.97); }
 button.link-danger { background: none; border: none; border-radius: 6px; color: var(--danger); padding: 4px 6px; font-size: .82rem; font-weight: 600; }
 
+.order-controls { display: flex; align-items: center; gap: 2px; }
+button.icon-btn {
+  background: var(--accent-soft); border: none; border-radius: 8px; color: var(--accent);
+  width: 26px; height: 26px; padding: 0; font-size: .7rem; line-height: 1;
+  display: inline-flex; align-items: center; justify-content: center;
+}
+button.icon-btn:hover:not(:disabled) { filter: brightness(0.96); }
+button.icon-btn:disabled { opacity: .35; cursor: default; }
+
 #generate { margin-top: 4px; }
 
 .status { font-size: .85rem; margin: 10px 0 0; min-height: 1.2em; }
@@ -92,6 +101,13 @@ button.link-danger { background: none; border: none; border-radius: 6px; color: 
 }
 
 /* 항목 편집 카드 */
+.item-group { margin-bottom: 22px; }
+.item-group .group-title {
+  font-size: .92rem; font-weight: 800; color: var(--text); margin: 0 0 10px;
+  padding-bottom: 6px; border-bottom: 2px solid var(--accent-soft);
+}
+.item-group .group-title small { color: var(--muted); font-weight: 500; font-size: .78rem; }
+
 .edit-item {
   border: 1px solid var(--border); border-radius: var(--radius); padding: 16px; margin-bottom: 12px; background: var(--bg);
 }

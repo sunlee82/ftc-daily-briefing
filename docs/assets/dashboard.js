@@ -73,9 +73,12 @@ function tokenize(text) {
     .filter((w) => w.length >= 2 && !STOPWORDS.has(w) && !/^\d+$/.test(w));
 }
 
+const CATEGORY_LABELS = { press: "공정위 보도자료", committee: "위원회 소식", news: "뉴스 보도내용" };
+
 function computeStats(briefings) {
   const keywordCounts = new Map();
   const wordCounts = new Map();
+  const categoryCounts = new Map();
   const itemsByDate = [];
   let totalItems = 0;
   const namedEntities = new Set();
@@ -96,6 +99,9 @@ function computeStats(briefings) {
       itemsByDate.push({ label: b.date, value: items.length });
       totalItems += items.length;
       items.forEach((it) => {
+        const cat = it.category || "news";
+        const catLabel = CATEGORY_LABELS[cat] || cat;
+        categoryCounts.set(catLabel, (categoryCounts.get(catLabel) || 0) + 1);
         if (it.keyword) {
           keywordCounts.set(it.keyword, (keywordCounts.get(it.keyword) || 0) + 1);
         }
@@ -115,6 +121,7 @@ function computeStats(briefings) {
     keywordCount: keywordCounts.size,
     itemsByDate,
     keywordCounts: toSortedArr(keywordCounts),
+    categoryCounts: toSortedArr(categoryCounts),
     topWords: toSortedArr(wordCounts).slice(0, 10),
   };
 }
@@ -238,6 +245,12 @@ async function main() {
         <h2>일자별 수집 항목 추이</h2>
         <p class="hint">정량 · 브리핑이 배포될 때마다 수집된 항목 수</p>
         <div class="chart-card">${renderDateBar(stats.itemsByDate)}</div>
+      </section>
+
+      <section class="dash-section">
+        <h2>카테고리별 항목 수</h2>
+        <p class="hint">정량 · 공정위 보도자료 · 위원회 소식 · 뉴스 보도내용 구성비</p>
+        <div class="chart-card">${renderRankedBar(stats.categoryCounts)}</div>
       </section>
 
       <section class="dash-section">

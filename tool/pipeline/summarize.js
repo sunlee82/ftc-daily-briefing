@@ -1,7 +1,11 @@
 // ┌─────────────────────────────────────────────────────────────────────┐
 // │  요약 단계 — Claude API(claude-opus-4-8) 실제 연동.                   │
-// │  수집된 원문 항목을 Claude로 요약해 브리핑(제목·핵심요약·항목요약)을  │
-// │  생성한다. 구조화 출력(json_schema)으로 형식을 강제한다.             │
+// │  카테고리별로 서로 다른 전략을 쓴다:                                  │
+// │   - 뉴스 보도내용(news): 수집 원문을 Claude로 요약(제목·항목요약)     │
+// │   - 공정위 보도자료(press): 공식 제목을 그대로 쓰므로 Claude 호출 없음│
+// │   - 위원회 소식(committee): 첨부 PDF를 Claude에 직접 읽혀             │
+// │     [주요일정]/[인사발령] 섹션만 구조화 추출                          │
+// │  구조화 출력(json_schema)으로 형식을 강제한다.                        │
 // │  환경변수 CLAUDE_API_KEY 필요.                                        │
 // └─────────────────────────────────────────────────────────────────────┘
 "use strict";
@@ -10,6 +14,12 @@ const Anthropic = require("@anthropic-ai/sdk");
 
 // 사용자가 CLAUDE_MODEL을 지정하지 않으면 기본은 claude-opus-4-8
 const MODEL = process.env.CLAUDE_MODEL || "claude-opus-4-8";
+
+const CATEGORY_LABELS = {
+  press: "공정위 보도자료",
+  committee: "위원회 소식",
+  news: "뉴스 보도내용",
+};
 
 // Claude가 반드시 이 형태의 JSON을 내도록 강제하는 스키마
 const OUTPUT_SCHEMA = {
@@ -100,6 +110,8 @@ async function summarize(rawItems, ctx) {
   const items = rawItems.map((r, i) => {
     const s = byIndex.get(i) || {};
     return {
+      category: "news",
+      category_label: CATEGORY_LABELS.news,
       competitor: r.competitor,
       keyword: r.keyword,
       headline: s.headline || r.title,
@@ -116,4 +128,85 @@ async function summarize(rawItems, ctx) {
   };
 }
 
-module.exports = { summarize };
+/**
+ * 공정위 보도자료 원문을 그대로 항목으로 변환한다. 공식 제목을 그대로 쓰므로
+ * Claude 호출이 필요 없다(비용 없음, 파싱 오류로 인한 왜곡도 없음).
+ * @param {Array} rawItems  collectFtcBoard.fetchPressReleases()의 결과
+ */
+function buildPressItems(rawItems) {
+  return rawItems.map((r) => ({
+    category: "press",
+    category_label: CATEGORY_LABELS.press,
+    headline: r.headline,
+    summary: `담당부서: ${r.dept} (${r.boardLabel})`,
+    source_url: r.source_url,
+    published_at: r.published_at,
+  }));
+}
+
+const COMMITTEE_SCHEMA = {
+  type: "object",
+  properties: {
+    schedule: { type: "array", items: { type: "string" }, description: "[주요일정] 섹션 항목 목록. 없으면 빈 배열." },
+    personnel: { type: "array", items: { type: "string" }, description: "[인사발령] 섹션 항목 목록. 없으면 빈 배열." },
+  },
+  required: ["schedule", "personnel"],
+  additionalProperties: false,
+};
+
+/**
+ * 위원회 소식 첨부 PDF를 Claude에 직접 읽혀 [주요일정]/[인사발령] 섹션을 추출한다.
+ * @param {Array} rawItems  collectFtcBoard.fetchCommitteeNews()의 결과 (각 항목에 pdfBase64 포함)
+ */
+async function summarizeCommittee(rawItems) {
+  if (!rawItems.length) return [];
+  const apiKey = process.env.CLAUDE_API_KEY || process.env.ANTHROPIC_API_KEY;
+  if (!apiKey) {
+    throw new Error("CLAUDE_API_KEY가 설정되지 않았습니다. .env에 키를 넣고 서버를 재시작하세요.");
+  }
+  const client = new Anthropic({ apiKey });
+
+  const settled = await Promise.allSettled(
+    rawItems.map(async (r) => {
+      const res = await client.messages.create({
+        model: MODEL,
+        max_tokens: 4000,
+        output_config: { format: { type: "json_schema", schema: COMMITTEE_SCHEMA } },
+        messages: [
+          {
+            role: "user",
+            content: [
+              { type: "document", source: { type: "base64", media_type: "application/pdf", data: r.pdfBase64 } },
+              {
+                type: "text",
+                text: "이 PDF는 공정거래위원회 위원회 소식 문서입니다. [주요일정] 섹션과 [인사발령] 섹션의 내용을 각각 목록으로 추출해주세요. 해당 섹션이 없으면 빈 배열로 응답하세요.",
+              },
+            ],
+          },
+        ],
+      });
+      const text = res.content.find((b) => b.type === "text")?.text || "{}";
+      const { schedule = [], personnel = [] } = JSON.parse(text);
+      const parts = [];
+      if (schedule.length) parts.push(`[주요일정] ${schedule.join(" / ")}`);
+      if (personnel.length) parts.push(`[인사발령] ${personnel.join(" / ")}`);
+      return {
+        category: "committee",
+        category_label: CATEGORY_LABELS.committee,
+        headline: r.headline,
+        summary: parts.join("\n") || "주요일정·인사발령 내용 없음",
+        source_url: r.source_url,
+        published_at: r.published_at,
+      };
+    })
+  );
+
+  const items = [];
+  settled.forEach((res, i) => {
+    if (res.status === "fulfilled") items.push(res.value);
+    else console.warn(`[summarize] 위원회 소식 PDF 요약 실패 (${rawItems[i].headline}): ${res.reason.message}`);
+  });
+  return items;
+}
+
+module.exports = { summarize, buildPressItems, summarizeCommittee, CATEGORY_LABELS };
