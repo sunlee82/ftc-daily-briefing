@@ -197,6 +197,7 @@ header.site p a:hover { background: rgba(255, 255, 255, 0.28); }
 }
 .item h3 { margin: 0 0 6px; font-size: 1.04rem; font-weight: 700; }
 .item p { margin: 0 0 14px; color: var(--text); font-size: 0.94rem; }
+.item p .person-name { color: var(--accent); font-weight: 800; }
 .item a.src {
   display: inline-flex;
   align-items: center;

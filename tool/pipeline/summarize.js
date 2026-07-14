@@ -147,8 +147,8 @@ function buildPressItems(rawItems) {
 const COMMITTEE_SCHEMA = {
   type: "object",
   properties: {
-    schedule: { type: "array", items: { type: "string" }, description: "[주요일정] 섹션 항목 목록. 없으면 빈 배열." },
-    personnel: { type: "array", items: { type: "string" }, description: "[인사발령] 섹션 항목 목록. 없으면 빈 배열." },
+    schedule: { type: "array", items: { type: "string" }, description: "[주요일정] 섹션 항목 목록. 직함·성명은 **볼드**로 감쌈. 없으면 빈 배열." },
+    personnel: { type: "array", items: { type: "string" }, description: "[인사발령] 섹션 항목 목록. 직함·성명은 **볼드**로 감쌈. 없으면 빈 배열." },
   },
   required: ["schedule", "personnel"],
   additionalProperties: false,
@@ -185,6 +185,7 @@ async function summarizeCommittee(rawItems) {
                   "규칙:",
                   "- 각 배열 항목은 실제 일정·인사 내용만 담습니다.",
                   "- 인사발령 항목 맨 앞에 붙는 문서관리번호(예: '운영지원과-8889 (4181) 2026. 7. 13. -' 같은 부서명-접수번호 (일련번호) 날짜. - 형식)는 내용이 아니라 문서 관리용 식별자이므로 반드시 제외하고, 그 뒤의 실제 인사 내용부터 담습니다.",
+                  "- 사람을 가리키는 표현(위원장·부위원장·상임위원 등 직함, 실제 성명)은 마크다운 볼드(**이름**)로 감싸주세요. 예: '**위원장**: 10:00 국무회의', '**신경화** 행정사무관 - ...'.",
                   "- 해당 섹션이 없으면 빈 배열로 응답하세요.",
                 ].join("\n"),
               },
