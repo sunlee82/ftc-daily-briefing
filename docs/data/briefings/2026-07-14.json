@@ -1,8 +1,8 @@
 {
   "id": "2026-07-14",
   "date": "2026-07-14",
-  "title": "공정위, 전자상거래법 시행·쿠팡 동일인 처분 정지 등 현안 다수",
-  "summary": "공정위가 전자상거래법 개정안을 시행하며 반복 위반 사업자 과징금 가중과 C2C 신원 확인 간소화를 도입했습니다. 한편 법원이 김범석 쿠팡 의장 동일인 지정 처분의 효력을 정지했고, 배달 플랫폼 규제 강화와 대웅제약 거점도매 민원 종결 등 다양한 사안이 부각됐습니다.",
+  "title": "쿠팡 동일인 지정 효력정지·전자상거래법 개정 시행",
+  "summary": "법원이 김범석 쿠팡 의장의 동일인 지정 처분 효력을 본안 판결 전까지 정지했습니다. 전자상거래법 개정안이 시행되어 반복 위반 과징금 가중과 C2C 신원확인 간소화가 도입되며, 대웅제약 거점도매 민원은 종결됐습니다.",
   "competitors": [
     "공정거래위원회"
   ],
@@ -30,7 +30,7 @@
       "category": "committee",
       "category_label": "위원회 소식",
       "headline": "2026-07-14 위원회 소식",
-      "summary": "[주요일정]\n· **위원장**: 10:00 국무회의(청와대)\n\n[인사발령]\n· 카르텔조사국 국제카르텔조사과 행정사무관 **신경화** 카르텔조사국 제조카르텔조사과 지원근무를 해제함 (2026. 7. 14.)\n· 조사관리관실 조사총괄담당관실 행정서기보(일반임기제) **양윤석** 원에 의하여 그 직을 면함 (2026. 7. 14.)",
+      "summary": "##[주요일정]##\n· **위원장**: 10:00 국무회의(청와대)\n\n##[인사발령]##\n· 카르텔조사국 국제카르텔조사과 행정사무관 **신경화** 카르텔조사국 제조카르텔조사과 지원근무를 해제함 (2026. 7. 14.)\n· 조사관리관실 조사총괄담당관실 행정서기보(일반임기제) **양윤석** 원에 의하여 그 직을 면함 (2026. 7. 14.)",
       "source_url": "https://www.ftc.go.kr/www/selectBbsNttView.do?pageUnit=10&pageIndex=1&searchCnd=all&key=15&bordCd=5&nttSn=47729",
       "published_at": "2026-07-14"
     },
@@ -39,10 +39,10 @@
       "category_label": "뉴스 보도내용",
       "competitor": "공정거래위원회",
       "keyword": "전체동향",
-      "headline": "배달 플랫폼 규제 강화 압박",
-      "summary": "공정위가 동의의결을 기각하고 최혜대우에 과징금을 예고하는 등 배달 플랫폼에 대한 규제가 현실화되고 있습니다. 동반성장평가와 수수료 인하 압박, 을의 협상력 강화 등 중첩 규제가 예상됩니다.",
-      "source_url": "https://www.etnews.com/20260714000330",
-      "published_at": "23분 전"
+      "headline": "2026년 하반기 건설 하도급 지급보증 의무 확대",
+      "summary": "건설 하도급 대금 미지급을 막기 위해 발주자가 하청업체에 직접 지급하는 지급보증 의무가 확대됩니다.",
+      "source_url": "https://www.korea.kr/news/policyFocusView.do?pkgId=49500843&newsId=148968045&pWise=main&pWiseMain=F3",
+      "published_at": "1분 전"
     },
     {
       "category": "news",
@@ -50,27 +50,17 @@
       "competitor": "공정거래위원회",
       "keyword": "전체동향",
       "headline": "대웅제약 거점도매 민원 종결",
-      "summary": "한국의약품유통협회가 대웅제약의 거점도매 정책에 반발해 제기한 불공정거래 민원이 공정위에서 종결 처리됐습니다. 이에 따라 대웅제약의 유통 혁신이 탄력을 받을 전망입니다.",
+      "summary": "한국의약품유통협회가 대웅제약의 거점 도매 정책에 대해 제기한 불공정거래 민원이 정식 심사 없이 종결 처리됐습니다.",
       "source_url": "http://www.yakup.com/news/?mode=view&cat=12&cat2=121&cat3=0&nid=329779",
-      "published_at": "44분 전"
+      "published_at": "52분 전"
     },
     {
       "category": "news",
       "category_label": "뉴스 보도내용",
       "competitor": "공정거래위원회",
       "keyword": "전체동향",
-      "headline": "법원, 쿠팡 김범석 동일인 지정 효력정지",
-      "summary": "법원이 김범석 쿠팡Inc 의장을 쿠팡 기업집단 동일인으로 지정한 공정위 처분의 효력을 본안 판결 전까지 정지했습니다.",
-      "source_url": "https://www.businesspost.co.kr/BP?command=article_view&num=442317",
-      "published_at": "56분 전"
-    },
-    {
-      "category": "news",
-      "category_label": "뉴스 보도내용",
-      "competitor": "공정거래위원회",
-      "keyword": "전체동향",
-      "headline": "경기도약사회, 공정위 개입 규탄",
-      "summary": "경기도약사회가 공정위의 약사법 시행규칙 개정안 제동에 대해 강도 높은 성명을 발표하고 즉각적인 철회와 대국민 사과를 촉구했습니다.",
+      "headline": "경기도약사회, 공정위 개입 규탄 성명",
+      "summary": "경기도약사회가 약사법 시행규칙 개정안에 대한 공정위의 제동을 비판하며 철회와 대국민 사과를 촉구했습니다.",
       "source_url": "https://www.kmpnews.co.kr/news/articleView.html?idxno=72132",
       "published_at": "1시간 전"
     },
@@ -79,8 +69,18 @@
       "category_label": "뉴스 보도내용",
       "competitor": "공정거래위원회",
       "keyword": "전체동향",
+      "headline": "법원, 김범석 동일인 지정 효력정지",
+      "summary": "법원이 김범석 쿠팡Inc 의장을 쿠팡 기업집단 동일인으로 지정한 공정위 처분의 효력을 일시 정지했습니다.",
+      "source_url": "https://www.businesspost.co.kr/BP?command=article_view&num=442317",
+      "published_at": "1시간 전"
+    },
+    {
+      "category": "news",
+      "category_label": "뉴스 보도내용",
+      "competitor": "공정거래위원회",
+      "keyword": "전체동향",
       "headline": "전자상거래법 개정안 시행",
-      "summary": "공정위가 전자상거래법 개정안을 시행해 중고거래 신원 노출 최소화, 상습 위반 사업자 과징금 가중, 알리·테무 등 해외 직구 플랫폼의 국내 대리인 지정 의무를 강화했습니다.",
+      "summary": "중고거래 신원 노출 최소화, 상습 위반 사업자 과징금 가중, 해외 직구 플랫폼의 국내 대리인 지정 의무 등이 시행됩니다.",
       "source_url": "http://www.smedaily.co.kr/news/articleView.html?idxno=360283",
       "published_at": "1시간 전"
     },
@@ -89,9 +89,9 @@
       "category_label": "뉴스 보도내용",
       "competitor": "공정거래위원회",
       "keyword": "전체동향",
-      "headline": "쿠팡 동일인 처분 효력정지 확정",
-      "summary": "법원이 김범석 쿠팡Inc 의장을 총수로 지정한 공정위 처분의 효력을 본안 판결이 나올 때까지 정지했습니다.",
-      "source_url": "https://imnews.imbc.com/news/2026/society/article/6837318_36918.html",
+      "headline": "대웅제약 블록형 거점도매 논란 전환점",
+      "summary": "유통협회가 제기한 공정거래법 논란 민원이 종결되며 대웅제약의 유통 개편이 탄력을 받게 됐습니다.",
+      "source_url": "https://dailypharm.com/user/news/340423",
       "published_at": "2시간 전"
     },
     {
@@ -99,8 +99,8 @@
       "category_label": "뉴스 보도내용",
       "competitor": "공정거래위원회",
       "keyword": "전체동향",
-      "headline": "C2C 개인정보 확인 간소화",
-      "summary": "중고거래 등 개인 간 거래 플랫폼에서 판매자의 전화번호와 이메일만 확인하면 거래가 가능해집니다. 아울러 반복적으로 전자상거래법을 위반하는 사업자에 대한 과징금은 강화됩니다.",
+      "headline": "C2C 개인정보 확인 간소화·반복위반 과징금 강화",
+      "summary": "중고거래 등 개인 간 거래에서 전화번호와 이메일만 확인하면 거래가 가능해지고, 전자상거래법 반복 위반 사업자 과징금이 강화됩니다.",
       "source_url": "https://v.daum.net/v/20260714140211636",
       "published_at": "2시간 전"
     },
@@ -109,9 +109,9 @@
       "category_label": "뉴스 보도내용",
       "competitor": "공정거래위원회",
       "keyword": "전체동향",
-      "headline": "대웅제약 블록형 거점도매 논란 전환점",
-      "summary": "대웅제약의 블록형 거점도매 정책을 둘러싼 공정거래법 논란이 유통협회의 민원 종결로 새로운 전환점을 맞았습니다.",
-      "source_url": "https://www.dailypharm.com/user/news/340423",
+      "headline": "법원, 쿠팡 총수 지정 처분 효력정지",
+      "summary": "법원이 김범석 의장을 총수로 지정한 공정위 처분의 효력을 본안 판결이 나올 때까지 정지했습니다.",
+      "source_url": "https://imnews.imbc.com/news/2026/society/article/6837318_36918.html",
       "published_at": "3시간 전"
     },
     {
@@ -120,7 +120,7 @@
       "competitor": "공정거래위원회",
       "keyword": "전체동향",
       "headline": "전자상거래법 반복 위반 과징금 최대 100% 가중",
-      "summary": "전자상거래 플랫폼이 전자상거래법을 반복적으로 위반하면 과징금이 최대 100%까지 가중됩니다. C2C 거래에서는 플랫폼의 신원확인 부담이 완화됩니다.",
+      "summary": "전자상거래 플랫폼이 법을 반복 위반하면 과징금이 최대 100%까지 가중됩니다.",
       "source_url": "https://mobile.newsis.com/view_amp.html?ar_id=NISX20260714_0003708212",
       "published_at": "3시간 전"
     },
@@ -129,11 +129,11 @@
       "category_label": "뉴스 보도내용",
       "competitor": "공정거래위원회",
       "keyword": "전체동향",
-      "headline": "쿠팡 프레시백 계약해지 공정위 신고",
-      "summary": "쿠팡 택배 노동자들이 프레시백 수거 등 업무를 둘러싼 계약 해지와 관련해 쿠팡로지스틱스서비스를 공정위에 신고했습니다.",
+      "headline": "쿠팡 노조, 프레시백 계약해지 공정위 신고",
+      "summary": "쿠팡 택배 노동자들이 프레시백 수거 업무 관련 계약 해지 문제로 쿠팡로지스틱스서비스를 공정위에 신고했습니다.",
       "source_url": "https://www.yna.co.kr/view/AKR20260714104300004",
       "published_at": "3시간 전"
     }
   ],
-  "generated_at": "2026-07-14T07:22:58.351Z"
+  "generated_at": "2026-07-14T07:30:57.346Z"
 }
