@@ -1,47 +1,91 @@
 {
   "id": "2026-07-14",
   "date": "2026-07-14",
-  "title": "공정위, 전자상거래법 개정·쿠팡 총수지정 제동",
-  "summary": "공정위가 전자상거래법 개정안을 시행해 반복 위반 시 과징금 최대 100% 가중을 도입했다. 법원은 김범석 쿠팡 의장의 동일인 지정 처분 효력을 정지했다.",
+  "title": "공정위 가맹점 동향: 프랜차이즈 성장과 명암",
+  "summary": "공정거래위원회 정보공개서 자료를 기반으로 한 프랜차이즈 시장 분석이 이어졌으며, 얌샘김밥의 100대 프랜차이즈 선정과 BBQ의 해외 성과 등 긍정적 소식이 전해졌다. 반면 이디야커피는 가맹망 축소와 실적 후퇴 지적을 받았고, 커피·한식 프랜차이즈 시장의 경쟁 심화 양상도 조명됐다.",
   "competitors": [
     "공정거래위원회"
   ],
   "keywords": [
-    "전체동향"
+    "가맹점"
   ],
   "items": [
     {
-      "competitor": "공정거래위원회",
-      "keyword": "전체동향",
-      "headline": "전자상거래법 개정안 시행",
-      "summary": "중고거래 시 신원 노출을 최소화하고 상습 위반 사업자 과징금 가중, 알리·테무 등 해외 직구 플랫폼의 국내 대리인 지정 의무를 강화했다.",
-      "source_url": "http://www.smedaily.co.kr/news/articleView.html?idxno=360283",
-      "published_at": "12분 전"
+      "category": "press",
+      "category_label": "공정위 보도자료",
+      "headline": "전자상거래법 시행령·시행규칙 및 과징금 고시 개정",
+      "summary": "담당부서: 소비자거래정책과 (보도/참고자료)",
+      "source_url": "https://www.ftc.go.kr/www/selectBbsNttView.do?pageUnit=10&pageIndex=1&searchCnd=all&key=12&bordCd=3&searchCtgry=01,02&nttSn=47730",
+      "published_at": "2026-07-14"
     },
     {
-      "competitor": "공정거래위원회",
-      "keyword": "전체동향",
-      "headline": "법원, 김범석 동일인 지정 효력정지",
-      "summary": "법원이 쿠팡 창업주 김범석 의장을 총수(동일인)로 지정한 공정위 처분의 효력을 본안 판결 시까지 정지했다.",
-      "source_url": "https://imnews.imbc.com/news/2026/society/article/6837318_36918.html",
-      "published_at": "1시간 전"
+      "category": "press",
+      "category_label": "공정위 보도자료",
+      "headline": "’25년 하반기 하도급대금 결제조건 공시 점검결과",
+      "summary": "담당부서: 하도급조사과 (보도/참고자료)",
+      "source_url": "https://www.ftc.go.kr/www/selectBbsNttView.do?pageUnit=10&pageIndex=1&searchCnd=all&key=12&bordCd=3&searchCtgry=01,02&nttSn=47728",
+      "published_at": "2026-07-14"
     },
     {
+      "category": "news",
+      "category_label": "뉴스 보도내용",
       "competitor": "공정거래위원회",
-      "keyword": "전체동향",
-      "headline": "하반기 하도급대금 결제조건 공시 점검",
-      "summary": "공정위가 공시대상기업집단의 2025년 하반기 하도급대금 결제조건 공시 이행 점검 결과를 발표했다.",
-      "source_url": "https://nuriilbo.com/news/article.html?no=878652",
-      "published_at": "24분 전"
-    },
-    {
-      "competitor": "공정거래위원회",
-      "keyword": "전체동향",
-      "headline": "쿠팡 프레시백 계약해지 공정위 신고",
-      "summary": "쿠팡 택배 노동자들이 프레시백 수거 업무 관련 계약 해지 문제로 쿠팡로지스틱스서비스를 공정위에 신고했다.",
-      "source_url": "https://www.yna.co.kr/view/AKR20260714104300004",
+      "keyword": "가맹점",
+      "headline": "얌샘김밥, 매일경제 100대 프랜차이즈 선정",
+      "summary": "분식 프랜차이즈 얌샘김밥이 매일경제 미디어그룹이 주관하는 '매일경제 100대 프랜차이즈'에 선정됐다고 밝혔다.",
+      "source_url": "https://www.segye.com/newsView/20260714514793",
       "published_at": "2시간 전"
+    },
+    {
+      "category": "news",
+      "category_label": "뉴스 보도내용",
+      "competitor": "공정거래위원회",
+      "keyword": "가맹점",
+      "headline": "얌샘김밥, 100대 프랜차이즈 10년 연속 선정",
+      "summary": "얌샘김밥이 '매일경제 100대 프랜차이즈' 심사에서 10년 연속 우수 가맹본부로 이름을 올렸다.",
+      "source_url": "https://www.cstimes.com/news/articleView.html?idxno=713391",
+      "published_at": "2시간 전"
+    },
+    {
+      "category": "news",
+      "category_label": "뉴스 보도내용",
+      "competitor": "공정거래위원회",
+      "keyword": "가맹점",
+      "headline": "이디야커피, 가맹망 축소·실적 후퇴 지적",
+      "summary": "이디야커피가 '지속 성장'을 내세웠지만 실제로는 가맹망이 줄고 실적도 후퇴했다는 분석이 제기됐다.",
+      "source_url": "http://www.fieldnews.kr/news/articleViewAmp.html?idxno=29938",
+      "published_at": "5시간 전"
+    },
+    {
+      "category": "news",
+      "category_label": "뉴스 보도내용",
+      "competitor": "공정거래위원회",
+      "keyword": "가맹점",
+      "headline": "한식 프랜차이즈 창업비용, 감자탕·순댓국·국밥 강세",
+      "summary": "공정위 정보공개서 자료를 바탕으로 한식 프랜차이즈 76~111위 브랜드의 창업 비용을 분석한 결과 감자탕·순댓국·국밥 업종이 강세를 보였다.",
+      "source_url": "https://www.ilyosisa.co.kr/news/article.html?no=256856",
+      "published_at": "8시간 전"
+    },
+    {
+      "category": "news",
+      "category_label": "뉴스 보도내용",
+      "competitor": "공정거래위원회",
+      "keyword": "가맹점",
+      "headline": "프리미엄 카페 시장 경쟁 심화",
+      "summary": "공정위에 따르면 지난해 국내 커피 브랜드는 921개, 가맹점은 2만9101개로 한식에 이은 2위 규모이며 시장이 레드오션화되고 있다.",
+      "source_url": "https://www.wolyo.co.kr/news/articleView.html?idxno=314911",
+      "published_at": "16시간 전"
+    },
+    {
+      "category": "news",
+      "category_label": "뉴스 보도내용",
+      "competitor": "공정거래위원회",
+      "keyword": "가맹점",
+      "headline": "BBQ, 미국서 '최고의 치킨' 선정…해외매출 급증",
+      "summary": "BBQ가 미국에서 '최고의 치킨'으로 선정됐으며 해외매출이 2년 새 50% 상승하는 성과를 거뒀다.",
+      "source_url": "https://www.mk.co.kr/news/special-edition/12097314",
+      "published_at": "24시간 전"
     }
   ],
-  "generated_at": "2026-07-14T06:15:36.294Z"
+  "generated_at": "2026-07-14T07:06:57.434Z"
 }
