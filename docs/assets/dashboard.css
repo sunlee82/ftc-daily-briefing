@@ -1,0 +1,98 @@
+/* 대시보드 전용 스타일 — dataviz 스킬의 검증된 참조 팔레트를 그대로 사용 */
+
+.viz-root {
+  --viz-surface: #fcfcfb;
+  --viz-text-primary: #0b0b0b;
+  --viz-text-secondary: #52514e;
+  --viz-muted: #898781;
+  --viz-grid: #e1e0d9;
+  --viz-baseline: #c3c2b7;
+  --viz-series-1: #2a78d6;      /* blue — 정량 지표 기본색 */
+  --viz-series-1-rgb: 42, 120, 214;
+}
+@media (prefers-color-scheme: dark) {
+  .viz-root {
+    --viz-surface: #1a1a19;
+    --viz-text-primary: #ffffff;
+    --viz-text-secondary: #c3c2b7;
+    --viz-muted: #898781;
+    --viz-grid: #2c2c2a;
+    --viz-baseline: #383835;
+    --viz-series-1: #3987e5;
+    --viz-series-1-rgb: 57, 135, 229;
+  }
+}
+
+.dash-section { margin-bottom: 36px; }
+.dash-section h2 { font-size: 1.05rem; font-weight: 700; margin: 0 0 4px; }
+.dash-section .hint { color: var(--muted); font-size: .82rem; margin: 0 0 14px; }
+
+/* 스탯 타일 */
+.stat-row {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+  gap: 12px;
+  margin-bottom: 32px;
+}
+.stat-tile {
+  background: var(--surface);
+  border: 1px solid var(--border);
+  border-radius: var(--radius-lg);
+  padding: 18px 20px;
+  box-shadow: var(--shadow);
+}
+.stat-tile .label { font-size: .78rem; font-weight: 600; color: var(--muted); margin-bottom: 8px; }
+.stat-tile .value { font-size: 1.75rem; font-weight: 800; color: var(--text); letter-spacing: -0.01em; }
+
+/* 차트 카드 */
+.chart-card {
+  background: var(--viz-surface);
+  border: 1px solid var(--border);
+  border-radius: var(--radius-lg);
+  padding: 20px;
+  box-shadow: var(--shadow);
+}
+.chart-card svg { display: block; width: 100%; height: auto; overflow: visible; }
+.chart-card .bar-value { font-size: 11px; fill: var(--viz-text-secondary); font-weight: 600; }
+.chart-card .bar-label { font-size: 11px; fill: var(--viz-text-secondary); }
+.chart-card .axis-tick { font-size: 10px; fill: var(--viz-muted); }
+.chart-card .grid-line { stroke: var(--viz-grid); stroke-width: 1; }
+.chart-card .baseline { stroke: var(--viz-baseline); stroke-width: 1; }
+
+.viz-bar { rx: 4; transition: opacity .1s; cursor: pointer; }
+.viz-bar:hover { opacity: .82; }
+.viz-cell { cursor: pointer; }
+.viz-cell:hover { stroke: var(--viz-text-primary); stroke-width: 1.5; }
+
+/* 툴팁 */
+#viz-tooltip {
+  position: fixed;
+  pointer-events: none;
+  background: var(--viz-text-primary);
+  color: var(--viz-surface);
+  font-size: .78rem;
+  padding: 5px 9px;
+  border-radius: 6px;
+  z-index: 100;
+  opacity: 0;
+  transform: translate(-50%, -130%);
+  white-space: nowrap;
+  transition: opacity .08s;
+}
+#viz-tooltip.show { opacity: 1; }
+
+.two-col {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 16px;
+}
+@media (max-width: 720px) {
+  .two-col { grid-template-columns: 1fr; }
+}
+
+/* 표 보기 (접근성 대체) */
+details.table-view { margin-top: 10px; }
+details.table-view summary { cursor: pointer; color: var(--accent); font-size: .85rem; }
+table.data-table { width: 100%; border-collapse: collapse; margin-top: 10px; font-size: .85rem; }
+table.data-table th, table.data-table td { text-align: left; padding: 6px 10px; border-bottom: 1px solid var(--border); }
+table.data-table th { color: var(--muted); font-weight: 600; }

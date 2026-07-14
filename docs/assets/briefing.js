@@ -1,0 +1,55 @@
+// 브리핑 상세 — ?date=YYYY-MM-DD 로 data/briefings/<date>.json을 읽어 렌더링. (순수 JS)
+
+function esc(s) {
+  return String(s == null ? "" : s).replace(/[&<>"']/g, (c) => ({
+    "&": "&amp;", "<": "&lt;", ">": "&gt;", '"': "&quot;", "'": "&#39;",
+  }[c]));
+}
+
+function itemHTML(it) {
+  const src = it.source_url
+    ? `<a class="src" href="${esc(it.source_url)}" target="_blank" rel="noopener">원문 보기 ↗</a>`
+    : "";
+  return `<article class="item">
+    <div class="meta"><b>${esc(it.competitor)}</b> · ${esc(it.keyword)}</div>
+    <h3>${esc(it.headline)}</h3>
+    <p>${esc(it.summary)}</p>
+    ${src}
+  </article>`;
+}
+
+function chips(arr) {
+  return (arr || []).map((k) => `<span class="chip">${esc(k)}</span>`).join("");
+}
+
+async function load() {
+  const el = document.getElementById("detail");
+  const params = new URLSearchParams(location.search);
+  const date = params.get("date");
+  if (!date || !/^\d{4}-\d{2}-\d{2}$/.test(date)) {
+    el.innerHTML = `<p class="error">잘못된 주소입니다. 날짜(date) 파라미터가 필요합니다.</p>`;
+    return;
+  }
+  try {
+    const res = await fetch(`data/briefings/${date}.json`, { cache: "no-store" });
+    if (!res.ok) throw new Error("브리핑을 찾을 수 없습니다: " + res.status);
+    const b = await res.json();
+    document.title = `${b.title} — 공정위 동향`;
+    el.innerHTML = `
+      <div class="detail-head">
+        <span class="date">${esc(b.date)}</span>
+        <h1>${esc(b.title)}</h1>
+        <p class="lead">${esc(b.summary)}</p>
+        <div class="chips">
+          ${chips(b.competitors)}
+          ${chips(b.keywords)}
+        </div>
+      </div>
+      ${(b.items || []).map(itemHTML).join("")}
+    `;
+  } catch (err) {
+    el.innerHTML = `<p class="error">브리핑을 불러오지 못했습니다.<br /><small>${esc(err.message)}</small></p>`;
+  }
+}
+
+load();

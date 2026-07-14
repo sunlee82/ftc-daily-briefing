@@ -1,0 +1,16 @@
+{
+  "name": "competitor-briefing",
+  "version": "0.1.0",
+  "private": true,
+  "description": "경쟁사 동향 브리핑 생성 도구(로컬) + 공개 아카이브(GitHub Pages)",
+  "scripts": {
+    "start": "node tool/server.js",
+    "dev": "node tool/server.js"
+  },
+  "engines": {
+    "node": ">=18"
+  },
+  "dependencies": {
+    "@anthropic-ai/sdk": "^0.111.0"
+  }
+}

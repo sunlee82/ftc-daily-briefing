@@ -1,0 +1,16 @@
+# 비밀정보 — 절대 커밋 금지
+.env
+.env.*
+!.env.example
+
+# 로컬 산출물 / 임시 초안
+tool/.drafts/
+tool/mock/.cache/
+
+# OS / 에디터
+.DS_Store
+node_modules/
+*.log
+
+# 로컬 세션 설정 (개인 명령 이력 — 공개 저장소에 불필요)
+.claude/settings.local.json

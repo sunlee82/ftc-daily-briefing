@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>브리핑 생성 도구</title>
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <div class="wrap">
+    <header class="tool-head">
+      <h1>🛠️ 브리핑 생성 도구 <span class="badge">LIVE</span></h1>
+      <p>관심 키워드를 입력하면 공정거래위원회의 오늘 동향을 정리한 브리핑을 만들어 미리보고 배포합니다.
+        <a href="/archive/" target="_blank">공개 아카이브 열기 ↗</a></p>
+    </header>
+
+    <!-- 1. 입력 -->
+    <section class="panel" id="input-panel">
+      <h2>1. 입력</h2>
+      <p class="meta-line">모니터링 대상: 공정거래위원회 (고정)</p>
+      <label>관심 키워드 <small>(쉼표로 구분, 비우면 전체 동향 검색)</small>
+        <input id="keywords" type="text" placeholder="예: 플랫폼, 하도급, 가맹점, 담합, 표시광고" />
+      </label>
+      <div class="row">
+        <label class="sm">수집 기간(시간)
+          <input id="windowHours" type="number" value="24" min="1" max="168" />
+        </label>
+        <label class="sm">조합당 최대 항목
+          <input id="maxPerPair" type="number" value="10" min="1" max="30" />
+        </label>
+        <div class="preset-actions">
+          <button class="ghost" id="save-preset" type="button">프리셋 저장</button>
+          <button class="ghost" id="load-preset" type="button">프리셋 불러오기</button>
+        </div>
+      </div>
+      <button class="primary" id="generate" type="button">브리핑 생성 ▶</button>
+      <p class="status" id="gen-status"></p>
+    </section>
+
+    <!-- 2·3. 미리보기 · 편집 -->
+    <section class="panel hidden" id="preview-panel">
+      <h2>2. 미리보기 · 편집</h2>
+      <p class="meta-line" id="meta-line"></p>
+      <label>브리핑 제목
+        <input id="edit-title" type="text" />
+      </label>
+      <label>핵심 요약 (카드에 노출)
+        <textarea id="edit-summary" rows="3"></textarea>
+      </label>
+
+      <h3>항목 <small>(불필요한 항목은 삭제)</small></h3>
+      <div id="items"></div>
+
+      <div class="publish-bar">
+        <button class="primary" id="publish" type="button">배포하기 ▲</button>
+        <span class="status" id="pub-status"></span>
+      </div>
+    </section>
+  </div>
+  <script src="app.js"></script>
+</body>
+</html>
