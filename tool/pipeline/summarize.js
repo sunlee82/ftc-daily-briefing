@@ -179,7 +179,14 @@ async function summarizeCommittee(rawItems) {
               { type: "document", source: { type: "base64", media_type: "application/pdf", data: r.pdfBase64 } },
               {
                 type: "text",
-                text: "이 PDF는 공정거래위원회 위원회 소식 문서입니다. [주요일정] 섹션과 [인사발령] 섹션의 내용을 각각 목록으로 추출해주세요. 해당 섹션이 없으면 빈 배열로 응답하세요.",
+                text: [
+                  "이 PDF는 공정거래위원회 위원회 소식 문서입니다.",
+                  "[주요일정] 섹션과 [인사발령] 섹션의 내용을 각각 목록으로 추출해주세요.",
+                  "규칙:",
+                  "- 각 배열 항목은 실제 일정·인사 내용만 담습니다.",
+                  "- 인사발령 항목 맨 앞에 붙는 문서관리번호(예: '운영지원과-8889 (4181) 2026. 7. 13. -' 같은 부서명-접수번호 (일련번호) 날짜. - 형식)는 내용이 아니라 문서 관리용 식별자이므로 반드시 제외하고, 그 뒤의 실제 인사 내용부터 담습니다.",
+                  "- 해당 섹션이 없으면 빈 배열로 응답하세요.",
+                ].join("\n"),
               },
             ],
           },
@@ -187,14 +194,16 @@ async function summarizeCommittee(rawItems) {
       });
       const text = res.content.find((b) => b.type === "text")?.text || "{}";
       const { schedule = [], personnel = [] } = JSON.parse(text);
+      // 문서관리번호 접두어(예: "운영지원과-8889 (4181) 2026. 7. 13. - ")가 남아있으면 방어적으로 한 번 더 제거
+      const stripDocRef = (s) => s.replace(/^\S+-\d+\s*\(\d+\)\s*\d{4}\.\s*\d{1,2}\.\s*\d{1,2}\.\s*-\s*/, "");
       const parts = [];
-      if (schedule.length) parts.push(`[주요일정] ${schedule.join(" / ")}`);
-      if (personnel.length) parts.push(`[인사발령] ${personnel.join(" / ")}`);
+      if (schedule.length) parts.push(`[주요일정]\n${schedule.map((s) => `· ${stripDocRef(s)}`).join("\n")}`);
+      if (personnel.length) parts.push(`[인사발령]\n${personnel.map((s) => `· ${stripDocRef(s)}`).join("\n")}`);
       return {
         category: "committee",
         category_label: CATEGORY_LABELS.committee,
         headline: r.headline,
-        summary: parts.join("\n") || "주요일정·인사발령 내용 없음",
+        summary: parts.join("\n\n") || "주요일정·인사발령 내용 없음",
         source_url: r.source_url,
         published_at: r.published_at,
       };

@@ -5,6 +5,10 @@ function esc(s) {
     "&": "&amp;", "<": "&lt;", ">": "&gt;", '"': "&quot;", "'": "&#39;",
   }[c]));
 }
+// 이스케이프 후 줄바꿈만 <br>로 되살린다 (위원회 소식처럼 여러 줄 요약을 표시할 때 사용)
+function escBr(s) {
+  return esc(s).replace(/\n/g, "<br>");
+}
 
 function itemHTML(it) {
   const src = it.source_url
@@ -12,7 +16,7 @@ function itemHTML(it) {
     : "";
   return `<article class="item">
     <h3>${esc(it.headline)}</h3>
-    <p>${esc(it.summary)}</p>
+    <p>${escBr(it.summary)}</p>
     ${src}
   </article>`;
 }
