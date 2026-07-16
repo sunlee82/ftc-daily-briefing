@@ -6,6 +6,7 @@
 # 로컬 산출물 / 임시 초안
 tool/.drafts/
 tool/mock/.cache/
+tool/.raw-pdfs/
 
 # OS / 에디터
 .DS_Store
