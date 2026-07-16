@@ -71,33 +71,20 @@ header.site h1 {
 }
 header.site p { margin: 0; color: rgba(255, 255, 255, 0.88); font-size: 0.95rem; }
 
-/* 히어로 안의 주요 CTA — 크고 눈에 띄게, 줄바꿈으로 별도 줄에 */
-.hero-cta {
+/* 히어로 아래의 담백한 보조 네비게이션 — 메인 콘텐츠(카드)로 시선이 자연스럽게 흐르도록 */
+.site-nav {
   display: flex;
-  align-items: center;
-  justify-content: center;
-  gap: 6px;
-  margin-top: 16px;
-  padding: 14px 20px;
-  border-radius: var(--radius);
-  background: #ffffff;
-  color: var(--hero-to);
+  gap: 18px;
+  margin: 0 0 22px;
+  padding: 0 2px;
+}
+.site-nav a {
+  color: var(--muted);
   text-decoration: none;
-  font-weight: 800;
-  font-size: 1.05rem;
-  box-shadow: 0 6px 16px rgba(0, 0, 0, 0.12);
+  font-size: 0.88rem;
+  font-weight: 600;
 }
-.hero-cta:hover { filter: brightness(0.97); transform: translateY(-1px); }
-
-/* 히어로 안의 보조 링크 — 덜 중요한 액션(예: 나중에 개편 예정인 대시보드) */
-.hero-secondary {
-  display: inline-block;
-  margin-top: 10px;
-  color: rgba(255, 255, 255, 0.75);
-  text-decoration: underline;
-  font-size: 0.82rem;
-}
-.hero-secondary:hover { color: #fff; }
+.site-nav a:hover { color: var(--accent); text-decoration: underline; }
 
 /* --- 카드 그리드 --- */
 .cards {
