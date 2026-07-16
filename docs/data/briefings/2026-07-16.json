@@ -1,25 +1,98 @@
 {
   "id": "2026-07-16",
   "date": "2026-07-16",
-  "title": "공정위 부이사관 승진 인사 발표",
-  "summary": "공정거래위원회가 부이사관 승진 인사를 단행했습니다. 소비자정책총괄과장에 권순국, 가맹거래조사과장에 이득규가 각각 임명됐으며, 다수 언론이 동일 내용을 보도했습니다.",
+  "title": "공정위 동향: 쿠팡 집행정지·원재료 담합·특별포상",
+  "summary": "법원이 쿠팡의 동일인 지정 집행정지 신청을 인용해 공정위 처분에 제동이 걸렸습니다. 공정위는 밀가루·은행LTV·인쇄용지 등 민생 3대 담합을 적발한 직원들에게 총 2100만원의 특별성과 포상금을 수여했으며, 전자상거래 규제 개편과 상생협력 간담회 등 다양한 정책 활동을 이어갔습니다.",
   "competitors": [
     "공정거래위원회"
   ],
   "keywords": [
-    "전체동향"
+    "공정위",
+    "과징금",
+    "현장조사",
+    "담합"
   ],
   "items": [
     {
       "category": "news",
       "category_label": "뉴스 보도내용",
       "competitor": "공정거래위원회",
-      "keyword": "전체동향",
-      "headline": "공정위 부이사관 승진 인사 (연합뉴스)",
-      "summary": "소비자정책총괄과장 권순국, 가맹거래조사과장 이득규 부이사관 승진 인사가 연합뉴스를 통해 전해졌습니다.",
-      "source_url": "https://www.yna.co.kr/view/AKR20260715142300002",
-      "published_at": "16시간 전"
+      "keyword": "현장조사",
+      "headline": "공정위 인사: 부이사관 승진",
+      "summary": "소비자정책총괄과장 권순국, 가맹거래조사과장 이득규의 인사가 발표됐습니다.",
+      "source_url": "https://www.jabon.co.kr/news/articleView.html?idxno=4965",
+      "published_at": "1시간 전"
+    },
+    {
+      "category": "news",
+      "category_label": "뉴스 보도내용",
+      "competitor": "공정거래위원회",
+      "keyword": "공정위",
+      "headline": "제2회 특별성과 포상금 수여식 개최",
+      "summary": "공정위가 밀가루·은행LTV·인쇄용지 등 3대 담합과 중대 불공정행위를 적발한 조사팀 및 조사관에 대한 포상을 진행했습니다.",
+      "source_url": "https://www.newswhoplus.com/news/articleView.html?idxno=64655",
+      "published_at": "20시간 전"
+    },
+    {
+      "category": "news",
+      "category_label": "뉴스 보도내용",
+      "competitor": "공정거래위원회",
+      "keyword": "현장조사",
+      "headline": "KT 밀리의서재 결합상품 공정위 조사",
+      "summary": "공정위가 KT의 계열사 밀리의서재를 활용한 결합상품 판매 과정에서 부당지원이 있었는지 여부를 들여다보고 있습니다.",
+      "source_url": "https://www.metroseoul.co.kr/article/20260715500362",
+      "published_at": "18시간 전"
+    },
+    {
+      "category": "news",
+      "category_label": "뉴스 보도내용",
+      "competitor": "공정거래위원회",
+      "keyword": "공정위",
+      "headline": "숙박 플랫폼 오버부킹 약관 공정위 제소",
+      "summary": "야놀자·여기어때 등 숙박 플랫폼 5개사가 오버부킹 예약 취소 시 소비자 배상 기준 약관 문제로 공정위에 제소당했습니다.",
+      "source_url": "https://newsfield.net/%EC%98%A4%EB%B2%84%EB%B6%80%ED%82%B9-%EC%AB%93%EA%B2%A8%EB%82%98%EB%8F%84-%ED%99%98%EB%B6%88%EB%BF%90%EC%95%BC%EB%86%80%EC%9E%90%C2%B7%EC%97%AC%EA%B8%B0%EC%96%B4%EB%95%8C/",
+      "published_at": "13시간 전"
+    },
+    {
+      "category": "news",
+      "category_label": "뉴스 보도내용",
+      "competitor": "공정거래위원회",
+      "keyword": "담합",
+      "headline": "한전 입찰 담합 재판 쟁점 부상",
+      "summary": "한국전력공사 설비 장치 입찰 담합 사건 재판에서 중소기업군의 담합 참여 경위에 대한 내부 관계자 증언이 나왔습니다.",
+      "source_url": "https://www.newsimpact.co.kr/news/articleView.html?idxno=4001780",
+      "published_at": "18시간 전"
+    },
+    {
+      "category": "news",
+      "category_label": "뉴스 보도내용",
+      "competitor": "공정거래위원회",
+      "keyword": "과징금",
+      "headline": "롯데웰푸드 아이스크림 담합 대법 선고",
+      "summary": "아이스크림 가격 담합으로 과징금 처분을 받은 롯데웰푸드의 불복소송이 16일 대법원 선고를 앞두고 있습니다.",
+      "source_url": "https://www.bloter.net/news/articleView.html?idxno=668147",
+      "published_at": "21시간 전"
+    },
+    {
+      "category": "news",
+      "category_label": "뉴스 보도내용",
+      "competitor": "공정거래위원회",
+      "keyword": "공정위",
+      "headline": "대·중소기업 상생협력 간담회 개최",
+      "summary": "공정위가 서울 포시즌스호텔에서 상생협력 간담회를 열고 하도급 분야 정책 방향을 논의했습니다.",
+      "source_url": "https://www.yna.co.kr/view/AKR20260715046800002",
+      "published_at": "21시간 전"
+    },
+    {
+      "category": "news",
+      "category_label": "뉴스 보도내용",
+      "competitor": "공정거래위원회",
+      "keyword": "과징금",
+      "headline": "공정위, 원재료 카르텔 정조준",
+      "summary": "설탕·밀가루에 이어 전분당까지, 국민 식탁과 제조업 기초가 되는 원재료 시장 담합에 대해 공정위가 역대 최고 과징금을 부과하며 제재를 이어가고 있습니다.",
+      "source_url": "https://entropytimes.co.kr/news/article.html?no=17056",
+      "published_at": "21시간 전"
     }
   ],
-  "generated_at": "2026-07-15T23:20:47.982Z"
+  "generated_at": "2026-07-16T00:10:37.511Z"
 }
