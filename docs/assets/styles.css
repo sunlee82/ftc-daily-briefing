@@ -71,20 +71,34 @@ header.site h1 {
 }
 header.site p { margin: 0; color: rgba(255, 255, 255, 0.88); font-size: 0.95rem; }
 
-/* 히어로 아래의 담백한 보조 네비게이션 — 메인 콘텐츠(카드)로 시선이 자연스럽게 흐르도록 */
+/* 히어로 아래의 보조 네비게이션 — 메인 콘텐츠(카드)로 시선이 자연스럽게 흐르되, 식별은 잘 되도록 */
 .site-nav {
   display: flex;
-  gap: 18px;
-  margin: 0 0 22px;
+  align-items: center;
+  gap: 14px;
+  margin: 0 0 24px;
   padding: 0 2px;
 }
 .site-nav a {
   color: var(--muted);
   text-decoration: none;
-  font-size: 0.88rem;
+  font-size: 0.95rem;
   font-weight: 600;
 }
 .site-nav a:hover { color: var(--accent); text-decoration: underline; }
+
+/* 자료실만 버튼 형태로 구분 — 대시보드보다 우선순위가 높은 서브 메뉴임을 표시 */
+.site-nav .nav-btn {
+  display: inline-flex;
+  align-items: center;
+  gap: 5px;
+  color: var(--accent);
+  background: var(--accent-soft);
+  padding: 8px 16px;
+  border-radius: var(--radius-full);
+  font-weight: 700;
+}
+.site-nav .nav-btn:hover { filter: brightness(0.96); text-decoration: none; }
 
 /* --- 카드 그리드 --- */
 .cards {
