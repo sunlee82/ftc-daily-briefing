@@ -51,7 +51,14 @@ async function load() {
       el.innerHTML = `<p class="empty">아직 등록된 자료가 없습니다.</p>`;
       return;
     }
-    list.sort((a, b) => (a.date < b.date ? 1 : a.date > b.date ? -1 : 0));
+    // 날짜 최신순 → 같은 날짜 안에서는 등록한 순서의 역순(마지막에 올린 게 맨 위)
+    list = list
+      .map((it, i) => ({ it, i }))
+      .sort((a, b) => {
+        if (a.it.date !== b.it.date) return a.it.date < b.it.date ? 1 : -1;
+        return b.i - a.i;
+      })
+      .map((x) => x.it);
 
     const render = (tag) => {
       const filtered = !tag || tag === "전체" ? list : list.filter((it) => (it.tags || []).includes(tag));
