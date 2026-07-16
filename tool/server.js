@@ -29,7 +29,7 @@ const { execFileSync } = require("child_process");
 })();
 
 const { collect, dedupeAndSort } = require("./pipeline/collect");
-const { summarize, buildPressItems, summarizeCommittee } = require("./pipeline/summarize");
+const { summarize, buildPressItems, summarizeCommittee, regenerateOverview } = require("./pipeline/summarize");
 const { fetchPressReleases, fetchCommitteeNews } = require("./pipeline/collectFtcBoard");
 
 const ROOT = path.join(__dirname, "..");
@@ -46,6 +46,7 @@ const MIME = {
   ".css": "text/css; charset=utf-8",
   ".json": "application/json; charset=utf-8",
   ".svg": "image/svg+xml",
+  ".pdf": "application/pdf",
 };
 
 // ---------- 유틸 ----------
@@ -95,8 +96,65 @@ async function safely(label, fn, fallback) {
   }
 }
 
-async function generate(input) {
+function parseKeywordInput(input) {
   const keywords = (input.keywords || []).map((s) => String(s).trim()).filter(Boolean);
+  const excludeKeywords = (input.excludeKeywords || []).map((s) => String(s).trim()).filter(Boolean);
+  return {
+    keywords,
+    excludeKeywords,
+    // 검색용: 키워드가 없으면 빈 문자열 하나로 "기관명 단독 검색"을 수행
+    searchKeywords: keywords.length ? keywords : [""],
+    // 표시/저장용: 빈 검색은 "전체동향"으로 라벨링
+    displayKeywords: keywords.length ? keywords : ["전체동향"],
+  };
+}
+
+// (1) 공정위 보도자료, (2) 위원회 소식, (3) 뉴스 보도내용 — 세 카테고리를 병렬 수집·요약한다.
+// excludeUrls에 있는 출처는 결과에서 제외하고(이미 본 항목 재수집 방지),
+// existingHeadlines는 뉴스 요약 단계에서 Claude가 유사 항목을 골라내는 데 쓰인다.
+async function collectCategorized({ competitors, searchKeywords, displayKeywords, excludeKeywords, opts, date, excludeUrls, existingHeadlines }) {
+  const excludeSet = new Set(excludeUrls || []);
+
+  const [pressResult, committeeRawResult, newsRawResult] = await Promise.all([
+    safely("공정위 보도자료 수집", () => fetchPressReleases(opts.windowHours), []),
+    safely("위원회 소식 수집", () => fetchCommitteeNews(opts.windowHours), []),
+    safely("뉴스 검색(serper)", () => collect(competitors, searchKeywords, { ...opts, excludeKeywords }), []),
+  ]);
+
+  const freshPress = pressResult.value.filter((p) => !excludeSet.has(p.source_url));
+  const freshCommitteeRaw = committeeRawResult.value.filter((c) => !excludeSet.has(c.source_url));
+  const freshNewsRaw = newsRawResult.value.filter((n) => !excludeSet.has(n.url));
+
+  const pressItems = buildPressItems(freshPress);
+
+  const committeeResult = await safely("위원회 소식 PDF 요약", () => summarizeCommittee(freshCommitteeRaw), []);
+  const committeeItems = committeeResult.value;
+
+  const newsRaw = dedupeAndSort(freshNewsRaw);
+  const { title, summary, items: newsItems } = await summarize(newsRaw, {
+    competitors,
+    keywords: displayKeywords,
+    date,
+    existingHeadlines,
+  });
+
+  return {
+    title,
+    summary,
+    items: [...pressItems, ...committeeItems, ...newsItems],
+    meta: {
+      categoryCounts: { press: pressItems.length, committee: committeeItems.length, news: newsItems.length },
+      collected: newsRawResult.value.length,
+      deduped: newsRaw.length,
+      errors: [pressResult, committeeRawResult, newsRawResult, committeeResult]
+        .filter((r) => !r.ok)
+        .map((r) => r.error),
+    },
+  };
+}
+
+async function generate(input) {
+  const { searchKeywords, excludeKeywords, displayKeywords } = parseKeywordInput(input);
   const competitors = [MONITORED_AGENCY];
   const opts = {
     windowHours: Number(input.windowHours) || 24,
@@ -104,35 +162,9 @@ async function generate(input) {
   };
   const date = todayStr();
 
-  // 검색용: 키워드가 없으면 빈 문자열 하나로 "기관명 단독 검색"을 수행
-  const searchKeywords = keywords.length ? keywords : [""];
-  // 표시/저장용: 빈 검색은 "전체동향"으로 라벨링
-  const displayKeywords = keywords.length ? keywords : ["전체동향"];
-
-  // (1) 공정위 보도자료, (2) 위원회 소식, (3) 뉴스 보도내용 — 세 카테고리를 병렬 수집
-  const [pressResult, committeeRawResult, newsRawResult] = await Promise.all([
-    safely("공정위 보도자료 수집", () => fetchPressReleases(opts.windowHours), []),
-    safely("위원회 소식 수집", () => fetchCommitteeNews(opts.windowHours), []),
-    safely("뉴스 검색(serper)", () => collect(competitors, searchKeywords, opts), []),
-  ]);
-
-  const pressItems = buildPressItems(pressResult.value);
-
-  const committeeResult = await safely(
-    "위원회 소식 PDF 요약",
-    () => summarizeCommittee(committeeRawResult.value),
-    []
-  );
-  const committeeItems = committeeResult.value;
-
-  const newsRaw = dedupeAndSort(newsRawResult.value);
-  const { title, summary, items: newsItems } = await summarize(newsRaw, {
-    competitors,
-    keywords: displayKeywords,
-    date,
+  const { title, summary, items, meta } = await collectCategorized({
+    competitors, searchKeywords, displayKeywords, excludeKeywords, opts, date,
   });
-
-  const items = [...pressItems, ...committeeItems, ...newsItems];
 
   return {
     id: date,
@@ -146,14 +178,30 @@ async function generate(input) {
     _meta: {
       sources: ["ftc.go.kr(보도자료)", "ftc.go.kr(위원회 소식)", "serper.dev/news"],
       summarizer: process.env.CLAUDE_MODEL || "claude-opus-4-8",
-      categoryCounts: { press: pressItems.length, committee: committeeItems.length, news: newsItems.length },
-      collected: newsRawResult.value.length,
-      deduped: newsRaw.length,
-      errors: [pressResult, committeeRawResult, newsRawResult, committeeResult]
-        .filter((r) => !r.ok)
-        .map((r) => r.error),
+      ...meta,
     },
   };
+}
+
+// 추가 검색: 이미 브리핑에 담긴 항목(excludeUrls·existingHeadlines)과 겹치지 않는
+// 새 항목만 찾아 반환한다. 전체 브리핑을 새로 만들지 않고 항목만 반환 — 제목/요약은
+// 사용자가 편집 중인 기존 값을 그대로 유지한다.
+async function generateMore(input) {
+  const { searchKeywords, excludeKeywords, displayKeywords } = parseKeywordInput(input);
+  const competitors = [MONITORED_AGENCY];
+  const opts = {
+    windowHours: Number(input.windowHours) || 24,
+    maxPerPair: Number(input.maxPerPair) || 10,
+  };
+  const date = todayStr();
+  const excludeUrls = (input.excludeUrls || []).filter(Boolean);
+  const existingHeadlines = (input.existingHeadlines || []).filter(Boolean);
+
+  const { items, meta } = await collectCategorized({
+    competitors, searchKeywords, displayKeywords, excludeKeywords, opts, date, excludeUrls, existingHeadlines,
+  });
+
+  return { items, _meta: meta };
 }
 
 // 배포 스냅샷에서 로컬 전용 필드(_meta 등) 제거
@@ -227,6 +275,15 @@ const server = http.createServer(async (req, res) => {
     if (req.method === "POST" && pathname === "/api/generate") {
       const brief = await generate(JSON.parse((await readBody(req)) || "{}"));
       return sendJSON(res, 200, brief);
+    }
+    if (req.method === "POST" && pathname === "/api/generate-more") {
+      const result = await generateMore(JSON.parse((await readBody(req)) || "{}"));
+      return sendJSON(res, 200, result);
+    }
+    if (req.method === "POST" && pathname === "/api/regenerate-overview") {
+      const body = JSON.parse((await readBody(req)) || "{}");
+      const overview = await regenerateOverview(body.items || []);
+      return sendJSON(res, 200, overview);
     }
     if (req.method === "POST" && pathname === "/api/publish") {
       const body = JSON.parse((await readBody(req)) || "{}");

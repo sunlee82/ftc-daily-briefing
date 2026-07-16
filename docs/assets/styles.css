@@ -70,20 +70,34 @@ header.site h1 {
   letter-spacing: -0.02em;
 }
 header.site p { margin: 0; color: rgba(255, 255, 255, 0.88); font-size: 0.95rem; }
-header.site p a {
-  display: inline-flex;
+
+/* 히어로 안의 주요 CTA — 크고 눈에 띄게, 줄바꿈으로 별도 줄에 */
+.hero-cta {
+  display: flex;
   align-items: center;
-  gap: 4px;
-  margin-left: 8px;
-  padding: 5px 12px;
-  border-radius: var(--radius-full);
-  background: rgba(255, 255, 255, 0.18);
-  color: #fff;
+  justify-content: center;
+  gap: 6px;
+  margin-top: 16px;
+  padding: 14px 20px;
+  border-radius: var(--radius);
+  background: #ffffff;
+  color: var(--hero-to);
   text-decoration: none;
-  font-weight: 600;
-  font-size: 0.85rem;
+  font-weight: 800;
+  font-size: 1.05rem;
+  box-shadow: 0 6px 16px rgba(0, 0, 0, 0.12);
 }
-header.site p a:hover { background: rgba(255, 255, 255, 0.28); }
+.hero-cta:hover { filter: brightness(0.97); transform: translateY(-1px); }
+
+/* 히어로 안의 보조 링크 — 덜 중요한 액션(예: 나중에 개편 예정인 대시보드) */
+.hero-secondary {
+  display: inline-block;
+  margin-top: 10px;
+  color: rgba(255, 255, 255, 0.75);
+  text-decoration: underline;
+  font-size: 0.82rem;
+}
+.hero-secondary:hover { color: #fff; }
 
 /* --- 카드 그리드 --- */
 .cards {
@@ -115,6 +129,18 @@ header.site p a:hover { background: rgba(255, 255, 255, 0.28); }
   border-radius: var(--radius-full);
   margin-bottom: 12px;
 }
+/* 자료실 카드/상세의 문서·기사 타입 배지 */
+.type-badge {
+  display: inline-block;
+  font-size: 0.76rem;
+  font-weight: 700;
+  color: var(--muted);
+  background: var(--bg);
+  border: 1px solid var(--border);
+  padding: 4px 12px;
+  border-radius: var(--radius-full);
+  margin: 0 0 12px 6px;
+}
 .card h2 {
   margin: 0 0 8px;
   font-size: 1.1rem;
@@ -130,6 +156,24 @@ header.site p a:hover { background: rgba(255, 255, 255, 0.28); }
   -webkit-box-orient: vertical;
   overflow: hidden;
 }
+.card .card-tags { margin-top: 12px; gap: 6px; }
+.card .card-tags .chip { font-size: 0.72rem; padding: 3px 9px; }
+
+/* 자료실 태그 필터 */
+.tag-filter { display: flex; flex-wrap: wrap; gap: 8px; margin-bottom: 18px; }
+.tag-btn {
+  font: inherit;
+  font-size: 0.82rem;
+  font-weight: 600;
+  color: var(--muted);
+  background: var(--surface);
+  border: 1px solid var(--border);
+  border-radius: var(--radius-full);
+  padding: 6px 14px;
+  cursor: pointer;
+}
+.tag-btn:hover { border-color: var(--accent); color: var(--accent); }
+.tag-btn.active { background: var(--accent); border-color: var(--accent); color: #fff; }
 
 /* --- 상세 페이지 --- */
 .back {
@@ -213,6 +257,23 @@ header.site p a:hover { background: rgba(255, 255, 255, 0.28); }
   box-shadow: 0 4px 12px rgba(47, 111, 235, 0.3);
 }
 .item a.src:hover { filter: brightness(1.08); transform: translateY(-1px); }
+
+/* 자료실 상세: 원문보기 버튼 (일반 .src보다 한 단계 크게) */
+.original-btn-row { margin-top: 16px; }
+.src.src-lg {
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+  font-size: 0.92rem;
+  font-weight: 700;
+  color: #fff;
+  background: var(--accent);
+  text-decoration: none;
+  padding: 11px 20px;
+  border-radius: var(--radius-full);
+  box-shadow: 0 4px 12px rgba(47, 111, 235, 0.3);
+}
+.src.src-lg:hover { filter: brightness(1.08); transform: translateY(-1px); }
 
 .empty, .error {
   text-align: center;
