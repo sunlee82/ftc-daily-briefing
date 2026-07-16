@@ -126,3 +126,15 @@ button.icon-btn:disabled { opacity: .35; cursor: default; }
 .edit-item .src:hover { filter: brightness(0.96); }
 
 .publish-bar { display: flex; flex-direction: column; align-items: stretch; gap: 10px; margin-top: 18px; }
+
+.refresh-overview-bar { display: flex; align-items: center; gap: 10px; margin: -6px 0 20px; }
+.refresh-overview-bar .ghost { flex: 0 0 auto; }
+
+.more-search-box {
+  background: var(--bg); border: 1px solid var(--border); border-radius: var(--radius);
+  padding: 16px; margin: 18px 0;
+}
+.more-search-box h3 { margin: 0 0 12px; font-size: .95rem; }
+.more-search-box h3 small { color: var(--muted); font-weight: 400; font-size: .78rem; }
+.more-search-bar { display: flex; flex-direction: column; align-items: flex-start; gap: 6px; margin-top: 4px; }
+.more-search-bar .ghost { width: 100%; text-align: center; padding: 10px 14px; }

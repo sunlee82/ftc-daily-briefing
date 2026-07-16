@@ -37,8 +37,10 @@ function relMinutes(s) {
 }
 
 // 조합 하나에 대한 serper /news 호출. keyword가 빈 문자열이면 기관명만으로 검색.
-async function fetchPair(agency, keyword, { apiKey, num, tbs, gl, hl }) {
-  const q = keyword ? `${agency} ${keyword}` : agency;
+// excludeTerms(예: "-담합 -가맹점")가 있으면 쿼리 끝에 덧붙여 해당 단어가 포함된 결과를 제외한다.
+async function fetchPair(agency, keyword, { apiKey, num, tbs, gl, hl, excludeTerms }) {
+  const base = keyword ? `${agency} ${keyword}` : agency;
+  const q = excludeTerms ? `${base} ${excludeTerms}` : base;
   const res = await fetch(SERPER_NEWS_URL, {
     method: "POST",
     headers: { "X-API-KEY": apiKey, "Content-Type": "application/json" },
@@ -64,6 +66,7 @@ async function fetchPair(agency, keyword, { apiKey, num, tbs, gl, hl }) {
 /**
  * 기관 × 키워드 조합을 serper.dev로 검색해 raw 항목 배열을 반환한다.
  * keywords에 빈 문자열("")이 포함되면 그 조합은 기관명 단독으로 검색한다.
+ * opts.excludeKeywords가 있으면 검색어에서 해당 단어가 포함된 결과를 제외한다.
  * @returns {Array<{competitor,keyword,title,url,published_at,source,snippet}>}
  */
 async function collect(competitors, keywords, opts = {}) {
@@ -71,12 +74,18 @@ async function collect(competitors, keywords, opts = {}) {
   if (!apiKey) {
     throw new Error("SERPER_API_KEY가 설정되지 않았습니다. .env에 키를 넣고 서버를 재시작하세요.");
   }
+  const excludeTerms = (opts.excludeKeywords || [])
+    .map((k) => String(k).trim())
+    .filter(Boolean)
+    .map((k) => `-${k}`)
+    .join(" ");
   const cfg = {
     apiKey,
     num: Math.min(Number(opts.maxPerPair) || 10, 30),
     tbs: windowToTbs(Number(opts.windowHours) || 24),
     gl: opts.gl || "kr",
     hl: opts.hl || "ko",
+    excludeTerms,
   };
 
   const pairs = [];
