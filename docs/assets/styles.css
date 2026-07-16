@@ -92,13 +92,14 @@ header.site p { margin: 0; color: rgba(255, 255, 255, 0.88); font-size: 0.95rem;
   display: inline-flex;
   align-items: center;
   gap: 5px;
-  color: var(--accent);
-  background: var(--accent-soft);
+  color: #fff;
+  background: linear-gradient(155deg, var(--hero-from), var(--hero-to));
   padding: 8px 16px;
   border-radius: var(--radius-full);
   font-weight: 700;
+  box-shadow: 0 4px 12px rgba(47, 95, 224, 0.28);
 }
-.site-nav .nav-btn:hover { filter: brightness(0.96); text-decoration: none; }
+.site-nav .nav-btn:hover { filter: brightness(1.06); text-decoration: none; }
 
 /* --- 카드 그리드 --- */
 .cards {
