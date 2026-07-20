@@ -1,0 +1,75 @@
+{
+  "id": "2026-07-20",
+  "date": "2026-07-20",
+  "title": "인쇄용지 담합 감면 논란·요가필라테스 표준약관 제정",
+  "summary": "공정위가 제지업계 담합 과징금을 1942억원 감면하기로 하면서 중소 인쇄업계가 강하게 반발했습니다. 요가·필라테스 사업장 휴폐업 시 14일 전 사전통지를 의무화하는 표준약관을 처음 제정했고, 하도급 계약서를 늑장 발급한 대보마그네틱에는 과징금 3200만원을 부과했습니다. 담합 신고 포상금 상한 폐지도 함께 논의되고 있습니다.",
+  "competitors": ["공정거래위원회"],
+  "keywords": ["공정위", "과징금", "현장조사", "담합"],
+  "items": [
+    {
+      "category": "press",
+      "category_label": "공정위 보도자료",
+      "headline": "요가ㆍ필라테스 표준약관 제정",
+      "summary": "담당부서: 소비자거래정책과 (보도/참고자료)",
+      "source_url": "https://www.ftc.go.kr/www/selectBbsNttView.do?pageUnit=10&pageIndex=1&searchCnd=all&key=12&bordCd=3&searchCtgry=01,02&nttSn=47757",
+      "published_at": "2026-07-20"
+    },
+    {
+      "category": "press",
+      "category_label": "공정위 보도자료",
+      "headline": "대보마그네틱(주)의 불공정하도급거래행위 제재",
+      "summary": "담당부서: 제조하도급과 (보도/참고자료)",
+      "source_url": "https://www.ftc.go.kr/www/selectBbsNttView.do?pageUnit=10&pageIndex=1&searchCnd=all&key=12&bordCd=3&searchCtgry=01,02&nttSn=47756",
+      "published_at": "2026-07-20"
+    },
+    {
+      "category": "committee",
+      "category_label": "위원회 소식",
+      "headline": "2026-07-20 위원회 소식",
+      "summary": "##[주요일정]##\n· **위원장**: 10:00 전원회의(심판정)\n· **부위원장**: 08:45 대외경제장관회의(세종청사), 10:00 전원회의(심판정)\n\n##[인사발령]##\n· **김동연** 서기관 - 복직 및 공정거래위원회 근무를 명함\n· **정창석** 행정사무관 - 파견 복귀, 조사관리관실 중점조사팀 근무를 명함\n· **장상민** 행정사무관 - 전문관(대리점거래 조사기획) 해제 및 산업통상부 파견근무를 명함 (2026.7.20~2027.7.19)\n· **박진웅·김영국·전하늬** 행정사무관(보건복지부 전입) - 각각 기업거래정책과·약관특수거래과·유통거래조사과 근무를 명함\n· **박규태** - 전문임기제 다급 임용, 위원장실 근무를 명함 (2026.7.20~2027.7.19)\n· **이유진** 전산서기(행정안전부 전입) - 기획조정관실 정보화담당관실 근무를 명함",
+      "source_url": "https://www.ftc.go.kr/www/selectBbsNttView.do?pageUnit=10&pageIndex=1&searchCnd=all&key=15&bordCd=5&nttSn=47759",
+      "published_at": "2026-07-20"
+    },
+    {
+      "category": "news",
+      "category_label": "뉴스 보도내용",
+      "competitor": "공정거래위원회",
+      "keyword": "담합",
+      "headline": "인쇄용지 담합 과징금 1942억 감면에 중소 인쇄업계 반발",
+      "summary": "공정위가 제지업계 대기업들의 가격 담합 과징금을 대폭 감면하기로 하자, 중소 인쇄업체들은 '반복적 담합 행위에 면죄부를 준 것'이라며 강하게 반발했습니다.",
+      "source_url": "https://www.khan.co.kr/article/202607201114001",
+      "published_at": "4시간 전"
+    },
+    {
+      "category": "news",
+      "category_label": "뉴스 보도내용",
+      "competitor": "공정거래위원회",
+      "keyword": "공정위",
+      "headline": "요가·필라테스 표준약관 첫 제정…휴폐업 14일 전 통지 의무화",
+      "summary": "요가·필라테스 학원의 계약 해지 시 환급 기준이 불명확해 분쟁이 잦자, 공정위가 휴폐업 14일 전 사전 통지를 의무화하는 표준약관을 처음 제정했습니다.",
+      "source_url": "https://www.news1.kr/amp/economy/trend/6232462",
+      "published_at": "4시간 전"
+    },
+    {
+      "category": "news",
+      "category_label": "뉴스 보도내용",
+      "competitor": "공정거래위원회",
+      "keyword": "현장조사",
+      "headline": "대보마그네틱, 하도급 계약서 늑장 발급으로 과징금 3200만원",
+      "summary": "2차전지 장비업체 대보마그네틱이 계약 서면을 늑장 발급한 사실이 적발돼 공정위로부터 시정명령과 과징금 3200만원을 부과받았습니다.",
+      "source_url": "https://www.yna.co.kr/amp/view/AKR20260720043600002",
+      "published_at": "1시간 전"
+    },
+    {
+      "category": "news",
+      "category_label": "뉴스 보도내용",
+      "competitor": "공정거래위원회",
+      "keyword": "담합",
+      "headline": "담합 신고 포상금 상한 폐지 검토…수천억원 지급 가능성",
+      "summary": "담합 신고 포상금의 상한을 없애는 방안이 논의되며, 증거 수준과 조사 기여도에 따라 신고자가 수천억원 규모의 포상금을 받을 가능성도 거론됩니다.",
+      "source_url": "https://www.sankyungtoday.com/news/articleView.html?idxno=62084",
+      "published_at": "6시간 전"
+    }
+  ],
+  "generated_at": "2026-07-20T07:06:03.000Z"
+}
