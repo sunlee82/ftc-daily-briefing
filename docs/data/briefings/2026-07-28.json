@@ -1,0 +1,61 @@
+{
+  "id": "2026-07-28",
+  "date": "2026-07-28",
+  "title": "국고채 담합 조단위 과징금 임박·이행강제금 제도 손질",
+  "summary": "공정위가 15개 증권사·은행의 국고채 입찰 담합에 조단위 과징금을 부과할 것으로 예상되는 가운데 재정당국 역할론이 대두되고, 대한항공 이행강제금 94% 감경과 쿠팡 과징금 상한선 논란을 계기로 금전적 제재 산정 방식을 전면 손질하기로 했습니다. 이 밖에 KT의 5G 속도 과장광고 판결 불복 상고, 네이버·두나무 합병 관련 국회 업무보고 주목, 라인건설 하도급 대금 지연 제재 등도 이어졌습니다.",
+  "competitors": ["공정거래위원회"],
+  "keywords": ["공정위", "과징금", "현장조사", "담합"],
+  "items": [
+    {
+      "category": "news",
+      "category_label": "뉴스 보도내용",
+      "competitor": "공정거래위원회",
+      "keyword": "과징금",
+      "headline": "KT, '5G 속도 과장광고' 판결 불복해 대법원 상고",
+      "summary": "KT가 5G 통신 서비스 속도를 과장 광고했다는 이유로 공정위로부터 제재받은 사건에서 패소한 고등법원 판결에 불복해 대법원에 상고했습니다.",
+      "source_url": "http://www.newswatch.kr/news/articleView.html?idxno=80551",
+      "published_at": "21시간 전"
+    },
+    {
+      "category": "news",
+      "category_label": "뉴스 보도내용",
+      "competitor": "공정거래위원회",
+      "keyword": "공정위",
+      "headline": "네이버·두나무 합병에 청신호?…오늘 공정위 국회 업무보고 주목",
+      "summary": "국회가 22대 후반기 원 구성을 마무리하고 공정위 업무보고를 받는 가운데, 네이버·두나무 합병 및 디지털자산(가상자산) 시장 관련 공정위 입장이 주목받고 있습니다.",
+      "source_url": "https://news.nate.com/view/20260728n03638?mid=n1101",
+      "published_at": "3시간 전"
+    },
+    {
+      "category": "news",
+      "category_label": "뉴스 보도내용",
+      "competitor": "공정거래위원회",
+      "keyword": "과징금",
+      "headline": "라인건설, 하도급 대금 늑장 지급·지연이자 12억원 미지급으로 공정위 제재",
+      "summary": "아파트 브랜드 '이지더원'을 보유한 종합건설업체 라인건설이 하도급 대금을 늦게 지급하고 지연이자 약 12억원을 지급하지 않은 사실이 적발돼 공정위 제재를 받았습니다.",
+      "source_url": "https://www.yna.co.kr/view/AKR20260727049000002?section=economy/all",
+      "published_at": "23시간 전"
+    },
+    {
+      "category": "news",
+      "category_label": "뉴스 보도내용",
+      "competitor": "공정거래위원회",
+      "keyword": "과징금",
+      "headline": "국고채 입찰 담합 조단위 과징금 임박…재경부 역할론 대두",
+      "summary": "15개 증권사·은행의 국고채 입찰 담합 혐의에 대한 공정위 제재 심의를 앞두고, 국가 채무 조달 시스템 안정성 우려와 함께 기획재정부의 역할론이 부상하고 있습니다.",
+      "source_url": "https://www.ebn.co.kr/news/articleView.html?idxno=1717896",
+      "published_at": "23시간 전"
+    },
+    {
+      "category": "news",
+      "category_label": "뉴스 보도내용",
+      "competitor": "공정거래위원회",
+      "keyword": "공정위",
+      "headline": "대한항공 94% 감경·쿠팡 상한선 논란에 공정위, 이행강제금 제도 전면 손질",
+      "summary": "공정위가 대한항공의 기업결합 이행강제금 94% 감경 특혜 논란과 쿠팡 과징금 상한선 한계 등 '솜방망이 제재' 지적을 계기로 금전적 제재 산정 방식을 전면 개편하기로 했습니다.",
+      "source_url": "https://m.ekn.kr/view.php?key=20260727024015970",
+      "published_at": "24시간 전"
+    }
+  ],
+  "generated_at": "2026-07-28T01:52:56.816Z"
+}
