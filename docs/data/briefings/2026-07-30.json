@@ -1,0 +1,73 @@
+{
+  "id": "2026-07-30",
+  "date": "2026-07-30",
+  "title": "공정위, 사익편취·과징금 부과체계 손질…밀가루 담합 조사기",
+  "summary": "공정위가 사익편취 규제대상 지분율 산정 방식과 신규 상장 의무지분율을 손질하고, 대기업일수록 과징금을 더 무겁게 매기도록 부과체계를 전면 개편하는 방안을 추진하고 있습니다. 지주회사 행위제한규정을 위반한 (주)시알홀딩스가 제재를 받았고, 역대 두번째로 큰 과징금이 부과된 밀가루 담합 사건의 조사 과정도 소개됐습니다. 이 밖에 공정거래 AI·데이터 활용공모전 시상식, 선불식 할부거래업자 등록 변경사항 정보공개 등도 있었습니다.",
+  "competitors": ["공정거래위원회"],
+  "keywords": ["공정위", "과징금", "현장조사", "담합"],
+  "items": [
+    {
+      "category": "press",
+      "category_label": "공정위 보도자료",
+      "headline": "(주)시알홀딩스의 지주회사 행위제한규정 위반 제재",
+      "summary": "담당부서: 기업집단관리과 (보도/참고자료)",
+      "source_url": "https://www.ftc.go.kr/www/selectBbsNttView.do?pageUnit=10&pageIndex=1&searchCnd=all&key=12&bordCd=3&searchCtgry=01,02&nttSn=47800",
+      "published_at": "2026-07-29"
+    },
+    {
+      "category": "press",
+      "category_label": "공정위 보도자료",
+      "headline": "‘26년 공정거래 AI·데이터 활용공모전’ 시상식 개최",
+      "summary": "담당부서: 정보화담당관 (보도/참고자료)",
+      "source_url": "https://www.ftc.go.kr/www/selectBbsNttView.do?pageUnit=10&pageIndex=1&searchCnd=all&key=12&bordCd=3&searchCtgry=01,02&nttSn=47799",
+      "published_at": "2026-07-29"
+    },
+    {
+      "category": "press",
+      "category_label": "공정위 보도자료",
+      "headline": "‘26년 2분기 선불식 할부거래업자 등록 변경사항 정보공개",
+      "summary": "담당부서: 특수거래정책과 (보도/참고자료)",
+      "source_url": "https://www.ftc.go.kr/www/selectBbsNttView.do?pageUnit=10&pageIndex=1&searchCnd=all&key=12&bordCd=3&searchCtgry=01,02&nttSn=47798",
+      "published_at": "2026-07-29"
+    },
+    {
+      "category": "committee",
+      "category_label": "위원회 소식",
+      "headline": "2026-07-30 위원회 소식",
+      "summary": "주요일정·인사발령 내용 없음",
+      "source_url": "https://www.ftc.go.kr/www/selectBbsNttView.do?pageUnit=10&pageIndex=1&searchCnd=all&key=15&bordCd=5&nttSn=47815",
+      "published_at": "2026-07-29"
+    },
+    {
+      "category": "news",
+      "category_label": "뉴스 보도내용",
+      "competitor": "공정거래위원회",
+      "keyword": "현장조사",
+      "headline": "공정위 밀가루 담합 조사기, '카톡·영수증·메모' 퍼즐 맞추기로 적발",
+      "summary": "지난 5월 역대 두번째로 큰 과징금이 부과된 밀가루 담합 사건의 전담조사팀장이 카카오톡 대화, 영수증, 메모 등 파편적 증거를 하나씩 맞춰가며 담합을 입증한 조사 과정을 소개했습니다.",
+      "source_url": "https://www.hani.co.kr/arti/economy/economy_general/1270553.html",
+      "published_at": "15시간 전"
+    },
+    {
+      "category": "news",
+      "category_label": "뉴스 보도내용",
+      "competitor": "공정거래위원회",
+      "keyword": "공정위",
+      "headline": "공정위, 사익편취·중복상장 규제 기준 손질…대기업 규율 강화",
+      "summary": "공정위가 사익편취 규제대상 지분율 산정 시 자사주를 제외하고 신규 상장 시 의무지분율을 50%로 높이는 등 일감몰아주기·우회지원에 대한 감시를 강화하고, 탈법행위에 대한 과징금도 신설하기로 했습니다.",
+      "source_url": "https://www.newspim.com/news/view/20260728000817",
+      "published_at": "1일 전"
+    },
+    {
+      "category": "news",
+      "category_label": "뉴스 보도내용",
+      "competitor": "공정거래위원회",
+      "keyword": "과징금",
+      "headline": "공정위, 대기업일수록 과징금 더 무겁게…부과체계 전면 개편 추진",
+      "summary": "공정위가 기업 규모가 클수록 과징금을 더 많이 부과할 수 있도록 과징금 부과 체계를 전면 개편하는 방안을 추진하고 있습니다.",
+      "source_url": "https://www.yna.co.kr/view/AKR20260728069400002",
+      "published_at": "1일 전"
+    }
+  ],
+  "generated_at": "2026-07-30T00:31:54.241Z"
+}
