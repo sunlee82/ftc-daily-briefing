@@ -1,0 +1,45 @@
+{
+  "id": "2026-07-31",
+  "date": "2026-07-31",
+  "title": "공정위, 9.7조원 바이오연료 입찰담합 제재 착수",
+  "summary": "공정위가 11년간 바이오디젤·바이오중유 입찰시장에서 담합을 주도한 7개 제조·판매업체에 대해 심의 절차를 개시했습니다. 담합 규모는 9조7000억원에 달하는 것으로 파악됩니다. 이 밖에 하도급대금을 부당하게 처리한 건룡건설이 제재를 받았고, 부위원장은 비상경제본부회의에 참석했습니다.",
+  "competitors": ["공정거래위원회"],
+  "keywords": ["공정위", "과징금", "현장조사", "담합"],
+  "items": [
+    {
+      "category": "press",
+      "category_label": "공정위 보도자료",
+      "headline": "바이오디젤 및 바이오중유 입찰담합 사건 심의 절차 개시",
+      "summary": "담당부서: 서비스카르텔조사과 (보도/참고자료)",
+      "source_url": "https://www.ftc.go.kr/www/selectBbsNttView.do?pageUnit=10&pageIndex=1&searchCnd=all&key=12&bordCd=3&searchCtgry=01,02&nttSn=47826",
+      "published_at": "2026-07-31"
+    },
+    {
+      "category": "press",
+      "category_label": "공정위 보도자료",
+      "headline": "㈜건룡건설의 불공정하도급거래행위 제재",
+      "summary": "담당부서: 하도급과 (보도/참고자료)",
+      "source_url": "https://www.ftc.go.kr/www/selectBbsNttView.do?pageUnit=10&pageIndex=1&searchCnd=all&key=12&bordCd=3&searchCtgry=01,02&nttSn=47825",
+      "published_at": "2026-07-31"
+    },
+    {
+      "category": "committee",
+      "category_label": "위원회 소식",
+      "headline": "2026-07-31 위원회 소식",
+      "summary": "##[주요일정]##\n· **부위원장**: 08:30 비상경제본부회의(세종청사)",
+      "source_url": "https://www.ftc.go.kr/www/selectBbsNttView.do?pageUnit=10&pageIndex=1&searchCnd=all&key=15&bordCd=5&nttSn=47823",
+      "published_at": "2026-07-30"
+    },
+    {
+      "category": "news",
+      "category_label": "뉴스 보도내용",
+      "competitor": "공정거래위원회",
+      "keyword": "공정위",
+      "headline": "공정위, 11년간 바이오연료 입찰 담합한 7개 업체 제재 착수",
+      "summary": "공정위가 11년간 바이오디젤·바이오중유 입찰 시장에서 담합을 주도한 7개 제조·판매업체를 적발해 제재 절차에 착수했습니다. 담합 규모는 9조7000억원에 달하는 것으로 파악됩니다.",
+      "source_url": "https://www.chosun.com/economy/economy_general/2026/07/30/IX4SEUATOVFBRNRFW2KPSODOKA/",
+      "published_at": "23시간 전"
+    }
+  ],
+  "generated_at": "2026-07-31T02:16:15.597Z"
+}
