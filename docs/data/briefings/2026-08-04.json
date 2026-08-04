@@ -1,0 +1,85 @@
+{
+  "id": "2026-08-04",
+  "date": "2026-08-04",
+  "title": "공정위 현장조사 역대 최대…돼지고기 납품가 담합 기소",
+  "summary": "공정위 현장조사가 올해 2분기 91건으로 역대 최대를 기록한 가운데, 대형마트 돼지고기 납품가를 6년간 담합한 유통업체 6곳과 임직원 12명이 기소됐습니다. 추석을 앞두고 하도급·가맹·대리점 분야 과징금도 최대 13억원까지 상향하는 등 제재를 강화하고 있으며, 가맹점주 협상력 강화를 위한 가맹사업법 시행령·고시 입법예고도 있었습니다. 위원장은 국무회의에 참석했습니다.",
+  "competitors": ["공정거래위원회"],
+  "keywords": ["공정위", "과징금", "현장조사", "담합"],
+  "items": [
+    {
+      "category": "press",
+      "category_label": "공정위 보도자료",
+      "headline": "가맹점주 협상력 강화 관련 가맹사업법 시행령 및 고시 입법·행정예고",
+      "summary": "담당부서: 가맹거래정책과 (보도/참고자료)",
+      "source_url": "https://www.ftc.go.kr/www/selectBbsNttView.do?pageUnit=10&pageIndex=1&searchCnd=all&key=12&bordCd=3&searchCtgry=01,02&nttSn=47838",
+      "published_at": "2026-08-03"
+    },
+    {
+      "category": "press",
+      "category_label": "공정위 보도자료",
+      "headline": "(주)별빛강물의 가맹사업법 위반행위 제재",
+      "summary": "담당부서: 가맹유통팀 (보도/참고자료)",
+      "source_url": "https://www.ftc.go.kr/www/selectBbsNttView.do?pageUnit=10&pageIndex=1&searchCnd=all&key=12&bordCd=3&searchCtgry=01,02&nttSn=47837",
+      "published_at": "2026-08-03"
+    },
+    {
+      "category": "committee",
+      "category_label": "위원회 소식",
+      "headline": "2026-08-04 위원회 소식",
+      "summary": "##[주요일정]##\n· **위원장**: 10:00 국무회의(청와대)",
+      "source_url": "https://www.ftc.go.kr/www/selectBbsNttView.do?pageUnit=10&pageIndex=1&searchCnd=all&key=15&bordCd=5&nttSn=47840",
+      "published_at": "2026-08-03"
+    },
+    {
+      "category": "news",
+      "category_label": "뉴스 보도내용",
+      "competitor": "공정거래위원회",
+      "keyword": "현장조사",
+      "headline": "대형마트 돼지고기 납품가 6년 담합…유통업체 6곳·임직원 12명 기소",
+      "summary": "서울동부지검이 2017~2021년 대형마트 납품 돼지고기 가격을 담합해 소비자 판매가를 최소 20% 이상 끌어올린 유통업체 6곳과 임직원 12명을 재판에 넘겼습니다.",
+      "source_url": "https://www.chosun.com/national/national_general/2026/08/04/KZ6W2UCAO5CJHOAZJIHPAPFLIU/",
+      "published_at": "5시간 전"
+    },
+    {
+      "category": "news",
+      "category_label": "뉴스 보도내용",
+      "competitor": "공정거래위원회",
+      "keyword": "현장조사",
+      "headline": "공정위 현장조사 1년 새 2.5배 급증…역대 최대 기록",
+      "summary": "올해 2분기 공정위 현장조사가 91건으로 역대 최대를 기록했습니다. 이재명 정부 출범 이후 3분기 연속 증가세가 이어지면서 기업과 로펌들이 초동 대응에 총력을 기울이고 있습니다.",
+      "source_url": "https://v.daum.net/v/20260803110207329",
+      "published_at": "1일 전"
+    },
+    {
+      "category": "news",
+      "category_label": "뉴스 보도내용",
+      "competitor": "공정거래위원회",
+      "keyword": "공정위",
+      "headline": "공정위, 추석 앞두고 하도급·가맹·대리점 과징금 최대 13억원까지 상향",
+      "summary": "공정위가 지난 4월 담합·사익편취 과징금 부과기준을 강화한 데 이어, 하도급·가맹·대리점 분야 과징금도 대폭 상향하는 조치를 추진합니다.",
+      "source_url": "https://www.infostockdaily.co.kr/news/articleView.html?idxno=217239",
+      "published_at": "6시간 전"
+    },
+    {
+      "category": "news",
+      "category_label": "뉴스 보도내용",
+      "competitor": "공정거래위원회",
+      "keyword": "현장조사",
+      "headline": "공정위, 건축자재업체 에이비엠 전격 현장조사…가족회사 담합 의혹 조준",
+      "summary": "공정위가 건축자재 전문업체 에이비엠(ABM)을 상대로 전격 현장조사에 나섰습니다. 업계에서는 김병철 회장의 가족회사를 둘러싼 담합·탈세 의혹을 조사 중인 것으로 보고 있습니다.",
+      "source_url": "https://www.kjtimes.com/news/article.html?no=79921",
+      "published_at": "9시간 전"
+    },
+    {
+      "category": "news",
+      "category_label": "뉴스 보도내용",
+      "competitor": "공정거래위원회",
+      "keyword": "공정위",
+      "headline": "공정위, 올해 수습 사무관 18명 배치…부총리 부처 제치고 몸집 키운다",
+      "summary": "올해 중앙부처 수습 사무관 배치 인원 상위 3곳에 공정위가 포함됐습니다(재정경제부 19명, 과기정통부 18명, 공정위 18명). '경제 검찰'로 불리는 공정위의 위상 강화를 보여준다는 평가입니다.",
+      "source_url": "https://biz.chosun.com/policy/policy_sub/2026/08/02/3AOGUF56GRGLHBPTY3ORII4SR4/",
+      "published_at": "2일 전"
+    }
+  ],
+  "generated_at": "2026-08-04T07:36:42.791Z"
+}
