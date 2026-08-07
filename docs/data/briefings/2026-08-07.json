@@ -1,0 +1,85 @@
+{
+  "id": "2026-08-07",
+  "date": "2026-08-07",
+  "title": "공정위, 국고채 담합 15조 과징금 임박…지방정부에 조사권 부여",
+  "summary": "4대 은행 LTV 담합 제재에 이어 국고채 입찰 담합 사건도 결론이 임박한 가운데, 과징금 규모가 최대 15조원에 달할 수 있다는 전망이 나옵니다. 공정위는 하도급·가맹·대리점(갑을 3법)과 표시광고법 조사·처분권을 16개 광역 지방자치단체에 부여하기로 했고, 공정거래법 시행령 개정안도 행정예고했습니다. 석유화학 7개사의 가격담합 의혹에 검찰 수사가 착수됐고, 세라젬은 하청업체 부당 자료 요구로 과징금을 부과받았습니다.",
+  "competitors": ["공정거래위원회"],
+  "keywords": ["공정위", "과징금", "현장조사", "담합"],
+  "items": [
+    {
+      "category": "press",
+      "category_label": "공정위 보도자료",
+      "headline": "3개 주요 통신사의 불공정약관 조항 시정",
+      "summary": "담당부서: 약관특수거래과 (보도/참고자료)",
+      "source_url": "https://www.ftc.go.kr/www/selectBbsNttView.do?pageUnit=10&pageIndex=1&searchCnd=all&key=12&bordCd=3&searchCtgry=01,02&nttSn=47863",
+      "published_at": "2026-08-06"
+    },
+    {
+      "category": "press",
+      "category_label": "공정위 보도자료",
+      "headline": "기업집단 지정자료 제출의무 위반 관련 고발지침 개정안 행정예고",
+      "summary": "담당부서: 기업집단결합정책과 (보도/참고자료)",
+      "source_url": "https://www.ftc.go.kr/www/selectBbsNttView.do?pageUnit=10&pageIndex=1&searchCnd=all&key=12&bordCd=3&searchCtgry=01,02&nttSn=47865",
+      "published_at": "2026-08-06"
+    },
+    {
+      "category": "committee",
+      "category_label": "위원회 소식",
+      "headline": "2026-08-07 위원회 소식",
+      "summary": "주요일정·인사발령 내용 없음",
+      "source_url": "https://www.ftc.go.kr/www/selectBbsNttView.do?pageUnit=10&pageIndex=1&searchCnd=all&key=15&bordCd=5&nttSn=47866",
+      "published_at": "2026-08-06"
+    },
+    {
+      "category": "news",
+      "category_label": "뉴스 보도내용",
+      "competitor": "공정거래위원회",
+      "keyword": "공정위",
+      "headline": "공정위, 4대 은행 이어 '국고채 담합' 결론…과징금 최대 15조원 전망",
+      "summary": "4대 시중은행 LTV(담보인정비율) 담합 제재를 마무리한 공정위가 이번엔 국고채 입찰 담합 사건 결론을 앞두고 있습니다. 과징금 규모가 최대 15조원에 달할 수 있다는 전망이 나옵니다.",
+      "source_url": "https://www.mt.co.kr/finance/2026/08/07/2026080619444130802",
+      "published_at": "9시간 전"
+    },
+    {
+      "category": "news",
+      "category_label": "뉴스 보도내용",
+      "competitor": "공정거래위원회",
+      "keyword": "공정위",
+      "headline": "공정위, 16개 광역 시도에 갑을3법·표시광고법 조사·처분권 부여",
+      "summary": "공정위가 하도급·가맹·대리점(갑을 3법)과 표시광고법 위반 사건에 대한 조사권·처분권을 16개 광역 지방자치단체에 부여하기로 했습니다.",
+      "source_url": "https://www.chosun.com/economy/economy_general/2026/08/04/PTWYLS5MKNFOLH3WCVYN3ZFBSI/",
+      "published_at": "1일 전"
+    },
+    {
+      "category": "news",
+      "category_label": "뉴스 보도내용",
+      "competitor": "공정거래위원회",
+      "keyword": "현장조사",
+      "headline": "LG·한화·롯데 등 석유화학 7개사, 8개 제품 가격담합 검찰 수사 착수",
+      "summary": "중동 정세로 유가 수급이 불안정해진 가운데, 국내 석유화학 업체 7곳이 8개 제품의 가격을 담합한 의혹으로 검찰 수사를 받고 있습니다.",
+      "source_url": "https://m.ceoscoredaily.com/page/view/2026080613250123215",
+      "published_at": "8시간 전"
+    },
+    {
+      "category": "news",
+      "category_label": "뉴스 보도내용",
+      "competitor": "공정거래위원회",
+      "keyword": "공정위",
+      "headline": "공정위, 공정거래법 시행령 개정안 행정예고…9월 1일까지",
+      "summary": "공정위가 공정거래법 시행령 개정안을 마련해 2026년 9월 1일까지 행정예고했습니다.",
+      "source_url": "https://www.lawtimes.co.kr/news/articleViewAmp.html?idxno=224468",
+      "published_at": "24시간 전"
+    },
+    {
+      "category": "news",
+      "category_label": "뉴스 보도내용",
+      "competitor": "공정거래위원회",
+      "keyword": "공정위",
+      "headline": "세라젬, 하청업체에 부당 자료 요구로 과징금 4.3억원",
+      "summary": "안마의자 제조업체 세라젬이 하청업체에 부당하게 자료를 요구한 사실이 적발돼 공정위로부터 과징금 4억3000만원을 부과받았습니다.",
+      "source_url": "https://www.ajunews.com/amp/20260806104513619",
+      "published_at": "1일 전"
+    }
+  ],
+  "generated_at": "2026-08-07T05:34:20.134Z"
+}
