@@ -1,0 +1,55 @@
+{
+  "id": "2026-08-27",
+  "date": "2026-08-27",
+  "title": "쿠팡 현장조사 불응 논란에 공정위 설명자료…과징금 고시 개정 시행",
+  "summary": "조선일보가 '쿠팡이 납품사에 쿠폰비를 떠넘기고 공정위 현장조사에 불응했다'고 보도하자 공정위가 설명자료를 냈습니다. 하도급·가맹·대리점 분야 과징금 고시 개정안이 8월 4일자로 시행됐고, 정보교환 담합 규제의 최근 동향과 공정위 첫 적용 사례를 다룬 법률 분석도 나왔습니다. 위원장·부위원장은 전원회의에 참석했고, 주하연 사무관이 표시광고감시팀 지원근무를 명받았습니다.",
+  "competitors": ["공정거래위원회"],
+  "keywords": ["공정위", "과징금", "현장조사", "담합"],
+  "items": [
+    {
+      "category": "press",
+      "category_label": "공정위 보도자료",
+      "headline": "듀오정보(주)의 부당한 광고행위 제재",
+      "summary": "담당부서: 소비자과 (보도/참고자료)",
+      "source_url": "https://www.ftc.go.kr/www/selectBbsNttView.do?pageUnit=10&pageIndex=1&searchCnd=all&key=12&bordCd=3&searchCtgry=01,02&nttSn=47930",
+      "published_at": "2026-08-26"
+    },
+    {
+      "category": "press",
+      "category_label": "공정위 보도자료",
+      "headline": "[설명] 조선일보(8.26.) \"납품사에 쿠폰비 떠넘긴 쿠팡, 공정위 현장조사에 불응했다\" 기사 관련",
+      "summary": "담당부서: 유통거래조사과 (설명자료)",
+      "source_url": "https://www.ftc.go.kr/www/selectBbsNttView.do?pageUnit=10&pageIndex=1&searchCnd=all&key=13&bordCd=3&searchCtgry=03&nttSn=47931",
+      "published_at": "2026-08-26"
+    },
+    {
+      "category": "committee",
+      "category_label": "위원회 소식",
+      "headline": "2026-08-27 위원회 소식",
+      "summary": "##[주요일정]##\n· **위원장**: 10:00 전원회의(심판정)\n· **부위원장**: 10:00 전원회의(심판정)\n\n##[인사발령]##\n· **주하연** 행정사무관 - 서울지방공정거래사무소 지원근무 해제, 시장감시국 표시광고감시팀 지원근무를 명함 (2026.8.27~별도 발령시까지)",
+      "source_url": "https://www.ftc.go.kr/www/selectBbsNttView.do?pageUnit=10&pageIndex=1&searchCnd=all&key=15&bordCd=5&nttSn=47936",
+      "published_at": "2026-08-26"
+    },
+    {
+      "category": "news",
+      "category_label": "뉴스 보도내용",
+      "competitor": "공정거래위원회",
+      "keyword": "과징금",
+      "headline": "공정위, 하도급·가맹·대리점 과징금 고시 개정안 8월 4일자 시행",
+      "summary": "공정위가 2026년 8월 4일자로 하도급법·가맹사업법·대리점법 위반사업자에 대한 과징금 고시 개정안을 시행했습니다.",
+      "source_url": "https://www.lawtimes.co.kr/news/articleViewAmp.html?idxno=225235",
+      "published_at": "2일 전"
+    },
+    {
+      "category": "news",
+      "category_label": "뉴스 보도내용",
+      "competitor": "공정거래위원회",
+      "keyword": "담합",
+      "headline": "정보교환 담합 규제 동향 분석…공정위 첫 적용 사례와 미국 알고리즘 담합 판결",
+      "summary": "법무법인 태평양과 미국 로펌 Steptoe LLP가 공동 작성한 뉴스레터로, 정보교환 담합 규제의 최근 동향을 공정위의 첫 적용 사례와 미국 알고리즘 가격담합 판결을 중심으로 분석했습니다.",
+      "source_url": "https://www.lawtimes.co.kr/news/articleViewAmp.html?idxno=225310",
+      "published_at": "2일 전"
+    }
+  ],
+  "generated_at": "2026-08-27T00:53:33.243Z"
+}
