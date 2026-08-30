@@ -1,0 +1,41 @@
+{
+  "id": "2026-08-31",
+  "date": "2026-08-31",
+  "title": "공정위, 유통 갑질 과징금 인상 추진…리니언시 문턱도 상향",
+  "summary": "공정위가 유통업체의 판촉비 전가 등 갑질 행위에 대한 과징금을 대폭 인상하는 방안을 추진하며, 최근 현장조사 불응 논란이 있었던 쿠팡을 겨냥했다는 관측도 나옵니다. 담합 자진신고 감면(리니언시) 제도도 조사 착수 전후 시점에 따라 감면 수준을 차등화하는 방향으로 개편됩니다. 경동나비엔은 협력업체 기술자료를 무단으로 유용해 경쟁사에 제공한 사실이 적발돼 과징금 5억원을 부과받았습니다.",
+  "competitors": ["공정거래위원회"],
+  "keywords": ["공정위", "과징금", "현장조사", "담합"],
+  "items": [
+    {
+      "category": "news",
+      "category_label": "뉴스 보도내용",
+      "competitor": "공정거래위원회",
+      "keyword": "과징금",
+      "headline": "경동나비엔, 협력업체 기술자료 무단 유용으로 과징금 5억원",
+      "summary": "가정용 난방기기 제조업체 경동나비엔이 부품 구매단가를 낮추기 위해 중소 협력업체의 기술자료를 무단으로 빼내 경쟁사에 제공한 사실이 적발돼 공정위로부터 과징금 5억원을 부과받았습니다.",
+      "source_url": "https://www.intn.co.kr/news/articleView.html?idxno=2052894",
+      "published_at": "21시간 전"
+    },
+    {
+      "category": "news",
+      "category_label": "뉴스 보도내용",
+      "competitor": "공정거래위원회",
+      "keyword": "공정위",
+      "headline": "공정위, 유통업체 갑질 과징금 대폭 인상 추진…쿠팡 겨냥 관측도",
+      "summary": "공정위가 유통업체의 판촉비 전가 등 '갑질' 행위에 대한 과징금을 대폭 높이는 방안을 추진합니다. 최근 쿠팡 현장조사 불응 논란과 맞물려 쿠팡을 겨냥한 조치라는 해석도 나옵니다.",
+      "source_url": "https://www.newsworker.co.kr/news/articleViewAmp.html?idxno=501458",
+      "published_at": "2일 전"
+    },
+    {
+      "category": "news",
+      "category_label": "뉴스 보도내용",
+      "competitor": "공정거래위원회",
+      "keyword": "담합",
+      "headline": "공정위, 자진신고 감면(리니언시) 문턱 상향…조사 착수 전후 차등화",
+      "summary": "공정위가 담합 자진신고 기업에 대한 과징금 감면 수준을 조사 착수 전후 신고 시점에 따라 차등화하는 방향으로 리니언시 제도를 개편합니다.",
+      "source_url": "http://www.newslock.co.kr/news/articleView.html?idxno=134887",
+      "published_at": "2일 전"
+    }
+  ],
+  "generated_at": "2026-08-30T23:42:08.748Z"
+}
