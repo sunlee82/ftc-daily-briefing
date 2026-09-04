@@ -1,10 +1,14 @@
-저장소 sunlee82/ftc-daily-briefing의 tool/pending/ 폴더를 GitHub 커넥터로 확인해줘.
+저장소 sunlee82/ftc-daily-briefing의 tool/pending/today.json을 GitHub 커넥터로 확인해줘.
+(파일명이 today.json으로 고정돼 있어 매일 같은 주소에서 그날 수집분을 덮어쓴다. 위원회
+소식 PDF는 tool/pending/today-pdfs/에 있다.)
 
-1. tool/pending/*.json 파일을 모두 찾아줘(보통 1개, 밀렸으면 여러 개).
-   없으면 아무것도 하지 말고 끝내줘.
+1. tool/pending/today.json이 없으면 아무것도 하지 말고 끝내줘.
+   있으면 파일 안의 id 값(YYYY-MM-DD, 수집 실행일)을 확인해줘.
 
-2. 각 파일에 대해 (파일명이 오래된 날짜부터 순서대로):
-   - items 배열이 비어 있으면 그 파일만 건너뛰고 삭제해줘.
+2. items 배열이 비어 있으면(실행 시점 기준 최근 24시간 내 새 게시물이 없었던 경우)
+   tool/pending/today.json만 삭제하고 끝내줘.
+
+3. items를 다음 기준으로 다듬어줘:
    - press 카테고리 항목은 그대로 사용해도 됨(이미 공식 제목).
    - committee 카테고리 항목은 pdfPath에 적힌 PDF를 저장소에서 열어서
      【주요일정】,【인사발령】 섹션 내용을 추출해줘. 규칙:
@@ -19,10 +23,13 @@
    - 같은 사건을 다루는 news 항목이 여러 개 겹치면(제목이나 내용이 사실상 동일)
      가장 정보가 많고 신뢰도 높은 출처 1개만 남기고 나머지는 제외해줘.
    - docs/data/briefings/ 폴더의 최근 14일치 파일들도 확인해서, 그 안에 이미
-     실린 사건과 사실상 같은 내용을 다루는 news 항목이 있으면(URL이 달라도)
+     실린 사건과 사실상 같은 내용을 다루는 news 항목이 있으면(URL이 달라도,
+     수집 단계에서는 URL만 보고 걸렀기 때문에 여기서 다시 내용 기준으로 확인)
      제외해줘.
+   - 이렇게 다 걸러내고 나서 남는 항목이 하나도 없으면, 새 브리핑을 만들지 말고
+     tool/pending/today.json과 tool/pending/today-pdfs/만 삭제하고 끝내줘.
 
-3. 파일의 id 값(YYYY-MM-DD)을 그대로 날짜로 써서:
+4. id 값을 날짜로 써서:
    - docs/data/briefings/<id>.json 이 이미 있으면: 기존 items에 새 항목을
      이어붙이고(중복 source_url 제외), title·summary를 전체 내용 기준으로
      새로 작성해줘.
@@ -32,10 +39,11 @@
    - docs/data/index.json의 카드도 같은 내용으로 추가하거나 갱신해줘
      (날짜 내림차순 정렬 유지).
 
-4. 처리 끝난 tool/pending/<id>.json과 tool/pending/<id>-pdfs/ 폴더는 삭제해줘.
+5. 처리 끝난 tool/pending/today.json과 tool/pending/today-pdfs/ 폴더는 삭제해줘.
 
-5. 변경사항을 "brief: <id> (Cowork 자동 배포)" 커밋 메시지로 main 브랜치에
+6. 변경사항을 "brief: <id> (Cowork 자동 배포)" 커밋 메시지로 main 브랜치에
    바로 commit+push해줘. 승인을 기다리지 말고 끝까지 진행해줘(이 작업은
    완전 자동으로 돌아가도록 설정한 것임).
 
-6. 마지막에 무엇을 배포했는지 1~2문장으로 요약해서 알려줘.
+7. 마지막에 무엇을 배포했는지(또는 새로 배포할 게 없었는지) 1~2문장으로
+   요약해서 알려줘.

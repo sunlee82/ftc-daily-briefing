@@ -4,13 +4,16 @@
 // │  ftc.go.kr 게시판 스크래핑(collectFtcBoard.js)과 serper.dev 뉴스검색   │
 // │  (collect.js)만 사용한다.                                              │
 // │                                                                        │
-// │  결과는 tool/pending/<날짜>.json (+ 위원회 소식 PDF)로 "저장소에       │
-// │  커밋되는" 위치에 남긴다. tool/.drafts·tool/.raw-pdfs와 달리 이 폴더는 │
-// │  .gitignore에서 제외되어 있어, 이후 Claude Cowork가 GitHub 커넥터로    │
-// │  저장소에서 직접 읽어 다듬고 배포할 수 있다.                           │
+// │  실행 시점 기준 최근 24시간 게시물만 수집한다. 이미 배포된 브리핑과    │
+// │  겹치는지는 여기서 따지지 않는다(그 판단은 이후 Cowork가 내용 기준으로 │
+// │  더 정확하게 함) — 매일 "오늘 원문"만 그대로 담는 게 목적이다.         │
 // │                                                                        │
-// │  이미 배포된 브리핑(docs/data/briefings/*.json, 최근 14일)과 겹치는    │
-// │  항목은 자동으로 제외한다(publishedUrls.js).                           │
+// │  결과는 tool/pending/today.json (+ 위원회 소식 PDF는                  │
+// │  tool/pending/today-pdfs/)에 "저장소에 커밋되는" 고정된 파일명으로     │
+// │  남긴다 — 다른 AI 툴이 매일 같은 주소(raw.githubusercontent.com/.../  │
+// │  tool/pending/today.json)로 접근할 수 있도록. 매 실행마다 통째로      │
+// │  덮어쓴다. tool/.drafts·tool/.raw-pdfs와 달리 이 폴더는 .gitignore에서 │
+// │  제외되어 있어 실제로 git에 커밋된다.                                  │
 // └─────────────────────────────────────────────────────────────────────┘
 "use strict";
 
@@ -33,18 +36,18 @@ const fs = require("fs");
 const { fetchPressReleases, fetchCommitteeNews } = require("./collectFtcBoard");
 const { collect, dedupeAndSort } = require("./collect");
 const { buildPressItems, buildRawNewsItems, buildRawCommitteeItems, buildRawOverview } = require("./summarize");
-const { loadPublishedUrls } = require("./publishedUrls");
 
 const MONITORED_AGENCY = "공정거래위원회";
 // 웹 도구 기본 필수 키워드와 동일 (tool/public/app.js의 DEFAULT_MANDATORY_KEYWORDS)
 const MANDATORY_KEYWORDS = ["공정위", "과징금", "현장조사", "담합"];
-// 평일마다 돌지만 주말을 건너뛰므로(금→월) 최대 3일 공백이 생길 수 있어 넉넉히 잡는다
-const WINDOW_HOURS = 96;
+// 실행 시점 기준 최근 24시간 게시물만 (주말 등으로 공백이 생겨도 이전 내용은 다시 담지 않음)
+const WINDOW_HOURS = 24;
 const MAX_PER_PAIR = 10;
 
 const ROOT = path.join(__dirname, "..", "..");
-const BRIEF_DIR = path.join(ROOT, "docs", "data", "briefings");
 const PENDING_DIR = path.join(ROOT, "tool", "pending");
+const PDF_DIR = path.join(PENDING_DIR, "today-pdfs");
+const OUT_PATH = path.join(PENDING_DIR, "today.json");
 
 // KST(UTC+9) 기준 YYYY-MM-DD — GitHub Actions 러너는 UTC로 돌기 때문에 명시적으로 변환한다
 function todayKST() {
@@ -57,7 +60,6 @@ function todayKST() {
 
 async function main() {
   const date = todayKST();
-  const excludeSet = loadPublishedUrls(BRIEF_DIR);
 
   const [pressRaw, committeeRaw, newsRawAll] = await Promise.all([
     fetchPressReleases(WINDOW_HOURS).catch((e) => ({ error: e.message, items: [] })),
@@ -67,20 +69,17 @@ async function main() {
     ),
   ]);
 
-  const press = (Array.isArray(pressRaw) ? pressRaw : pressRaw.items || []).filter(
-    (p) => !excludeSet.has(p.source_url)
-  );
-  const committee = (Array.isArray(committeeRaw) ? committeeRaw : committeeRaw.items || []).filter(
-    (c) => !excludeSet.has(c.source_url)
-  );
+  const press = Array.isArray(pressRaw) ? pressRaw : pressRaw.items || [];
+  const committee = Array.isArray(committeeRaw) ? committeeRaw : committeeRaw.items || [];
   const newsRawList = Array.isArray(newsRawAll) ? newsRawAll : newsRawAll.items || [];
-  const newsRaw = dedupeAndSort(newsRawList.filter((n) => !excludeSet.has(n.url)));
+  const newsRaw = dedupeAndSort(newsRawList);
 
+  // 매번 통째로 새로 씀 — 전날 위원회 소식 PDF가 남아있지 않도록 먼저 비운다
+  fs.rmSync(PDF_DIR, { recursive: true, force: true });
   fs.mkdirSync(PENDING_DIR, { recursive: true });
-  const pdfDir = path.join(PENDING_DIR, `${date}-pdfs`);
 
   const pressItems = buildPressItems(press);
-  const committeeItems = buildRawCommitteeItems(committee, pdfDir);
+  const committeeItems = buildRawCommitteeItems(committee, PDF_DIR);
   const newsItems = buildRawNewsItems(newsRaw);
   const items = [...pressItems, ...committeeItems, ...newsItems];
 
@@ -102,6 +101,7 @@ async function main() {
     generated_at: new Date().toISOString(),
     _meta: {
       sources: ["ftc.go.kr(보도자료)", "ftc.go.kr(위원회 소식)", "serper.dev/news"],
+      windowHours: WINDOW_HOURS,
       categoryCounts: { press: pressItems.length, committee: committeeItems.length, news: newsItems.length },
       collected: newsRawList.length,
       deduped: newsRaw.length,
@@ -109,9 +109,8 @@ async function main() {
     },
   };
 
-  const outPath = path.join(PENDING_DIR, `${date}.json`);
-  fs.writeFileSync(outPath, JSON.stringify(output, null, 2) + "\n");
-  console.log(`수집 완료: ${outPath} (press ${pressItems.length}, committee ${committeeItems.length}, news ${newsItems.length})`);
+  fs.writeFileSync(OUT_PATH, JSON.stringify(output, null, 2) + "\n");
+  console.log(`수집 완료: ${OUT_PATH} (press ${pressItems.length}, committee ${committeeItems.length}, news ${newsItems.length})`);
 }
 
 main().catch((err) => {
