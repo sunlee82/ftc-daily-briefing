@@ -1,7 +1,7 @@
 {
   "id": "2026-09-04",
   "date": "2026-09-04",
-  "title": "공정거래위원회 일일동향 (초안 — 33건, 제목 다듬기 필요)",
+  "title": "공정거래위원회 일일동향 (초안 — 35건, 제목 다듬기 필요)",
   "summary": "항목을 취사선택·순서조정한 뒤 저장하면 Claude Code가 제목/요약을 다듬어 배포합니다.",
   "competitors": [
     "공정거래위원회"
@@ -22,6 +22,22 @@
       "published_at": "2026-09-04"
     },
     {
+      "category": "press",
+      "category_label": "공정위 보도자료",
+      "headline": "2026년 공시대상기업집단 주식소유현황 분석·공개",
+      "summary": "담당부서: 기업집단정보분석팀 (보도/참고자료)",
+      "source_url": "https://www.ftc.go.kr/www/selectBbsNttView.do?pageUnit=10&pageIndex=1&searchCnd=all&key=12&bordCd=3&searchCtgry=01,02&nttSn=47964",
+      "published_at": "2026-09-03"
+    },
+    {
+      "category": "press",
+      "category_label": "공정위 보도자료",
+      "headline": "「소비자생활협동조합법」 하위법령 등 개정안 입법·행정예고",
+      "summary": "담당부서: 특수거래정책과 (보도/참고자료)",
+      "source_url": "https://www.ftc.go.kr/www/selectBbsNttView.do?pageUnit=10&pageIndex=1&searchCnd=all&key=12&bordCd=3&searchCtgry=01,02&nttSn=47963",
+      "published_at": "2026-09-03"
+    },
+    {
       "category": "committee",
       "category_label": "위원회 소식",
       "headline": "2026-09-04 위원회 소식",
@@ -38,7 +54,7 @@
       "headline": "[A 주간 서머리] 경제·산업계 \"정부, 내년도 예산안 820.9조원 편성...홈플러스 회생안 법원 인가\"",
       "summary": "아시아에이=이준호·김수빈·강민수·김호성·김충현·이채현 기자] 한 주간 경제·산업계는 바쁘게 돌아갔다. 정부가 내년도 예산안을 올해보다 93조원 늘어난 820조9.",
       "source_url": "https://www.asiaa.co.kr/news/articleView.html?idxno=261017",
-      "published_at": "28분 전"
+      "published_at": "37분 전"
     },
     {
       "category": "news",
@@ -65,16 +81,6 @@
       "category_label": "뉴스 보도내용",
       "competitor": "공정거래위원회",
       "keyword": "공정위",
-      "headline": "공정거래위원회-한국소비자법학회 공동 학술대회 개최",
-      "summary": "공정거래위원회-한국소비자법학회 등 6개 기관 공동 학술대회 개최 - '인공지능(AI) 시대의 소비자보호와 소비자법의 새로운 과제'를 주제로 진행-. < 행사 개요 >",
-      "source_url": "https://go.seoul.co.kr/news/prnewsView.php?id=445818",
-      "published_at": "2시간 전"
-    },
-    {
-      "category": "news",
-      "category_label": "뉴스 보도내용",
-      "competitor": "공정거래위원회",
-      "keyword": "공정위",
       "headline": "'친족회사 누락' 정몽규, 첫 재판서 혐의 부인…\"이름도 모르는 회사들\"",
       "summary": "친족이 운영하는 회사 20곳을 숨겨 공정거래위원회에 허위 자료를 제출한 혐의를 받는 정몽규 HDC 회장이 첫 재판에서 혐의를 부인했다. 4일 서울중앙지법 형사26단독...",
       "source_url": "https://www.moneys.co.kr/article/2026090415221175827",
@@ -84,20 +90,20 @@
       "category": "news",
       "category_label": "뉴스 보도내용",
       "competitor": "공정거래위원회",
-      "keyword": "현장조사",
-      "headline": "'친족 회사 숨겨 자료 제출' 정몽규 HDC 회장 \"회사 이름도 몰라\" [CEO와 법정]",
-      "summary": "친족 운영 회사 숨겨 허위 자료 제출한 혐의 정몽규 \"이름도 몰라…친족이 운영\" \"공정위, 잘못된 법리 해석\" 주장도. 독점규제 및 공정거래법 위반 혐의를 받는 정몽규...",
-      "source_url": "https://www.hankyung.com/article/202609044563i",
-      "published_at": "2시간 전"
+      "keyword": "공정위",
+      "headline": "[게시판] 공정위·한국소비자법학회 등 6개 기관 공동 학술대회",
+      "summary": "공정거래위원회는 4일 한양대 법학전문대학원에서 한국소비자법학회, 한국법제연구원 등 6개 기관과 '인공지능(AI) 시대의 소비자 보호와 소비자...",
+      "source_url": "https://www.yna.co.kr/view/AKR20260904036400002",
+      "published_at": "3시간 전"
     },
     {
       "category": "news",
       "category_label": "뉴스 보도내용",
       "competitor": "공정거래위원회",
       "keyword": "공정위",
-      "headline": "[게시판] 공정위·한국소비자법학회 등 6개 기관 공동 학술대회",
-      "summary": "공정거래위원회는 4일 한양대 법학전문대학원에서 한국소비자법학회, 한국법제연구원 등 6개 기관과 '인공지능(AI) 시대의 소비자 보호와 소비자...",
-      "source_url": "https://www.yna.co.kr/amp/view/AKR20260904036400002",
+      "headline": "공정거래위원회-한국소비자법학회 공동 학술대회 개최",
+      "summary": "공정거래위원회-한국소비자법학회 등 6개 기관 공동 학술대회 개최 - '인공지능(AI) 시대의 소비자보호와 소비자법의 새로운 과제'를 주제로 진행-. < 행사 개요 >",
+      "source_url": "https://go.seoul.co.kr/news/prnewsView.php?id=445818",
       "published_at": "3시간 전"
     },
     {
@@ -155,29 +161,19 @@
       "category_label": "뉴스 보도내용",
       "competitor": "공정거래위원회",
       "keyword": "과징금",
-      "headline": "삼양사 2103억 과징금 왜 0원?…전분당 담합 ‘리니언시’가 갈랐다",
-      "summary": "삼양사 2103억 과징금, 왜 0원이 됐을까? 전분당 담합 사건 핵심은 '리니언시' 무슨 일이 있었나 공정위는 대상, 삼양사, 사조씨피케이, CJ제일제당 등 4개사의 전분당...",
-      "source_url": "http://www.foodtoday.or.kr/news/article.html?no=207748",
-      "published_at": "3시간 전"
-    },
-    {
-      "category": "news",
-      "category_label": "뉴스 보도내용",
-      "competitor": "공정거래위원회",
-      "keyword": "과징금",
-      "headline": "[국감이 묻는다③] 4조가 6000억 됐다…ELS 과징금 감경 도마에",
-      "summary": "[편집자주] 올해 경제와 산업 분야에서 굵직한 사안이 이어졌다. 다음 달 국정감사에서 어떤 쟁점이 오르는지, 누가 증인석에 서게 되는지를 분야별로 짚는다.다음 달.",
-      "source_url": "https://www.jabon.co.kr/news/articleView.html?idxno=6646",
-      "published_at": "3시간 전"
-    },
-    {
-      "category": "news",
-      "category_label": "뉴스 보도내용",
-      "competitor": "공정거래위원회",
-      "keyword": "과징금",
       "headline": "가맹 창업 정보 늘어난다…‘깜깜이 계약’ 줄어드나",
       "summary": "가맹점 창업을 준비하는 예비 창업자들이 앞으로는 브랜드의 속사정까지 보다 쉽게 확인할 수 있게 된다. 사모펀드(PEF)가 최대주주인지 여부부터 가맹점 장기 생존율,...",
       "source_url": "http://www.nexteconomy.co.kr/news/articleViewAmp.html?idxno=25563",
+      "published_at": "3시간 전"
+    },
+    {
+      "category": "news",
+      "category_label": "뉴스 보도내용",
+      "competitor": "공정거래위원회",
+      "keyword": "현장조사",
+      "headline": "'친족 회사 숨겨 자료 제출' 정몽규 HDC 회장 \"회사 이름도 몰라\" [CEO와 법정]",
+      "summary": "친족 운영 회사 숨겨 허위 자료 제출한 혐의 정몽규 \"이름도 몰라…친족이 운영\" \"공정위, 잘못된 법리 해석\" 주장도. 독점규제 및 공정거래법 위반 혐의를 받는 정몽규...",
+      "source_url": "https://www.hankyung.com/article/202609044563i",
       "published_at": "3시간 전"
     },
     {
@@ -194,11 +190,31 @@
       "category": "news",
       "category_label": "뉴스 보도내용",
       "competitor": "공정거래위원회",
+      "keyword": "과징금",
+      "headline": "삼양사 2103억 과징금 왜 0원?…전분당 담합 ‘리니언시’가 갈랐다",
+      "summary": "삼양사 2103억 과징금, 왜 0원이 됐을까? 전분당 담합 사건 핵심은 '리니언시' 무슨 일이 있었나 공정위는 대상, 삼양사, 사조씨피케이, CJ제일제당 등 4개사의 전분당...",
+      "source_url": "http://www.foodtoday.or.kr/news/article.html?no=207748",
+      "published_at": "4시간 전"
+    },
+    {
+      "category": "news",
+      "category_label": "뉴스 보도내용",
+      "competitor": "공정거래위원회",
+      "keyword": "과징금",
+      "headline": "[국감이 묻는다③] 4조가 6000억 됐다…ELS 과징금 감경 도마에",
+      "summary": "[편집자주] 올해 경제와 산업 분야에서 굵직한 사안이 이어졌다. 다음 달 국정감사에서 어떤 쟁점이 오르는지, 누가 증인석에 서게 되는지를 분야별로 짚는다.다음 달.",
+      "source_url": "https://www.jabon.co.kr/news/articleView.html?idxno=6646",
+      "published_at": "4시간 전"
+    },
+    {
+      "category": "news",
+      "category_label": "뉴스 보도내용",
+      "competitor": "공정거래위원회",
       "keyword": "담합",
       "headline": "삼양사 2103억 과징금 왜 0원?…전분당 담합 ‘리니언시’가 갈랐다",
       "summary": "삼양사 2103억 과징금, 왜 0원이 됐을까? 전분당 담합 사건 핵심은 '리니언시' 무슨 일이 있었나 공정위는 대상, 삼양사, 사조씨피케이, CJ제일제당 등 4개사의 전분당...",
       "source_url": "https://www.foodtoday.or.kr/news/article.html?no=207748",
-      "published_at": "3시간 전"
+      "published_at": "4시간 전"
     },
     {
       "category": "news",
@@ -264,16 +280,6 @@
       "category": "news",
       "category_label": "뉴스 보도내용",
       "competitor": "공정거래위원회",
-      "keyword": "공정위",
-      "headline": "[단독] 공정위 간부, 대기업 현장조사서 직원 휴대전화 ‘제출 강요’ 논란…피해 직원 병원 치료·휴직",
-      "summary": "[필드뉴스 = 김면수·태기원 기자] 공정거래위원회 간부가 국내 대기업 현장조사 과정에서 피조사 기업 직원의 개인 휴대전화 제출을 강요했다는 주장이 제기돼 파문이...",
-      "source_url": "https://www.fieldnews.kr/news/articleView.html?idxno=31269",
-      "published_at": "8시간 전"
-    },
-    {
-      "category": "news",
-      "category_label": "뉴스 보도내용",
-      "competitor": "공정거래위원회",
       "keyword": "현장조사",
       "headline": "[단독] 공정위 간부, 대기업 현장조사서 직원 휴대전화 ‘제출 강요’ 논란…피해 직원 병원 치료·휴직",
       "summary": "[필드뉴스 = 김면수·태기원 기자] 공정거래위원회 간부가 국내 대기업 현장조사 과정에서 피조사 기업 직원의 개인 휴대전화 제출을 강요했다는 주장이 제기돼 파문이...",
@@ -284,21 +290,21 @@
       "category": "news",
       "category_label": "뉴스 보도내용",
       "competitor": "공정거래위원회",
-      "keyword": "현장조사",
-      "headline": "공정위 경제분석국 10월 출범…조사·연구 병행한다",
-      "summary": "공정거래위원회가 오는 10월 약 40명 규모의 경제분석국을 출범시키고 사건처리 지원과 함께 경쟁정책 연구 기능을 강화한다.4일 공정위에 따르면 경제분석국은 △산업...",
-      "source_url": "https://www.news1.kr/amp/economy/trend/6279751",
-      "published_at": "8시간 전"
+      "keyword": "공정위",
+      "headline": "[단독] 공정위 간부, 대기업 현장조사서 직원 휴대전화 ‘제출 강요’ 논란…피해 직원 병원 치료·휴직",
+      "summary": "[필드뉴스 = 김면수·태기원 기자] 공정거래위원회 간부가 국내 대기업 현장조사 과정에서 피조사 기업 직원의 개인 휴대전화 제출을 강요했다는 주장이 제기돼 파문이...",
+      "source_url": "https://www.fieldnews.kr/news/articleView.html?idxno=31269",
+      "published_at": "9시간 전"
     },
     {
       "category": "news",
       "category_label": "뉴스 보도내용",
       "competitor": "공정거래위원회",
-      "keyword": "과징금",
-      "headline": "중학생 불법도박 전문가들이 알려주는 핵심 노하우 - 전문가의 관점에서",
-      "summary": "NO.1: 79 mix. NO.2: Mix 토토. NO.3: Mixmix 도메인. NO.4: mix 먹튀. NO.5: mix-music. NO.6: mixmega. NO.7: mix토큰. NO.8: 믹스 토토사이트.",
-      "source_url": "https://www.histoire-pour-tous.fr/histoire-de-france/5066-les-monuments-aux-morts.html?ID=%ED%86%A0%ED%86%A0%20%EC%8A%A4%ED%8F%AC%EC%B8%A0%20%EB%9D%BC%EC%9D%B4%EB%B8%8C.html",
-      "published_at": "13시간 전"
+      "keyword": "현장조사",
+      "headline": "공정위 경제분석국 10월 출범…조사·연구 병행한다",
+      "summary": "공정거래위원회가 오는 10월 약 40명 규모의 경제분석국을 출범시키고 사건처리 지원과 함께 경쟁정책 연구 기능을 강화한다.4일 공정위에 따르면 경제분석국은 △산업...",
+      "source_url": "https://www.news1.kr/amp/economy/trend/6279751",
+      "published_at": "9시간 전"
     },
     {
       "category": "news",
@@ -315,10 +321,20 @@
       "category_label": "뉴스 보도내용",
       "competitor": "공정거래위원회",
       "keyword": "과징금",
+      "headline": "중학생 불법도박 전문가들이 알려주는 핵심 노하우 - 전문가의 관점에서",
+      "summary": "NO.1: 79 mix. NO.2: Mix 토토. NO.3: Mixmix 도메인. NO.4: mix 먹튀. NO.5: mix-music. NO.6: mixmega. NO.7: mix토큰. NO.8: 믹스 토토사이트.",
+      "source_url": "https://www.histoire-pour-tous.fr/histoire-de-france/5066-les-monuments-aux-morts.html?ID=%ED%86%A0%ED%86%A0%20%EC%8A%A4%ED%8F%AC%EC%B8%A0%20%EB%9D%BC%EC%9D%B4%EB%B8%8C.html",
+      "published_at": "14시간 전"
+    },
+    {
+      "category": "news",
+      "category_label": "뉴스 보도내용",
+      "competitor": "공정거래위원회",
+      "keyword": "과징금",
       "headline": "M&A로 몸집 불린 사조 장남…밀가루·전분당 담합에 부채 '눈덩이'",
       "summary": "[더팩트 | 손원태 기자] 사조그룹이 식품 소재로 사업을 확대해 대기업 집단에 올랐으나, 올해 공정거래위원회의 대대적인 담합 조사로 계열사들이 줄줄이 적발돼 수...",
       "source_url": "https://m.tf.co.kr/amp/economy/2361632.htm",
-      "published_at": "17시간 전"
+      "published_at": "18시간 전"
     },
     {
       "category": "news",
@@ -328,7 +344,7 @@
       "headline": "M&A로 몸집 불린 사조 장남…밀가루·전분당 담합에 부채 '눈덩이'",
       "summary": "자동요약 기사 제목과 주요 문장을 기반으로 자동요약한 결과입니다. 전체 맥락을 이해하기 위해서는 본문 보기를 권장합니다. 사조그룹이 식품 소재로 사업을 확대해...",
       "source_url": "https://v.daum.net/v/20260904000234807?f=p",
-      "published_at": "17시간 전"
+      "published_at": "18시간 전"
     },
     {
       "category": "news",
@@ -338,10 +354,10 @@
       "headline": "규제이슈에 흔들리는 쿠팡… ‘공정위 리스크’ 내년 흑자변수",
       "summary": "쿠팡의 실적 회복 변수로 '공정거래위원회(공정위) 리스크'가 떠올랐다. 개인정보 유출 사고 여파 등으로 올해 대규모 영업손실이 예상되는 상황에서, 공정위발 이슈...",
       "source_url": "https://www.asiatoday.co.kr/kn/view.php?key=20260904010001576",
-      "published_at": "23시간 전"
+      "published_at": "24시간 전"
     }
   ],
-  "generated_at": "2026-09-04T08:27:42.473Z",
+  "generated_at": "2026-09-04T08:37:15.891Z",
   "_meta": {
     "sources": [
       "ftc.go.kr(보도자료)",
@@ -349,11 +365,11 @@
       "serper.dev/news"
     ],
     "windowHours": {
-      "pressNews": 24,
-      "committee": 48
+      "board": 48,
+      "news": 24
     },
     "categoryCounts": {
-      "press": 1,
+      "press": 3,
       "committee": 1,
       "news": 31
     },
