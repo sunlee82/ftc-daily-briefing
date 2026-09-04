@@ -1,7 +1,7 @@
 {
   "id": "2026-09-04",
   "date": "2026-09-04",
-  "title": "공정거래위원회 일일동향 (초안 — 31건, 제목 다듬기 필요)",
+  "title": "공정거래위원회 일일동향 (초안 — 32건, 제목 다듬기 필요)",
   "summary": "항목을 취사선택·순서조정한 뒤 저장하면 Claude Code가 제목/요약을 다듬어 배포합니다.",
   "competitors": [
     "공정거래위원회"
@@ -21,7 +21,7 @@
       "headline": "[A 주간 서머리] 경제·산업계 \"정부, 내년도 예산안 820.9조원 편성...홈플러스 회생안 법원 인가\"",
       "summary": "아시아에이=이준호·김수빈·강민수·김호성·김충현·이채현 기자] 한 주간 경제·산업계는 바쁘게 돌아갔다. 정부가 내년도 예산안을 올해보다 93조원 늘어난 820조9.",
       "source_url": "https://www.asiaa.co.kr/news/articleView.html?idxno=261017",
-      "published_at": "13분 전"
+      "published_at": "23분 전"
     },
     {
       "category": "news",
@@ -31,7 +31,7 @@
       "headline": "쿠팡 '전방위 제재'에 학계 우려…\"규제 판단, 행위에서 효과로 옮겨야\"",
       "summary": "좋은 매대에 PB 상품 배치, 보편적 관행…행위만으로 제재\" \"사전지정제 추종 중단 필요…소비자 후생 감소 사후 실증 체계로 돌아가야\".",
       "source_url": "https://v.daum.net/v/20260904161948525",
-      "published_at": "53분 전"
+      "published_at": "1시간 전"
     },
     {
       "category": "news",
@@ -41,16 +41,6 @@
       "headline": "정몽규, '계열사 누락' 혐의 전면 부인...구멍가게도 아니고 \"이름을 모른다\"고?",
       "summary": "\"지배하는 회사가 아니며 회사 이름도 모른다.\" vs \"구멍가게도 아니고, 재계 35위 그룹인 만큼 담당 부서가 있을텐데 이름조차 모른다고?\"친족이 지배하는 회사.",
       "source_url": "https://www.livebiz.today/news/articleView.html?idxno=204653",
-      "published_at": "57분 전"
-    },
-    {
-      "category": "news",
-      "category_label": "뉴스 보도내용",
-      "competitor": "공정거래위원회",
-      "keyword": "공정위",
-      "headline": "'친족회사 누락' 정몽규, 첫 재판서 혐의 부인…\"이름도 모르는 회사들\"",
-      "summary": "친족이 운영하는 회사 20곳을 숨겨 공정거래위원회에 허위 자료를 제출한 혐의를 받는 정몽규 HDC 회장이 첫 재판에서 혐의를 부인했다. 4일 서울중앙지법 형사26단독...",
-      "source_url": "https://www.moneys.co.kr/article/2026090415221175827",
       "published_at": "1시간 전"
     },
     {
@@ -61,6 +51,16 @@
       "headline": "공정거래위원회-한국소비자법학회 공동 학술대회 개최",
       "summary": "공정거래위원회-한국소비자법학회 등 6개 기관 공동 학술대회 개최 - '인공지능(AI) 시대의 소비자보호와 소비자법의 새로운 과제'를 주제로 진행-. < 행사 개요 >",
       "source_url": "https://go.seoul.co.kr/news/prnewsView.php?id=445818",
+      "published_at": "2시간 전"
+    },
+    {
+      "category": "news",
+      "category_label": "뉴스 보도내용",
+      "competitor": "공정거래위원회",
+      "keyword": "공정위",
+      "headline": "'친족회사 누락' 정몽규, 첫 재판서 혐의 부인…\"이름도 모르는 회사들\"",
+      "summary": "친족이 운영하는 회사 20곳을 숨겨 공정거래위원회에 허위 자료를 제출한 혐의를 받는 정몽규 HDC 회장이 첫 재판에서 혐의를 부인했다. 4일 서울중앙지법 형사26단독...",
+      "source_url": "https://www.moneys.co.kr/article/2026090415221175827",
       "published_at": "2시간 전"
     },
     {
@@ -90,17 +90,7 @@
       "keyword": "공정위",
       "headline": "공정위·학계, AI 시대 소비자 보호 논의 “안전·거래 환경 조성 모색”",
       "summary": "생성형 AI와 AI 에이전트 확산 등 시장 변화에 대응하는 소비자 보호체계를 마련하기 위해 정부, 학계, 시민단체 관계자들이 머리를 맞댔다.공정거래위원회(위원장 주...",
-      "source_url": "https://www.intn.co.kr/news/articleView.html?idxno=2053058",
-      "published_at": "3시간 전"
-    },
-    {
-      "category": "news",
-      "category_label": "뉴스 보도내용",
-      "competitor": "공정거래위원회",
-      "keyword": "공정위",
-      "headline": "공정위 부위원장 \"'7차 소비자정책 기본계획', AI·디지털 전환 최우선\" - 머니투데이",
-      "summary": "남동일 공정거래위원회 부위원장이 4일 \"현재 수립 중인 '제7차 소비자정책 기본계획' 역시 AI(인공지능)와 디지털 전환이라는 정책적 환경 변화를 가장 우선에 두고...",
-      "source_url": "https://www.mt.co.kr/amp/economy/2026/09/04/2026090408311130243",
+      "source_url": "https://intn.co.kr/news/articleView.html?idxno=2053058",
       "published_at": "3시간 전"
     },
     {
@@ -137,6 +127,16 @@
       "category": "news",
       "category_label": "뉴스 보도내용",
       "competitor": "공정거래위원회",
+      "keyword": "공정위",
+      "headline": "공정위 부위원장 \"'7차 소비자정책 기본계획', AI·디지털 전환 최우선\" - 머니투데이",
+      "summary": "남동일 공정거래위원회 부위원장이 4일 \"현재 수립 중인 '제7차 소비자정책 기본계획' 역시 AI(인공지능)와 디지털 전환이라는 정책적 환경 변화를 가장 우선에 두고...",
+      "source_url": "https://www.mt.co.kr/index.php/amp/economy/2026/09/04/2026090408311130243",
+      "published_at": "3시간 전"
+    },
+    {
+      "category": "news",
+      "category_label": "뉴스 보도내용",
+      "competitor": "공정거래위원회",
       "keyword": "과징금",
       "headline": "삼양사 2103억 과징금 왜 0원?…전분당 담합 ‘리니언시’가 갈랐다",
       "summary": "삼양사 2103억 과징금, 왜 0원이 됐을까? 전분당 담합 사건 핵심은 '리니언시' 무슨 일이 있었나 공정위는 대상, 삼양사, 사조씨피케이, CJ제일제당 등 4개사의 전분당...",
@@ -151,6 +151,16 @@
       "headline": "[국감이 묻는다③] 4조가 6000억 됐다…ELS 과징금 감경 도마에",
       "summary": "[편집자주] 올해 경제와 산업 분야에서 굵직한 사안이 이어졌다. 다음 달 국정감사에서 어떤 쟁점이 오르는지, 누가 증인석에 서게 되는지를 분야별로 짚는다.다음 달.",
       "source_url": "https://www.jabon.co.kr/news/articleView.html?idxno=6646",
+      "published_at": "3시간 전"
+    },
+    {
+      "category": "news",
+      "category_label": "뉴스 보도내용",
+      "competitor": "공정거래위원회",
+      "keyword": "과징금",
+      "headline": "가맹 창업 정보 늘어난다…‘깜깜이 계약’ 줄어드나",
+      "summary": "가맹점 창업을 준비하는 예비 창업자들이 앞으로는 브랜드의 속사정까지 보다 쉽게 확인할 수 있게 된다. 사모펀드(PEF)가 최대주주인지 여부부터 가맹점 장기 생존율,...",
+      "source_url": "http://www.nexteconomy.co.kr/news/articleViewAmp.html?idxno=25563",
       "published_at": "3시간 전"
     },
     {
@@ -177,16 +187,6 @@
       "category": "news",
       "category_label": "뉴스 보도내용",
       "competitor": "공정거래위원회",
-      "keyword": "공정위",
-      "headline": "율촌, 김형배 전 공정위 상임위원 영입…공정거래 자문 강화",
-      "summary": "[주간한국 박하림 기자] 법무법인 율촌은 김형배 전 공정거래위원회 상임위원 및 한국공정거래조정원장을 고문으로 영입했다고 4일 밝혔다.",
-      "source_url": "https://weekly.hankooki.com/news/articleViewAmp.html?idxno=7182473",
-      "published_at": "5시간 전"
-    },
-    {
-      "category": "news",
-      "category_label": "뉴스 보도내용",
-      "competitor": "공정거래위원회",
       "keyword": "과징금",
       "headline": "대상 2341억원 vs 삼양사 0원…공정위 과징금 '극명'",
       "summary": "[문화투데이 황재연 기자] 공정거래위원회가 최근 의결한 전분·전분당 가격 담합 사건에서 참여 기업들의 제재 결과가 극명하게 갈렸다. 4일 업계에 따르면 대상은...",
@@ -197,11 +197,11 @@
       "category": "news",
       "category_label": "뉴스 보도내용",
       "competitor": "공정거래위원회",
-      "keyword": "과징금",
-      "headline": "한화오션, 하도급 분쟁서 잇단 승소…'대금 후려치기' 오명 벗었다",
-      "summary": "한눈에 보는 오늘 : 사회 - 뉴스 : 한화오션(옛 대우조선해양)이 공정거래위원회로부터 100억원대 하도급법 위반 과징금 처분을 받으며 시작된 법적 분쟁에서 잇달아...",
-      "source_url": "https://news.nate.com/view/20260904n13611",
-      "published_at": "5시간 전"
+      "keyword": "공정위",
+      "headline": "율촌, 김형배 전 공정위 상임위원 영입…공정거래 자문 강화",
+      "summary": "[주간한국 박하림 기자] 법무법인 율촌은 김형배 전 공정거래위원회 상임위원 및 한국공정거래조정원장을 고문으로 영입했다고 4일 밝혔다.",
+      "source_url": "https://weekly.hankooki.com/news/articleViewAmp.html?idxno=7182473",
+      "published_at": "6시간 전"
     },
     {
       "category": "news",
@@ -211,6 +211,16 @@
       "headline": "‘축구 실패’ 닮은 20년전 승부…가려진 HDC 내부문건 [공정위 심판정 톡톡]",
       "summary": "설탕과 밀가루 가격부터 금융·통신·유통까지 우리 일상 곳곳에는 기업 간 경쟁이 있다. 이 과정에서 벌어지는 담합과 불공정행위를 조사하고 심의·",
       "source_url": "https://www.kukinews.com/article/view/kuk202609030217",
+      "published_at": "6시간 전"
+    },
+    {
+      "category": "news",
+      "category_label": "뉴스 보도내용",
+      "competitor": "공정거래위원회",
+      "keyword": "과징금",
+      "headline": "한화오션, 하도급 분쟁서 잇단 승소…'대금 후려치기' 오명 벗었다",
+      "summary": "한눈에 보는 오늘 : 사회 - 뉴스 : 한화오션(옛 대우조선해양)이 공정거래위원회로부터 100억원대 하도급법 위반 과징금 처분을 받으며 시작된 법적 분쟁에서 잇달아...",
+      "source_url": "https://news.nate.com/view/20260904n13611",
       "published_at": "6시간 전"
     },
     {
@@ -237,20 +247,20 @@
       "category": "news",
       "category_label": "뉴스 보도내용",
       "competitor": "공정거래위원회",
-      "keyword": "현장조사",
+      "keyword": "공정위",
       "headline": "[단독] 공정위 간부, 대기업 현장조사서 직원 휴대전화 ‘제출 강요’ 논란…피해 직원 병원 치료·휴직",
       "summary": "[필드뉴스 = 김면수·태기원 기자] 공정거래위원회 간부가 국내 대기업 현장조사 과정에서 피조사 기업 직원의 개인 휴대전화 제출을 강요했다는 주장이 제기돼 파문이...",
-      "source_url": "http://www.fieldnews.kr/news/articleViewAmp.html?idxno=31269",
-      "published_at": "7시간 전"
+      "source_url": "https://www.fieldnews.kr/news/articleView.html?idxno=31269",
+      "published_at": "8시간 전"
     },
     {
       "category": "news",
       "category_label": "뉴스 보도내용",
       "competitor": "공정거래위원회",
-      "keyword": "공정위",
+      "keyword": "현장조사",
       "headline": "[단독] 공정위 간부, 대기업 현장조사서 직원 휴대전화 ‘제출 강요’ 논란…피해 직원 병원 치료·휴직",
       "summary": "[필드뉴스 = 김면수·태기원 기자] 공정거래위원회 간부가 국내 대기업 현장조사 과정에서 피조사 기업 직원의 개인 휴대전화 제출을 강요했다는 주장이 제기돼 파문이...",
-      "source_url": "https://www.fieldnews.kr/news/articleView.html?idxno=31269",
+      "source_url": "http://www.fieldnews.kr/news/articleViewAmp.html?idxno=31269",
       "published_at": "8시간 전"
     },
     {
@@ -307,7 +317,7 @@
       "category": "news",
       "category_label": "뉴스 보도내용",
       "competitor": "공정거래위원회",
-      "keyword": "과징금",
+      "keyword": "담합",
       "headline": "제지가격 도미노 인상 이젠 절대 안되지요",
       "summary": "한국인쇄협동조합연합회(회장 박장선)는 주요 제지사들이 공정거래위원회의 과징금 감면이후에도 공급가격 인상과 할인율 축소를 잇달아 통보한 것은 지난 5월 7일...",
       "source_url": "http://www.korpin.com/news/view.php?idx=16209",
@@ -324,21 +334,24 @@
       "published_at": "23시간 전"
     }
   ],
-  "generated_at": "2026-09-04T08:12:55.507Z",
+  "generated_at": "2026-09-04T08:23:23.550Z",
   "_meta": {
     "sources": [
       "ftc.go.kr(보도자료)",
       "ftc.go.kr(위원회 소식)",
       "serper.dev/news"
     ],
-    "windowHours": 24,
+    "windowHours": {
+      "pressNews": 24,
+      "committee": 48
+    },
     "categoryCounts": {
       "press": 0,
       "committee": 0,
-      "news": 31
+      "news": 32
     },
     "collected": 35,
-    "deduped": 31,
+    "deduped": 32,
     "errors": []
   }
 }
