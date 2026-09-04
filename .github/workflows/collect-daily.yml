@@ -22,6 +22,11 @@ jobs:
 
       - run: npm install
 
+      - name: (임시 디버그) 러너의 날짜·시각 인식 확인
+        run: |
+          echo "shell date -u: $(date -u)"
+          node -e 'console.log("Node Date.now ISO:", new Date().toISOString()); console.log("Intl Asia/Seoul:", new Intl.DateTimeFormat("en-CA",{timeZone:"Asia/Seoul"}).format(new Date()));'
+
       - name: 공정위 원문 수집 (Claude API 미사용, serper.dev 키만 필요)
         run: node tool/pipeline/collectForAutomation.js
         env:
