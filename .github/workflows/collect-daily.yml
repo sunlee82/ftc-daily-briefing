@@ -1,10 +1,9 @@
-name: 평일 아침 FTC 원문 자동 수집
+name: 매일 아침 FTC 원문 자동 수집
 
-# 매일 KST 09:00(UTC 00:00, 같은 날짜)에 평일(월~금, KST 기준)만 실행.
-# UTC 00:00 + 9시간 = KST 09:00(날짜가 안 바뀌므로 cron 요일도 그대로 월~금).
+# 매일(주말 포함) KST 09:00(UTC 00:00, 같은 날짜)에 실행.
 on:
   schedule:
-    - cron: "0 0 * * 1-5"
+    - cron: "0 0 * * *"
   workflow_dispatch: {}
 
 permissions:
