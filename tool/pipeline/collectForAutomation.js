@@ -4,9 +4,10 @@
 // │  ftc.go.kr 게시판 스크래핑(collectFtcBoard.js)과 serper.dev 뉴스검색   │
 // │  (collect.js)만 사용한다.                                              │
 // │                                                                        │
-// │  실행 시점 기준 최근 24시간 게시물만 수집한다. 이미 배포된 브리핑과    │
+// │  ftc.go.kr 게시판(보도자료·위원회 소식)은 등록일 기준 최근 48시간,     │
+// │  뉴스 검색은 24시간 내 게시물만 수집한다. 이미 배포된 브리핑과         │
 // │  겹치는지는 여기서 따지지 않는다(그 판단은 이후 Cowork가 내용 기준으로 │
-// │  더 정확하게 함) — 매일 "오늘 원문"만 그대로 담는 게 목적이다.         │
+// │  더 정확하게 함) — 매일 "최신 원문"을 그대로 담는 게 목적이다.         │
 // │                                                                        │
 // │  결과는 tool/pending/today.json (+ 위원회 소식 PDF는                  │
 // │  tool/pending/today-pdfs/)에 "저장소에 커밋되는" 고정된 파일명으로     │
@@ -40,13 +41,14 @@ const { buildPressItems, buildRawNewsItems, buildRawCommitteeItems, buildRawOver
 const MONITORED_AGENCY = "공정거래위원회";
 // 웹 도구 기본 필수 키워드와 동일 (tool/public/app.js의 DEFAULT_MANDATORY_KEYWORDS)
 const MANDATORY_KEYWORDS = ["공정위", "과징금", "현장조사", "담합"];
-// 보도자료·뉴스는 실행 시점 기준 "오늘"만 (collectFtcBoard.js의 recentDateSet은
-// 시각이 아니라 날짜 단위로 비교 — windowHours=24 → 오늘 날짜만 포함)
-const WINDOW_HOURS_PRESS_NEWS = 24;
-// 위원회 소식은 게시판 등록일이 실제 내용 날짜보다 하루 늦게 찍히는 경향이 있어
-// (예: "9월 4일자 위원회소식"이 게시판엔 "9월 3일" 게시물로 올라옴) 오늘 아침 실행
-// 시점 기준 어제까지 포함해야 놓치지 않는다.
-const WINDOW_HOURS_COMMITTEE = 48;
+// ftc.go.kr 게시판(보도자료·위원회 소식)은 collectFtcBoard.js의 recentDateSet이
+// 시각이 아니라 "등록일" 날짜 단위로 비교한다. 아침 9시에 실행하면 어제 오후·저녁에
+// 등록된 게시물도 실제로는 24시간 이내인데 날짜가 하루 다르다는 이유로 빠질 수 있어
+// (실제로 보도자료·위원회 소식 둘 다 이 문제가 확인됨) 오늘+어제(48시간)로 넉넉히 본다.
+const WINDOW_HOURS_BOARD = 48;
+// 뉴스 검색(serper.dev)은 날짜 문자열 비교가 아니라 검색 API 자체의 최신순 결과라
+// 이 문제가 없어 그대로 24시간 유지.
+const WINDOW_HOURS_NEWS = 24;
 const MAX_PER_PAIR = 10;
 
 const ROOT = path.join(__dirname, "..", "..");
@@ -67,10 +69,10 @@ async function main() {
   const date = todayKST();
 
   const [pressRaw, committeeRaw, newsRawAll] = await Promise.all([
-    fetchPressReleases(WINDOW_HOURS_PRESS_NEWS).catch((e) => ({ error: e.message, items: [] })),
-    fetchCommitteeNews(WINDOW_HOURS_COMMITTEE).catch((e) => ({ error: e.message, items: [] })),
+    fetchPressReleases(WINDOW_HOURS_BOARD).catch((e) => ({ error: e.message, items: [] })),
+    fetchCommitteeNews(WINDOW_HOURS_BOARD).catch((e) => ({ error: e.message, items: [] })),
     collect([MONITORED_AGENCY], MANDATORY_KEYWORDS, {
-      windowHours: WINDOW_HOURS_PRESS_NEWS,
+      windowHours: WINDOW_HOURS_NEWS,
       maxPerPair: MAX_PER_PAIR,
     }).catch((e) => ({ error: e.message, items: [] })),
   ]);
@@ -107,7 +109,7 @@ async function main() {
     generated_at: new Date().toISOString(),
     _meta: {
       sources: ["ftc.go.kr(보도자료)", "ftc.go.kr(위원회 소식)", "serper.dev/news"],
-      windowHours: { pressNews: WINDOW_HOURS_PRESS_NEWS, committee: WINDOW_HOURS_COMMITTEE },
+      windowHours: { board: WINDOW_HOURS_BOARD, news: WINDOW_HOURS_NEWS },
       categoryCounts: { press: pressItems.length, committee: committeeItems.length, news: newsItems.length },
       collected: newsRawList.length,
       deduped: newsRaw.length,
