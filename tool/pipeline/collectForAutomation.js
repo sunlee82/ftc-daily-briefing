@@ -40,8 +40,13 @@ const { buildPressItems, buildRawNewsItems, buildRawCommitteeItems, buildRawOver
 const MONITORED_AGENCY = "공정거래위원회";
 // 웹 도구 기본 필수 키워드와 동일 (tool/public/app.js의 DEFAULT_MANDATORY_KEYWORDS)
 const MANDATORY_KEYWORDS = ["공정위", "과징금", "현장조사", "담합"];
-// 실행 시점 기준 최근 24시간 게시물만 (주말 등으로 공백이 생겨도 이전 내용은 다시 담지 않음)
-const WINDOW_HOURS = 24;
+// 보도자료·뉴스는 실행 시점 기준 "오늘"만 (collectFtcBoard.js의 recentDateSet은
+// 시각이 아니라 날짜 단위로 비교 — windowHours=24 → 오늘 날짜만 포함)
+const WINDOW_HOURS_PRESS_NEWS = 24;
+// 위원회 소식은 게시판 등록일이 실제 내용 날짜보다 하루 늦게 찍히는 경향이 있어
+// (예: "9월 4일자 위원회소식"이 게시판엔 "9월 3일" 게시물로 올라옴) 오늘 아침 실행
+// 시점 기준 어제까지 포함해야 놓치지 않는다.
+const WINDOW_HOURS_COMMITTEE = 48;
 const MAX_PER_PAIR = 10;
 
 const ROOT = path.join(__dirname, "..", "..");
@@ -62,11 +67,12 @@ async function main() {
   const date = todayKST();
 
   const [pressRaw, committeeRaw, newsRawAll] = await Promise.all([
-    fetchPressReleases(WINDOW_HOURS).catch((e) => ({ error: e.message, items: [] })),
-    fetchCommitteeNews(WINDOW_HOURS).catch((e) => ({ error: e.message, items: [] })),
-    collect([MONITORED_AGENCY], MANDATORY_KEYWORDS, { windowHours: WINDOW_HOURS, maxPerPair: MAX_PER_PAIR }).catch(
-      (e) => ({ error: e.message, items: [] })
-    ),
+    fetchPressReleases(WINDOW_HOURS_PRESS_NEWS).catch((e) => ({ error: e.message, items: [] })),
+    fetchCommitteeNews(WINDOW_HOURS_COMMITTEE).catch((e) => ({ error: e.message, items: [] })),
+    collect([MONITORED_AGENCY], MANDATORY_KEYWORDS, {
+      windowHours: WINDOW_HOURS_PRESS_NEWS,
+      maxPerPair: MAX_PER_PAIR,
+    }).catch((e) => ({ error: e.message, items: [] })),
   ]);
 
   const press = Array.isArray(pressRaw) ? pressRaw : pressRaw.items || [];
@@ -101,7 +107,7 @@ async function main() {
     generated_at: new Date().toISOString(),
     _meta: {
       sources: ["ftc.go.kr(보도자료)", "ftc.go.kr(위원회 소식)", "serper.dev/news"],
-      windowHours: WINDOW_HOURS,
+      windowHours: { pressNews: WINDOW_HOURS_PRESS_NEWS, committee: WINDOW_HOURS_COMMITTEE },
       categoryCounts: { press: pressItems.length, committee: committeeItems.length, news: newsItems.length },
       collected: newsRawList.length,
       deduped: newsRaw.length,
