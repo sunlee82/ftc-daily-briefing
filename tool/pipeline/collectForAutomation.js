@@ -87,7 +87,7 @@ async function main() {
   fs.mkdirSync(PENDING_DIR, { recursive: true });
 
   const pressItems = buildPressItems(press);
-  const committeeItems = buildRawCommitteeItems(committee, PDF_DIR);
+  const committeeItems = await buildRawCommitteeItems(committee, PDF_DIR);
   const newsItems = buildRawNewsItems(newsRaw);
   const items = [...pressItems, ...committeeItems, ...newsItems];
 
