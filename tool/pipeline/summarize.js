@@ -2,9 +2,12 @@
 // │  항목 구성 단계 — Claude API를 전혀 사용하지 않는다.                   │
 // │  카테고리별 전략:                                                     │
 // │   - 공정위 보도자료(press): 공식 제목을 그대로 사용                    │
-// │   - 위원회 소식(committee): PDF를 파일로 저장(pdfPath)하고, pdf-parse  │
+// │   - 위원회 소식(committee): PDF를 파일로 저장(pdfPath)하고, pdfjs-dist │
 // │     로 텍스트만 그대로 뽑아 pdfText에 담는다(요약·구조화는 안 함) —    │
-// │     PDF를 직접 열 수 없는 AI 툴도 pdfText만 읽으면 원문을 볼 수 있다   │
+// │     PDF를 직접 열 수 없는 AI 툴도 pdfText만 읽으면 원문을 볼 수 있다.  │
+// │     (pdf-parse 패키지는 텍스트 추출에 안 쓰는 캔버스 렌더링용 네이티브 │
+// │     의존성(@napi-rs/canvas)까지 끌고 와 CI에서 설치가 오래 걸려서,     │
+// │     pdf-parse가 내부적으로 쓰는 pdfjs-dist를 직접 사용한다.)           │
 // │   - 뉴스 보도내용(news): 검색 결과 제목·스니펫을 그대로 사용            │
 // │  화면에서는 사용자가 원문을 보고 취사선택·순서조정만 하면 되고,        │
 // │  제목/요약 다듬기·[주요일정]/[인사발령] 구조화·최종 배포(git push)는   │
@@ -14,7 +17,7 @@
 
 const path = require("path");
 const fs = require("fs");
-const { PDFParse } = require("pdf-parse");
+const pdfjsLib = require("pdfjs-dist/legacy/build/pdf.mjs");
 
 const CATEGORY_LABELS = {
   press: "공정위 보도자료",
@@ -60,18 +63,40 @@ function buildRawNewsItems(rawItems) {
 // 나중에 Claude Code가 Read 도구로 직접 열어 요약할 수 있다.
 const PDF_DIR = path.join(__dirname, "..", ".raw-pdfs");
 
-// pdf-parse가 뽑아낸 텍스트는 글자 사이에 탭 문자가 잔뜩 끼어 나온다(PDF 내부 글자
-// 배치 방식 때문). 줄 단위로 탭·중복 공백을 정리하고, 페이지 구분자("-- 1 of 2 --")는 뺀다.
-function cleanPdfText(raw) {
+// pdfjs-dist가 뽑아내는 텍스트는 글자 조각(item) 단위라 줄바꿈이 없고 띄어쓰기가
+// 뭉개진다. 같은 줄(Y좌표가 비슷한) item은 공백으로, 줄이 바뀌면 개행으로 이어붙인 뒤
+// 괄호·쉼표 주변 군더더기 공백을 정리한다.
+async function extractPdfText(buf) {
+  const doc = await pdfjsLib.getDocument({ data: new Uint8Array(buf) }).promise;
+  let raw = "";
+  for (let i = 1; i <= doc.numPages; i++) {
+    const page = await doc.getPage(i);
+    const content = await page.getTextContent();
+    let lastY = null;
+    for (const item of content.items) {
+      const y = item.transform[5];
+      if (lastY !== null && Math.abs(y - lastY) > 2) raw += "\n";
+      else if (raw && !raw.endsWith("\n")) raw += " ";
+      raw += item.str;
+      lastY = y;
+    }
+    raw += "\n";
+  }
   return raw
     .split("\n")
-    .map((line) => line.replace(/\t+/g, " ").replace(/ {2,}/g, " ").trim())
-    .filter((line) => line && !/^-- \d+ of \d+ --$/.test(line))
+    .map((line) =>
+      line
+        .replace(/[ \t]{2,}/g, " ")
+        .replace(/([([{【]) /g, "$1")
+        .replace(/ ([)\]}】,.:])/g, "$1")
+        .trim()
+    )
+    .filter(Boolean)
     .join("\n");
 }
 
 /**
- * 위원회 소식 PDF를 파일로 저장(pdfPath)하고, pdf-parse로 텍스트만 그대로 뽑아
+ * 위원회 소식 PDF를 파일로 저장(pdfPath)하고, pdfjs-dist로 텍스트만 그대로 뽑아
  * pdfText에 담는다(요약이나 [주요일정]/[인사발령] 구조화는 하지 않음 — 원문 텍스트
  * 그대로). PDF를 직접 열 수 없는 AI 툴도 pdfText만 읽으면 원문을 확인할 수 있다.
  * 실제 [주요일정]/[인사발령] 구조화·정리는 이후 Claude Code가 수행한다. pdfPath·
@@ -94,9 +119,7 @@ async function buildRawCommitteeItems(rawItems, pdfDir = PDF_DIR) {
         pdfPath = path.join(pdfDir, `${r.published_at}_${safeName}.pdf`);
         fs.writeFileSync(pdfPath, buf);
         try {
-          const parser = new PDFParse({ data: buf });
-          const result = await parser.getText();
-          pdfText = cleanPdfText(result.text);
+          pdfText = await extractPdfText(buf);
         } catch (err) {
           console.warn(`[summarize] PDF 텍스트 추출 실패 (${r.headline}): ${err.message}`);
         }
