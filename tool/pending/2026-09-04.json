@@ -1,0 +1,401 @@
+{
+  "id": "2026-09-04",
+  "date": "2026-09-04",
+  "title": "공정거래위원회 일일동향 (초안 — 38건, 제목 다듬기 필요)",
+  "summary": "항목을 취사선택·순서조정한 뒤 저장하면 Claude Code가 제목/요약을 다듬어 배포합니다.",
+  "competitors": [
+    "공정거래위원회"
+  ],
+  "keywords": [
+    "공정위",
+    "과징금",
+    "현장조사",
+    "담합"
+  ],
+  "items": [
+    {
+      "category": "press",
+      "category_label": "공정위 보도자료",
+      "headline": "공정거래위원회-한국소비자법학회 공동 학술대회 개최",
+      "summary": "담당부서: 소비자안전교육과 (보도/참고자료)",
+      "source_url": "https://www.ftc.go.kr/www/selectBbsNttView.do?pageUnit=10&pageIndex=1&searchCnd=all&key=12&bordCd=3&searchCtgry=01,02&nttSn=47973",
+      "published_at": "2026-09-04"
+    },
+    {
+      "category": "press",
+      "category_label": "공정위 보도자료",
+      "headline": "소비자기본법 시행령 개정안 국무회의 통과",
+      "summary": "담당부서: 소비자정책총괄과 (보도/참고자료)",
+      "source_url": "https://www.ftc.go.kr/www/selectBbsNttView.do?pageUnit=10&pageIndex=1&searchCnd=all&key=12&bordCd=3&searchCtgry=01,02&nttSn=47958",
+      "published_at": "2026-09-02"
+    },
+    {
+      "category": "press",
+      "category_label": "공정위 보도자료",
+      "headline": "표시·광고 내용의 실증에 관한 운영 고시 개정·시행",
+      "summary": "담당부서: 소비자정책총괄과 (보도/참고자료)",
+      "source_url": "https://www.ftc.go.kr/www/selectBbsNttView.do?pageUnit=10&pageIndex=1&searchCnd=all&key=12&bordCd=3&searchCtgry=01,02&nttSn=47957",
+      "published_at": "2026-09-02"
+    },
+    {
+      "category": "press",
+      "category_label": "공정위 보도자료",
+      "headline": "한국공정거래조정원, 'K-공정거래' 노하우 아세안 3개국에 첫 전수",
+      "summary": "담당부서: 국제협력과 (보도/참고자료)",
+      "source_url": "https://www.ftc.go.kr/www/selectBbsNttView.do?pageUnit=10&pageIndex=1&searchCnd=all&key=12&bordCd=3&searchCtgry=01,02&nttSn=47951",
+      "published_at": "2026-09-01"
+    },
+    {
+      "category": "press",
+      "category_label": "공정위 보도자료",
+      "headline": "한국공정거래조정원, 상생협력 우수 가맹본부 3개사 선정",
+      "summary": "담당부서: 가맹거래정책과 (보도/참고자료)",
+      "source_url": "https://www.ftc.go.kr/www/selectBbsNttView.do?pageUnit=10&pageIndex=1&searchCnd=all&key=12&bordCd=3&searchCtgry=01,02&nttSn=47950",
+      "published_at": "2026-09-01"
+    },
+    {
+      "category": "committee",
+      "category_label": "위원회 소식",
+      "headline": "2026-09-03 위원회 소식",
+      "summary": "(PDF 원문 확인 필요 — 배포 전 Claude Code가 요약)",
+      "source_url": "https://www.ftc.go.kr/www/selectBbsNttView.do?pageUnit=10&pageIndex=1&searchCnd=all&key=15&bordCd=5&nttSn=47962",
+      "published_at": "2026-09-02",
+      "pdfPath": "tool/pending/2026-09-04-pdfs/2026-09-02_2026-09-03_위원회_소식.pdf"
+    },
+    {
+      "category": "committee",
+      "category_label": "위원회 소식",
+      "headline": "2026-09-02 위원회 소식",
+      "summary": "(PDF 원문 확인 필요 — 배포 전 Claude Code가 요약)",
+      "source_url": "https://www.ftc.go.kr/www/selectBbsNttView.do?pageUnit=10&pageIndex=1&searchCnd=all&key=15&bordCd=5&nttSn=47956",
+      "published_at": "2026-09-01",
+      "pdfPath": "tool/pending/2026-09-04-pdfs/2026-09-01_2026-09-02_위원회_소식.pdf"
+    },
+    {
+      "category": "news",
+      "category_label": "뉴스 보도내용",
+      "competitor": "공정거래위원회",
+      "keyword": "공정위",
+      "headline": "공정거래위원회-한국소비자법학회 공동 학술대회 개최",
+      "summary": "공정거래위원회-한국소비자법학회 등 6개 기관 공동 학술대회 개최 - '인공지능(AI) 시대의 소비자보호와 소비자법의 새로운 과제'를 주제로 진행-. < 행사 개요 >",
+      "source_url": "https://go.seoul.co.kr/news/prnewsView.php?id=445818",
+      "published_at": "1시간 전"
+    },
+    {
+      "category": "news",
+      "category_label": "뉴스 보도내용",
+      "competitor": "공정거래위원회",
+      "keyword": "공정위",
+      "headline": "[게시판] 공정위·한국소비자법학회 등 6개 기관 공동 학술대회",
+      "summary": "공정거래위원회는 4일 한양대 법학전문대학원에서 한국소비자법학회, 한국법제연구원 등 6개 기관과 '인공지능(AI) 시대의 소비자 보호와 소비자...",
+      "source_url": "https://www.yna.co.kr/amp/view/AKR20260904036400002",
+      "published_at": "2시간 전"
+    },
+    {
+      "category": "news",
+      "category_label": "뉴스 보도내용",
+      "competitor": "공정거래위원회",
+      "keyword": "담합",
+      "headline": "밀가루값 담합했다가 5% 내리면 충분?…주병기 \"10% 이상 해야\"",
+      "summary": "(세종=연합뉴스) 이세원 기자 = 주병기 공정거래위원회 위원장은 최근 담합 혐의가 불거진 밀가루 가격을 적어도 10% 정도는 낮추는 게 합당해 보인다는 견해를 23일...",
+      "source_url": "https://stock.mk.co.kr/news/view/1010985",
+      "published_at": "13시간 전"
+    },
+    {
+      "category": "news",
+      "category_label": "뉴스 보도내용",
+      "competitor": "공정거래위원회",
+      "keyword": "공정위",
+      "headline": "석유화학 사업재편(대산 1호) 기업결합에 대한 공정거래위원회의 조건부 승인과 시사점",
+      "summary": "공정거래위원회(이하 \"공정위\")는 2026. 8. 20. 롯데케미칼 주식회사(이하 \"롯데케미칼\"), 롯데대산석화 주식회사(이하 \"롯데대산석화\"), 에이치디현대오일.",
+      "source_url": "https://www.lawtimes.co.kr/news/articleView.html?idxno=225819",
+      "published_at": "1일 전"
+    },
+    {
+      "category": "news",
+      "category_label": "뉴스 보도내용",
+      "competitor": "공정거래위원회",
+      "keyword": "공정위",
+      "headline": "공정위, ‘협력업체 도면 무단 사용’ 경동나비엔에 과징금",
+      "summary": "가정용 난방기기 제조업체 경동나비엔이 협력사인 중소기업 기술 도면을 무단으로 사용했다가 공정거래위원회(공정위) 제재를 받게 됐다. 공정위는 하도급법 위반 혐의...",
+      "source_url": "https://weekly.donga.com/economy/article/all/11/6371311/1",
+      "published_at": "1일 전"
+    },
+    {
+      "category": "news",
+      "category_label": "뉴스 보도내용",
+      "competitor": "공정거래위원회",
+      "keyword": "과징금",
+      "headline": "공정거래법 위반행위에 대한 경제적 제재 강화",
+      "summary": "2026년 하반기 이렇게 달라집니다. □ 공정거래법 위반행위에 대한 경제적 제재 강화 · 주요 내용 - (과징금 부과기준율 하한 상향) 모든 법 위반행위 유형에 적용되는...",
+      "source_url": "https://www.korea.kr/news/policyNewsView.do?newsId=148968646",
+      "published_at": "1일 전"
+    },
+    {
+      "category": "news",
+      "category_label": "뉴스 보도내용",
+      "competitor": "공정거래위원회",
+      "keyword": "공정위",
+      "headline": "공정위, TPG의 롯데렌탈 주식 취득 승인",
+      "summary": "국내 렌터카 1위 사업자 롯데렌탈이 미국계 글로벌 사모펀드(PEF)인 텍사스퍼시픽그룹(TPG)에 인수된다.공정거래위원회는 TPG의 소속 회사인 렉시콘코리아홀드코의...",
+      "source_url": "https://www.electimes.com/news/articleView.html?idxno=371956",
+      "published_at": "2일 전"
+    },
+    {
+      "category": "news",
+      "category_label": "뉴스 보도내용",
+      "competitor": "공정거래위원회",
+      "keyword": "공정위",
+      "headline": "쿠팡, 공정거래법 위반 혐의로 공정위 현장조사…'빈손 철수' 8일 만",
+      "summary": "자동요약 기사 제목과 주요 문장을 기반으로 자동요약한 결과입니다. 전체 맥락을 이해하기 위해서는 본문 보기를 권장합니다. 쿠팡이 지난달 공정거래위원회(공정위)...",
+      "source_url": "https://v.daum.net/v/20260901200949784",
+      "published_at": "2일 전"
+    },
+    {
+      "category": "news",
+      "category_label": "뉴스 보도내용",
+      "competitor": "공정거래위원회",
+      "keyword": "공정위",
+      "headline": "삼성·신한투자·대신증권은 담합 인정…국고채 76조 입찰 오늘 최종심의",
+      "summary": "삼성증권과 신한투자증권, 대신증권이 위반 사실을 인정한 것으로 알려진 국고채 입찰 담합 사건의 마지막 심의가 열린다.",
+      "source_url": "https://newsfield.net/%EC%82%BC%EC%84%B1%C2%B7%EC%8B%A0%ED%95%9C%ED%88%AC%EC%9E%90%C2%B7%EB%8C%80%EC%8B%A0%EC%A6%9D%EA%B6%8C%EC%9D%80-%EB%8B%B4%ED%95%A9-%EC%9D%B8%EC%A0%95%EA%B5%AD%EA%B3%A0%EC%B1%84-76%EC%A1%B0/",
+      "published_at": "2일 전"
+    },
+    {
+      "category": "news",
+      "category_label": "뉴스 보도내용",
+      "competitor": "공정거래위원회",
+      "keyword": "공정위",
+      "headline": "공정위, 쿠팡 ‘공정거래법 위반 혐의’ 현장조사…이번엔 조사 응해",
+      "summary": "공정거래위원회가 쿠팡의 시장지배적 지위 남용 등 공정거래법 위반 혐의 확인을 위한 현장조사에 나섰다. 앞선 현장조사에서 쿠팡의 거부로 철수한 지 8일 만에 다시.",
+      "source_url": "https://www.sisajournal.com/news/articleView.html?idxno=385688",
+      "published_at": "2일 전"
+    },
+    {
+      "category": "news",
+      "category_label": "뉴스 보도내용",
+      "competitor": "공정거래위원회",
+      "keyword": "공정위",
+      "headline": "공정위, 쿠팡 또 현장조사…시장지배적 지위 남용 여부 들여다봐",
+      "summary": "공정거래위원회가 쿠팡을 상대로 다시 현장조사에 나섰다. 앞선 현장조사가 절차적 적법성 논란으로 무산된 지 일주일여 만이다. 1일 업계에 따르면 공정위는 이날...",
+      "source_url": "https://zdnet.co.kr/view/?no=20260901181042",
+      "published_at": "2일 전"
+    },
+    {
+      "category": "news",
+      "category_label": "뉴스 보도내용",
+      "competitor": "공정거래위원회",
+      "keyword": "과징금",
+      "headline": "경실련 “공정위, 구글에 8500억 과징금 부과하라”",
+      "summary": "구글, 게임업계 최혜대우 요구 논란… 공정위 제재 절차 착수 “미국이었다면 수조 원 합의금 지급할 사건… 미국 압력 굴하면 안돼”.",
+      "source_url": "https://www.mediatoday.co.kr/news/articleView.html?idxno=336826",
+      "published_at": "2일 전"
+    },
+    {
+      "category": "news",
+      "category_label": "뉴스 보도내용",
+      "competitor": "공정거래위원회",
+      "keyword": "현장조사",
+      "headline": "공정위, 쿠팡 본사 현장조사···‘조사 거부’ 8일 만에 별건 착수",
+      "summary": "공정거래위원회가 시장지배적지위 남용 등 혐의를 받는 쿠팡을 대상으로 1일 본사 현장조사에 나섰다. 쿠팡이 공정위 현장조사를 거부해 조사관들이 철수한 지 8일...",
+      "source_url": "https://www.khan.co.kr/article/202609011710001",
+      "published_at": "2일 전"
+    },
+    {
+      "category": "news",
+      "category_label": "뉴스 보도내용",
+      "competitor": "공정거래위원회",
+      "keyword": "현장조사",
+      "headline": "공정위, 쿠팡 현장 조사 실시…‘공정거래법 위반’",
+      "summary": "공정거래위원회가 오늘 서울 쿠팡 본사에 조사관들을 파견해 현장 조사를 진행했습니다. 쿠팡 측이 사전 통...",
+      "source_url": "https://news.kbs.co.kr/news/view.do?ncd=8651687",
+      "published_at": "2일 전"
+    },
+    {
+      "category": "news",
+      "category_label": "뉴스 보도내용",
+      "competitor": "공정거래위원회",
+      "keyword": "현장조사",
+      "headline": "쿠팡 “무통지 현장조사 위법” 공정위 “이미 종료, 집행정지 실익 없어”",
+      "summary": "공정거래위원회의 쿠팡 현장조사 결정 효력을 계속 정지할지를 두고 공정위와 쿠팡이 법정 공방을 벌였다. 쿠팡은 사전통지 없는 현장조사는 위법하고, 조사 거부에...",
+      "source_url": "https://www.lawtimes.co.kr/news/articleView.html?idxno=225738",
+      "published_at": "2일 전"
+    },
+    {
+      "category": "news",
+      "category_label": "뉴스 보도내용",
+      "competitor": "공정거래위원회",
+      "keyword": "현장조사",
+      "headline": "공정위, 쿠팡 본사 현장조사 … '시장지배력 남용' 혐의",
+      "summary": "공정거래위원회가 시장지배적 지위 남용 등 공정거래법 위반 혐의로 쿠팡 본사에 대한 현장조사에 착수했다.최근 대규모유통업법 위반 의혹을 조사하려다 쿠팡 측의...",
+      "source_url": "https://www.safetimes.co.kr/news/articleView.html?idxno=245374",
+      "published_at": "2일 전"
+    },
+    {
+      "category": "news",
+      "category_label": "뉴스 보도내용",
+      "competitor": "공정거래위원회",
+      "keyword": "담합",
+      "headline": "공정위, 국내 장류 제조사 5곳 ‘가격 담합’ 현장조사",
+      "summary": "공정거래위원회가 CJ제일제당·대상·샘표·풀무원·사조대림 등 5개 식품업체를 상대로 장류 가격 담합 의혹에 대한 현장조사에 착수했다.2일 관련 업계에 따르면 공정위...",
+      "source_url": "https://www.intn.co.kr/news/articleView.html?idxno=2053004",
+      "published_at": "2일 전"
+    },
+    {
+      "category": "news",
+      "category_label": "뉴스 보도내용",
+      "competitor": "공정거래위원회",
+      "keyword": "담합",
+      "headline": "공정위, CJ·대상·풀무원 등 5개사 현장조사…장류 담합 의혹",
+      "summary": "(세종=연합뉴스) 김수현 기자 = 공정거래위원회가 간장, 된장, 고추장 등 국내 주요 장류 판매 업체를 대상으로 현장 조사에 착수했다. 1일 관련 업계에 따르면 공정위...",
+      "source_url": "https://www.yna.co.kr/view/AKR20260901166100002",
+      "published_at": "2일 전"
+    },
+    {
+      "category": "news",
+      "category_label": "뉴스 보도내용",
+      "competitor": "공정거래위원회",
+      "keyword": "담합",
+      "headline": "공정위, '장류 담합 의혹' CJ 등 5개사 현장조사",
+      "summary": "공정거래위원회가 간장이나 된장, 고추장 등 주요 장류 판매 업체를 대상으로 현장 조사에 착수했습니다. 오늘(1일) 업계에 따르면 공정위는 CJ제일제당과 대상, 샘표,...",
+      "source_url": "https://v.daum.net/v/f2GiOsb0ZK",
+      "published_at": "2일 전"
+    },
+    {
+      "category": "news",
+      "category_label": "뉴스 보도내용",
+      "competitor": "공정거래위원회",
+      "keyword": "담합",
+      "headline": "공정위, CJ·대상·풀무원 등 5개사 현장조사‥장류 담합 의혹",
+      "summary": "공정거래위원회가 간장과 된장, 고추장 등 주요 장류 판매 업체들을 대상으로 가격 담합 의혹 조사에 나섰습니다. 업계에 따르면 공정위는 CJ제일제당과 대상, 샘표,...",
+      "source_url": "https://imnews.imbc.com/news/2026/econo/article/6848898_36932.html",
+      "published_at": "2일 전"
+    },
+    {
+      "category": "news",
+      "category_label": "뉴스 보도내용",
+      "competitor": "공정거래위원회",
+      "keyword": "담합",
+      "headline": "공정위, 장류 가격 담합 CJ·대상·샘표 현장조사 착수",
+      "summary": "공정거래위원회가 CJ제일제당과 대상, 샘표 등 주요 장류 업체를 대상으로 현장조사에 착수했다. 고추장과 간장 등 장류 제품의 가격 결정 과정에서 업체 간 담합이...",
+      "source_url": "https://zdnet.co.kr/view/?no=20260901165135",
+      "published_at": "2일 전"
+    },
+    {
+      "category": "news",
+      "category_label": "뉴스 보도내용",
+      "competitor": "공정거래위원회",
+      "keyword": "과징금",
+      "headline": "삼양사 설탕담합 과징금 안낸다 … 리니언시 '형평성' 논란",
+      "summary": "7년 넘게 전분·전분당 가격 결정에 관여한 사업자 가운데 한 곳이 2000억원이 넘는 과징금을 한 푼도 내지 않게 되면서 공정거래위원회의 자진신고자 감면제도(리니언...",
+      "source_url": "https://www.safetimes.co.kr/news/articleView.html?idxno=245351",
+      "published_at": "3일 전"
+    },
+    {
+      "category": "news",
+      "category_label": "뉴스 보도내용",
+      "competitor": "공정거래위원회",
+      "keyword": "현장조사",
+      "headline": "공정위, '공정거래법 위반' 혐의로 쿠팡 현장조사",
+      "summary": "공정거래위원회가 쿠팡을 상대로 일주일여 만에 다시 현장조사에 나섰습니다. 업계에 따르면 공정위는 오늘 서울 자양동 쿠팡 본사에 조사관 30여 명을 보내,...",
+      "source_url": "https://imnews.imbc.com/news/2026/econo/article/6848829_36932.html",
+      "published_at": "3일 전"
+    },
+    {
+      "category": "news",
+      "category_label": "뉴스 보도내용",
+      "competitor": "공정거래위원회",
+      "keyword": "현장조사",
+      "headline": "공정위, 쿠팡 현장조사…‘공정거래법’ 위반 혐의",
+      "summary": "자동요약 기사 제목과 주요 문장을 기반으로 자동요약한 결과입니다. 전체 맥락을 이해하기 위해서는 본문 보기를 권장합니다. 공정거래위원회가 쿠팡에 현장조사를...",
+      "source_url": "https://v.daum.net/v/20260901141318866",
+      "published_at": "3일 전"
+    },
+    {
+      "category": "news",
+      "category_label": "뉴스 보도내용",
+      "competitor": "공정거래위원회",
+      "keyword": "현장조사",
+      "headline": "공정위, ‘장류 담합’ 혐의 CJ제일제당 등 5개 업체 현장조사",
+      "summary": "공정거래위원회가 장류 가격 담합 혐의로 CJ제일제당, 대상, 샘표, 풀무원, 사조대림 등 5개 식품업체에 대한 현장조사를 개시했습니다. 당국은 이들 기업의 고추장과...",
+      "source_url": "https://www.chosun.com/economy/economy_general/2026/09/01/NCWOMSORIRHA3EHPQABCUD5MD4/",
+      "published_at": "3일 전"
+    },
+    {
+      "category": "news",
+      "category_label": "뉴스 보도내용",
+      "competitor": "공정거래위원회",
+      "keyword": "현장조사",
+      "headline": "공정위, 일주일 만에 또 쿠팡 현장조사…공정거래법 위반 혐의",
+      "summary": "공정거래위원회가 일주일여 만에 다시 쿠팡 본사 현장조사에 나섰습니다. 공정위는 오늘(1일) 서울 자양동 쿠팡 본사에 조사관 30여 명을 보내, 쿠팡의 시장 지배적...",
+      "source_url": "https://www.yonhapnewstv.co.kr/news/AKR20260901153934hZE",
+      "published_at": "3일 전"
+    },
+    {
+      "category": "news",
+      "category_label": "뉴스 보도내용",
+      "competitor": "공정거래위원회",
+      "keyword": "담합",
+      "headline": "CJ제일제당 전분당 매각, '담합 후폭풍'에 시작부터 찬바람",
+      "summary": "CJ제일제당이 추진하는 전분당 사업 매각이 초기 단계부터 원매자들의 호응을 얻지 못하는 분위기다. 전분당 4사의 장기간 가격 담합이 적발되면서 과거 실적을...",
+      "source_url": "https://www.investchosun.com/site/data/html_dir/2026/08/31/2026083180168.html",
+      "published_at": "3일 전"
+    },
+    {
+      "category": "news",
+      "category_label": "뉴스 보도내용",
+      "competitor": "공정거래위원회",
+      "keyword": "과징금",
+      "headline": "“매출 늘어도 남는 게 없어”… 공정위, 청년피자 ‘배달팁 0원 강제’ 등에 과징금 1억 9,700만 원 부과",
+      "summary": "가맹본부의 일방적인 배달팁 0원 강제와 과중한 위약금 부과 등 불공정거래행위에 대해 공정거래위원회가 철퇴를 내렸다.가맹전문 법무법인숲 송윤 대표변호사(사법...",
+      "source_url": "http://www.ikoreanspirit.com/news/articleView.html?idxno=87033",
+      "published_at": "4일 전"
+    },
+    {
+      "category": "news",
+      "category_label": "뉴스 보도내용",
+      "competitor": "공정거래위원회",
+      "keyword": "과징금",
+      "headline": "두 달 만에 또 하도급법 위반한 경동나비엔, 공정위 과징금 5억 '철퇴'",
+      "summary": "경동나비엔이 구매 단가를 낮추기 위해 기존 협력사의 온도센서 도면을 활용해 자체 도면을 만든 뒤 경쟁업체에 제공한 사실이 적발돼 공정거래위원.",
+      "source_url": "https://www.sentv.co.kr/article/view/sentv202608300039",
+      "published_at": "4일 전"
+    },
+    {
+      "category": "news",
+      "category_label": "뉴스 보도내용",
+      "competitor": "공정거래위원회",
+      "keyword": "과징금",
+      "headline": "협력업체 도면 베낀 경동나비엔…공정위 과징금 5억",
+      "summary": "중소 협력업체의 도면을 무단으로 베껴 경쟁사에 넘긴 경동나비엔[009450]이 과징금 5억원을 부과받았다.공정거래위원회는 가정용 난방기기 제조업체 경동나비엔의...",
+      "source_url": "https://news.einfomax.co.kr/news/articleView.html?idxno=4432511",
+      "published_at": "5일 전"
+    },
+    {
+      "category": "news",
+      "category_label": "뉴스 보도내용",
+      "competitor": "공정거래위원회",
+      "keyword": "과징금",
+      "headline": "“한 부처는 저울도 안 만들고, 한 부처는 없는 저울 부순다”",
+      "summary": "[팜인사이트=옥미영 기자]공정거래위원회의 대한산란계협회 과징금 부과와 계란 유통구조의 구조적 모순에 대해 국회 차원의 관심과 질타가 이어졌다.",
+      "source_url": "https://www.farminsight.net/news/articleView.html?idxno=16803",
+      "published_at": "6일 전"
+    }
+  ],
+  "generated_at": "2026-09-04T07:30:09.824Z",
+  "_meta": {
+    "sources": [
+      "ftc.go.kr(보도자료)",
+      "ftc.go.kr(위원회 소식)",
+      "serper.dev/news"
+    ],
+    "categoryCounts": {
+      "press": 5,
+      "committee": 2,
+      "news": 31
+    },
+    "collected": 40,
+    "deduped": 31,
+    "errors": []
+  }
+}
