@@ -1,0 +1,55 @@
+{
+  "id": "2026-09-04",
+  "date": "2026-09-04",
+  "title": "서울고법, KT 5G 과장광고 139억 과징금 유지…공시대상기업집단 주식현황 공개",
+  "summary": "서울고등법원이 'LTE보다 20배 빠르다'던 KT의 5G 광고를 거짓·과장광고로 판단해 공정위의 과징금 139억원 처분을 유지했습니다. 공정위는 2026년 공시대상기업집단 주식소유현황을 분석·공개했고, 소비자생활협동조합법 하위법령 개정안도 입법예고했습니다. 부위원장은 차관회의와 공정위-한국소비자법학회 학술 심포지엄에 참석했습니다.",
+  "competitors": ["공정거래위원회"],
+  "keywords": ["공정위", "과징금", "현장조사", "담합"],
+  "items": [
+    {
+      "category": "press",
+      "category_label": "공정위 보도자료",
+      "headline": "2026년 공시대상기업집단 주식소유현황 분석·공개",
+      "summary": "담당부서: 기업집단정보분석팀 (보도/참고자료)",
+      "source_url": "https://www.ftc.go.kr/www/selectBbsNttView.do?pageUnit=10&pageIndex=1&searchCnd=all&key=12&bordCd=3&searchCtgry=01,02&nttSn=47964",
+      "published_at": "2026-09-03"
+    },
+    {
+      "category": "press",
+      "category_label": "공정위 보도자료",
+      "headline": "「소비자생활협동조합법」 하위법령 등 개정안 입법·행정예고",
+      "summary": "담당부서: 특수거래정책과 (보도/참고자료)",
+      "source_url": "https://www.ftc.go.kr/www/selectBbsNttView.do?pageUnit=10&pageIndex=1&searchCnd=all&key=12&bordCd=3&searchCtgry=01,02&nttSn=47963",
+      "published_at": "2026-09-03"
+    },
+    {
+      "category": "committee",
+      "category_label": "위원회 소식",
+      "headline": "2026-09-04 위원회 소식",
+      "summary": "##[주요일정]##\n· **부위원장**: 08:30 차관회의(세종청사), 13:00 공정위-한국소비자법학회 학술 심포지엄(한양대)",
+      "source_url": "https://www.ftc.go.kr/www/selectBbsNttView.do?pageUnit=10&pageIndex=1&searchCnd=all&key=15&bordCd=5&nttSn=47972",
+      "published_at": "2026-09-03"
+    },
+    {
+      "category": "news",
+      "category_label": "뉴스 보도내용",
+      "competitor": "공정거래위원회",
+      "keyword": "과징금",
+      "headline": "서울고법, KT 5G 과장광고 139억원 과징금 처분 유지 판결",
+      "summary": "'LTE보다 20배 빠르다'던 KT의 5G 광고에 대해 서울고등법원이 거짓·과장광고로 판단, 공정위가 부과한 과징금 139억원 처분을 유지하는 판결을 내렸습니다.",
+      "source_url": "https://peoplepower21.org/judiciary/2028456",
+      "published_at": "4일 전"
+    },
+    {
+      "category": "news",
+      "category_label": "뉴스 보도내용",
+      "competitor": "공정거래위원회",
+      "keyword": "공정위",
+      "headline": "법무법인 율촌, 김형배 전 공정위 상임위원 고문 영입",
+      "summary": "법무법인 율촌이 김형배 전 공정거래위원회 상임위원 겸 한국공정거래조정원장을 고문으로 영입하며 공정거래 자문 역량을 강화했습니다.",
+      "source_url": "https://weekly.hankooki.com/news/articleViewAmp.html?idxno=7182473",
+      "published_at": "3시간 전"
+    }
+  ],
+  "generated_at": "2026-09-04T06:17:21.280Z"
+}
