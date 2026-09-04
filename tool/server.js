@@ -3,18 +3,19 @@
 //
 //  역할:
 //   1) 입력 UI 제공        GET  /
-//   2) 브리핑 생성          POST /api/generate   수집→중복제거→요약
-//   3) 배포                POST /api/publish    docs/data에 JSON 기록 + index 갱신
+//   2) 브리핑 생성          POST /api/generate   수집→중복제거 (원문 그대로, 요약 없음)
+//   3) 초안 저장            POST /api/publish    tool/.drafts/에 JSON 저장
 //   4) 아카이브 로컬 미리보기 GET /archive/*     docs/ 정적 서빙
 //
-//  외부 연동(serper.dev 검색, Claude 요약)은 tool/pipeline/*.js 안에만 격리되어 있고,
-//  배포 시 docs/data 변경분을 git add/commit/push까지 자동으로 반영한다(publishToGit).
+//  Claude API는 전혀 쓰지 않는다(비용·키 관리 불필요). 화면에서는 검색 원문
+//  그대로 보여주고 취사선택·순서조정만 한다. 제목/요약 다듬기와 위원회 소식 PDF
+//  요약, 실제 docs/data 배포(git push)는 tool/.drafts/에 저장된 결과를
+//  Claude Code(구독 세션)가 이어받아 수행한다.
 "use strict";
 
 const http = require("http");
 const fs = require("fs");
 const path = require("path");
-const { execFileSync } = require("child_process");
 
 // .env 로더 (의존성 없이 최소 구현) — 서버 시작 시 process.env로 주입
 (function loadDotEnv() {
@@ -28,17 +29,18 @@ const { execFileSync } = require("child_process");
   }
 })();
 
+const { buildPressItems, buildRawNewsItems, buildRawCommitteeItems, buildRawOverview } = require("./pipeline/summarize");
 const { collect, dedupeAndSort } = require("./pipeline/collect");
-const { summarize, buildPressItems, summarizeCommittee, regenerateOverview } = require("./pipeline/summarize");
 const { fetchPressReleases, fetchCommitteeNews } = require("./pipeline/collectFtcBoard");
+const { loadPublishedUrls } = require("./pipeline/publishedUrls");
 
 const ROOT = path.join(__dirname, "..");
 const DOCS = path.join(ROOT, "docs");
-const DATA = path.join(DOCS, "data");
-const BRIEF_DIR = path.join(DATA, "briefings");
-const INDEX_FILE = path.join(DATA, "index.json");
+const BRIEF_DIR = path.join(DOCS, "data", "briefings");
+const DRAFT_DIR = path.join(ROOT, "tool", ".drafts");
 const PUBLIC = path.join(__dirname, "public");
 const PORT = process.env.PORT || 4173;
+const DEFAULT_WINDOW_HOURS = 48;
 
 const MIME = {
   ".html": "text/html; charset=utf-8",
@@ -109,11 +111,12 @@ function parseKeywordInput(input) {
   };
 }
 
-// (1) 공정위 보도자료, (2) 위원회 소식, (3) 뉴스 보도내용 — 세 카테고리를 병렬 수집·요약한다.
-// excludeUrls에 있는 출처는 결과에서 제외하고(이미 본 항목 재수집 방지),
-// existingHeadlines는 뉴스 요약 단계에서 Claude가 유사 항목을 골라내는 데 쓰인다.
-async function collectCategorized({ competitors, searchKeywords, displayKeywords, excludeKeywords, opts, date, excludeUrls, existingHeadlines }) {
+// (1) 공정위 보도자료, (2) 위원회 소식, (3) 뉴스 보도내용 — 세 카테고리를 병렬 수집한다.
+// Claude를 전혀 호출하지 않으므로 원문 제목/스니펫을 그대로 항목으로 구성한다.
+// excludeUrls(이번 세션에서 이미 본 항목)와 이미 배포된 브리핑의 항목은 결과에서 제외한다.
+async function collectCategorized({ competitors, searchKeywords, excludeKeywords, opts, excludeUrls }) {
   const excludeSet = new Set(excludeUrls || []);
+  for (const u of loadPublishedUrls(BRIEF_DIR)) excludeSet.add(u);
 
   const [pressResult, committeeRawResult, newsRawResult] = await Promise.all([
     safely("공정위 보도자료 수집", () => fetchPressReleases(opts.windowHours), []),
@@ -126,29 +129,17 @@ async function collectCategorized({ competitors, searchKeywords, displayKeywords
   const freshNewsRaw = newsRawResult.value.filter((n) => !excludeSet.has(n.url));
 
   const pressItems = buildPressItems(freshPress);
-
-  const committeeResult = await safely("위원회 소식 PDF 요약", () => summarizeCommittee(freshCommitteeRaw), []);
-  const committeeItems = committeeResult.value;
-
+  const committeeItems = buildRawCommitteeItems(freshCommitteeRaw);
   const newsRaw = dedupeAndSort(freshNewsRaw);
-  const { title, summary, items: newsItems } = await summarize(newsRaw, {
-    competitors,
-    keywords: displayKeywords,
-    date,
-    existingHeadlines,
-  });
+  const newsItems = buildRawNewsItems(newsRaw);
 
   return {
-    title,
-    summary,
     items: [...pressItems, ...committeeItems, ...newsItems],
     meta: {
       categoryCounts: { press: pressItems.length, committee: committeeItems.length, news: newsItems.length },
       collected: newsRawResult.value.length,
       deduped: newsRaw.length,
-      errors: [pressResult, committeeRawResult, newsRawResult, committeeResult]
-        .filter((r) => !r.ok)
-        .map((r) => r.error),
+      errors: [pressResult, committeeRawResult, newsRawResult].filter((r) => !r.ok).map((r) => r.error),
     },
   };
 }
@@ -157,14 +148,13 @@ async function generate(input) {
   const { searchKeywords, excludeKeywords, displayKeywords } = parseKeywordInput(input);
   const competitors = [MONITORED_AGENCY];
   const opts = {
-    windowHours: Number(input.windowHours) || 24,
+    windowHours: Number(input.windowHours) || DEFAULT_WINDOW_HOURS,
     maxPerPair: Number(input.maxPerPair) || 10,
   };
   const date = todayStr();
 
-  const { title, summary, items, meta } = await collectCategorized({
-    competitors, searchKeywords, displayKeywords, excludeKeywords, opts, date,
-  });
+  const { items, meta } = await collectCategorized({ competitors, searchKeywords, excludeKeywords, opts });
+  const { title, summary } = buildRawOverview(items, competitors.join("·"));
 
   return {
     id: date,
@@ -177,92 +167,44 @@ async function generate(input) {
     generated_at: new Date().toISOString(),
     _meta: {
       sources: ["ftc.go.kr(보도자료)", "ftc.go.kr(위원회 소식)", "serper.dev/news"],
-      summarizer: process.env.CLAUDE_MODEL || "claude-opus-4-8",
       ...meta,
     },
   };
 }
 
-// 추가 검색: 이미 브리핑에 담긴 항목(excludeUrls·existingHeadlines)과 겹치지 않는
-// 새 항목만 찾아 반환한다. 전체 브리핑을 새로 만들지 않고 항목만 반환 — 제목/요약은
-// 사용자가 편집 중인 기존 값을 그대로 유지한다.
+// 추가 검색: 이미 브리핑에 담긴 항목(excludeUrls)과 겹치지 않는 새 항목만 찾아 반환한다.
+// 전체 브리핑을 새로 만들지 않고 항목만 반환 — 제목/요약은 사용자가 편집 중인 기존 값을 그대로 유지한다.
 async function generateMore(input) {
-  const { searchKeywords, excludeKeywords, displayKeywords } = parseKeywordInput(input);
+  const { searchKeywords, excludeKeywords } = parseKeywordInput(input);
   const competitors = [MONITORED_AGENCY];
   const opts = {
-    windowHours: Number(input.windowHours) || 24,
+    windowHours: Number(input.windowHours) || DEFAULT_WINDOW_HOURS,
     maxPerPair: Number(input.maxPerPair) || 10,
   };
-  const date = todayStr();
   const excludeUrls = (input.excludeUrls || []).filter(Boolean);
-  const existingHeadlines = (input.existingHeadlines || []).filter(Boolean);
 
-  const { items, meta } = await collectCategorized({
-    competitors, searchKeywords, displayKeywords, excludeKeywords, opts, date, excludeUrls, existingHeadlines,
-  });
+  const { items, meta } = await collectCategorized({ competitors, searchKeywords, excludeKeywords, opts, excludeUrls });
 
   return { items, _meta: meta };
 }
 
-// 배포 스냅샷에서 로컬 전용 필드(_meta 등) 제거
-function toSnapshot(brief) {
-  const { _meta, ...clean } = brief;
-  return clean;
-}
-
-// docs/data 변경분을 커밋하고 원격으로 push한다. 저장소가 아니거나 변경/push가
-// 실패해도 예외를 던지지 않는다 — 로컬 파일 저장은 이미 끝났으므로 배포 자체는
-// 항상 성공으로 취급하고, git 결과만 별도로 알려준다.
-function runGit(args) {
-  return execFileSync("git", args, { cwd: ROOT, encoding: "utf8", stdio: ["ignore", "pipe", "pipe"] }).trim();
-}
-
-async function publishToGit(snapshot) {
-  if (!fs.existsSync(path.join(ROOT, ".git"))) {
-    return { pushed: false, note: "git 저장소가 아닙니다 (git init 필요)" };
-  }
-  try {
-    runGit(["add", "docs/data"]);
-    const staged = runGit(["diff", "--cached", "--name-only"]);
-    if (!staged) {
-      return { pushed: false, note: "변경 사항 없음 (이미 최신 상태)" };
-    }
-    runGit(["commit", "-m", `brief: ${snapshot.id}`]);
-    runGit(["push"]);
-    return { pushed: true, note: `git push 완료 (brief: ${snapshot.id})` };
-  } catch (err) {
-    const msg = (err.stderr ? err.stderr.toString() : err.message).split("\n").find(Boolean) || err.message;
-    return { pushed: false, note: `git 처리 실패: ${msg}` };
-  }
-}
-
-async function publish(brief) {
-  const snapshot = toSnapshot(brief);
-  if (!snapshot.id || !/^\d{4}-\d{2}-\d{2}$/.test(snapshot.id)) {
+// [저장]을 누르면 사용자가 화면에서 취사선택·순서조정을 마친 결과를 tool/.drafts/에
+// 그대로 저장한다(docs/data 기록·git push는 하지 않음). pdfPath 등 로컬 전용 필드도
+// 함께 남겨서, Claude Code가 이어받아 제목/요약을 다듬고 위원회 소식 PDF를 요약한 뒤
+// 최종 배포(docs/data 기록 + git push)까지 수행하도록 한다.
+function saveDraft(brief) {
+  if (!brief.id || !/^\d{4}-\d{2}-\d{2}$/.test(brief.id)) {
     throw new Error("브리핑 id(날짜)가 올바르지 않습니다.");
   }
-  fs.mkdirSync(BRIEF_DIR, { recursive: true });
-
-  // 1) 상세 스냅샷 저장 (같은 날짜면 덮어쓰기)
-  fs.writeFileSync(
-    path.join(BRIEF_DIR, `${snapshot.id}.json`),
-    JSON.stringify(snapshot, null, 2) + "\n"
-  );
-
-  // 2) 카드용 index.json 업서트
-  let index = [];
-  try {
-    index = JSON.parse(fs.readFileSync(INDEX_FILE, "utf8"));
-    if (!Array.isArray(index)) index = [];
-  } catch { index = []; }
-  const card = { id: snapshot.id, date: snapshot.date, title: snapshot.title, summary: snapshot.summary };
-  index = index.filter((c) => c.id !== card.id);
-  index.push(card);
-  index.sort((a, b) => (a.date < b.date ? 1 : -1));
-  fs.writeFileSync(INDEX_FILE, JSON.stringify(index, null, 2) + "\n");
-
-  const git = await publishToGit(snapshot);
-  return { ok: true, id: snapshot.id, count: index.length, archiveUrl: `/archive/briefing.html?date=${snapshot.id}`, git };
+  fs.mkdirSync(DRAFT_DIR, { recursive: true });
+  const draftPath = path.join(DRAFT_DIR, `${brief.id}.json`);
+  fs.writeFileSync(draftPath, JSON.stringify(brief, null, 2) + "\n");
+  return {
+    ok: true,
+    draft: true,
+    path: path.relative(ROOT, draftPath),
+    note: "초안으로 저장했습니다. Claude Code에게 '이 초안 다듬어서 배포해줘'라고 요청하세요.",
+  };
 }
 
 // ---------- 라우팅 ----------
@@ -282,12 +224,12 @@ const server = http.createServer(async (req, res) => {
     }
     if (req.method === "POST" && pathname === "/api/regenerate-overview") {
       const body = JSON.parse((await readBody(req)) || "{}");
-      const overview = await regenerateOverview(body.items || []);
+      const overview = buildRawOverview(body.items || [], MONITORED_AGENCY);
       return sendJSON(res, 200, overview);
     }
     if (req.method === "POST" && pathname === "/api/publish") {
       const body = JSON.parse((await readBody(req)) || "{}");
-      const result = await publish(body.brief || body);
+      const result = saveDraft(body.brief || body);
       return sendJSON(res, 200, result);
     }
 

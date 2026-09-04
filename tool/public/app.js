@@ -75,7 +75,7 @@ async function generate() {
     seenHeadlines = new Set();
     trackSeen(brief.items);
     renderPreview();
-    setStatus($("gen-status"), `생성 완료: 수집 ${data._meta.collected}건 → 중복 제거 후 ${data._meta.deduped}건`, "ok");
+    setStatus($("gen-status"), `생성 완료: 수집 ${data._meta.collected}건 → 중복 제거 후 ${data._meta.deduped}건 (원문 그대로 — 요약은 저장 후 Claude Code가 진행)`, "ok");
   } catch (err) {
     setStatus($("gen-status"), err.message, "err");
   } finally {
@@ -125,7 +125,7 @@ async function generateMore() {
 function renderPreview() {
   $("preview-panel").classList.remove("hidden");
   $("meta-line").textContent =
-    `${brief.date} · 공정거래위원회 · 키워드 ${brief.keywords.join(", ")}`;
+    `${brief.date} · 공정거래위원회 · 키워드 ${brief.keywords.join(", ")} · 원문 그대로(배포 시 Claude Code가 다듬음)`;
   $("edit-title").value = brief.title;
   $("edit-summary").value = brief.summary;
   renderItems();
@@ -238,14 +238,14 @@ async function refreshOverview() {
   }
 }
 
-// ---------- 배포 ----------
+// ---------- 초안 저장 (Claude Code에게 넘기기) ----------
 async function publish() {
   if (!brief) return;
   if (!brief.items.length) {
     return setStatus($("pub-status"), "항목이 없습니다. 최소 1건이 필요합니다.", "err");
   }
   $("publish").disabled = true;
-  setStatus($("pub-status"), "배포 중…", "");
+  setStatus($("pub-status"), "초안 저장 중…", "");
   try {
     const res = await fetch("/api/publish", {
       method: "POST",
@@ -253,12 +253,8 @@ async function publish() {
       body: JSON.stringify({ brief }),
     });
     const data = await res.json();
-    if (!res.ok) throw new Error(data.error || "배포 실패");
-    const gitLine = data.git?.pushed
-      ? `🚀 GitHub Pages에도 push 완료 (1분 내 반영)`
-      : `⚠️ git push는 안 됨 — ${esc(data.git?.note || "알 수 없음")} (로컬 저장은 완료)`;
-    $("pub-status").innerHTML =
-      `✅ 로컬 배포 완료 (총 ${data.count}건). <a href="${data.archiveUrl}" target="_blank">로컬 미리보기 ↗</a><br />${gitLine}`;
+    if (!res.ok) throw new Error(data.error || "저장 실패");
+    $("pub-status").innerHTML = `✅ 초안 저장 완료 (${esc(data.path)}).<br />이제 Claude Code에게 "이 초안 다듬어서 배포해줘"라고 요청하세요.`;
     $("pub-status").className = "status ok";
   } catch (err) {
     setStatus($("pub-status"), err.message, "err");

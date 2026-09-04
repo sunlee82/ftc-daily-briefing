@@ -1,0 +1,41 @@
+name: 평일 아침 FTC 원문 자동 수집
+
+# 매일 KST 08:00(UTC 전날 23:00)에 평일(월~금, KST 기준)만 실행.
+# cron 요일은 UTC 기준이라 하루 당겨서 지정한다:
+#   UTC 일(0)~목(4) 23:00 = KST 월(1)~금(5) 08:00
+on:
+  schedule:
+    - cron: "0 23 * * 0-4"
+  workflow_dispatch: {}
+
+permissions:
+  contents: write
+
+jobs:
+  collect:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-node@v4
+        with:
+          node-version: "20"
+
+      - run: npm install
+
+      - name: 공정위 원문 수집 (Claude API 미사용, serper.dev 키만 필요)
+        run: node tool/pipeline/collectForAutomation.js
+        env:
+          SERPER_API_KEY: ${{ secrets.SERPER_API_KEY }}
+
+      - name: 수집 결과를 저장소에 커밋
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add tool/pending
+          if git diff --cached --quiet; then
+            echo "새로 수집된 항목이 없습니다."
+          else
+            git commit -m "auto: FTC 원문 수집 $(date -u -d '+9 hours' +%F 2>/dev/null || date -u +%F) (KST)"
+            git push
+          fi
