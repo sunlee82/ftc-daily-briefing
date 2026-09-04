@@ -1,8 +1,8 @@
 {
   "id": "2026-09-04",
   "date": "2026-09-04",
-  "title": "공정위, 2026년 공시대상기업집단 주식소유현황 공개",
-  "summary": "공정위가 2026년 공시대상기업집단의 주식소유현황을 분석해 공개했고, 소비자생활협동조합법 하위법령 개정안도 입법예고했습니다. 부위원장은 차관회의와 공정위-한국소비자법학회 학술 심포지엄에 참석했고, 법무법인 율촌은 김형배 전 공정위 상임위원을 고문으로 영입했습니다.",
+  "title": "쿠팡 재현장조사 논란·장류 5개사 담합조사…국고채 담합 최종심의",
+  "summary": "공정위가 시장지배적 지위 남용 혐의로 쿠팡을 재차 현장조사했고, 조사 적법성을 둘러싼 법정 공방도 벌어졌습니다. CJ제일제당·대상·샘표·풀무원·사조대림 등 장류 5개사에 대한 가격담합 현장조사도 시작됐고, 76조원 규모 국고채 입찰담합 사건은 최종심의에 들어가 삼성증권 등 3개사가 위반을 인정했습니다. 서울고법은 KT의 5G 과장광고 과징금 139억원 처분을 유지했고, 삼양사의 설탕담합 리니언시 형평성 논란도 불거졌습니다.",
   "competitors": ["공정거래위원회"],
   "keywords": ["공정위", "과징금", "현장조사", "담합"],
   "items": [
@@ -23,12 +23,68 @@
       "published_at": "2026-09-03"
     },
     {
+      "category": "press",
+      "category_label": "공정위 보도자료",
+      "headline": "소비자기본법 시행령 개정안 국무회의 통과",
+      "summary": "담당부서: 소비자정책총괄과 (보도/참고자료)",
+      "source_url": "https://www.ftc.go.kr/www/selectBbsNttView.do?pageUnit=10&pageIndex=1&searchCnd=all&key=12&bordCd=3&searchCtgry=01,02&nttSn=47958",
+      "published_at": "2026-09-02"
+    },
+    {
+      "category": "press",
+      "category_label": "공정위 보도자료",
+      "headline": "공정거래위원회-한국소비자법학회 공동 학술대회 개최",
+      "summary": "담당부서: 소비자정책국 (보도/참고자료)",
+      "source_url": "https://www.ftc.go.kr/www/selectBbsNttView.do?pageUnit=10&pageIndex=1&searchCnd=all&key=12&bordCd=3&searchCtgry=01,02&nttSn=47973",
+      "published_at": "2026-09-04"
+    },
+    {
+      "category": "press",
+      "category_label": "공정위 보도자료",
+      "headline": "「표시·광고 내용의 실증에 관한 운영 고시」 개정·시행",
+      "summary": "담당부서: 소비자안전교육과 (보도/참고자료)",
+      "source_url": "https://www.ftc.go.kr/www/selectBbsNttView.do?pageUnit=10&pageIndex=1&searchCnd=all&key=12&bordCd=3&searchCtgry=01,02&nttSn=47957",
+      "published_at": "2026-09-02"
+    },
+    {
+      "category": "press",
+      "category_label": "공정위 보도자료",
+      "headline": "한국공정거래조정원, 'K-공정거래' 노하우 아세안 3개국에 첫 전수",
+      "summary": "담당부서: 한국공정거래조정원 (보도/참고자료)",
+      "source_url": "https://www.ftc.go.kr/www/selectBbsNttView.do?pageUnit=10&pageIndex=1&searchCnd=all&key=12&bordCd=3&searchCtgry=01,02&nttSn=47951",
+      "published_at": "2026-09-01"
+    },
+    {
+      "category": "press",
+      "category_label": "공정위 보도자료",
+      "headline": "한국공정거래조정원, 상생협력 우수 가맹본부 3개사 선정",
+      "summary": "담당부서: 한국공정거래조정원 (보도/참고자료)",
+      "source_url": "https://www.ftc.go.kr/www/selectBbsNttView.do?pageUnit=10&pageIndex=1&searchCnd=all&key=12&bordCd=3&searchCtgry=01,02&nttSn=47950",
+      "published_at": "2026-09-01"
+    },
+    {
       "category": "committee",
       "category_label": "위원회 소식",
       "headline": "2026-09-04 위원회 소식",
       "summary": "##[주요일정]##\n· **부위원장**: 08:30 차관회의(세종청사), 13:00 공정위-한국소비자법학회 학술 심포지엄(한양대)",
       "source_url": "https://www.ftc.go.kr/www/selectBbsNttView.do?pageUnit=10&pageIndex=1&searchCnd=all&key=15&bordCd=5&nttSn=47972",
       "published_at": "2026-09-03"
+    },
+    {
+      "category": "committee",
+      "category_label": "위원회 소식",
+      "headline": "2026-09-03 위원회 소식",
+      "summary": "##[주요일정]##\n· **위원장**: 10:00 정무위 전체회의(국회)\n· **부위원장**: 10:00 정무위 전체회의(국회)\n\n##[인사발령]##\n· **원준희** 행정사무관(심판관리관실 기업거래심판담당관실) - 휴직을 명함 (2026.9.3~2026.10.2)\n· **서보림** 행정주사보(시간선택제) - 복직, 운영지원과 지원근무를 명함 (2026.9.3~별도 발령시까지)\n· **김서영** 행정주사(시간선택제) - 운영지원과 지원근무 해제, 조사관리관실 경제분석담당관실 근무를 명함",
+      "source_url": "https://www.ftc.go.kr/www/selectBbsNttView.do?pageUnit=10&pageIndex=1&searchCnd=all&key=15&bordCd=5&nttSn=47962",
+      "published_at": "2026-09-02"
+    },
+    {
+      "category": "committee",
+      "category_label": "위원회 소식",
+      "headline": "2026-09-02 위원회 소식",
+      "summary": "##[주요일정]##\n· **위원장**: 10:00 전원회의(심판정)\n· **부위원장**: 10:00 전원회의(심판정)",
+      "source_url": "https://www.ftc.go.kr/www/selectBbsNttView.do?pageUnit=10&pageIndex=1&searchCnd=all&key=15&bordCd=5&nttSn=47956",
+      "published_at": "2026-09-01"
     },
     {
       "category": "news",
@@ -49,7 +105,107 @@
       "summary": "법무법인 율촌이 김형배 전 공정거래위원회 상임위원 겸 한국공정거래조정원장을 고문으로 영입하며 공정거래 자문 역량을 강화했습니다.",
       "source_url": "https://weekly.hankooki.com/news/articleViewAmp.html?idxno=7182473",
       "published_at": "3시간 전"
+    },
+    {
+      "category": "news",
+      "category_label": "뉴스 보도내용",
+      "competitor": "공정거래위원회",
+      "keyword": "담합",
+      "headline": "주병기 공정위원장 '밀가루 담합 가격 인하 10% 이상 돼야'",
+      "summary": "주병기 공정거래위원회 위원장이 최근 담합 혐의가 불거진 밀가루 가격을 5% 인하로는 부족하고 최소 10% 정도는 낮추는 게 합당하다는 견해를 밝혔습니다.",
+      "source_url": "https://stock.mk.co.kr/news/view/1010985",
+      "published_at": "13시간 전"
+    },
+    {
+      "category": "news",
+      "category_label": "뉴스 보도내용",
+      "competitor": "공정거래위원회",
+      "keyword": "공정위",
+      "headline": "롯데케미칼·롯데대산석화·HD현대오일 사업재편, 공정위 조건부 승인",
+      "summary": "공정위가 2026년 8월 20일 롯데케미칼·롯데대산석화·HD현대오일 등이 관련된 석유화학 사업재편(대산 1호) 기업결합을 조건부로 승인했습니다.",
+      "source_url": "https://www.lawtimes.co.kr/news/articleView.html?idxno=225819",
+      "published_at": "1일 전"
+    },
+    {
+      "category": "news",
+      "category_label": "뉴스 보도내용",
+      "competitor": "공정거래위원회",
+      "keyword": "공정위",
+      "headline": "공정위, TPG의 롯데렌탈 주식취득 승인",
+      "summary": "국내 렌터카 1위 사업자 롯데렌탈이 미국계 사모펀드 TPG에 인수됩니다. 공정위는 TPG 소속 렉시콘코리아홀드코의 롯데렌탈 주식취득을 승인했습니다.",
+      "source_url": "https://www.electimes.com/news/articleView.html?idxno=371956",
+      "published_at": "2일 전"
+    },
+    {
+      "category": "news",
+      "category_label": "뉴스 보도내용",
+      "competitor": "공정거래위원회",
+      "keyword": "현장조사",
+      "headline": "공정위, 쿠팡 본사 재현장조사…'조사 거부' 8일 만에 별건 착수",
+      "summary": "공정위가 지난달 쿠팡의 거부로 철수했던 현장조사 이후 8일 만에 시장지배적 지위 남용 등 혐의로 쿠팡 본사에 대한 별건 현장조사에 다시 나섰습니다. 이번에는 쿠팡이 조사에 응했습니다.",
+      "source_url": "https://www.khan.co.kr/article/202609011710001",
+      "published_at": "2일 전"
+    },
+    {
+      "category": "news",
+      "category_label": "뉴스 보도내용",
+      "competitor": "공정거래위원회",
+      "keyword": "현장조사",
+      "headline": "쿠팡 '무통지 현장조사 위법' 주장에 공정위 '이미 종료, 실익 없어' 반박",
+      "summary": "공정위의 쿠팡 현장조사 결정 효력정지를 두고 법정 공방이 벌어졌습니다. 쿠팡은 사전통지 없는 현장조사가 위법하다고 주장했고, 공정위는 조사가 이미 종료돼 집행정지를 다툴 실익이 없다고 반박했습니다.",
+      "source_url": "https://www.lawtimes.co.kr/news/articleView.html?idxno=225738",
+      "published_at": "2일 전"
+    },
+    {
+      "category": "news",
+      "category_label": "뉴스 보도내용",
+      "competitor": "공정거래위원회",
+      "keyword": "담합",
+      "headline": "국고채 입찰담합 최종심의…삼성·신한투자·대신증권은 위반 인정",
+      "summary": "76조원 규모 국고채 입찰 담합 사건의 마지막 심의가 열렸습니다. 삼성증권·신한투자증권·대신증권은 위반 사실을 인정한 것으로 알려졌습니다.",
+      "source_url": "https://newsfield.net/%EC%82%BC%EC%84%B1%C2%B7%EC%8B%A0%ED%95%9C%ED%88%AC%EC%9E%90%C2%B7%EB%8C%80%EC%8B%A0%EC%A6%9D%EA%B6%8C%EC%9D%80-%EB%8B%B4%ED%95%A9-%EC%9D%B8%EC%A0%95%EA%B5%AD%EA%B3%A0%EC%B1%84-76%EC%A1%B0/",
+      "published_at": "2일 전"
+    },
+    {
+      "category": "news",
+      "category_label": "뉴스 보도내용",
+      "competitor": "공정거래위원회",
+      "keyword": "담합",
+      "headline": "공정위, CJ제일제당·대상·샘표·풀무원·사조대림 장류 가격담합 현장조사",
+      "summary": "공정위가 간장·된장·고추장 등 장류 판매 5개 업체를 대상으로 가격 담합 의혹 현장조사에 착수했습니다.",
+      "source_url": "https://www.chosun.com/economy/economy_general/2026/09/01/NCWOMSORIRHA3EHPQABCUD5MD4/",
+      "published_at": "3일 전"
+    },
+    {
+      "category": "news",
+      "category_label": "뉴스 보도내용",
+      "competitor": "공정거래위원회",
+      "keyword": "공정위",
+      "headline": "경실련 '공정위, 구글에 8500억원 과징금 부과하라'",
+      "summary": "경제정의실천시민연합이 구글의 게임업계 최혜대우 요구 논란과 관련해 공정위에 8500억원 규모 과징금 부과를 촉구했습니다.",
+      "source_url": "https://www.mediatoday.co.kr/news/articleView.html?idxno=336826",
+      "published_at": "2일 전"
+    },
+    {
+      "category": "news",
+      "category_label": "뉴스 보도내용",
+      "competitor": "공정거래위원회",
+      "keyword": "담합",
+      "headline": "삼양사, 설탕 담합 과징금 한 푼도 안 낸다…리니언시 형평성 논란",
+      "summary": "7년 넘게 전분·전분당 가격 담합에 관여한 삼양사가 자진신고자 감면제도(리니언시)로 2000억원대 과징금을 전액 면제받게 되면서 형평성 논란이 일고 있습니다.",
+      "source_url": "https://www.safetimes.co.kr/news/articleView.html?idxno=245351",
+      "published_at": "3일 전"
+    },
+    {
+      "category": "news",
+      "category_label": "뉴스 보도내용",
+      "competitor": "공정거래위원회",
+      "keyword": "과징금",
+      "headline": "공정위, 청년피자 '배달팁 0원 강제' 등에 과징금 1억9700만원",
+      "summary": "가맹본부가 가맹점에 배달팁 0원을 일방적으로 강제하고 과중한 위약금을 부과한 행위에 대해 공정위가 청년피자에 과징금 1억9700만원을 부과했습니다.",
+      "source_url": "http://www.ikoreanspirit.com/news/articleView.html?idxno=87033",
+      "published_at": "4일 전"
     }
   ],
-  "generated_at": "2026-09-04T06:17:21.280Z"
+  "generated_at": "2026-09-04T07:29:51.000Z"
 }
