@@ -1,0 +1,81 @@
+{
+  "id": "2026-09-06",
+  "date": "2026-09-06",
+  "title": "공정위 '엄벌행정' 비판 확산…과징금 정책 도마 위",
+  "summary": "머니투데이의 '무책임한 엄벌행정' 연속 보도를 통해 공정위 등 규제당국의 과징금 중심 제재 방식에 대한 비판이 이어졌습니다. IT업계·쿠팡·금융권 등 업종별 사례와 함께 국회의 과징금 상한 상향 움직임도 소개됐으며, 처벌보다 피해 회복과 구조 개선에 무게를 둬야 한다는 지적이 나왔습니다.",
+  "competitors": ["공정거래위원회"],
+  "keywords": ["공정위", "과징금", "현장조사", "담합"],
+  "items": [
+    {
+      "category": "news",
+      "category_label": "뉴스 보도내용",
+      "competitor": "공정거래위원회",
+      "keyword": "공정위",
+      "headline": "기업 '돈줄 죄기' 넘어 피해 회복으로…과징금 행정 바꿀 해법",
+      "summary": "공정거래위원회 등 규제당국이 과징금을 앞세운 '기업 돈줄 죄기'와 '낙인찍기'에서 벗어나 실질적인 피해 회복과 구조 개선을 이끌어야 한다는 지적이 나왔습니다.",
+      "source_url": "https://www.mt.co.kr/amp/society/2026/09/06/2026083116225544720",
+      "published_at": "3시간 전"
+    },
+    {
+      "category": "news",
+      "category_label": "뉴스 보도내용",
+      "competitor": "공정거래위원회",
+      "keyword": "과징금",
+      "headline": "수백억 과징금, 법원서 뒤집혀도…규제 탓에 골든타임 놓치는 IT업계",
+      "summary": "공정위의 엄정한 제재 기조에 IT업계가 움츠러들고 있으며, 과징금 처분이 나중에 법원에서 뒤집히더라도 그 사이 사업의 골든타임을 놓친다는 우려가 제기됐습니다.",
+      "source_url": "https://m.news.nate.com/view/20260906n01976?mid=m05&list=recent&cpcd=",
+      "published_at": "3시간 전"
+    },
+    {
+      "category": "news",
+      "category_label": "뉴스 보도내용",
+      "competitor": "공정거래위원회",
+      "keyword": "현장조사",
+      "headline": "\"망하는 수가 있다\" 엄중 제재에...국회도 '과징금 상향' 릴레이",
+      "summary": "공정위 등 감독기관의 엄정 제재 기조가 이어지는 가운데, 국회에서도 과징금 상한을 높이는 입법 움직임이 잇따르고 있습니다.",
+      "source_url": "https://www.mt.co.kr/amp/society/2026/09/06/2026090116564116412",
+      "published_at": "3시간 전"
+    },
+    {
+      "category": "news",
+      "category_label": "뉴스 보도내용",
+      "competitor": "공정거래위원회",
+      "keyword": "공정위",
+      "headline": "공정위의 무리한 과징금 때리기…\"역대 최대 과징금 곧 깨질 것\"",
+      "summary": "재계에서 공정위가 과징금 수위를 지나치게 높이고 있다는 비판이 나오는 가운데, 역대 최대 과징금 기록이 조만간 다시 경신될 것이라는 전망이 나왔습니다.",
+      "source_url": "https://www.mt.co.kr/index.php/amp/economy/2026/09/06/2026090316503313749",
+      "published_at": "4시간 전"
+    },
+    {
+      "category": "news",
+      "category_label": "뉴스 보도내용",
+      "competitor": "공정거래위원회",
+      "keyword": "과징금",
+      "headline": "\"직원 조사 100회, 10년 치 자료 요구\"...쿠팡 겨눈 공정위 조사의 강도",
+      "summary": "공정위가 쿠팡에 1년여 만에 1조원대 과징금·세금을 부과하는 과정에서 직원 조사 100여 회, 10년 치 자료 제출 요구 등 강도 높은 조사를 벌인 것으로 나타났습니다.",
+      "source_url": "https://www.mt.co.kr/amp/living/2026/09/06/2026090218081754373",
+      "published_at": "4시간 전"
+    },
+    {
+      "category": "news",
+      "category_label": "뉴스 보도내용",
+      "competitor": "공정거래위원회",
+      "keyword": "과징금",
+      "headline": "생산적 금융 늘리라더니 과징금 폭탄…금융권도 '엄벌행정'에 발목",
+      "summary": "홍콩H지수 ELS 불완전판매 피해 계좌의 97% 이상이 자율배상에 동의했고, LTV 정보교환 담합 관련 과징금도 공정위가 차주 피해액을 반영해 산정한 것으로 나타나면서 금융권의 '엄벌행정' 부담이 부각되고 있습니다.",
+      "source_url": "https://www.mt.co.kr/finance/2026/09/06/2026090215194248414",
+      "published_at": "4시간 전"
+    },
+    {
+      "category": "news",
+      "category_label": "뉴스 보도내용",
+      "competitor": "공정거래위원회",
+      "keyword": "담합",
+      "headline": "\"한 번도 경험 못한 과징금 10조 시대\"...기업 혁신 막는 '엄벌주의'",
+      "summary": "경제검찰로 불리는 공정위를 비롯한 정부 기관들의 강력한 제재로 기업들의 미래 산업 도전 의지와 성장 동력이 약화되고 있다는 지적이 나왔습니다.",
+      "source_url": "https://www.mt.co.kr/living/2026/09/06/2026090208223815606",
+      "published_at": "4시간 전"
+    }
+  ],
+  "generated_at": "2026-09-06T01:16:32.000Z"
+}
