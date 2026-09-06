@@ -9,6 +9,12 @@ function esc(s) {
   }[c]));
 }
 
+// 화면에는 연도를 빼고 7/20 형태로 보여준다 (검색은 전체 날짜로 계속 걸린다)
+function shortDate(s) {
+  const m = /^\d{4}-(\d{2})-(\d{2})$/.exec(String(s || ""));
+  return m ? `${+m[1]}/${+m[2]}` : String(s || "");
+}
+
 let ALL = [];
 
 function lineHTML(r) {
@@ -16,9 +22,9 @@ function lineHTML(r) {
     .map((n) => `<strong class="person-name">${esc(n)}</strong>`)
     .join("·");
   const rankOrg = [r.rank || "", r.org ? `(${r.org})` : ""].join("");
-  const period = r.period ? ` (${esc(r.period)})` : "";
+  // 발령일은 맨 앞, 기간(period)은 표시하지 않는다 — 발령일과 겹쳐 줄만 길어진다
   return `<li class="pr-line">
-    <span class="pr-text">${names}${rankOrg ? " " + esc(rankOrg) : ""} &ndash; ${esc(r.action)}${period}<span class="pr-on">(${esc(r.date)})</span></span>
+    <span class="pr-text"><span class="pr-on">(${esc(shortDate(r.date))})</span>${names}${rankOrg ? " " + esc(rankOrg) : ""} &ndash; ${esc(r.action)}</span>
   </li>`;
 }
 
