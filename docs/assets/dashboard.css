@@ -1,98 +1,202 @@
-/* 대시보드 전용 스타일 — dataviz 스킬의 검증된 참조 팔레트를 그대로 사용 */
+/* 규제동향 대시보드 — 사건 파이프라인 + 제도 변화 시계
+   색·둥근 모서리·글꼴은 styles.css의 토큰을 그대로 쓴다. 모바일 우선. */
 
-.viz-root {
-  --viz-surface: #fcfcfb;
-  --viz-text-primary: #0b0b0b;
-  --viz-text-secondary: #52514e;
-  --viz-muted: #898781;
-  --viz-grid: #e1e0d9;
-  --viz-baseline: #c3c2b7;
-  --viz-series-1: #2a78d6;      /* blue — 정량 지표 기본색 */
-  --viz-series-1-rgb: 42, 120, 214;
+:root {
+  --stage-inv: #b45309;   /* 조사 */
+  --stage-hrg: #2f6feb;   /* 심의 */
+  --stage-lit: #7c3aed;   /* 소송 */
+  --stage-pro: #be123c;   /* 수사 */
+  --stage-don: #15803d;   /* 처분 */
+  --kind-done: #15803d;
+  --kind-done-soft: #dcf7e3;
+  --kind-notice: #b45309;
+  --kind-notice-soft: #fdf0e1;
+  --kind-plan: #2f6feb;
+  --kind-plan-soft: #e8f0ff;
+  --kind-bill: #7c3aed;
+  --kind-bill-soft: #f0e9fd;
 }
+
 @media (prefers-color-scheme: dark) {
-  .viz-root {
-    --viz-surface: #1a1a19;
-    --viz-text-primary: #ffffff;
-    --viz-text-secondary: #c3c2b7;
-    --viz-muted: #898781;
-    --viz-grid: #2c2c2a;
-    --viz-baseline: #383835;
-    --viz-series-1: #3987e5;
-    --viz-series-1-rgb: 57, 135, 229;
+  :root {
+    --stage-inv: #f0a72a;
+    --stage-hrg: #7aa4ff;
+    --stage-lit: #b39bff;
+    --stage-pro: #fb7185;
+    --stage-don: #4ade80;
+    --kind-done: #4ade80;
+    --kind-done-soft: #10281a;
+    --kind-notice: #f0a72a;
+    --kind-notice-soft: #3a2a10;
+    --kind-plan: #7aa4ff;
+    --kind-plan-soft: #1e2740;
+    --kind-bill: #b39bff;
+    --kind-bill-soft: #241b3d;
   }
 }
 
-.dash-section { margin-bottom: 36px; }
-.dash-section h2 { font-size: 1.05rem; font-weight: 700; margin: 0 0 4px; }
-.dash-section .hint { color: var(--muted); font-size: .82rem; margin: 0 0 14px; }
-
-/* 스탯 타일 */
-.stat-row {
-  display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
-  gap: 12px;
-  margin-bottom: 32px;
+.dash-meta {
+  margin: 0 0 22px;
+  color: var(--muted);
+  font-size: 0.92rem;
 }
-.stat-tile {
+.dash-meta strong { color: var(--text); }
+
+.viz-block { margin-bottom: 34px; }
+.viz-block > h2 {
+  margin: 0 0 4px;
+  font-size: 1.15rem;
+  font-weight: 800;
+  letter-spacing: -0.01em;
+}
+.viz-block > .hint {
+  margin: 0 0 16px;
+  color: var(--muted);
+  font-size: 0.88rem;
+}
+
+/* --- 단계 그룹 --- */
+.stage { margin-bottom: 20px; }
+.stage-title {
+  display: flex;
+  align-items: baseline;
+  flex-wrap: wrap;
+  gap: 8px;
+  margin: 0 0 10px;
+  padding-left: 11px;
+  border-left: 4px solid var(--border);
+  font-size: 1rem;
+}
+.stage[data-stage="조사"] .stage-title { border-left-color: var(--stage-inv); }
+.stage[data-stage="심의"] .stage-title { border-left-color: var(--stage-hrg); }
+.stage[data-stage="소송"] .stage-title { border-left-color: var(--stage-lit); }
+.stage[data-stage="수사"] .stage-title { border-left-color: var(--stage-pro); }
+.stage[data-stage="처분"] .stage-title { border-left-color: var(--stage-don); }
+
+.stage-name { font-weight: 800; }
+.stage-count {
+  font-size: 0.78rem;
+  font-weight: 700;
+  color: var(--muted);
+  background: var(--bg);
+  border: 1px solid var(--border);
+  border-radius: var(--radius-full);
+  padding: 1px 9px;
+}
+.stage-desc {
+  font-size: 0.8rem;
+  font-weight: 400;
+  color: var(--muted);
+}
+
+/* --- 사건 카드 --- */
+.case-list, .sched-list {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+.case {
   background: var(--surface);
   border: 1px solid var(--border);
-  border-radius: var(--radius-lg);
-  padding: 18px 20px;
+  border-radius: var(--radius);
+  padding: 14px 16px;
   box-shadow: var(--shadow);
 }
-.stat-tile .label { font-size: .78rem; font-weight: 600; color: var(--muted); margin-bottom: 8px; }
-.stat-tile .value { font-size: 1.75rem; font-weight: 800; color: var(--text); letter-spacing: -0.01em; }
-
-/* 차트 카드 */
-.chart-card {
-  background: var(--viz-surface);
+.case-head {
+  display: flex;
+  align-items: baseline;
+  flex-wrap: wrap;
+  gap: 8px;
+}
+.case-title { font-weight: 700; font-size: 1rem; letter-spacing: -0.01em; }
+.case-conduct {
+  font-size: 0.72rem;
+  font-weight: 600;
+  color: var(--muted);
+  background: var(--bg);
   border: 1px solid var(--border);
-  border-radius: var(--radius-lg);
-  padding: 20px;
+  border-radius: var(--radius-full);
+  padding: 2px 9px;
+}
+.case-parties { margin-top: 3px; font-size: 0.88rem; color: var(--text); }
+.case-scale {
+  display: inline-block;
+  margin-top: 6px;
+  font-size: 0.82rem;
+  font-weight: 600;
+  color: var(--accent);
+}
+.case-move {
+  display: flex;
+  gap: 8px;
+  margin-top: 9px;
+  padding-top: 9px;
+  border-top: 1px solid var(--border);
+  font-size: 0.88rem;
+  color: var(--muted);
+  line-height: 1.5;
+}
+.case-date {
+  flex: none;
+  font-weight: 700;
+  color: var(--text);
+  font-variant-numeric: tabular-nums;
+}
+.case-src { margin-top: 7px; font-size: 0.78rem; color: var(--muted); }
+.src-link { color: var(--accent); text-decoration: none; font-weight: 600; }
+.src-link:hover { text-decoration: underline; }
+
+/* --- 제도 변화 시계 --- */
+.sched {
+  display: flex;
+  gap: 14px;
+  background: var(--surface);
+  border: 1px solid var(--border);
+  border-radius: var(--radius);
+  padding: 14px 16px;
   box-shadow: var(--shadow);
 }
-.chart-card svg { display: block; width: 100%; height: auto; overflow: visible; }
-.chart-card .bar-value { font-size: 11px; fill: var(--viz-text-secondary); font-weight: 600; }
-.chart-card .bar-label { font-size: 11px; fill: var(--viz-text-secondary); }
-.chart-card .axis-tick { font-size: 10px; fill: var(--viz-muted); }
-.chart-card .grid-line { stroke: var(--viz-grid); stroke-width: 1; }
-.chart-card .baseline { stroke: var(--viz-baseline); stroke-width: 1; }
-
-.viz-bar { rx: 4; transition: opacity .1s; cursor: pointer; }
-.viz-bar:hover { opacity: .82; }
-.viz-cell { cursor: pointer; }
-.viz-cell:hover { stroke: var(--viz-text-primary); stroke-width: 1.5; }
-
-/* 툴팁 */
-#viz-tooltip {
-  position: fixed;
-  pointer-events: none;
-  background: var(--viz-text-primary);
-  color: var(--viz-surface);
-  font-size: .78rem;
-  padding: 5px 9px;
-  border-radius: 6px;
-  z-index: 100;
-  opacity: 0;
-  transform: translate(-50%, -130%);
+.sched-when {
+  flex: none;
+  width: 92px;
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+  align-items: flex-start;
+}
+.sched-date {
+  font-weight: 700;
+  font-size: 0.9rem;
+  font-variant-numeric: tabular-nums;
+}
+.sched-kind {
+  font-size: 0.7rem;
+  font-weight: 700;
+  padding: 2px 8px;
+  border-radius: var(--radius-full);
   white-space: nowrap;
-  transition: opacity .08s;
 }
-#viz-tooltip.show { opacity: 1; }
+.sched-kind.done   { color: var(--kind-done);   background: var(--kind-done-soft); }
+.sched-kind.notice { color: var(--kind-notice); background: var(--kind-notice-soft); }
+.sched-kind.plan   { color: var(--kind-plan);   background: var(--kind-plan-soft); }
+.sched-kind.bill   { color: var(--kind-bill);   background: var(--kind-bill-soft); }
+.sched-body { min-width: 0; }
+.sched-title { font-weight: 700; font-size: 0.96rem; letter-spacing: -0.01em; }
+.sched-detail { margin-top: 3px; font-size: 0.87rem; color: var(--muted); line-height: 1.5; }
 
-.two-col {
-  display: grid;
-  grid-template-columns: 1fr 1fr;
-  gap: 16px;
-}
-@media (max-width: 720px) {
-  .two-col { grid-template-columns: 1fr; }
+.dash-foot {
+  margin: 26px 0 0;
+  padding-top: 16px;
+  border-top: 1px solid var(--border);
+  font-size: 0.82rem;
+  color: var(--muted);
 }
 
-/* 표 보기 (접근성 대체) */
-details.table-view { margin-top: 10px; }
-details.table-view summary { cursor: pointer; color: var(--accent); font-size: .85rem; }
-table.data-table { width: 100%; border-collapse: collapse; margin-top: 10px; font-size: .85rem; }
-table.data-table th, table.data-table td { text-align: left; padding: 6px 10px; border-bottom: 1px solid var(--border); }
-table.data-table th { color: var(--muted); font-weight: 600; }
+/* 화면이 좁으면 시계의 날짜 칸을 위로 올린다 */
+@media (max-width: 420px) {
+  .sched { flex-direction: column; gap: 8px; }
+  .sched-when { width: auto; flex-direction: row; align-items: center; gap: 8px; }
+}
