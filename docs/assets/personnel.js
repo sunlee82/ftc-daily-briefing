@@ -21,10 +21,12 @@ function lineHTML(r) {
   const names = (r.names || [])
     .map((n) => `<strong class="person-name">${esc(n)}</strong>`)
     .join("·");
-  const rankOrg = [r.rank || "", r.org ? `(${r.org})` : ""].join("");
+  // 직급이 있으면 이름과 한 칸 띄고, 직급 없이 소속만 있으면 이름에 바로 붙인다
+  const org = r.org ? `(${r.org})` : "";
+  const rankOrg = r.rank ? ` ${r.rank}${org}` : org;
   // 발령일은 맨 앞, 기간(period)은 표시하지 않는다 — 발령일과 겹쳐 줄만 길어진다
   return `<li class="pr-line">
-    <span class="pr-text"><span class="pr-on">(${esc(shortDate(r.date))})</span>${names}${rankOrg ? " " + esc(rankOrg) : ""} &ndash; ${esc(r.action)}</span>
+    <span class="pr-text"><span class="pr-on">(${esc(shortDate(r.date))})</span>${names}${esc(rankOrg)} &ndash; ${esc(r.action)}</span>
   </li>`;
 }
 
