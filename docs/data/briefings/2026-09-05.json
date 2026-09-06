@@ -1,0 +1,99 @@
+{
+  "id": "2026-09-05",
+  "date": "2026-09-05",
+  "title": "정몽규·김준기 첫 공판서 혐의 부인…쿠팡 중복규제 논란",
+  "summary": "정몽규 HDC 회장과 김준기 DB그룹 창업회장이 계열사 자료 허위제출 혐의로 열린 첫 재판에서 나란히 혐의를 전면 부인했습니다. 쿠팡에 대한 과징금·고발·조사가 잇따르면서 플랫폼 기업 중복규제를 둘러싼 학계 우려도 제기됐습니다. 공정위는 한국소비자법학회 등과 공동 학술대회를 열어 AI 워싱·가짜리뷰 감시 강화 방안을 논의했고, 한화오션은 하도급 대금 관련 소송에서 잇달아 승소했습니다.",
+  "competitors": ["공정거래위원회"],
+  "keywords": ["공정위", "과징금", "현장조사", "담합"],
+  "items": [
+    {
+      "category": "committee",
+      "category_label": "위원회 소식",
+      "headline": "2026-09-07 위원회 소식",
+      "summary": "##[주요일정]##\n· **위원장**: 10:00 전원회의(심판정)\n· **부위원장**: 10:00 전원회의(심판정)\n\n##[인사발령]##\n· **우병훈** 서기관(카르텔조사국 제조카르텔조사과) - 조사관리관실 중점조사팀 지원근무 (2026.9.7~별도 발령시까지)\n· **이경주·이윤호·황주복·김윤확** 행정주사(일반임기제, 조사관리관실 디지털포렌식담당관실) - 의원면직 후 재임용 (2026.9.7~2028.9.6)\n· **강정훈** 행정주사(시보) - 서울지방공정거래사무소 총괄과 임용",
+      "source_url": "https://www.ftc.go.kr/www/selectBbsNttView.do?pageUnit=10&pageIndex=1&searchCnd=all&key=15&bordCd=5&nttSn=47974",
+      "published_at": "2026-09-04"
+    },
+    {
+      "category": "news",
+      "category_label": "뉴스 보도내용",
+      "competitor": "공정거래위원회",
+      "keyword": "현장조사",
+      "headline": "정몽규 HDC 회장, '친족 회사 숨겨 자료 제출' 혐의 부인…\"이름도 몰라\"",
+      "summary": "친족이 운영하는 회사를 숨기고 허위 자료를 제출한 혐의를 받는 정몽규 HDC 회장이 첫 재판에서 혐의를 전면 부인했습니다. 정 회장 측은 \"해당 회사 이름도 몰랐다\"고 주장했고, 공정위의 법리 해석이 잘못됐다는 주장도 폈습니다.",
+      "source_url": "https://www.hankyung.com/article/202609044563i",
+      "published_at": "21시간 전"
+    },
+    {
+      "category": "news",
+      "category_label": "뉴스 보도내용",
+      "competitor": "공정거래위원회",
+      "keyword": "현장조사",
+      "headline": "[현장] '허위자료 제출' 김준기 DB그룹 창업회장, 첫 공판서 혐의 전면 부인",
+      "summary": "공정거래위원회에 계열사 자료를 허위로 제출한 혐의로 재판에 넘겨진 김준기 DB그룹 창업회장이 첫 공판에서 모든 혐의를 부인했습니다.",
+      "source_url": "https://www.newswatch.kr/news/articleView.html?idxno=81007",
+      "published_at": "21시간 전"
+    },
+    {
+      "category": "news",
+      "category_label": "뉴스 보도내용",
+      "competitor": "공정거래위원회",
+      "keyword": "과징금",
+      "headline": "쿠팡 '전방위 제재'에 학계 우려…\"규제 판단, 행위에서 효과로 옮겨야\"",
+      "summary": "최근 정부가 쿠팡에 대한 전방위 제재를 진행하는 것과 관련해 학계에서 우려의 목소리가 나왔습니다. 플랫폼 기업에 대한 규제 판단 기준을 '행위'가 아닌 '효과' 중심으로 옮겨야 한다는 지적입니다.",
+      "source_url": "https://www.news1.kr/amp/industry/distribution/6280461",
+      "published_at": "19시간 전"
+    },
+    {
+      "category": "news",
+      "category_label": "뉴스 보도내용",
+      "competitor": "공정거래위원회",
+      "keyword": "공정위",
+      "headline": "공정위, 소비자법학회 등과 공동 학술대회…\"AI 워싱 모니터링 강화\"",
+      "summary": "공정거래위원회가 한국소비자법학회 등 5개 기관과 공동 학술대회를 열고, 인공지능(AI)을 악용한 가짜 리뷰와 다크패턴 등을 방지하기 위한 방안을 논의했습니다.",
+      "source_url": "https://mobile.newsis.com/view_amp.html?ar_id=NISX20260904_0003776692",
+      "published_at": "21시간 전"
+    },
+    {
+      "category": "news",
+      "category_label": "뉴스 보도내용",
+      "competitor": "공정거래위원회",
+      "keyword": "과징금",
+      "headline": "구글·메타·테슬라… 빅테크는 소송 중",
+      "summary": "글로벌 빅테크의 국내 소송전이 공정거래·개인정보·조세·소비자 분야로 확산하고 있습니다. 규제 기관의 제재 수위가 높아지고 다수 소비자가 함께 소송에 나서는 추세입니다.",
+      "source_url": "https://www.lawtimes.co.kr/news/articleViewAmp.html?idxno=225877",
+      "published_at": "7시간 전"
+    },
+    {
+      "category": "news",
+      "category_label": "뉴스 보도내용",
+      "competitor": "공정거래위원회",
+      "keyword": "공정위",
+      "headline": "'축구 실패' 닮은 20년 전 승부…가려진 HDC 내부문건 [공정위 심판정 톡톡]",
+      "summary": "설탕과 밀가루 가격부터 금융·통신·유통까지 우리 일상 곳곳에는 기업 간 경쟁이 있습니다. 이 과정에서 벌어지는 담합과 불공정행위를 조사하고 심의·제재하는 곳이 공정거래위원회입니다.",
+      "source_url": "https://www.kukinews.com/article/view/kuk202609030217",
+      "published_at": "20시간 전"
+    },
+    {
+      "category": "news",
+      "category_label": "뉴스 보도내용",
+      "competitor": "공정거래위원회",
+      "keyword": "과징금",
+      "headline": "한화오션, 하도급 분쟁서 잇단 승소…'대금 후려치기' 오명 벗었다",
+      "summary": "한화오션(옛 대우조선해양)이 공정거래위원회로부터 100억원대 하도급법 위반 과징금 처분을 받으며 시작된 법적 분쟁에서 잇달아 승소한 것으로 확인됐습니다.",
+      "source_url": "https://v.daum.net/v/20260904114851131?f=p",
+      "published_at": "24시간 전"
+    },
+    {
+      "category": "news",
+      "category_label": "뉴스 보도내용",
+      "competitor": "공정거래위원회",
+      "keyword": "과징금",
+      "headline": "[국감이 묻는다③] 4조가 6000억 됐다…ELS 과징금 감경 도마에",
+      "summary": "다음 달 국정감사를 앞두고 쟁점이 될 사안을 짚었습니다. 4조원대로 추산됐던 과징금이 6000억원대로 크게 줄어든 ELS 관련 과징금 감경 문제가 도마 위에 오를 전망입니다.",
+      "source_url": "https://www.jabon.co.kr/news/articleView.html?idxno=6646",
+      "published_at": "22시간 전"
+    }
+  ],
+  "generated_at": "2026-09-05T02:40:16.701Z"
+}
