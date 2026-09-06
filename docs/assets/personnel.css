@@ -64,9 +64,9 @@
   font-weight: 800;
 }
 
-/* 발령일 — 맨 뒤에 흐리게 */
+/* 발령일 — 맨 앞에 흐리게 */
 .pr-on {
-  margin-left: 6px;
+  margin-right: 6px;
   color: var(--muted);
   font-size: 0.86em;
   font-variant-numeric: tabular-nums;
