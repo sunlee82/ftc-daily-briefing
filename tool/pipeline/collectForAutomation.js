@@ -45,7 +45,14 @@ const MANDATORY_KEYWORDS = ["공정위", "과징금", "현장조사", "담합"];
 // 시각이 아니라 "등록일" 날짜 단위로 비교한다. 아침 9시에 실행하면 어제 오후·저녁에
 // 등록된 게시물도 실제로는 24시간 이내인데 날짜가 하루 다르다는 이유로 빠질 수 있어
 // (실제로 보도자료·위원회 소식 둘 다 이 문제가 확인됨) 오늘+어제(48시간)로 넉넉히 본다.
-const WINDOW_HOURS_BOARD = 48;
+const WINDOW_HOURS_PRESS = 48;
+// 위원회 소식은 게시글 제목에 "대상일"이 박혀 있다(예: "2026-09-07 위원회 소식").
+// 금요일 저녁에 올라오는 글은 주말을 건너뛰어 다음 주 월요일을 가리키므로, 등록일
+// 기준 48시간으로 담으면 토요일 브리핑에 실리고 정작 월요일엔 창을 벗어나 빠진다.
+// 그래서 후보는 7일치로 넓게 훑고, 실제 채택은 아래 "대상일 == 오늘" 필터가 정한다.
+// 창을 넓혀도 필터가 하나만 남기므로 엉뚱한 날에 실리거나 PDF가 불어나지 않는다.
+// (연휴가 길어 다음 영업일이 며칠 뒤여도 7일이면 충분히 닿는다)
+const WINDOW_HOURS_COMMITTEE = 168;
 // 뉴스 검색(serper.dev)은 날짜 문자열 비교가 아니라 검색 API 자체의 최신순 결과라
 // 이 문제가 없어 그대로 24시간 유지.
 const WINDOW_HOURS_NEWS = 24;
@@ -69,8 +76,8 @@ async function main() {
   const date = todayKST();
 
   const [pressRaw, committeeRaw, newsRawAll] = await Promise.all([
-    fetchPressReleases(WINDOW_HOURS_BOARD).catch((e) => ({ error: e.message, items: [] })),
-    fetchCommitteeNews(WINDOW_HOURS_BOARD).catch((e) => ({ error: e.message, items: [] })),
+    fetchPressReleases(WINDOW_HOURS_PRESS).catch((e) => ({ error: e.message, items: [] })),
+    fetchCommitteeNews(WINDOW_HOURS_COMMITTEE).catch((e) => ({ error: e.message, items: [] })),
     collect([MONITORED_AGENCY], MANDATORY_KEYWORDS, {
       windowHours: WINDOW_HOURS_NEWS,
       maxPerPair: MAX_PER_PAIR,
@@ -78,7 +85,10 @@ async function main() {
   ]);
 
   const press = Array.isArray(pressRaw) ? pressRaw : pressRaw.items || [];
-  const committee = Array.isArray(committeeRaw) ? committeeRaw : committeeRaw.items || [];
+  const committeeAll = Array.isArray(committeeRaw) ? committeeRaw : committeeRaw.items || [];
+  // 대상일이 오늘인 위원회 소식만 채택한다(제목이 "YYYY-MM-DD 위원회 소식" 형식).
+  // 이 필터를 통과한 것만 PDF를 저장·텍스트 추출하므로 today.json도 가벼워진다.
+  const committee = committeeAll.filter((r) => String(r.headline || "").startsWith(date));
   const newsRawList = Array.isArray(newsRawAll) ? newsRawAll : newsRawAll.items || [];
   const newsRaw = dedupeAndSort(newsRawList);
 
@@ -109,7 +119,8 @@ async function main() {
     generated_at: new Date().toISOString(),
     _meta: {
       sources: ["ftc.go.kr(보도자료)", "ftc.go.kr(위원회 소식)", "serper.dev/news"],
-      windowHours: { board: WINDOW_HOURS_BOARD, news: WINDOW_HOURS_NEWS },
+      windowHours: { press: WINDOW_HOURS_PRESS, committee: WINDOW_HOURS_COMMITTEE, news: WINDOW_HOURS_NEWS },
+      committeeCandidates: committeeAll.length,
       categoryCounts: { press: pressItems.length, committee: committeeItems.length, news: newsItems.length },
       collected: newsRawList.length,
       deduped: newsRaw.length,
@@ -118,7 +129,7 @@ async function main() {
   };
 
   fs.writeFileSync(OUT_PATH, JSON.stringify(output, null, 2) + "\n");
-  console.log(`수집 완료: ${OUT_PATH} (press ${pressItems.length}, committee ${committeeItems.length}, news ${newsItems.length})`);
+  console.log(`수집 완료: ${OUT_PATH} (press ${pressItems.length}, committee ${committeeItems.length}/${committeeAll.length} 대상일 일치, news ${newsItems.length})`);
 }
 
 main().catch((err) => {
