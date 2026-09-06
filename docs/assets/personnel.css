@@ -1,0 +1,83 @@
+/* 인사발령 — 브리핑 상세의 위원회 소식과 같은 한 줄 형식.
+   카드 하나 안에 줄이 이어지고, 발령일만 흐리게 뒤에 붙는다. styles.css 토큰을 그대로 쓴다. */
+
+/* --- 검색 --- */
+.pr-search { margin: 0 0 14px; }
+.pr-search input {
+  width: 100%;
+  font: inherit;
+  font-size: 1rem;
+  color: var(--text);
+  background: var(--surface);
+  border: 1px solid var(--border);
+  border-radius: var(--radius-full);
+  padding: 12px 18px;
+  box-shadow: var(--shadow);
+}
+.pr-search input::placeholder { color: var(--muted); }
+.pr-search input:focus {
+  outline: none;
+  border-color: var(--accent);
+  box-shadow: 0 0 0 3px var(--accent-soft);
+}
+
+.pr-summary { margin: 0 0 16px; font-size: 0.9rem; color: var(--muted); }
+.pr-summary strong { color: var(--text); }
+
+/* --- 목록 패널 (브리핑 상세의 .item과 같은 톤) --- */
+.pr-panel {
+  background: var(--surface);
+  border: 1px solid var(--border);
+  border-radius: var(--radius-lg);
+  padding: 18px 20px;
+  box-shadow: var(--shadow);
+}
+
+.pr-list {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.pr-line {
+  position: relative;
+  padding: 7px 0 7px 14px;
+  font-size: 0.94rem;
+  line-height: 1.62;
+  color: var(--text);
+  border-top: 1px solid var(--border);
+}
+.pr-line:first-child { border-top: none; padding-top: 2px; }
+
+/* 브리핑 상세와 같은 가운뎃점 글머리 */
+.pr-line::before {
+  content: "·";
+  position: absolute;
+  left: 2px;
+  color: var(--muted);
+  font-weight: 700;
+}
+
+/* 이름 — 브리핑 상세와 같은 강조 */
+.pr-line .person-name {
+  color: var(--accent);
+  font-weight: 800;
+}
+
+/* 발령일 — 맨 뒤에 흐리게 */
+.pr-on {
+  margin-left: 6px;
+  color: var(--muted);
+  font-size: 0.86em;
+  font-variant-numeric: tabular-nums;
+  white-space: nowrap;
+}
+
+.pr-note {
+  margin: 22px 0 0;
+  padding-top: 16px;
+  border-top: 1px solid var(--border);
+  font-size: 0.82rem;
+  color: var(--muted);
+  line-height: 1.6;
+}
