@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>공정위 인사발령</title>
+  <link rel="stylesheet" href="assets/styles.css?v=202607161127" />
+  <link rel="stylesheet" href="assets/personnel.css?v=20260906" />
+</head>
+<body>
+  <div class="wrap">
+    <a class="back" href="index.html">← 아카이브로</a>
+    <header class="site">
+      <h1>👥 공정위 인사발령</h1>
+      <p>위원회 소식에 실린 인사발령을 발령일별로 모았습니다.<br />이름·직급·부서로 찾을 수 있습니다.</p>
+    </header>
+
+    <div class="pr-search">
+      <input id="q" type="search" placeholder="이름·직급·부서로 찾기 (예: 서기관, 카르텔조사국)"
+             autocomplete="off" aria-label="인사발령 검색" />
+    </div>
+    <p id="summary" class="pr-summary"></p>
+
+    <main id="records" aria-live="polite">
+      <p class="empty">불러오는 중…</p>
+    </main>
+
+    <p class="pr-note">
+      공정거래위원회가 위원회 소식으로 공표한 인사발령을 그대로 옮긴 것입니다.
+      브리핑에 위원회 소식이 실린 날짜만 담겨 있어 중간에 빠진 기간이 있습니다.
+    </p>
+  </div>
+  <script src="assets/personnel.js?v=20260906"></script>
+</body>
+</html>
