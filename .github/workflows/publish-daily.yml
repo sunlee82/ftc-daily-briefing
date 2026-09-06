@@ -1,0 +1,120 @@
+name: 매일 아침 브리핑 자동 다듬기·배포
+
+# collect-daily.yml이 KST 09:00에 원문을 수집해 tool/pending/today.json에 커밋하면,
+# 20분 뒤인 KST 09:20(UTC 00:20)에 이 워크플로우가 Claude Code를 실행해
+# 항목을 다듬고 docs/data/briefings/에 배포한 뒤 main에 직접 커밋·푸시한다.
+#
+# 필요한 저장소 시크릿 (Settings → Secrets and variables → Actions):
+#   CLAUDE_CODE_OAUTH_TOKEN
+#     로컬 터미널에서 `claude setup-token` 실행 → 발급된 토큰을 등록.
+#     Claude Pro/Max 구독으로 인증되며 유효기간은 1년(만료되면 재발급 후 교체).
+#     (대안: ANTHROPIC_API_KEY 시크릿을 만들고 아래 with: 항목을
+#      anthropic_api_key: ${{ secrets.ANTHROPIC_API_KEY }} 로 교체 — 이 경우 API 종량 과금)
+on:
+  schedule:
+    - cron: "20 0 * * *"
+  workflow_dispatch: {}
+
+permissions:
+  contents: write
+
+concurrency:
+  group: publish-daily
+  cancel-in-progress: false
+
+jobs:
+  publish:
+    runs-on: ubuntu-latest
+    steps:
+      # 수집 워크플로우가 방금 푸시한 커밋까지 받아야 하므로 main을 명시적으로 체크아웃
+      - uses: actions/checkout@v4
+        with:
+          ref: main
+          fetch-depth: 0
+
+      - uses: actions/setup-node@v4
+        with:
+          node-version: "20"
+
+      # pdfText가 비어 있을 때 PDF를 직접 열어보기 위한 pdfjs-dist 준비
+      - run: npm install
+
+      - name: git 커밋 작성자 설정
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+
+      - name: 처리할 수집분이 있는지 확인
+        id: check
+        run: |
+          if [ -f tool/pending/today.json ]; then
+            echo "found=true" >> "$GITHUB_OUTPUT"
+          else
+            echo "found=false" >> "$GITHUB_OUTPUT"
+            echo "tool/pending/today.json 없음 — 이번 실행은 건너뜁니다."
+          fi
+
+      - name: Claude Code로 다듬기·배포
+        if: steps.check.outputs.found == 'true'
+        uses: anthropics/claude-code-action@v1
+        with:
+          claude_code_oauth_token: ${{ secrets.CLAUDE_CODE_OAUTH_TOKEN }}
+          claude_args: >-
+            --max-turns 80
+            --allowedTools "Read,Write,Edit,Glob,Grep,Bash(git:*),Bash(node:*),Bash(ls:*),Bash(rm:*),Bash(cat:*),Bash(mkdir:*)"
+          prompt: |
+            저장소 루트에서 작업한다. 아래 절차를 끝까지 자동으로 수행하고, 사람의 승인을 기다리지 마라.
+
+            tool/pending/today.json에 오늘 수집된 원문이 들어 있다(매일 같은 파일명으로 덮어씀).
+            위원회 소식 PDF는 tool/pending/today-pdfs/에 있다.
+
+            1. tool/pending/today.json을 읽고 id 값(YYYY-MM-DD, 수집 실행일)을 확인한다.
+
+            2. items 배열이 비어 있으면(최근 24시간 내 새 게시물이 없었던 경우)
+               tool/pending/today.json만 삭제하고 6번(커밋)으로 건너뛴다.
+
+            3. items를 다음 기준으로 다듬는다:
+               - press 카테고리 항목은 그대로 사용한다(이미 공식 제목).
+               - committee 카테고리 항목은 pdfText 필드(PDF에서 이미 추출해둔 원문 텍스트)를
+                 읽어서 【주요일정】,【인사발령】 섹션 내용을 추출한다. pdfText가 비어 있거나
+                 없으면 pdfPath의 PDF를 pdfjs-dist로 직접 열어 텍스트를 뽑는다. 규칙:
+                   * summary 필드를 "##[주요일정]##\n· **직함**: 내용\n\n##[인사발령]##\n· **이름** 직급(소속) - 내용" 형식으로 작성
+                   * 사람을 가리키는 표현(위원장/부위원장/직급+이름)은 **볼드**로 감싼다
+                   * 인사발령 항목 맨 앞의 문서관리번호(예: "운영지원과-1234 (5678) 2026.1.1. -" 형식)는 내용이 아니므로 제거
+                   * 해당 섹션에 내용이 없으면 그 섹션은 통째로 생략, 둘 다 없으면 summary를
+                     "주요일정·인사발령 내용 없음"으로
+                   * pdfPath·pdfText 필드는 최종 결과물에 포함하지 말 것(로컬 전용 필드)
+               - news 카테고리 항목은 제목·요약을 자연스러운 한국어 기사체로 가볍게 다듬는다
+                 (원문 왜곡 금지, 매체명·기자명 같은 잡음만 정리).
+               - 같은 사건을 다루는 news 항목이 여러 개 겹치면(제목이나 내용이 사실상 동일)
+                 가장 정보가 많고 신뢰도 높은 출처 1개만 남기고 나머지는 제외한다.
+               - docs/data/briefings/ 폴더의 최근 14일치 파일들도 확인해서, 그 안에 이미
+                 실린 사건과 사실상 같은 내용을 다루는 news 항목이 있으면(URL이 달라도,
+                 수집 단계에서는 URL만 보고 걸렀기 때문에 여기서 다시 내용 기준으로 확인)
+                 제외한다.
+               - 이렇게 다 걸러내고 나서 남는 항목이 하나도 없으면, 새 브리핑을 만들지 말고
+                 tool/pending/today.json과 tool/pending/today-pdfs/만 삭제한 뒤 6번으로 간다.
+
+            4. id 값을 날짜로 써서:
+               - docs/data/briefings/<id>.json 이 이미 있으면: 기존 items에 새 항목을
+                 이어붙이고(중복 source_url 제외), title·summary를 전체 내용 기준으로
+                 새로 작성한다.
+               - 없으면: 새로 생성한다. items는 press → committee → news 순서로 정렬한다.
+                 파일 구조는 기존 docs/data/briefings/ 파일들과 동일하게
+                 (id, date, title, summary, competitors, keywords, items, generated_at) 맞춘다.
+               - title은 30자 내외로 가장 대표성 있는 사건 중심, summary는 2~4문장으로
+                 핵심 사건들을 정리한다(과장하지 말고 실제 포함된 내용만).
+               - docs/data/index.json의 카드도 같은 내용으로 추가하거나 갱신한다
+                 (id·date·title·summary 4개 필드, 날짜 내림차순 정렬 유지).
+
+            5. 처리 끝난 tool/pending/today.json과 tool/pending/today-pdfs/ 폴더는 삭제한다.
+
+            6. 변경사항을 main 브랜치에 직접 커밋하고 푸시한다. PR을 만들지 말 것.
+               git 사용자 정보는 이미 설정되어 있다. 다음을 실행한다:
+                 git add -A
+                 git commit -m "brief: <id> (GitHub Actions 자동 배포)"
+                 git push origin main
+               변경사항이 없으면(git diff --cached --quiet) 커밋하지 않고 넘어간다.
+               푸시가 non-fast-forward로 거부되면 git pull --rebase origin main 후 다시 푸시한다.
+
+            7. 마지막에 무엇을 배포했는지(또는 새로 배포할 게 없었는지) 1~2문장으로 요약해 출력한다.
