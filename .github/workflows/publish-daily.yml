@@ -142,6 +142,10 @@ jobs:
                  핵심 사건들을 정리한다(과장하지 말고 실제 포함된 내용만).
                - docs/data/index.json의 카드도 같은 내용으로 추가하거나 갱신한다
                  (id·date·title·summary 4개 필드, 날짜 내림차순 정렬 유지).
+               - docs/data/latest.json에 방금 만든(또는 갱신한) 브리핑 파일의 내용을 통째로
+                 복사해 덮어쓴다. 가공하지 말고 <id>.json과 완전히 같은 내용이어야 한다.
+                 외부 도구가 날짜를 몰라도 고정 주소 하나로 항상 최신 브리핑을 읽게 하려는
+                 것이므로, 브리핑을 새로 쓰거나 갱신할 때마다 빠짐없이 함께 갱신한다.
 
             5. 처리 끝난 tool/pending/today.json과 tool/pending/today-pdfs/ 폴더는 삭제한다.
 
