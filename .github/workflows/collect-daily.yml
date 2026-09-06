@@ -1,9 +1,12 @@
 name: 매일 아침 FTC 원문 자동 수집
 
-# 매일(주말 포함) KST 09:00(UTC 00:00, 같은 날짜)에 실행.
+# 매일(주말 포함) KST 08:44에 실행 = UTC 23:44(전날).
+# 정각(UTC 00:00)은 전 세계 예약 작업이 몰려 실행이 수십 분~몇 시간 지연되므로
+# (2026-09-05는 2시간 40분 지연, 2026-09-06은 아예 불발) 혼잡을 피해 :44로 옮겼다.
+# 수집 스크립트의 todayKST()가 UTC+9로 변환하므로 id는 올바른 KST 날짜로 찍힌다.
 on:
   schedule:
-    - cron: "0 0 * * *"
+    - cron: "44 23 * * *"
   workflow_dispatch: {}
 
 permissions:
@@ -26,11 +29,23 @@ jobs:
         env:
           SERPER_API_KEY: ${{ secrets.SERPER_API_KEY }}
 
+      # today.json은 매일 덮어쓰이므로, 원본을 날짜별로 따로 남긴다.
+      # tool/pending/은 배포 워크플로우가 처리 후 삭제하기 때문에 바깥에 보관한다.
+      # (하루 약 23KB — 1년 쌓아도 10MB 미만)
+      - name: 수집 원본을 날짜별로 보관
+        run: |
+          if [ -f tool/pending/today.json ]; then
+            mkdir -p tool/collected
+            id=$(node -p "require('./tool/pending/today.json').id")
+            cp tool/pending/today.json "tool/collected/$id.json"
+            echo "보관: tool/collected/$id.json"
+          fi
+
       - name: 수집 결과를 저장소에 커밋
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "github-actions[bot]@users.noreply.github.com"
-          git add tool/pending
+          git add tool/pending tool/collected
           if git diff --cached --quiet; then
             echo "새로 수집된 항목이 없습니다."
           else
