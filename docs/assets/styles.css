@@ -294,10 +294,10 @@ header.site p { margin: 0; color: rgba(255, 255, 255, 0.88); font-size: 0.95rem;
   --cnt-press-soft: #fdf0e1;
   --cnt-cmte: #2f6feb;
   --cnt-cmte-soft: #e8f0ff;
-  --cnt-news: #0e7490;
-  --cnt-news-soft: #dcf0f5;
-  --today: #0f9d58;
-  --today-soft: #e3f5ec;
+  --cnt-news: #15803d;
+  --cnt-news-soft: #dcf7e3;
+  --today-fg: #ffffff;
+  --today-bg: #1f2937;
 }
 
 @media (prefers-color-scheme: dark) {
@@ -306,10 +306,10 @@ header.site p { margin: 0; color: rgba(255, 255, 255, 0.88); font-size: 0.95rem;
     --cnt-press-soft: #3a2a10;
     --cnt-cmte: #7aa4ff;
     --cnt-cmte-soft: #1e2740;
-    --cnt-news: #4bc0dd;
-    --cnt-news-soft: #10303a;
-    --today: #4ade80;
-    --today-soft: #14301f;
+    --cnt-news: #4ade80;
+    --cnt-news-soft: #10281a;
+    --today-fg: #0d0f14;
+    --today-bg: #eef0f5;
   }
 }
 
@@ -324,11 +324,13 @@ header.site p { margin: 0; color: rgba(255, 255, 255, 0.88); font-size: 0.95rem;
 .card .datebar .date { margin-bottom: 0; }
 .card .datebar .date .wd { opacity: 0.72; margin-left: 3px; }
 
+/* "오늘"은 종류가 아니라 상태 표시 — 색이 아니라 형태(단색 칩)로 구분한다 */
 .card .today {
   font-size: 0.72rem;
   font-weight: 700;
-  color: var(--today);
-  background: var(--today-soft);
+  letter-spacing: 0.02em;
+  color: var(--today-fg);
+  background: var(--today-bg);
   padding: 4px 10px;
   border-radius: var(--radius-full);
 }
