@@ -75,9 +75,13 @@ function todayKST() {
 async function main() {
   const date = todayKST();
 
+  // 게시판 조회 실패를 여기에 모아 _meta.errors로 남긴다. 조용히 0건으로 넘어가면
+  // "수집 실패"와 "그날 자료 없음"이 구분되지 않는다(2026-09-08에 실제로 발생).
+  const boardErrors = [];
+
   const [pressRaw, committeeRaw, newsRawAll] = await Promise.all([
-    fetchPressReleases(WINDOW_HOURS_PRESS).catch((e) => ({ error: e.message, items: [] })),
-    fetchCommitteeNews(WINDOW_HOURS_COMMITTEE).catch((e) => ({ error: e.message, items: [] })),
+    fetchPressReleases(WINDOW_HOURS_PRESS, boardErrors).catch((e) => ({ error: e.message, items: [] })),
+    fetchCommitteeNews(WINDOW_HOURS_COMMITTEE, boardErrors).catch((e) => ({ error: e.message, items: [] })),
     collect([MONITORED_AGENCY], MANDATORY_KEYWORDS, {
       windowHours: WINDOW_HOURS_NEWS,
       maxPerPair: MAX_PER_PAIR,
@@ -124,12 +128,20 @@ async function main() {
       categoryCounts: { press: pressItems.length, committee: committeeItems.length, news: newsItems.length },
       collected: newsRawList.length,
       deduped: newsRaw.length,
-      errors: [pressRaw.error, committeeRaw.error, newsRawAll.error].filter(Boolean),
+      errors: [pressRaw.error, committeeRaw.error, newsRawAll.error, ...boardErrors].filter(Boolean),
     },
   };
 
   fs.writeFileSync(OUT_PATH, JSON.stringify(output, null, 2) + "\n");
   console.log(`수집 완료: ${OUT_PATH} (press ${pressItems.length}, committee ${committeeItems.length}/${committeeAll.length} 대상일 일치, news ${newsItems.length})`);
+
+  // 실패가 있었으면 Actions 로그 맨 끝에서 눈에 띄게 알린다.
+  // 종료 코드는 0으로 둔다 — 여기서 실패시키면 다듬기·배포가 통째로 건너뛰어
+  // 그날 브리핑이 아예 안 나온다. 일부라도 수집됐으면 배포하는 편이 낫다.
+  if (output._meta.errors.length) {
+    console.error("::warning::수집 중 오류가 있었습니다. 이 날의 일부 자료가 누락됐을 수 있습니다.");
+    for (const e of output._meta.errors) console.error(`  - ${e}`);
+  }
 }
 
 main().catch((err) => {
