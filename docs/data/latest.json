@@ -1,8 +1,8 @@
 {
   "id": "2026-09-07",
   "date": "2026-09-07",
-  "title": "쿠팡 특별조사 강화·구글 원스토어 과징금 취소",
-  "summary": "주병기 공정거래위원장이 쿠팡의 현장조사 거부 사태를 계기로 21년 만에 특별조사팀을 부활시켜 중대 사건에 투입하고, 조사를 거부하는 기업은 고발하는 방안까지 검토하겠다고 밝혔습니다. 공정위는 이달 초 확보한 쿠팡 자료에서 불공정거래 정황을 다수 확인했으며, 온라인 쇼핑몰의 리뷰 작성·평가·삭제 기준을 명확히 하는 문답서도 배포했습니다. 법원은 구글의 원스토어 배제 행위를 위법으로 인정하면서도 421억원의 과징금 처분은 취소했습니다.",
+  "title": "쿠팡 특별조사팀 부활·태블릿 입찰담합 현장조사",
+  "summary": "공정거래위원회가 교육용 태블릿PC 입찰 담합 혐의로 CJ올리브네트웍스·세연아이넷에 대한 현장조사에 나섰고, 대기업 공시의무 반복 위반에 대한 과태료 가중 고시 개정안도 행정예고했습니다. 주병기 위원장은 쿠팡의 현장조사 거부 사태를 계기로 21년 만에 특별조사팀을 부활시키고 조사 거부 기업 고발 방안까지 검토하겠다고 밝혔으며, 이달 초 확보한 쿠팡 자료에서 불공정거래 정황을 다수 확인했습니다. 법원은 구글의 원스토어 배제 행위를 위법으로 인정하면서도 421억원 과징금 처분은 취소했고, 한전 발주 파형관 입찰 담합 사업자 10곳에는 과징금 8억7천만원이 부과됐습니다.",
   "competitors": [
     "공정거래위원회"
   ],
@@ -13,6 +13,22 @@
     "담합"
   ],
   "items": [
+    {
+      "category": "press",
+      "category_label": "공정위 보도자료",
+      "headline": "공시의무 위반 과태료 부과 고시 개정안 행정예고",
+      "summary": "담당부서: 기업집단결합정책과 (보도/참고자료)",
+      "source_url": "https://www.ftc.go.kr/www/selectBbsNttView.do?pageUnit=10&pageIndex=1&searchCnd=all&key=12&bordCd=3&searchCtgry=01,02&nttSn=47977",
+      "published_at": "2026-09-07"
+    },
+    {
+      "category": "press",
+      "category_label": "공정위 보도자료",
+      "headline": "사용후기 수집·처리 정보공개 구제 관련 문답서 배포",
+      "summary": "담당부서: 소비자거래정책과 (보도/참고자료)",
+      "source_url": "https://www.ftc.go.kr/www/selectBbsNttView.do?pageUnit=10&pageIndex=1&searchCnd=all&key=12&bordCd=3&searchCtgry=01,02&nttSn=47976",
+      "published_at": "2026-09-07"
+    },
     {
       "category": "committee",
       "category_label": "위원회 소식",
@@ -30,6 +46,26 @@
       "summary": "공정거래위원회가 이달 초 쿠팡 현장조사에서 확보한 자료를 분석한 결과 불공정거래 정황을 다수 확인한 것으로 7일 알려졌습니다. 10년치 자료를 검토하는 등 조사 강도가 이어지고 있습니다.",
       "source_url": "https://www.abcn.kr/news/articleViewAmp.html?idxno=91391",
       "published_at": "4시간 전"
+    },
+    {
+      "category": "news",
+      "category_label": "뉴스 보도내용",
+      "competitor": "공정거래위원회",
+      "keyword": "현장조사",
+      "headline": "공정위, 교육용 태블릿PC 입찰담합 혐의 CJ올리브네트웍스·세연아이넷 현장조사",
+      "summary": "공정거래위원회가 시·도 교육청이 발주한 교육용 태블릿PC 입찰 과정에서 담합한 혐의를 받는 CJ올리브네트웍스와 세연아이넷에 대해 현장조사에 착수했습니다.",
+      "source_url": "https://mobile.newsis.com/view_amp.html?ar_id=NISX20260907_0003779519",
+      "published_at": "6시간 전"
+    },
+    {
+      "category": "news",
+      "category_label": "뉴스 보도내용",
+      "competitor": "공정거래위원회",
+      "keyword": "과징금",
+      "headline": "넥슨 vs 공정위 116억원 과징금 소송, 선고 또 연기",
+      "summary": "넥슨코리아가 공정거래위원회를 상대로 제기한 116억4200만원 과징금 취소소송의 선고가 서울고등법원에서 다시 한번 미뤄졌습니다.",
+      "source_url": "http://www.dailypop.kr/news/articleView.html?idxno=102299",
+      "published_at": "5시간 전"
     },
     {
       "category": "news",
@@ -55,11 +91,11 @@
       "category": "news",
       "category_label": "뉴스 보도내용",
       "competitor": "공정거래위원회",
-      "keyword": "공정위",
-      "headline": "공정위, 온라인 리뷰 작성·평가·삭제 기준 공개 의무화",
-      "summary": "공정거래위원회가 온라인 쇼핑몰의 사용후기 수집·처리 기준을 명확히 하는 정보공개 문답서를 마련해 배포했습니다. AI·알고리즘이 리뷰 노출 순서에 관여하면 그 판단요소를 밝혀야 하고, 리뷰 삭제 시 이의제기 절차도 보장해야 합니다. 자사몰과 해외 사업자도 적용 대상이며, 정보를 공개하지 않으면 최대 1000만원의 과태료가 부과됩니다.",
-      "source_url": "https://www.newspim.com/news/view/20260907000281",
-      "published_at": "12분 전"
+      "keyword": "담합",
+      "headline": "공정위, 배달앱 입점업체 단체협상권 추진…'을의 협상력' 강화",
+      "summary": "공정거래위원회가 배달앱 입점업체들이 수수료·광고비·약관 변경 등을 두고 플랫폼과 단체협상에 나설 수 있도록 하는 방안을 추진하고 있습니다. 소상공인의 협상력을 높이려는 취지로 풀이됩니다.",
+      "source_url": "https://www.kukinews.com/article/view/kuk202607020137",
+      "published_at": "23시간 전"
     },
     {
       "category": "news",
@@ -75,11 +111,11 @@
       "category": "news",
       "category_label": "뉴스 보도내용",
       "competitor": "공정거래위원회",
-      "keyword": "공정위",
-      "headline": "법무법인 대륜, '공정거래 TF' 출범…기업 법적리스크 대응 강화",
-      "summary": "법무법인 대륜이 최근 공정거래 관련 규제가 전방위로 강화되면서 기업의 법적 리스크가 복잡해지고 있다는 판단에 따라 '공정거래 태스크포스(TF)'를 출범했습니다. 규제 대응 역량을 강화해 기업의 법적 리스크에 밀착 대응한다는 방침입니다.",
-      "source_url": "https://www.edaily.co.kr/News/Read?newsId=02450166645577824&mediaCodeNo=257",
-      "published_at": "13분 전"
+      "keyword": "담합",
+      "headline": "한전 발주 파형관 입찰담합, 10개 사업자에 과징금 8.7억원",
+      "summary": "공정거래위원회가 한국전력공사가 발주한 파형관 구매입찰에서 담합한 3개 조합과 7개 사업자에 시정명령과 함께 총 8억6800만원의 과징금을 부과했습니다.",
+      "source_url": "https://m.korea.kr/news/pressReleaseView.do?newsId=156772151&pWise=mSub&pWiseSub=C2",
+      "published_at": "24시간 전"
     },
     {
       "category": "news",
@@ -90,7 +126,37 @@
       "summary": "나이젤 코리 미국 아시아정책연구소(NBR) 객원연구원은 한국 공정거래위원회가 구글에 대규모 과징금을 부과할 경우 미국 정부와 의회가 신속하게 대응할 것이라고 전망했습니다. 보복관세와 공정위 처분 절차의 적법성까지 쟁점이 될 수 있다는 관측입니다.",
       "source_url": "https://www.news1.kr/amp/it-science/internet-platform/6280059",
       "published_at": "5시간 전"
+    },
+    {
+      "category": "news",
+      "category_label": "뉴스 보도내용",
+      "competitor": "공정거래위원회",
+      "keyword": "공정위",
+      "headline": "법무법인 대륜, '공정거래 TF' 출범…기업 법적리스크 대응 강화",
+      "summary": "법무법인 대륜이 최근 공정거래 관련 규제가 전방위로 강화되면서 기업의 법적 리스크가 복잡해지고 있다는 판단에 따라 '공정거래 태스크포스(TF)'를 출범했습니다. 규제 대응 역량을 강화해 기업의 법적 리스크에 밀착 대응한다는 방침입니다.",
+      "source_url": "https://www.edaily.co.kr/News/Read?newsId=02450166645577824&mediaCodeNo=257",
+      "published_at": "13분 전"
+    },
+    {
+      "category": "news",
+      "category_label": "뉴스 보도내용",
+      "competitor": "공정거래위원회",
+      "keyword": "공정위",
+      "headline": "소비자주권시민회의, 공정위에 '홀드백' 소비자권리 침해 질의서 제출",
+      "summary": "시민단체 소비자주권시민회의가 극장 개봉작이 짧은 홀드백 기간 후 OTT에 공개되는 관행이 소비자 권리를 침해한다며 공정거래위원회에 공개질의서를 제출했습니다.",
+      "source_url": "https://www.chosun.com/national/national_general/2026/09/07/E3HUAD4RXFCMDAJ2F5RPBRIONQ/",
+      "published_at": "4시간 전"
+    },
+    {
+      "category": "news",
+      "category_label": "뉴스 보도내용",
+      "competitor": "공정거래위원회",
+      "keyword": "공정위",
+      "headline": "공정거래법·하도급법 개정안 국회 통과, 기업 대응전략은",
+      "summary": "지난해 8월 국회 본회의를 통과한 공정거래법·하도급법 개정안의 주요 내용과 기업의 실무 대응전략을 다룬 법률 분석이 나왔습니다.",
+      "source_url": "https://www.lawtimes.co.kr/news/articleViewAmp.html?idxno=225965",
+      "published_at": "7시간 전"
     }
   ],
-  "generated_at": "2026-09-07T01:20:00.000Z"
+  "generated_at": "2026-09-07T12:42:50.648Z"
 }
