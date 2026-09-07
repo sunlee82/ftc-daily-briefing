@@ -14,15 +14,45 @@ function escBr(s) {
     .replace(/\n/g, "<br>");
 }
 
+// 보도자료 요약은 "리드 문장" + "- 로 시작하는 핵심 항목" 구조로 온다.
+// 리드는 문단으로, 항목은 목록으로 나눠 숫자·기한이 눈에 걸리게 한다.
+function bodyHTML(it) {
+  const lines = String(it.summary || "").split("\n").map((l) => l.trim()).filter(Boolean);
+  const bullets = lines.filter((l) => l.startsWith("- ")).map((l) => l.slice(2));
+  if (!bullets.length) return `<p>${escBr(it.summary)}</p>`;
+  const lead = lines.filter((l) => !l.startsWith("- ")).join("\n");
+  return (
+    (lead ? `<p>${escBr(lead)}</p>` : "") +
+    `<ul class="pts">${bullets.map((b) => `<li>${escBr(b)}</li>`).join("")}</ul>`
+  );
+}
+
 function itemHTML(it) {
+  // 원문은 제목 줄 오른쪽 작은 링크로 — 항목마다 버튼이 한 줄씩 차지하면
+  // 15건이 넘는 날엔 버튼만으로 화면이 그만큼 길어진다.
   const src = it.source_url
-    ? `<a class="src" href="${esc(it.source_url)}" target="_blank" rel="noopener">원문 보기 ↗</a>`
+    ? `<a class="src-inline" href="${esc(it.source_url)}" target="_blank" rel="noopener">원문 ↗</a>`
     : "";
   return `<article class="item">
-    <h3>${esc(it.headline)}</h3>
-    <p>${escBr(it.summary)}</p>
-    ${src}
+    <div class="item-row">
+      <h3>${esc(it.headline)}</h3>
+      ${src}
+    </div>
+    ${bodyHTML(it)}
   </article>`;
+}
+
+// 전체 요약은 그날 항목 전체를 아우르는 핵심 3줄로 온다. 줄마다 불릿으로 세우고
+// **강조**는 accent 색 볼드로 살린다. 예전처럼 한 문단으로 오면 그대로 문단 처리.
+function keypointsHTML(summary) {
+  const lines = String(summary || "").split("\n").map((l) => l.trim()).filter(Boolean);
+  if (lines.length < 2) return `<p class="lead">${escBr(summary)}</p>`;
+  return `<div class="keypoints">
+    <span class="eyebrow">오늘의 핵심</span>
+    <ul class="lead-list">${lines
+      .map((l) => `<li>${escBr(l.replace(/^[-·]\s*/, ""))}</li>`)
+      .join("")}</ul>
+  </div>`;
 }
 
 function chips(arr) {
@@ -61,7 +91,7 @@ async function load() {
       <div class="detail-head">
         <span class="date">${esc(b.date)}</span>
         <h1>${esc(b.title)}</h1>
-        <p class="lead">${esc(b.summary)}</p>
+        ${keypointsHTML(b.summary)}
         <div class="chips">
           ${chips(b.competitors)}
           ${chips(b.keywords)}
