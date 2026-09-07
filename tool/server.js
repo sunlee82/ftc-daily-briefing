@@ -128,7 +128,7 @@ async function collectCategorized({ competitors, searchKeywords, excludeKeywords
   const freshCommitteeRaw = committeeRawResult.value.filter((c) => !excludeSet.has(c.source_url));
   const freshNewsRaw = newsRawResult.value.filter((n) => !excludeSet.has(n.url));
 
-  const pressItems = buildPressItems(freshPress);
+  const pressItems = await buildPressItems(freshPress);
   const committeeItems = await buildRawCommitteeItems(freshCommitteeRaw);
   const newsRaw = dedupeAndSort(freshNewsRaw);
   const newsItems = buildRawNewsItems(newsRaw);
