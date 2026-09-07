@@ -385,3 +385,102 @@ header.site p { margin: 0; color: rgba(255, 255, 255, 0.88); font-size: 0.95rem;
   -webkit-box-orient: vertical;
   overflow: hidden;
 }
+
+/* ============================================================
+   브리핑 상세 가독성 (2026-09 개선)
+   - 전체 요약을 "오늘의 핵심" 3줄 박스로
+   - 보도자료 본문에 핵심 항목 목록
+   - 원문 링크를 제목 줄 오른쪽 작은 링크로 (항목당 한 줄씩 아끼기)
+   ============================================================ */
+
+/* --- 오늘의 핵심 --- */
+.detail-head .keypoints {
+  background: var(--accent-soft);
+  border: 1px solid var(--border);
+  border-radius: var(--radius);
+  padding: 15px 17px 16px;
+  margin: 0 0 14px;
+}
+.detail-head .keypoints .eyebrow {
+  display: block;
+  font-size: 0.74rem;
+  font-weight: 800;
+  letter-spacing: 0.06em;
+  color: var(--accent);
+  margin-bottom: 10px;
+}
+.detail-head ul.lead-list {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: grid;
+  gap: 9px;
+}
+.detail-head ul.lead-list li {
+  position: relative;
+  padding-left: 15px;
+  font-size: 0.93rem;
+  color: var(--text);
+}
+.detail-head ul.lead-list li::before {
+  content: "";
+  position: absolute;
+  left: 0;
+  top: 0.58em;
+  width: 5px;
+  height: 5px;
+  border-radius: 50%;
+  background: var(--accent);
+}
+.detail-head ul.lead-list .person-name { color: var(--accent); font-weight: 800; }
+
+/* --- 제목 + 원문 링크 한 줄 --- */
+.item .item-row {
+  display: flex;
+  align-items: baseline;
+  justify-content: space-between;
+  gap: 10px;
+}
+.item .item-row h3 { margin: 0; }
+.item a.src-inline {
+  flex: none;
+  font-size: 0.8rem;
+  font-weight: 700;
+  text-decoration: none;
+  color: var(--accent);
+  white-space: nowrap;
+}
+.item a.src-inline:hover { text-decoration: underline; }
+
+/* 본문은 제목 줄 바로 아래 */
+.item .item-row + p,
+.item .item-row + ul.pts { margin-top: 6px; }
+
+/* --- 보도자료 핵심 항목 --- */
+.item ul.pts {
+  list-style: none;
+  margin: 8px 0 0;
+  padding: 0;
+  display: grid;
+  gap: 6px;
+}
+.item ul.pts li {
+  position: relative;
+  padding-left: 14px;
+  font-size: 0.9rem;
+}
+.item ul.pts li::before {
+  content: "";
+  position: absolute;
+  left: 0;
+  top: 0.6em;
+  width: 4px;
+  height: 4px;
+  border-radius: 50%;
+  background: var(--muted);
+}
+.item ul.pts li .person-name { color: var(--accent); font-weight: 800; }
+
+/* 원문 버튼이 항목 끝에서 빠졌으므로 마지막 요소의 아래 여백을 없앤다 */
+.item > p:last-child,
+.item > ul.pts:last-child { margin-bottom: 0; }
