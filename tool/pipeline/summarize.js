@@ -29,15 +29,49 @@ const CATEGORY_LABELS = {
  * 공정위 보도자료 원문을 그대로 항목으로 변환한다. 공식 제목을 그대로 쓴다.
  * @param {Array} rawItems  collectFtcBoard.fetchPressReleases()의 결과
  */
-function buildPressItems(rawItems) {
-  return rawItems.map((r) => ({
-    category: "press",
-    category_label: CATEGORY_LABELS.press,
-    headline: r.headline,
-    summary: `담당부서: ${r.dept} (${r.boardLabel})`,
-    source_url: r.source_url,
-    published_at: r.published_at,
-  }));
+async function buildPressItems(rawItems, pdfDir = PDF_DIR) {
+  if (!rawItems.length) return [];
+  fs.mkdirSync(pdfDir, { recursive: true });
+  return Promise.all(
+    rawItems.map(async (r) => {
+      let pdfPath = null;
+      let pdfText = null;
+      if (r.pdfBase64) {
+        const buf = Buffer.from(r.pdfBase64, "base64");
+        try {
+          pdfText = await extractPdfText(buf);
+          // 보도자료 원문이 수십 쪽인 경우가 있어 today.json이 부풀지 않도록 잘라둔다.
+          // 앞부분에 개요·주요내용이 오므로 3~5문장 요약에는 충분하다.
+          if (pdfText && pdfText.length > PDF_TEXT_LIMIT) {
+            pdfText = pdfText.slice(0, PDF_TEXT_LIMIT) + "\n…(이하 생략)";
+          }
+        } catch (err) {
+          console.warn(`[summarize] 보도자료 PDF 텍스트 추출 실패 (${r.headline}): ${err.message}`);
+        }
+        // 보도자료 PDF는 한 건에 200~400KB라, 매일 커밋하면 git 이력이 빠르게 불어난다.
+        // 텍스트만 뽑히면 파일은 남기지 않고, 추출에 실패했을 때만 원본을 남겨
+        // 배포 단계에서 Claude가 직접 열어볼 수 있게 한다.
+        if (!pdfText) {
+          const safeName = r.headline.replace(/[^\w가-힣.-]/g, "_").slice(0, 60);
+          pdfPath = path.join(pdfDir, `${r.published_at}_press_${safeName}.pdf`);
+          fs.writeFileSync(pdfPath, buf);
+        }
+      }
+      return {
+        category: "press",
+        category_label: CATEGORY_LABELS.press,
+        headline: r.headline,
+        dept: r.dept,
+        summary: pdfText
+          ? "(PDF 원문 확인 필요 — 배포 전 Claude Code가 요약)"
+          : `담당부서: ${r.dept} (${r.boardLabel})`,
+        source_url: r.source_url,
+        published_at: r.published_at,
+        pdfPath,
+        pdfText,
+      };
+    })
+  );
 }
 
 /**
@@ -62,6 +96,8 @@ function buildRawNewsItems(rawItems) {
 // tool/.raw-pdfs/ — .gitignore에 이미 등록된 임시 폴더. 위원회 소식 PDF를 저장해두면
 // 나중에 Claude Code가 Read 도구로 직접 열어 요약할 수 있다.
 const PDF_DIR = path.join(__dirname, "..", ".raw-pdfs");
+// 보도자료 PDF 본문에서 today.json에 담을 최대 글자 수
+const PDF_TEXT_LIMIT = 20000;
 
 // pdfjs-dist가 뽑아내는 텍스트는 글자 조각(item) 단위라 줄바꿈이 없고 띄어쓰기가
 // 뭉개진다. 같은 줄(Y좌표가 비슷한) item은 공백으로, 줄이 바뀌면 개행으로 이어붙인 뒤
