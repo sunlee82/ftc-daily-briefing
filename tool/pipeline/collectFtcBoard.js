@@ -48,10 +48,33 @@ function recentDateSet(windowHours) {
   return set;
 }
 
+// ftc.go.kr은 이따금 순간적으로 응답하지 않는다. 하루 한 번뿐인 수집이라
+// 그때 조회를 놓치면 그날 자료가 통째로 비고, 위원회 소식은 대상일이 지나가
+// 다음 날 회수도 안 된다(2026-09-08 실제로 발생). 그래서 짧게 재시도한다.
+const FETCH_ATTEMPTS = 3;
+const RETRY_DELAY_MS = [2000, 5000];
+
+function sleep(ms) {
+  return new Promise((r) => setTimeout(r, ms));
+}
+
 async function fetchHtml(url) {
-  const res = await fetch(url, { headers: { "User-Agent": UA } });
-  if (!res.ok) throw new Error(`ftc.go.kr ${res.status} (${url})`);
-  return res.text();
+  let lastErr;
+  for (let i = 0; i < FETCH_ATTEMPTS; i++) {
+    try {
+      const res = await fetch(url, { headers: { "User-Agent": UA } });
+      if (!res.ok) throw new Error(`ftc.go.kr ${res.status}`);
+      return await res.text();
+    } catch (err) {
+      lastErr = err;
+      if (i < FETCH_ATTEMPTS - 1) {
+        const wait = RETRY_DELAY_MS[i];
+        console.warn(`[collectFtcBoard] 조회 실패(${i + 1}/${FETCH_ATTEMPTS}) ${err.message} — ${wait}ms 후 재시도: ${url}`);
+        await sleep(wait);
+      }
+    }
+  }
+  throw new Error(`${lastErr.message} — ${FETCH_ATTEMPTS}회 모두 실패 (${url})`);
 }
 
 // 보도자료 본문은 HTML이 아니라 첨부파일(hwp/hwpx/pdf)에 들어 있다. 상세 페이지를
@@ -82,15 +105,19 @@ async function fetchPressPdfBase64(sourceUrl) {
  * 각 게시물의 첨부 PDF(본문)도 함께 내려받는다.
  * @returns {Array<{headline,dept,published_at,source_url,boardLabel,pdfBase64}>}
  */
-async function fetchPressReleases(windowHours) {
+async function fetchPressReleases(windowHours, errors = []) {
   const recent = recentDateSet(windowHours);
   const results = [];
+  let boardsRead = 0;
   for (const board of PRESS_BOARDS) {
     let html;
     try {
       html = await fetchHtml(board.url);
+      boardsRead += 1;
     } catch (err) {
-      console.warn(`[collectFtcBoard] ${board.label} 조회 실패: ${err.message}`);
+      // 조용히 넘어가면 "실패"와 "오늘은 자료 없음"이 구분되지 않는다. 반드시 남긴다.
+      console.error(`[collectFtcBoard] 보도자료(${board.label}) 조회 실패: ${err.message}`);
+      errors.push(`보도자료(${board.label}) 조회 실패: ${err.message}`);
       continue;
     }
     for (const row of extractRows(html)) {
@@ -105,6 +132,10 @@ async function fetchPressReleases(windowHours) {
       if (!title) continue;
       results.push({ headline: title, dept, published_at: date, source_url, boardLabel: board.label });
     }
+  }
+
+  if (boardsRead === 0) {
+    errors.push("보도자료 게시판을 한 곳도 읽지 못했습니다 — 이 날의 보도자료는 수집되지 않았습니다.");
   }
 
   // 본문 PDF는 병렬로 받되, 일부 실패해도 그 항목은 제목만 남기고 계속 진행한다
@@ -126,13 +157,15 @@ async function fetchPressReleases(windowHours) {
  * 위원회 소식 게시판을 스크래핑해 최근 windowHours 이내 게시물의 첨부 PDF를 내려받는다.
  * @returns {Array<{headline,published_at,source_url,dept,pdfBase64}>}
  */
-async function fetchCommitteeNews(windowHours) {
+async function fetchCommitteeNews(windowHours, errors = []) {
   const recent = recentDateSet(windowHours);
   let html;
   try {
     html = await fetchHtml(COMMITTEE_BOARD_URL);
   } catch (err) {
-    console.warn(`[collectFtcBoard] 위원회 소식 조회 실패: ${err.message}`);
+    // 위원회 소식은 대상일이 지나면 다음 날 회수되지 않는다. 실패를 반드시 드러낸다.
+    console.error(`[collectFtcBoard] 위원회 소식 조회 실패: ${err.message}`);
+    errors.push(`위원회 소식 조회 실패: ${err.message} — 이 날의 위원회 소식은 수집되지 않았습니다.`);
     return [];
   }
   const matched = [];
