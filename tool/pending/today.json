@@ -1,7 +1,7 @@
 {
   "id": "2026-09-07",
   "date": "2026-09-07",
-  "title": "공정거래위원회 일일동향 (초안 — 29건, 제목 다듬기 필요)",
+  "title": "공정거래위원회 일일동향 (초안 — 30건, 제목 다듬기 필요)",
   "summary": "항목을 취사선택·순서조정한 뒤 저장하면 Claude Code가 제목/요약을 다듬어 배포합니다.",
   "competitors": [
     "공정거래위원회"
@@ -294,13 +294,23 @@
       "category_label": "뉴스 보도내용",
       "competitor": "공정거래위원회",
       "keyword": "담합",
+      "headline": "‘을의 협상력’ 키우는 공정위…배달앱‧입점업체 관계 달라질까",
+      "summary": "배달앱 입점업체들이 앞으로 수수료와 광고비, 약관 변경 등을 놓고 플랫폼과 단체협상에 나설 수 있는 길이 열릴 것으로 보인다. 정부가 소상공인의.",
+      "source_url": "https://www.kukinews.com/article/view/kuk202607020137",
+      "published_at": "23시간 전"
+    },
+    {
+      "category": "news",
+      "category_label": "뉴스 보도내용",
+      "competitor": "공정거래위원회",
+      "keyword": "담합",
       "headline": "파형관 입찰 담합 제재",
       "summary": "파형관 입찰 담합 제재 - 한국전력공사 발주 파형관 구매입찰에서 담합한 3개 조합과 7개 사업자에 대해 시정명령 및 과징금(총 868백만원) 부과 -. 공정거래...",
       "source_url": "https://m.korea.kr/news/pressReleaseView.do?newsId=156772151&pWise=mSub&pWiseSub=C2",
       "published_at": "24시간 전"
     }
   ],
-  "generated_at": "2026-09-07T12:40:27.633Z",
+  "generated_at": "2026-09-07T12:42:50.648Z",
   "_meta": {
     "sources": [
       "ftc.go.kr(보도자료)",
@@ -316,10 +326,10 @@
     "categoryCounts": {
       "press": 2,
       "committee": 1,
-      "news": 26
+      "news": 27
     },
     "collected": 40,
-    "deduped": 26,
+    "deduped": 27,
     "errors": []
   }
 }
