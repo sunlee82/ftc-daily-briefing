@@ -42,6 +42,17 @@ function peekHTML(peek) {
   return `<ul class="peek">${rows.join("")}</ul>`;
 }
 
+// 전체 요약이 "오늘의 핵심" 3줄로 바뀌면서 줄바꿈과 **강조** 표시가 들어온다.
+// 목록 카드에서는 한 줄로 눕혀 쓰므로 표시만 걷어내고 가운뎃점으로 잇는다.
+function flatSummary(s) {
+  return String(s || "")
+    .replace(/\*\*(.+?)\*\*/g, "$1")
+    .split("\n")
+    .map((l) => l.trim().replace(/^[-·]\s*/, ""))
+    .filter(Boolean)
+    .join(" · ");
+}
+
 function cardHTML(b, isToday) {
   const wd = weekdayOf(b.date);
   const todayChip = isToday ? `<span class="today">오늘</span>` : "";
@@ -50,7 +61,7 @@ function cardHTML(b, isToday) {
   // counts·peek가 아직 없는 예전 카드는 기존처럼 요약을 보여준다
   const body = counts || peek
     ? counts + peek
-    : `<p class="summary">${esc(b.summary)}</p>`;
+    : `<p class="summary">${esc(flatSummary(b.summary))}</p>`;
   return `<a class="card" href="briefing.html?date=${encodeURIComponent(b.id)}">
     <span class="datebar">
       <span class="date">${esc(b.date)}${wd ? `<span class="wd">${wd}</span>` : ""}</span>${todayChip}
