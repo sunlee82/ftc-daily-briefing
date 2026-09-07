@@ -1,6 +1,6 @@
 // ┌─────────────────────────────────────────────────────────────────────┐
 // │  수집 단계 — 공정거래위원회 홈페이지(ftc.go.kr) 게시판 직접 스크래핑.  │
-// │  (1) 보도자료 게시판 2곳(bordCd=3, key=12/13)                         │
+// │  (1) 보도자료 게시판 2곳(bordCd=3, key=12/13) — 첨부 PDF도 함께 내려받음│
 // │  (2) 위원회 소식 게시판(bordCd=5, key=15) — 첨부 PDF도 함께 내려받음   │
 // │  두 게시판 모두 서버 렌더링된 HTML 테이블이라 정규식으로 파싱한다.     │
 // │  API 키가 필요 없다(공개 게시판).                                     │
@@ -54,9 +54,33 @@ async function fetchHtml(url) {
   return res.text();
 }
 
+// 보도자료 본문은 HTML이 아니라 첨부파일(hwp/hwpx/pdf)에 들어 있다. 상세 페이지를
+// 열어 첨부 목록에서 .pdf 하나를 찾아 내려받는다. 첨부가 없거나 PDF가 없는 글도
+// 있으므로(설명자료 등) 실패는 조용히 넘기고 제목·담당부서만 남긴다.
+const ATTACH_LINK_RE = /<a[^>]+href="\.\/downloadBbsFile\.do\?atchmnflNo=(\d+)"[^>]*>([\s\S]*?)<\/a>/g;
+
+async function fetchPressPdfBase64(sourceUrl) {
+  const html = await fetchHtml(sourceUrl);
+  let atchmnflNo = null;
+  for (const m of html.matchAll(ATTACH_LINK_RE)) {
+    const name = stripTags(m[2]);
+    if (/\.pdf\b/i.test(name) || /\(\s*pdf\s*[,)]/i.test(name)) {
+      atchmnflNo = m[1];
+      break;
+    }
+  }
+  if (!atchmnflNo) return null;
+  const res = await fetch(`${BASE}downloadBbsFile.do?atchmnflNo=${atchmnflNo}`, {
+    headers: { "User-Agent": UA },
+  });
+  if (!res.ok) throw new Error(`PDF ${res.status}`);
+  return Buffer.from(await res.arrayBuffer()).toString("base64");
+}
+
 /**
  * 보도자료 게시판 2곳을 스크래핑해 최근 windowHours 이내 게시물만 반환한다.
- * @returns {Array<{headline,dept,published_at,source_url,boardLabel}>}
+ * 각 게시물의 첨부 PDF(본문)도 함께 내려받는다.
+ * @returns {Array<{headline,dept,published_at,source_url,boardLabel,pdfBase64}>}
  */
 async function fetchPressReleases(windowHours) {
   const recent = recentDateSet(windowHours);
@@ -82,6 +106,19 @@ async function fetchPressReleases(windowHours) {
       results.push({ headline: title, dept, published_at: date, source_url, boardLabel: board.label });
     }
   }
+
+  // 본문 PDF는 병렬로 받되, 일부 실패해도 그 항목은 제목만 남기고 계속 진행한다
+  const settled = await Promise.allSettled(
+    results.map((r) => (r.source_url ? fetchPressPdfBase64(r.source_url) : Promise.resolve(null)))
+  );
+  settled.forEach((s, i) => {
+    if (s.status === "fulfilled") {
+      if (s.value) results[i].pdfBase64 = s.value;
+      else console.warn(`[collectFtcBoard] 첨부 PDF 없음: ${results[i].headline}`);
+    } else {
+      console.warn(`[collectFtcBoard] 보도자료 PDF 실패 (${results[i].headline}): ${s.reason.message}`);
+    }
+  });
   return results;
 }
 
