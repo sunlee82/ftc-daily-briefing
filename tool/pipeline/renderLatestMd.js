@@ -58,9 +58,16 @@ function main() {
   out.push("");
 
   if (brief.summary) {
-    out.push("### 한눈에 보기");
+    // 전체 요약은 그날 항목 전체를 아우르는 핵심 3줄로 온다(줄바꿈 구분).
+    // 회람문에서도 불릿으로 세운다. 예전처럼 한 문단이면 그대로 싣는다.
+    const lines = normalizeBody(brief.summary).split("\n").map((l) => l.trim()).filter(Boolean);
+    out.push("### 오늘의 핵심");
     out.push("");
-    out.push(normalizeBody(brief.summary));
+    if (lines.length > 1) {
+      for (const l of lines) out.push(`- ${l.replace(/^[-·]\s*/, "")}`);
+    } else {
+      out.push(lines[0] || "");
+    }
     out.push("");
   }
 
