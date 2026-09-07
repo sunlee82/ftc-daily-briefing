@@ -96,7 +96,7 @@ async function main() {
   fs.rmSync(PDF_DIR, { recursive: true, force: true });
   fs.mkdirSync(PENDING_DIR, { recursive: true });
 
-  const pressItems = buildPressItems(press);
+  const pressItems = await buildPressItems(press, PDF_DIR);
   const committeeItems = await buildRawCommitteeItems(committee, PDF_DIR);
   const newsItems = buildRawNewsItems(newsRaw);
   const items = [...pressItems, ...committeeItems, ...newsItems];
