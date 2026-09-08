@@ -91,3 +91,53 @@ async function load() {
 }
 
 load();
+
+// ── 방문 수 ────────────────────────────────────────────────────────────
+// GitHub Pages는 정적 사이트라 서버가 없어 외부 카운터(abacus)를 쓴다.
+// 가입·키가 필요 없고, /hit은 1 올리고 값을 돌려주며 /get은 올리지 않고 읽는다.
+// 한 번 방문에 한 번만 세도록 sessionStorage로 막는다(새로고침해도 안 오른다).
+// 서비스가 죽거나 막히면 아무것도 표시하지 않는다 — 깨진 숫자보다 없는 편이 낫다.
+const VISIT_NS = "sunlee82-ftc-briefing";
+const VISIT_API = "https://abacus.jasoncameron.dev";
+
+async function countVisit() {
+  const el = document.getElementById("visits");
+  if (!el) return;
+
+  const today = todayKST();
+  let counted = false;
+  try {
+    counted = sessionStorage.getItem("visited") === today;
+  } catch (_) {
+    // 사생활 보호 모드 등에서 sessionStorage가 막힐 수 있다 — 그때는 그냥 센다
+  }
+  const verb = counted ? "get" : "hit";
+
+  try {
+    // 오늘 키는 자정에 새로 생기므로, 아직 없는 키를 get으로 읽으면 404가 난다.
+    // 그때는 hit으로 한 번 만들어 준다. cache: no-store — 브라우저가 예전 숫자를 물고 있지 않게.
+    const ask = async (key) => {
+      let res = await fetch(`${VISIT_API}/${verb}/${VISIT_NS}/${key}`, { cache: "no-store" });
+      if (!res.ok && verb === "get") {
+        res = await fetch(`${VISIT_API}/hit/${VISIT_NS}/${key}`, { cache: "no-store" });
+      }
+      if (!res.ok) throw new Error(String(res.status));
+      return res.json();
+    };
+    const [total, day] = await Promise.all([ask("total"), ask(today)]);
+    if (typeof total.value !== "number" || typeof day.value !== "number") return;
+
+    el.innerHTML =
+      `누적 <strong>${total.value.toLocaleString()}</strong>` +
+      ` · 오늘 <strong>${day.value.toLocaleString()}</strong>`;
+    el.hidden = false;
+
+    try {
+      sessionStorage.setItem("visited", today);
+    } catch (_) {}
+  } catch (_) {
+    // 조용히 넘어간다
+  }
+}
+
+countVisit();
