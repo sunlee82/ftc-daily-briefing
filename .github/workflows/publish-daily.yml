@@ -170,6 +170,10 @@ jobs:
                - docs/data/briefings/<id>.json 이 이미 있으면: 기존 items에 새 항목을
                  이어붙이고(중복 source_url 제외), title·summary를 전체 내용 기준으로
                  새로 작성한다.
+                 이때 기존 items도 3번의 제외 기준(홍보성 기사, PR 와이어 전재 지면,
+                 오래된 기사)으로 다시 검사해, 걸리는 항목은 이번 실행에서 삭제한다.
+                 규칙이 나중에 추가돼도 이미 실린 항목이 그대로 남는 일을 막기 위한 것이다.
+                 press 항목은 이 재검사에서 제외한다 — 공식 보도자료는 항상 남긴다.
                - 없으면: 새로 생성한다. items는 press → committee → news 순서로 정렬한다.
                  파일 구조는 기존 docs/data/briefings/ 파일들과 동일하게
                  (id, date, title, summary, competitors, keywords, items, generated_at) 맞춘다.
