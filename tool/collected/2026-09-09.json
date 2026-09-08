@@ -1,0 +1,384 @@
+{
+  "id": "2026-09-09",
+  "date": "2026-09-09",
+  "title": "공정거래위원회 일일동향 (초안 — 34건, 제목 다듬기 필요)",
+  "summary": "항목을 취사선택·순서조정한 뒤 저장하면 Claude Code가 제목/요약을 다듬어 배포합니다.",
+  "competitors": [
+    "공정거래위원회"
+  ],
+  "keywords": [
+    "공정위",
+    "과징금",
+    "현장조사",
+    "담합"
+  ],
+  "items": [
+    {
+      "category": "news",
+      "category_label": "뉴스 보도내용",
+      "competitor": "공정거래위원회",
+      "keyword": "담합",
+      "headline": "“자율협약도 담합?”…홀드백, 공정위로 공 넘어가나",
+      "summary": "[헤럴드경제=손미정 기자] 극장 개봉 영화가 OTT나 IPTV에 풀리기까지 걸리는 기간, 이른바 '홀드백'을 둘러싼 논란이 공정거래 이슈로까지 번질 조짐이다.",
+      "source_url": "https://biz.heraldcorp.com/article/10867032",
+      "published_at": "17분 전"
+    },
+    {
+      "category": "news",
+      "category_label": "뉴스 보도내용",
+      "competitor": "공정거래위원회",
+      "keyword": "과징금",
+      "headline": "때린 과징금 도로 거두는 공정위…위법 잡고도 계산 틀려 '신뢰 흔들'",
+      "summary": "공정거래위원회가 기업의 법 위반 행위를 적발하고도 과징금 산정 과정에서 법원의 제동이 걸려 다시 계산하는 사례가 잇따르고 있다.위법행위 자체는 인정됐지만...",
+      "source_url": "https://www.edaily.co.kr/News/Read?newsId=01941766645578480&mediaCodeNo=257",
+      "published_at": "3시간 전"
+    },
+    {
+      "category": "news",
+      "category_label": "뉴스 보도내용",
+      "competitor": "공정거래위원회",
+      "keyword": "공정위",
+      "headline": "주병기 내주 訪美, 쿠팡 해법 찾는다 - 머니투데이",
+      "summary": "주병기 공정거래위원장이 반독점법 콘퍼런스와 국제경쟁네트워크(ICN) 경쟁당국 수장회의에 참석하기 위해 다음주에 미국을 방문하면서 미국 경쟁당국과 양자회담을...",
+      "source_url": "https://www.mt.co.kr/amp/economy/2026/09/09/2026090820055599776",
+      "published_at": "4시간 전"
+    },
+    {
+      "category": "news",
+      "category_label": "뉴스 보도내용",
+      "competitor": "공정거래위원회",
+      "keyword": "과징금",
+      "headline": "공정위 뜨면 로펌이 뛴다",
+      "summary": "“담합 사건 과징금 수천 억” 조사 정보 알아내려 총력 경쟁 로펌의 '앰뷸런스 체이싱'. ChatGPT가 생성한 이미지. “공정위 사건을 따내려고 '잠복 근무'까지 마다않는...",
+      "source_url": "https://www.lawtimes.co.kr/news/articleView.html?idxno=225995",
+      "published_at": "4시간 전"
+    },
+    {
+      "category": "news",
+      "category_label": "뉴스 보도내용",
+      "competitor": "공정거래위원회",
+      "keyword": "공정위",
+      "headline": "'쿠팡 때리기' 오해 풀릴까… 비공식 의제 가능성 주목 - 머니투데이",
+      "summary": "주병기 공정거래위원장이 다음주 미국 경쟁당국과 양자회담을 추진 중인 가운데 공정위의 '쿠팡 때리기'와 관련, 한미간 얽힌 실타래를 풀 수 있을지 주목된다.",
+      "source_url": "https://www.mt.co.kr/amp/economy/2026/09/09/2026090819571320543",
+      "published_at": "5시간 전"
+    },
+    {
+      "category": "news",
+      "category_label": "뉴스 보도내용",
+      "competitor": "공정거래위원회",
+      "keyword": "과징금",
+      "headline": "[광화문]법정에 서기 전 기업은 이미 유죄 선고를 받았다 - 머니투데이",
+      "summary": "나쁜 기업' 낙인에 경영 위축 불가피 법정서 누명 벗어도 명예 회복 어려워 세지는 제재수위, 당국 책임도 커져야. 정진욱 공정거래위원회 기업집단국장이 2020년 7...",
+      "source_url": "https://www.mt.co.kr/amp/living/2026/09/09/2026090814511615335",
+      "published_at": "5시간 전"
+    },
+    {
+      "category": "news",
+      "category_label": "뉴스 보도내용",
+      "competitor": "공정거래위원회",
+      "keyword": "공정위",
+      "headline": "[풍문레이다] 일동후디스① 하이뮨 6천억 신화 키웠더니 '토사구팽'…아이비알커머스, 일동후디스 '갑질' 공정위 고발",
+      "summary": "일동후디스의 대표 단백질 보충제 브랜드 '하이뮨 프로틴밸런스'의 초기 기획과 방송 유통을 주도했던 아이비알커머스가 일동후디스의 일방적인 계약 조건 변경과 거래...",
+      "source_url": "https://www.nbntv.kr/news/articleView.html?idxno=340769",
+      "published_at": "8시간 전"
+    },
+    {
+      "category": "news",
+      "category_label": "뉴스 보도내용",
+      "competitor": "공정거래위원회",
+      "keyword": "과징금",
+      "headline": "출판계 \"제지사, 공정위의 가격재결정 명령 훼손...공동소송 추진\"",
+      "summary": "출판계는 제지업계가 공정거래위원회의 가격재결정 명령 취지를 훼손하는 종잇값 인상을 시도하고 있다고 주장하며, 손해배상소송을 함께 추진하기로 했습니다.",
+      "source_url": "https://m.ytn.co.kr/news_view.amp.php?param=0106_202609090035505787",
+      "published_at": "8시간 전"
+    },
+    {
+      "category": "news",
+      "category_label": "뉴스 보도내용",
+      "competitor": "공정거래위원회",
+      "keyword": "현장조사",
+      "headline": "다이소, 납품업체에 재고 떠넘기기 갑질 의혹…공정위 현장조사",
+      "summary": "공정거래위원회가 생활용품점 다이소를 운영하는 아성다이소의 대규모유통업법 위반 혐의와 관련해 현장 조사에 나섰다. 8일 업계에 따르면 공정위는 이날 서울 강남구...",
+      "source_url": "https://www.munhwa.com/article/11615517",
+      "published_at": "9시간 전"
+    },
+    {
+      "category": "news",
+      "category_label": "뉴스 보도내용",
+      "competitor": "공정거래위원회",
+      "keyword": "과징금",
+      "headline": "도박 크래프트 정리 지속적 통합 핵심 전략",
+      "summary": "도박 크래프트,토토 레고 먹튀,도박 크래프트와이즈 토토 커뮤니티,카지노 딜러 연봉,영국 슬롯 사이트,카지노 6화 무료 보기..",
+      "source_url": "https://www.histoire-pour-tous.fr/5706-origine-des-surnoms-et-numeros-des-rois-de-france.html?ID=3675.html",
+      "published_at": "12시간 전"
+    },
+    {
+      "category": "news",
+      "category_label": "뉴스 보도내용",
+      "competitor": "공정거래위원회",
+      "keyword": "현장조사",
+      "headline": "[단독] 공정위, 다이소 현장조사…납품업체에 ‘재고 떠넘겼나’ 살핀다",
+      "summary": "공정거래위원회가 생활용품점 다이소를 운영하는 아성다이소에 대한 현장조사에 착수했다. 아성다이소는 납품업체에 재고를 떠넘기는 등 대규모유통업법을 위반한 혐의...",
+      "source_url": "https://www.hani.co.kr/arti/economy/economy_general/1276776.html",
+      "published_at": "13시간 전"
+    },
+    {
+      "category": "news",
+      "category_label": "뉴스 보도내용",
+      "competitor": "공정거래위원회",
+      "keyword": "담합",
+      "headline": "출판계, 제지업계 가격 인상 움직임에 공동 대응",
+      "summary": "인쇄용지 가격을 둘러싼 출판계와 제지업계의 갈등이 다시 불거지고 있다. 출판계가 제지업계의 가격 담합 이후 일부 인쇄용지 가격이 다시 오를 움직임을 보이고...",
+      "source_url": "https://www.imaeil.com/page/view/2026090818083818450",
+      "published_at": "14시간 전"
+    },
+    {
+      "category": "news",
+      "category_label": "뉴스 보도내용",
+      "competitor": "공정거래위원회",
+      "keyword": "과징금",
+      "headline": "공정위, 다이소 추가 현장조사…부당 반품 행위 집중 점검하나?",
+      "summary": "다이소, 지난 2020년 3월 대규모유통업법 위반 혐의로 과징금 5억원 등 부과받아. 공정위가 대규모유통업법 위반 혐의를 받고 있는 아성 다이소를 상대로 지난.",
+      "source_url": "https://www.tfmedia.co.kr/news/article.html?no=207075",
+      "published_at": "15시간 전"
+    },
+    {
+      "category": "news",
+      "category_label": "뉴스 보도내용",
+      "competitor": "공정거래위원회",
+      "keyword": "현장조사",
+      "headline": "공정위, 다이소 현장조사…납품업체 갑질 혐의",
+      "summary": "이 글자크기로 변경됩니다. (예시) 가장 빠른 뉴스가 있고 다양한 정보, 쌍방향 소통이 숨쉬는 다음뉴스를 만나보세요. 다음뉴스는 국내외 주요이슈와 실시간 속보,...",
+      "source_url": "https://v.daum.net/v/20260908171202237",
+      "published_at": "15시간 전"
+    },
+    {
+      "category": "news",
+      "category_label": "뉴스 보도내용",
+      "competitor": "공정거래위원회",
+      "keyword": "현장조사",
+      "headline": "공정위, 다이소 ‘갑질’ 추가 현장조사…부당 반품 등 혐의",
+      "summary": "공정거래위원회가 생활용품점 다이소를 운영하는 아성다이소의 납품업체 대상 부당 반품 등 대규모유통업법 위반 혐의에 대해 추가 현장조사에 나섰습니다.",
+      "source_url": "https://ichannela.com/news/detail/000000549314.do",
+      "published_at": "15시간 전"
+    },
+    {
+      "category": "news",
+      "category_label": "뉴스 보도내용",
+      "competitor": "공정거래위원회",
+      "keyword": "현장조사",
+      "headline": "아성다이소, 납품업체 재고 떠넘겼나…공정위 현장조사",
+      "summary": "[인더스트리뉴스 서영길 기자] 공정거래위원회가 생활용품점 다이소를 운영하는 아성다이소의 대규모유통업법 위반 혐의를 들여다보기 위한 현장조사에 착수했다.",
+      "source_url": "https://www.industrynews.co.kr/news/articleView.html?idxno=85706",
+      "published_at": "15시간 전"
+    },
+    {
+      "category": "news",
+      "category_label": "뉴스 보도내용",
+      "competitor": "공정거래위원회",
+      "keyword": "현장조사",
+      "headline": "공정위, 아성다이소 추가 현장조사… 다이소 “조사 성실히 임할 것”",
+      "summary": "［뉴시안= 신선경 기자］공정거래위원회가 균일가 생활용품점 다이소를 운영하는 아성다이소를 상대로 추가 현장조사에 나섰다. 납품업체에 재고 부담이나 판매촉진...",
+      "source_url": "http://www.newsian.co.kr/news/articleView.html?idxno=95008",
+      "published_at": "15시간 전"
+    },
+    {
+      "category": "news",
+      "category_label": "뉴스 보도내용",
+      "competitor": "공정거래위원회",
+      "keyword": "담합",
+      "headline": "\"용지값 71% 폭등\"…출판계, 제지업계에 칼 뽑았다",
+      "summary": "대한출판문화협회 등 19개 출판 단체는 수년간 71% 폭등한 인쇄용지 가격의 원인이 제지사들의 불법 담합에 있다고 보고 공동 소송을 추진함. 제지사의 추가 인상 시도...",
+      "source_url": "https://www.chosun.com/culture-life/culture_general/2026/09/08/64OBM5OWHBBSLLFCR2PE3JRU4A/",
+      "published_at": "15시간 전"
+    },
+    {
+      "category": "news",
+      "category_label": "뉴스 보도내용",
+      "competitor": "공정거래위원회",
+      "keyword": "공정위",
+      "headline": "[단독] 인력 대폭 늘린 공정위…사건 처리 기간은 되레 길어졌다",
+      "summary": "자동요약 기사 제목과 주요 문장을 기반으로 자동요약한 결과입니다. 전체 맥락을 이해하기 위해서는 본문 보기를 권장합니다. 공정거래위원회가 대규모 인력 증원과...",
+      "source_url": "https://v.daum.net/v/20260908162400802",
+      "published_at": "16시간 전"
+    },
+    {
+      "category": "news",
+      "category_label": "뉴스 보도내용",
+      "competitor": "공정거래위원회",
+      "keyword": "공정위",
+      "headline": "주병기, 다음주 美 경쟁당국과 양자협의…쿠팡 현안 거론될까",
+      "summary": "주병기 공정거래위원장이 다음 주 국제회의 참석차 미국을 방문하면서 미국 경쟁당국과 양자협의를 추진한다. 최근 미국 하원에서 쿠팡에 대한 한국 정부의 규제를...",
+      "source_url": "https://www.news1.kr/amp/economy/trend/6283893",
+      "published_at": "16시간 전"
+    },
+    {
+      "category": "news",
+      "category_label": "뉴스 보도내용",
+      "competitor": "공정거래위원회",
+      "keyword": "과징금",
+      "headline": "[단독] 대기업 지정자료 허위제출 막는다…과징금 자산·매출액 최대 10% 부과",
+      "summary": "자동요약 기사 제목과 주요 문장을 기반으로 자동요약한 결과입니다. 전체 맥락을 이해하기 위해서는 본문 보기를 권장합니다. 정부와 여당이 대기업집단의 계열사...",
+      "source_url": "https://v.daum.net/v/XAZiKdztSW",
+      "published_at": "16시간 전"
+    },
+    {
+      "category": "news",
+      "category_label": "뉴스 보도내용",
+      "competitor": "공정거래위원회",
+      "keyword": "과징금",
+      "headline": "출판계, '가격 담합' 제지업계 상대 공동손해배상소송 착수",
+      "summary": "(서울=연합뉴스) 강종훈 기자 = 출판계가 제지업계의 담합과 추가 가격 인상 시도에 반발하며 공동손해배상소송을 추진한다.",
+      "source_url": "https://www.yna.co.kr/amp/view/AKR20260908141600005",
+      "published_at": "16시간 전"
+    },
+    {
+      "category": "news",
+      "category_label": "뉴스 보도내용",
+      "competitor": "공정거래위원회",
+      "keyword": "과징금",
+      "headline": "종잇값 다시 오르나…출판계, 제지업계 가격 인상에 제동",
+      "summary": "대한출판문화협회와 한국출판인회의 등 출판 관련 19개 단체가 제지업계의 종이 가격 인상 움직임에 공동 대응한다. 출판계는 제지사들이 공정거래위원회의 '가격...",
+      "source_url": "https://www.kyosu.net/news/articleView.html?idxno=209968",
+      "published_at": "16시간 전"
+    },
+    {
+      "category": "news",
+      "category_label": "뉴스 보도내용",
+      "competitor": "공정거래위원회",
+      "keyword": "현장조사",
+      "headline": "공정위, ’납품업체에 상품 반품 갑질 의혹’ 다이소 현장 조사",
+      "summary": "공정거래위원회가 생활용품점 다이소를 운영하는 아성다이소의 대규모유통업법 위반 혐의와 관련해 현장 조사에 나섰습니다. 공정위는 오늘(8일) 서울 강남구 아성다이...",
+      "source_url": "https://www.yonhapnewstv.co.kr/news/AKR202609081654369fT",
+      "published_at": "16시간 전"
+    },
+    {
+      "category": "news",
+      "category_label": "뉴스 보도내용",
+      "competitor": "공정거래위원회",
+      "keyword": "현장조사",
+      "headline": "공정위, '납품업체에 상품 반품 갑질 의혹' 다이소 현장 조사",
+      "summary": "(세종=연합뉴스) 김수현 기자 = 공정거래위원회가 생활용품점 다이소를 운영하는 아성다이소의 대규모유통업법 위반 혐의와 관련해 현장 조사에 나섰다...",
+      "source_url": "https://www.yna.co.kr/view/AKR20260908142400002",
+      "published_at": "16시간 전"
+    },
+    {
+      "category": "news",
+      "category_label": "뉴스 보도내용",
+      "competitor": "공정거래위원회",
+      "keyword": "담합",
+      "headline": "출판단체 19곳 “제지사들, 불법적 담합 가격을 ‘정상 가격’으로 둔갑” 반발",
+      "summary": "출판계가 제지사들의 종이 가격 인상을 두고 “불법적 담합 가격을 '정상 가격'으로 둔갑시키려는 시도”라고 비판하고 나섰다. 대한출판문화협회와 한국출판인회의,...",
+      "source_url": "https://www.hani.co.kr/arti/culture/book/1276803.html",
+      "published_at": "16시간 전"
+    },
+    {
+      "category": "news",
+      "category_label": "뉴스 보도내용",
+      "competitor": "공정거래위원회",
+      "keyword": "담합",
+      "headline": "출판계 \"제지사, 공정위 가격재결정 악용해 되레 인상 시도\"",
+      "summary": "[서울=뉴시스] 조기용 기자 = 출판계는 제지사들이 공정거래위원회의 가격재결정 절차를 악용해 13%의 추가 가격을 인상했다며 반발하고 나섰다.",
+      "source_url": "https://mobile.newsis.com/view_amp.html?ar_id=NISX20260908_0003781191",
+      "published_at": "16시간 전"
+    },
+    {
+      "category": "news",
+      "category_label": "뉴스 보도내용",
+      "competitor": "공정거래위원회",
+      "keyword": "공정위",
+      "headline": "공정위-EU 경쟁총국과 경쟁정책·최근 법 집행 동향 논의",
+      "summary": "(세종=연합뉴스) 김수현 기자 = 공정거래위원회는 유럽연합(EU) 집행위원회 경쟁총국(EU 경쟁총국)과 '제6회 한-EU 경쟁정책 연구회'를 8...",
+      "source_url": "https://www.yna.co.kr/amp/view/AKR20260908043800002",
+      "published_at": "17시간 전"
+    },
+    {
+      "category": "news",
+      "category_label": "뉴스 보도내용",
+      "competitor": "공정거래위원회",
+      "keyword": "공정위",
+      "headline": "한-EU 경쟁정책 연구회 3년 만에 재개…경제분석·법집행 경험 공유",
+      "summary": "8~9일 이틀간 화상회의…정량적 증거 활용 사례 논의 시장환경 변화 대응한 양측 정책 추진·법 집행 동향도 점검. [세종=뉴스핌] 김현구 기자 = 공정거래위원회가 유럽...",
+      "source_url": "https://www.newspim.com/news/view/20260908000849",
+      "published_at": "17시간 전"
+    },
+    {
+      "category": "news",
+      "category_label": "뉴스 보도내용",
+      "competitor": "공정거래위원회",
+      "keyword": "공정위",
+      "headline": "공정위·EU 경쟁총국, 3년 만에 경쟁정책 연구회…경제분석·법집행 논의",
+      "summary": "(세종=뉴스1) 심서현 기자 = 공정거래위원회와 유럽연합(EU) 집행위원회 경쟁총국이 3년 만에 경쟁정책 연구회를 열고 경제분석과 증거 활용, 최근 경쟁정책 및 법...",
+      "source_url": "https://www.news1.kr/economy/trend/6283545",
+      "published_at": "17시간 전"
+    },
+    {
+      "category": "news",
+      "category_label": "뉴스 보도내용",
+      "competitor": "공정거래위원회",
+      "keyword": "과징금",
+      "headline": "출판계, 제지사 소송…담합 가격 인하커녕 13% 추가 인상",
+      "summary": "대한출판문화협회와 한국출판인회의 등 출판 관련 19개 단체(이하 출판계)는 8일 공동성명을 발표하고 제지업계가 공정거래위원회의 '가격재결정' 절차를 악용해 담합...",
+      "source_url": "https://www.ajunews.com/amp/20260908154012090",
+      "published_at": "17시간 전"
+    },
+    {
+      "category": "news",
+      "category_label": "뉴스 보도내용",
+      "competitor": "공정거래위원회",
+      "keyword": "담합",
+      "headline": "출판단체들 \"제지사, 담합 가격 되레 인상 시도\" 반발",
+      "summary": "자동요약 기사 제목과 주요 문장을 기반으로 자동요약한 결과입니다. 전체 맥락을 이해하기 위해서는 본문 보기를 권장합니다. 공정거래위원회의 제지사 담합 제재...",
+      "source_url": "https://v.daum.net/v/20260908153913559?f=p",
+      "published_at": "17시간 전"
+    },
+    {
+      "category": "news",
+      "category_label": "뉴스 보도내용",
+      "competitor": "공정거래위원회",
+      "keyword": "공정위",
+      "headline": "미국과 양자회담 추진하는 공정위…쿠팡 갈등 풀 수 있을까 - 머니투데이",
+      "summary": "주병기 공정거래위원장이 다음주 미국 경쟁당국과 양자회담을 추진 중인 가운데 공정위의 '쿠팡 때리기'와 관련해 한미 간 얽힌 실타래를 풀 수 있을지 주목된다.",
+      "source_url": "https://www.mt.co.kr/amp/society/2026/09/08/2026090809514019463",
+      "published_at": "18시간 전"
+    },
+    {
+      "category": "news",
+      "category_label": "뉴스 보도내용",
+      "competitor": "공정거래위원회",
+      "keyword": "공정위",
+      "headline": "공정위, 상조회사 선수금 자료제출 요구권 시행",
+      "summary": "개정 할부거래법 공포 즉시 발효⋯지배주주 신용공여 제한·실태조사는 내년 시행 공정거래위원회가 상조회사 등 선불식 할부거래업자에 선수금 납입 내역 등 소비자...",
+      "source_url": "http://www.inews24.com/view/2003198",
+      "published_at": "19시간 전"
+    }
+  ],
+  "generated_at": "2026-09-08T23:39:29.426Z",
+  "_meta": {
+    "sources": [
+      "ftc.go.kr(보도자료)",
+      "ftc.go.kr(위원회 소식)",
+      "serper.dev/news"
+    ],
+    "windowHours": {
+      "press": 48,
+      "committee": 168,
+      "news": 24
+    },
+    "committeeCandidates": 0,
+    "categoryCounts": {
+      "press": 0,
+      "committee": 0,
+      "news": 34
+    },
+    "collected": 40,
+    "deduped": 34,
+    "errors": [
+      "보도자료(보도/참고자료) 조회 실패: fetch failed [UND_ERR_CONNECT_TIMEOUT Connect Timeout Error (attempted address: www.ftc.go.kr:443, timeout: 10000ms)] — 5회 모두 실패 (https://www.ftc.go.kr/www/selectBbsNttList.do?bordCd=3&key=12&searchCtgry=01,02)",
+      "위원회 소식 조회 실패: fetch failed [UND_ERR_CONNECT_TIMEOUT Connect Timeout Error (attempted address: www.ftc.go.kr:443, timeout: 10000ms)] — 5회 모두 실패 (https://www.ftc.go.kr/www/selectBbsNttList.do?bordCd=5&key=15) — 이 날의 위원회 소식은 수집되지 않았습니다.",
+      "보도자료(설명자료) 조회 실패: fetch failed [UND_ERR_CONNECT_TIMEOUT Connect Timeout Error (attempted address: www.ftc.go.kr:443, timeout: 10000ms)] — 5회 모두 실패 (https://www.ftc.go.kr/www/selectBbsNttList.do?bordCd=3&key=13&searchCtgry=03)",
+      "보도자료 게시판을 한 곳도 읽지 못했습니다 — 이 날의 보도자료는 수집되지 않았습니다."
+    ]
+  }
+}
