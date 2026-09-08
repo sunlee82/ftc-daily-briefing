@@ -1,8 +1,8 @@
 {
   "id": "2026-09-08",
   "date": "2026-09-08",
-  "title": "공정위, 유통업법 과징금 체계 개편 입법예고",
-  "summary": "**대규모유통업법** 시행령·과징금 고시 입법·행정예고, 정률과징금 체계로 개편\n과징금 **하한 상향**, 반복 법위반 가중 강화도 추진\n**아이에스동서**, PEF 출자지분 놓고 공정위와 **대법원**행 채비",
+  "title": "공정위 현장조사 적법성 두고 법정공방",
+  "summary": "대기업 상대 **휴대전화 압수** 등 조사방식 위법성 소송 제기\n**아이에스동서**, PEF 출자지분 과징금 놓고 **대법원**행 채비\n공정위, **대규모유통업법** 과징금 정률제 개편 입법예고",
   "competitors": [
     "공정거래위원회"
   ],
@@ -17,11 +17,11 @@
       "category": "news",
       "category_label": "뉴스 보도내용",
       "competitor": "공정거래위원회",
-      "keyword": "과징금",
-      "headline": "공정위, 대규모유통업법 시행령·과징금 고시 입법·행정예고",
-      "summary": "정률과징금 확대 등 유통 과징금 부과체계 개편 착수.\n과징금 하한 상향, 반복 위반 가중도 강화.",
-      "source_url": "https://go.seoul.co.kr/news/prnewsView.php?id=444193",
-      "published_at": "16시간 전"
+      "keyword": "현장조사",
+      "headline": "공정위 현장조사 방식, 법정에서 적법성 공방",
+      "summary": "대기업 상대 휴대전화 압수 등 조사방법이 쟁점.\n자료제출명령 취소소송 결과에 재계 이목 집중.",
+      "source_url": "https://www.hankookilbo.com/news/article/amp/A2026090513430000408",
+      "published_at": "4시간 전"
     },
     {
       "category": "news",
@@ -32,7 +32,17 @@
       "summary": "PEF 출자지분을 지주회사 규제상 주식으로 볼지가 쟁점.\n공정위 부과 과징금 취소소송, 상고 여부 주목.",
       "source_url": "https://news.nate.com/view/20260908n02749",
       "published_at": "3시간 전"
+    },
+    {
+      "category": "news",
+      "category_label": "뉴스 보도내용",
+      "competitor": "공정거래위원회",
+      "keyword": "과징금",
+      "headline": "공정위, 대규모유통업법 시행령·과징금 고시 입법·행정예고",
+      "summary": "정률과징금 확대 등 유통 과징금 부과체계 개편 착수.\n과징금 하한 상향, 반복 위반 가중도 강화.",
+      "source_url": "https://go.seoul.co.kr/news/prnewsView.php?id=444193",
+      "published_at": "16시간 전"
     }
   ],
-  "generated_at": "2026-09-07T23:42:07.000Z"
+  "generated_at": "2026-09-08T00:05:09.000Z"
 }
