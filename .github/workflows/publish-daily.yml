@@ -285,6 +285,11 @@ jobs:
       # (실패하면 다음 날 실행이 다시 만든다)
       - name: 회람용 latest.md 생성·커밋
         continue-on-error: true
+        env:
+          # claude-code-action이 실행되면서 actions/checkout이 심어둔 인증 헤더를
+          # 정리해버려, 그 뒤 단계의 git push가 "Authentication failed"로 막힌다
+          # (2026-09-08 확인). 그래서 푸시할 때 토큰을 명시적으로 붙인다.
+          GH_TOKEN: ${{ github.token }}
         run: |
           set -x
           git rev-parse --abbrev-ref HEAD
@@ -308,4 +313,8 @@ jobs:
           # 브랜치 이름 대신 HEAD를 명시적으로 main에 밀어넣는다.
           git fetch origin main
           git rebase origin/main || git rebase --abort
-          git push origin HEAD:main
+
+          # 토큰이 로그에 찍히지 않도록 추적 출력을 끄고 푸시한다
+          set +x
+          git push "https://x-access-token:${GH_TOKEN}@github.com/${GITHUB_REPOSITORY}.git" HEAD:main
+          echo "latest.md 푸시 완료."
