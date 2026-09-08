@@ -484,3 +484,16 @@ header.site p { margin: 0; color: rgba(255, 255, 255, 0.88); font-size: 0.95rem;
 /* 원문 버튼이 항목 끝에서 빠졌으므로 마지막 요소의 아래 여백을 없앤다 */
 .item > p:last-child,
 .item > ul.pts:last-child { margin-bottom: 0; }
+
+/* --- 히어로 방문 수 --- */
+header.site .visits {
+  margin: 6px 0 0;
+  font-size: 0.82rem;
+  color: rgba(255, 255, 255, 0.72);
+  font-variant-numeric: tabular-nums;
+  letter-spacing: 0.01em;
+}
+header.site .visits strong {
+  color: #ffffff;
+  font-weight: 800;
+}
