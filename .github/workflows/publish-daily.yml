@@ -67,7 +67,12 @@ jobs:
 
       - name: Claude Code로 다듬기·배포
         if: steps.check.outputs.found == 'true'
-        uses: anthropics/claude-code-action@v1
+        # v1은 움직이는 태그라 새 릴리스가 나오면 그대로 따라간다. 2026-09-09 새벽에
+        # v1이 v1.0.218(Claude Code 2.1.265)로 옮겨졌는데 그 버전은 설치가 실패해
+        # "native binary not found at ~/.local/bin/claude"로 죽었다. 그래서 마지막으로
+        # 정상 동작한 v1.0.217(Claude Code 2.1.263)에 고정한다.
+        # 상류가 고쳐지면 다시 @v1로 되돌리거나 더 최신 태그로 올린다.
+        uses: anthropics/claude-code-action@v1.0.217
         with:
           claude_code_oauth_token: ${{ secrets.CLAUDE_CODE_OAUTH_TOKEN }}
           claude_args: >-
