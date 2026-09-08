@@ -51,8 +51,11 @@ function recentDateSet(windowHours) {
 // ftc.go.kr은 이따금 순간적으로 응답하지 않는다. 하루 한 번뿐인 수집이라
 // 그때 조회를 놓치면 그날 자료가 통째로 비고, 위원회 소식은 대상일이 지나가
 // 다음 날 회수도 안 된다(2026-09-08 실제로 발생). 그래서 짧게 재시도한다.
-const FETCH_ATTEMPTS = 3;
-const RETRY_DELAY_MS = [2000, 5000];
+// 2026-09-08: GitHub Actions 러너에서 ftc.go.kr 연결이 통째로 실패하는 일이 생겼다
+// (fetch failed = HTTP 오류가 아니라 DNS/TCP 단계 실패). 같은 시각 다른 망에서는
+// 정상이었으므로 러너 IP 쪽 문제로 보인다. 간헐적일 수 있어 재시도 창을 넓힌다.
+const FETCH_ATTEMPTS = 5;
+const RETRY_DELAY_MS = [3000, 8000, 20000, 40000];
 
 function sleep(ms) {
   return new Promise((r) => setTimeout(r, ms));
@@ -66,10 +69,12 @@ async function fetchHtml(url) {
       if (!res.ok) throw new Error(`ftc.go.kr ${res.status}`);
       return await res.text();
     } catch (err) {
-      lastErr = err;
+      // "fetch failed"만으로는 DNS·TCP·TLS 중 무엇인지 알 수 없다. cause까지 남긴다.
+      const cause = err.cause ? ` [${err.cause.code || ""} ${err.cause.message || ""}]`.trim() : "";
+      lastErr = new Error(`${err.message}${cause ? " " + cause : ""}`);
       if (i < FETCH_ATTEMPTS - 1) {
         const wait = RETRY_DELAY_MS[i];
-        console.warn(`[collectFtcBoard] 조회 실패(${i + 1}/${FETCH_ATTEMPTS}) ${err.message} — ${wait}ms 후 재시도: ${url}`);
+        console.warn(`[collectFtcBoard] 조회 실패(${i + 1}/${FETCH_ATTEMPTS}) ${lastErr.message} — ${wait}ms 후 재시도: ${url}`);
         await sleep(wait);
       }
     }
