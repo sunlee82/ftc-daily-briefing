@@ -71,16 +71,6 @@
       "category": "news",
       "category_label": "뉴스 보도내용",
       "competitor": "공정거래위원회",
-      "keyword": "공정위",
-      "headline": "공정위, 상조회사 선수금 자료제출요구권 시행",
-      "summary": "개정 할부거래법 공포 즉시 발효로 소비자 보호 강화.\n지배주주 신용공여 제한·실태조사는 **내년** 시행.",
-      "source_url": "http://www.inews24.com/view/2003198",
-      "published_at": "19시간 전"
-    },
-    {
-      "category": "news",
-      "category_label": "뉴스 보도내용",
-      "competitor": "공정거래위원회",
       "keyword": "과징금",
       "headline": "대기업 지정자료 허위제출 시 과징금 최대 10% 추진",
       "summary": "정부여당, 대기업집단 계열사 자료 허위제출 처벌 강화 추진.\n과징금 상한 자산·매출액의 **최대 10%**로 상향.",
@@ -91,11 +81,21 @@
       "category": "news",
       "category_label": "뉴스 보도내용",
       "competitor": "공정거래위원회",
-      "keyword": "과징금",
-      "headline": "공정위, CJ대한통운 이의신청 기각…\"부당특약 과징금 정당\"",
-      "summary": "부동산 담보비용 전가, 즉시해지 조항 등 부당특약으로 인정.\n집화전담점도 하도급법상 수급사업자로 판단.",
-      "source_url": "https://v.daum.net/v/20260908144729631",
-      "published_at": "18시간 전"
+      "keyword": "공정위",
+      "headline": "공정위, '애크하이어'도 기업결합 신고대상으로…신고요령 개정 행정예고",
+      "summary": "핵심인력·기술 이전으로 사업을 이어가면 영업양수로 판단.\n양수금액·이행행위 기준 정비, 글로벌 빅테크 신유형 결합 대응.",
+      "source_url": "https://www.news1.kr/economy/trend/6284448",
+      "published_at": "31분 전"
+    },
+    {
+      "category": "news",
+      "category_label": "뉴스 보도내용",
+      "competitor": "공정거래위원회",
+      "keyword": "공정위",
+      "headline": "공정위, 상조회사 선수금 자료제출요구권 시행",
+      "summary": "개정 할부거래법 공포 즉시 발효로 소비자 보호 강화.\n지배주주 신용공여 제한·실태조사는 **내년** 시행.",
+      "source_url": "http://www.inews24.com/view/2003198",
+      "published_at": "19시간 전"
     },
     {
       "category": "news",
@@ -112,10 +112,10 @@
       "category_label": "뉴스 보도내용",
       "competitor": "공정거래위원회",
       "keyword": "과징금",
-      "headline": "과징금 부과하고도 법원서 뒤집히는 공정위",
-      "summary": "위법행위는 인정되나 과징금 산정에서 거듭 제동.\n반복되는 셈법 오류에 신뢰도 논란.",
-      "source_url": "https://www.edaily.co.kr/News/Read?newsId=01941766645578480&mediaCodeNo=257",
-      "published_at": "3시간 전"
+      "headline": "공정위, CJ대한통운 이의신청 기각…\"부당특약 과징금 정당\"",
+      "summary": "부동산 담보비용 전가, 즉시해지 조항 등 부당특약으로 인정.\n집화전담점도 하도급법상 수급사업자로 판단.",
+      "source_url": "https://v.daum.net/v/20260908144729631",
+      "published_at": "18시간 전"
     },
     {
       "category": "news",
@@ -132,10 +132,30 @@
       "category_label": "뉴스 보도내용",
       "competitor": "공정거래위원회",
       "keyword": "과징금",
+      "headline": "과징금 부과하고도 법원서 뒤집히는 공정위",
+      "summary": "위법행위는 인정되나 과징금 산정에서 거듭 제동.\n반복되는 셈법 오류에 신뢰도 논란.",
+      "source_url": "https://www.edaily.co.kr/News/Read?newsId=01941766645578480&mediaCodeNo=257",
+      "published_at": "3시간 전"
+    },
+    {
+      "category": "news",
+      "category_label": "뉴스 보도내용",
+      "competitor": "공정거래위원회",
+      "keyword": "과징금",
       "headline": "공정위 뜨면 로펌이 뛴다",
       "summary": "조사 정보 선점 위한 로펌 간 경쟁 과열 양상.\n대형 담합 사건 과징금 수임 경쟁이 배경.",
       "source_url": "https://www.lawtimes.co.kr/news/articleView.html?idxno=225995",
       "published_at": "4시간 전"
+    },
+    {
+      "category": "news",
+      "category_label": "뉴스 보도내용",
+      "competitor": "공정거래위원회",
+      "keyword": "담합",
+      "headline": "극장·OTT '홀드백' 자율협약, 담합 논란 공정위로 번지나",
+      "summary": "극장 개봉작의 OTT·IPTV 공개 시점을 정한 홀드백 자율협약이 쟁점.\n담합 소지 논란에 공정위 판단 여부 주목.",
+      "source_url": "https://v.daum.net/v/20260909082008391",
+      "published_at": "2시간 전"
     },
     {
       "category": "news",
@@ -148,5 +168,5 @@
       "published_at": "5시간 전"
     }
   ],
-  "generated_at": "2026-09-08T23:47:51.971Z"
+  "generated_at": "2026-09-09T01:41:06.000Z"
 }
