@@ -41,6 +41,36 @@ const { buildPressItems, buildRawNewsItems, buildRawCommitteeItems, buildRawOver
 const MONITORED_AGENCY = "공정거래위원회";
 // 웹 도구 기본 필수 키워드와 동일 (tool/public/app.js의 DEFAULT_MANDATORY_KEYWORDS)
 const MANDATORY_KEYWORDS = ["공정위", "과징금", "현장조사", "담합"];
+
+// ── 관심 회사군 ────────────────────────────────────────────────────────
+// 이 브리핑은 SK텔레콤과 그 관계사에서 사내 회람용으로 본다. 임원도 보기 때문에
+// 그룹 차원의 공정위 이슈까지 알아야 한다. 그래서 기관 축(공정거래위원회 × 키워드)만으로는
+// 놓치는 자사·그룹 기사를 회사 축으로 따로 훑는다.
+//
+// 회사명 단독으로 검색하면 실적·요금제·인사 기사가 쏟아지므로, 반드시 "공정거래위원회"와
+// 묶어서 검색한다. 좁은 쿼리라 관련 기사가 없는 날은 0건으로 끝나 수집량이 불지 않는다.
+const TELECOM_AFFILIATES = [
+  "SK텔레콤",
+  "SK브로드밴드",
+  "SK오앤에스",
+  "SK텔링크",
+  "SK스토아",
+  "SK쉴더스",
+];
+const SK_GROUP = [
+  "SK그룹",
+  "SK하이닉스",
+  "SK이노베이션",
+  "SK네트웍스",
+  "SK에코플랜트",
+  "SK스퀘어",
+  "SK케미칼",
+  "SK바이오팜",
+];
+const AFFILIATE_COMPANIES = [...TELECOM_AFFILIATES, ...SK_GROUP];
+// 회사 축은 이 한 단어로만 묶는다 — 넓히면 무관한 기사가 딸려 온다.
+const AFFILIATE_KEYWORDS = [MONITORED_AGENCY];
+const MAX_PER_AFFILIATE = 5;
 // ftc.go.kr 게시판(보도자료·위원회 소식)은 collectFtcBoard.js의 recentDateSet이
 // 시각이 아니라 "등록일" 날짜 단위로 비교한다. 아침 9시에 실행하면 어제 오후·저녁에
 // 등록된 게시물도 실제로는 24시간 이내인데 날짜가 하루 다르다는 이유로 빠질 수 있어
@@ -79,13 +109,18 @@ async function main() {
   // "수집 실패"와 "그날 자료 없음"이 구분되지 않는다(2026-09-08에 실제로 발생).
   const boardErrors = [];
 
-  const [pressRaw, committeeRaw, newsRawAll] = await Promise.all([
+  const [pressRaw, committeeRaw, newsRawAll, affiliateRawAll] = await Promise.all([
     fetchPressReleases(WINDOW_HOURS_PRESS, boardErrors).catch((e) => ({ error: e.message, items: [] })),
     fetchCommitteeNews(WINDOW_HOURS_COMMITTEE, boardErrors).catch((e) => ({ error: e.message, items: [] })),
     collect([MONITORED_AGENCY], MANDATORY_KEYWORDS, {
       windowHours: WINDOW_HOURS_NEWS,
       maxPerPair: MAX_PER_PAIR,
     }).catch((e) => ({ error: e.message, items: [] })),
+    // 회사 축 — 실패해도 기관 축 결과로 브리핑은 나온다
+    collect(AFFILIATE_COMPANIES, AFFILIATE_KEYWORDS, {
+      windowHours: WINDOW_HOURS_NEWS,
+      maxPerPair: MAX_PER_AFFILIATE,
+    }).catch((e) => ({ error: `관심 회사군 검색 실패: ${e.message}`, items: [] })),
   ]);
 
   const press = Array.isArray(pressRaw) ? pressRaw : pressRaw.items || [];
@@ -94,7 +129,10 @@ async function main() {
   // 이 필터를 통과한 것만 PDF를 저장·텍스트 추출하므로 today.json도 가벼워진다.
   const committee = committeeAll.filter((r) => String(r.headline || "").startsWith(date));
   const newsRawList = Array.isArray(newsRawAll) ? newsRawAll : newsRawAll.items || [];
-  const newsRaw = dedupeAndSort(newsRawList);
+  const affiliateList = Array.isArray(affiliateRawAll) ? affiliateRawAll : affiliateRawAll.items || [];
+  // 두 축을 합친 뒤 한 번에 중복 제거한다. 같은 기사가 양쪽에서 잡히면 하나만 남는다.
+  // 항목의 competitor 필드에 회사명이 남아, 배포 단계가 관심 회사군 기사를 알아볼 수 있다.
+  const newsRaw = dedupeAndSort([...newsRawList, ...affiliateList]);
 
   // 매번 통째로 새로 씀 — 전날 위원회 소식 PDF가 남아있지 않도록 먼저 비운다
   fs.rmSync(PDF_DIR, { recursive: true, force: true });
@@ -125,15 +163,17 @@ async function main() {
       sources: ["ftc.go.kr(보도자료)", "ftc.go.kr(위원회 소식)", "serper.dev/news"],
       windowHours: { press: WINDOW_HOURS_PRESS, committee: WINDOW_HOURS_COMMITTEE, news: WINDOW_HOURS_NEWS },
       committeeCandidates: committeeAll.length,
+      affiliateCompanies: AFFILIATE_COMPANIES.length,
+      affiliateCollected: affiliateList.length,
       categoryCounts: { press: pressItems.length, committee: committeeItems.length, news: newsItems.length },
-      collected: newsRawList.length,
+      collected: newsRawList.length + affiliateList.length,
       deduped: newsRaw.length,
-      errors: [pressRaw.error, committeeRaw.error, newsRawAll.error, ...boardErrors].filter(Boolean),
+      errors: [pressRaw.error, committeeRaw.error, newsRawAll.error, affiliateRawAll.error, ...boardErrors].filter(Boolean),
     },
   };
 
   fs.writeFileSync(OUT_PATH, JSON.stringify(output, null, 2) + "\n");
-  console.log(`수집 완료: ${OUT_PATH} (press ${pressItems.length}, committee ${committeeItems.length}/${committeeAll.length} 대상일 일치, news ${newsItems.length})`);
+  console.log(`수집 완료: ${OUT_PATH} (press ${pressItems.length}, committee ${committeeItems.length}/${committeeAll.length} 대상일 일치, news ${newsItems.length} — 기관 축 ${newsRawList.length} + 회사 축 ${affiliateList.length} 중복 제거)`);
 
   // 실패가 있었으면 Actions 로그 맨 끝에서 눈에 띄게 알린다.
   // 종료 코드는 0으로 둔다 — 여기서 실패시키면 다듬기·배포가 통째로 건너뛰어
