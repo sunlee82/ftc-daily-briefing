@@ -1,8 +1,8 @@
 {
   "id": "2026-09-09",
   "date": "2026-09-09",
-  "title": "다이소 현장조사와 제7차 소비자정책 기본계획 확정",
-  "summary": "한성숙 총리 주재 소비자정책위, **제7차 소비자정책 기본계획('27~'29)** 확정\n아성다이소 본사 **추가 현장조사** 착수 — 재고·판촉비 떠넘기기 의혹\n출판계 **19개 단체**, 제지업계 상대 담합 손해배상 **공동소송** 착수",
+  "title": "한화 자료제출명령 첫 효력정지·제지 담합 과징금 30억",
+  "summary": "공정위 **한화** 현장조사 자료제출명령, 법원이 사상 첫 **효력정지**\n농민신문 인쇄용지 입찰담합 제지 6개사에 과징금 **30억 900만원**·2곳 검찰고발\nAI 인재 통째 영입(애크하이어)도 기업결합 신고 대상, **9월 30일**까지 행정예고",
   "competitors": [
     "공정거래위원회"
   ],
@@ -13,6 +13,22 @@
     "담합"
   ],
   "items": [
+    {
+      "category": "press",
+      "category_label": "공정위 보도자료",
+      "headline": "농민신문사 발주 인쇄용지 입찰담합 제재",
+      "summary": "농민신문사 인쇄용지 입찰서 담합한 제지 6개사에 시정명령·과징금 부과한다.\n- 2021년 6월~2024년 11월 **6건** 입찰서 낙찰예정자·가격 사전 담합\n- 과징금 총 **30억 900만원**, 한솔제지·한국제지 **검찰 고발**\n- 담합기간 평균 낙찰률 **96.2%**(최대 99.4%), 담합前보다 크게 상승\n- 올해 **4월** 인쇄용지 가격담합 제재에 이은 동일 사업자 재적발",
+      "source_url": "https://www.ftc.go.kr/www/selectBbsNttView.do?pageUnit=10&pageIndex=1&searchCnd=all&key=12&bordCd=3&searchCtgry=01,02&nttSn=47987",
+      "published_at": "2026-09-09"
+    },
+    {
+      "category": "press",
+      "category_label": "공정위 보도자료",
+      "headline": "기업결합의 신고요령 고시 개정안 행정예고",
+      "summary": "AI 스타트업 등 핵심인력 통째 영입(애크하이어)도 기업결합 신고 대상임을 명확히 한다.\n- 조직화된 인력과 보유 기술이 사업 핵심 기능 수행 시 '영업'에 포함\n- 인력 이전 대가·경업금지 해제 등도 양수금액 산정 기준에 포함\n- 행정예고 **9월 9일~9월 30일**, 의견수렴 후 전원회의 의결로 확정\n- 유럽연합·독일·영국 등 해외 경쟁당국과 공조해 마련",
+      "source_url": "https://www.ftc.go.kr/www/selectBbsNttView.do?pageUnit=10&pageIndex=1&searchCnd=all&key=12&bordCd=3&searchCtgry=01,02&nttSn=47986",
+      "published_at": "2026-09-09"
+    },
     {
       "category": "press",
       "category_label": "공정위 보도자료",
@@ -82,10 +98,10 @@
       "category_label": "뉴스 보도내용",
       "competitor": "공정거래위원회",
       "keyword": "공정위",
-      "headline": "공정위, '애크하이어'도 기업결합 신고대상으로…신고요령 개정 행정예고",
-      "summary": "핵심인력·기술 이전으로 사업을 이어가면 영업양수로 판단.\n양수금액·이행행위 기준 정비, 글로벌 빅테크 신유형 결합 대응.",
-      "source_url": "https://www.news1.kr/economy/trend/6284448",
-      "published_at": "31분 전"
+      "headline": "대규모유통업법 정산주기 35일로 단축 추진",
+      "summary": "위반 시 공정위 과징금 대상, 쿠팡·다이소·올리브영 등 **30개사** 영향권.\n소상공인 신속시행 요구, 소비자단체는 가격인상 우려로 엇갈림.",
+      "source_url": "https://www.mt.co.kr/amp/living/2026/09/09/2026090911445166171",
+      "published_at": "2시간 전"
     },
     {
       "category": "news",
@@ -101,11 +117,11 @@
       "category": "news",
       "category_label": "뉴스 보도내용",
       "competitor": "공정거래위원회",
-      "keyword": "공정위",
-      "headline": "주병기 위원장, 다음주 방미…쿠팡 현안 논의되나",
-      "summary": "美 반독점법 콘퍼런스·ICN 경쟁당국 수장회의 참석 겸 방문.\n미 경쟁당국과 양자회담서 쿠팡 이슈 비공식 의제 가능성.",
-      "source_url": "https://www.mt.co.kr/amp/economy/2026/09/09/2026090820055599776",
-      "published_at": "5시간 전"
+      "keyword": "현장조사",
+      "headline": "법원, 공정위 한화 자료제출명령 첫 효력정지",
+      "summary": "한화 상표권 사용료 내부거래 조사 중 영장 없는 휴대전화 열람이 발단.\n강제수사권 없는 공정위 현장조사 관행에 제동, 효력정지 첫 사례로 파장.",
+      "source_url": "https://www.mk.co.kr/news/society/12148285",
+      "published_at": "3시간 전"
     },
     {
       "category": "news",
@@ -116,6 +132,16 @@
       "summary": "부동산 담보비용 전가, 즉시해지 조항 등 부당특약으로 인정.\n집화전담점도 하도급법상 수급사업자로 판단.",
       "source_url": "https://v.daum.net/v/20260908144729631",
       "published_at": "18시간 전"
+    },
+    {
+      "category": "news",
+      "category_label": "뉴스 보도내용",
+      "competitor": "공정거래위원회",
+      "keyword": "공정위",
+      "headline": "주병기 위원장, 다음주 방미…쿠팡 현안 논의되나",
+      "summary": "美 반독점법 콘퍼런스·ICN 경쟁당국 수장회의 참석 겸 방문.\n미 경쟁당국과 양자회담서 쿠팡 이슈 비공식 의제 가능성.",
+      "source_url": "https://www.mt.co.kr/amp/economy/2026/09/09/2026090820055599776",
+      "published_at": "5시간 전"
     },
     {
       "category": "news",
@@ -168,5 +194,5 @@
       "published_at": "5시간 전"
     }
   ],
-  "generated_at": "2026-09-09T01:41:06.000Z"
+  "generated_at": "2026-09-09T09:14:29.193Z"
 }
