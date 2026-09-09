@@ -87,7 +87,7 @@ function pipelineHTML(allCases) {
     <h3 class="stage-title">
       <span class="stage-name">SK그룹 관련</span>
       <span class="stage-count">${ours.length}</span>
-      <span class="stage-desc">SK텔레콤·관계사 및 그룹 계열사가 당사자인 건</span>
+      <span class="stage-desc">SK텔레콤·패밀리사 및 그룹사가 당사자인 건</span>
     </h3>
     ${
       ours.length
@@ -166,7 +166,7 @@ async function load() {
 
       <section class="viz-block">
         <h2>사건 파이프라인</h2>
-        <p class="hint">브리핑에 등장한 사건을 절차 단계별로 모았습니다. SK 관련 건을 맨 위에 따로 모으고, 나머지는 진행 중인 단계가 위에 옵니다.</p>
+        <p class="hint">브리핑에 등장한 사건을 절차 단계별로 모았습니다.</p>
         ${pipelineHTML(cases)}
       </section>
 
