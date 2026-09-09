@@ -17,6 +17,19 @@ const STAGES = [
   { key: "처분", label: "처분", desc: "과징금·시정명령 등 제재가 내려진 건" },
 ];
 
+// ── 우리 회사군 ────────────────────────────────────────────────────────
+// 이 페이지는 SK텔레콤과 관계사에서 사내용으로 본다. 임원이 열었을 때
+// "우리 건이 있나"를 맨 먼저 보게 되므로, 해당 사건은 단계 그룹에서 빼내
+// 파이프라인 맨 위에 따로 모은다(대신 카드마다 단계 배지를 달아 어디에 있는지 보인다).
+// 사건 데이터에 별도 표시가 없어도 되도록 회사명으로 알아본다.
+// "SK"는 앞뒤에 영문자가 붙지 않을 때만 인정한다(TASK 같은 오검출 방지).
+const OUR_GROUP_RE =
+  /(^|[^A-Za-z])SK([^A-Za-z]|$)|에스케이|11번가|원스토어|티맵|하이닉스/;
+
+function isOurGroup(c) {
+  return OUR_GROUP_RE.test(`${c.title || ""} ${c.parties || ""} ${c.conduct || ""}`);
+}
+
 const KIND_CLASS = {
   "시행": "done",
   "입법·행정예고": "notice",
@@ -41,12 +54,17 @@ function briefingLink(id, text) {
 }
 
 // ---------- 사건 파이프라인 ----------
-function caseHTML(c) {
+function caseHTML(c, showStage = false) {
   const scale = c.scale
     ? `<span class="case-scale">${esc(c.scale)}</span>`
     : "";
+  // 우리 회사군 블록에서는 단계 그룹 밖에 놓이므로 단계를 배지로 보여준다
+  const stage = showStage && c.stage
+    ? `<span class="case-stage" data-stage="${esc(c.stage)}">${esc(c.stage)}</span>`
+    : "";
   return `<li class="case">
     <div class="case-head">
+      ${stage}
       <span class="case-title">${esc(c.title)}</span>
       ${c.conduct ? `<span class="case-conduct">${esc(c.conduct)}</span>` : ""}
     </div>
@@ -60,7 +78,28 @@ function caseHTML(c) {
   </li>`;
 }
 
-function pipelineHTML(cases) {
+function pipelineHTML(allCases) {
+  const ours = allCases.filter(isOurGroup);
+  const cases = allCases.filter((c) => !isOurGroup(c));
+
+  // 우리 회사군 — 0건이어도 블록을 남긴다. "우리 건 없음"도 알아야 할 상태다.
+  const ourBlock = `<section class="stage stage-ours" data-stage="우리">
+    <h3 class="stage-title">
+      <span class="stage-name">SK그룹 관련</span>
+      <span class="stage-count">${ours.length}</span>
+      <span class="stage-desc">SK텔레콤·관계사 및 그룹 계열사가 당사자인 건</span>
+    </h3>
+    ${
+      ours.length
+        ? `<ul class="case-list">${ours
+            .slice()
+            .sort((a, b) => (a.last_date < b.last_date ? 1 : -1))
+            .map((c) => caseHTML(c, true))
+            .join("")}</ul>`
+        : `<p class="none">현재 추적 중인 SK 관련 사건이 없습니다.</p>`
+    }
+  </section>`;
+
   const groups = STAGES.map((st) => {
     const list = cases
       .filter((c) => c.stage === st.key)
@@ -81,7 +120,8 @@ function pipelineHTML(cases) {
       <span class="stage-name">기타</span><span class="stage-count">${unknown.length}</span></h3>
       <ul class="case-list">${unknown.map(caseHTML).join("")}</ul></section>`);
   }
-  return groups.join("") || `<p class="empty">추적 중인 사건이 없습니다.</p>`;
+  const rest = groups.join("");
+  return ourBlock + (rest || `<p class="empty">그 밖에 추적 중인 사건이 없습니다.</p>`);
 }
 
 // ---------- 제도 변화 시계 ----------
@@ -119,13 +159,14 @@ async function load() {
       <p class="dash-meta">
         <strong>${esc(d.date || "")}</strong> 기준 ·
         진행 중인 사건 <strong>${open}</strong>건 ·
+        SK 관련 <strong>${cases.filter(isOurGroup).length}</strong>건 ·
         전체 <strong>${cases.length}</strong>건 ·
         제도 변화 <strong>${sched.length}</strong>건
       </p>
 
       <section class="viz-block">
         <h2>사건 파이프라인</h2>
-        <p class="hint">브리핑에 등장한 사건을 절차 단계별로 모았습니다. 진행 중인 단계가 위에 옵니다.</p>
+        <p class="hint">브리핑에 등장한 사건을 절차 단계별로 모았습니다. SK 관련 건을 맨 위에 따로 모으고, 나머지는 진행 중인 단계가 위에 옵니다.</p>
         ${pipelineHTML(cases)}
       </section>
 
