@@ -200,3 +200,43 @@
   .sched { flex-direction: column; gap: 8px; }
   .sched-when { width: auto; flex-direction: row; align-items: center; gap: 8px; }
 }
+
+/* ============================================================
+   SK그룹 관련 블록 (2026-09) — 파이프라인 맨 위, 단계 그룹과 구분되게.
+   사내용 페이지라 "우리 건"을 가장 먼저 보게 한다.
+   ============================================================ */
+.stage-ours {
+  background: var(--accent-soft);
+  border: 1px solid var(--border);
+  border-radius: var(--radius);
+  padding: 16px 16px 6px;
+  margin-bottom: 24px;
+}
+.stage-ours .stage-title {
+  border-left-color: var(--accent);
+  margin-bottom: 12px;
+}
+.stage-ours .stage-name { color: var(--accent); }
+.stage-ours .none {
+  margin: 0 0 12px;
+  padding-left: 11px;
+  font-size: 0.9rem;
+  color: var(--muted);
+}
+
+/* 단계 그룹 밖에 놓이므로 카드마다 단계를 배지로 표시 */
+.case-stage {
+  flex: none;
+  align-self: center;
+  font-size: 0.72rem;
+  font-weight: 800;
+  color: #ffffff;
+  border-radius: var(--radius-full);
+  padding: 2px 9px;
+  white-space: nowrap;
+}
+.case-stage[data-stage="조사"] { background: var(--stage-inv); }
+.case-stage[data-stage="심의"] { background: var(--stage-hrg); }
+.case-stage[data-stage="소송"] { background: var(--stage-lit); }
+.case-stage[data-stage="수사"] { background: var(--stage-pro); }
+.case-stage[data-stage="처분"] { background: var(--stage-don); }
