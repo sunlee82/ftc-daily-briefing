@@ -108,10 +108,13 @@ async function main() {
   // 게시판 조회 실패를 여기에 모아 _meta.errors로 남긴다. 조용히 0건으로 넘어가면
   // "수집 실패"와 "그날 자료 없음"이 구분되지 않는다(2026-09-08에 실제로 발생).
   const boardErrors = [];
+  // 게시판을 실제로 읽었는지 기록해 둔다. 맥미니의 collect.sh가 이 값을 보고
+  // "반쪽 수집"이면 배포를 부르지 않고 다시 시도한다.
+  const boardStats = {};
 
   const [pressRaw, committeeRaw, newsRawAll, affiliateRawAll] = await Promise.all([
-    fetchPressReleases(WINDOW_HOURS_PRESS, boardErrors).catch((e) => ({ error: e.message, items: [] })),
-    fetchCommitteeNews(WINDOW_HOURS_COMMITTEE, boardErrors).catch((e) => ({ error: e.message, items: [] })),
+    fetchPressReleases(WINDOW_HOURS_PRESS, boardErrors, boardStats).catch((e) => ({ error: e.message, items: [] })),
+    fetchCommitteeNews(WINDOW_HOURS_COMMITTEE, boardErrors, boardStats).catch((e) => ({ error: e.message, items: [] })),
     collect([MONITORED_AGENCY], MANDATORY_KEYWORDS, {
       windowHours: WINDOW_HOURS_NEWS,
       maxPerPair: MAX_PER_PAIR,
@@ -163,6 +166,7 @@ async function main() {
       sources: ["ftc.go.kr(보도자료)", "ftc.go.kr(위원회 소식)", "serper.dev/news"],
       windowHours: { press: WINDOW_HOURS_PRESS, committee: WINDOW_HOURS_COMMITTEE, news: WINDOW_HOURS_NEWS },
       committeeCandidates: committeeAll.length,
+      boards: boardStats,
       affiliateCompanies: AFFILIATE_COMPANIES.length,
       affiliateCollected: affiliateList.length,
       categoryCounts: { press: pressItems.length, committee: committeeItems.length, news: newsItems.length },
