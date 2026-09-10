@@ -14,6 +14,14 @@
   ],
   "items": [
     {
+      "category": "committee",
+      "category_label": "위원회 소식",
+      "headline": "2026-09-10 위원회 소식",
+      "summary": "##[주요일정]##\n· **위원장**: 14:00 대기업 1,2,3차 협력사 상생협약(HD현대/울산공단), 18:00 저연차·전입 직원 워크숍(청주)\n· **부위원장**: 07:40 비상경제본부회의(서울청사)\n\n##[인사발령]##\n· **이지혜** 행정사무관(시장감시국 표시광고감시팀) - 영국 University of York 국외훈련 파견(2026.9.10.~2027.9.9.)",
+      "source_url": "https://www.ftc.go.kr/www/selectBbsNttView.do?pageUnit=10&pageIndex=1&searchCnd=all&key=15&bordCd=5&nttSn=47989",
+      "published_at": "2026-09-09"
+    },
+    {
       "category": "news",
       "category_label": "뉴스 보도내용",
       "competitor": "공정거래위원회",
@@ -64,5 +72,5 @@
       "published_at": "2026-09-10"
     }
   ],
-  "generated_at": "2026-09-10T02:26:37.146Z"
+  "generated_at": "2026-09-10T02:49:48.000Z"
 }
