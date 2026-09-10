@@ -1,7 +1,7 @@
 {
   "id": "2026-09-10",
   "date": "2026-09-10",
-  "title": "공정거래위원회 일일동향 (초안 — 50건, 제목 다듬기 필요)",
+  "title": "공정거래위원회 일일동향 (초안 — 48건, 제목 다듬기 필요)",
   "summary": "항목을 취사선택·순서조정한 뒤 저장하면 Claude Code가 제목/요약을 다듬어 배포합니다.",
   "competitors": [
     "공정거래위원회"
@@ -81,27 +81,7 @@
     {
       "category": "news",
       "category_label": "뉴스 보도내용",
-      "competitor": "공정거래위원회",
-      "keyword": "현장조사",
-      "headline": "공정위, 다이소 이어 올리브영도 추가 현장조사‥4월 이어 두 번째",
-      "summary": "공정거래위원회가 아성다이소에 이어 CJ올리브영에 대해서도 추가 현장 조사에 착수했습니다. 공정위는 오늘 서울 용산구 CJ올리브영 본사에 조사관을 보내 대규모...",
-      "source_url": "https://imnews.imbc.com/news/2026/econo/article/6851000_36932.html",
-      "published_at": "3시간 전"
-    },
-    {
-      "category": "news",
-      "category_label": "뉴스 보도내용",
-      "competitor": "공정거래위원회",
-      "keyword": "현장조사",
-      "headline": "공정위, CJ올리브영 본사 현장조사···‘부당 반품’ 여부 들여다본다",
-      "summary": "유통업체의 대규모유통업법 위반 혐의를 조사 중인 공정거래위원회가 다이소에 이어 CJ올리브영에 대한 추가 현장조사에 나섰다. 10일 유통업계 등에 따르면 공정위는...",
-      "source_url": "https://www.khan.co.kr/article/202609101914001",
-      "published_at": "3시간 전"
-    },
-    {
-      "category": "news",
-      "category_label": "뉴스 보도내용",
-      "competitor": "SK하이닉스",
+      "competitor": "SK스퀘어",
       "keyword": "공정거래위원회",
       "headline": "삼전·닉스 낡은 지배구조 손놓고…되레 ‘수평출자’ 길 터주나",
       "summary": "삼성전자·에스케이(SK)하이닉스 등 국내 대기업들이 업황 초호황에 힘입어 세계 최상위권의 이익을 거두는 가운데, 한국 고유의 재벌 체제에서 비롯된 이른바...",
@@ -111,7 +91,17 @@
     {
       "category": "news",
       "category_label": "뉴스 보도내용",
-      "competitor": "SK이노베이션",
+      "competitor": "SK텔레콤",
+      "keyword": "공정거래위원회",
+      "headline": "포커 문양 에 대한 진실: 흥미로운 사실과 통찰력 있는 분석",
+      "summary": "NO.2: 트럼프 카드 문양 순위. NO.3: 포커 규칙. NO.4: 포커 룰. NO.5: 포커 문양 순서. NO.6: 포커 문양 순위. NO.7: 포커 용어. NO.8: 포커 족보. NO.9: 포커 종류.",
+      "source_url": "https://www.histoire-pour-tous.fr/dossiers/4502-ledit-de-tolerance-de-milan-13-juin-313.html?ID=9983.html",
+      "published_at": "4시간 전"
+    },
+    {
+      "category": "news",
+      "category_label": "뉴스 보도내용",
+      "competitor": "SK텔레콤",
       "keyword": "공정거래위원회",
       "headline": "삼전·닉스 낡은 지배구조 손놓고…되레 ‘수평출자’ 길 터주나",
       "summary": "한겨레 · 경제/금융 핵심 정리 · 삼성전자·에스케이(SK)하이닉스 등 국내 대기업들이 업황 초호황에 힘입어 세계 최상위권의 이익을 거두는 가운데, 한국 고유의 재벌...",
@@ -121,12 +111,12 @@
     {
       "category": "news",
       "category_label": "뉴스 보도내용",
-      "competitor": "SK바이오팜",
-      "keyword": "공정거래위원회",
-      "headline": "SK바이오팜, 뇌전증 신약 '오파칼림' 美 임상 부분 보류",
-      "summary": "FDA, 비임상 독성 소견에 대한 추가 근거자료 요구 \"사람 안정성과 큰 연관 없을 것⋯보류 해제 추진\" SK바이오팜은 미국 바이오헤이븐으로부터 도입할 예정인 뇌전증...",
-      "source_url": "https://www.inews24.com/view/2004423",
-      "published_at": "4시간 전"
+      "competitor": "공정거래위원회",
+      "keyword": "공정위",
+      "headline": "공정위, 대한항공 ‘좌석유지’ 완화 요청 기각… 조사방해 직원 3명 고발 의견도",
+      "summary": "공정거래위원회가 대한항공과 아시아나항공의 기업결합 조건으로 부여된 공급좌석 유지 의무를 완화해 달라는 대한항공의 요청을 받아들이지 않기로 했다. 또 공정위...",
+      "source_url": "https://it.chosun.com/news/articleView.html?idxno=2023092169901",
+      "published_at": "5시간 전"
     },
     {
       "category": "news",
@@ -141,52 +131,42 @@
     {
       "category": "news",
       "category_label": "뉴스 보도내용",
-      "competitor": "공정거래위원회",
-      "keyword": "현장조사",
-      "headline": "대한항공, 공정위 조사 방해… 업무용 파일·이메일 삭제했다",
-      "summary": "공정위가 현장조사 중 업무용 파일과 이메일을 삭제한 혐의로 대한항공과 직원들에 대한 제재 절차에 들어갔다. 합병 조건 완화 요청도 받아들여지지 않을 가능성이...",
-      "source_url": "https://www.seoul.co.kr/news/economy/2026/09/11/20260911006001",
-      "published_at": "5시간 전"
-    },
-    {
-      "category": "news",
-      "category_label": "뉴스 보도내용",
-      "competitor": "공정거래위원회",
-      "keyword": "현장조사",
-      "headline": "공정위, 대한항공 ‘좌석유지’ 완화 요청 기각… 조사방해 직원 3명 고발 의견도",
-      "summary": "공정거래위원회가 대한항공과 아시아나항공의 기업결합 조건으로 부여된 공급좌석 유지 의무를 완화해 달라는 대한항공의 요청을 받아들이지 않기로 했다.",
-      "source_url": "https://it.chosun.com/news/articleViewAmp.html?idxno=2023092169901",
-      "published_at": "5시간 전"
-    },
-    {
-      "category": "news",
-      "category_label": "뉴스 보도내용",
-      "competitor": "공정거래위원회",
-      "keyword": "현장조사",
-      "headline": "공정위, 업무자료 삭제 등 '현장조사 방해 의혹' 대한항공 檢 고발 추진",
-      "summary": "(조세금융신문=김필주 기자) 공정거래위원회가 현장조사 진행과정에서 업무용 전산파일 등의 자료를 삭제하면서 조사를 방해한 대한항공 직원과 법인을 검찰에 고발...",
-      "source_url": "https://www.tfmedia.co.kr/news/article.html?no=207131",
-      "published_at": "5시간 전"
-    },
-    {
-      "category": "news",
-      "category_label": "뉴스 보도내용",
-      "competitor": "공정거래위원회",
-      "keyword": "현장조사",
-      "headline": "공정위, CJ올리브영 추가 현장조사…대규모유통업법 위반 혐의",
-      "summary": "공정거래위원회가 아성다이소에 이어 CJ올리브영에 대해서도 추가 현장 조사에 착수했습니다. 공정위는 오...",
-      "source_url": "https://news.kbs.co.kr/news/view.do?ncd=8660194",
-      "published_at": "5시간 전"
-    },
-    {
-      "category": "news",
-      "category_label": "뉴스 보도내용",
-      "competitor": "SK그룹",
+      "competitor": "SK이노베이션",
       "keyword": "공정거래위원회",
       "headline": "공정위, 한진그룹 항공사 5곳의 '좌석 유지의무' 완화 요청에 기각 의견",
       "summary": "[비즈니스포스트] 공정거래위원회는 대한항공을 포함한 한진그룹 계열 항공사 5곳이 신청한 '좌석 유지의무 완화' 요청과 관련한 심사보고서를 제출받았다고 10일...",
       "source_url": "https://m.businesspost.co.kr/BP?command=mobile_view&num=446947",
       "published_at": "5시간 전"
+    },
+    {
+      "category": "news",
+      "category_label": "뉴스 보도내용",
+      "competitor": "공정거래위원회",
+      "keyword": "공정위",
+      "headline": "공정거래위원회, ‘자료 삭제’ 대한항공·직원 고발 의견",
+      "summary": "공정거래위원회가 현장조사 과정에서 업무용 파일과 이메일을 삭제한 혐의를 받는 대한항공 법인과 직원 3명을 검찰에 고발해야 한다는 의견을 냈다.",
+      "source_url": "https://www.kgmail.kr/news/articleView.html?idxno=646116",
+      "published_at": "6시간 전"
+    },
+    {
+      "category": "news",
+      "category_label": "뉴스 보도내용",
+      "competitor": "공정거래위원회",
+      "keyword": "공정위",
+      "headline": "공정위, 올리브영 추가 조사…대규모유통업법 위반 의혹",
+      "summary": "공정거래위원회(공정위)가 아성다이소에 이어 CJ올리브영에 대해서도 대규모유통업법 위반 의혹과 관련한 추가 현장조사에 나섰다.10일 업계에 따르면 공정위는 이날...",
+      "source_url": "https://www.ebn.co.kr/news/articleView.html?idxno=1723810",
+      "published_at": "6시간 전"
+    },
+    {
+      "category": "news",
+      "category_label": "뉴스 보도내용",
+      "competitor": "공정거래위원회",
+      "keyword": "공정위",
+      "headline": "“다이소는 건들지마”···5개월만 다시 찾은 공정위 칼날에 ‘시끌’",
+      "summary": "[시사저널e=한다원 기자] 공정거래위원회가 다이소를 운영하는 아성다이소의 납품업체 대상 부당 반품 등 대규모유통업법 위반 혐의를 들여다보기 위해 추가 현장 조사...",
+      "source_url": "https://www.sisajournal-e.com/news/articleView.html?idxno=423629",
+      "published_at": "6시간 전"
     },
     {
       "category": "news",
@@ -211,7 +191,27 @@
     {
       "category": "news",
       "category_label": "뉴스 보도내용",
-      "competitor": "SK그룹",
+      "competitor": "공정거래위원회",
+      "keyword": "과징금",
+      "headline": "공정위, CJ올리브영 추가 조사…대규모유통업법 위반 혐의",
+      "summary": "[소셜밸류=한시은 기자] 공정거래위원회가 CJ올리브영의 대규모유통업법 위반 의혹을 확인하기 위해 현장조사에 나섰다. 10일 업계 등에 따르면 공정위는 이날 서울...",
+      "source_url": "https://www.socialvalue.kr/news/view/1065599259537519",
+      "published_at": "6시간 전"
+    },
+    {
+      "category": "news",
+      "category_label": "뉴스 보도내용",
+      "competitor": "공정거래위원회",
+      "keyword": "담합",
+      "headline": "농민신문 인쇄용지 입찰 3년 담합…한솔·한국제지 검찰 고발",
+      "summary": "국내 주요 제지업체들이 농민신문사가 발주한 인쇄용지 구매 입찰에서 낙찰업체와 투찰가격을 미리 정해온 사실이 공정거래위원회에 적발됐다.9일 공정위에 따르면...",
+      "source_url": "https://www.newslaw.co.kr/ko-kr/articles/2042",
+      "published_at": "6시간 전"
+    },
+    {
+      "category": "news",
+      "category_label": "뉴스 보도내용",
+      "competitor": "SK텔레콤",
       "keyword": "공정거래위원회",
       "headline": "HD현대, 2·3차 협력사까지 상생협약 확대",
       "summary": "공정거래위원회는 10일 울산 동구 HD현대중공업 영빈관에서 △HD현대중공업 △HD현대삼호 △HD현대마린솔루션 △HD건설기계 △HD현대일렉트릭 등 HD현대 5개 계열사와...",
@@ -221,32 +221,22 @@
     {
       "category": "news",
       "category_label": "뉴스 보도내용",
-      "competitor": "SK그룹",
-      "keyword": "공정거래위원회",
-      "headline": "HD현대, 1·2·3차 협력사까지 상생협약 확대…공정위와 손잡아",
-      "summary": "공정거래위원회가 HD현대 그룹과 1·2·3차 협력사 간 상생협약을 체결했다. 대기업과 1차 협력사에 국한됐던 기존 협약 범위를 2·3차 협력사까지 넓힌 것으로,...",
-      "source_url": "https://www.queen.co.kr/news/articleView.html?idxno=463164",
-      "published_at": "6시간 전"
+      "competitor": "공정거래위원회",
+      "keyword": "공정위",
+      "headline": "공정위, 대한항공 '공급좌석 의무 완화 요청' 기각... 조사방해엔 고발 의견",
+      "summary": "인포스탁데일리=(세종)윤서연 기자] 공정거래위원회가 대한항공-아시아나항공 기업결합 시정명령과 관련해 항공사들이 요청한 공급좌석 유지 의무 완화를 받아들이지...",
+      "source_url": "https://www.infostockdaily.co.kr/news/articleView.html?idxno=217889",
+      "published_at": "7시간 전"
     },
     {
       "category": "news",
       "category_label": "뉴스 보도내용",
-      "competitor": "SK하이닉스",
-      "keyword": "공정거래위원회",
-      "headline": "HD현대, 2·3차 협력사까지 상생협력 확대…\"지속가능 공급망\"",
-      "summary": "HD현대가 1차 협력사에 이어 2·3차 협력사까지 지원 범위를 확대하는 상생협약을 체결하고 공급망 전반의 경쟁력 강화에 나선다. 대금 지급조건 개선과 금융·안전·기술...",
-      "source_url": "https://m.dailian.co.kr/news/view/1688954",
-      "published_at": "6시간 전"
-    },
-    {
-      "category": "news",
-      "category_label": "뉴스 보도내용",
-      "competitor": "SK하이닉스",
-      "keyword": "공정거래위원회",
-      "headline": "HD현대, 2·3차 협력사까지 상생 확대…공급망 경쟁력 강화",
-      "summary": "[뉴스케이프 전수영 기자] HD현대가 1차 협력사에 이어 2·3차 협력사오도 상생협력을 확대하며 지속 가능한 공급망 구축에 나선다.HD현대는 10일 HD현대중공업 울산...",
-      "source_url": "https://www.newscape.co.kr/news/articleView.html?idxno=124495",
-      "published_at": "6시간 전"
+      "competitor": "공정거래위원회",
+      "keyword": "공정위",
+      "headline": "HD현대, 공정위와 1·2·3차 협력사 상생협약 체결",
+      "summary": "공정거래위원회와 HD현대가 오늘 울산 HD현대중공업 영빈관에서 1·2·3차 협력사 간 상생협약 체결식을 개최했습니다.이번 협약은 대기업과 1차 협력사 중심의 상생을...",
+      "source_url": "https://news.bbsi.co.kr/news/articleView.html?idxno=4105876",
+      "published_at": "7시간 전"
     },
     {
       "category": "news",
@@ -271,41 +261,11 @@
     {
       "category": "news",
       "category_label": "뉴스 보도내용",
-      "competitor": "SK그룹",
-      "keyword": "공정거래위원회",
-      "headline": "HD현대, 2·3차 협력사까지 상생 확대… 7500곳에 금융·기술 등 종합 지원",
-      "summary": "인포스탁데일리=(세종)윤서연 기자] 공정거래위원회와 HD현대가 1차 협력사를 넘어 2·3차 협력사까지 상생협력 범위를 확대한다. 대금 지급 조건 개선과 금융·기술·...",
-      "source_url": "https://www.infostockdaily.co.kr/news/articleView.html?idxno=217890",
-      "published_at": "7시간 전"
-    },
-    {
-      "category": "news",
-      "category_label": "뉴스 보도내용",
-      "competitor": "SK그룹",
-      "keyword": "공정거래위원회",
-      "headline": "공정위, HD현대와 3차 협력사까지 상생협력 확대",
-      "summary": "HD현대가 1차 협력사 중심이던 상생협력 범위를 2·3차 협력사까지 넓힌다. 협력사 대금을 현금성으로 100% 지급하고 마감 후 15일 이내 지급 원칙을 유지하는 한편...",
-      "source_url": "https://www.newswhoplus.com/news/articleView.html?idxno=69413",
-      "published_at": "7시간 전"
-    },
-    {
-      "category": "news",
-      "category_label": "뉴스 보도내용",
-      "competitor": "SK하이닉스",
-      "keyword": "공정거래위원회",
-      "headline": "[김진호의 파리만평] 2026년 09월 10일 공정위, 공시 위반 과태료 강화",
-      "summary": "[파이낸셜리뷰] 공정거래위원회는 대기업집단의 공시 의무 준수를 반복위반 하면 과태료를 최대 50% 가중하기로 했다.",
-      "source_url": "http://www.financialreview.co.kr/news/articleView.html?idxno=44758",
-      "published_at": "7시간 전"
-    },
-    {
-      "category": "news",
-      "category_label": "뉴스 보도내용",
       "competitor": "공정거래위원회",
-      "keyword": "과징금",
-      "headline": "후 카지노 먹튀 에 대한 2025년 전망: 어디로 향하고 있는가",
-      "summary": "후 카지노 먹튀,슈퍼스타 카지노,【playeggc.com】후 카지노 먹튀디즈니 카지노,마크 룰렛 플러그인,토토 37 만배...",
-      "source_url": "https://www.histoire-pour-tous.fr/histoire-de-france/4628-le-chevalier-de-lorraine-lame-damnee-de-monsieur.html?ID=eos%ED%8C%8C%EC%9B%8C%EB%B3%BC%20%EB%A1%9C%EB%98%90.html",
+      "keyword": "공정위",
+      "headline": "공정위 칼 빼들자 기업들 잇따라 맞불…쿠팡 조사 거부·한화 집행정지까지",
+      "summary": "최근 기업들을 상대로 전방위적 조사에 나선 공정거래위원회(공정위)가 잇따른 변수에 부딪혔다. 쿠팡이 현장조사를 거부한 데 이어 한화가 공정위 자료 제출 명령에...",
+      "source_url": "https://www.newsworker.co.kr/news/articleViewAmp.html?idxno=503698",
       "published_at": "8시간 전"
     },
     {
@@ -321,41 +281,31 @@
     {
       "category": "news",
       "category_label": "뉴스 보도내용",
-      "competitor": "SK그룹",
-      "keyword": "공정거래위원회",
-      "headline": "삼성·SK그룹 등에 이어 HD현대그룹도 협력사 상생협력 확대 동참",
-      "summary": "삼성·SK·LG·현대자동차·포스코그룹에 이어 HD현대그룹도 협력사 상생협력 확대에 동참했다. 공정거래위원회는 HD현대중공업 영빈관에서 HD현대그룹 5개 계열사(HD현대...",
-      "source_url": "https://www.electimes.com/news/articleViewAmp.html?idxno=372261",
+      "competitor": "공정거래위원회",
+      "keyword": "담합",
+      "headline": "검찰, '석유화합제품 담합 의혹' OCI 대표 피의자 조사 - 머니투데이",
+      "summary": "국내 주요 석유화학 업체들이 가격을 담합했다는 의혹에 연루된 김유신 OCI 대표이사 부회장이 검찰 소환 조사를 받았다. 10일 법조계에 따르면 서울중앙지검 공정거래...",
+      "source_url": "https://www.mt.co.kr/amp/society/2026/09/10/2026091014124087721",
       "published_at": "8시간 전"
     },
     {
       "category": "news",
       "category_label": "뉴스 보도내용",
-      "competitor": "SK그룹",
-      "keyword": "공정거래위원회",
-      "headline": "공정거래위원장, “상생협력으로 산업 미래 경쟁력 함께 키워야”",
-      "summary": "공정거래위원회(위원장 주병기)는 10일 HD현대중공업 영빈관에서 HD현대 그룹 5개 계열사 및 협력사 관계자들이 참석한 가운데, 'HD현대 -1·2·3차 협력사 상생협약...",
-      "source_url": "https://www.intn.co.kr/news/articleView.html?idxno=2053217",
+      "competitor": "공정거래위원회",
+      "keyword": "담합",
+      "headline": "[단독] 檢, ‘석화제품 가격 담합 혐의’ PKC 전 대표·LG화학 임원 소환 조사 - 조선비즈",
+      "summary": "검찰이 중동전쟁으로 원료 수급이 불안해진 틈을 타 석유화학제품 가격을 담합한 혐의를 받는 PKC(001340) 전 대표와 LG화학(051910) 임원 등 주요 업체 경영진을...",
+      "source_url": "https://biz.chosun.com/topics/law_firm/2026/09/10/XGAG5CGC7NEUPN3XASN3ATHWOY/?outputType=amp",
       "published_at": "8시간 전"
     },
     {
       "category": "news",
       "category_label": "뉴스 보도내용",
-      "competitor": "SK그룹",
-      "keyword": "공정거래위원회",
-      "headline": "HD현대, 2·3차 협력사까지 상생협약 확대…대기업 6번째",
-      "summary": "(요약 없음 — 원문 확인 필요)",
-      "source_url": "https://www.news1.kr/amp/economy/trend/6286438",
-      "published_at": "8시간 전"
-    },
-    {
-      "category": "news",
-      "category_label": "뉴스 보도내용",
-      "competitor": "SK그룹",
-      "keyword": "공정거래위원회",
-      "headline": "HD현대도 협력사 상생협약…7500곳 금융 지원·비밀유지 의무화",
-      "summary": "[세종=뉴시스]임하은 기자 = HD현대가 1·2·3차 협력사까지 금융·기술·경영·안전 지원을 확대하는 협력사 상생협약을 체결했다. 올해 1180억원 규모의 대출·설비투자...",
-      "source_url": "https://mobile.newsis.com/view_amp.html?ar_id=NISX20260910_0003784456",
+      "competitor": "공정거래위원회",
+      "keyword": "담합",
+      "headline": "[기자수첩]'1.8조 과징금' 비웃는 CJ·대상…남는 장사에 담합 '병' 도졌다",
+      "summary": "공정거래위원회가 지난 1일 CJ제일제당·대상·샘표·풀무원·사조대림 등 국내 주요 장류 제조사 5곳에 대한 현장조사에 착수했다. 고추장·된장·간장 등 주요 장류의 가격...",
+      "source_url": "https://digitalchosun.dizzo.com/site/data/html_dir/2026/09/10/2026091080089.html",
       "published_at": "8시간 전"
     },
     {
@@ -371,7 +321,17 @@
     {
       "category": "news",
       "category_label": "뉴스 보도내용",
-      "competitor": "SK브로드밴드",
+      "competitor": "공정거래위원회",
+      "keyword": "공정위",
+      "headline": "공정위, 대한항공 ‘좌석 공급 유지’ 완화 요청에 기각 의견…조사방해 고발도 추진",
+      "summary": "자동요약 기사 제목과 주요 문장을 기반으로 자동요약한 결과입니다. 전체 맥락을 이해하기 위해서는 본문 보기를 권장합니다. 대한항공이 아시아나항공과의 기업결합...",
+      "source_url": "https://v.daum.net/v/20260910135006313",
+      "published_at": "9시간 전"
+    },
+    {
+      "category": "news",
+      "category_label": "뉴스 보도내용",
+      "competitor": "SK텔레콤",
       "keyword": "공정거래위원회",
       "headline": "SK그룹, AI 메모리 끝 아냐…데이터센터~정유공장까지",
       "summary": "최태원, 울산 AI 데이터센터·울산CLX 잇달아 점검HBM에서 데이터센터·에너지·제조 AX까지 'AI 풀스택' 구체화2027년 울산 AIDC 가동 목표…영남권 2GW 이상 클러스터...",
@@ -381,18 +341,8 @@
     {
       "category": "news",
       "category_label": "뉴스 보도내용",
-      "competitor": "SK하이닉스",
-      "keyword": "공정거래위원회",
-      "headline": "SK하이닉스, 25표 차 부결 뒤 10%p 조정…성과급 기본 현금 50%",
-      "summary": "주식 60%·현금 40%서 '반반'으로 수정주식 비중은 직원 선택 따라 50~100%…이연 성과급도 선지급15~16일 전임직 노조 재투표…추석 전 타결 분수령.",
-      "source_url": "https://sateconomy.co.kr/news/view/1065584273353607",
-      "published_at": "10시간 전"
-    },
-    {
-      "category": "news",
-      "category_label": "뉴스 보도내용",
       "competitor": "공정거래위원회",
-      "keyword": "현장조사",
+      "keyword": "공정위",
       "headline": "대한항공, 공정위 현장조사 중 자료 삭제…심사관 '법인·직원 3명 고발' 의견",
       "summary": "대한항공 직원들이 공정거래위원회의 현장조사 도중 업무용 전산파일과 이메일을 삭제한 것으로 조사됐다. 공정위 심사관은 이를 조사방해에 해당한다고 보고 대한항공...",
       "source_url": "https://www.etnews.com/20260910000172",
@@ -402,50 +352,60 @@
       "category": "news",
       "category_label": "뉴스 보도내용",
       "competitor": "공정거래위원회",
-      "keyword": "현장조사",
-      "headline": "대한항공 현장조사 과정서 ‘잡음’...공정위 심의 착수",
-      "summary": "공정거래위원회(공정위) 현장조사를 받던 대한항공 직원들이 조사 대상과 관련된 전산파일과 전자메일을 삭제한 것으로 조사됐다. 공정위 심사관은.",
-      "source_url": "https://economist.co.kr/article/view/ecn202609100040",
+      "keyword": "담합",
+      "headline": "검찰, '석유화학제품 담합 의혹' OCI 대표 피의자 조사",
+      "summary": "[서울=뉴시스]권지원 기자 = 국내 주요 석유화학 업체들의 품목 가격 담합 의혹을 수사하는 검찰이 김유신 OCI 대표이사 부회장을 피의자 신분으로 소환했다.",
+      "source_url": "https://mobile.newsis.com/view_amp.html?ar_id=NISX20260910_0003784191",
       "published_at": "11시간 전"
     },
     {
       "category": "news",
       "category_label": "뉴스 보도내용",
       "competitor": "공정거래위원회",
-      "keyword": "현장조사",
-      "headline": "대한항공, 공정위 현장조사서 자료 삭제…심사관 \"회사·직원 3명 고발\"",
-      "summary": "자료 삭제 직원 3명·회사 함께 고발 의견…전원회의서 최종 판단 청주~제주·전 노선 공급좌석 유지의무 완화 요청 2건은 기각 의견. [세종=뉴스핌] 김현구 기자 = 대한...",
-      "source_url": "https://www.newspim.com/news/view/20260910000333",
+      "keyword": "담합",
+      "headline": "검찰, '석유화학 제품 가격 짬짜미' OCI 대표 피의자 조사",
+      "summary": "검찰이 석유화학 제품 가격을 담합한 혐의를 받는 김유신 OCI 대표이사 부회장을 불러 조사하고 있다.법조계에 따르면 서울중앙지검 공정거래조사부(부장검사 나희석)...",
+      "source_url": "https://www.news1.kr/amp/society/court-prosecution/6286218",
       "published_at": "11시간 전"
     },
     {
       "category": "news",
       "category_label": "뉴스 보도내용",
       "competitor": "공정거래위원회",
-      "keyword": "현장조사",
+      "keyword": "담합",
+      "headline": "농민신문사 발주 인쇄용지 입찰담합 제재",
+      "summary": "공정거래위원회(위원장 주병기, 이하 '공정위')는 6개 인쇄용지 제조·판매 사업자*(이하 '제지사')들이 2021년 6월부터 2024년 11월까지 농민신문사가 발주한 6건의...",
+      "source_url": "https://www.dwbnews.kr/news/articleView.html?idxno=121321",
+      "published_at": "11시간 전"
+    },
+    {
+      "category": "news",
+      "category_label": "뉴스 보도내용",
+      "competitor": "공정거래위원회",
+      "keyword": "공정위",
       "headline": "대한항공 공정위 조사방해 심의…직원 3명 파일·이메일 삭제 혐의",
       "summary": "세종시 정부세종청사 2동 공정거래위원회. 2023.10.13[사진=유대길 기자 dbeorlf123@ajunews.com]대한항공 직원들이 공정거래위원회의 현장조사...",
       "source_url": "https://www.ajunews.com/amp/20260910110549535",
-      "published_at": "11시간 전"
-    },
-    {
-      "category": "news",
-      "category_label": "뉴스 보도내용",
-      "competitor": "SK하이닉스",
-      "keyword": "공정거래위원회",
-      "headline": "공정위, 할부거래 분쟁조정 시장감시국 이관…임기제 16명 증원",
-      "summary": "[아이뉴스24 김현동 기자] 공정거래위원회가 특수판매·할부거래 분야 소비자피해 분쟁조정 업무를 소비자정책국에서 시장감시국으로 이관한다.",
-      "source_url": "https://v.daum.net/v/20260910102528955?f=p",
       "published_at": "12시간 전"
     },
     {
       "category": "news",
       "category_label": "뉴스 보도내용",
-      "competitor": "SK하이닉스",
-      "keyword": "공정거래위원회",
-      "headline": "공정위, 할부거래 분쟁조정 시장감시국 이관…임기제 16명 증원",
-      "summary": "자동요약 기사 제목과 주요 문장을 기반으로 자동요약한 결과입니다. 전체 맥락을 이해하기 위해서는 본문 보기를 권장합니다. 공정거래위원회가 특수판매·할부거래...",
-      "source_url": "https://v.daum.net/v/20260910102528955",
+      "competitor": "공정거래위원회",
+      "keyword": "담합",
+      "headline": "한솔·한국제지, 인쇄용지 입찰담합 … 공정위 검찰 '고발'",
+      "summary": "한솔제지와 한국제지를 비롯한 국내 주요 제지업체들이 농민신문사가 발주한 인쇄용지 구매 입찰에서 낙찰업체와 투찰가격을 미리 정한 사실이 공정거래위원회에 적발...",
+      "source_url": "https://www.safetimes.co.kr/news/articleViewAmp.html?idxno=245593",
+      "published_at": "12시간 전"
+    },
+    {
+      "category": "news",
+      "category_label": "뉴스 보도내용",
+      "competitor": "공정거래위원회",
+      "keyword": "담합",
+      "headline": "[단독] 검찰, ‘석유화학제품 담합’ OCI 대표 피의자 조사…공정거래법 위반 혐의[세상&]",
+      "summary": "[헤럴드경제=최의종 기자] 품목 가격을 짬짜미한 혐의로 석유화학업체들을 수사 중인 검찰이 OCI 대표이사 A씨를 피의자 신분으로 불러 조사한 것으로 확인됐다.",
+      "source_url": "https://biz.heraldcorp.com/article/10868875",
       "published_at": "12시간 전"
     },
     {
@@ -461,21 +421,51 @@
     {
       "category": "news",
       "category_label": "뉴스 보도내용",
-      "competitor": "SK하이닉스",
+      "competitor": "공정거래위원회",
+      "keyword": "담합",
+      "headline": "공정위, 장류업체 5곳 가격 담합 조사",
+      "summary": "[딜사이트경제TV 박수현 기자] 공정거래위원회가 간장·된장·고추장 등 장류 가격 담합 의혹과 관련해 CJ제일제당과 대상, 샘표, 풀무원, 사조대림 등 주요 식품업체에...",
+      "source_url": "https://news.dealsitetv.com/articles/175698",
+      "published_at": "14시간 전"
+    },
+    {
+      "category": "news",
+      "category_label": "뉴스 보도내용",
+      "competitor": "SK텔레콤",
       "keyword": "공정거래위원회",
-      "headline": "최태원 회장, 조정식 국회의장과 '국회 경제대도약위원회' 출범···\"지금은 속도전...법 제도 상황 맞게 바꿔야\"",
-      "summary": "[녹색경제신문 = 박근우 기자]최태원 대한상공회의소 회장(SK그룹 회장)과 조정식 국회의장이 앞장선 가운데 경제계와 국회가 대한민국 경제의 재도약을 이끌기 위한...",
-      "source_url": "https://www.greened.kr/news/articleView.html?idxno=349710",
-      "published_at": "15시간 전"
+      "headline": "클라우스 토토 가입코드 - 2025년 최신판",
+      "summary": "5세대 이동통신(5G) 속도를 과장 광고해 139억원대 과징금을 부과받은 KT가 법원에 처분 취소를 청구했으나 받아들여지지 않았다.",
+      "source_url": "https://www.histoire-pour-tous.fr/biographies/5525-clemenceau-georges-1841-1929-biographie.html?app=2637.html",
+      "published_at": "14시간 전"
     },
     {
       "category": "news",
       "category_label": "뉴스 보도내용",
       "competitor": "공정거래위원회",
       "keyword": "과징금",
-      "headline": "포커 같은 투 페어 : 주요 이정표와 혁신 (2025년 최신판)",
-      "summary": "포커 같은 투 페어,카지노 최민식 노래,포커 같은 투 페어슬롯 체험 뱅크카지노 메이저,컬러렌즈 온라인구매,무료 247 유럽식 룰렛 게임....",
-      "source_url": "https://www.histoire-pour-tous.fr/histoire-de-france/1745-napoleon-et-les-cent-jours-lultime-vol-de-laigle.html?ID=6851.html",
+      "headline": "공정위, 하도급 대금 제때 안 준 건설사 등 18개 기업 조사",
+      "summary": "(세종=연합뉴스) 송정은 기자 = 공정거래위원회가 하도급 대금을 지급 기일보다 늦게 지급한 18개 기업을 대상으로 지연이자 지급 여부 등을 조사...",
+      "source_url": "https://www.yna.co.kr/amp/view/AKR20260909172500002",
+      "published_at": "15시간 전"
+    },
+    {
+      "category": "news",
+      "category_label": "뉴스 보도내용",
+      "competitor": "SK텔레콤",
+      "keyword": "공정거래위원회",
+      "headline": "사설 토토 구인구직 에 대한 궁금증을 해소하는 완벽한 가이드",
+      "summary": "NO.2: 슈어맨 구인구직. NO.3: 카지노 구인구직. NO.4: 토찾사 구인구직. NO.5: 토토 구인 디시. NO.6: 토토사이트 직원 모집. NO.7: 토토사이트 직원 후기.",
+      "source_url": "https://www.histoire-pour-tous.fr/histoire-de-france/5744-la-guillotine-l-arme-de-la-revolution.html?ID=6956.html",
+      "published_at": "16시간 전"
+    },
+    {
+      "category": "news",
+      "category_label": "뉴스 보도내용",
+      "competitor": "SK텔레콤",
+      "keyword": "공정거래위원회",
+      "headline": "법원, 공정위의 한화 현장조사 자료 제출명령 '효력 정지'",
+      "summary": "공정거래위원회가 한화그룹을 현장 조사하는 과정에서 내린 자료제출명령의 효력을 법원이 일시 정지시켰다.서울고법 행정7부는 지난 9일 오후 한화와 소속 직원 A씨가...",
+      "source_url": "https://www.financialpost.co.kr/news/articleView.html?idxno=274848",
       "published_at": "16시간 전"
     },
     {
@@ -483,30 +473,20 @@
       "category_label": "뉴스 보도내용",
       "competitor": "공정거래위원회",
       "keyword": "과징금",
-      "headline": "선시티 카지노 주소 에 대한 궁금증을 해소하는 완벽한 가이드",
-      "summary": "NO.2: 썬 시티 보증업체. NO.3: 썬시티 먹튀. NO.4: 썬시티 바카라. NO.5: 썬시티 카지노 먹튀. [MT리포트]무책임한 '엄벌행정'③쿠팡,1년 여만에 1조원대 과징금·세금...",
-      "source_url": "https://www.histoire-pour-tous.fr/histoire-de-france/205-les-royaumes-francs.html?ID=%EC%9E%A0%EC%8B%A4%20%EC%B9%B4%EC%A7%80%EB%85%B8.html",
+      "headline": "카지노 david lee : 위험 피하기와 보호 조치",
+      "summary": "플랫폼은 월 단위로 바뀌는데 몇 년 전 규제의 영향이 여전하다.새 서비스를 내놓을 때 혁신보다 규제 리스크를 먼저 따지는 분위기다.\" 한 IT기업 임원의 말이다.",
+      "source_url": "https://www.histoire-pour-tous.fr/histoire-de-france/4857-?ID=%EC%99%80%EC%9D%B4%EC%A6%88%20%ED%86%A0%ED%86%A0%20%EB%84%B7%EB%A7%88%EB%B8%94.html",
       "published_at": "18시간 전"
     },
     {
       "category": "news",
       "category_label": "뉴스 보도내용",
-      "competitor": "SK하이닉스",
+      "competitor": "SK텔레콤",
       "keyword": "공정거래위원회",
-      "headline": "기업이 벌어야 나라가 할 수 있는 것들[생생확대경]",
-      "summary": "[이데일리 조용석 기자] “기업을 취재해보니 어때요?” 최근 산업부로 옮긴 뒤 기업 관계자들에게 자주 듣는 질문이다. 공정거래위원회와 국세청, 검찰과 국회 등 기업...",
-      "source_url": "https://www.edaily.co.kr/News/Read?newsId=01689206645578808&mediaCodeNo=257",
-      "published_at": "18시간 전"
-    },
-    {
-      "category": "news",
-      "category_label": "뉴스 보도내용",
-      "competitor": "SK바이오팜",
-      "keyword": "공정거래위원회",
-      "headline": "주병기 공정거래위원장 訪美… ‘쿠팡 사태’ 속 시선 집중",
-      "summary": "주병기 공정거래위원회(KFTC) 위원장이 다음 주 미국을 방문해 반독점 수장인 앤드루 퍼거슨 연방거래위원회(FTC) 위원장, 스탠리 우드워드 주니어 법무부 차관보와...",
-      "source_url": "https://v.daum.net/v/20260910045637336?f=p",
-      "published_at": "18시간 전"
+      "headline": "LTV 담합 제재 '공정위 대 은행권'",
+      "summary": "[뉴스토마토 이재희 기자] 공정거래위원회가 4대 시중은행의 담보인정비율(LTV) 정보 교환 행위를 담합으로 판단하고 제재를 결정하면서 이를 둘러싼 공정위와 은행권...",
+      "source_url": "https://www.newstong.co.kr/mobile/NewsView.aspx?seq=1288628&allSeq=20980&txtSearch=&cate=&cnt=&subCate=&order=&newsNo=35",
+      "published_at": "20시간 전"
     },
     {
       "category": "news",
@@ -519,7 +499,7 @@
       "published_at": "23시간 전"
     }
   ],
-  "generated_at": "2026-09-10T13:40:52.154Z",
+  "generated_at": "2026-09-10T13:44:12.262Z",
   "_meta": {
     "sources": [
       "ftc.go.kr(보도자료)",
@@ -533,14 +513,14 @@
     },
     "committeeCandidates": 5,
     "affiliateCompanies": 14,
-    "affiliateCollected": 28,
+    "affiliateCollected": 15,
     "categoryCounts": {
       "press": 5,
       "committee": 1,
-      "news": 44
+      "news": 42
     },
-    "collected": 48,
-    "deduped": 44,
+    "collected": 45,
+    "deduped": 42,
     "errors": []
   }
 }
