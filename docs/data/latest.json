@@ -2,7 +2,7 @@
   "id": "2026-09-10",
   "date": "2026-09-10",
   "title": "공정위, 하도급 대금 늑장지급 18개 기업 조사",
-  "summary": "하도급대금 지연지급 건설사 등 **18개 기업** 조사, 지연액 **1,015억원**\n주병기 위원장 **방미**해 미 FTC·법무부와 회동, **쿠팡** 현안 논의 여부 주목\n공정위, **TPG의 롯데렌탈 인수** 승인…**10월** 거래 마무리 전망",
+  "summary": "하도급대금 늑장지급 **18개 기업** 조사, 지연액 총 **1,015억원**(우방 **200억원**↑)\n주병기 위원장 **방미**해 미 FTC·법무부와 회동, **쿠팡** 현안 논의 여부 주목\n공정위, **TPG의 롯데렌탈 인수** 승인…**10월** 거래 마무리 전망",
   "competitors": [
     "공정거래위원회"
   ],
@@ -19,7 +19,7 @@
       "competitor": "공정거래위원회",
       "keyword": "공정위",
       "headline": "공정위, 하도급 대금 늑장지급 건설사 등 18개 기업 조사",
-      "summary": "지급기한(**60일**) 넘긴 사례 조사, 지연액 **1,015억원** 규모.\n일부 기업은 자진 시정 의사 표명.",
+      "summary": "지급기한(**60일**) 넘긴 사례 조사, 지연액 총 **1,015억원** 규모.\n우방 등 일부사는 **200억원** 이상 지연, 자진시정 의사 기업도 있어.",
       "source_url": "https://www.chosun.com/economy/economy_general/2026/09/10/BJWLOQLBY5BWHLYJ5GKAAL3FII/",
       "published_at": "2026-09-10"
     },
@@ -31,16 +31,6 @@
       "headline": "공정위, 할부거래 분쟁조정 시장감시국으로 이관",
       "summary": "선불식 할부거래 통합정보시스템 운영도 시장감시국 이관.\n분쟁조정 인력 **임기제 16명** 증원.",
       "source_url": "https://www.inews24.com/view/2004098",
-      "published_at": "2026-09-10"
-    },
-    {
-      "category": "news",
-      "category_label": "뉴스 보도내용",
-      "competitor": "공정거래위원회",
-      "keyword": "공정위",
-      "headline": "주병기 위원장, 다음 주 방미…美 반독점 당국과 회동",
-      "summary": "美 FTC 앤드루 퍼거슨 위원장·법무부 우드워드 차관보와 개별 회동 예정.\n**쿠팡** 관련 현안이 비공식 의제로 다뤄질지 주목.",
-      "source_url": "https://www.chosun.com/international/us/2026/09/10/QJFL5EESWBCR7AESRHS4QPUQQQ/",
       "published_at": "2026-09-10"
     },
     {
@@ -62,7 +52,17 @@
       "summary": "서울고법 결정에 따른 과징금·시정명령 집행정지, **9월 18일**까지 유지.\n분할납부로 부담 완화.",
       "source_url": "https://dealsite.co.kr/articles/168714",
       "published_at": "2026-09-09"
+    },
+    {
+      "category": "news",
+      "category_label": "뉴스 보도내용",
+      "competitor": "공정거래위원회",
+      "keyword": "공정위",
+      "headline": "주병기 위원장, 다음 주 방미…美 반독점 당국과 회동",
+      "summary": "美 FTC 앤드루 퍼거슨 위원장·법무부 우드워드 차관보와 개별 회동 예정.\n**쿠팡** 관련 현안이 비공식 의제로 다뤄질지 주목.",
+      "source_url": "https://www.chosun.com/international/us/2026/09/10/QJFL5EESWBCR7AESRHS4QPUQQQ/",
+      "published_at": "2026-09-10"
     }
   ],
-  "generated_at": "2026-09-10T01:37:21.000Z"
+  "generated_at": "2026-09-10T02:26:37.146Z"
 }
