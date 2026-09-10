@@ -110,10 +110,11 @@ async function fetchPressPdfBase64(sourceUrl) {
  * 각 게시물의 첨부 PDF(본문)도 함께 내려받는다.
  * @returns {Array<{headline,dept,published_at,source_url,boardLabel,pdfBase64}>}
  */
-async function fetchPressReleases(windowHours, errors = []) {
+async function fetchPressReleases(windowHours, errors = [], stats = {}) {
   const recent = recentDateSet(windowHours);
   const results = [];
   let boardsRead = 0;
+  let rowsSeen = 0;
   for (const board of PRESS_BOARDS) {
     let html;
     try {
@@ -126,6 +127,7 @@ async function fetchPressReleases(windowHours, errors = []) {
       continue;
     }
     for (const row of extractRows(html)) {
+      rowsSeen += 1;
       const cells = extractCells(row); // [번호, 구분, 제목, 담당부서, 등록일, 첨부파일]
       if (cells.length < 5) continue;
       const date = stripTags(cells[4]);
@@ -139,8 +141,16 @@ async function fetchPressReleases(windowHours, errors = []) {
     }
   }
 
+  // 게시판을 읽었는지 자체를 남긴다. "읽었는데 오늘 자료가 없다"와 "못 읽어서 0건"은
+  // 완전히 다른 상황인데, 결과 배열만 봐서는 구분되지 않는다.
+  stats.press = { boardsRead, boardsTotal: PRESS_BOARDS.length, rowsSeen, matched: results.length };
+
   if (boardsRead === 0) {
     errors.push("보도자료 게시판을 한 곳도 읽지 못했습니다 — 이 날의 보도자료는 수집되지 않았습니다.");
+  } else if (rowsSeen === 0) {
+    // 접속은 됐는데 목록이 한 줄도 안 잡혔다 = 페이지 구조가 바뀌었을 가능성.
+    // 잡아두지 않으면 "오늘은 보도자료가 없었나 보다"로 조용히 넘어간다.
+    errors.push("보도자료 게시판은 열렸으나 목록을 한 줄도 읽지 못했습니다 — 페이지 구조 변경 확인 필요.");
   }
 
   // 본문 PDF는 병렬로 받되, 일부 실패해도 그 항목은 제목만 남기고 계속 진행한다
@@ -162,19 +172,22 @@ async function fetchPressReleases(windowHours, errors = []) {
  * 위원회 소식 게시판을 스크래핑해 최근 windowHours 이내 게시물의 첨부 PDF를 내려받는다.
  * @returns {Array<{headline,published_at,source_url,dept,pdfBase64}>}
  */
-async function fetchCommitteeNews(windowHours, errors = []) {
+async function fetchCommitteeNews(windowHours, errors = [], stats = {}) {
   const recent = recentDateSet(windowHours);
   let html;
   try {
     html = await fetchHtml(COMMITTEE_BOARD_URL);
   } catch (err) {
+    stats.committee = { boardsRead: 0, boardsTotal: 1, rowsSeen: 0, matched: 0 };
     // 위원회 소식은 대상일이 지나면 다음 날 회수되지 않는다. 실패를 반드시 드러낸다.
     console.error(`[collectFtcBoard] 위원회 소식 조회 실패: ${err.message}`);
     errors.push(`위원회 소식 조회 실패: ${err.message} — 이 날의 위원회 소식은 수집되지 않았습니다.`);
     return [];
   }
   const matched = [];
+  let rowsSeen = 0;
   for (const row of extractRows(html)) {
+    rowsSeen += 1;
     const cells = extractCells(row); // [번호, 제목, 담당부서, 등록일, 첨부, 조회]
     if (cells.length < 5) continue;
     const date = stripTags(cells[3]);
@@ -186,6 +199,11 @@ async function fetchCommitteeNews(windowHours, errors = []) {
     const fileMatch = cells[4].match(/downloadBbsFile\.do\?atchmnflNo=(\d+)/);
     if (!fileMatch || !title) continue;
     matched.push({ headline: title, dept, published_at: date, source_url, atchmnflNo: fileMatch[1] });
+  }
+
+  stats.committee = { boardsRead: 1, boardsTotal: 1, rowsSeen, matched: matched.length };
+  if (rowsSeen === 0) {
+    errors.push("위원회 소식 게시판은 열렸으나 목록을 한 줄도 읽지 못했습니다 — 페이지 구조 변경 확인 필요.");
   }
 
   // PDF 다운로드는 병렬로, 일부 실패해도 나머지는 진행
