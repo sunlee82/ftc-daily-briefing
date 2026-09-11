@@ -32,6 +32,22 @@
     {
       "category": "press",
       "category_label": "공정위 보도자료",
+      "headline": "공정거래위원회-한국하도급법학회, 공동 학술대회 개최",
+      "summary": "하도급대금 지급안정성 강화 논의하는 공정위·하도급법학회 공동학술대회 개최한다.\n- 하도급대금 지급보증의무 **8월 11일**부터 확대 시행 현황 점검\n- 수급사업자 정보요청권 도입, 전자대금지급시스템 의무화 확대 논의\n- 하도급대금 직접지급청구 관련 판례 분석 발표\n- 논의 내용, 향후 하도급법 집행·제도개선에 참고",
+      "source_url": "https://www.ftc.go.kr/www/selectBbsNttView.do?pageUnit=10&pageIndex=1&searchCnd=all&key=12&bordCd=3&searchCtgry=01,02&nttSn=48000",
+      "published_at": "2026-09-11"
+    },
+    {
+      "category": "press",
+      "category_label": "공정위 보도자료",
+      "headline": "공정거래위원장, 가맹업계 간담회 개최",
+      "summary": "가맹점사업자단체 등록제 시행령 놓고 점주·본부 의견 수렴 간담회 열어.\n- 단체 등록 하한 낮추는 방안 검토, 소규모 본부 부담 완화\n- 가맹본부 측은 등록비율 **10%**로 인한 단체 난립 우려\n- 점주 측은 협의요청 제한사유 악용 가능성 지적\n- 입법·행정예고 의견제출 **9월 14일**까지, 개정법 **12월 31일** 시행",
+      "source_url": "https://www.ftc.go.kr/www/selectBbsNttView.do?pageUnit=10&pageIndex=1&searchCnd=all&key=12&bordCd=3&searchCtgry=01,02&nttSn=48001",
+      "published_at": "2026-09-11"
+    },
+    {
+      "category": "press",
+      "category_label": "공정위 보도자료",
       "headline": "[설명] 한겨레(9.11.) \"삼전·닉스 낡은 지배구조 손놓고...되레 '수평출자' 길 터주나\" 기사 관련",
       "summary": "메가특구특별법에 지주회사 수평출자 허용 검토한 바 없다고 밝힌다.\n- 가칭 **메가특구특별법**에 지주회사 자·손자회사 수평출자 허용 방안 검토한 바 없음\n- 지주회사 체제 내 계열사 간 신규 출자 허용은 검토 대상 아님\n- **9월 11일**자 한겨레 \"수평출자 길 터주나\" 보도는 사실과 다름",
       "source_url": "https://www.ftc.go.kr/www/selectBbsNttView.do?pageUnit=10&pageIndex=1&searchCnd=all&key=13&bordCd=3&searchCtgry=03&nttSn=48002",
@@ -69,6 +85,16 @@
       "category": "news",
       "category_label": "뉴스 보도내용",
       "competitor": "공정거래위원회",
+      "keyword": "현장조사",
+      "headline": "다이소 반품 갑질 의혹 조사, 공정위 조사기간 연장 가능성",
+      "summary": "아성다이소 대규모유통업법 위반 현장조사, 당초 예정보다 길어질 조짐.\n지난 **9월 8일** 착수한 반품 갑질 의혹 조사가 대상.",
+      "source_url": "http://www.issueinfact.com/news/articleView.html?idxno=90084",
+      "published_at": "4시간 전"
+    },
+    {
+      "category": "news",
+      "category_label": "뉴스 보도내용",
+      "competitor": "공정거래위원회",
       "keyword": "과징금",
       "headline": "대한제분, 밀가루 담합 과징금 1,120억원 집행정지",
       "summary": "법원이 밀가루 가격·물량 담합 과징금 **1,120억원**의 집행정지 결정.\n과징금 부과처분 자체는 유지, 본안소송 결과까지 납부만 유예.",
@@ -86,5 +112,5 @@
       "published_at": "33분 전"
     }
   ],
-  "generated_at": "2026-09-11T04:57:19.000Z"
+  "generated_at": "2026-09-11T06:35:35.000Z"
 }
