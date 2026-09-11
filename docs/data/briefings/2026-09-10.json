@@ -1,8 +1,8 @@
 {
   "id": "2026-09-10",
   "date": "2026-09-10",
-  "title": "대한항공, 좌석유지 완화 요청 기각·조사방해 고발",
-  "summary": "대한항공 등 5개사 좌석유지 완화 요청 기각, 직원 **3명** 조사방해 고발 의견\n**CJ올리브영** 추가 현장조사…**다이소** 이어 유통업계 전반으로 확산\n석유화학 가격담합 혐의로 **OCI**·LG화학 등 임원 검찰 소환조사",
+  "title": "공정위, 하도급 대금 늑장지급 18개 기업 조사",
+  "summary": "하도급대금 늑장지급 **18개 기업** 조사, 지연액 총 **1,015억원**(우방 **200억원**↑)\n주병기 위원장 **방미**해 미 FTC·법무부와 회동, **쿠팡** 현안 논의 여부 주목\n공정위, **TPG의 롯데렌탈 인수** 승인…**10월** 거래 마무리 전망",
   "competitors": [
     "공정거래위원회"
   ],
@@ -13,24 +13,6 @@
     "담합"
   ],
   "items": [
-    {
-      "category": "press",
-      "category_label": "공정위 보도자료",
-      "headline": "HD현대 그룹 - 1·2·3차 협력사 상생협약 체결식 개최",
-      "dept": "기업거래정책과",
-      "summary": "HD현대, 삼성·SK·LG 등에 이어 **여섯 번째**로 3차 협력사까지 상생협약을 확대한다.\n- 현금결제 비율 **100%** 유지, 마감 후 **15일** 이내 대금 지급 원칙 준수\n- 대출·설비투자 자금 **1,180억원** 규모로 신설·확대해 자금조달 지원\n- 기술자료 제공 시 전자NDA 체결 의무화해 협력사 기술 유출 예방",
-      "source_url": "https://www.ftc.go.kr/www/selectBbsNttView.do?pageUnit=10&pageIndex=1&searchCnd=all&key=12&bordCd=3&searchCtgry=01,02&nttSn=47992",
-      "published_at": "2026-09-10"
-    },
-    {
-      "category": "press",
-      "category_label": "공정위 보도자료",
-      "headline": "대한항공-아시아나 기업결합 시정조치 변경신청 2건, (주)대한항공 및 소속 직원들의 조사방해 사건 심의 절차 개시",
-      "dept": "기업결합과",
-      "summary": "대한항공 등 5개사의 좌석유지 완화 요청을 기각하고 조사방해는 고발하기로 했다.\n- <청주-제주> 노선·중동전쟁발 전 노선 완화요청 모두 \"사정변경 불인정\"으로 기각 의견\n- 현장조사 중 대한항공과 소속 직원 **3명**이 자료 삭제, 조사방해로 고발 의견\n- **9월 10일** 심사보고서 송부, 전원회의 심의·의결 거쳐 최종 확정 예정",
-      "source_url": "https://www.ftc.go.kr/www/selectBbsNttView.do?pageUnit=10&pageIndex=1&searchCnd=all&key=12&bordCd=3&searchCtgry=01,02&nttSn=47991",
-      "published_at": "2026-09-10"
-    },
     {
       "category": "committee",
       "category_label": "위원회 소식",
@@ -53,40 +35,10 @@
       "category": "news",
       "category_label": "뉴스 보도내용",
       "competitor": "공정거래위원회",
-      "keyword": "현장조사",
-      "headline": "공정위, 다이소 이어 CJ올리브영도 현장조사…대규모유통업법 위반 확인",
-      "summary": "부당 반품 등 혐의로 서울 용산 올리브영 본사에 조사관 파견.\n**4월**에 이어 올해 두 번째 유통업체 대상 현장조사.",
-      "source_url": "https://www.khan.co.kr/article/202609101914001",
-      "published_at": "2026-09-10"
-    },
-    {
-      "category": "news",
-      "category_label": "뉴스 보도내용",
-      "competitor": "공정거래위원회",
-      "keyword": "담합",
-      "headline": "석유화학 가격담합 혐의, 검찰 OCI·PKC·LG화학 임원 소환조사",
-      "summary": "김유신 **OCI** 대표이사 부회장 등 주요 업체 경영진 잇따라 피의자 소환.\n중동전쟁발 원료 수급 불안 틈탄 담합 혐의로 서울중앙지검 수사.",
-      "source_url": "https://biz.chosun.com/topics/law_firm/2026/09/10/XGAG5CGC7NEUPN3XASN3ATHWOY/",
-      "published_at": "2026-09-10"
-    },
-    {
-      "category": "news",
-      "category_label": "뉴스 보도내용",
-      "competitor": "공정거래위원회",
       "keyword": "공정위",
       "headline": "공정위, 할부거래 분쟁조정 시장감시국으로 이관",
       "summary": "선불식 할부거래 통합정보시스템 운영도 시장감시국 이관.\n분쟁조정 인력 **임기제 16명** 증원.",
       "source_url": "https://www.inews24.com/view/2004098",
-      "published_at": "2026-09-10"
-    },
-    {
-      "category": "news",
-      "category_label": "뉴스 보도내용",
-      "competitor": "공정거래위원회",
-      "keyword": "과징금",
-      "headline": "공정위, 조사 거부 기업 과징금 부과 추진…한화·쿠팡 반발 계기",
-      "summary": "법원의 한화 자료제출명령 제동, 쿠팡 현장조사 거부 잇따라 발생.\n임의조사 한계 드러나자 조사 거부 기업 과징금 부과 방안 검토.",
-      "source_url": "https://www.alphabiz.co.kr/news/articleView.html?idxno=184109",
       "published_at": "2026-09-10"
     },
     {
@@ -98,16 +50,6 @@
       "summary": "**10월** 거래 마무리 예정, 중고차·MRO 등으로 사업영역 확대 전망.\n렌터카 업계 1위 굳히기 포석.",
       "source_url": "https://www.viva100.com/article/20260909500638",
       "published_at": "2026-09-09"
-    },
-    {
-      "category": "news",
-      "category_label": "뉴스 보도내용",
-      "competitor": "공정거래위원회",
-      "keyword": "표시광고",
-      "headline": "결혼정보 듀오, 회원 수·외부감사 여부 부풀린 광고로 제재",
-      "summary": "개인정보 유출에 이어 허위·과장 광고로 정부 제재까지 받은 사실 확인.\n\"업계 최다·유일\" 등 표현이 표시광고법 위반으로 지적.",
-      "source_url": "https://www.newslaw.co.kr/ko-kr/articles/2040",
-      "published_at": "2026-09-10"
     },
     {
       "category": "news",
@@ -130,5 +72,5 @@
       "published_at": "2026-09-10"
     }
   ],
-  "generated_at": "2026-09-10T14:10:21.000Z"
+  "generated_at": "2026-09-10T02:49:48.000Z"
 }
