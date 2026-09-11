@@ -79,7 +79,7 @@ jobs:
         with:
           claude_code_oauth_token: ${{ secrets.CLAUDE_CODE_OAUTH_TOKEN }}
           claude_args: >-
-            --max-turns 80
+            --max-turns 250
             --allowedTools "Read,Write,Edit,Glob,Grep,Bash(git:*),Bash(node:*),Bash(ls:*),Bash(rm:*),Bash(cat:*),Bash(mkdir:*)"
           prompt: |
             저장소 루트에서 작업한다. 아래 절차를 끝까지 자동으로 수행하고, 사람의 승인을 기다리지 마라.
