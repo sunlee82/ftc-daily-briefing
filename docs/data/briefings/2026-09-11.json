@@ -2,7 +2,7 @@
   "id": "2026-09-11",
   "date": "2026-09-11",
   "title": "대한항공 조사방해 고발 의견…좌석유지 완화 요청 기각",
-  "summary": "삼성전자·**SK하이닉스**, 초호황 이익에도 지배구조 개선 제자리…**수평출자** 허용 우려\n대한항공, 조사방해로 법인·직원 **3명** 고발 의견…좌석유지 완화 요청도 기각\n공정위, **CJ올리브영** 본사 추가 현장조사…다이소 이어 유통가 전방위 점검",
+  "summary": "대한항공, 조사방해로 법인·직원 **3명** 고발 의견…좌석유지 완화 요청도 기각\n공정위, **CJ올리브영** 본사 추가 현장조사…다이소 이어 유통가 전방위 점검\n**대한제분**, 밀가루 담합 과징금 **1,120억원** 법원 집행정지 결정",
   "competitors": [
     "공정거래위원회"
   ],
@@ -28,6 +28,14 @@
       "summary": "HD현대 그룹, 1·2·3차 협력사까지 상생협약 확대 체결한다.\n- 현금성 결제 **100%** 유지, 마감 후 **15일** 이내 대금 지급 원칙\n- 올해 **1,180억원** 규모 대출·설비투자 지원 프로그램 신설\n- 기술자료 제공 시 전자 NDA 의무화 등 기술 보호 강화\n- 협력사 약 **7,500개**사 대상, 대기업집단 중 **6번째** 체결",
       "source_url": "https://www.ftc.go.kr/www/selectBbsNttView.do?pageUnit=10&pageIndex=1&searchCnd=all&key=12&bordCd=3&searchCtgry=01,02&nttSn=47992",
       "published_at": "2026-09-10"
+    },
+    {
+      "category": "press",
+      "category_label": "공정위 보도자료",
+      "headline": "[설명] 한겨레(9.11.) \"삼전·닉스 낡은 지배구조 손놓고...되레 '수평출자' 길 터주나\" 기사 관련",
+      "summary": "메가특구특별법에 지주회사 수평출자 허용 검토한 바 없다고 밝힌다.\n- 가칭 **메가특구특별법**에 지주회사 자·손자회사 수평출자 허용 방안 검토한 바 없음\n- 지주회사 체제 내 계열사 간 신규 출자 허용은 검토 대상 아님\n- **9월 11일**자 한겨레 \"수평출자 길 터주나\" 보도는 사실과 다름",
+      "source_url": "https://www.ftc.go.kr/www/selectBbsNttView.do?pageUnit=10&pageIndex=1&searchCnd=all&key=13&bordCd=3&searchCtgry=03&nttSn=48002",
+      "published_at": "2026-09-11"
     },
     {
       "category": "committee",
@@ -60,13 +68,23 @@
     {
       "category": "news",
       "category_label": "뉴스 보도내용",
-      "competitor": "SK하이닉스",
-      "keyword": "공정거래위원회",
-      "headline": "삼성전자·SK하이닉스, 지배구조 개선 손 놓고 수평출자 허용하나",
-      "summary": "삼성전자·SK하이닉스 등 초호황 이익에도 지배구조 개혁 논의는 제자리.\n정부가 수평출자까지 허용하면 경제력 집중 더 심해질 것이란 우려.",
-      "source_url": "https://www.hani.co.kr/arti/economy/marketing/1277261.html",
-      "published_at": "2026-09-11"
+      "competitor": "공정거래위원회",
+      "keyword": "과징금",
+      "headline": "대한제분, 밀가루 담합 과징금 1,120억원 집행정지",
+      "summary": "법원이 밀가루 가격·물량 담합 과징금 **1,120억원**의 집행정지 결정.\n과징금 부과처분 자체는 유지, 본안소송 결과까지 납부만 유예.",
+      "source_url": "http://www.newslock.co.kr/news/articleView.html?idxno=136044",
+      "published_at": "6분 전"
+    },
+    {
+      "category": "news",
+      "category_label": "뉴스 보도내용",
+      "competitor": "공정거래위원회",
+      "keyword": "공정위",
+      "headline": "대성건설·디에스종합건설, '20% 할인분양' 거짓광고로 공정위 제재",
+      "summary": "청주 동남지구 아파트 분양 광고가 대상.\n실제와 다른 할인율 표시로 표시광고법 위반 인정.",
+      "source_url": "https://v.daum.net/v/20260911094727786",
+      "published_at": "33분 전"
     }
   ],
-  "generated_at": "2026-09-11T00:35:00.000Z"
+  "generated_at": "2026-09-11T04:57:19.000Z"
 }
