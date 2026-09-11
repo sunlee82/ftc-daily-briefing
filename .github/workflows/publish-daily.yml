@@ -1,27 +1,13 @@
 name: 매일 아침 브리핑 자동 다듬기·배포
 
-# collect-daily.yml(수집)이 끝나는 즉시 이어서 실행된다.
-# GitHub Actions의 예약 실행은 정각에 보장되지 않고 수십 분~몇 시간 밀리므로
-# (실제로 2026-09-05 수집은 2시간 40분 지연됨) 시각을 고정하지 않고
-# workflow_run으로 수집 완료를 받아 이어받는다. 수집이 실패했으면 실행하지 않는다.
-# UTC 06:00(KST 15:00) 예비 실행은 workflow_run이 불발된 날을 위한 안전망 —
-# 이미 처리됐으면 today.json이 없어 Claude 호출 없이 즉시 종료한다.
+# 다듬기·배포는 맥미니(~/ftc/collect.sh)가 claude -p로 직접 한다.
+# 이 워크플로우는 폴백·수동 전용이다 — 맥에서 다듬기가 실패하면 collect.sh가 부르고,
+# 그 밖에는 Actions 탭에서 사람이 직접 돌린다.
 #
-# 필요한 저장소 시크릿 (Settings → Secrets and variables → Actions):
-#   CLAUDE_CODE_OAUTH_TOKEN
-#     로컬 터미널에서 `claude setup-token` 실행 → 발급된 토큰을 등록.
-#     Claude Pro/Max 구독으로 인증되며 유효기간은 1년(만료되면 재발급 후 교체).
-#     (대안: ANTHROPIC_API_KEY 시크릿을 만들고 아래 with: 항목을
-#      anthropic_api_key: ${{ secrets.ANTHROPIC_API_KEY }} 로 교체 — 이 경우 API 종량 과금)
-# 맥미니가 수집을 마치면 workflow_dispatch로 이 워크플로우를 직접 부른다.
-# (push 트리거도 시도했으나 claude-code-action이 push 이벤트를 지원하지 않는다 —
-#  "Unsupported event type: push". 2026-09-10 확인)
+# 자동 트리거(workflow_run·schedule)를 없앤 이유 — 수집이 맥으로 옮겨간 뒤로는
+# GitHub의 예약 수집이 빈손으로 끝나면서도 이 워크플로우를 깨워, 이미 나간 브리핑을
+# 덮어쓸 위험이 있었다. (2026-09-11 정리)
 on:
-  workflow_run:
-    workflows: ["매일 아침 FTC 원문 자동 수집"]
-    types: [completed]
-  schedule:
-    - cron: "0 6 * * *"
   workflow_dispatch: {}
 
 permissions:
@@ -36,9 +22,6 @@ jobs:
   publish:
     runs-on: ubuntu-latest
     # 수집이 실패한 뒤에는 이어받지 않는다(수동 실행·예비 실행은 항상 허용)
-    if: >-
-      github.event_name != 'workflow_run' ||
-      github.event.workflow_run.conclusion == 'success'
     steps:
       # 수집 워크플로우가 방금 푸시한 커밋까지 받아야 하므로 main을 명시적으로 체크아웃
       - uses: actions/checkout@v4
