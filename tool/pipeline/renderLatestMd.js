@@ -15,13 +15,15 @@ const ARCHIVE = "https://sunlee82.github.io/ftc-daily-briefing/";
 
 const WEEKDAY = ["일", "월", "화", "수", "목", "금", "토"];
 
-// 2026-09-07 → "2026. 9. 7. (월)"
+// 2026-09-07 → "2026.9.7.(월)"
+// 사내 오토메이션이 이 첫 줄을 메일 제목으로 쓰는데 한 줄이 길어져서,
+// 공백을 빼고 붙여 쓴다. (2026-09-12)
 function formatDate(iso) {
   const m = /^(\d{4})-(\d{2})-(\d{2})$/.exec(String(iso || ""));
   if (!m) return String(iso || "");
   const [, y, mo, d] = m;
   const wd = WEEKDAY[new Date(Date.UTC(+y, +mo - 1, +d)).getUTCDay()];
-  return `${y}. ${+mo}. ${+d}. (${wd})`;
+  return `${y}.${+mo}.${+d}.(${wd})`;
 }
 
 // 위원회 소식 본문의 ##[주요일정]## 같은 구분자를 읽기 좋은 소제목으로 바꾼다.
@@ -52,7 +54,7 @@ function main() {
   const items = Array.isArray(brief.items) ? brief.items : [];
 
   const out = [];
-  out.push(`# [공정위 일일동향] ${formatDate(brief.date || brief.id)}`);
+  out.push(`# [공정위동향] ${formatDate(brief.date || brief.id)}`);
   out.push("");
   out.push(`## ${String(brief.title || "").trim()}`);
   out.push("");
