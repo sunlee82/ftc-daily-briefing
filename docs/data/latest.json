@@ -1,8 +1,8 @@
 {
   "id": "2026-09-15",
   "date": "2026-09-15",
-  "title": "석유화학 가격담합 경영진 8명 구속영장 청구",
-  "summary": "석유화학 가격담합 혐의로 전·현직 경영진 **8명** 구속영장 청구\n권익위, 모듈러교실 입찰담합 **99건 1,300억원대** 적발…공정위 통보\n대법원, 롯데웰푸드 아이스크림 담합 과징금 **717억원** 파기환송",
+  "title": "대한항공·아시아나 마일리지 통합방안 최종 승인",
+  "summary": "대한항공·아시아나 **마일리지 통합방안** 최종 승인, 아시아나 마일리지 **10년간** 별도 유지\n석유화학 가격담합 혐의 전·현직 경영진 **8명** 구속영장 청구\n대법원, 롯데웰푸드 아이스크림 담합 과징금 **717억원** 파기환송",
   "competitors": [
     "공정거래위원회"
   ],
@@ -16,10 +16,10 @@
     {
       "category": "press",
       "category_label": "공정위 보도자료",
-      "headline": "대산1호 통합법인 H&L어드밴스드 상생협약 체결식 개최",
-      "summary": "석유화학 사업재편 1호 H&L어드밴스드, 협력사와 상생협약 체결한다.\n- 대금 마감 **월 2회**, 마감일로부터 **10일 이내** 현금성 지급\n- 원자재·유가 급등 등 불가항력 시 납품대금 조정 협의 성실 이행\n- 사업재편에 따른 계약물량 조정 시 협력사 간 공정 비율 적용\n- 협력사 ESG·탄소중립 대응 역량 강화 교육·컨설팅 지원",
-      "source_url": "https://www.ftc.go.kr/www/selectBbsNttView.do?pageUnit=10&pageIndex=1&searchCnd=all&key=12&bordCd=3&searchCtgry=01,02&nttSn=48008",
-      "published_at": "2026-09-14"
+      "headline": "대한항공-아시아나 마일리지 통합방안 최종 승인",
+      "summary": "공정위, 대한항공·아시아나 마일리지 통합방안을 최종 승인한다.\n- 아시아나 마일리지 **10년간** 별도 관리, 대한항공 전 노선서 사용\n- 전환 비율 탑승 **1:1**, 제휴 **1:0.82**(대한항공:아시아나)\n- 장거리·인기노선 보너스좌석 탑승실적, 최근 10년 최고치로 **10년 유지**\n- 연간 사용 마일리지 총량 **2030~36년 121%**까지 단계적 확대",
+      "source_url": "https://www.ftc.go.kr/www/selectBbsNttView.do?pageUnit=10&pageIndex=1&searchCnd=all&key=12&bordCd=3&searchCtgry=01,02&nttSn=48015",
+      "published_at": "2026-09-15"
     },
     {
       "category": "press",
@@ -28,6 +28,22 @@
       "summary": "한국소비자원·공정위, 추석 항공서비스 소비자 피해주의보 발령한다.\n- 최근 3년 피해구제 신청 연평균 **37.0%** 증가, 작년 **3,201건**\n- 계약해제 관련 피해 **58.4%**로 최다, 수수료·결항 분쟁 다발\n- 위탁수하물 파손·분실도 지속, 고가품은 하드케이스 포장 권장\n- 피해 시 **1372 소비자상담센터**·소비자24로 상담·피해구제 신청",
       "source_url": "https://www.ftc.go.kr/www/selectBbsNttView.do?pageUnit=10&pageIndex=1&searchCnd=all&key=12&bordCd=3&searchCtgry=01,02&nttSn=48007",
       "published_at": "2026-09-14"
+    },
+    {
+      "category": "press",
+      "category_label": "공정위 보도자료",
+      "headline": "대산1호 통합법인 H&L어드밴스드 상생협약 체결식 개최",
+      "summary": "석유화학 사업재편 1호 H&L어드밴스드, 협력사와 상생협약 체결한다.\n- 대금 마감 **월 2회**, 마감일로부터 **10일 이내** 현금성 지급\n- 원자재·유가 급등 등 불가항력 시 납품대금 조정 협의 성실 이행\n- 사업재편에 따른 계약물량 조정 시 협력사 간 공정 비율 적용\n- 협력사 ESG·탄소중립 대응 역량 강화 교육·컨설팅 지원",
+      "source_url": "https://www.ftc.go.kr/www/selectBbsNttView.do?pageUnit=10&pageIndex=1&searchCnd=all&key=12&bordCd=3&searchCtgry=01,02&nttSn=48008",
+      "published_at": "2026-09-14"
+    },
+    {
+      "category": "press",
+      "category_label": "공정위 보도자료",
+      "headline": "주병기 위원장, 포담 반독점 컨퍼런스 참석",
+      "summary": "주병기 위원장, 미국서 열리는 포담 반독점 컨퍼런스에 참석한다.\n- **9월 16~18일** 미국 뉴욕서 제53차 포담 반독점 컨퍼런스 개최\n- 미국·EU·독일 등 주요국 경쟁당국 수장급 인사 대거 참석\n- 비공개 경쟁당국 수장회의서 **AI 시장 경쟁** 등 의제 논의\n- 주요국 경쟁당국 수장과 양자협의회 열어 법집행 동향 공유",
+      "source_url": "https://www.ftc.go.kr/www/selectBbsNttView.do?pageUnit=10&pageIndex=1&searchCnd=all&key=12&bordCd=3&searchCtgry=01,02&nttSn=48014",
+      "published_at": "2026-09-15"
     },
     {
       "category": "committee",
@@ -108,5 +124,5 @@
       "published_at": "16시간 전"
     }
   ],
-  "generated_at": "2026-09-14T23:35:06.508Z"
+  "generated_at": "2026-09-15T04:21:25.338Z"
 }
