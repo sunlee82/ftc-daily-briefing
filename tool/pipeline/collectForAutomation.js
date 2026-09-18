@@ -75,7 +75,7 @@ const MAX_PER_AFFILIATE = 5;
 // 시각이 아니라 "등록일" 날짜 단위로 비교한다. 아침 9시에 실행하면 어제 오후·저녁에
 // 등록된 게시물도 실제로는 24시간 이내인데 날짜가 하루 다르다는 이유로 빠질 수 있어
 // (실제로 보도자료·위원회 소식 둘 다 이 문제가 확인됨) 오늘+어제(48시간)로 넉넉히 본다.
-const WINDOW_HOURS_PRESS = 48;
+const WINDOW_HOURS_PRESS_BASE = 48;
 // 위원회 소식은 게시글 제목에 "대상일"이 박혀 있다(예: "2026-09-07 위원회 소식").
 // 금요일 저녁에 올라오는 글은 주말을 건너뛰어 다음 주 월요일을 가리키므로, 등록일
 // 기준 48시간으로 담으면 토요일 브리핑에 실리고 정작 월요일엔 창을 벗어나 빠진다.
@@ -85,7 +85,41 @@ const WINDOW_HOURS_PRESS = 48;
 const WINDOW_HOURS_COMMITTEE = 168;
 // 뉴스 검색(serper.dev)은 날짜 문자열 비교가 아니라 검색 API 자체의 최신순 결과라
 // 이 문제가 없어 그대로 24시간 유지.
-const WINDOW_HOURS_NEWS = 24;
+const WINDOW_HOURS_NEWS_BASE = 24;
+
+// 쉰 날만큼 창을 넓힌다.
+//
+// 왜 — 2026-09-18부터 브리핑을 월~금만 돌린다(사내 회람도 평일만 나간다).
+// 그런데 창이 고정이면 월요일에 구멍이 생긴다. 뉴스는 24시간이라 토·일 기사가
+// 통째로 빠지고, 보도자료는 "오늘+어제" 이틀치라 금요일 오후에 등록된 건이
+// 영영 안 잡힌다(금요일 실행은 08:35이라 그 뒤 등록분을 못 보고, 토요일 실행은
+// 이제 없다).
+//
+// 요일로 분기하지 않고 "마지막 수집일로부터 며칠 지났는지"로 잡는 이유는
+// 연휴 때문이다. 추석처럼 며칠 쉬어도 같은 규칙으로 알아서 넓어진다.
+// 오늘 날짜 파일은 재실행일 수 있으므로 계산에서 뺀다.
+function daysSinceLastCollection() {
+  const dir = path.join(__dirname, "..", "..", "tool", "collected");
+  const today = todayKST();
+  let dates = [];
+  try {
+    dates = fs
+      .readdirSync(dir)
+      .map((f) => (/^(\d{4}-\d{2}-\d{2})\.json$/.exec(f) || [])[1])
+      .filter((d) => d && d < today)
+      .sort();
+  } catch (e) {
+    return 1; // 보관 폴더가 아직 없으면 평소대로
+  }
+  if (!dates.length) return 1;
+  const gap = Math.round((Date.parse(today) - Date.parse(dates[dates.length - 1])) / 86400000);
+  return Math.min(Math.max(gap, 1), 7); // 오래 멈췄어도 7일까지만
+}
+
+const GAP_DAYS = daysSinceLastCollection();
+// 보도자료는 등록일 날짜 단위 비교라 하루 여유를 더 준다(위 주석 참고).
+const WINDOW_HOURS_PRESS = WINDOW_HOURS_PRESS_BASE + (GAP_DAYS - 1) * 24;
+const WINDOW_HOURS_NEWS = WINDOW_HOURS_NEWS_BASE * GAP_DAYS;
 const MAX_PER_PAIR = 10;
 
 const ROOT = path.join(__dirname, "..", "..");
@@ -165,6 +199,7 @@ async function main() {
     _meta: {
       sources: ["ftc.go.kr(보도자료)", "ftc.go.kr(위원회 소식)", "serper.dev/news"],
       windowHours: { press: WINDOW_HOURS_PRESS, committee: WINDOW_HOURS_COMMITTEE, news: WINDOW_HOURS_NEWS },
+      gapDays: GAP_DAYS,
       committeeCandidates: committeeAll.length,
       boards: boardStats,
       affiliateCompanies: AFFILIATE_COMPANIES.length,
@@ -177,6 +212,9 @@ async function main() {
   };
 
   fs.writeFileSync(OUT_PATH, JSON.stringify(output, null, 2) + "\n");
+  if (GAP_DAYS > 1) {
+    console.log(`마지막 수집 이후 ${GAP_DAYS}일 — 창을 넓혔습니다 (보도자료 ${WINDOW_HOURS_PRESS}h, 뉴스 ${WINDOW_HOURS_NEWS}h)`);
+  }
   console.log(`수집 완료: ${OUT_PATH} (press ${pressItems.length}, committee ${committeeItems.length}/${committeeAll.length} 대상일 일치, news ${newsItems.length} — 기관 축 ${newsRawList.length} + 회사 축 ${affiliateList.length} 중복 제거)`);
 
   // 실패가 있었으면 Actions 로그 맨 끝에서 눈에 띄게 알린다.
