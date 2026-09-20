@@ -1,0 +1,917 @@
+{
+  "id": "2026-09-21",
+  "date": "2026-09-21",
+  "title": "공정거래위원회 일일동향 (초안 — 86건, 제목 다듬기 필요)",
+  "summary": "항목을 취사선택·순서조정한 뒤 저장하면 Claude Code가 제목/요약을 다듬어 배포합니다.",
+  "competitors": [
+    "공정거래위원회"
+  ],
+  "keywords": [
+    "공정위",
+    "과징금",
+    "현장조사",
+    "담합"
+  ],
+  "items": [
+    {
+      "category": "press",
+      "category_label": "공정위 보도자료",
+      "headline": "공시대상기업집단 대상 하도급대금 공시제도 및 연동제 설명회 개최",
+      "dept": "기업거래정책과",
+      "summary": "(PDF 원문 확인 필요 — 배포 전 Claude Code가 요약)",
+      "source_url": "https://www.ftc.go.kr/www/selectBbsNttView.do?pageUnit=10&pageIndex=1&searchCnd=all&key=12&bordCd=3&searchCtgry=01,02&nttSn=48029",
+      "published_at": "2026-09-18",
+      "pdfPath": null,
+      "pdfText": "- 1 -\n보도참고자료\n보도시점 2026. 9. 18.(금) 10:00 / 배포 2026. 9. 18.(금) 08:30\n하도급대금 공시제도 및 연동제 설명회 개최\n- 공시점검 결과를 바탕으로 지연공시, 누락 · 오기 등 재발 방지 안내 -\n- 하도급대금 연동제 적용 대상 확대, 탈법행위 금지 등 제도 유의사항 안내 -\n【관련 국정과제】 67. 기술탈취는 근절하고, 상생의 기업환경 조성\n공정거래위원회 (위원장 주병기, 이하 ‘ 공정위 ’) 는 9 월 21 일 (월) 대한상공회의소 에서\n102 개 공시대상기업집단 담당자 를 대상으로 하도급대금 결제조건 공시제 도 및\n연동제 에 대한 설명회 를 개최한다.\n[하도급대금 공시제도 및 연동제 설명회 개요]\n‣ (일시 · 장소) 26. 9. 21.(월) 15:00~17:00\n대한상공회의소 의원회의실 (서울 중구 소재)\n‣ (참석대상) 26 년 공시대상기업집단 소속회사 (102 개 기업집단 /3,538 개 소속 회사) 임직원\n시 간 내 용\n15:00~15:30 ㅇ 하도급거래, 원 · 수급사업자 개념 등 하도급법 일반\n15:30~16:00 ㅇ 하도급대금 결제조건 공시제도\n16:10~16:40 ㅇ 하도급대금 연동제\n16:40~17:00 ㅇ 질의응답\n공시대상기업집단에 속하는 원사업자는 ｢ 하도 급거래 공정화에 관한 법률 ｣\n(이하 ‘ 하도급법 ’) 제 13 조의 3 에 따라,\n▲\n하도급대 금 지급 수단별 · 지급 기간별\n지급금액,\n▲\n하도급대금 관련 분쟁조정기 구에 관한 사항 을 전자공시시스템\n(DART) 에 반기별로 공시 해야 한다.\n하도급대금 공시제도는 대금 지급 실태를 시장에 투명하게 공개 함으로써,\n원사업자의 자발적 대금 지급 관행 개선 을 유도하고, 수급사업자가 공시\n정보를 활용해 원사업자와 대금 지급조건 을 원활히 협의 할 수 있도록 하고자\n2023 년 1 월부터 시행 되었다.\n- 2 -\n이번 설명회에서는 내년 1~2 월에 걸쳐 진행될 2026 년 하반기 공시를\n앞두고, 기업들의 공시제도 이해와 실무를 돕기 위하여 공시 대상, 절차 및\n유의사항 등을 상세히 설명하며, 그동안 공시점검시 지속적으로 적발되고 있는\n사항 (허위 ・ 지연공시, 단순 누락 및 오기 등) 을 중심으로 재발 방지 교육도\n진행할 예정이다.\n또한, 기업들이 공시 업무를 진행하면서 참고할 수 있는 「 하도급대금 결제조건 공시\n가이드라인 」 과 질의응답서 (FAQ) 도 배포한다. 가이드라인에는\n▲\n공시 대상\n하도급 거래의 요건,\n▲\n공시방법 ․ 절차,\n▲\n작성 시 유의 사항 등이 포함되어 있으 며,\n기업들이 자주 질의한 사항을 반영한 질의응답서 도 함께 제공한다.\n한편, 이번 설명회에서는 하도급대금 공시제도와 더불어 하도급대금 연동제 에\n대한 설명도 함께 진행할 예정이다. 2023 년 10 월 하도급대금 연동제의\n본격 시행 이후, 공정위는 거래현장에 연동문화가 안착할 수 있도록 지속적으로\n지원하고 있다. 지난 2 월 하도급법 개정에 따라 하도급대금 연동제의\n적용범위 가 ‘ 주요 에너지 ’ 까지 확대 되어 8 월 11 일부터 현장에서 시행되고\n있는 바, 하도급대금 연동제 개정내용 과 함께 연동제 이행 절차를 설명하고\n원사업자의 우회적 ･ 탈법적 행위 금지 등 유의사항도 안내할 예정이다.\n공정위는 앞으로도 하도급대금 결제조건 공시제도 와 연동제 가 현장에서\n안정적으로 운영될 수 있도록 제도 운영 전반을 점검 하고, 설명회 개최,\n자료 제공 등 지원 활동 도 지속해 나갈 계획이다.\n< 별첨 > 1. 하도급대금 결제조건 공시제도 가이드라인\n2. 하도급대금 결제조건 공시제도 질의응답서 (FAQ)\n담당 부서\n기업협력정책관\n기업거래정책과\n책임자 과 장 송명현 (044-200-4945)\n담당자\n사무관 박진웅 (044-200-4958)\n조사관 조희정 (044-200-4955)"
+    },
+    {
+      "category": "committee",
+      "category_label": "위원회 소식",
+      "headline": "2026-09-21 위원회 소식",
+      "summary": "(PDF 원문 확인 필요 — 배포 전 Claude Code가 요약)",
+      "source_url": "https://www.ftc.go.kr/www/selectBbsNttView.do?pageUnit=10&pageIndex=1&searchCnd=all&key=15&bordCd=5&nttSn=48032",
+      "published_at": "2026-09-19",
+      "pdfPath": "tool/pending/today-pdfs/2026-09-19_2026-09-21_위원회_소식.pdf",
+      "pdfText": "- 1 -\n위원회소식 공정거래위원회 회보 2026-173 (2026. 09. 21. 월)\n【주요일정】\n□ 위 원 장 □ 부위원장\n10:30 취임 1 주년 기자간담회 (기자실) 10:00 전통시장 및 복지시설 방문 (공주)\n◆ 목 표: 독과점 구조개혁과 공정성장 기반 조성\n◆ 과 제: 민생분야 공정거래질서 확립, 경제주체 간 힘의 불균형 완화, 디지털 시장 혁신 생태계 조성,\n대기업집단 경제력 집중 완화\n- 2 -\n【인사발령】\n□ 운영지원과 -12033 (4182) 2026. 9. 18.\n수신 내부결재\n발신 운영지원과\n제목 인사발령\n다음과 같이 발령되었으므로 통지합니다.\n공정거래위원회\n행정서기보 백지원\n운영지원과 지원근무를 명함\n(기간: 2026. 9. 19. ~ 2026. 10. 1.)\n공정거래위원회\n전산서기보 민영은\n전산서기보 이동욱\n기획조정관실 정보화담당관실 지원근무를 명함\n(기간: 2026. 9. 19. ~ 2026. 10. 1.)\n공정거래위원회\n행정서기보 서준혁\n행정서기보 이도연\n기획조정관실 고객지원담당관실 지원근무를 명함\n(기간: 2026. 9. 19. ~ 2026. 10. 1.)\n공정거래위원회\n전산서기보 한승헌\n카르텔조사국 국제카르텔조사과 지원근무를 명함\n(기간: 2026. 9. 19. ~ 2026. 10. 1.)\n2026. 9. 19.\n공정거래위원회위원장.\n운영지원과\n행정주사보 정현진\n위원장실 지원근무를 명함\n(기간: 2026. 9. 21. ~ 별도 발령 시까지)\n2026. 9. 21.\n공정거래위원회위원장. 끝.\n- 3 -\n□ 운영지원과 -12032 (4182) 2026. 9. 18.\n수신 내부결재\n발신 운영지원과\n제목 인사발령\n다음과 같이 발령되었으므로 통지합니다.\n원자력안전위원회\n전산주사 임대빈\n공정거래위원회 전입을 명함\n소비자정책국 특수거래정책과 지원근무를 명함\n(기간: 2026. 9. 21. ~ 2026. 10. 1.)\n2026. 9. 21.\n공정거래위원회위원장. 끝.\n□ 운영지원과 -11911 (4183) 2026. 9. 16.\n수신 내부결재\n발신 운영지원과\n제목 인사발령\n다음과 같이 발령되었으므로 통지합니다.\n홍민지\n행정주사 (시보) 에 임함\n공정거래위원회 근무를 명함\n서울지방공정거래사무소 소비자과 근무를 명함\n2026. 9. 21.\n공정거래위원회위원장. 끝.\n☞ 자료 제공 및 회보 게재 문의: 운영지원과"
+    },
+    {
+      "category": "news",
+      "category_label": "뉴스 보도내용",
+      "competitor": "SK텔레콤",
+      "keyword": "공정거래위원회",
+      "headline": "[2026 국감 전망②] 해킹·쿠팡·AI…ICT '보안·플랫폼 책임' 쟁점",
+      "summary": "국회가 올해 국정감사에서 정보기술(IT)·플랫폼·통신업계의 보안과 소비자 보호 체계를 들여다본다. SK텔레콤과 KT에서 잇따른 개인정보 유출 사고가 발생한 데다 쿠팡...",
+      "source_url": "http://www.dhdaily.co.kr/news/articleView.html?idxno=27363",
+      "published_at": "2시간 전"
+    },
+    {
+      "category": "news",
+      "category_label": "뉴스 보도내용",
+      "competitor": "공정거래위원회",
+      "keyword": "현장조사",
+      "headline": "공정위 민생사정에… 기업들 현장조사부터 반발",
+      "summary": "공정거래위원회가 민생과 밀접한 사건의 조사 및 제재를 강화하는 가운데 기업들이 현장조사 단계부터 법적 대응에 나서고 있다. 법원이 현장조사·자료 제출 명령과...",
+      "source_url": "https://www.donga.com/news/Economy/article/all/20260920/134705322/2",
+      "published_at": "8시간 전"
+    },
+    {
+      "category": "news",
+      "category_label": "뉴스 보도내용",
+      "competitor": "SK하이닉스",
+      "keyword": "공정거래위원회",
+      "headline": "\"삼성전자보다 더 샀다\"…고액자산가들 풀매수한 '의외의 종목'은",
+      "summary": "10억 이상 자산가들 지난주 네이버 84.5억 순매수 삼성전자우·두산에너빌리티도 투자 고수들은 삼성SDI·SK하이닉스에 베팅. 네이버 본사 전경 지난주(9월 11~17일)...",
+      "source_url": "https://www.hankyung.com/article/202609205912i",
+      "published_at": "19시간 전"
+    },
+    {
+      "category": "news",
+      "category_label": "뉴스 보도내용",
+      "competitor": "공정거래위원회",
+      "keyword": "현장조사",
+      "headline": "공정위 민생사정 속도전에 기업 불복…현장조사부터 제동",
+      "summary": "(세종=연합뉴스) 김수현 기자 = 공정거래위원회의 현장 조사가 기업들의 반발에 부딪히고 법원에서 잇따라 제동이 걸리면서 공정위가 고심하는 모양새다.",
+      "source_url": "https://v.daum.net/v/20260920060321765?f=p",
+      "published_at": "1일 전"
+    },
+    {
+      "category": "news",
+      "category_label": "뉴스 보도내용",
+      "competitor": "SK텔레콤",
+      "keyword": "공정거래위원회",
+      "headline": "교보악사자산운용, 2년만 신상 ETF 출시…SK그룹 담는다 : 네이버 블로그",
+      "summary": "교보악사자산운용이 2년 만에 신규 ETF를 내놓으며 ETF 라인업 확장에 다시 나섭니다. 상장 ETF 가운데 SK그룹주 상품이 비어 있다는 점을 공략했습니다.",
+      "source_url": "https://m.blog.naver.com/PostView.naver?blogId=dealsite&logNo=224416503190",
+      "published_at": "1일 전"
+    },
+    {
+      "category": "news",
+      "category_label": "뉴스 보도내용",
+      "competitor": "SK그룹",
+      "keyword": "공정거래위원회",
+      "headline": "삼성SK·SK그룹·현대차LG·韓美 [이주의 상장ETF]",
+      "summary": "9월 넷째 주 KB자산운용, 교보악사자산운용, 미래에셋자산운용, IBK자산운용의 상장지수펀드(ETF) 4개 종목이 22일 유가증권시장에 상장한다. ◇ RISE 삼성SK그룹.",
+      "source_url": "https://it.chosun.com/news/articleViewAmp.html?idxno=2023092170508",
+      "published_at": "1일 전"
+    },
+    {
+      "category": "news",
+      "category_label": "뉴스 보도내용",
+      "competitor": "SK그룹",
+      "keyword": "공정거래위원회",
+      "headline": "교보악사자산운용, 2년만 신상 ETF 출시…SK그룹 담는다 : 네이버 블로그",
+      "summary": "교보악사자산운용이 2년 만에 신규 ETF를 내놓으며 ETF 라인업 확장에 다시 나섭니다. 상장 ETF 가운데 SK그룹주 상품이 비어 있다는 점을 공략했습니다.",
+      "source_url": "https://blog.naver.com/PostView.naver?blogId=dealsite&logNo=224416503190&redirect=Dlog",
+      "published_at": "1일 전"
+    },
+    {
+      "category": "news",
+      "category_label": "뉴스 보도내용",
+      "competitor": "SK하이닉스",
+      "keyword": "공정거래위원회",
+      "headline": "[오늘의 딜 PICK] [영상] 아시아나 마일리지 걱정 끝…대한항공 통합 후 10년 유효",
+      "summary": "아시아나 마일리지는 대한항공과의 통합 후에도 10년 동안 유효하게 유지됩니다. 탑승 마일리지는 1→1 비율로, 제휴 마일리지는 1→0.82 비율로 대한항공 스카이패스...",
+      "source_url": "https://dealsite.co.kr/articles/169132",
+      "published_at": "24시간 전"
+    },
+    {
+      "category": "news",
+      "category_label": "뉴스 보도내용",
+      "competitor": "SK케미칼",
+      "keyword": "공정거래위원회",
+      "headline": "양궁 아시안게임 선수 효과음과 배경음 설정",
+      "summary": "NO.2: 남자 양궁. NO.3: 양궁 3관왕. NO.4: 양궁 랭킹. NO.5: 양궁 선수. NO.6: 양궁 여자 국가대표. NO.7: 양궁 일베. NO.8: 양궁 쿵야. NO.9: 이우석, 양궁.",
+      "source_url": "https://www.histoire-pour-tous.fr/dossiers/3762-les-armes-de-la-guerre-de-secession-linfanterie.html?ID=%ED%86%A0%ED%86%A0%20%EB%AC%B4%EA%B8%B0.html",
+      "published_at": "1일 전"
+    },
+    {
+      "category": "news",
+      "category_label": "뉴스 보도내용",
+      "competitor": "SK바이오팜",
+      "keyword": "공정거래위원회",
+      "headline": "[제약공시 책갈피] 9월 3주차 - 보령·한국유니온제약 外",
+      "summary": "[메디파나뉴스 = 이정수 기자] 2026년 9월 3주차(9.14~9.18)에는 보령이 전문의약품 영업·마케팅 부문을 물적분할해 100% 자회사 비상장 법인 '보령파마솔루션'을 신설...",
+      "source_url": "https://www.medipana.com/news/articleView.html?idxno=417931",
+      "published_at": "1일 전"
+    },
+    {
+      "category": "news",
+      "category_label": "뉴스 보도내용",
+      "competitor": "공정거래위원회",
+      "keyword": "공정위",
+      "headline": "[단독] 美하원 법사위원장 \"공정위 그 사람… 쿠팡에 한 짓 생각하면 비자 안 돼\"",
+      "summary": "미국 하원 법사위원회가 한국 공정거래위원회의 쿠팡 조사를 미국 기업에 대한 차별로 규정하고, 해당 공무원의 미국 입국을 제한하는 법안을 논의함.",
+      "source_url": "https://www.chosun.com/international/us/2026/09/18/EEUPVKAWL5F4NNWDOR6FEZCO3U/",
+      "published_at": "2일 전"
+    },
+    {
+      "category": "news",
+      "category_label": "뉴스 보도내용",
+      "competitor": "공정거래위원회",
+      "keyword": "공정위",
+      "headline": "무신사, 입점사 ‘거래제한’ 의혹 벗었다…공정위 ‘무혐의’",
+      "summary": "(시사저널=김규림 기자). 패션 플랫폼 무신사가 입점 브랜드의 다른 플랫폼 거래를 제한했다는 의혹과 관련해 공정거래위원회로부터 무혐의 처분을 받았다.",
+      "source_url": "https://v.daum.net/v/6QZf3cnQ0G?f=p",
+      "published_at": "2일 전"
+    },
+    {
+      "category": "news",
+      "category_label": "뉴스 보도내용",
+      "competitor": "SK텔레콤",
+      "keyword": "공정거래위원회",
+      "headline": "SKT, 추석·아시안게임 대비 특별 통신대책…협력사 납품대금 조기 지급",
+      "summary": "SK텔레콤이 추석 연휴와 아시안게임 기간 안정적인 통신 서비스 제공을 위해 특별 소통 대응체계를 가동한다. 협력사와 유통망에는 총 1천318억원 규모의 대금을 조기...",
+      "source_url": "https://www.efnews.co.kr/news/articleView.html?idxno=132533",
+      "published_at": "2일 전"
+    },
+    {
+      "category": "news",
+      "category_label": "뉴스 보도내용",
+      "competitor": "SK텔레콤",
+      "keyword": "공정거래위원회",
+      "headline": "한국시장경제교수협회, ‘한국경제 도약을 위한 국회 정책토론회’ 개최",
+      "summary": "매일일보 = 홍주석 인턴기자 | 한국시장경제교수협회는 이종욱·김은혜 국민의힘 의원과 공동 주최한 '한국경제 도약을 위한 국회 정책토론회'가 지난 16일 국회 의원...",
+      "source_url": "https://www.m-i.kr/news/articleViewAmp.html?idxno=1416061",
+      "published_at": "2일 전"
+    },
+    {
+      "category": "news",
+      "category_label": "뉴스 보도내용",
+      "competitor": "SK브로드밴드",
+      "keyword": "공정거래위원회",
+      "headline": "추석 앞두고 돋보인 상생 경영…이통3사, 협력사 납품대금 조기 지급",
+      "summary": "[뉴스웍스=박광하 기자] 이동통신 3사가 추석 연휴를 앞두고 협력사에 총 3175억원 규모의 납품대금을 조기 지급한다. 명절 전 인건비와 원자재비 등 자금 수요가...",
+      "source_url": "https://www.newsworks.co.kr/news/articleViewAmp.html?idxno=854239",
+      "published_at": "2일 전"
+    },
+    {
+      "category": "news",
+      "category_label": "뉴스 보도내용",
+      "competitor": "SK스토아",
+      "keyword": "공정거래위원회",
+      "headline": "SK스토아 인수 갈등",
+      "summary": "SK스토아 노동조합은 인수 주체인 라포랩스가 방송미디어통신위원회의 사전 승인을 얻지 않은 상태에서 직매입 상품 전략과 가격 정책 등에 개입하며 실질적인 경영.",
+      "source_url": "https://www.mdtoday.co.kr/news/articleView.html?idxno=614177",
+      "published_at": "2일 전"
+    },
+    {
+      "category": "news",
+      "category_label": "뉴스 보도내용",
+      "competitor": "공정거래위원회",
+      "keyword": "공정위",
+      "headline": "무리한 과징금, 법원서 '제동'...\"혈세 줄줄 새는데\" 일단 때리고 보자? - 머니투데이",
+      "summary": "[편집자주] 공정거래위원회를 비롯한 정부 기관의 '엄벌주의' 행정이 기업에 큰 부담으로 다가온다. 사법부의 최종 판결이 내려지기도 전에 막대한 과징금을 비롯한...",
+      "source_url": "https://www.mt.co.kr/amp/industry/2026/09/18/2026091718443351824",
+      "published_at": "3일 전"
+    },
+    {
+      "category": "news",
+      "category_label": "뉴스 보도내용",
+      "competitor": "공정거래위원회",
+      "keyword": "공정위",
+      "headline": "아이들 쓰는 ‘교육용 태블릿’인데 650억원 규모 입찰 담합···공정위, 4개 업체 제재 절차 착수",
+      "summary": "교육청 등이 발주한 디지털교과서용 태블릿 컴퓨터 입찰에서 업체들이 담합한 혐의가 포착돼 공정거래위원회가 제재 절차에 착수했다. 공정위 사무처는 17일 디지털...",
+      "source_url": "https://www.khan.co.kr/article/202609171500001",
+      "published_at": "3일 전"
+    },
+    {
+      "category": "news",
+      "category_label": "뉴스 보도내용",
+      "competitor": "공정거래위원회",
+      "keyword": "공정위",
+      "headline": "\"기업 봐주기 가능성, 애초에 차단\"...때려야 사는(?) 공정위 - 머니투데이",
+      "summary": "⑦무리한 처분 남발, 구조적 배경은 \"감사원 감사나 국회에서 '봐주기' 지적이라도 나오면 담당자는 만신창이가 됩니다. \" 한 공정거래위원회 출신 관계자가 지목한...",
+      "source_url": "https://www.mt.co.kr/industry/2026/09/18/2026091718462740756",
+      "published_at": "3일 전"
+    },
+    {
+      "category": "news",
+      "category_label": "뉴스 보도내용",
+      "competitor": "공정거래위원회",
+      "keyword": "과징금",
+      "headline": "공정위, 대규모유통업법 과징금 고시 재행정예고",
+      "summary": "자동요약 기사 제목과 주요 문장을 기반으로 자동요약한 결과입니다. 전체 맥락을 이해하기 위해서는 본문 보기를 권장합니다. 공정거래위원회가 대규모유통업법 위반...",
+      "source_url": "https://v.daum.net/v/20260917113041294?f=p",
+      "published_at": "3일 전"
+    },
+    {
+      "category": "news",
+      "category_label": "뉴스 보도내용",
+      "competitor": "공정거래위원회",
+      "keyword": "과징금",
+      "headline": "4년간 교육청 발주한 태블릿 컴퓨터 입찰서 담합...공정위, 4개 업체 제재 절차 착수",
+      "summary": "공정거래위원회가 교육청 발주 디지털 교과서용 태블릿 PC 입찰에서 담합한 4개 업체에 대한 제재 절차를 시작함. 650억 원 규모의 입찰에서 불공정 행위가 확인되어...",
+      "source_url": "https://www.chosun.com/economy/economy_general/2026/09/17/IHEWL5JFFRBGPMSFE2RVCDJ6Z4/",
+      "published_at": "3일 전"
+    },
+    {
+      "category": "news",
+      "category_label": "뉴스 보도내용",
+      "competitor": "공정거래위원회",
+      "keyword": "과징금",
+      "headline": "[속보] '사상최고 리베이트 과징금' JW중외제약, 2심서 공정위에 승리",
+      "summary": "JW중외제약이 자사 의약품 리베이트 제공 혐의로 부과받은 과징금 299억원을 취소해달라며 낸 소송에서 승소했다.서울고등법원 제7행정부(나)는 17일 JW중외제약이...",
+      "source_url": "https://www.hitnews.co.kr/news/articleView.html?idxno=79210",
+      "published_at": "3일 전"
+    },
+    {
+      "category": "news",
+      "category_label": "뉴스 보도내용",
+      "competitor": "공정거래위원회",
+      "keyword": "과징금",
+      "headline": "학교 태블릿PC에도 뻗친 입찰 담합…공정위, 제재 착수",
+      "summary": "학교에서 사용하는 디지털교과서용 태블릿컴퓨터(PC) 입찰에서 낙찰 예정자와 입찰 가격 등을 미리 정한 혐의로 4개 업체가 공정거래위원회의 심판을 받게 됐다.",
+      "source_url": "https://www.kyeonggi.com/article/20260917580241",
+      "published_at": "3일 전"
+    },
+    {
+      "category": "news",
+      "category_label": "뉴스 보도내용",
+      "competitor": "공정거래위원회",
+      "keyword": "과징금",
+      "headline": "공정위, 디지털교과서용 태블릿PC 입찰담합 제재 착수",
+      "summary": "디지털교과서용 태블릿PC. 공정거래위원회 제공 학교에서 사용하는 디지털교과서용 태블릿 컴퓨터 입찰에서 담합을 벌인 4개 업체가 공정...",
+      "source_url": "https://www.busan.com/view/busan/view.php?code=2026091715494800356",
+      "published_at": "3일 전"
+    },
+    {
+      "category": "news",
+      "category_label": "뉴스 보도내용",
+      "competitor": "공정거래위원회",
+      "keyword": "담합",
+      "headline": "4년간 교육청 발주한 태블릿 컴퓨터 입찰서 담합...공정위, 4개 업체 제재 절차 착수",
+      "summary": "공정거래위원회가 지난 2022년부터 2025년까지 교육청이 발주한 디지털교과서용 태블릿 컴퓨터 입찰에서 담합한 혐의를 받고 있는 4개 태블릿 컴퓨터 제조 및 판매...",
+      "source_url": "https://v.daum.net/v/B2mjpUZvX2",
+      "published_at": "3일 전"
+    },
+    {
+      "category": "news",
+      "category_label": "뉴스 보도내용",
+      "competitor": "공정거래위원회",
+      "keyword": "담합",
+      "headline": "공정위, 초·중·고 '교육용 태블릿PC 입찰담합' 혐의 제재 착수 - 머니투데이",
+      "summary": "공정거래위원회가 디지털 교과서용 태블릿PC 입찰 담합 혐의에 대한 조사를 마무리하고 제재 절차에 착수했다. 공정위는 4개 태블릿 컴퓨터 제조 및 판매사업자들의...",
+      "source_url": "https://www.mt.co.kr/economy/2026/09/17/2026091708111987438",
+      "published_at": "3일 전"
+    },
+    {
+      "category": "news",
+      "category_label": "뉴스 보도내용",
+      "competitor": "공정거래위원회",
+      "keyword": "담합",
+      "headline": "디지털교과서 태블릿 650억 입찰담합 의혹…공정위, 4개사 제재 착수",
+      "summary": "교육청 등이 발주한 디지털교과서용 태블릿 컴퓨터 입찰에서 4개 업체가 조직적으로 담합했다는 공정거래위원회 심사관 판단이 나왔다. 담합 영향을 받은 것으로 파악...",
+      "source_url": "https://www.etnews.com/20260917000170",
+      "published_at": "3일 전"
+    },
+    {
+      "category": "news",
+      "category_label": "뉴스 보도내용",
+      "competitor": "공정거래위원회",
+      "keyword": "담합",
+      "headline": "디지털교과서 태블릿 입찰담합 적발…제재 절차 착수",
+      "summary": "디지털교과서용 태블릿 컴퓨터 입찰 과정에서 조직적인 담합을 벌인 사업자들이 공정거래위원회에 적발돼 제재 절차에 들어갔습니다.공정거래위원회 사무처는 오늘 4개...",
+      "source_url": "https://news.bbsi.co.kr/news/articleView.html?idxno=4107257",
+      "published_at": "3일 전"
+    },
+    {
+      "category": "news",
+      "category_label": "뉴스 보도내용",
+      "competitor": "공정거래위원회",
+      "keyword": "담합",
+      "headline": "공정위, 디지털교과서용 태블릿PC 입찰담합 심의 착수",
+      "summary": "관련 계약 규모 650억…공급 물량은 20만대 웃돌아 중대 위반으로 판단…법인·전현직 임직원 고발 의견까지. [세종=뉴스핌] 김현구 기자 = 공정거래위원회가 디지털...",
+      "source_url": "https://www.newspim.com/news/view/20260917000288",
+      "published_at": "3일 전"
+    },
+    {
+      "category": "news",
+      "category_label": "뉴스 보도내용",
+      "competitor": "SK브로드밴드",
+      "keyword": "공정거래위원회",
+      "headline": "[초점] SKB·KT·LGU+, 공공회선 입찰 담합 손배소송 패...법원 \"불법행위\"",
+      "summary": "뉴스워치= 성현 기자 | SK브로드밴드와 KT, LG유플러스가 공공기관 전용회선사업 담합으로 정부가 제기한 손해배상청구소송 1심에서 연이어 패소했다.",
+      "source_url": "https://www.newswatch.kr/news/articleView.html?idxno=81210",
+      "published_at": "3일 전"
+    },
+    {
+      "category": "news",
+      "category_label": "뉴스 보도내용",
+      "competitor": "SK그룹",
+      "keyword": "공정거래위원회",
+      "headline": "교보악사자산운용, 2년만 신상 ETF 출시…SK그룹 담는다",
+      "summary": "교보악사자산운용이 오는 22일 '교보악사 파워 SK그룹 증권상장지수투자신탁'을 유가증권시장에 상장하며 2년 만에 신규 주식형 ETF를 출시한다. SK그룹의 AI 밸류체인...",
+      "source_url": "https://dealsite.co.kr/articles/169253",
+      "published_at": "3일 전"
+    },
+    {
+      "category": "news",
+      "category_label": "뉴스 보도내용",
+      "competitor": "SK그룹",
+      "keyword": "공정거래위원회",
+      "headline": "공정위 조사·제재에 법원 잇단 제동…'집행정지'는 패소 전조?",
+      "summary": "가격 재결정·자료제출명령 잇따라 효력 정지 집행정지 인용돼도 본안서 처분 유지 사례 다수 쿠팡은 '회복 어려운 손해'보다 조사권 근거 쟁점.",
+      "source_url": "https://www.newsis.com/view/NISX20260917_0003794271",
+      "published_at": "3일 전"
+    },
+    {
+      "category": "news",
+      "category_label": "뉴스 보도내용",
+      "competitor": "SK그룹",
+      "keyword": "공정거래위원회",
+      "headline": "자동 진행 기능이 있다면? 오즈포탈 payout 벳무브 설정 확인",
+      "summary": "NO.1: Epl oddsportal. NO.2: Football betting odds. NO.3: Kleague1 odds. NO.4: Odd 배당. NO.5: Oddsportal A league. NO.6: Oddsportal basketball.",
+      "source_url": "https://www.calgaryroughnecks.com/nll-rookie-report-13/?ID=4898.html",
+      "published_at": "3일 전"
+    },
+    {
+      "category": "news",
+      "category_label": "뉴스 보도내용",
+      "competitor": "SK하이닉스",
+      "keyword": "공정거래위원회",
+      "headline": "“SK 74만원 간다”...하이닉스 덕에 지주사도 ‘덩실’ [오늘, 이 종목]",
+      "summary": "SK하이닉스 주가 상승·자사주 소각·의결권 가치 등을 근거로 SK 목표주가를 올린 증권사 보고서가 나왔다. 안영준 키움증권 애널리스트는 17일 SK 목표주가를 1월 제시...",
+      "source_url": "https://v.daum.net/v/YTeF2waeTK?f=p",
+      "published_at": "3일 전"
+    },
+    {
+      "category": "news",
+      "category_label": "뉴스 보도내용",
+      "competitor": "SK하이닉스",
+      "keyword": "공정거래위원회",
+      "headline": "소방관 카지노 프로모션 코드 메뉴가 접힌 상태에서 찾는 기능",
+      "summary": "대학생들이 가장 일하고 싶은 기업으로 SK하이닉스가 2년 연속 1위에 올랐다./그래픽=이지혜 디자인기자대학생들이 가장 일하고 싶은 기업으로 SK하이닉스가 2년 연속...",
+      "source_url": "https://www.histoire-pour-tous.fr/histoire-de-france/4594-marigny-grand-batisseur-sous-louis-xv.html?ID=%EA%B2%BD%EB%A7%88%20%EB%B0%B0%EB%8B%B9%EB%A5%A0%20%EB%B3%B4%EB%8A%94%EB%B2%95.html",
+      "published_at": "3일 전"
+    },
+    {
+      "category": "news",
+      "category_label": "뉴스 보도내용",
+      "competitor": "SK에코플랜트",
+      "keyword": "공정거래위원회",
+      "headline": "공간이 좁은 화면에서 읽는 토토 출산 정보 영역",
+      "summary": "혁신적 토토 출산 컨텐츠 제작소 ▷실시간 토토 출산 이슈 모니터링 ▷로아 캐릭터 슬롯 기본- 세 가지 핵심서비스를 한 곳에서!",
+      "source_url": "https://www.histoire-pour-tous.fr/histoire-de-france/125-ces-amours-qui-ont-marque-lhistoire-la-valliere-et-louis-xiv.html?ID=7318.html",
+      "published_at": "3일 전"
+    },
+    {
+      "category": "news",
+      "category_label": "뉴스 보도내용",
+      "competitor": "SK에코플랜트",
+      "keyword": "공정거래위원회",
+      "headline": "마카오 카지노 칩 단위 시스템 아키텍처의 입문 가이드: 사상, 행동 및 결과",
+      "summary": "NO.2: 일본 로또 사이트. NO.3: 일본 로또 한국인. NO.4: 일본 로또7 외국인. NO.5: 일본 복권 당첨금. NO.6: 일본 복권 세금 안 떼는 이유. NO.7: 일본 복권 영주권.",
+      "source_url": "https://www.histoire-pour-tous.fr/histoire-de-france/5581-louis-xvi-roi-de-france-1774-1793-biographie.html?ID=5486.html",
+      "published_at": "3일 전"
+    },
+    {
+      "category": "news",
+      "category_label": "뉴스 보도내용",
+      "competitor": "SK케미칼",
+      "keyword": "공정거래위원회",
+      "headline": "[NCC 감축 1년 ④] 에쓰오일 샤힌 에틸렌 180만 톤 증설…울산 NCC 감축 막혔다",
+      "summary": "[편집자주] 지난해 8월 20일 산업통상부(당시 산업통상자원부)와 국내 석유화학 10개사는 나프타분해시설(NCC) 최대 370만 톤 감축을 내건 사업재편 자율협약.",
+      "source_url": "https://www.jabon.co.kr/news/articleView.html?idxno=6828",
+      "published_at": "3일 전"
+    },
+    {
+      "category": "news",
+      "category_label": "뉴스 보도내용",
+      "competitor": "SK바이오팜",
+      "keyword": "공정거래위원회",
+      "headline": "학술마케팅 지킨 JW 리베이트 판결… 기등재약 재평가 기준 공개",
+      "summary": "제약·바이오 업계가 주요 품목의 해외 허가, 글로벌 임상 중지, 약가 제도 개편 등으로 분주한 한 주를 보냈습니다. 더구나 리베이트로 인한 과징금 소송에서 '학술...",
+      "source_url": "https://www.hitnews.co.kr/news/articleView.html?idxno=79244",
+      "published_at": "3일 전"
+    },
+    {
+      "category": "news",
+      "category_label": "뉴스 보도내용",
+      "competitor": "SK바이오팜",
+      "keyword": "공정거래위원회",
+      "headline": "'299억 과징금' 뒤집었다…JW중외제약, 공정위 상대 소송 승소",
+      "summary": "JW중외제약이 공정거래위원회로부터 부과받은 299억원 규모의 과징금을 취소해 달라며 제기한 행정소송에서 승소했다.18일 관련 업계에 따르면 서울고등법원 제7...",
+      "source_url": "https://www.ebn.co.kr/news/articleView.html?idxno=1724769",
+      "published_at": "3일 전"
+    },
+    {
+      "category": "news",
+      "category_label": "뉴스 보도내용",
+      "competitor": "SK바이오팜",
+      "keyword": "공정거래위원회",
+      "headline": "[뉴스모음] HMM, 현대무벡스 지분 4% 매각…투자재원 765억 마련",
+      "summary": "HMM이 현대무벡스 보유 지분 4%(400만 주)를 시간외대량매매로 매각하여 약 765억 원의 투자 재원을 마련했다. 이번 매각은 대규모 투자 재원 확보를 목적으로 이루어...",
+      "source_url": "https://dealsite.co.kr/articles/169257",
+      "published_at": "3일 전"
+    },
+    {
+      "category": "news",
+      "category_label": "뉴스 보도내용",
+      "competitor": "공정거래위원회",
+      "keyword": "공정위",
+      "headline": "제지·밀가루에 내린 공정위 '가격 재결정 명령', 법원서 제동(종합)",
+      "summary": "(서울·세종=연합뉴스) 이영섭 김수현 기자 = 공정거래위원회가 인쇄용지 제조사와 제분 업체에 내린 가격 재결정 명령의 효력을 법원이 정지한 것으...",
+      "source_url": "https://www.yna.co.kr/view/AKR20260916179151004",
+      "published_at": "4일 전"
+    },
+    {
+      "category": "news",
+      "category_label": "뉴스 보도내용",
+      "competitor": "공정거래위원회",
+      "keyword": "공정위",
+      "headline": "공정위, '증원 몫' 비상임위원에 유승한 고려대 교수 위촉",
+      "summary": "공정거래위원회는 유승한 고려대 경제학과 교수를 비상임위원으로 위촉했다고 오늘(16일) 밝혔습니다. 유 신임 비상임위원은 2008년 미국 코넬대에서 경제학 박사를...",
+      "source_url": "https://v.daum.net/v/fqyLZpXS52?f=p",
+      "published_at": "4일 전"
+    },
+    {
+      "category": "news",
+      "category_label": "뉴스 보도내용",
+      "competitor": "공정거래위원회",
+      "keyword": "공정위",
+      "headline": "공정위 신임 비상임위원에 유승한 교수 위촉…시장설계·플랫폼 경제 전문가",
+      "summary": "공정거래위원회는 신임 비상임위원에 유승한 고려대학교 경제학과 교수를 위촉했다고 16일 밝혔다.유 신임 위원은 2008년 미국 코넬대에서 경제학 박사 학위를 취득한...",
+      "source_url": "https://www.news1.kr/economy/trend/6292020",
+      "published_at": "4일 전"
+    },
+    {
+      "category": "news",
+      "category_label": "뉴스 보도내용",
+      "competitor": "공정거래위원회",
+      "keyword": "공정위",
+      "headline": "공정위 비상임위원에 유승한 고려대 교수 위촉",
+      "summary": "공정거래위원회는 유승한 고려대학교 경제학과 교수가 비상임위원으로 새로 위촉됐다고 오늘(16일) 밝혔습...",
+      "source_url": "https://news.kbs.co.kr/news/view.do?ncd=8664776",
+      "published_at": "4일 전"
+    },
+    {
+      "category": "news",
+      "category_label": "뉴스 보도내용",
+      "competitor": "공정거래위원회",
+      "keyword": "공정위",
+      "headline": "공정위 비상임위원에 유승한 고려대 교수 위촉",
+      "summary": "[세종=뉴시스]임하은 기자 = 공정거래위원회 비상임위원에 미시경제이론과 시장설계, 플랫폼 경제 분야 전문가인 유승한 고려대학교 경제학과 교수가 새로 위촉됐다.",
+      "source_url": "https://www.newsis.com/view/NISX20260916_0003791457",
+      "published_at": "4일 전"
+    },
+    {
+      "category": "news",
+      "category_label": "뉴스 보도내용",
+      "competitor": "공정거래위원회",
+      "keyword": "과징금",
+      "headline": "공정위 과징금 '580조 매출에 11조'…경실련 “소비자 집단소송제 도입해야”",
+      "summary": "경제정의실천시민연합(경실련)이 최근 20년간 공정거래위원회의 과징금 부과 실태를 분석한 결과 기업의 관련 매출액 등에 비해 실제 부과된 과징금 규모가 2%에도 미.",
+      "source_url": "https://www.ngonews.kr/news/articleView.html?idxno=238400",
+      "published_at": "4일 전"
+    },
+    {
+      "category": "news",
+      "category_label": "뉴스 보도내용",
+      "competitor": "공정거래위원회",
+      "keyword": "과징금",
+      "headline": "580조 벌고 과징금 11조…공정위 과징금 부과율 2%도 안됐다",
+      "summary": "공정거래위원회가 최근 20년간 대기업 등 기업들에 부과한 과징금이 11조원으로 해당 기업의 매출액에는 2%도 되지 않는 미미한 처벌이었다는 비판이 제기됐다.",
+      "source_url": "https://news.einfomax.co.kr/news/articleView.html?idxno=4435206",
+      "published_at": "4일 전"
+    },
+    {
+      "category": "news",
+      "category_label": "뉴스 보도내용",
+      "competitor": "공정거래위원회",
+      "keyword": "담합",
+      "headline": "제지업체 담합에 내린 공정위 '가격 재결정' 명령…법원서 효력 정지",
+      "summary": "[서울=뉴시스]이승주 기자 = 공정거래위원회가 인쇄용지 판매가격을 담합해 부당이득을 챙긴 것으로 조사된 제지사에 가격 재결정 명령을 부과했지만, 법원이 집행정지...",
+      "source_url": "https://mobile.newsis.com/view_amp.html?ar_id=NISX20260916_0003792805",
+      "published_at": "4일 전"
+    },
+    {
+      "category": "news",
+      "category_label": "뉴스 보도내용",
+      "competitor": "SK텔레콤",
+      "keyword": "공정거래위원회",
+      "headline": "여러 기능 중 무엇이 기본인지 궁금한 온라인 슬롯사이트 인기 TOP 10 리뷰",
+      "summary": "5세대 이동통신(5G) 속도를 과장 광고해 139억원대 과징금을 부과받은 KT가 법원에 처분 취소를 청구했으나 받아들여지지 않았다.",
+      "source_url": "https://www.histoire-pour-tous.fr/dossiers/2971-francois-ier-1494-1547.html?ID=%EC%97%90%EB%B3%BC%EB%A3%A8%EC%85%98%20%EC%8A%A4%ED%94%BC%EB%93%9C%20%EB%B0%94%EC%B9%B4%EB%9D%BC.html",
+      "published_at": "4일 전"
+    },
+    {
+      "category": "news",
+      "category_label": "뉴스 보도내용",
+      "competitor": "SK텔레콤",
+      "keyword": "공정거래위원회",
+      "headline": "\"법 위반 매출 580조인데 과징금 1.94%뿐\"…경실련, 집단소송제 도입 촉구",
+      "summary": "기업의 법 위반과 관련된 매출·계약 금액 등이 580조 원을 넘었지만 공정거래위원회(공정위)가 부과한 과징금은 관련 금액의 2%에도 미치지 않는다는 시민단체 분석 …",
+      "source_url": "https://www.news1.kr/amp/society/incident-accident/6292410",
+      "published_at": "4일 전"
+    },
+    {
+      "category": "news",
+      "category_label": "뉴스 보도내용",
+      "competitor": "SK텔레콤",
+      "keyword": "공정거래위원회",
+      "headline": "‘대리점 횡포’ 적발된 LG텔레콤",
+      "summary": "LG텔레콤이 공정거래위원회로부터 철퇴를 맞았다. 공정위로부터 일선 대리점에 대한 거래상지위남용행위를 시정하라는 명령을 받은 것이다. 지난 12월2일 공정위 발표...",
+      "source_url": "http://www.sisasinmun.com/news/articleView.html?idxno=27431",
+      "published_at": "4일 전"
+    },
+    {
+      "category": "news",
+      "category_label": "뉴스 보도내용",
+      "competitor": "SK텔레콤",
+      "keyword": "공정거래위원회",
+      "headline": "지주사 규제 묶여 자본 조달 발목…인력 재배치 땐 노동 쟁의도 암초 [시그널]",
+      "summary": "호남 팹' 제도정비 삐끗 땐 失期. SK하이닉스, 400조 투자한다지만 '증손회사 지분 100% 보유' 의무에. F1 등 외부 자본 유치할 통로 막혀",
+      "source_url": "https://signalm.sedaily.com/article/20091806",
+      "published_at": "4일 전"
+    },
+    {
+      "category": "news",
+      "category_label": "뉴스 보도내용",
+      "competitor": "SK스토아",
+      "keyword": "공정거래위원회",
+      "headline": "입문 단계에서 자주 생기는 제왕카지노 계열 질문",
+      "summary": "NO.1: 꽃계열 사이트 종류. NO.2: 대왕카지노 먹튀. NO.3: 대왕카지노 배너. NO.4: 대왕카지노 보증. NO.5: 딜 카지노 먹튀. NO.6: 빅센 먹튀. NO.7: 오비 카지노.",
+      "source_url": "https://www.histoire-pour-tous.fr/histoire-de-france/5563-hiver-54-l-appel-de-l-abbe-pierre.html?ID=7581.html",
+      "published_at": "4일 전"
+    },
+    {
+      "category": "news",
+      "category_label": "뉴스 보도내용",
+      "competitor": "SK그룹",
+      "keyword": "공정거래위원회",
+      "headline": "\"100원 벌고 2원 뱉었다\"…경실련 \"21년간 580조 부당매출에 과징금 11조…공정위 '솜방망이' 제재 그만\"",
+      "summary": "경제정의실천시민연합(경실련)이 기업들이 담합과 부당지원 등 위법행위로 약 21년간 580조원의 매출을 올리는 동안 공정거래위원회가 부과한 과징금은 관련 매출액의...",
+      "source_url": "https://v.daum.net/v/20260916110251472?f=p",
+      "published_at": "4일 전"
+    },
+    {
+      "category": "news",
+      "category_label": "뉴스 보도내용",
+      "competitor": "SK하이닉스",
+      "keyword": "공정거래위원회",
+      "headline": "공정위 비상임위원 5인 체제로…'플랫폼 전문가' 신규 위촉",
+      "summary": "[아이뉴스24 김현동 기자] 공정거래위원회가 플랫폼 경제 분야 전문가 유승한 교수를 비상임위원으로 위촉했다. 온라인 플랫폼 등에 대한 규제가 본격화될 지 주목된다...",
+      "source_url": "https://v.daum.net/v/20260916124807421",
+      "published_at": "4일 전"
+    },
+    {
+      "category": "news",
+      "category_label": "뉴스 보도내용",
+      "competitor": "SK하이닉스",
+      "keyword": "공정거래위원회",
+      "headline": "지주사 규제 묶여 자본 조달 발목…인력 재배치 땐 노동 쟁의도 암초 [시그널]",
+      "summary": "정부가 호남 반도체 생산시설(팹) 대상 대규모 투자 청사진을 제시했지만 숨어 있는 지주회사 규제가 프로젝트 발목을 잡을 수 있다는 우려가 나온다.",
+      "source_url": "https://www.sedaily.com/article/20091806",
+      "published_at": "4일 전"
+    },
+    {
+      "category": "news",
+      "category_label": "뉴스 보도내용",
+      "competitor": "SK이노베이션",
+      "keyword": "공정거래위원회",
+      "headline": "\"100원 벌고 2원 뱉었다\"…경실련 \"21년간 580조 부당매출에 과징금 11조…공정위 '솜방망이' 제재 그만\"",
+      "summary": "정부 제재, 재발 막기에는 턱없이 부족하다고 지적 소비자 피해 구제 위해 집단소송제 확대 촉구도. 경제정의실천시민연합(경실련)이 기업들이 담합과 부당지원 등...",
+      "source_url": "https://v.daum.net/v/8VlinAiPAc",
+      "published_at": "4일 전"
+    },
+    {
+      "category": "news",
+      "category_label": "뉴스 보도내용",
+      "competitor": "SK이노베이션",
+      "keyword": "공정거래위원회",
+      "headline": "네이버 vs 토스, 검색 리워드 갈등 결제단말기로 번졌다 … 경찰 수사 이어 공정위 제소 검토",
+      "summary": "네이버와 토스의 갈등이 검색 보상형(리워드) 광고에서 매장 결제단말기(POS) 연동 문제로 번지고 있다. 네이버가 토스의 리워드 마케팅이 검색 결과를 왜곡할 수...",
+      "source_url": "https://biz.newdaily.co.kr/site/data/html/2026/09/16/2026091600265.html",
+      "published_at": "4일 전"
+    },
+    {
+      "category": "news",
+      "category_label": "뉴스 보도내용",
+      "competitor": "SK이노베이션",
+      "keyword": "공정거래위원회",
+      "headline": "[현장] 공정위, 기업 위법행위 과징금 부과율 1.94%… “들켜도 남는 장사”",
+      "summary": "[시사프라임/고지혜 기자] 공정거래위원회가 최근 20여 년간 기업의 법 위반 행위에 부과한 과징금이 관련매출액 등의 1.94% 수준에 그쳤다는 시민단체 분석이 나왔다.",
+      "source_url": "https://www.sisaprime.co.kr/news/articleView.html?idxno=24775",
+      "published_at": "4일 전"
+    },
+    {
+      "category": "news",
+      "category_label": "뉴스 보도내용",
+      "competitor": "SK에코플랜트",
+      "keyword": "공정거래위원회",
+      "headline": "건설사 19곳, 하도급 납품단가 1천77억원 인상…상생협약 성과",
+      "summary": "종합건설사들이 중동 전쟁 등에 따른 원자재 가격 상승으로 어려움을 겪는 하도급업체를 위해 납품단가를 700억원 이상 올린 것으로 나타났다.",
+      "source_url": "https://v.daum.net/v/4bF0WWIkCz?f=p",
+      "published_at": "4일 전"
+    },
+    {
+      "category": "news",
+      "category_label": "뉴스 보도내용",
+      "competitor": "SK에코플랜트",
+      "keyword": "공정거래위원회",
+      "headline": "[현장] 공정위, 건설산업 상생협약 이행 점검…\"지속관리·상생협력 확산\"",
+      "summary": "민관협의체를 통해 상생협약이 제대로 이행되도록 노력하겠다. 향후 지속적으로 소통해 현장에서 체감할 수 있는 변화를 이끌어 낼 것이다.” (9월 16일 공정거래위원회...",
+      "source_url": "https://www.financialpost.co.kr/news/articleView.html?idxno=275932",
+      "published_at": "4일 전"
+    },
+    {
+      "category": "news",
+      "category_label": "뉴스 보도내용",
+      "competitor": "SK케미칼",
+      "keyword": "공정거래위원회",
+      "headline": "[NCC 감축 1년 ③] 한화솔루션 여수 1호 공정위 심사만 남아…케미칼 흑자 전환",
+      "summary": "[편집자주] 지난해 8월 20일 산업통상부(당시 산업통상자원부)와 국내 석유화학 10개사는 나프타분해시설(NCC) 최대 370만 톤 감축을 내건 사업재편 자율협약.",
+      "source_url": "https://www.jabon.co.kr/news/articleView.html?idxno=6827",
+      "published_at": "4일 전"
+    },
+    {
+      "category": "news",
+      "category_label": "뉴스 보도내용",
+      "competitor": "SK바이오팜",
+      "keyword": "공정거래위원회",
+      "headline": "SK바이오팜, 뇌전증 치료제 '세노바메이트' 일본 신약 허가 획득",
+      "summary": "SK바이오팜이 개발한 뇌전증 치료제 '세노바메이트'가 일본에서 신약으로 품목 허가됐다. 회사는 파트너사인 오노약품공업이 품목명 '에키스코푸리(エキスコプリ)'로...",
+      "source_url": "https://www.hitnews.co.kr/news/articleView.html?idxno=79186",
+      "published_at": "4일 전"
+    },
+    {
+      "category": "news",
+      "category_label": "뉴스 보도내용",
+      "competitor": "SK쉴더스",
+      "keyword": "공정거래위원회",
+      "headline": "최성환 SK네트웍스 사장, ASX 컴퍼니 설립 논란 직면...'계열 분리' 위한 행보인가?",
+      "summary": "[리버티코리아포스트=홍윤기 기자]최성환 사장이 SK네트웍스의 지분을 대량 매도하기 전 개인 회사를 설립한 것으로 확인됐다. 이와 관련, SK네트웍스에 대한 책임경영...",
+      "source_url": "http://www.lkp.news/news/articleView.html?idxno=84067",
+      "published_at": "5일 전"
+    },
+    {
+      "category": "news",
+      "category_label": "뉴스 보도내용",
+      "competitor": "SK하이닉스",
+      "keyword": "공정거래위원회",
+      "headline": "대한항공, 마일리지 통합 마침표 찍었다…12월 합병 ‘성큼’",
+      "summary": "대한항공은 15일 공정위로부터 아시아나항공과의 마일리지 통합방안을 최종 승인받았다고 밝혔는데, 마일리지는 합병을 앞두고 고객들이 가장 민감하게 지켜본 사안...",
+      "source_url": "https://biz.heraldcorp.com/article/10874036",
+      "published_at": "5일 전"
+    },
+    {
+      "category": "news",
+      "category_label": "뉴스 보도내용",
+      "competitor": "SK이노베이션",
+      "keyword": "공정거래위원회",
+      "headline": "대한항공-아시아나 마일리지 통합안 확정...탑승 마일 1대 1·제휴 마일 1대 0.82 전환",
+      "summary": "대한항공과 아시아나항공의 기업결합에 따른 마일리지 통합방안이 최종 확정됐다. 공정거래위원회는 대한항공이 제출한 아시아나항공과의 마일리지 통합방안을 지난 14...",
+      "source_url": "https://www.redian.org/news/articleView.html?idxno=257317",
+      "published_at": "5일 전"
+    },
+    {
+      "category": "news",
+      "category_label": "뉴스 보도내용",
+      "competitor": "SK이노베이션",
+      "keyword": "공정거래위원회",
+      "headline": "아시아나 마일리지, 탑승 적립마일 1대 1·제휴는 1대 0.82 전환",
+      "summary": "[ESG경제신문=김대우 기자] 아시아나항공의 마일리지가 대한항공과 통합에 따라 탑승 적립마일은 1대 1로, 제휴 적립마일은 1대 0.82로 전환된다.",
+      "source_url": "https://www.esgeconomy.com/news/articleView.html?idxno=16741",
+      "published_at": "5일 전"
+    },
+    {
+      "category": "news",
+      "category_label": "뉴스 보도내용",
+      "competitor": "SK스퀘어",
+      "keyword": "공정거래위원회",
+      "headline": "바카라 이벤트 조작 메뉴와 정보 메뉴 구별",
+      "summary": "바카라 이벤트,파워볼게임실시간 더블유놀이터,바카라 이벤트s 네임드 카지노,카지노 게임 룰렛,피터팬 토토 먹튀....",
+      "source_url": "https://www.histoire-pour-tous.fr/histoire-de-france/1754-louis-xiv-le-?ID=6269.html",
+      "published_at": "5일 전"
+    },
+    {
+      "category": "news",
+      "category_label": "뉴스 보도내용",
+      "competitor": "SK바이오팜",
+      "keyword": "공정거래위원회",
+      "headline": "대한항공-아시아나 마일리지 통합안 최종 승인…10년간 별도 사용 가능",
+      "summary": "대한항공과 아시아나항공의 마일리지 통합 방안이 최종 승인됐다. 대한항공은 15일 공정거래위원회로부터 아시아나항공과의 마일리지 통합 방안을 승인받았다고 밝혔다...",
+      "source_url": "https://wemakenews.co.kr/news/view.php?no=26315",
+      "published_at": "5일 전"
+    },
+    {
+      "category": "news",
+      "category_label": "뉴스 보도내용",
+      "competitor": "공정거래위원회",
+      "keyword": "과징금",
+      "headline": "공정위 8월까지 대기업 과징금 1조3천억원…최근 4년치 넘어섰다",
+      "summary": "공정거래위원회가 올해 8개월 동안 대기업에 부과한 과징금이 최근 4년간 대기업에 부과한 과징금을 모두 합한 금액보다 많은 것으로 나타났다.",
+      "source_url": "https://www.hani.co.kr/arti/economy/economy_general/1277686.html",
+      "published_at": "6일 전"
+    },
+    {
+      "category": "news",
+      "category_label": "뉴스 보도내용",
+      "competitor": "공정거래위원회",
+      "keyword": "현장조사",
+      "headline": "공정위, ’물량 떠넘기기 의혹’ 정식품 현장조사",
+      "summary": "공정거래위원회가 두유 브랜드 베지밀을 제조하는 정식품에 대해, 대리점에 물량을 떠넘긴 의혹을 확인하기 위해 현장 조사를 시행했습니다. 업계에 따르면 공정위는...",
+      "source_url": "https://www.yonhapnewstv.co.kr/news/MYH20260914200538Fk5",
+      "published_at": "6일 전"
+    },
+    {
+      "category": "news",
+      "category_label": "뉴스 보도내용",
+      "competitor": "공정거래위원회",
+      "keyword": "현장조사",
+      "headline": "공정위 ‘베지밀’ 정식품 현장조사…대리점에 물량 밀어내기 의혹",
+      "summary": "두유 브랜드 베지밀을 제조·판매하는 정식품이 대리점에 물량을 강제로 떠넘긴 혐의로 공정거래위원회 조사를 받았다. 14일 업계에 따르면 공정위는 이달 8일부터 11일...",
+      "source_url": "https://www.sedaily.com/article/20090723",
+      "published_at": "6일 전"
+    },
+    {
+      "category": "news",
+      "category_label": "뉴스 보도내용",
+      "competitor": "공정거래위원회",
+      "keyword": "현장조사",
+      "headline": "'베지밀 제조사' 정식품, 대리점법 위반 의혹 공정위 현장조사 받아",
+      "summary": "공정위, 충북 청주 정식품 본사에 현장조사 보내정식품 조사 중인 사안…사실 관계 밝히기 어려워베지밀을 제조하는 정식품이 공정거래위원회로부터 대리점에 물량을 떠...",
+      "source_url": "https://news.tf.co.kr/read/economy/2365718.htm",
+      "published_at": "6일 전"
+    },
+    {
+      "category": "news",
+      "category_label": "뉴스 보도내용",
+      "competitor": "공정거래위원회",
+      "keyword": "현장조사",
+      "headline": "공정위 ‘베지밀’ 정식품 현장 조사…대리점에 밀어내기 의혹",
+      "summary": "공정거래위원회가 대리점에 물량을 강제로 떠넘기는, 이른바 '밀어내기' 의혹으로 두유 브랜드 베지밀을 제조·판매하는 정식품에 대한 조사에 착수했습니다.",
+      "source_url": "https://news.kbs.co.kr/news/view.do?ncd=8662830",
+      "published_at": "6일 전"
+    },
+    {
+      "category": "news",
+      "category_label": "뉴스 보도내용",
+      "competitor": "공정거래위원회",
+      "keyword": "현장조사",
+      "headline": "공정위 '베지밀' 정식품 현장조사…대리점에 '물량 밀어내기' 의혹",
+      "summary": "오늘 업계에 따르면 공정위는 8∼11일 정식품 본사 등에 조사관을 보내 대리점거래의 공정화에 관한 법률 위반 혐의를 확인하기 위해 현장 조사를 벌였습니다.",
+      "source_url": "https://news.sbs.co.kr/news/endPage.do?news_id=N1008752682",
+      "published_at": "6일 전"
+    },
+    {
+      "category": "news",
+      "category_label": "뉴스 보도내용",
+      "competitor": "공정거래위원회",
+      "keyword": "현장조사",
+      "headline": "공정위, 대리점 밀어내기 의혹 받는 ‘베지밀’ 정식품 현장조사",
+      "summary": "대리점에 물량을 강제로 떠넘기는 이른바 '밀어내기' 의혹을 확인하기 위해 공정거래위원회가 베지밀을 제조하고 판매하는 정식품 본사 현장조사에 나섰다.",
+      "source_url": "https://www.segye.com/newsView/20260914518649",
+      "published_at": "6일 전"
+    },
+    {
+      "category": "news",
+      "category_label": "뉴스 보도내용",
+      "competitor": "공정거래위원회",
+      "keyword": "현장조사",
+      "headline": "공정위, '대리점법 위반' 의혹 베지밀 제조사 현장조사",
+      "summary": "[세종=뉴시스]여동준 기자 = 공정거래위원회가 대리점에 물량을 떠넘겼다는 의혹을 받는 베지밀 제조사 정식품에 대한 조사에 나섰다. 14일 업계 등에 따르면 공정위는...",
+      "source_url": "https://www.newsis.com/view/NISX20260914_0003788892",
+      "published_at": "6일 전"
+    },
+    {
+      "category": "news",
+      "category_label": "뉴스 보도내용",
+      "competitor": "공정거래위원회",
+      "keyword": "현장조사",
+      "headline": "쿠팡 vs 공정위 '현장조사 집행정지' 갈림길…유통 규제 지형, 법원 판단에",
+      "summary": "지난달 쿠팡이 '행정조사 예외 요건'을 들며 공정거래위원회의 현장 조사를 거부하여 법정 공방으로 이어진 가운데, 향후 해당 사안에 대한 법원의 판단에 따라 유통...",
+      "source_url": "https://www.financialpost.co.kr/news/articleView.html?idxno=275419",
+      "published_at": "6일 전"
+    },
+    {
+      "category": "news",
+      "category_label": "뉴스 보도내용",
+      "competitor": "SK텔레콤",
+      "keyword": "공정거래위원회",
+      "headline": "이재용·최태원·정의선·구광모 '상생경영 앞장'...삼성·SK·현대차·LG, 추석 명절 앞두고 협력사 남품대금 조기 지급",
+      "summary": "[녹색경제신문 = 박근우 기자]이재용 삼성전자 회장, 최태원 SK그룹 회장, 정의선 현대자동차그룹 회장, 구광모 LG그룹 회장 등이 이끄는 국내 주요 대기업 그룹이...",
+      "source_url": "https://www.greened.kr/news/articleView.html?idxno=350057",
+      "published_at": "6일 전"
+    },
+    {
+      "category": "news",
+      "category_label": "뉴스 보도내용",
+      "competitor": "SK텔레콤",
+      "keyword": "공정거래위원회",
+      "headline": "(이번주 법조 일정) 9월 14일~9월 19일",
+      "summary": "14일(월)-서울중앙지법, '자본시장과금융투자업에관한법률위반 등 혐의' 구세현 전 웰바이오텍 대표 외 2명 41차 공판(오전 10시)-서울중앙지법, '부정청탁및.",
+      "source_url": "https://www.lawtimes.co.kr/news/articleView.html?idxno=226257",
+      "published_at": "6일 전"
+    },
+    {
+      "category": "news",
+      "category_label": "뉴스 보도내용",
+      "competitor": "SK그룹",
+      "keyword": "공정거래위원회",
+      "headline": "되살아난 재벌 순환출자 [유레카]",
+      "summary": "이제는 시장이 재벌 구조를 받아들이지 않는 시대다. 무한 경쟁의 세계에서 성공하기 위해 재벌 집단이 아닌 개별 기업이 독자적으로 세계 초일류의 경쟁력을 갖춰야...",
+      "source_url": "https://www.hani.co.kr/arti/opinion/column/1277615.html;",
+      "published_at": "6일 전"
+    },
+    {
+      "category": "news",
+      "category_label": "뉴스 보도내용",
+      "competitor": "SK그룹",
+      "keyword": "공정거래위원회",
+      "headline": "판 커지는 렌터카…완성차 가세·플랫폼 연계 주목",
+      "summary": "매일일보 = 김현우 기자 | 국내 렌터카 시장에 완성차와 플랫폼의 영향력이 커질 전망이다. 업계 1위 롯데렌탈이 새 주인을 맞는 가운데 완성차업체들도 제조를 넘어...",
+      "source_url": "https://www.m-i.kr/news/articleView.html?idxno=1413569",
+      "published_at": "6일 전"
+    },
+    {
+      "category": "news",
+      "category_label": "뉴스 보도내용",
+      "competitor": "SK케미칼",
+      "keyword": "공정거래위원회",
+      "headline": "H&L어드밴스드, 협력사에 대금 60일→10일 이내 조기 지급 약속",
+      "summary": "HD현대케미칼·롯데대산석화 통합법인 출범 후 첫 상생협약 사업재편發 거래중단 없다…\"부담 협력사에 전가 안 해\" 석유화학 사업 재편 1호 사업자인 H&L어드밴스드(옛...",
+      "source_url": "http://www.inews24.com/view/wnrd/2005456",
+      "published_at": "6일 전"
+    }
+  ],
+  "generated_at": "2026-09-20T23:35:08.781Z",
+  "_meta": {
+    "sources": [
+      "ftc.go.kr(보도자료)",
+      "ftc.go.kr(위원회 소식)",
+      "serper.dev/news"
+    ],
+    "windowHours": {
+      "press": 96,
+      "committee": 168,
+      "news": 72
+    },
+    "gapDays": 3,
+    "committeeCandidates": 4,
+    "boards": {
+      "committee": {
+        "boardsRead": 1,
+        "boardsTotal": 1,
+        "rowsSeen": 10,
+        "matched": 4
+      },
+      "press": {
+        "boardsRead": 2,
+        "boardsTotal": 2,
+        "rowsSeen": 20,
+        "matched": 1
+      }
+    },
+    "affiliateCompanies": 14,
+    "affiliateCollected": 69,
+    "categoryCounts": {
+      "press": 1,
+      "committee": 1,
+      "news": 84
+    },
+    "collected": 109,
+    "deduped": 84,
+    "errors": []
+  }
+}
