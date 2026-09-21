@@ -55,6 +55,21 @@ function briefingLink(id, text) {
   return `<a class="src-link" href="briefing.html?date=${encodeURIComponent(id)}">${esc(text)}</a>`;
 }
 
+// 근거 줄.
+//
+// 예전에는 "2026-09-18 브리핑" 하나만 걸어서, 누르면 그날 브리핑 전체가 열리고
+// 관련 기사를 다시 찾아야 했다. 그래서 원문 제목·링크를 함께 담게 바꿨다.
+// 원문 링크가 있으면 그쪽을 걸고, 날짜는 브리핑으로 가는 작은 링크로 남긴다.
+// 옛 항목에는 source_title·source_url이 없으므로 그때는 예전처럼 보여준다.
+function sourceHTML(o) {
+  if (!o.source_title) return `근거: ${briefingLink(o.source, o.source + " 브리핑")}`;
+  const title = o.source_url
+    ? `<a class="src-link" href="${esc(o.source_url)}" target="_blank" rel="noopener">${esc(o.source_title)} ↗</a>`
+    : esc(o.source_title);
+  const day = o.source ? ` <span class="src-day">(${briefingLink(o.source, o.source + " 브리핑")})</span>` : "";
+  return `근거: ${title}${day}`;
+}
+
 // ---------- 사건 파이프라인 ----------
 function caseHTML(c, showStage = false) {
   const scale = c.scale
@@ -76,7 +91,7 @@ function caseHTML(c, showStage = false) {
       <span class="case-date">${fmtDate(c.last_date)}</span>
       <span>${esc(c.last_move)}</span>
     </div>
-    <div class="case-src">근거: ${briefingLink(c.source, c.source + " 브리핑")}</div>
+    <div class="case-src">${sourceHTML(c)}</div>
   </li>`;
 }
 
@@ -140,7 +155,7 @@ function scheduleHTML(items) {
       <div class="sched-body">
         <div class="sched-title">${esc(s.title)}</div>
         ${s.detail ? `<div class="sched-detail">${esc(s.detail)}</div>` : ""}
-        <div class="case-src">근거: ${briefingLink(s.source, s.source + " 브리핑")}</div>
+        <div class="case-src">${sourceHTML(s)}</div>
       </div>
     </li>`);
   return `<ul class="sched-list">${rows.join("")}</ul>`;
