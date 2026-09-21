@@ -244,6 +244,19 @@ header.site p { margin: 0; color: rgba(255, 255, 255, 0.88); font-size: 0.95rem;
 .item h3 { margin: 0 0 6px; font-size: 1.04rem; font-weight: 700; }
 .item p { margin: 0 0 14px; color: var(--text); font-size: 0.94rem; }
 .item p .person-name { color: var(--accent); font-weight: 800; }
+
+/* 자료실 본문 강조 — **키워드**와 ==수치== */
+.item p .kw,
+.detail-head .lead .kw { color: var(--accent); font-weight: 800; }
+.item p mark.hl,
+.detail-head .lead mark.hl {
+  background: var(--accent-soft);
+  color: var(--text);
+  font-weight: 700;
+  padding: 1px 4px;
+  border-radius: 4px;
+}
+.detail-head .lead .kw { color: var(--text); }
 .item p .section-label { font-weight: 800; }
 .item a.src {
   display: inline-flex;

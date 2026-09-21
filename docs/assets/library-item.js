@@ -8,6 +8,16 @@ function esc(s) {
   }[c]));
 }
 
+// 이스케이프한 뒤 강조 문법만 살린다.
+//   **키워드**  → accent 색 볼드
+//   ==수치·기한== → 형광펜
+// 자료 본문은 사람이 쓰는 JSON이라 이 두 가지로 충분하다.
+function rich(s) {
+  return esc(s)
+    .replace(/==(.+?)==/g, '<mark class="hl">$1</mark>')
+    .replace(/\*\*(.+?)\*\*/g, '<strong class="kw">$1</strong>');
+}
+
 function chips(arr) {
   return (arr || []).map((t) => `<span class="chip">${esc(t)}</span>`).join("");
 }
@@ -15,7 +25,7 @@ function chips(arr) {
 function sectionHTML(sec) {
   return `<article class="item">
     <h3>${esc(sec.heading)}</h3>
-    <p>${esc(sec.summary)}</p>
+    <p>${rich(sec.summary)}</p>
   </article>`;
 }
 
@@ -46,7 +56,7 @@ async function load() {
         <span class="date">${esc(it.date)}</span>
         <span class="type-badge">${esc(TYPE_LABELS[it.type] || it.type)}</span>
         <h1>${esc(it.title)}</h1>
-        <p class="lead">${esc(it.summary)}</p>
+        <p class="lead">${rich(it.summary)}</p>
         <div class="chips">${chips(it.tags)}</div>
         ${originalBtn ? `<div class="original-btn-row">${originalBtn}</div>` : ""}
       </div>
