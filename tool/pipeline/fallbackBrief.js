@@ -188,7 +188,7 @@ function similar(a, b) {
   return inter / Math.min(A.size, B.size);
 }
 
-const OUR_GROUP_RE = /(^|[^A-Za-z])SK([^A-Za-z]|$)|에스케이|11번가|티맵|하이닉스/;
+const OUR_GROUP_RE = /(^|[^A-Za-z])SK([^A-Za-z]|$)|SKC|에스케이|11번가|티맵|하이닉스|최태원/;
 
 // 모델 없이 거르므로 공정위 이야기가 직접 나오는 기사만 남긴다
 const FTC_RE = /공정위|공정거래|공정委|담합|하도급|가맹|대리점법|표시광고|과징금/;
@@ -222,7 +222,8 @@ function pickNews(items, published, pressTexts) {
     kept.push(it);
   }
   // SK 관련을 앞으로
-  kept.sort((a, b) => OUR_GROUP_RE.test(b.headline) - OUR_GROUP_RE.test(a.headline));
+  const ours = (h) => OUR_GROUP_RE.test(String(h).replace(/SK증권/g, ""));
+  kept.sort((a, b) => ours(b.headline) - ours(a.headline));
   return kept.slice(0, MAX_NEWS).map((it) => ({
     category: "news",
     category_label: it.category_label || "뉴스 보도내용",

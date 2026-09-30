@@ -26,11 +26,15 @@ const STAGES = [
 // "SK"는 앞뒤에 영문자가 붙지 않을 때만 인정한다(TASK 같은 오검출 방지).
 // 계열 변동이 있으면 이 목록만 고치면 지난 사건까지 함께 다시 분류된다.
 // (2026-06 원스토어는 SK스퀘어가 넥써쓰에 지분을 매각해 계열에서 빠졌다 — 제외)
+// (2026-09 독자가 SK그룹 전체로 넓어져 SKC·최태원(동일인)을 추가하고,
+//  이름만 SK인 SK증권(2018년 계열 분리)은 뺐다)
 const OUR_GROUP_RE =
-  /(^|[^A-Za-z])SK([^A-Za-z]|$)|에스케이|11번가|티맵|하이닉스/;
+  /(^|[^A-Za-z])SK([^A-Za-z]|$)|SKC|에스케이|11번가|티맵|하이닉스|최태원/;
+const NOT_OUR_GROUP_RE = /SK증권/g;
 
 function isOurGroup(c) {
-  return OUR_GROUP_RE.test(`${c.title || ""} ${c.parties || ""} ${c.conduct || ""}`);
+  const t = `${c.title || ""} ${c.parties || ""} ${c.conduct || ""}`.replace(NOT_OUR_GROUP_RE, "");
+  return OUR_GROUP_RE.test(t);
 }
 
 const KIND_CLASS = {
@@ -145,7 +149,7 @@ function pipelineHTML(allCases) {
     <h3 class="stage-title">
       <span class="stage-name">SK그룹 관련</span>
       <span class="stage-count">${ours.length}</span>
-      <span class="stage-desc">SK텔레콤·패밀리사 및 그룹사가 당사자인 건</span>
+      <span class="stage-desc">SK그룹 계열사·기업집단 SK가 당사자인 건</span>
     </h3>
     ${
       ours.length
