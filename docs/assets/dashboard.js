@@ -140,7 +140,8 @@ function caseHTML(c, showStage = false, today = todayKST()) {
   </li>`;
 }
 
-function pipelineHTML(allCases) {
+// part: "ours" = SK그룹 관련 블록만, "rest" = 나머지 단계 그룹만
+function pipelineHTML(allCases, part) {
   const ours = allCases.filter(isOurGroup);
   const cases = allCases.filter((c) => !isOurGroup(c));
 
@@ -183,7 +184,8 @@ function pipelineHTML(allCases) {
       <ul class="case-list">${unknown.map((c) => caseHTML(c)).join("")}</ul></section>`);
   }
   const rest = groups.join("");
-  return ourBlock + (rest || `<p class="empty">그 밖에 추적 중인 사건이 없습니다.</p>`);
+  if (part === "ours") return ourBlock;
+  return rest || `<p class="empty">그 밖에 추적 중인 사건이 없습니다.</p>`;
 }
 
 // ---------- 제도 변화 시계 ----------
@@ -231,9 +233,15 @@ async function load() {
       </p>
 
       <section class="viz-block">
-        <h2>사건 파이프라인</h2>
-        <p class="hint">브리핑에 등장한 사건을 절차 단계별로 모았습니다.</p>
-        ${pipelineHTML(cases)}
+        <h2>사건 파이프라인 — SK그룹 관련</h2>
+        <p class="hint">SK그룹 계열사·기업집단 SK가 당사자인 사건입니다. 최근 움직임 순입니다.</p>
+        ${pipelineHTML(cases, "ours")}
+      </section>
+
+      <section class="viz-block">
+        <h2>다가오는 일정</h2>
+        <p class="hint">의견제출 마감, 시행일, 변론·선고기일처럼 날짜가 정해진 것을 가까운 순으로 모았습니다.</p>
+        ${upcomingHTML(cases, sched, today)}
       </section>
 
       <section class="viz-block">
@@ -243,9 +251,9 @@ async function load() {
       </section>
 
       <section class="viz-block">
-        <h2>다가오는 일정</h2>
-        <p class="hint">의견제출 마감, 시행일, 변론·선고기일처럼 날짜가 정해진 것을 가까운 순으로 모았습니다.</p>
-        ${upcomingHTML(cases, sched, today)}
+        <h2>사건 파이프라인 — 그 밖의 사건</h2>
+        <p class="hint">브리핑에 등장한 나머지 사건을 절차 단계별로 모았습니다.</p>
+        ${pipelineHTML(cases, "rest")}
       </section>
 
       <p class="dash-foot">
