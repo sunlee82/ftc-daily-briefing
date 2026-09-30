@@ -227,12 +227,6 @@ async function load() {
       </p>
 
       <section class="viz-block">
-        <h2>다가오는 일정</h2>
-        <p class="hint">의견제출 마감, 시행일, 변론·선고기일처럼 날짜가 정해진 것을 가까운 순으로 모았습니다.</p>
-        ${upcomingHTML(cases, sched, today)}
-      </section>
-
-      <section class="viz-block">
         <h2>사건 파이프라인</h2>
         <p class="hint">브리핑에 등장한 사건을 절차 단계별로 모았습니다.</p>
         ${pipelineHTML(cases)}
@@ -242,6 +236,12 @@ async function load() {
         <h2>제도 변화 시계</h2>
         <p class="hint">법령·고시·지침의 예고와 시행, 추진 중인 제도 개편을 최신순으로 정리했습니다.</p>
         ${scheduleHTML(sched)}
+      </section>
+
+      <section class="viz-block">
+        <h2>다가오는 일정</h2>
+        <p class="hint">의견제출 마감, 시행일, 변론·선고기일처럼 날짜가 정해진 것을 가까운 순으로 모았습니다.</p>
+        ${upcomingHTML(cases, sched, today)}
       </section>
 
       <p class="dash-foot">
