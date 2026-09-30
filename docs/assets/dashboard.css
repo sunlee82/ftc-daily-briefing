@@ -7,6 +7,7 @@
   --stage-lit: #7c3aed;   /* 소송 */
   --stage-pro: #be123c;   /* 수사 */
   --stage-don: #15803d;   /* 처분 */
+  --stage-end: #6b7280;   /* 종결 */
   --kind-done: #15803d;
   --kind-done-soft: #dcf7e3;
   --kind-notice: #b45309;
@@ -24,6 +25,7 @@
     --stage-lit: #b39bff;
     --stage-pro: #fb7185;
     --stage-don: #4ade80;
+    --stage-end: #9ca3af;
     --kind-done: #4ade80;
     --kind-done-soft: #10281a;
     --kind-notice: #f0a72a;
@@ -72,6 +74,7 @@
 .stage[data-stage="소송"] .stage-title { border-left-color: var(--stage-lit); }
 .stage[data-stage="수사"] .stage-title { border-left-color: var(--stage-pro); }
 .stage[data-stage="처분"] .stage-title { border-left-color: var(--stage-don); }
+.stage[data-stage="종결"] .stage-title { border-left-color: var(--stage-end); }
 
 .stage-name { font-weight: 800; }
 .stage-count {
@@ -244,3 +247,27 @@
 /* 근거 줄 — 원문 제목이 주인공, 브리핑 날짜는 보조 */
 .case-src .src-day { color: var(--muted); font-size: 0.92em; }
 .case-src .src-day .src-link { color: inherit; }
+
+/* --- 다가오는 일정 --- */
+.up-list { list-style: none; margin: 0; padding: 0; display: grid; gap: 8px; }
+.up {
+  display: flex; gap: 12px; align-items: flex-start;
+  background: var(--surface); border: 1px solid var(--border);
+  border-radius: var(--radius); padding: 10px 12px; box-shadow: var(--shadow);
+}
+.up-when { flex: 0 0 72px; display: flex; flex-direction: column; gap: 2px; }
+.up-dday { font-weight: 700; color: var(--kind-notice); font-variant-numeric: tabular-nums; }
+.up-date { font-size: 0.8rem; color: var(--muted); }
+.up-body { min-width: 0; }
+.up-what { font-weight: 600; color: var(--text); }
+.up-title { margin-top: 2px; font-size: 0.85rem; color: var(--muted); }
+.up-type {
+  display: inline-block; margin-right: 6px; padding: 0 6px; font-size: 0.72rem;
+  border: 1px solid var(--border); border-radius: var(--radius-full);
+}
+.next-line { margin-top: 6px; font-size: 0.85rem; color: var(--text); display: flex; flex-wrap: wrap; gap: 6px; }
+.next-tag {
+  font-size: 0.72rem; font-weight: 700; padding: 0 6px; border-radius: var(--radius-full);
+  color: var(--kind-notice); background: var(--kind-notice-soft);
+}
+.next-date { font-weight: 600; font-variant-numeric: tabular-nums; }

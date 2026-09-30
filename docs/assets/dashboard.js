@@ -15,6 +15,7 @@ const STAGES = [
   { key: "소송", label: "소송", desc: "처분에 불복해 법원에서 다투는 중" },
   { key: "수사", label: "수사", desc: "검찰 수사·기소 등 형사 절차" },
   { key: "처분", label: "처분", desc: "과징금·시정명령 등 제재가 내려진 건" },
+  { key: "종결", label: "종결", desc: "무혐의·심의절차종료·판결 확정 등으로 끝난 건" },
 ];
 
 // ── 우리 회사군 ────────────────────────────────────────────────────────
@@ -50,6 +51,45 @@ function fmtDate(s) {
   return `${+m[2]}/${+m[3]}(${wd})`;
 }
 
+// 오늘(한국시간) YYYY-MM-DD
+function todayKST() {
+  return new Date(Date.now() + 9 * 3600 * 1000).toISOString().slice(0, 10);
+}
+function dday(date, today) {
+  const n = Math.round((Date.parse(date) - Date.parse(today)) / 86400000);
+  return n === 0 ? "D-day" : `D-${n}`;
+}
+// 다음 일정 한 줄 (사건·제도 카드 공통). 지난 일정은 보여주지 않는다.
+function nextHTML(o, today) {
+  const n = o.next;
+  if (!n || !n.date || n.date < today) return "";
+  return `<div class="next-line"><span class="next-tag">다음</span>
+    <span class="next-date">${fmtDate(n.date)} · ${dday(n.date, today)}</span>
+    <span>${esc(n.what || "")}</span></div>`;
+}
+
+// ---------- 다가오는 일정 ----------
+// 의견제출 마감·시행일·변론기일처럼 날짜가 정해진 것만 모아 가까운 순으로 보여준다.
+function upcomingHTML(cases, sched, today) {
+  const rows = [
+    ...cases.map((o) => ({ o, type: "사건" })),
+    ...sched.map((o) => ({ o, type: "제도" })),
+  ]
+    .filter(({ o }) => o.next && o.next.date && o.next.date >= today)
+    .sort((a, b) => (a.o.next.date < b.o.next.date ? -1 : 1));
+  if (!rows.length) return `<p class="empty">날짜가 정해진 다가오는 일정이 없습니다.</p>`;
+  return `<ul class="up-list">${rows
+    .map(({ o, type }) => `<li class="up">
+      <div class="up-when"><span class="up-dday">${dday(o.next.date, today)}</span>
+        <span class="up-date">${fmtDate(o.next.date)}</span></div>
+      <div class="up-body">
+        <div class="up-what">${esc(o.next.what || "")}</div>
+        <div class="up-title"><span class="up-type">${type}</span>${esc(o.title)}</div>
+      </div>
+    </li>`)
+    .join("")}</ul>`;
+}
+
 function briefingLink(id, text) {
   if (!id) return esc(text);
   return `<a class="src-link" href="briefing.html?date=${encodeURIComponent(id)}">${esc(text)}</a>`;
@@ -71,7 +111,7 @@ function sourceHTML(o) {
 }
 
 // ---------- 사건 파이프라인 ----------
-function caseHTML(c, showStage = false) {
+function caseHTML(c, showStage = false, today = todayKST()) {
   const scale = c.scale
     ? `<span class="case-scale">${esc(c.scale)}</span>`
     : "";
@@ -91,6 +131,7 @@ function caseHTML(c, showStage = false) {
       <span class="case-date">${fmtDate(c.last_date)}</span>
       <span>${esc(c.last_move)}</span>
     </div>
+    ${nextHTML(c, today)}
     <div class="case-src">${sourceHTML(c)}</div>
   </li>`;
 }
@@ -128,14 +169,14 @@ function pipelineHTML(allCases) {
         <span class="stage-count">${list.length}</span>
         <span class="stage-desc">${esc(st.desc)}</span>
       </h3>
-      <ul class="case-list">${list.map(caseHTML).join("")}</ul>
+      <ul class="case-list">${list.map((c) => caseHTML(c)).join("")}</ul>
     </section>`;
   });
   const unknown = cases.filter((c) => !STAGES.some((s) => s.key === c.stage));
   if (unknown.length) {
     groups.push(`<section class="stage"><h3 class="stage-title">
       <span class="stage-name">기타</span><span class="stage-count">${unknown.length}</span></h3>
-      <ul class="case-list">${unknown.map(caseHTML).join("")}</ul></section>`);
+      <ul class="case-list">${unknown.map((c) => caseHTML(c)).join("")}</ul></section>`);
   }
   const rest = groups.join("");
   return ourBlock + (rest || `<p class="empty">그 밖에 추적 중인 사건이 없습니다.</p>`);
@@ -155,6 +196,7 @@ function scheduleHTML(items) {
       <div class="sched-body">
         <div class="sched-title">${esc(s.title)}</div>
         ${s.detail ? `<div class="sched-detail">${esc(s.detail)}</div>` : ""}
+        ${nextHTML(s, todayKST())}
         <div class="case-src">${sourceHTML(s)}</div>
       </div>
     </li>`);
@@ -170,6 +212,8 @@ async function load() {
     const d = await res.json();
     const cases = Array.isArray(d.cases) ? d.cases : [];
     const sched = Array.isArray(d.schedule) ? d.schedule : [];
+    const today = todayKST();
+    const upcoming = [...cases, ...sched].filter((o) => o.next && o.next.date && o.next.date >= today).length;
     const open = cases.filter((c) => ["조사", "심의", "소송", "수사"].includes(c.stage)).length;
 
     el.innerHTML = `
@@ -178,8 +222,15 @@ async function load() {
         진행 중인 사건 <strong>${open}</strong>건 ·
         SK 관련 <strong>${cases.filter(isOurGroup).length}</strong>건 ·
         전체 <strong>${cases.length}</strong>건 ·
-        제도 변화 <strong>${sched.length}</strong>건
+        제도 변화 <strong>${sched.length}</strong>건 ·
+        다가오는 일정 <strong>${upcoming}</strong>건
       </p>
+
+      <section class="viz-block">
+        <h2>다가오는 일정</h2>
+        <p class="hint">의견제출 마감, 시행일, 변론·선고기일처럼 날짜가 정해진 것을 가까운 순으로 모았습니다.</p>
+        ${upcomingHTML(cases, sched, today)}
+      </section>
 
       <section class="viz-block">
         <h2>사건 파이프라인</h2>

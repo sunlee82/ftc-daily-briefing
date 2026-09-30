@@ -139,7 +139,7 @@
       "title": "무신사 거래제한 의혹",
       "parties": "무신사",
       "conduct": "거래상지위 남용(입점 브랜드 타 플랫폼 거래제한 의혹)",
-      "stage": "처분",
+      "stage": "종결",
       "scale": "",
       "last_move": "법 위반 혐의 인정 어려워 무혐의로 사건 종결, 현장조사 착수 약 2년 만",
       "last_date": "2026-09-17",
@@ -193,7 +193,11 @@
       "last_date": "2026-09-14",
       "source": "2026-09-15",
       "source_title": "'재판소원 1호' 녹십자 과징금 사건, 변론기일 10월 23일로 연기",
-      "source_url": "https://www.yna.co.kr/amp/view/AKR20260914154900004"
+      "source_url": "https://www.yna.co.kr/amp/view/AKR20260914154900004",
+      "next": {
+        "date": "2026-10-23",
+        "what": "헌재 변론기일"
+      }
     },
     {
       "title": "대한항공-아시아나 기업결합 시정명령 이행",
@@ -870,7 +874,11 @@
       "detail": "조사개시 후 1순위 신고자 과징금 면제→75% 감경 축소, 반복담합(5~10년) 감면 1/2로 축소, 승계법인도 제한 적용. 시행령 11월 2일까지 입법예고, 감면고시 10월 13일까지 행정예고, 2027년 1분기 시행 목표",
       "source": "2026-09-24",
       "source_title": "공정거래법 시행령 및 자진신고자 감면 고시 개정안 입법·행정예고",
-      "source_url": "https://www.ftc.go.kr/www/selectBbsNttView.do?pageUnit=10&pageIndex=1&searchCnd=all&key=12&bordCd=3&searchCtgry=01,02&nttSn=48044"
+      "source_url": "https://www.ftc.go.kr/www/selectBbsNttView.do?pageUnit=10&pageIndex=1&searchCnd=all&key=12&bordCd=3&searchCtgry=01,02&nttSn=48044",
+      "next": {
+        "date": "2026-10-13",
+        "what": "감면고시 개정안 의견제출 마감(시행령은 11/2까지)"
+      }
     },
     {
       "title": "메가특구 특별법 반도체 지주회사 증손회사 지분규제 완화",
@@ -924,7 +932,11 @@
       "detail": "반복담합 판단기간 5년→10년, 제한요청 벌점 기준 5점 초과→4점 이상으로 강화. 10월 12일까지 의견제출, 2027년 1월 1일 시행",
       "source": "2026-09-22",
       "source_title": "「입찰에 있어서의 부당한 공동행위 및 입찰참가자격 제한요청에 관한 지침」 개정안 행정예고",
-      "source_url": "https://www.ftc.go.kr/www/selectBbsNttView.do?pageUnit=10&pageIndex=1&searchCnd=all&key=12&bordCd=3&searchCtgry=01,02&nttSn=48035"
+      "source_url": "https://www.ftc.go.kr/www/selectBbsNttView.do?pageUnit=10&pageIndex=1&searchCnd=all&key=12&bordCd=3&searchCtgry=01,02&nttSn=48035",
+      "next": {
+        "date": "2026-10-12",
+        "what": "지침 개정안 의견제출 마감"
+      }
     },
     {
       "title": "방산 반복담합 사업자 등록·허가취소 등 제재 강화",
