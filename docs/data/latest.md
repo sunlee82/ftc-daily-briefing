@@ -324,10 +324,5 @@
 
 ---
 
-📌 **메일에 다 담지 못한 내용은 브리핑 홈페이지에서 보실 수 있습니다**
-
-- 🧭 **SK그룹 관련 규제동향** — 그룹 계열사 사건의 진행 단계, 다가오는 의견제출 마감·시행일을 한눈에: https://sunlee82.github.io/ftc-daily-briefing/dashboard.html
-- 📚 **자료실** — 공정위 주요 발표·간담회 자료 정리: https://sunlee82.github.io/ftc-daily-briefing/library.html
-- 🗂️ **지난 브리핑 전체**: https://sunlee82.github.io/ftc-daily-briefing/
-
 본 자료는 공정거래위원회 보도자료·위원회 소식 및 언론 보도를 정리한 것입니다.
+전체 아카이브: https://sunlee82.github.io/ftc-daily-briefing/

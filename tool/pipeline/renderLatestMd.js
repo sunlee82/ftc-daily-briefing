@@ -95,16 +95,10 @@ function main() {
     }
   }
 
-  // 맺음말 — 메일만 보고 지나치지 않도록 홈페이지의 추가 자료를 짚어 준다(2026-10 독자 확대).
   out.push("---");
   out.push("");
-  out.push("📌 **메일에 다 담지 못한 내용은 브리핑 홈페이지에서 보실 수 있습니다**");
-  out.push("");
-  out.push(`- 🧭 **SK그룹 관련 규제동향** — 그룹 계열사 사건의 진행 단계, 다가오는 의견제출 마감·시행일을 한눈에: ${ARCHIVE}dashboard.html`);
-  out.push(`- 📚 **자료실** — 공정위 주요 발표·간담회 자료 정리: ${ARCHIVE}library.html`);
-  out.push(`- 🗂️ **지난 브리핑 전체**: ${ARCHIVE}`);
-  out.push("");
   out.push("본 자료는 공정거래위원회 보도자료·위원회 소식 및 언론 보도를 정리한 것입니다.");
+  out.push(`전체 아카이브: ${ARCHIVE}`);
   out.push("");
 
   const md = out.join("\n").replace(/\n{3,}/g, "\n\n");
