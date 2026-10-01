@@ -96,7 +96,7 @@ function tabsHTML(base) {
   // 전체는 맨 오른쪽에 둔다
   const tabs = [...TIERS.map((t) => ({ key: t.key, label: t.label, n: count(t.key) })),
     { key: "etc", label: "기타", n: count("etc") },
-    { key: "all", label: "전체", n: base.length }].filter((t) => t.key === "all" || t.n);
+    { key: "all", label: "전체", n: base.length }].filter((t) => t.key === "all" || t.key === TIER || t.n);
   return tabs.map((t) =>
     `<button type="button" class="pr-tab${t.key === TIER ? " on" : ""}" data-tier="${t.key}">${esc(t.label)} <span>${t.n}</span></button>`
   ).join("");
