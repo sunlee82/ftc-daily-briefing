@@ -529,3 +529,14 @@ header.site .visits strong {
 }
 .item a.sk-day { display: inline-block; margin-top: 4px; font-size: 0.82rem; font-weight: 600; color: var(--accent); text-decoration: none; }
 .item a.sk-day:hover { text-decoration: underline; }
+
+/* 네비 버튼이 늘어나 좁은 화면에서 글자가 세로로 찌그러지던 문제(2026-10-01) —
+   줄바꿈을 허용하고 버튼 글자는 한 줄로 유지한다. 휴대폰에서는 SK 버튼 두 개를
+   한 줄씩 꽉 채우고, 나머지는 두 칸으로 나눈다. */
+.site-nav { flex-wrap: wrap; gap: 10px; }
+.site-nav .nav-btn { white-space: nowrap; justify-content: center; }
+@media (max-width: 600px) {
+  .site-nav { display: grid; grid-template-columns: 1fr 1fr; gap: 8px; padding: 0; }
+  .site-nav .nav-btn { padding: 10px 12px; font-size: 0.92rem; }
+  .site-nav .nav-btn.nav-sk { grid-column: 1 / -1; }
+}
