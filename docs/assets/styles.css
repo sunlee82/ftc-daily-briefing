@@ -510,3 +510,22 @@ header.site .visits strong {
   color: #ffffff;
   font-weight: 800;
 }
+
+/* --- SK 강조 (2026-10 독자가 SK그룹 전체로 확대) ---
+   SK 브랜드 레드. 버튼·제목·본문 어디서든 "SK" 글자를 튀게 한다. */
+:root { --sk-red: #ea002c; }
+@media (prefers-color-scheme: dark) { :root { --sk-red: #ff4d6a; } }
+.sk-red { color: var(--sk-red); font-weight: 900; }
+.site-nav .nav-btn.nav-sk { border-color: var(--sk-red); color: var(--text); }
+.site-nav .nav-btn.nav-sk:hover { background: color-mix(in srgb, var(--sk-red) 8%, transparent); }
+
+/* SK 관련 뉴스 페이지 */
+.sk-meta { color: var(--muted); margin: 0 0 18px; }
+.sk-meta strong { color: var(--text); }
+.item .sk-cat {
+  display: inline-block; margin-right: 8px; padding: 1px 8px; vertical-align: 2px;
+  font-size: 0.72rem; font-weight: 700; color: var(--muted);
+  border: 1px solid var(--border); border-radius: var(--radius-full);
+}
+.item a.sk-day { display: inline-block; margin-top: 4px; font-size: 0.82rem; font-weight: 600; color: var(--accent); text-decoration: none; }
+.item a.sk-day:hover { text-decoration: underline; }
