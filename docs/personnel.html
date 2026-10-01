@@ -4,21 +4,22 @@
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>공정위 인사발령</title>
-  <link rel="stylesheet" href="assets/styles.css?v=20260921" />
-  <link rel="stylesheet" href="assets/personnel.css?v=20260921" />
+  <link rel="stylesheet" href="assets/styles.css?v=20261001c" />
+  <link rel="stylesheet" href="assets/personnel.css?v=20261001" />
 </head>
 <body>
   <div class="wrap">
     <a class="back" href="index.html">← 아카이브로</a>
     <header class="site">
       <h1>👥 공정위 인사발령</h1>
-      <p>위원회 소식에 실린 인사발령을 발령일별로 모았습니다.<br />이름·직급·부서로 찾을 수 있습니다.</p>
+      <p>위원회 소식에 실린 인사발령을 발령일별로 모았습니다.<br />직급별로 나눠 보거나 이름·부서로 찾을 수 있습니다.</p>
     </header>
 
     <div class="pr-search">
       <input id="q" type="search" placeholder="이름·직급·부서로 찾기 (예: 서기관, 카르텔조사국)"
              autocomplete="off" aria-label="인사발령 검색" />
     </div>
+    <div id="tabs" class="pr-tabs" role="tablist" aria-label="직급"></div>
     <p id="summary" class="pr-summary"></p>
 
     <main id="records" aria-live="polite">
@@ -31,6 +32,6 @@
       근거 법령 조문은 읽기 편하도록 덜어냈습니다.
     </p>
   </div>
-  <script src="assets/personnel.js?v=20260921"></script>
+  <script src="assets/personnel.js?v=20261001"></script>
 </body>
 </html>

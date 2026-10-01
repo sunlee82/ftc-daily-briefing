@@ -81,3 +81,30 @@
   color: var(--muted);
   line-height: 1.6;
 }
+
+/* --- 직급 탭 (2026-10) --- */
+.pr-tabs { display: flex; flex-wrap: wrap; gap: 8px; margin: 0 0 12px; }
+.pr-tab {
+  font: inherit; font-size: 0.88rem; font-weight: 700; cursor: pointer;
+  color: var(--muted); background: var(--surface);
+  border: 1.5px solid var(--border); border-radius: var(--radius-full);
+  padding: 6px 13px; white-space: nowrap;
+}
+.pr-tab span { font-weight: 600; opacity: 0.75; margin-left: 2px; }
+.pr-tab:hover { border-color: var(--accent); color: var(--accent); }
+.pr-tab.on { color: #fff; background: var(--accent); border-color: var(--accent); }
+.pr-tab.on span { opacity: 0.9; }
+
+/* --- 발령일 묶음 --- */
+.pr-day { margin: 0 0 20px; }
+.pr-day-title { margin: 0 0 8px; font-size: 1.02rem; font-weight: 800; }
+.pr-day-title small { margin-left: 4px; font-size: 0.82rem; font-weight: 600; color: var(--muted); }
+
+/* --- 보직 발령 강조 --- */
+.pr-post {
+  display: inline-block; margin-right: 6px; padding: 0 7px; vertical-align: 1px;
+  font-size: 0.72rem; font-weight: 800; line-height: 1.6;
+  color: #b45309; background: #fdf0e1; border-radius: var(--radius-full);
+}
+@media (prefers-color-scheme: dark) { .pr-post { color: #f0a72a; background: #3a2a10; } }
+.pr-line.is-post { font-weight: 600; }
