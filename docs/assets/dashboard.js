@@ -72,6 +72,27 @@ function nextHTML(o, today) {
     <span>${esc(n.what || "")}</span></div>`;
 }
 
+// ---------- 접기 ----------
+// 목록마다 위의 SHOW_FIRST건만 보여주고 나머지는 "더 보기"로 연다.
+// 항목이 쌓이면서 한 칸이 화면 몇 개를 차지해 아래 칸까지 한참 내려가야 했다(2026-10-01).
+const SHOW_FIRST = 3;
+function listHTML(cls, lis) {
+  const head = `<ul class="${cls}">${lis.slice(0, SHOW_FIRST).join("")}</ul>`;
+  const rest = lis.slice(SHOW_FIRST);
+  if (!rest.length) return head;
+  return head +
+    `<ul class="${cls} more-list" hidden>${rest.join("")}</ul>` +
+    `<button type="button" class="more-btn" data-n="${rest.length}">나머지 ${rest.length}건 더 보기 ▾</button>`;
+}
+document.addEventListener("click", (e) => {
+  const btn = e.target.closest(".more-btn");
+  if (!btn) return;
+  const list = btn.previousElementSibling;
+  const open = list.hidden;
+  list.hidden = !open;
+  btn.textContent = open ? "접기 ▴" : `나머지 ${btn.dataset.n}건 더 보기 ▾`;
+});
+
 // ---------- 다가오는 일정 ----------
 // 의견제출 마감·시행일·변론기일처럼 날짜가 정해진 것만 모아 가까운 순으로 보여준다.
 function upcomingHTML(cases, sched, today) {
@@ -82,7 +103,7 @@ function upcomingHTML(cases, sched, today) {
     .filter(({ o }) => o.next && o.next.date && o.next.date >= today)
     .sort((a, b) => (a.o.next.date < b.o.next.date ? -1 : 1));
   if (!rows.length) return `<p class="empty">날짜가 정해진 다가오는 일정이 없습니다.</p>`;
-  return `<ul class="up-list">${rows
+  return listHTML("up-list", rows
     .map(({ o, type }) => `<li class="up">
       <div class="up-when"><span class="up-dday">${dday(o.next.date, today)}</span>
         <span class="up-date">${fmtDate(o.next.date)}</span></div>
@@ -90,8 +111,7 @@ function upcomingHTML(cases, sched, today) {
         <div class="up-what">${esc(o.next.what || "")}</div>
         <div class="up-title"><span class="up-type">${type}</span>${esc(o.title)}</div>
       </div>
-    </li>`)
-    .join("")}</ul>`;
+    </li>`));
 }
 
 function briefingLink(id, text) {
@@ -154,11 +174,10 @@ function pipelineHTML(allCases, part) {
     </h3>
     ${
       ours.length
-        ? `<ul class="case-list">${ours
+        ? listHTML("case-list", ours
             .slice()
             .sort((a, b) => (a.last_date < b.last_date ? 1 : -1))
-            .map((c) => caseHTML(c, true))
-            .join("")}</ul>`
+            .map((c) => caseHTML(c, true)))
         : `<p class="none">현재 추적 중인 SK 관련 사건이 없습니다.</p>`
     }
   </section>`;
@@ -174,14 +193,14 @@ function pipelineHTML(allCases, part) {
         <span class="stage-count">${list.length}</span>
         <span class="stage-desc">${esc(st.desc)}</span>
       </h3>
-      <ul class="case-list">${list.map((c) => caseHTML(c)).join("")}</ul>
+      ${listHTML("case-list", list.map((c) => caseHTML(c)))}
     </section>`;
   });
   const unknown = cases.filter((c) => !STAGES.some((s) => s.key === c.stage));
   if (unknown.length) {
     groups.push(`<section class="stage"><h3 class="stage-title">
       <span class="stage-name">기타</span><span class="stage-count">${unknown.length}</span></h3>
-      <ul class="case-list">${unknown.map((c) => caseHTML(c)).join("")}</ul></section>`);
+      ${listHTML("case-list", unknown.map((c) => caseHTML(c)))}</section>`);
   }
   const rest = groups.join("");
   if (part === "ours") return ourBlock;
@@ -206,7 +225,7 @@ function scheduleHTML(items) {
         <div class="case-src">${sourceHTML(s)}</div>
       </div>
     </li>`);
-  return `<ul class="sched-list">${rows.join("")}</ul>`;
+  return listHTML("sched-list", rows);
 }
 
 // ---------- 렌더 ----------

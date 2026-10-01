@@ -271,3 +271,14 @@
   color: var(--kind-notice); background: var(--kind-notice-soft);
 }
 .next-date { font-weight: 600; font-variant-numeric: tabular-nums; }
+
+/* --- 더 보기 --- */
+.more-list { margin-top: 10px; }
+.more-list[hidden] { display: none; }
+.more-btn {
+  display: block; width: 100%; margin: 10px 0 0; padding: 9px 12px;
+  font: inherit; font-size: 0.88rem; font-weight: 700; color: var(--accent);
+  background: var(--surface); border: 1px dashed var(--border); border-radius: var(--radius);
+  cursor: pointer;
+}
+.more-btn:hover { border-style: solid; border-color: var(--accent); }
