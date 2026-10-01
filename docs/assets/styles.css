@@ -540,3 +540,7 @@ header.site .visits strong {
   .site-nav .nav-btn { padding: 10px 12px; font-size: 0.92rem; }
   .site-nav .nav-btn.nav-sk { grid-column: 1 / -1; }
 }
+
+/* 파란 히어로 카드 위에서는 빨간 SK가 묻혀 보여 흰색으로 둔다(2026-10-01) */
+header.site .sk-red { color: inherit; }
+header.site p a { color: inherit; text-decoration: underline; text-underline-offset: 3px; font-weight: 700; }
