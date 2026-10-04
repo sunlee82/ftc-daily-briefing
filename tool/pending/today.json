@@ -1,0 +1,336 @@
+{
+  "id": "2026-10-05",
+  "date": "2026-10-05",
+  "title": "공정거래위원회 일일동향 (초안 — 28건, 제목 다듬기 필요)",
+  "summary": "항목을 취사선택·순서조정한 뒤 저장하면 Claude Code가 제목/요약을 다듬어 배포합니다.",
+  "competitors": [
+    "공정거래위원회"
+  ],
+  "keywords": [
+    "공정위",
+    "과징금",
+    "현장조사",
+    "담합"
+  ],
+  "items": [
+    {
+      "category": "news",
+      "category_label": "뉴스 보도내용",
+      "competitor": "공정거래위원회",
+      "keyword": "현장조사",
+      "headline": "의원 '호통' 소리만 남는 '국감'에, 기업잡는 세무조사…유통·식품업계 '이중고'",
+      "summary": "국감, 세무조사…긴장감 도는 유통·식품업계 홈플러스 납품업체와 입점상인 피해도 쟁점 \"쇼츠나 유튜브가 국회의원들의 중요한 홍보 수단, 국감도 더욱 더 호통치는...",
+      "source_url": "https://v.daum.net/v/20261005070303363",
+      "published_at": "2시간 전"
+    },
+    {
+      "category": "news",
+      "category_label": "뉴스 보도내용",
+      "competitor": "11번가",
+      "keyword": "공정거래위원회",
+      "headline": "[유통 빅데이터] 알리·테무 거품 빠졌나…쿠팡 홀로 웃고 네이버마저 뒷걸음질",
+      "summary": "[CBC뉴스] 지난 9월 쿠팡 앱의 월간 활성 이용자 수가 소폭 증가한 것으로 나타났다.와이즈앱·리테일이 발표한 자료에 따르면 쿠팡의 9월 MAU(월간 활성 이용자 수)는...",
+      "source_url": "https://www.cbci.co.kr/news/articleView.html?idxno=611850",
+      "published_at": "2시간 전"
+    },
+    {
+      "category": "news",
+      "category_label": "뉴스 보도내용",
+      "competitor": "공정거래위원회",
+      "keyword": "공정위",
+      "headline": "[뉴스 관제탑] \"운임 올리고 좌석 줄여 185억 철퇴\"…아시아나·대한항공, 공정위 과태료 1·2·3위",
+      "summary": "[CBC뉴스] 아시아나항공과 대한항공이 공정거래위원회로부터 합병 조건 위반으로 최근 4년간 가장 많은 이행강제금 과태료를 부과받은 것으로 확인됐다.",
+      "source_url": "http://www.cbci.co.kr/news/articleView.html?idxno=612304",
+      "published_at": "3시간 전"
+    },
+    {
+      "category": "news",
+      "category_label": "뉴스 보도내용",
+      "competitor": "SK그룹",
+      "keyword": "공정거래위원회",
+      "headline": "국감 개막 D-1…與 \"민생 올인\" 野 \"실정 심판\" 대격돌",
+      "summary": "지난해 국정감사 당시 서울 여의도 국회에서 상임위원회별 피감기관 관계자들이 대기하는 모습. c 뉴스1 안은나 기자. (서울=뉴스1) 서미선 금준혁 홍유진 기자...",
+      "source_url": "https://www.news1.kr/amp/politics/assembly/6309258",
+      "published_at": "3시간 전"
+    },
+    {
+      "category": "news",
+      "category_label": "뉴스 보도내용",
+      "competitor": "SK에너지",
+      "keyword": "공정거래위원회",
+      "headline": "사용자 선택이 가능한 항목은? 송대관 부인 도박 옵션 문답",
+      "summary": "매일 새로워지는 송대관 부인 도박의 송대관 부인 도박 창작물부터 화제성 뉴스, 고퀄리티 시각자료까지 생동감 있는 정보 플랫폼을 구현했습니다.",
+      "source_url": "https://calgaryroughnecks.com/fort-mcmurray-fire/?ID=4270.html",
+      "published_at": "3시간 전"
+    },
+    {
+      "category": "news",
+      "category_label": "뉴스 보도내용",
+      "competitor": "공정거래위원회",
+      "keyword": "현장조사",
+      "headline": "\"좌파 역사 왜곡 바로잡을 몽둥이\"…유영하, 영화 '암살자(들)' 상영 중단·사과 촉구",
+      "summary": "[CBC뉴스] 영화 '암살자(들)'가 육영수 여사의 피격 사망 사건을 다루며 역사 왜곡 논란이 일고 있는 가운데, 박근혜 전 대통령이 당시 아버지 박정희 전 대통령에게...",
+      "source_url": "https://www.cbci.co.kr/news/articleView.html?idxno=612113",
+      "published_at": "5시간 전"
+    },
+    {
+      "category": "news",
+      "category_label": "뉴스 보도내용",
+      "competitor": "공정거래위원회",
+      "keyword": "공정위",
+      "headline": "마작 패 일러스트 심벌 설명에 붙는 예외 문구",
+      "summary": "NO.1: 마작 패 일러스트. 공정위 승인에도 경쟁정보 보호 논란 지속…노조 \"핵심정보 유출 우려\"한화그룹이 한국항공우주산업(KAI) 지분 15.89%를 확보하며 2대 주주에...",
+      "source_url": "https://calgaryroughnecks.com/rookie-preview/?ID=5821.html",
+      "published_at": "6시간 전"
+    },
+    {
+      "category": "news",
+      "category_label": "뉴스 보도내용",
+      "competitor": "공정거래위원회",
+      "keyword": "과징금",
+      "headline": "게임 선택 전 지원 환경부터 확인하는 토토 경부선 제로 사이트",
+      "summary": "NO.2: 토토 끊기. NO.3: 토토 부부. NO.4: 토토공부. NO.5: 토토로주제가. 사조동아원·사조CPK 총과징금 3832억원 중간 지주사 사조대림 부채비율 200% 넘겨",
+      "source_url": "https://calgaryroughnecks.com/wcf-game-2-preview-cgy-vs-col/?ID=%EB%B0%B1%ED%98%B8%20%EC%B9%B4%EC%A7%80%EB%85%B8.html",
+      "published_at": "7시간 전"
+    },
+    {
+      "category": "news",
+      "category_label": "뉴스 보도내용",
+      "competitor": "SK이노베이션",
+      "keyword": "공정거래위원회",
+      "headline": "삼성전자·SK하이닉스 ‘삼전닉스’ 6일장 출격…연휴 뒤 반도체株 방향은",
+      "summary": "[CBC뉴스] 삼성전자와 SK하이닉스가 개천절 연휴 이후 어떤 주가 흐름을 나타낼지 관심이 모인다. 국내 증시가 오는 6일 다시 문을 여는 가운데 코스피의 핵심 반도체...",
+      "source_url": "https://www.cbci.co.kr/news/articleView.html?idxno=612355",
+      "published_at": "8시간 전"
+    },
+    {
+      "category": "news",
+      "category_label": "뉴스 보도내용",
+      "competitor": "공정거래위원회",
+      "keyword": "공정위",
+      "headline": "[신장섭의 기업과 경제] 공정위를 독립기관으로 만들자",
+      "summary": "한국의 공정거래위원회는 전 세계에서 유례없는 갈라파고스 조직이다. 한국만 유일하게 위원장이 행정부 장관급이다. 대부분 국가에서는 준사법기관으로서 정치 중립을...",
+      "source_url": "https://v.daum.net/v/20261004164508226?f=p",
+      "published_at": "16시간 전"
+    },
+    {
+      "category": "news",
+      "category_label": "뉴스 보도내용",
+      "competitor": "공정거래위원회",
+      "keyword": "담합",
+      "headline": "[신장섭의 기업과 경제] 공정위를 독립기관으로 만들자",
+      "summary": "한국의 공정거래위원회는 전 세계에서 유례없는 갈라파고스 조직이다. 한국만 유일하게 위원장이 행정부 장관급이다. 대부분 국가에서는 준사법기관으로서 정치 중립을...",
+      "source_url": "https://m.mk.co.kr/amp/12168093",
+      "published_at": "16시간 전"
+    },
+    {
+      "category": "news",
+      "category_label": "뉴스 보도내용",
+      "competitor": "공정거래위원회",
+      "keyword": "담합",
+      "headline": "농해수위 국감 증인 대폭 조정…CJ·삼양사 ‘담합’ 증인은 남았다",
+      "summary": "[푸드투데이 = 황인선기자] 국회 농림축산식품해양수산위원회가 국정감사를 앞두고 일반증인 명단을 대폭 조정한 가운데, 식품 원재료 담합과 관련해 채택된 CJ제일...",
+      "source_url": "https://www.foodtoday.or.kr/news/article.html?no=208523",
+      "published_at": "16시간 전"
+    },
+    {
+      "category": "news",
+      "category_label": "뉴스 보도내용",
+      "competitor": "공정거래위원회",
+      "keyword": "공정위",
+      "headline": "공정위, 17년 만의 외부 상임위원 영입…정책 기조 변화 신호탄인가",
+      "summary": "사진=공정위, 첫 외부 상임위원 이미지출처: AI생성 데일리연합 (Daily Union I SNSJTV) 김민제 기자 | = 공정거래위원회가 김자봉 한국금융연구원 선임연구위원을...",
+      "source_url": "https://dailyan.com/news/article.html?no=780232",
+      "published_at": "18시간 전"
+    },
+    {
+      "category": "news",
+      "category_label": "뉴스 보도내용",
+      "competitor": "공정거래위원회",
+      "keyword": "공정위",
+      "headline": "상반기 M&A 완료 110건·10조7920억…거래액 1년 새 44% 줄었다",
+      "summary": "공정위 일반심사 평균 처리기간 17.4일 늘어…PEF 투자 안 된 약정액 43조2000억. (사진=Sean Pollock / Unsplash). 올해 상반기 국내에서 거래가 완료된 인수·...",
+      "source_url": "https://www.issueon.co.kr/news/articleView.html?idxno=14010",
+      "published_at": "20시간 전"
+    },
+    {
+      "category": "news",
+      "category_label": "뉴스 보도내용",
+      "competitor": "공정거래위원회",
+      "keyword": "공정위",
+      "headline": "대한항공·아시아나, 합병 승인조건 위반…공정위 과태료 상위 1~3위 차지",
+      "summary": "[딜라이트닷넷=용서은 기자] 아시아나항공과 대한항공이 기업결합 승인조건을 위반해 지난해 총 185억7860만원의 이행강제금을 부과받은 것으로 나타났다.",
+      "source_url": "https://www.delighti.co.kr/news/articleView.html?idxno=122821",
+      "published_at": "20시간 전"
+    },
+    {
+      "category": "news",
+      "category_label": "뉴스 보도내용",
+      "competitor": "공정거래위원회",
+      "keyword": "공정위",
+      "headline": "[주간 유통 나침반] 국감 앞둔 유통·식품업계…홈플러스·쿠팡·담합 쟁점 부상",
+      "summary": "홈플러스 회생·플랫폼 거래관행·식품 원재료 담합 등 국감 핵심 쟁점 부상 쿠팡, 공정위 현장조사 집행정지 기각 뒤 재항고…과태료 절차도 본격화",
+      "source_url": "https://www.joongangenews.com/news/articleView.html?idxno=552522",
+      "published_at": "21시간 전"
+    },
+    {
+      "category": "news",
+      "category_label": "뉴스 보도내용",
+      "competitor": "SK이노베이션",
+      "keyword": "공정거래위원회",
+      "headline": "롯데에너지머티리얼즈 18%대 급등…대주전자재료·SK이노베이션 등 전고체주 '강세'",
+      "summary": "[CBC뉴스] 국내 2차전지 전고체 관련주들이 지난 2일 정규장에서 일제히 강세를 나타냈다. 롯데에너지머티리얼즈가 18% 넘게 뛰었고 대주전자재료와 SK아이이...",
+      "source_url": "https://www.cbci.co.kr/news/articleView.html?idxno=612293",
+      "published_at": "21시간 전"
+    },
+    {
+      "category": "news",
+      "category_label": "뉴스 보도내용",
+      "competitor": "SK이노베이션",
+      "keyword": "공정거래위원회",
+      "headline": "SK이노베이션·디케이티 등 ESS 관련주 동반 강세…다음 흐름은?",
+      "summary": "[CBC뉴스] 국내 전력저장장치(ESS) 관련주들이 지난 2일 정규장에서 동반 강세를 나타냈다. 디케이티와 SK이노베이션, 와이엠텍 등이 8% 안팎의 상승률을 기록했고...",
+      "source_url": "https://www.cbci.co.kr/news/articleView.html?idxno=612297",
+      "published_at": "21시간 전"
+    },
+    {
+      "category": "news",
+      "category_label": "뉴스 보도내용",
+      "competitor": "공정거래위원회",
+      "keyword": "공정위",
+      "headline": "공정위 현장조사 막아선 쿠팡에 과태료 절차 착수",
+      "summary": "공정거래위원회가 현장조사를 거부한 쿠팡을 상대로 최대 1억원의 과태료를 물리는 절차에 들어갔다. 4일 공정위와 법조계에 따르면 공정위는 지난달 30일 쿠팡 측에...",
+      "source_url": "https://www.christiandaily.co.kr/news/164923",
+      "published_at": "22시간 전"
+    },
+    {
+      "category": "news",
+      "category_label": "뉴스 보도내용",
+      "competitor": "공정거래위원회",
+      "keyword": "공정위",
+      "headline": "\"배짱 영업의 결말\"…아시아나·대한항공, 공정위 수백억 징벌금",
+      "summary": "아시아나항공과 대한항공이 합병요건을 위반해 이행 강제금으로 최근 4년간 가장 많은 과태료를 부과받은 것으로 나타났다.4일 국회 정무위원회 소속 더불어민주당...",
+      "source_url": "https://www.jnilbo.com/news/articleView.html?idxno=90000070774",
+      "published_at": "22시간 전"
+    },
+    {
+      "category": "news",
+      "category_label": "뉴스 보도내용",
+      "competitor": "공정거래위원회",
+      "keyword": "과징금",
+      "headline": "설탕회사 3곳 짬짜미에 손배 소송, '공방'이 시작됐다",
+      "summary": "[집단소송ABC] 집단소송제 도입 필요성 보여주는 형식적인 피고 답변의 '무게감'. 정태원(ys330823). 등록|2026.10.04 10:52 수정|2026.10.04 10:52.",
+      "source_url": "https://m.ohmynews.com/NWS_Web/Mobile/amp.aspx?CNTN_CD=A0003271048",
+      "published_at": "22시간 전"
+    },
+    {
+      "category": "news",
+      "category_label": "뉴스 보도내용",
+      "competitor": "공정거래위원회",
+      "keyword": "현장조사",
+      "headline": "[기업기상도] 대풍 들어 맑은 기업 vs 하늘 잔뜩 찌푸린 기업",
+      "summary": "한 주 기업뉴스 리뷰 주간 기업기상도입니다. 이번 주 맑은 기업들은 실적 풍년 든 기업들인데요. ADVERTISEMENT. 정부도 세금 풍년이 들었습니다.",
+      "source_url": "https://www.yonhapnewstv.co.kr/program/view/11033",
+      "published_at": "22시간 전"
+    },
+    {
+      "category": "news",
+      "category_label": "뉴스 보도내용",
+      "competitor": "공정거래위원회",
+      "keyword": "현장조사",
+      "headline": "대한항공·아시아나, 합병 조건 반복 위반…이행강제금 185억",
+      "summary": "[산경투데이 = 한승수 기자]대한항공과 아시아나항공이 기업결합 승인 과정에서 공정거래위원회가 제시한 운임·좌석 공급 조건을 잇달아 위반하면서 합병 이후 소비자...",
+      "source_url": "https://www.sankyungtoday.com/news/articleView.html?idxno=63402",
+      "published_at": "22시간 전"
+    },
+    {
+      "category": "news",
+      "category_label": "뉴스 보도내용",
+      "competitor": "공정거래위원회",
+      "keyword": "담합",
+      "headline": "설탕회사 3곳 짬짜미에 손배 소송, '공방'이 시작됐다",
+      "summary": "2026년 4월 21일, 지방의 한 제과업체를 대리해 CJ제일제당․삼양사․대한제당, 이른바 제당 3사를 상대로 손해배상청구소송을 냈습니다. 설탕 담합으로 입은 손해를...",
+      "source_url": "https://www.ohmynews.com/NWS_Web/View/at_pg.aspx?CNTN_CD=A0003271048",
+      "published_at": "22시간 전"
+    },
+    {
+      "category": "news",
+      "category_label": "뉴스 보도내용",
+      "competitor": "SK그룹",
+      "keyword": "공정거래위원회",
+      "headline": "삼성전자, 과반 득표율로 기업대상 연승 질주…LG·현대차 2위권 자리바꿈 [9월 네티즌 어워즈]",
+      "summary": "[CBC뉴스] 9월 네티즌 어워즈 기업부문 기업대상 투표에서 삼성전자가 8월에 이어 다시 한번 정상을 수성하며 독보적인 입지를 증명했다. 8월 투표에서 1214표로 50.0%...",
+      "source_url": "https://www.cbci.co.kr/news/articleView.html?idxno=612027",
+      "published_at": "22시간 전"
+    },
+    {
+      "category": "news",
+      "category_label": "뉴스 보도내용",
+      "competitor": "공정거래위원회",
+      "keyword": "공정위",
+      "headline": "공정위 상임위원에 깜짝 외부 수혈…전문성 기대 속 내부는 ‘씁쓸’[세종백블]",
+      "summary": "[헤럴드경제=양영경 기자] 17년 만에 외부 출신 상임위원이 발탁되면서 공정거래위원회 내부가 술렁이고 있다. 금융 전문가의 합류로 심결의 전문성을 높일 수 있다는...",
+      "source_url": "https://biz.heraldcorp.com/article/10892784",
+      "published_at": "23시간 전"
+    },
+    {
+      "category": "news",
+      "category_label": "뉴스 보도내용",
+      "competitor": "공정거래위원회",
+      "keyword": "현장조사",
+      "headline": "한화, ‘브랜드 사용료’에 감춰진 의문…계열사가 낸 돈은 누구에게 돌아가나 [머니카운터/이슈]",
+      "summary": "방송 : 경인방송 FM 90.7MHz · 유튜브 경인방송 (2026년 10월 4일 방송)□ 진행 : 정태성 한국행동경제학연구소 대표□ 출연 : 유주열 경인방송 기자* 아래 텍스트는...",
+      "source_url": "https://news.ifm.kr/news/articleView.html?idxno=480809",
+      "published_at": "23시간 전"
+    },
+    {
+      "category": "news",
+      "category_label": "뉴스 보도내용",
+      "competitor": "공정거래위원회",
+      "keyword": "담합",
+      "headline": "유통·식품 국감 쟁점…홈플러스 회생부터 먹거리 담합까지",
+      "summary": "[시사포커스 / 이혜영 기자] 6일 시작되는 국정감사에서는 유통·식품업계의 주요 현안도 검증대에 오른다. 홈플러스 기업회생에 따른 입점상인 피해와 대주주 책임부터...",
+      "source_url": "https://www.sisafocus.co.kr/news/articleView.html?idxno=365769",
+      "published_at": "24시간 전"
+    }
+  ],
+  "generated_at": "2026-10-04T23:35:06.694Z",
+  "_meta": {
+    "sources": [
+      "ftc.go.kr(보도자료)",
+      "ftc.go.kr(위원회 소식)",
+      "serper.dev/news"
+    ],
+    "windowHours": {
+      "press": 48,
+      "committee": 168,
+      "news": 24
+    },
+    "gapDays": 1,
+    "committeeCandidates": 4,
+    "boards": {
+      "committee": {
+        "boardsRead": 1,
+        "boardsTotal": 1,
+        "rowsSeen": 10,
+        "matched": 4
+      },
+      "press": {
+        "boardsRead": 2,
+        "boardsTotal": 2,
+        "rowsSeen": 20,
+        "matched": 0
+      }
+    },
+    "affiliateCompanies": 28,
+    "affiliateCollected": 11,
+    "categoryCounts": {
+      "press": 0,
+      "committee": 0,
+      "news": 28
+    },
+    "collected": 41,
+    "deduped": 28,
+    "errors": []
+  }
+}
