@@ -1,0 +1,416 @@
+{
+  "id": "2026-10-10",
+  "date": "2026-10-10",
+  "title": "공정거래위원회 일일동향 (초안 — 36건, 제목 다듬기 필요)",
+  "summary": "항목을 취사선택·순서조정한 뒤 저장하면 Claude Code가 제목/요약을 다듬어 배포합니다.",
+  "competitors": [
+    "공정거래위원회"
+  ],
+  "keywords": [
+    "공정위",
+    "과징금",
+    "현장조사",
+    "담합"
+  ],
+  "items": [
+    {
+      "category": "news",
+      "category_label": "뉴스 보도내용",
+      "competitor": "공정거래위원회",
+      "keyword": "현장조사",
+      "headline": "“알리·테무 살리려고 다이소 잡는다?”...논란 번진 이유는",
+      "summary": "공정거래위원회가 아성다이소에 대한 현장 조사를 잇따라 실시하면서 때아닌 '중국 플랫폼 지원설'이 불거졌다. 공정위가 다이소를 조사한 이유가 알리익스프레스·테무...",
+      "source_url": "https://www.sedaily.com/article/20099967",
+      "published_at": "35분 전"
+    },
+    {
+      "category": "news",
+      "category_label": "뉴스 보도내용",
+      "competitor": "SK온",
+      "keyword": "공정거래위원회",
+      "headline": "경영권은 비싸게, 신주는 싸게…한화證 \"소액주주 이중 피해\"",
+      "summary": "지배주주엔 경영권 프리미엄·인수자엔 저가 유증 일반주주는 프리미엄 배제에 지분 희석까지 이규선 기자 = 기업 인수 과정에서 인수자가 지배주주 지분에는 높은...",
+      "source_url": "https://kbthink.com/news-list/view.html?newsId=20261010073001427",
+      "published_at": "1시간 전"
+    },
+    {
+      "category": "news",
+      "category_label": "뉴스 보도내용",
+      "competitor": "공정거래위원회",
+      "keyword": "현장조사",
+      "headline": "코세페·블프 가짜세일, 정가 3배 올린 `84% 할인`…기준은 직전 20일 최저가",
+      "summary": "공정위·소비자원 조사, 설 선물세트 800개 중 12.8% 정가 올려 할인율 과장 시간제한 할인 다섯에 하나는 끝나도 값 그대로…가격 히스토리로 검증.",
+      "source_url": "https://www.imaeil.com/page/view/2026101006540028747",
+      "published_at": "2시간 전"
+    },
+    {
+      "category": "news",
+      "category_label": "뉴스 보도내용",
+      "competitor": "공정거래위원회",
+      "keyword": "과징금",
+      "headline": "내수가격·수출 제한에 담합 의혹까지…호실적 전망에도 못 웃는 K-정유",
+      "summary": "국내 정유업계가 고유가 환경 속 가파른 실적 개선세에도 불구하고 좀처럼 웃지 못하고 있다. 장기화된 국제 정세 불확실성과 석유제품 최고가격제 등 여파로 경영...",
+      "source_url": "https://www.ekn.kr/web/view.php?key=20261009028234197",
+      "published_at": "3시간 전"
+    },
+    {
+      "category": "news",
+      "category_label": "뉴스 보도내용",
+      "competitor": "공정거래위원회",
+      "keyword": "현장조사",
+      "headline": "\"치킨값 부담 덜어볼까\" 치킨업계, 할인·멤버십 혜택 확대",
+      "summary": "[서울=뉴시스] BBQ, '픽업 올데이 할인' 프로모션 (사진=제너시스BBQ 그룹) *재판매 및 DB 금지. [서울=뉴시스]김상윤 기자 = 치킨업계가 할인 프로모션과 자사...",
+      "source_url": "https://mobile.newsis.com/view_amp.html?ar_id=NISX20261008_0003819509",
+      "published_at": "3시간 전"
+    },
+    {
+      "category": "news",
+      "category_label": "뉴스 보도내용",
+      "competitor": "공정거래위원회",
+      "keyword": "담합",
+      "headline": "일본 맥주 가격 왜 오르나 했더니… 아사히·기린 등 4대 맥주 가격 담합 덜미 - 조선비즈",
+      "summary": "원자재값 핑계 삼은 日 맥주 카르텔 99% 점유율 앞세워 가격 조율 '물가 인상 편승한 탐욕 인플레이션'. 유진우 기자. 입력 2026.10.10. 06:00.",
+      "source_url": "https://biz.chosun.com/international/international_economy/2026/10/10/7DCIOQ7MLBDRVBFSV4BDH5MJAU/",
+      "published_at": "3시간 전"
+    },
+    {
+      "category": "news",
+      "category_label": "뉴스 보도내용",
+      "competitor": "SK케미칼",
+      "keyword": "공정거래위원회",
+      "headline": "[제약공시 책갈피] 10월 2주차 - 한미약품·알테오젠·종근당 外",
+      "summary": "[메디파나뉴스 = 이정수 기자] 2026년 10월 2주차(10.5~10.9)에는 한미약품이 독자 개발한 GLP-1 계열 비만치료제 '에페'에 대해 식약처로부터 품목허가를 승인받았다.",
+      "source_url": "https://www.medipana.com/news/articleView.html?idxno=419057",
+      "published_at": "3시간 전"
+    },
+    {
+      "category": "news",
+      "category_label": "뉴스 보도내용",
+      "competitor": "SK하이닉스",
+      "keyword": "공정거래위원회",
+      "headline": "게임8 옥토패스 배당표 숫자의 기준 단위",
+      "summary": "주요 상장사 실적 컨센서스. SK이노 등 실적전망 2배 쑥 항공업계도 운임 상승 수혜 석화업계 원가 부담 먹구름 한전은 전기료 동결 직격탄 원화 강세가 수출실적 변수",
+      "source_url": "https://calgaryroughnecks.com/a-very-competitive-camp/?ID=%EA%B0%95%EC%9B%90%20%EB%9E%9C%EB%93%9C%20%EC%8A%AC%EB%A1%AF%20%20%EC%8A%AC%EB%A1%AF%EB%B3%B4%EC%A6%9D.html",
+      "published_at": "7시간 전"
+    },
+    {
+      "category": "news",
+      "category_label": "뉴스 보도내용",
+      "competitor": "공정거래위원회",
+      "keyword": "현장조사",
+      "headline": "같은 숫자라도 의미가 다른 벅샷 룰렛 이미지 표시 항목",
+      "summary": "(서울=뉴스1) 구윤성 기자 = 민주노총 공공운수노조 조합원들이 18일 오전 서울 광진구 쿠팡 본사 앞에서 기자회견을 열고 운수노동자들의 폭염 및 안전대책 마련을...",
+      "source_url": "https://www.calgaryroughnecks.com/roughnecks-academy/?ID=m%202%20%EC%8A%AC%EB%A1%AF%20%EC%9D%B4%EB%9E%80.html",
+      "published_at": "10시간 전"
+    },
+    {
+      "category": "news",
+      "category_label": "뉴스 보도내용",
+      "competitor": "공정거래위원회",
+      "keyword": "공정위",
+      "headline": "'갤럭시폰 성능 제한' GOS 논란… 4년만에 공정위 전원회의 논의",
+      "summary": "삼성전자 갤럭시 스마트폰의 '게임 옵티마이징 서비스(GOS)' 관련 표시광고법 위반 사건이 4년 만에 공정거래위원회 심판대에 오른다. 공정위 심사관은 최대 644억원의...",
+      "source_url": "https://m.mk.co.kr/amp/12172461",
+      "published_at": "15시간 전"
+    },
+    {
+      "category": "news",
+      "category_label": "뉴스 보도내용",
+      "competitor": "공정거래위원회",
+      "keyword": "담합",
+      "headline": "담합 적발돼도…中企 피해보상은 '먼 길'",
+      "summary": "6689억원 과징금 LPG 담합 피해자 손배소 16년째 1심 중 가상 경쟁가격 놓고 재판 장기화 구매 입증 어렵고 보복 우려도 \"과징금 국고로…피해 구제 필요\".",
+      "source_url": "https://www.hankyung.com/article/2026100928561",
+      "published_at": "15시간 전"
+    },
+    {
+      "category": "news",
+      "category_label": "뉴스 보도내용",
+      "competitor": "SK하이닉스",
+      "keyword": "공정거래위원회",
+      "headline": "기판 20%·동박판 30% 껑충 … 日·대만 소부장 영향력 커져",
+      "summary": "빅테크 수년치 사재기 경쟁 … 칩플레이션 부추겨큰손 엔비디아 부품확보 사활D램 이어 기판 소재값도 인상반도체 후공정까지 20% 뛰어소부장 日·대만 사실상 장악\"韓...",
+      "source_url": "https://www.mk.co.kr/news/business/12172443",
+      "published_at": "15시간 전"
+    },
+    {
+      "category": "news",
+      "category_label": "뉴스 보도내용",
+      "competitor": "공정거래위원회",
+      "keyword": "공정위",
+      "headline": "정유업계 담합 재발…공정위, 감면·엄벌 딜레마",
+      "summary": "팩트인뉴스=박상우 기자 | 정유업계에서 가격담합 의혹이 다시 불거지면서 자진신고자 감면제도인 리니언시의 재발 억제 효과를 둘러싼 논쟁이 커지고 있다.",
+      "source_url": "https://www.factinnews.co.kr/news/articleView.html?idxno=300370",
+      "published_at": "17시간 전"
+    },
+    {
+      "category": "news",
+      "category_label": "뉴스 보도내용",
+      "competitor": "공정거래위원회",
+      "keyword": "공정위",
+      "headline": "토토로 나뭇잎 우산 자동 진행 기능의 종료 설정",
+      "summary": "NO.2: 토토로 괴담. NO.3: 토토로 나무. NO.4: 토토로 나뭇잎 우산. NO.5: 토토로 나뭇잎 우산 그림. NO.6: 토토로 나뭇잎 우산 일러스트.",
+      "source_url": "https://calgaryroughnecks.com/game-preview-cgy-hfx-2/?ID=%EB%A7%88%EC%9E%91%20%EC%97%AD%EB%A7%8C%20%EC%B2%9C%ED%99%94.html",
+      "published_at": "17시간 전"
+    },
+    {
+      "category": "news",
+      "category_label": "뉴스 보도내용",
+      "competitor": "공정거래위원회",
+      "keyword": "공정위",
+      "headline": "작은 아이콘에도 설명이 필요한 스포츠토토적중결과 인터페이스",
+      "summary": "NO.2: 스포츠토토 베트맨 결과. NO.3: 스포츠토토 승부식. NO.4: 스포츠토토 적중결과 확인 방법. NO.5: 스포츠토토결과. NO.6: 스포츠토토일정.",
+      "source_url": "https://calgaryroughnecks.com/game-preview-cgy-hfx-2/?ID=%EA%B4%91%EC%9A%B4%EB%8C%80%ED%95%99%EA%B5%90%20%EC%B9%B4%EC%A7%80%EB%85%B8.html",
+      "published_at": "17시간 전"
+    },
+    {
+      "category": "news",
+      "category_label": "뉴스 보도내용",
+      "competitor": "공정거래위원회",
+      "keyword": "과징금",
+      "headline": "정유업계 담합 의혹 또 불거져…과징금 면제에도 반복 위반 논란",
+      "summary": "[산경투데이 = 이하나 기자]. 국내 정유업계에서 가격담합 의혹이 다시 불거지면서 공정거래 질서를 바로잡기 위한 제재 체계에 대한 논란이 커지고 있다.",
+      "source_url": "https://www.sankyungtoday.com/news/articleViewAmp.html?idxno=63510",
+      "published_at": "18시간 전"
+    },
+    {
+      "category": "news",
+      "category_label": "뉴스 보도내용",
+      "competitor": "SK그룹",
+      "keyword": "공정거래위원회",
+      "headline": "기능 설명의 순서가 중요한 스팀 게임 무료 사이트 규칙 항목",
+      "summary": "오는 10월 국회 국정감사에서는 대기업 총수 증인 채택을 둘러싼 여야 공방부터 반도체 투자,홈플러스 사태,방산업계 지배구조와 수주 과정의 투명성까지 산업계 핵심...",
+      "source_url": "https://calgaryroughnecks.com/roughnecks-re-sign-forward-rhys-duch/?ID=3552.html",
+      "published_at": "18시간 전"
+    },
+    {
+      "category": "news",
+      "category_label": "뉴스 보도내용",
+      "competitor": "공정거래위원회",
+      "keyword": "과징금",
+      "headline": "유통사 과징금 기준 개선…납품대금 기준 전면 반영",
+      "summary": "대규모유통업체의 법 위반에 대한 과징금 산정 방식이 달라질 전망이다. 공정거래위원회는 위반금액을 계산하기 어려운 경우 관련 납품대금을 기준으로 과징금을 산정...",
+      "source_url": "https://www.polinews.co.kr/news/articleView.html?idxno=745323",
+      "published_at": "19시간 전"
+    },
+    {
+      "category": "news",
+      "category_label": "뉴스 보도내용",
+      "competitor": "공정거래위원회",
+      "keyword": "현장조사",
+      "headline": "쿠팡 주문 취소 고객에 5000원…쿠팡이츠는 쿠폰·배달비 보상",
+      "summary": "쿠팡이 새벽 시간대 발생한 시스템 장애로 주문이 취소된 고객에게 5000원의 쿠팡캐시를 지급한다. 배달 서비스 쿠팡이츠도 피해 고객뿐 아니라 음식점주와 라이더를...",
+      "source_url": "https://www.dailian.co.kr/news/view/1699783/",
+      "published_at": "19시간 전"
+    },
+    {
+      "category": "news",
+      "category_label": "뉴스 보도내용",
+      "competitor": "SK그룹",
+      "keyword": "공정거래위원회",
+      "headline": "정유사·주유소 거래 관행 개선…구매 선택권·가격 투명성 강화",
+      "summary": "주유소의 석유제품 구매 방식이 달라질 수 있는 제도적 기반이 마련됐다. 특정 정유사 제품에 대한 의존도를 낮추고, 기름을 주문한 뒤 한 달가량 지나 최종 대금을.",
+      "source_url": "https://www.polinews.co.kr/news/articleView.html?idxno=745315",
+      "published_at": "19시간 전"
+    },
+    {
+      "category": "news",
+      "category_label": "뉴스 보도내용",
+      "competitor": "공정거래위원회",
+      "keyword": "현장조사",
+      "headline": "‘44조 원대 기름값 담합 의혹’ 제재 착수…SK에너지·현대오일뱅크 엇갈린 대응",
+      "summary": "공정위, 4년간 가격정보 교환·입금가 담합 혐의 심의 착수…SK에너지 사과·개선 약속, 현대오일뱅크 혐의 부인. [일요신문] 공정거래위원회가 국내 유류 시장 점유율의...",
+      "source_url": "https://www.ilyo.co.kr/?ac=article_view&entry_id=513095",
+      "published_at": "20시간 전"
+    },
+    {
+      "category": "news",
+      "category_label": "뉴스 보도내용",
+      "competitor": "SK그룹",
+      "keyword": "공정거래위원회",
+      "headline": "프리벳 탄파 입금 슬롯 : 완벽한 비교 가이드 (2026년 최신판)",
+      "summary": "NO.2: 햇살론 도박 디시. NO.3: 햇살론 유스 도박. 대기업집단 상표권 사용료 2018년 대비 69% 증가 기업별 산정식 제각각,적정가격 판단 기준도 불명확",
+      "source_url": "https://calgaryroughnecks.com/default.asp/page/9/?ID=8207.html",
+      "published_at": "20시간 전"
+    },
+    {
+      "category": "news",
+      "category_label": "뉴스 보도내용",
+      "competitor": "공정거래위원회",
+      "keyword": "과징금",
+      "headline": "'44조 기름값 담합' 파장에…SK에너지, 공정위 발표 하루 만에 고개 숙였다",
+      "summary": "[CBC뉴스] SK에너지가 최근 제기된 휘발유·경유 가격 담합 의혹과 관련해 거래 관행 개선과 내부통제 강화 방안을 발표했다.SK에너지는 8일 김종화 대표이사 사장 명의...",
+      "source_url": "https://www.cbci.co.kr/news/articleView.html?idxno=613598",
+      "published_at": "21시간 전"
+    },
+    {
+      "category": "news",
+      "category_label": "뉴스 보도내용",
+      "competitor": "공정거래위원회",
+      "keyword": "공정위",
+      "headline": "게임을 이해하는 데 필요한 최소한의 용어, 승인전화없는 토토 사이트",
+      "summary": "24시간 업데이트되는 승인전화없는 토토 사이트 생태계! 승인전화없는 토토 사이트의 차세대 콘텐츠 로드맵과 글로벌 뉴스, 가상 룰렛 휠 무료프리미엄 이미지 리소스...",
+      "source_url": "https://calgaryroughnecks.com/game-preview-cgy-vs-phi/?ID=165.html",
+      "published_at": "22시간 전"
+    },
+    {
+      "category": "news",
+      "category_label": "뉴스 보도내용",
+      "competitor": "공정거래위원회",
+      "keyword": "과징금",
+      "headline": "설명서의 예시가 실제 규칙과 어떻게 연결될까? 제주도 카지노 내국인",
+      "summary": "(서울=뉴스1) 구윤성 기자 = 민주노총 공공운수노조 조합원들이 18일 오전 서울 광진구 쿠팡 본사 앞에서 기자회견을 열고 운수노동자들의 폭염 및 안전대책 마련을...",
+      "source_url": "https://calgaryroughnecks.com/season-tickets?ID=%EB%A7%88%EC%B9%B4%EC%98%A4%20%EC%B9%B4%EC%A7%80%EB%85%B8%20%EB%A7%A4%EC%B6%9C%EC%95%A1.html",
+      "published_at": "22시간 전"
+    },
+    {
+      "category": "news",
+      "category_label": "뉴스 보도내용",
+      "competitor": "SK텔레콤",
+      "keyword": "공정거래위원회",
+      "headline": "바카라 한방 의 비밀을 풀다 - 2026년 최신판",
+      "summary": "NO.2: 바카라 한꺼번에. NO.3: 바카라동백. NO.4: 바카라하늘이. NO.5: 에볼루션 바카라 무료체험. NO.6: 에볼루션 바카라 조작. 박상진(왼쪽부터) Npay 대표,...",
+      "source_url": "https://calgaryroughnecks.com/game-preview-cgy-sd-2/?ID=5395.html",
+      "published_at": "22시간 전"
+    },
+    {
+      "category": "news",
+      "category_label": "뉴스 보도내용",
+      "competitor": "SK하이닉스",
+      "keyword": "공정거래위원회",
+      "headline": "정유업계 담합 의혹 또 불거져…과징금 면제에도 반복 위반 논란",
+      "summary": "[산경투데이 = 이하나 기자]국내 정유업계에서 가격담합 의혹이 다시 불거지면서 공정거래 질서를 바로잡기 위한 제재 체계에 대한 논란이 커지고 있다.",
+      "source_url": "https://www.sankyungtoday.com/news/articleView.html?idxno=63510",
+      "published_at": "22시간 전"
+    },
+    {
+      "category": "news",
+      "category_label": "뉴스 보도내용",
+      "competitor": "공정거래위원회",
+      "keyword": "공정위",
+      "headline": "반복되는 정유업계 담합…'자진신고 유도냐, 엄벌이냐' 공정위 딜레마",
+      "summary": "[서울=뉴시스] 김근수 기자 = 서울 시내의 한 SK에너지 주유소 앞으로 시민이 지나가고 있다. 2026.03.23. ks@newsis.com. [세종=뉴시스]임하은 기자 = 정유업계의...",
+      "source_url": "https://mobile.newsis.com/view_amp.html?ar_id=NISX20261008_0003819827",
+      "published_at": "23시간 전"
+    },
+    {
+      "category": "news",
+      "category_label": "뉴스 보도내용",
+      "competitor": "공정거래위원회",
+      "keyword": "공정위",
+      "headline": "‘44조 유가 담합’ 혐의에… SK에너지·HD현대오일뱅크 대응은",
+      "summary": "SK에너지와 HD현대(267250)오일뱅크가 러시아·우크라이나 전쟁과 미국·이란 전쟁으로 국제유가가 불안정한 시기 석유제품 가격을 담합한 혐의로 공정거래위원회 심판을...",
+      "source_url": "https://m.sedaily.com/amparticle/20099884",
+      "published_at": "23시간 전"
+    },
+    {
+      "category": "news",
+      "category_label": "뉴스 보도내용",
+      "competitor": "공정거래위원회",
+      "keyword": "공정위",
+      "headline": "공정위, 한화 셋째 김동선 지주사 전환 인정⋯계열분리 본격화",
+      "summary": "[엠투데이 이상원기자] 한화그룹의 3세 경영체제 구축과 계열분리가 본격적인 실행 단계에 들어섰다.한화머시너리앤서비스홀딩스는 지난 8일 공시를 통해 공정거래...",
+      "source_url": "https://www.autodaily.co.kr/news/articleView.html?idxno=601060",
+      "published_at": "23시간 전"
+    },
+    {
+      "category": "news",
+      "category_label": "뉴스 보도내용",
+      "competitor": "공정거래위원회",
+      "keyword": "현장조사",
+      "headline": "쿠팡·쿠팡이츠, 자정부터 ‘먹통’…이용자 불만 가중",
+      "summary": "[알파경제 = 김영택 기자] 국내 최대 이커머스 플랫폼인 쿠팡과 쿠팡이츠, 쿠팡플레이의 애플리케이션과 홈페이지에서 일제히 접속 오류가 발생해 이용자들이 큰 불편...",
+      "source_url": "https://www.alphabiz.co.kr/news/articleView.html?idxno=191938",
+      "published_at": "23시간 전"
+    },
+    {
+      "category": "news",
+      "category_label": "뉴스 보도내용",
+      "competitor": "공정거래위원회",
+      "keyword": "담합",
+      "headline": "‘44조 유가 담합’ 혐의에… SK에너지·HD현대오일뱅크 대응은",
+      "summary": "SK에너지와 HD현대(267250)오일뱅크가 러시아·우크라이나 전쟁과 미국·이란 전쟁으로 국제유가가 불안정한 시기 석유제품 가격을 담합한 혐의로 공정거래위원회 심판을...",
+      "source_url": "https://www.sedaily.com/article/20099884",
+      "published_at": "23시간 전"
+    },
+    {
+      "category": "news",
+      "category_label": "뉴스 보도내용",
+      "competitor": "SK온",
+      "keyword": "공정거래위원회",
+      "headline": "반복되는 정유업계 담합…'자진신고 유도냐, 엄벌이냐' 공정위 딜레마",
+      "summary": "공정위, SK에너지 등 정유사 가격담합 의혹 심의 착수 과거 1600억 면제받고 또…SK에너지, 또 담합 리니언시 반복 담합에 영업정지 추진…'자진신고 위축' 역효과 우려...",
+      "source_url": "https://www.newsis.com/view/NISX20261008_0003819827",
+      "published_at": "23시간 전"
+    },
+    {
+      "category": "news",
+      "category_label": "뉴스 보도내용",
+      "competitor": "공정거래위원회",
+      "keyword": "공정위",
+      "headline": "전쟁통 유가 담합 44조, 공정위 ‘정조준’…과징금 4조 넘나",
+      "summary": "국내 정유사 2곳이 최근 4년간 전쟁 상황에서 급변하는 국제유가 정보를 활용, 가격담합을 한 혐의가 드러났다. SK에너지와 현대오일뱅크는 휘발유·경유·등유 판매...",
+      "source_url": "https://m.ekn.kr/view.php?key=20261008025203789",
+      "published_at": "24시간 전"
+    },
+    {
+      "category": "news",
+      "category_label": "뉴스 보도내용",
+      "competitor": "공정거래위원회",
+      "keyword": "공정위",
+      "headline": "보험배팅 뜻 보너스 대기 상태와 진행 상태",
+      "summary": "보험배팅 뜻,카지노 마케팅,【playeggc.com】보험배팅 뜻슈게임 케이크,포커 그라인딩 뜻,서울경마 동영상...",
+      "source_url": "https://calgaryroughnecks.com/preview-buf-cgy/?ID=%EC%A4%80%20%EC%B9%B4%EC%A7%80%EB%85%B8%20%EB%8F%84%EB%A9%94%EC%9D%B8.html",
+      "published_at": "24시간 전"
+    },
+    {
+      "category": "news",
+      "category_label": "뉴스 보도내용",
+      "competitor": "공정거래위원회",
+      "keyword": "과징금",
+      "headline": "JW중외제약, 과징금 299억 취소에도 상고한 까닭…‘위법성 판단’도 다툰다",
+      "summary": "[메디코파마뉴스=정재노 기자] JW중외제약이 공정거래위원회로부터 부과받은 과징금 299억200만원을 전액 취소받고도 대법원 상고를 선택했다. 서울고법이 과징금 산정...",
+      "source_url": "https://www.medicopharma.co.kr/news/articleView.html?idxno=69806",
+      "published_at": "24시간 전"
+    }
+  ],
+  "generated_at": "2026-10-09T23:35:09.416Z",
+  "_meta": {
+    "sources": [
+      "ftc.go.kr(보도자료)",
+      "ftc.go.kr(위원회 소식)",
+      "serper.dev/news"
+    ],
+    "windowHours": {
+      "press": 48,
+      "committee": 168,
+      "news": 24
+    },
+    "gapDays": 1,
+    "committeeCandidates": 3,
+    "boards": {
+      "press": {
+        "boardsRead": 2,
+        "boardsTotal": 2,
+        "rowsSeen": 20,
+        "matched": 0
+      },
+      "committee": {
+        "boardsRead": 1,
+        "boardsTotal": 1,
+        "rowsSeen": 10,
+        "matched": 3
+      }
+    },
+    "affiliateCompanies": 28,
+    "affiliateCollected": 18,
+    "categoryCounts": {
+      "press": 0,
+      "committee": 0,
+      "news": 36
+    },
+    "collected": 58,
+    "deduped": 36,
+    "errors": []
+  }
+}
