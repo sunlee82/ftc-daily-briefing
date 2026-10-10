@@ -1,0 +1,276 @@
+{
+  "id": "2026-10-11",
+  "date": "2026-10-11",
+  "title": "공정거래위원회 일일동향 (초안 — 22건, 제목 다듬기 필요)",
+  "summary": "항목을 취사선택·순서조정한 뒤 저장하면 Claude Code가 제목/요약을 다듬어 배포합니다.",
+  "competitors": [
+    "공정거래위원회"
+  ],
+  "keywords": [
+    "공정위",
+    "과징금",
+    "현장조사",
+    "담합"
+  ],
+  "items": [
+    {
+      "category": "news",
+      "category_label": "뉴스 보도내용",
+      "competitor": "공정거래위원회",
+      "keyword": "공정위",
+      "headline": "스타벅스 환불 요구 잇따라…공정위 환급 기준 도마 위",
+      "summary": "(서울=국제뉴스) 김민성 기자 = 올해 5월, 커피전문점 선불카드와 모바일상품권과 관련된 소비자 상담이 평소보다 12배 가까이 급증한 것으로 집계됐다.",
+      "source_url": "https://www.gukjenews.com/news/articleView.html?idxno=3717734",
+      "published_at": "15분 전"
+    },
+    {
+      "category": "news",
+      "category_label": "뉴스 보도내용",
+      "competitor": "공정거래위원회",
+      "keyword": "공정위",
+      "headline": "공정위 신고 절반 가까이 ‘심사 불개시’…“피해 신고 걸러지는지 점검해야”",
+      "summary": "공정거래위원회의 '심사 불개시' 처리 건수가 신고 접수 건수의 절반에 육박한 것으로 나타났다. 불공정 피해를 호소하는 신고가 정식 심사로 이어지지 않는 경우가...",
+      "source_url": "https://www.etoday.co.kr/news/view/2634254?trc=right_categori_news",
+      "published_at": "22분 전"
+    },
+    {
+      "category": "news",
+      "category_label": "뉴스 보도내용",
+      "competitor": "공정거래위원회",
+      "keyword": "공정위",
+      "headline": "\"보복성 저인망식 조사\" 쿠팡, 공정위 현장조사 거부 '2차 갈등' - 머니투데이",
+      "summary": "공정거래위원회의 고강도 현장조사에 대해 이커머스(전자상거래) 쿠팡이 또 반기를 들었다. 8월 대규모유통업법 관련 조사로 갈등을 빚은 지 한 달 만에 조사 방식과...",
+      "source_url": "https://www.mt.co.kr/living/2026/10/11/2026100816390692667",
+      "published_at": "45분 전"
+    },
+    {
+      "category": "news",
+      "category_label": "뉴스 보도내용",
+      "competitor": "공정거래위원회",
+      "keyword": "공정위",
+      "headline": "공정위 신고해도 절반은 조사 문턱 못 넘어…\"점검해야\"",
+      "summary": "(세종=연합뉴스) 송정은 기자 = 공정거래위원회에 접수된 신고 가운데 절반 가까이는 본격적인 조사에 들어가지 못하고 '심사 불개시' 처리된 것으...",
+      "source_url": "https://www.yna.co.kr/amp/view/AKR20261009052000002",
+      "published_at": "3시간 전"
+    },
+    {
+      "category": "news",
+      "category_label": "뉴스 보도내용",
+      "competitor": "공정거래위원회",
+      "keyword": "공정위",
+      "headline": "국감 2주차…노란봉투법·강제조사권·항만공사 통합 등 공방 예고",
+      "summary": "국회 국정감사가 2주차를 맞이한다. 공정거래위원회와 해양수산부, 고용노동부 등 정부부처의 국정감사가 예정돼 있다.11일 국회와 관가 등에 따르면 공정거래위원회와...",
+      "source_url": "https://news.mtn.co.kr/news-detail/2026101009512153330",
+      "published_at": "3시간 전"
+    },
+    {
+      "category": "news",
+      "category_label": "뉴스 보도내용",
+      "competitor": "공정거래위원회",
+      "keyword": "공정위",
+      "headline": "설탕·밀가루·전분당 담합…삼양사, 공정위 과징금 1위 불명예",
+      "summary": "(세종=연합뉴스) 김수현 기자 = 삼양사가 2023년부터 올해 8월까지 공정거래위원회의 과징금을 가장 많이 부과받은 기업으로 집계됐다. 제재 건...",
+      "source_url": "https://www.yna.co.kr/amp/view/AKR20261009011100002",
+      "published_at": "3시간 전"
+    },
+    {
+      "category": "news",
+      "category_label": "뉴스 보도내용",
+      "competitor": "공정거래위원회",
+      "keyword": "공정위",
+      "headline": "[단독] “하객 없어도 1200만원”…예식장 절반 밥값 올렸는데 손 놓은 공정위",
+      "summary": "결혼 수요가 회복세에 들어섰지만 예비부부의 비용 부담은 오히려 커지고 있다. 전국 예식장 절반이 1년 새 밥값을 올리며 예비부부의 최소 식대 부담이 1200만원까지...",
+      "source_url": "https://www.kmib.co.kr/article/view_amp.asp?arcid=9000021437",
+      "published_at": "3시간 전"
+    },
+    {
+      "category": "news",
+      "category_label": "뉴스 보도내용",
+      "competitor": "공정거래위원회",
+      "keyword": "과징금",
+      "headline": "설탕·밀가루·전분당 담합…삼양사, 공정위 과징금 1위 불명예",
+      "summary": "(세종=연합뉴스) 김수현 기자 = 삼양사가 2023년부터 올해 8월까지 공정거래위원회의 과징금을 가장 많이 부과받은 기업으로 집계됐다. 제재 건수가 가장 많은 곳은...",
+      "source_url": "https://www.koreancenter.or.kr/news/articleView.html?idxno=1422669",
+      "published_at": "3시간 전"
+    },
+    {
+      "category": "news",
+      "category_label": "뉴스 보도내용",
+      "competitor": "공정거래위원회",
+      "keyword": "담합",
+      "headline": "동일 심벌 판정을 이해하는 바퀴벌레 포커 팁 예시 설명",
+      "summary": "NO.2: 바퀴벌레 포커 가격. NO.3: 바퀴벌레 포커 디시. NO.4: 바퀴벌레 포커 로얄. NO.5: 바퀴벌레 포커 로얄 규칙. NO.6: 바퀴벌레 포커 로얄 차이.",
+      "source_url": "https://www.calgaryroughnecks.com/riggers-down-warriors-in-season-opener/?ID=%EC%97%A0%20%EA%B2%8C%EC%9E%84%20%ED%8F%AC%EC%BB%A4.html",
+      "published_at": "5시간 전"
+    },
+    {
+      "category": "news",
+      "category_label": "뉴스 보도내용",
+      "competitor": "공정거래위원회",
+      "keyword": "공정위",
+      "headline": "[2026 국감] 설탕 담합 국감서 사과…내부통제·임직원 책임 규정 강화 약속",
+      "summary": "설탕 가격 담합으로 제재를 받은 식품기업 경영진이 국정감사에서 사과하고 내부통제와 임직원 책임 규정을 강화하겠다고 밝혔다.이운익 삼양사 대표는 지난 7일 국회...",
+      "source_url": "http://www.rightknow.co.kr/news/articleView.html?idxno=34974",
+      "published_at": "17시간 전"
+    },
+    {
+      "category": "news",
+      "category_label": "뉴스 보도내용",
+      "competitor": "공정거래위원회",
+      "keyword": "과징금",
+      "headline": "[2026 국감] 기초 식재료 담합 매출 15조원대…농식품부, 감독 권한 한계 인정",
+      "summary": "설탕과 밀가루 등 기초 식재료 가격 담합이 잇따라 적발된 가운데 농림축산식품부가 국정감사에서 업계를 감독할 권한에 한계가 있다고 인정했다.",
+      "source_url": "http://www.rightknow.co.kr/news/articleView.html?idxno=34976",
+      "published_at": "17시간 전"
+    },
+    {
+      "category": "news",
+      "category_label": "뉴스 보도내용",
+      "competitor": "공정거래위원회",
+      "keyword": "현장조사",
+      "headline": "통신사가 생색낸 멤버십 혜택, 가맹점주가 할인비 25~50% 부담",
+      "summary": "SK텔레콤은 자사의 고객에게 멤버십 혜택으로 각종 할인을 지원하고 있다. 빵이나 커피, 피자 등을 살 때 멤버십으로 할인해 주는 식이다.",
+      "source_url": "https://m.segye.com/view/20261009503967",
+      "published_at": "17시간 전"
+    },
+    {
+      "category": "news",
+      "category_label": "뉴스 보도내용",
+      "competitor": "공정거래위원회",
+      "keyword": "과징금",
+      "headline": "LPG 담합 과징금 6689억원에도 피해보상은 16년째 재판 중",
+      "summary": "피해자 1587명 손해배상 청구액 약 140억원…공정위 과징금과 민사 배상 절차 분리. 김정훈 기자; 입력 2026.10.10 13:10; 댓글 0. 글자크기 설정.",
+      "source_url": "https://www.diarypoint.com/news/articleView.html?idxno=6047",
+      "published_at": "19시간 전"
+    },
+    {
+      "category": "news",
+      "category_label": "뉴스 보도내용",
+      "competitor": "공정거래위원회",
+      "keyword": "과징금",
+      "headline": "[단독] 한국타이어, ‘부당지원 제재’ 받았던 오너 일가 회사와 또 135억 수의계약",
+      "summary": "[센트럴경제 = 김성열 기자] 한국타이어앤테크놀로지가 계열사인 한국프리시전웍스와 또 다시 거액의 수의계약을 맺어 주목된다. 한국프리시전웍스는 타이어 생산의...",
+      "source_url": "http://www.newskr.kr/news/articleViewAmp.html?idxno=107012",
+      "published_at": "19시간 전"
+    },
+    {
+      "category": "news",
+      "category_label": "뉴스 보도내용",
+      "competitor": "공정거래위원회",
+      "keyword": "과징금",
+      "headline": "사설토토 소액 기준 게임 화면의 정보 우선순위",
+      "summary": "혁신적 사설토토 소액 기준 컨텐츠 제작소 ▷실시간 사설토토 소액 기준 이슈 모니터링 ▷모바 내셔널 카지노 프로모션 코드- 세 가지 핵심서비스를 한 곳에서!",
+      "source_url": "https://calgaryroughnecks.com/preview-cgy-vs-van/?ID=%EB%88%84%EB%88%84%ED%8B%B0%EB%B9%84%20%EC%B9%B4%EC%A7%80%EB%85%B8.html",
+      "published_at": "22시간 전"
+    },
+    {
+      "category": "news",
+      "category_label": "뉴스 보도내용",
+      "competitor": "공정거래위원회",
+      "keyword": "현장조사",
+      "headline": "수사 장기화는 처벌… 형사 리니언시 공백 막아야 : 경제",
+      "summary": "법무법인 태평양 이준기 대표변호사는 중수청과 공소청 분리 체제에서 수사 장기화와 형사 리니언시 공백이 발생할 수 있다고 경고했다. 그는 자진신고 제도의 실효성...",
+      "source_url": "https://news.jkn.co.kr/post/1015025",
+      "published_at": "22시간 전"
+    },
+    {
+      "category": "news",
+      "category_label": "뉴스 보도내용",
+      "competitor": "공정거래위원회",
+      "keyword": "공정위",
+      "headline": "다이소 '초저가 신화' 그늘…납품사엔 59일 늑장 정산",
+      "summary": "아성다이소가 납품업체에 상품 대금을 평균 59.1일이나 미룬 채 지급해 온 것으로 나타났다. 공정거래위원회는 대규모유통업법 위반 혐의로 현장조사에 나섰다.공정위...",
+      "source_url": "https://www.dhilbo.co.kr/news/articleView.html?idxno=1990",
+      "published_at": "23시간 전"
+    },
+    {
+      "category": "news",
+      "category_label": "뉴스 보도내용",
+      "competitor": "공정거래위원회",
+      "keyword": "현장조사",
+      "headline": "오류 안내를 읽기 전에 알아둘 카지노사이트 바카라사이트 슬롯사이트 검증 완료 top5 기본 정보",
+      "summary": "납품업체 할인비용 전가 의혹서 입점업체 거래로 적용 법률·불공정행위 판단 기준 달라 쿠팡은'7일 사전통지'문제로 법정공방. 서울 광진구에 위치한 쿠팡 본사.",
+      "source_url": "https://calgaryroughnecks.com/season-tickets?ID=%EA%B3%B5%EB%A3%A1%20%EA%B2%8C%EC%9E%84%EB%AC%B4%EB%A3%8C.html",
+      "published_at": "23시간 전"
+    },
+    {
+      "category": "news",
+      "category_label": "뉴스 보도내용",
+      "competitor": "공정거래위원회",
+      "keyword": "현장조사",
+      "headline": "쿠팡, 개인정보 유출, 무단수집 과징금 역대 최대 6천246억원대…서울행정법원에 취소소송 : 기업·산업",
+      "summary": "쿠팡이 개인정보 유출과 이용자 온라인 활동기록 수집과 관련해 개인정보보호위원회가 부과한 6천246억8천100만원의 과징금 처분에 불복해 행정소송을 냈다.",
+      "source_url": "https://news.jkn.co.kr/post/1015021",
+      "published_at": "23시간 전"
+    },
+    {
+      "category": "news",
+      "category_label": "뉴스 보도내용",
+      "competitor": "공정거래위원회",
+      "keyword": "공정위",
+      "headline": "[N위크] 한은·공정위·국세청 등 국감 계속...취업자 얼마나 늘었나",
+      "summary": "(조세금융신문=정지은 기자) 다음주 한국은행과 공정거래위원회, 국세청, 관세청 등 주요 경제 기관이 국정감사를 받는다. 이형일 부총리 겸 재정경제부 장관은 G20·G7...",
+      "source_url": "https://tfmedia.co.kr/mobile/article.html?no=207870",
+      "published_at": "24시간 전"
+    },
+    {
+      "category": "news",
+      "category_label": "뉴스 보도내용",
+      "competitor": "공정거래위원회",
+      "keyword": "과징금",
+      "headline": "[로펌을만나다] 이준기 태평양 대표 \"기업엔 수사 장기화 자체가 처벌\"",
+      "summary": "(서울=연합뉴스) 이미령 이승연 기자 = \"기업에는 수사가 길어지는 것 자체가 처벌입니다. 수사와 기소 기관이 나뉘더라도 사건을 해결하는 과정까...",
+      "source_url": "https://www.yna.co.kr/amp/view/AKR20261008175900004",
+      "published_at": "24시간 전"
+    },
+    {
+      "category": "news",
+      "category_label": "뉴스 보도내용",
+      "competitor": "공정거래위원회",
+      "keyword": "현장조사",
+      "headline": "\"치킨값 부담 덜어볼까\" 치킨업계, 할인·멤버십 혜택 확대",
+      "summary": "김상윤 기자 = 치킨업계가 할인 프로모션과 자사 애플리케이션(앱) 멤버십 혜택을 확대하며 소비자들의 외식비 부담 완화에 나서고 있다. 인기 메뉴 할인부터 방문...",
+      "source_url": "http://www.mediadale.com/news/articleView.html?idxno=292248",
+      "published_at": "24시간 전"
+    }
+  ],
+  "generated_at": "2026-10-10T23:35:07.793Z",
+  "_meta": {
+    "sources": [
+      "ftc.go.kr(보도자료)",
+      "ftc.go.kr(위원회 소식)",
+      "serper.dev/news"
+    ],
+    "windowHours": {
+      "press": 48,
+      "committee": 168,
+      "news": 24
+    },
+    "gapDays": 1,
+    "committeeCandidates": 3,
+    "boards": {
+      "committee": {
+        "boardsRead": 1,
+        "boardsTotal": 1,
+        "rowsSeen": 10,
+        "matched": 3
+      },
+      "press": {
+        "boardsRead": 2,
+        "boardsTotal": 2,
+        "rowsSeen": 20,
+        "matched": 0
+      }
+    },
+    "affiliateCompanies": 28,
+    "affiliateCollected": 3,
+    "categoryCounts": {
+      "press": 0,
+      "committee": 0,
+      "news": 22
+    },
+    "collected": 37,
+    "deduped": 22,
+    "errors": []
+  }
+}
