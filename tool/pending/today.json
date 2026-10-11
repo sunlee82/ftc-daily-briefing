@@ -1,0 +1,406 @@
+{
+  "id": "2026-10-11",
+  "date": "2026-10-11",
+  "title": "공정거래위원회 일일동향 (초안 — 35건, 제목 다듬기 필요)",
+  "summary": "항목을 취사선택·순서조정한 뒤 저장하면 Claude Code가 제목/요약을 다듬어 배포합니다.",
+  "competitors": [
+    "공정거래위원회"
+  ],
+  "keywords": [
+    "공정위",
+    "과징금",
+    "현장조사",
+    "담합"
+  ],
+  "items": [
+    {
+      "category": "news",
+      "category_label": "뉴스 보도내용",
+      "competitor": "공정거래위원회",
+      "keyword": "과징금",
+      "headline": "‘아님 말고’ 공정위 과징금… 대표 숨진 뒤에야 취소 판결 나왔다 [무소불위 不공정위]",
+      "summary": "공정위가 기업 제재를 강하게 밀어붙이지만 법원에서 과징금이 전액 취소되거나 대폭 깎이는 사례가 잇따랐다. 그러나 사과나 정정은 거의 없고, 기업은 '갑질' 낙인과...",
+      "source_url": "https://www.seoul.co.kr/news/economy/2026/10/12/20261012004003",
+      "published_at": "2시간 전"
+    },
+    {
+      "category": "news",
+      "category_label": "뉴스 보도내용",
+      "competitor": "공정거래위원회",
+      "keyword": "과징금",
+      "headline": "삼양사, 공정위 과징금 1위 불명예...제재건수 최다 기업은 현대리바트",
+      "summary": "[이슈인팩트] 삼양사가 2023년부터 올해 8월까지 공정거래위원회의 과징금을 가장 많이 부과받은 기업으로 집계됐다. 제재 건수가 가장 많은 곳은 현대리바트로 파악...",
+      "source_url": "http://www.issueinfact.com/news/articleView.html?idxno=90599",
+      "published_at": "3시간 전"
+    },
+    {
+      "category": "news",
+      "category_label": "뉴스 보도내용",
+      "competitor": "공정거래위원회",
+      "keyword": "현장조사",
+      "headline": "과징금 불복·조사권 시비까지…쿠팡, 규제기관과 ‘전면 소송전’",
+      "summary": "기업 이미지나 향후 닥칠 규제 리스크를 고려할 때 여러 규제기관과 동시에 전면전을 벌이는 것은 매우 드문 일이다.” (유통업계 관계자) 국내 온라인 쇼핑업체 1위 쿠...",
+      "source_url": "https://www.hani.co.kr/arti/economy/consumer/1281823.html",
+      "published_at": "3시간 전"
+    },
+    {
+      "category": "news",
+      "category_label": "뉴스 보도내용",
+      "competitor": "SK에너지",
+      "keyword": "공정거래위원회",
+      "headline": "공정위, 재판 전 공소장부터 공개하는 격… 법리 다툼도 전에 유죄 굴레",
+      "summary": "공정위가 전원회의나 소회의 전에 심사보고서 송부 사실과 위법 혐의를 공개해 기업을 미리 유죄처럼 보이게 한다는 비판이 나온다. 재계는 방어권이 충분히 보장되지...",
+      "source_url": "https://m.seoul.co.kr/news/economy/2026/10/12/20261012004001?cp=seoul",
+      "published_at": "3시간 전"
+    },
+    {
+      "category": "news",
+      "category_label": "뉴스 보도내용",
+      "competitor": "공정거래위원회",
+      "keyword": "공정위",
+      "headline": "[단독]공정위 도입 '표준대리점계약서'…사용률 4년 연속 40%대 그쳐",
+      "summary": "[서울=뉴시스]권신혁 기자 = 공정거래위원회가 대등한 대리점 거래 질서를 확립하기 위해 도입한 표준대리점계약서의 사용률이 최근 4년 내내 절반에 미치지 못한...",
+      "source_url": "https://mobile.newsis.com/view_amp.html?ar_id=NISX20261011_0003821036",
+      "published_at": "4시간 전"
+    },
+    {
+      "category": "news",
+      "category_label": "뉴스 보도내용",
+      "competitor": "공정거래위원회",
+      "keyword": "과징금",
+      "headline": "삼양사, 공정위 과징금 1위…설탕·밀가루 가격 '짬짜미'",
+      "summary": "삼양사가 공정거래위원회로부터 가장 많은 과징금을 부과받은 기업으로 나타났다. 설탕·밀가루·전분당 등 주요 식품 원재료의 가격 담합으로 부과받은 과징금은 총...",
+      "source_url": "https://www.g-enews.com/article/Distribution/2026/10/202610111712398470a6e8311f64_1",
+      "published_at": "4시간 전"
+    },
+    {
+      "category": "news",
+      "category_label": "뉴스 보도내용",
+      "competitor": "공정거래위원회",
+      "keyword": "현장조사",
+      "headline": "쿠팡이츠 \"장애 시간 주문 100% 보상\"…광고비도 면제",
+      "summary": "쿠팡과 쿠팡이츠에서 지난 9일 발생한 대규모 전산 오류로 인해 소상공인 단체들이 피해 보상을 촉구했다. 쿠팡이츠는 이와 관련해 장애로 인해 일어난 주문 손실에...",
+      "source_url": "https://www.dailian.co.kr/news/view/1700044/%EC%BF%A0%ED%8C%A1%EC%9D%B4%EC%B8%A0-%EC%9E%A5%EC%95%A0-%EC%8B%9C%EA%B0%84-%EC%A3%BC%EB%AC%B8-100-%EB%B3%B4%EC%83%81-2026",
+      "published_at": "4시간 전"
+    },
+    {
+      "category": "news",
+      "category_label": "뉴스 보도내용",
+      "competitor": "SK에너지",
+      "keyword": "공정거래위원회",
+      "headline": "[2026 국정감사] 미래기금·전월세대란 질타한 국회…유가 담합·북극항로 정조준",
+      "summary": "국회의사당 전경 [사진=유대길 기자 dbeorlf123@ajunews.com]국회는 국정감사 첫주인 지난주 정부의 미래대응기금 예산 편성과 주거정책 실패를 꼬집었...",
+      "source_url": "https://www.ajunews.com/amp/20261011154756765",
+      "published_at": "4시간 전"
+    },
+    {
+      "category": "news",
+      "category_label": "뉴스 보도내용",
+      "competitor": "공정거래위원회",
+      "keyword": "공정위",
+      "headline": "[단독] 공정위 개발 ‘대기업 건전성 지표’…입법조사처 “전례 없어”",
+      "summary": "국회 입법조사처가 공정거래위원회가 추진 중인 '대기업집단 건전성 평가 지표'에 대해 “OECD(경제협력개발기구) 국가 중 전례가 없다”며 신중론을 제기했다.",
+      "source_url": "https://www.koreadaily.com/article/20261010235242174",
+      "published_at": "5시간 전"
+    },
+    {
+      "category": "news",
+      "category_label": "뉴스 보도내용",
+      "competitor": "공정거래위원회",
+      "keyword": "과징금",
+      "headline": "“설탕 아껴 뿌려 먹었는데 화난다”…밀가루·전분당까지 모두 가격 담합",
+      "summary": "설탕·밀가루 등 먹거리 가격 담합으로 제재받은 식품기업들이 공정거래위원회의 누적 과징금 상위권을 차지한 것으로 나타났다. 이 가운데 과징금 규모가 가장 큰 기업...",
+      "source_url": "https://stock.mk.co.kr/news/view/1172575",
+      "published_at": "5시간 전"
+    },
+    {
+      "category": "news",
+      "category_label": "뉴스 보도내용",
+      "competitor": "공정거래위원회",
+      "keyword": "과징금",
+      "headline": "먹거리 담합에 과징금 1조원대···식품기업 4곳의 '가격 장난'",
+      "summary": "[서울파이낸스 서종열 기자] 국민 식탁을 책임지는 국내 주요 식품기업들이 오히려 먹거리 가격 담합의 중심에 섰다. 설탕과 밀가루, 전분·전분당 등 식품산업의 기초.",
+      "source_url": "https://www.seoulfn.com/news/articleView.html?idxno=639741",
+      "published_at": "5시간 전"
+    },
+    {
+      "category": "news",
+      "category_label": "뉴스 보도내용",
+      "competitor": "공정거래위원회",
+      "keyword": "현장조사",
+      "headline": "쿠팡 '쿠폰비 전가'·홈플러스 '회생'·배민 '독점계약'…국감 쟁점은",
+      "summary": "쿠팡·홈플러스·배민 경영진 12일 공정위 국감 증인 채택 조사 불응 법적 공방·경영 정상화·배달앱 거래관행 도마에 쿠팡·홈플러스·배민 경영진 12일 공정위 국감 증인...",
+      "source_url": "https://www.news1.kr/industry/distribution/6315908",
+      "published_at": "5시간 전"
+    },
+    {
+      "category": "news",
+      "category_label": "뉴스 보도내용",
+      "competitor": "공정거래위원회",
+      "keyword": "과징금",
+      "headline": "공정위 과징금 상위권에 식품기업 다수",
+      "summary": "[서울=뉴시스] 김명년 기자 = 11일 서울 시내 한 대형마트에 삼양사 큐원 설탕이 진열돼 있다. 공정거래위원회가 2023년부터 올해 8월까지 부과한 과징금 규모 1위는...",
+      "source_url": "https://mobile.newsis.com/view_amp.html?ar_id=NISI20261011_0021484024",
+      "published_at": "6시간 전"
+    },
+    {
+      "category": "news",
+      "category_label": "뉴스 보도내용",
+      "competitor": "공정거래위원회",
+      "keyword": "현장조사",
+      "headline": "한눈에 보는 게임 구성, 스포츠토토 바이블",
+      "summary": "NO.1: 스포츠토토 방법. NO.2: 스포츠토토 방식. 공정위,4년간 현장조사 701건 사전통지 사례는 단 한 건도 없어 쿠팡만 “7일 전 서면통지” 요구 공정위 “미리 알리면...",
+      "source_url": "https://www.calgaryroughnecks.com/riggers-edged-by-warriors/?ID=%ED%90%81%20%ED%86%A0%ED%86%A0%20%EC%82%AC%EC%9D%B4%ED%8A%B8.html",
+      "published_at": "6시간 전"
+    },
+    {
+      "category": "news",
+      "category_label": "뉴스 보도내용",
+      "competitor": "공정거래위원회",
+      "keyword": "현장조사",
+      "headline": "홈플러스·쿠팡·정유 4사 줄소환...12일 공정위 국감 '유통 심판대'[국감]",
+      "summary": "조주연·주성원 등 유통 경영진 출석 요구홈플러스 회생·쿠팡 쿠폰 비용 전가 쟁점현장조사 공방 속 공정위 조사권도 도마에△1일 국회 정무위원회 ...",
+      "source_url": "https://www.etoday.co.kr/news/view/2634316?trc=main_hotissue",
+      "published_at": "6시간 전"
+    },
+    {
+      "category": "news",
+      "category_label": "뉴스 보도내용",
+      "competitor": "SK에너지",
+      "keyword": "공정거래위원회",
+      "headline": "커피빈 토토 진행 버튼 주변의 보조 기능",
+      "summary": "NO.1: 카지노 5화 다시보기. NO.2: 카지노 다시보기 누누. NO.3: 카지노 시즌2 1화 다시보기. NO.4: 카지노 시즌2 8화 다시보기. NO.5: 카지노 시즌2 다시보기.",
+      "source_url": "https://calgaryroughnecks.com/giving-back/?ID=8544.html",
+      "published_at": "6시간 전"
+    },
+    {
+      "category": "news",
+      "category_label": "뉴스 보도내용",
+      "competitor": "SK에너지",
+      "keyword": "공정거래위원회",
+      "headline": "홈플러스·쿠팡·정유 4사 줄소환...12일 공정위 국감 '유통 심판대'[국감]",
+      "summary": "조주연·주성원 등 유통 경영진 출석 요구홈플러스 회생·쿠팡 쿠폰 비용 전가 쟁점현장조사 공방 속 공정위 조사권도 도마에△1일 국회 정무위원회 ...",
+      "source_url": "https://www.etoday.co.kr/news/view/2634316?trc=right_categori_news",
+      "published_at": "6시간 전"
+    },
+    {
+      "category": "news",
+      "category_label": "뉴스 보도내용",
+      "competitor": "공정거래위원회",
+      "keyword": "공정위",
+      "headline": "공정위 신고해도 절반 가까이 ‘심사 불개시’… 5년여간 8천419건",
+      "summary": "공정거래위원회에 접수된 신고 가운데 절반 가까이는 본격적인 심사 단계에 진입하지 못한 것으로 파악됐다. 11일 국회 정무위원회 소속 국민의힘 박성훈 의원이...",
+      "source_url": "https://www.kyeonggi.com/article/20261011580072",
+      "published_at": "7시간 전"
+    },
+    {
+      "category": "news",
+      "category_label": "뉴스 보도내용",
+      "competitor": "공정거래위원회",
+      "keyword": "공정위",
+      "headline": "증원하면 사건처리 빨라진다던 공정위...실적 정량 분석은 안해",
+      "summary": "공정거래위원회가 대규모 인력 증원을 추진하며 시뮬레이션 결과 사건처리 기간이 단축된다고 설명했지만, 실제로는 별도의 정량 분석 없이 설정한 목표치였던 것으로...",
+      "source_url": "https://www.mk.co.kr/news/economy/12172930",
+      "published_at": "7시간 전"
+    },
+    {
+      "category": "news",
+      "category_label": "뉴스 보도내용",
+      "competitor": "공정거래위원회",
+      "keyword": "공정위",
+      "headline": "“공정위 과징금 액수 1·2위는 삼양사·CJ제일제당”",
+      "summary": "서울의 한 대형 마트의 설탕 매대 앞을 한 소비자가 지나가고 있다. 연합뉴스 지난 4년간 공정거래위원회에서 과징금을 가장 많이 부과...",
+      "source_url": "https://www.busan.com/view/busan/view.php?code=2026101113565186312",
+      "published_at": "7시간 전"
+    },
+    {
+      "category": "news",
+      "category_label": "뉴스 보도내용",
+      "competitor": "공정거래위원회",
+      "keyword": "과징금",
+      "headline": "“공정위 과징금 액수 1·2위는 삼양사·CJ제일제당”",
+      "summary": "서울의 한 대형 마트의 설탕 매대 앞을 한 소비자가 지나가고 있다. 연합뉴스 지난 4년간 공정거래위원회에서 과징금을 가장 많이 부과...",
+      "source_url": "https://mobile.busan.com/view/bstoday/view.php?code=2026101113565186312",
+      "published_at": "7시간 전"
+    },
+    {
+      "category": "news",
+      "category_label": "뉴스 보도내용",
+      "competitor": "공정거래위원회",
+      "keyword": "과징금",
+      "headline": "공정위 과징금 액수 1위 삼양사, 4위까지 설탕·밀가루 기업",
+      "summary": "최근 4년간 공정위로부터 가장 많은 과징금을 부과받은 기업은 삼양사이며, 현대리바트는 총 59회의 제재를 받아 최다 적발 기업으로 나타났습니다.",
+      "source_url": "https://www.chosun.com/economy/economy_general/2026/10/11/HES2MPH2LBFZDOBAUCXQZCSKAY/",
+      "published_at": "9시간 전"
+    },
+    {
+      "category": "news",
+      "category_label": "뉴스 보도내용",
+      "competitor": "공정거래위원회",
+      "keyword": "과징금",
+      "headline": "먹거리 담합에 과징금 폭탄…삼양사 4354억 '불명예 1위'",
+      "summary": "[산경투데이 = 박태진 기자]국내 주요 기업들이 가격 담합과 불공정거래 행위로 공정거래위원회의 제재를 받은 가운데, 최근 3년여간 가장 많은 과징금을 부과받은...",
+      "source_url": "https://www.sankyungtoday.com/news/articleView.html?idxno=63535",
+      "published_at": "9시간 전"
+    },
+    {
+      "category": "news",
+      "category_label": "뉴스 보도내용",
+      "competitor": "SK에코플랜트",
+      "keyword": "공정거래위원회",
+      "headline": "총게임 추천 디시 기본 배경과 특수 화면 비교",
+      "summary": "총게임 추천 디시,도박 초범벌금,총게임 추천 디시한국 우즈베키스탄 토토,해외 사이트,대한민국 지도 룰렛....",
+      "source_url": "https://www.calgaryroughnecks.com/badgers-burrow/?ID=7007.html",
+      "published_at": "9시간 전"
+    },
+    {
+      "category": "news",
+      "category_label": "뉴스 보도내용",
+      "competitor": "공정거래위원회",
+      "keyword": "과징금",
+      "headline": "삼양사, 최근 3년 반 동안 공정위 과징금 가장 많이 매겨져",
+      "summary": "생필품 가격 짬짜미, 입찰 담합 등과 관련해 정부의 제재를 받은 기업 가운데 최근 3년 반 동안 삼양사의 과징금이 많았다. 또 제재 건수로는 현대리바트가 최다였다.",
+      "source_url": "https://www.kookje.co.kr/news2011/asp/newsbody.asp?code=0200&key=20261011.99099002614",
+      "published_at": "10시간 전"
+    },
+    {
+      "category": "news",
+      "category_label": "뉴스 보도내용",
+      "competitor": "공정거래위원회",
+      "keyword": "현장조사",
+      "headline": "위법조사 논란부터 과징금 폭탄까지…국감서 공정위 ‘권한남용’ 쟁점되나",
+      "summary": "오는 12일 열리는 국회 정무위원회의 공정거래위원회 국정감사에서는 공정위의 현장조사와 과도한 과징금 부과 등 이른바 '권한 남용' 논란이 쟁점으로 부상할 전.",
+      "source_url": "https://www.asiae.co.kr/article/economic-general/2026101110351455214",
+      "published_at": "10시간 전"
+    },
+    {
+      "category": "news",
+      "category_label": "뉴스 보도내용",
+      "competitor": "공정거래위원회",
+      "keyword": "공정위",
+      "headline": "공정위 신고 2건 중 1건은 심사 문턱도 못 넘어",
+      "summary": "공정거래위원회에 접수된 신고 가운데 절반에 가까운 사건이 본격적인 심사에 들어가지 못한 것으로 나타났다. 지난해에는 신고 2건 중 1건 이상이 심사불개시 처리...",
+      "source_url": "https://www.financialpost.co.kr/news/articleView.html?idxno=279681",
+      "published_at": "11시간 전"
+    },
+    {
+      "category": "news",
+      "category_label": "뉴스 보도내용",
+      "competitor": "SK에너지",
+      "keyword": "공정거래위원회",
+      "headline": "[DD 주간브리핑] 국감, 정유 4사 대표부터 애플·텔레그램까지…KES·SEDEX서 K-반도체·AI 총집결",
+      "summary": "DD 주간브리핑 [편집국 종합] 이번 주는 정유 4사 수장들과 빅테크 플랫폼 대표들이 증인석에 서는 국정감사 2주차 공방이 이어지는 가운데, 튜링상 수상자 얀 르쿤의...",
+      "source_url": "https://www.ddaily.co.kr/page/view/2026100910143199140",
+      "published_at": "11시간 전"
+    },
+    {
+      "category": "news",
+      "category_label": "뉴스 보도내용",
+      "competitor": "SK텔레콤",
+      "keyword": "공정거래위원회",
+      "headline": "[국감2026] 방산 ‘채용 논란’·정유 ‘담합’·통신 ‘보안’ 도마에",
+      "summary": "[주간한국 송철호 기자] 지난 6일 '2026년도 정기국회 국정감사'가 막을 올렸다. 국감은 정부 정책과 행정을 점검하는 한편, 사회적 논란이 된 현안을 공론의 장으로...",
+      "source_url": "https://weekly.hankooki.com/news/articleView.html?idxno=7187924",
+      "published_at": "12시간 전"
+    },
+    {
+      "category": "news",
+      "category_label": "뉴스 보도내용",
+      "competitor": "공정거래위원회",
+      "keyword": "공정위",
+      "headline": "\"보복성 저인망식 조사\" 쿠팡, 공정위 현장조사 거부 '2차 갈등' - 머니투데이",
+      "summary": "공정거래위원회의 고강도 현장조사에 대해 이커머스(전자상거래) 쿠팡이 또 반기를 들었다. 8월 대규모유통업법 관련 조사로 갈등을 빚은 지 한 달 만에 조사 방식과...",
+      "source_url": "https://www.mt.co.kr/amp/living/2026/10/11/2026100816390692667",
+      "published_at": "13시간 전"
+    },
+    {
+      "category": "news",
+      "category_label": "뉴스 보도내용",
+      "competitor": "SK에너지",
+      "keyword": "공정거래위원회",
+      "headline": "공정위 신고 절반 가까이 ‘심사 불개시’…“피해 신고 걸러지는지 점검해야”",
+      "summary": "박성훈 의원, 공정위 자료 분석…2020년~올해 7월 심사 불개시 8419건 지난해 신고 접수 대비 52.7%…불개시 사유·판단 기준 점검 요구△박성훈 국민...",
+      "source_url": "https://www.etoday.co.kr/news/view/2634254?trc=right_categori_news",
+      "published_at": "13시간 전"
+    },
+    {
+      "category": "news",
+      "category_label": "뉴스 보도내용",
+      "competitor": "공정거래위원회",
+      "keyword": "현장조사",
+      "headline": "“수십조원 담합해놓고 세금 지원?”…정유 4사 CEO, 국감 십자포화 예고",
+      "summary": "26조원대 가격 담합 혐의로 윤리경영에 치명상을 입은 정유 4사 최고경영자(CEO)들이 다음달 석유 최고가격제 손실보전 산정을 앞두고 국회 국정감사 증인으로 채택...",
+      "source_url": "https://it.chosun.com/news/articleView.html?idxno=2023092171590",
+      "published_at": "14시간 전"
+    },
+    {
+      "category": "news",
+      "category_label": "뉴스 보도내용",
+      "competitor": "공정거래위원회",
+      "keyword": "공정위",
+      "headline": "공정위 신고해도 절반은 조사 문턱 못 넘어…\"점검해야\"",
+      "summary": "(세종=연합뉴스) 송정은 기자 = 공정거래위원회에 접수된 신고 가운데 절반 가까이는 본격적인 조사에 들어가지 못하고 '심사 불개시' 처리된 것으...",
+      "source_url": "https://www.yna.co.kr/amp/view/AKR20261009052000002",
+      "published_at": "15시간 전"
+    },
+    {
+      "category": "news",
+      "category_label": "뉴스 보도내용",
+      "competitor": "공정거래위원회",
+      "keyword": "공정위",
+      "headline": "국감 2주차…노란봉투법·강제조사권·항만공사 통합 등 공방 예고",
+      "summary": "국회 국정감사가 2주차를 맞이한다. 공정거래위원회와 해양수산부, 고용노동부 등 정부부처의 국정감사가 예정돼 있다.11일 국회와 관가 등에 따르면 공정거래위원회와...",
+      "source_url": "https://news.mtn.co.kr/news-detail/2026101009512153330",
+      "published_at": "15시간 전"
+    },
+    {
+      "category": "news",
+      "category_label": "뉴스 보도내용",
+      "competitor": "공정거래위원회",
+      "keyword": "공정위",
+      "headline": "설탕·밀가루·전분당 담합…삼양사, 공정위 과징금 1위 불명예",
+      "summary": "(세종=연합뉴스) 김수현 기자 = 삼양사가 2023년부터 올해 8월까지 공정거래위원회의 과징금을 가장 많이 부과받은 기업으로 집계됐다. 제재 건수가 가장 많은 곳은...",
+      "source_url": "https://www.koreancenter.or.kr/news/articleView.html?idxno=1422669",
+      "published_at": "15시간 전"
+    }
+  ],
+  "generated_at": "2026-10-11T11:44:46.859Z",
+  "_meta": {
+    "sources": [
+      "ftc.go.kr(보도자료)",
+      "ftc.go.kr(위원회 소식)",
+      "serper.dev/news"
+    ],
+    "windowHours": {
+      "press": 48,
+      "committee": 168,
+      "news": 24
+    },
+    "gapDays": 1,
+    "committeeCandidates": 3,
+    "boards": {
+      "committee": {
+        "boardsRead": 1,
+        "boardsTotal": 1,
+        "rowsSeen": 10,
+        "matched": 3
+      },
+      "press": {
+        "boardsRead": 2,
+        "boardsTotal": 2,
+        "rowsSeen": 20,
+        "matched": 0
+      }
+    },
+    "affiliateCompanies": 28,
+    "affiliateCollected": 12,
+    "categoryCounts": {
+      "press": 0,
+      "committee": 0,
+      "news": 35
+    },
+    "collected": 42,
+    "deduped": 35,
+    "errors": []
+  }
+}
