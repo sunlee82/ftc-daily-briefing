@@ -1,8 +1,44 @@
 {
-  "id": "2026-10-13",
-  "date": "2026-10-13",
-  "generated_at": "2026-10-13T00:40:00.000Z",
+  "id": "2026-10-14",
+  "date": "2026-10-14",
+  "generated_at": "2026-10-13T23:38:33.000Z",
   "cases": [
+    {
+      "title": "3개 지역(용인·울산·영천) 교복 구매입찰 담합",
+      "parties": "스마트학생복·아이비클럽·엘리트학생복·쎈텐학생복·스쿨룩스 대리점 10곳",
+      "conduct": "중·고교 교복 구매입찰 낙찰예정자·투찰가격 사전 합의(입찰담합)",
+      "stage": "처분",
+      "scale": "19개 학교 51건 입찰, 과징금 총 1억 200만원",
+      "last_move": "공정위가 10개 대리점에 시정명령과 과징금 총 1억 200만원 부과(기흥 2곳은 시정명령만)",
+      "last_date": "2026-10-13",
+      "source": "2026-10-14",
+      "source_title": "3개 지역 교복 입찰 담합 제재",
+      "source_url": "https://www.ftc.go.kr/www/selectBbsNttView.do?pageUnit=10&pageIndex=1&searchCnd=all&key=12&bordCd=3&searchCtgry=01,02&nttSn=48101"
+    },
+    {
+      "title": "삼성 사내급식 일감 몰아주기 과징금 소송",
+      "parties": "삼성그룹 계열사",
+      "conduct": "사내급식 일감 몰아주기(부당지원) 과징금 불복",
+      "stage": "소송",
+      "scale": "",
+      "last_move": "대법원이 삼성 계열사와 공정위 간 사내급식 일감 몰아주기 과징금 사건 상고심 심리에 본격 착수",
+      "last_date": "2026-10-13",
+      "source": "2026-10-14",
+      "source_title": "삼성 '급식 일감 몰아주기' 과징금 소송, 대법원 심리 착수",
+      "source_url": "https://www.mdtoday.co.kr/news/articleView.html?idxno=618474"
+    },
+    {
+      "title": "GS25 벤더 거래 통행세 의혹",
+      "parties": "GS리테일(GS25)",
+      "conduct": "제조사 직거래 가능 상품을 특정 벤더 경유로 공급받은 통행세 의혹",
+      "stage": "조사",
+      "scale": "",
+      "last_move": "국정감사에서 의혹이 제기되자 공정위가 위법 여부를 살펴보겠다고 밝힘",
+      "last_date": "2026-10-13",
+      "source": "2026-10-14",
+      "source_title": "GS25 벤더 거래 '통행세' 의혹…공정위, 위법 여부 검토",
+      "source_url": "https://m.newsprime.co.kr/section_view.html?no=750717"
+    },
     {
       "title": "갤럭시 GOS(게임 옵티마이징 서비스) 성능 제한 광고",
       "parties": "삼성전자",
@@ -57,11 +93,15 @@
       "conduct": "판매가격 담합 및 가격정보 교환",
       "stage": "심의",
       "scale": "관련매출액 약 44.1조 원(일평균 약 300억 원)",
-      "last_move": "SK에너지·HD현대오일뱅크 대표가 공정위 국정감사에 증인으로 출석해 담합 의혹에 사과하고 공정위 심의 절차에서 소명하겠다고 밝힘(경영진 관여 여부엔 즉답 피함)",
-      "last_date": "2026-10-12",
-      "source": "2026-10-13",
-      "source_title": "국감 소환 정유 4사 \"유가 부담 송구\"…담합 의혹엔 \"절차 따라 소명\"",
-      "source_url": "https://www.news1.kr/industry/general-industry/6317427"
+      "last_move": "국회 산자위가 김종화 SK에너지·송명준 HD현대오일뱅크 대표를 10월 22일 국정감사 증인으로 추가 채택(12일 정무위 출석에 이어)",
+      "last_date": "2026-10-13",
+      "source": "2026-10-14",
+      "source_title": "산자위, 김종화 SK에너지·송명준 HD현대오일뱅크 대표 22일 국감 증인 채택",
+      "source_url": "https://www.ddaily.co.kr/page/view/2026101314370554211",
+      "next": {
+        "date": "2026-10-22",
+        "what": "산자위 국감 증인 출석(SK에너지 대표)"
+      }
     },
     {
       "title": "치킨 프랜차이즈 3사 가격담합 조사",
@@ -846,6 +886,15 @@
   ],
   "schedule": [
     {
+      "title": "가격재결정명령(가격명령제) 법률 명문화",
+      "kind": "추진",
+      "date": "2026-10-14",
+      "detail": "더불어민주당이 담합으로 왜곡된 가격을 담합 이전 수준으로 낮추도록 하는 공정위의 가격 재결정 명령을 법률에 명문화하는 방안 추진. 제지·제분 담합에 적용된 명령은 법원이 집행정지를 인용한 상태",
+      "source": "2026-10-14",
+      "source_title": "담합 전 가격으로 되돌린다…與, '가격재결정명령' 법률 명문화 추진",
+      "source_url": "https://www.sedaily.com/article/20101062"
+    },
+    {
       "title": "대기업집단 건전성 평가 지표 도입",
       "kind": "추진",
       "date": "2026-10-11",
@@ -1168,8 +1217,8 @@
       "source_title": "담합 자진신고 위축될라…공정위, 공정거래법 보완책 검토",
       "source_url": "https://www.edaily.co.kr/News/Read?newsId=01590806645610296&mediaCodeNo=257",
       "next": {
-        "date": "2026-10-13",
-        "what": "감면고시 개정안 의견제출 마감(시행령은 11/2까지)"
+        "date": "2026-11-02",
+        "what": "공정거래법 시행령 개정안 입법예고 마감"
       }
     },
     {

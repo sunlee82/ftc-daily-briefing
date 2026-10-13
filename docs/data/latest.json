@@ -1,107 +1,101 @@
 {
-  "id": "2026-10-13",
-  "date": "2026-10-13",
-  "title": "정유 담합 조사결과, 최고가격제 손실보전 검증에 활용",
-  "summary": "**SK에너지** 대표 국감서 담합 의혹 사과 — **44조** 사건은 공정위 심의서 소명 방침\n주병기 \"정유 담합 조사결과, **최고가격제 손실보전액** 검증에 활용 협의\"\n대기업 **상표권 사용료 가이드라인** 마련 중…**자사주 제외** 땐 사익편취 대상 **25곳**↑",
+  "id": "2026-10-14",
+  "date": "2026-10-14",
+  "title": "용인·울산·영천 교복대리점 10곳 입찰담합에 과징금 1억 200만원",
+  "summary": "국감서 **삼성·SK 경제력 집중** 지적 — 주병기 \"**출자 제한 완화** 신중 검토\"\n용인·울산·영천 **교복 입찰담합** 10개 대리점에 과징금 **1억 200만원**·시정명령\n**SK에너지** 대표, **10월 22일** 산자위 국감 증인 추가 채택 — 44조 담합 심의 중",
   "competitors": [
     "공정거래위원회",
     "SK그룹"
   ],
   "keywords": [
     "공정위",
-    "국정감사",
-    "담합",
-    "상표권"
+    "입찰담합",
+    "교복",
+    "국정감사"
   ],
   "items": [
     {
-      "category": "committee",
-      "category_label": "위원회 소식",
-      "headline": "2026-10-13 위원회 소식",
-      "summary": "##[주요일정]##\n· **위원장**: 10:00 국무회의(청와대)",
-      "source_url": "https://www.ftc.go.kr/www/selectBbsNttView.do?pageUnit=10&pageIndex=1&searchCnd=all&key=15&bordCd=5&nttSn=48100",
-      "published_at": "2026-10-12"
+      "category": "press",
+      "category_label": "공정위 보도자료",
+      "headline": "3개 지역 교복 입찰 담합 제재",
+      "dept": "입찰담합조사과",
+      "summary": "용인·울산·영천 10개 교복대리점의 낙찰자·투찰가 사전 합의에 과징금·시정명령 부과\n- 19개 중·고교 발주 **51건** 입찰 담합 — 과징금 총 **1억 200만원**\n- 용인 처인 4곳 **7,200만원**(낙찰률 **98.29%**), 울산 남구 2곳 **900만원**, 영천 2곳 **2,100만원**\n- 영천 2곳은 **2018년**부터 '낙찰 순번제'로 담합, 기흥 2곳(1건)은 시정명령만\n- **'26년 5월**부터 **16개** 시·도교육청 입찰정보를 BRIAS와 연계해 담합 징후 감시",
+      "source_url": "https://www.ftc.go.kr/www/selectBbsNttView.do?pageUnit=10&pageIndex=1&searchCnd=all&key=12&bordCd=3&searchCtgry=01,02&nttSn=48101",
+      "published_at": "2026-10-13"
+    },
+    {
+      "category": "press",
+      "category_label": "공정위 보도자료",
+      "headline": "조정원, 인도 ODR 전문기관과 간담회 개최",
+      "dept": "경쟁정책과",
+      "summary": "조정원, 인도 ODR 기관 Presolv360과 분쟁조정 경험 공유 간담회 개최\n- **10월 14일** 개최, Presolv360 공동창업자 Namita Shah 참석\n- 조정원 분쟁조정제도·인도 ODR 운영 사례·기술 활용 경험 공유\n- 조정원 **'25년** 분쟁조정 **4,726건** 접수·**4,407건** 처리",
+      "source_url": "https://www.ftc.go.kr/www/selectBbsNttView.do?pageUnit=10&pageIndex=1&searchCnd=all&key=12&bordCd=3&searchCtgry=01,02&nttSn=48102",
+      "published_at": "2026-10-13"
     },
     {
       "category": "news",
       "category_label": "뉴스 보도내용",
-      "headline": "과징금 1.3조원에 로펌행까지…공정위 전관 카르텔 우려",
-      "summary": "이동통신 3사 담합 사건, **5.5조→964억원**으로 줄어든 사례가 국감서 거론됨.\n공정위 출신 로펌 재취업자 **10명 중 6명** — \"로펌 취업사관학교\" 비판.",
-      "source_url": "https://www.newspim.com/news/view/20261012001384",
-      "published_at": "15시간 전"
+      "headline": "한창민 \"삼성·SK 쏠림, 국가재정 위협\"…주병기 \"출자 제한 완화 신중 검토\"",
+      "summary": "**12일** 정무위 공정위 국감 질의(사회민주당 한창민 의원).\n소수 기업집단과 특정 품목으로의 경제력 집중이 쟁점.",
+      "source_url": "https://www.intn.co.kr/news/articleView.html?idxno=2053977",
+      "published_at": "23시간 전"
     },
     {
       "category": "news",
       "category_label": "뉴스 보도내용",
-      "headline": "국감 소환 정유 4사 \"유가 부담 송구\"…담합 의혹엔 \"절차 따라 소명\"",
-      "summary": "SK에너지·HD현대오일뱅크 대표 사과, 경영진 관여 여부엔 즉답 피함.\n전량구매계약·사후정산 등 주유소 거래관행 개선 약속 — 최고가격제 손실보전도 질의.",
-      "source_url": "https://www.news1.kr/industry/general-industry/6317427",
-      "published_at": "14시간 전"
+      "headline": "산자위, 김종화 SK에너지·송명준 HD현대오일뱅크 대표 22일 국감 증인 채택",
+      "summary": "**12일** 정무위 국감 출석에 이어 산자위에도 증인 소환.\n두 회사의 **44조** 경질유 담합 사건은 공정위 심의 중.",
+      "source_url": "https://www.ddaily.co.kr/page/view/2026101314370554211",
+      "published_at": "18시간 전"
     },
     {
       "category": "news",
       "category_label": "뉴스 보도내용",
-      "headline": "주병기 \"정유사 담합 조사결과, 최고가 손실보전액 검증에 활용 협의\"",
-      "summary": "정부 최고가격제에 따른 정유사 손실보전액이 대상.\n담합 가격에 세금이 보전된다는 논란 속 관계부처와 협의 방침.",
-      "source_url": "https://www.fnnews.com/news/202610121823168419",
-      "published_at": "14시간 전"
-    },
-    {
-      "category": "news",
-      "category_label": "뉴스 보도내용",
-      "headline": "[사설] 국감에 정유사 경영진 꼭 불러야 했나",
-      "summary": "SK에너지·HD현대오일뱅크 담합 사건이 공정위 심의 중인 시점의 경영진 증인 소환을 문제 삼은 사설.",
-      "source_url": "https://www.mt.co.kr/amp/opinion/2026/10/13/2026101216230344401",
-      "published_at": "5시간 전"
-    },
-    {
-      "category": "news",
-      "category_label": "뉴스 보도내용",
-      "headline": "쿠팡 공정위 조사 거부에 여야 반발…\"국회 차원 공동 대응\"",
-      "summary": "유동수 정무위원장 \"필요시 입법 보완\", 주병기 위원장은 조사 불응 경제적 제재 강화 방침.\n쿠팡 측은 \"조사 거부 아닌 절차적 권리구제\"라고 맞섬.",
-      "source_url": "https://biz.chosun.com/distribution/channel/2026/10/12/4D22LYYA5JBXDGH5R6EH6KXLVE/",
-      "published_at": "14시간 전"
-    },
-    {
-      "category": "news",
-      "category_label": "뉴스 보도내용",
-      "headline": "주병기 \"대기업 브랜드 사용료 가이드라인 마련 중\"",
-      "summary": "계열사 간 상표권 사용료의 적정 수준을 판단할 기준 제정 방침.\n송언석 의원은 조사 예측가능성 문제 지적 — 배달앱 특별법엔 \"최대한 협력\".",
-      "source_url": "https://www.newspim.com/news/view/20261012000690",
-      "published_at": "21시간 전"
-    },
-    {
-      "category": "news",
-      "category_label": "뉴스 보도내용",
-      "headline": "자사주 빼면 사익편취 규제 대상 25곳 늘어…주병기 \"법 개정 필요\"",
-      "summary": "의결권 없는 자사주가 지분율 분모에 들어가 규제 사각지대라는 박홍배 의원 지적.\nLS·효성 등 **8개** 집단 계열사가 새로 대상 — 위원장 \"규제 회피 수단 악용은 사실\".",
-      "source_url": "https://www.inews24.com/v/2013884",
-      "published_at": "20시간 전"
-    },
-    {
-      "category": "news",
-      "category_label": "뉴스 보도내용",
-      "headline": "주병기 \"담합 과징금 과도하지 않아…부당이익 넘게 물려야 반복 안 돼\"",
-      "summary": "한국 담합 과징금이 세계 과징금의 **40%**에 이른다는 지적에 대한 답변.\n처벌받을 기업을 봐주는 것이 더 우려된다는 입장.",
-      "source_url": "https://www.news1.kr/economy/trend/6317106",
-      "published_at": "17시간 전"
-    },
-    {
-      "category": "news",
-      "category_label": "뉴스 보도내용",
-      "headline": "공정위 처분 '고법 직행' 2심제 논란…\"시장 경쟁 회복에 신속함 필요\"",
-      "summary": "공정위 의결이 1심을 대신해 사실관계 다툼은 고법에서만 가능.\n유동수 \"조세심판원처럼 독립기구 둬야\", 주병기 \"미국 FTC 수준 절차 보장\".",
-      "source_url": "https://www.hankyung.com/article/202610126708i",
+      "headline": "담합 전 가격으로 되돌린다…與, '가격재결정명령' 법률 명문화 추진",
+      "summary": "담합으로 왜곡된 가격을 담합 이전 수준으로 낮추도록 명령하는 제도.\n제지·제분 담합에 적용됐으나 법원이 집행정지를 인용한 상태.",
+      "source_url": "https://www.sedaily.com/article/20101062",
       "published_at": "16시간 전"
     },
     {
       "category": "news",
       "category_label": "뉴스 보도내용",
-      "headline": "[단독] 380억 갑질에 과징금 900만원?…공정위 간부의 '불공정 훈수'",
-      "summary": "**2016년** 대림산업의 협력업체 공사대금 **380억여원** 미지급 사건이 대상.\n당시 공정위 간부가 사건 처리 과정에 부적절하게 관여했다는 의혹.",
-      "source_url": "https://news.jtbc.co.kr/article/NB12322606",
-      "published_at": "12시간 전"
+      "headline": "삼성 '급식 일감 몰아주기' 과징금 소송, 대법원 심리 착수",
+      "summary": "삼성 계열사 사내급식 일감 몰아주기에 대한 공정위 과징금이 쟁점.\n대법원이 상고심 심리에 본격 착수.",
+      "source_url": "https://www.mdtoday.co.kr/news/articleView.html?idxno=618474",
+      "published_at": "19시간 전"
+    },
+    {
+      "category": "news",
+      "category_label": "뉴스 보도내용",
+      "headline": "GS25 벤더 거래 '통행세' 의혹…공정위, 위법 여부 검토",
+      "summary": "제조사와 직거래할 수 있는 상품도 특정 벤더를 거쳐 공급받았다는 의혹.\n국감서 제기돼 공정위가 검토 방침.",
+      "source_url": "https://m.newsprime.co.kr/section_view.html?no=750717",
+      "published_at": "19시간 전"
+    },
+    {
+      "category": "news",
+      "category_label": "뉴스 보도내용",
+      "headline": "공정위 과징금 4,531억원 징수유예…2년 8개월새 15배",
+      "summary": "법원 집행정지·회생절차 개시 등으로 징수가 미뤄진 금액.\n**8월 말** 기준, **2023년 말** 대비 약 **15.4배**.",
+      "source_url": "https://www.yna.co.kr/amp/view/AKR20261013154200002",
+      "published_at": "3시간 전"
+    },
+    {
+      "category": "news",
+      "category_label": "뉴스 보도내용",
+      "headline": "국민의힘 정무위원들 \"주병기 공정위원장 사퇴해야\"…대기업 인식 편향 지적",
+      "summary": "**13일** 기자회견서 대기업·시장경제 인식과 기업을 범법자로 낙인찍는 조사 방식 비판.\n정점식 원내대표도 '재벌 해체론' 발언 문제 삼아 공세 가세.",
+      "source_url": "https://www.chosun.com/politics/assembly/2026/10/13/5DLDYGEAJZD3JB2NCVVJWEIPQA/",
+      "published_at": "22시간 전"
+    },
+    {
+      "category": "news",
+      "category_label": "뉴스 보도내용",
+      "headline": "조사·심판 '한 지붕'에…공정위 구조 신뢰성 논란",
+      "summary": "심사관과 위원회가 모두 공정위 소속 — 검사가 판사 역할까지 하는 격이라는 지적.\n위원장의 국무회의 배석도 독립성 문제로 거론.",
+      "source_url": "https://amp.seoul.co.kr/seoul/20261014002003",
+      "published_at": "9시간 전"
     }
   ],
-  "generated_at": "2026-10-13T00:40:00.000Z"
+  "generated_at": "2026-10-13T23:38:33.000Z"
 }
