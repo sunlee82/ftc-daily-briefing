@@ -182,9 +182,15 @@ function pipelineHTML(allCases, part) {
     }
   </section>`;
 
+  // 60일 넘게 움직임이 없는 사건은 단계 그룹에서 빼 맨 아래 "장기 미진행"에 모은다
+  const STALE_DAYS = 60;
+  const today = todayKST();
+  const isStale = (c) => c.stage !== "처분" && c.stage !== "종결" &&
+    (Date.parse(today) - Date.parse(c.last_date)) / 86400000 > STALE_DAYS;
+  const stale = cases.filter(isStale);
   const groups = STAGES.map((st) => {
     const list = cases
-      .filter((c) => c.stage === st.key)
+      .filter((c) => c.stage === st.key && !isStale(c))
       .sort((a, b) => (a.last_date < b.last_date ? 1 : -1));
     if (!list.length) return "";
     return `<section class="stage" data-stage="${esc(st.key)}">
@@ -202,31 +208,116 @@ function pipelineHTML(allCases, part) {
       <span class="stage-name">기타</span><span class="stage-count">${unknown.length}</span></h3>
       ${listHTML("case-list", unknown.map((c) => caseHTML(c)))}</section>`);
   }
+  if (stale.length) {
+    groups.push(`<section class="stage stage-stale" data-stage="stale">
+      <h3 class="stage-title">
+        <span class="stage-name">장기 미진행</span>
+        <span class="stage-count">${stale.length}</span>
+        <span class="stage-desc">${STALE_DAYS}일 넘게 새 소식이 없는 사건 — 단계 배지로 마지막 상태를 표시</span>
+      </h3>
+      ${listHTML("case-list", stale.sort((a, b) => (a.last_date < b.last_date ? 1 : -1)).map((c) => caseHTML(c, true)))}
+    </section>`);
+  }
   const rest = groups.join("");
   if (part === "ours") return ourBlock;
   return rest || `<p class="empty">그 밖에 추적 중인 사건이 없습니다.</p>`;
 }
 
 // ---------- 제도 변화 시계 ----------
-function scheduleHTML(items) {
-  if (!items.length) return `<p class="empty">기록된 제도 변화가 없습니다.</p>`;
-  const rows = items
-    .slice()
-    .sort((a, b) => (a.date < b.date ? 1 : a.date > b.date ? -1 : 0))
-    .map((s) => `<li class="sched">
+// scope(적용 대상)·sk(SK 해당)·deadline(의견제출 마감)·effective(시행일)은
+// tool/pipeline/scheduleMeta.js 가 매기고, 새 항목은 배포 단계가 직접 적는다.
+const SCOPE_LABEL = {
+  group: "대기업집단", subcon: "하도급 원사업자", franchise: "가맹본부", retail: "대규모유통업자",
+  platform: "온라인플랫폼", consumer: "소비자거래 사업자", cartel: "담합(전 사업자)",
+  ftc: "공정위 절차·조직", sector: "특정 업종", all: "전 사업자",
+};
+const NOTICE_KINDS = new Set(["행정예고", "입법예고", "입법·행정예고"]);
+const NOTICE_DAYS = 25; // 마감일을 모르는 예고는 보통 20일 안팎 — 그 뒤엔 의견수렴이 끝난 것으로 본다
+
+// 단계: open(의견수렴 중) / pending(시행 예정·추진 중) / done(시행됨)
+function phaseOf(s, today) {
+  if (NOTICE_KINDS.has(s.kind)) {
+    if (s.deadline) return s.deadline >= today ? "open" : "pending";
+    const age = (Date.parse(today) - Date.parse(s.date)) / 86400000;
+    return age <= NOTICE_DAYS ? "open" : "pending";
+  }
+  if (s.kind === "시행") return s.effective && s.effective > today ? "pending" : "done";
+  return "pending"; // 추진 · 검토 · 국회 발의
+}
+
+function phaseBadge(s, phase, today) {
+  if (phase === "open") {
+    return s.deadline
+      ? `<span class="ph ph-open">의견수렴 ~${fmtDate(s.deadline)} · ${dday(s.deadline, today)}</span>`
+      : `<span class="ph ph-open">의견수렴 중</span>`;
+  }
+  if (phase === "done") return `<span class="ph ph-done">시행됨${s.effective ? " " + fmtDate(s.effective) : ""}</span>`;
+  if (s.kind === "국회 발의") return `<span class="ph ph-pending">국회 계류</span>`;
+  if (NOTICE_KINDS.has(s.kind)) return `<span class="ph ph-pending">의견수렴 종료 · 시행 준비${s.effective ? " · " + fmtDate(s.effective) + " 시행" : ""}</span>`;
+  if (s.kind === "시행" && s.effective) return `<span class="ph ph-pending">${fmtDate(s.effective)} 시행 예정</span>`;
+  return `<span class="ph ph-pending">${esc(s.kind)} 중</span>`;
+}
+
+function scopeChips(s) {
+  const keys = Array.isArray(s.scope) && s.scope.length ? s.scope : ["all"];
+  return keys.map((k) => `<span class="scope">${esc(SCOPE_LABEL[k] || k)}</span>`).join("");
+}
+
+function schedRow(s, today) {
+  const phase = phaseOf(s, today);
+  return `<li class="sched${s.sk ? " is-sk" : ""}">
       <div class="sched-when">
         <span class="sched-date">${fmtDate(s.date)}</span>
         <span class="sched-kind ${KIND_CLASS[s.kind] || "plan"}">${esc(s.kind)}</span>
       </div>
       <div class="sched-body">
-        <div class="sched-title">${esc(s.title)}</div>
+        <div class="sched-title">${s.sk ? `<b class="sk-red">SK</b> ` : ""}${esc(s.title)}</div>
+        <div class="sched-meta">${phaseBadge(s, phase, today)}${scopeChips(s)}</div>
         ${s.detail ? `<div class="sched-detail">${esc(s.detail)}</div>` : ""}
-        ${nextHTML(s, todayKST())}
+        ${phase === "open" ? "" : nextHTML(s, today)}
         <div class="case-src">${sourceHTML(s)}</div>
       </div>
-    </li>`);
-  return listHTML("sched-list", rows);
+    </li>`;
 }
+
+const PHASES = [
+  { key: "open",    label: "의견수렴 중",      desc: "지금 의견을 낼 수 있는 입법·행정예고 — 마감 가까운 순" },
+  { key: "pending", label: "시행 예정·추진 중", desc: "예고가 끝나 시행을 기다리거나, 정부·국회에서 추진 중인 것" },
+  { key: "done",    label: "시행됨",          desc: "이미 시행된 제도 — 실무에 적용 중" },
+];
+
+function scheduleHTML(items, today, skOnly) {
+  if (!items.length) return `<p class="empty">기록된 제도 변화가 없습니다.</p>`;
+  const list = skOnly ? items.filter((s) => s.sk) : items;
+  if (!list.length) return `<p class="empty">SK 해당으로 표시된 제도가 없습니다.</p>`;
+  return PHASES.map((ph) => {
+    let rows = list.filter((s) => phaseOf(s, today) === ph.key);
+    if (!rows.length) return "";
+    rows = ph.key === "open"
+      ? rows.sort((a, b) => ((a.deadline || "9") < (b.deadline || "9") ? -1 : 1))
+      : rows.sort((a, b) => (a.date < b.date ? 1 : a.date > b.date ? -1 : 0));
+    return `<section class="stage" data-phase="${ph.key}">
+      <h3 class="stage-title">
+        <span class="stage-name">${esc(ph.label)}</span>
+        <span class="stage-count">${rows.length}</span>
+        <span class="stage-desc">${esc(ph.desc)}</span>
+      </h3>
+      ${listHTML("sched-list", rows.map((s) => schedRow(s, today)))}
+    </section>`;
+  }).join("");
+}
+
+// "SK 해당만 보기" — 선택은 이 브라우저에만 남는다
+function skOnlyPref() {
+  try { return localStorage.getItem("sched-sk-only") === "1"; } catch (_) { return false; }
+}
+document.addEventListener("change", (e) => {
+  if (e.target.id !== "sk-only") return;
+  try { localStorage.setItem("sched-sk-only", e.target.checked ? "1" : "0"); } catch (_) {}
+  const box = document.getElementById("sched-box");
+  if (box) box.innerHTML = scheduleHTML(LAST.sched, LAST.today, e.target.checked);
+});
+let LAST = { sched: [], today: "" };
 
 // ---------- 렌더 ----------
 async function load() {
@@ -240,6 +331,7 @@ async function load() {
     const today = todayKST();
     const upcoming = [...cases, ...sched].filter((o) => o.next && o.next.date && o.next.date >= today).length;
     const open = cases.filter((c) => ["조사", "심의", "소송", "수사"].includes(c.stage)).length;
+    LAST = { sched, today };
 
     el.innerHTML = `
       <p class="dash-meta">
@@ -265,8 +357,10 @@ async function load() {
 
       <section class="viz-block">
         <h2>제도 변화 시계</h2>
-        <p class="hint">법령·고시·지침의 예고와 시행, 추진 중인 제도 개편을 최신순으로 정리했습니다.</p>
-        ${scheduleHTML(sched)}
+        <p class="hint">법령·고시·지침을 <strong>의견수렴 중 → 시행 예정·추진 중 → 시행됨</strong>으로 나눴습니다.
+          <b class="sk-red">SK</b> 표시는 SK그룹 계열사에 적용되거나 직접 영향이 있는 제도입니다.</p>
+        <label class="sk-toggle"><input type="checkbox" id="sk-only" ${skOnlyPref() ? "checked" : ""} /> <b class="sk-red">SK</b> 해당만 보기 <span>(${sched.filter((s) => s.sk).length}/${sched.length})</span></label>
+        <div id="sched-box">${scheduleHTML(sched, today, skOnlyPref())}</div>
       </section>
 
       <section class="viz-block">

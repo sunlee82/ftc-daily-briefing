@@ -75,6 +75,10 @@
 .stage[data-stage="수사"] .stage-title { border-left-color: var(--stage-pro); }
 .stage[data-stage="처분"] .stage-title { border-left-color: var(--stage-don); }
 .stage[data-stage="종결"] .stage-title { border-left-color: var(--stage-end); }
+.stage[data-stage="stale"] .stage-title { border-left-color: var(--border); }
+.stage[data-phase="open"] .stage-title { border-left-color: var(--kind-notice); }
+.stage[data-phase="pending"] .stage-title { border-left-color: var(--kind-plan); }
+.stage[data-phase="done"] .stage-title { border-left-color: var(--kind-done); }
 
 .stage-name { font-weight: 800; }
 .stage-count {
@@ -282,3 +286,15 @@
   cursor: pointer;
 }
 .more-btn:hover { border-style: solid; border-color: var(--accent); }
+
+/* --- 제도 변화: 단계 배지·적용 대상·SK 필터 (2026-10) --- */
+.sched-meta { display: flex; flex-wrap: wrap; gap: 6px; margin: 4px 0 6px; align-items: center; }
+.ph { font-size: 0.78rem; font-weight: 700; padding: 1px 8px; border-radius: var(--radius-full); }
+.ph-open { color: var(--kind-notice); background: var(--kind-notice-soft); }
+.ph-pending { color: var(--kind-plan); background: var(--kind-plan-soft); }
+.ph-done { color: var(--kind-done); background: var(--kind-done-soft); }
+.scope { font-size: 0.74rem; font-weight: 600; padding: 1px 7px; color: var(--muted); border: 1px solid var(--border); border-radius: var(--radius-full); }
+.sched.is-sk { border-left: 3px solid var(--sk-red); }
+.sk-toggle { display: inline-flex; align-items: center; gap: 6px; margin: 0 0 12px; font-size: 0.92rem; font-weight: 700; cursor: pointer; }
+.sk-toggle input { width: 16px; height: 16px; accent-color: var(--sk-red); }
+.sk-toggle span { font-weight: 500; color: var(--muted); }

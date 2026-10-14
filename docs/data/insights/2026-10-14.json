@@ -892,7 +892,11 @@
       "detail": "더불어민주당이 담합으로 왜곡된 가격을 담합 이전 수준으로 낮추도록 하는 공정위의 가격 재결정 명령을 법률에 명문화하는 방안 추진. 제지·제분 담합에 적용된 명령은 법원이 집행정지를 인용한 상태",
       "source": "2026-10-14",
       "source_title": "담합 전 가격으로 되돌린다…與, '가격재결정명령' 법률 명문화 추진",
-      "source_url": "https://www.sedaily.com/article/20101062"
+      "source_url": "https://www.sedaily.com/article/20101062",
+      "scope": [
+        "cartel"
+      ],
+      "sk": true
     },
     {
       "title": "대기업집단 건전성 평가 지표 도입",
@@ -901,7 +905,11 @@
       "detail": "공정위가 대기업집단 건전성 평가 지표 개발을 추진 중. 국회 입법조사처는 OECD 국가 중 전례가 없다며 신중론 제기",
       "source": "2026-10-11",
       "source_title": "공정위 추진 '대기업집단 건전성 지표'…입법조사처 \"전례 없어\"",
-      "source_url": "https://www.koreadaily.com/article/20261010235242174"
+      "source_url": "https://www.koreadaily.com/article/20261010235242174",
+      "scope": [
+        "group"
+      ],
+      "sk": true
     },
     {
       "title": "대규모유통업법 과징금 산정기준 개선(납품대금 기준 반영)",
@@ -910,7 +918,11 @@
       "detail": "대규모유통업체의 법 위반에 대한 과징금 산정 방식 개편 추진. 위반금액을 계산하기 어려운 경우 관련 납품대금을 기준으로 과징금을 산정하도록 해, 산정 불가를 이유로 제재가 가벼워지던 문제를 보완. 대규모유통업체 제재 수준이 전반적으로 상향될 전망",
       "source": "2026-10-10",
       "source_title": "유통사 과징금 산정 기준 개선…납품대금 기준 전면 반영",
-      "source_url": "https://www.polinews.co.kr/news/articleView.html?idxno=745323"
+      "source_url": "https://www.polinews.co.kr/news/articleView.html?idxno=745323",
+      "scope": [
+        "retail"
+      ],
+      "sk": true
     },
     {
       "title": "거짓 할인(가짜세일) 표시 점검 강화",
@@ -919,7 +931,11 @@
       "detail": "코리아세일페스타·블랙프라이데이를 앞두고 공정위·한국소비자원이 할인율 표시 실태를 점검. 할인율 산정의 비교 기준은 '직전 20일 최저가'이며, 가격 히스토리로 종전 거래가격을 검증. 설 선물세트 800개 중 12.8%가 정가를 올려 할인율을 부풀렸고, 정가를 3배 올린 뒤 84% 할인으로 표시한 사례도 확인. 시간제한 할인 5건 중 1건은 할인 종료 후에도 가격이 그대로였음",
       "source": "2026-10-10",
       "source_title": "코세페·블프 '가짜세일' 점검…할인율 기준은 직전 20일 최저가",
-      "source_url": "https://www.imaeil.com/page/view/2026101006540028747"
+      "source_url": "https://www.imaeil.com/page/view/2026101006540028747",
+      "scope": [
+        "consumer"
+      ],
+      "sk": true
     },
     {
       "title": "식품 분야 반복담합 영업정지·시장퇴출 입법(먹거리 분야 확대)",
@@ -928,7 +944,12 @@
       "detail": "반복 담합 기업에 대한 영업정지·시장 퇴출 제재를 설탕·밀가루 등 먹거리 시장까지 확대 적용하는 입법 추진. 당정이 발표한 반복담합 근절 입법과제는 안전·에너지·환경·운송 17개 업종에만 적용돼 식품 원재료가 빠져 있다는 지적이 이어진 데 따른 것",
       "source": "2026-10-08",
       "source_title": "설탕·밀가루도 '반복담합' 퇴출 대상…입법 추진",
-      "source_url": "https://marketin.edaily.co.kr/News/ReadE?newsId=01653126645610952"
+      "source_url": "https://marketin.edaily.co.kr/News/ReadE?newsId=01653126645610952",
+      "scope": [
+        "cartel",
+        "sector"
+      ],
+      "sk": false
     },
     {
       "title": "다크패턴 방지를 위한 온라인 인터페이스 운영 가이드라인",
@@ -937,7 +958,11 @@
       "detail": "전자상거래법상 다크패턴 규제 관련 13개 유형별 개념·핵심 준수사항·세부 유의사항·법 위반 예시를 담은 가이드라인 배포. 기존 「온라인 다크패턴 자율관리 가이드라인」(23.7월)과 「6개 유형 온라인 다크패턴 규제 문답서」(25.2월)를 통합·현행화. 취소·탈퇴 버튼은 로그인 첫 화면 또는 마이페이지 등 한 번의 클릭으로 연결되는 화면에 배치하도록 권고. 온라인 인터페이스 5가지 금지행위(법 제21조의2 제1항)와 정기결제 대금 증액·무료→유료 전환 시 동의·고지 의무(법 제13조 제6항) 안내",
       "source": "2026-10-07",
       "source_title": "온라인 다크패턴 규제 관련 가이드라인 배포",
-      "source_url": "https://www.ftc.go.kr/www/selectBbsNttView.do?pageUnit=10&pageIndex=1&searchCnd=all&key=12&bordCd=3&searchCtgry=01,02&nttSn=48089"
+      "source_url": "https://www.ftc.go.kr/www/selectBbsNttView.do?pageUnit=10&pageIndex=1&searchCnd=all&key=12&bordCd=3&searchCtgry=01,02&nttSn=48089",
+      "scope": [
+        "platform"
+      ],
+      "sk": true
     },
     {
       "title": "명절 미지급 하도급대금 해결센터 운영(옛 명절 불공정 하도급 신고센터)",
@@ -946,7 +971,11 @@
       "detail": "2026.8.5.~9.23. 50일간 전국 12곳 운영 — 상담 338건, 173개 수급사업자가 미지급 대금 289억 원 수령(전년 대비 24.6%↑). 108개 원사업자가 16,175개 업체에 2조 2,359억 원을 추석 전 조기 지급(SK하이닉스 223억 원). 법정 지급기한 60일 초과 건은 지연이자를 포함한 자진시정을 유도하고, 불응 시 현장조사 예정",
       "source": "2026-10-03",
       "source_title": "26년 추석 명절 대비 미지급 하도급대금 해결센터 운영 결과",
-      "source_url": "https://www.ftc.go.kr/www/selectBbsNttView.do?pageUnit=10&pageIndex=1&searchCnd=all&key=12&bordCd=3&searchCtgry=01,02&nttSn=48082"
+      "source_url": "https://www.ftc.go.kr/www/selectBbsNttView.do?pageUnit=10&pageIndex=1&searchCnd=all&key=12&bordCd=3&searchCtgry=01,02&nttSn=48082",
+      "scope": [
+        "ftc"
+      ],
+      "sk": false
     },
     {
       "title": "대형유통업체 납품·입점업체 영업이익률 조사",
@@ -955,7 +984,11 @@
       "detail": "공정위가 올해 처음으로 대형 유통업체와 거래하는 납품·입점업체의 영업이익률을 조사. 기존 불공정거래 경험·거래관행 조사에 수익성 지표를 더해 조사 범위 확대",
       "source": "2026-10-02",
       "source_title": "공정위, 대형유통업체 납품·입점업체 영업이익률 첫 조사",
-      "source_url": "https://www.finomy.com/news/articleView.html?idxno=262713"
+      "source_url": "https://www.finomy.com/news/articleView.html?idxno=262713",
+      "scope": [
+        "retail"
+      ],
+      "sk": true
     },
     {
       "title": "건설 분야 카르텔 전담조직 가동",
@@ -964,7 +997,11 @@
       "detail": "공정위가 건설 분야 카르텔 전담조직을 가동. 건설사 간 사업장 배분이나 입찰 참여 조율이 담합으로 판단될 수 있어 재건축·재개발 정비사업 수주전에도 긴장감 확산",
       "source": "2026-10-02",
       "source_title": "공정위 '건설 카르텔' 전담조직 가동…정비사업 수주전 촉각",
-      "source_url": "https://v.daum.net/v/0jcATBwaW0?f=p"
+      "source_url": "https://v.daum.net/v/0jcATBwaW0?f=p",
+      "scope": [
+        "ftc"
+      ],
+      "sk": false
     },
     {
       "title": "반복 담합 근절 5대 입법과제(당정협의)",
@@ -973,7 +1010,12 @@
       "detail": "윤준병 의원이 '상습 담합 아웃법'을 발의 — 5년 내 2회 이상 담합이 적발되면 공정위가 영업정지·등록취소를 요청할 수 있게 함. 당정협의안은 안전·에너지·환경·운송 17개 업종 적용, 담합 처분시효 12→15년 연장, 가격재결정명령 근거 마련, 자진신고자 시정조치 감면 폐지를 포함. 과징금만으로는 반복 담합 억지가 어렵다는 판단",
       "source": "2026-10-03",
       "source_title": "윤준병 의원, '상습 담합 아웃법' 발의…영업정지·등록취소 추진",
-      "source_url": "https://www.foodtoday.or.kr/news/article.html?no=208483"
+      "source_url": "https://www.foodtoday.or.kr/news/article.html?no=208483",
+      "scope": [
+        "cartel",
+        "sector"
+      ],
+      "sk": true
     },
     {
       "title": "사건절차규칙 개정(신고인 절차적 권리 확대)",
@@ -982,7 +1024,12 @@
       "detail": "심의절차 개시 사실 신고인 통지, 신고인의 사전 의견청취절차 요청권 신설, 부당 표시·광고 신고서에 타 기관 중복신고 여부 기재 의무화 등 9월 28일 시행",
       "source": "2026-09-29",
       "source_title": "공정거래위원회 사건절차규칙 개정·시행",
-      "source_url": "https://www.ftc.go.kr/www/selectBbsNttView.do?pageUnit=10&pageIndex=1&searchCnd=all&key=12&bordCd=3&searchCtgry=01,02&nttSn=48056"
+      "source_url": "https://www.ftc.go.kr/www/selectBbsNttView.do?pageUnit=10&pageIndex=1&searchCnd=all&key=12&bordCd=3&searchCtgry=01,02&nttSn=48056",
+      "scope": [
+        "ftc"
+      ],
+      "sk": true,
+      "effective": "2026-09-28"
     },
     {
       "title": "하도급대금 연동제 적용범위 확대(주요 에너지 포함)",
@@ -991,7 +1038,14 @@
       "detail": "하도급법 개정에 따라 연동제 적용범위가 '주요 에너지'까지 확대돼 8월 11일부터 현장 시행. 가이드라인·질의응답서(FAQ) 배포, 102개 공시대상기업집단 대상 9월 21일 설명회 개최",
       "source": "2026-09-21",
       "source_title": "공시대상기업집단 대상 하도급대금 공시제도 및 연동제 설명회 개최",
-      "source_url": "https://www.ftc.go.kr/www/selectBbsNttView.do?pageUnit=10&pageIndex=1&searchCnd=all&key=12&bordCd=3&searchCtgry=01,02&nttSn=48029"
+      "source_url": "https://www.ftc.go.kr/www/selectBbsNttView.do?pageUnit=10&pageIndex=1&searchCnd=all&key=12&bordCd=3&searchCtgry=01,02&nttSn=48029",
+      "scope": [
+        "group",
+        "subcon",
+        "sector"
+      ],
+      "sk": true,
+      "effective": "2026-08-11"
     },
     {
       "title": "축산자조금법 개정안(수급조절 근거 마련)",
@@ -1000,7 +1054,12 @@
       "detail": "송옥주 의원 발의, 자조금으로 수매·비축·생산·출하조절 가능케 하고 농식품부-공정위 사전협의 명문화해 담합 논란 차단",
       "source": "2026-09-16",
       "source_title": "자조금으로 돼지고기 수급조절 길 열리나…'담합 논란'도 막는다",
-      "source_url": "https://www.pigpeople.net/news/article.html?no=19966"
+      "source_url": "https://www.pigpeople.net/news/article.html?no=19966",
+      "scope": [
+        "cartel",
+        "sector"
+      ],
+      "sk": false
     },
     {
       "title": "담합 3진아웃 사업매각명령법(공정거래법 개정안)",
@@ -1009,7 +1068,11 @@
       "detail": "이강일 의원 발의, 과징금 상한 20%→30%(재범 50% 가중), 손해배상 최대 5배, 담합 주도 임원 직무정지·취업제한, 3회 위반 시 사업매각명령. 과징금 상한 30% 상향에 야당도 가세하며 입법 추진에 힘이 실리는 상황이고, 자진신고 감면 축소까지 겹쳐 재계는 법적 예측 가능성 제고를 요구",
       "source": "2026-10-02",
       "source_title": "'담합 과징금 상한 30%' 입법에 야당도 가세…재계 \"예측 가능성 높여야\"",
-      "source_url": "https://www.edaily.co.kr/News/Read?newsId=02099206645608984&mediaCodeNo=257"
+      "source_url": "https://www.edaily.co.kr/News/Read?newsId=02099206645608984&mediaCodeNo=257",
+      "scope": [
+        "cartel"
+      ],
+      "sk": true
     },
     {
       "title": "할부거래 분쟁조정 업무 시장감시국 이관",
@@ -1018,7 +1081,11 @@
       "detail": "선불식 할부거래 통합정보시스템 운영도 시장감시국으로 이관, 분쟁조정 인력 임기제 16명 증원",
       "source": "2026-09-10",
       "source_title": "공정위, 할부거래 분쟁조정 시장감시국으로 이관",
-      "source_url": "https://www.inews24.com/view/2004098"
+      "source_url": "https://www.inews24.com/view/2004098",
+      "scope": [
+        "ftc"
+      ],
+      "sk": false
     },
     {
       "title": "대규모유통업법 대금 지급기한 단축",
@@ -1027,14 +1094,22 @@
       "detail": "개정안 국회 본회의 통과. 특약매입 등 40일→20일, 직매입 60일→35일로 단축(직매입 월정산 시 20일). 공포 후 1년 경과한 날 시행",
       "source": "2026-09-18",
       "source_title": "대규모유통업법 개정안 국회 본회의 통과",
-      "source_url": "https://www.ftc.go.kr/www/selectBbsNttView.do?pageUnit=10&pageIndex=1&searchCnd=all&key=12&bordCd=3&searchCtgry=01,02&nttSn=48026"
+      "source_url": "https://www.ftc.go.kr/www/selectBbsNttView.do?pageUnit=10&pageIndex=1&searchCnd=all&key=12&bordCd=3&searchCtgry=01,02&nttSn=48026",
+      "scope": [
+        "retail"
+      ],
+      "sk": true
     },
     {
       "title": "기업결합 신고요령 개정(애크하이어 기준)",
       "kind": "행정예고",
       "date": "2026-09-09",
       "detail": "핵심인력·기술만 이전받는 '애크하이어'도 영업양수로 판단해 기업결합 신고 대상에 포함, 양수금액·이행행위 기준 정비",
-      "source": "2026-09-09"
+      "source": "2026-09-09",
+      "scope": [
+        "all"
+      ],
+      "sk": true
     },
     {
       "title": "개정 할부거래법(선수금 자료제출요구권·지배주주 신용공여 제한)",
@@ -1043,7 +1118,11 @@
       "detail": "9월 8일 공포. 선수금 납입내역 등 자료제출 요구권은 공포 즉시 발효. 지배주주·특수관계인 신용공여 한도를 자본금 50%로 제한하고 분기별 공시·보고를 의무화하는 자산건전성 규제는 시행 후 1년 준비기간 부여. 공정위는 9월 30일 14개 선불식 할부거래업자 간담회에서 신용공여 회수계획 수립을 요청하고, 준비기간 이후에는 몰라서 위반한 경우까지 직권조사·엄중 조치할 방침 표명. 선불식 할부거래 소비자보호지침 개정안도 함께 설명",
       "source": "2026-10-01",
       "source_title": "선불식 할부거래분야 사업자 간담회 개최",
-      "source_url": "https://www.ftc.go.kr/www/selectBbsNttView.do?pageUnit=10&pageIndex=1&searchCnd=all&key=12&bordCd=3&searchCtgry=01,02&nttSn=48066"
+      "source_url": "https://www.ftc.go.kr/www/selectBbsNttView.do?pageUnit=10&pageIndex=1&searchCnd=all&key=12&bordCd=3&searchCtgry=01,02&nttSn=48066",
+      "scope": [
+        "consumer"
+      ],
+      "sk": true
     },
     {
       "title": "대기업집단 지정자료 허위제출 과징금 상향",
@@ -1052,7 +1131,11 @@
       "detail": "정부·여당, 지정자료 허위제출 시 과징금 상한을 자산·매출액 최대 10%로 상향 추진",
       "source": "2026-09-09",
       "source_title": "대기업 지정자료 허위제출 시 과징금 최대 10% 추진",
-      "source_url": "https://v.daum.net/v/XAZiKdztSW"
+      "source_url": "https://v.daum.net/v/XAZiKdztSW",
+      "scope": [
+        "group"
+      ],
+      "sk": true
     },
     {
       "title": "배달앱 입점업체 단체협상권 도입",
@@ -1061,7 +1144,13 @@
       "detail": "배달앱 입점업체가 수수료·광고비·약관 변경 등을 두고 플랫폼과 단체협상할 수 있도록 하는 방안 추진",
       "source": "2026-09-07",
       "source_title": "공정위, 배달앱 입점업체 단체협상권 추진…'을의 협상력' 강화",
-      "source_url": "https://www.kukinews.com/article/view/kuk202607020137"
+      "source_url": "https://www.kukinews.com/article/view/kuk202607020137",
+      "scope": [
+        "retail",
+        "platform",
+        "consumer"
+      ],
+      "sk": true
     },
     {
       "title": "공시의무 위반 과태료 부과기준 개정",
@@ -1070,14 +1159,22 @@
       "detail": "공시대상기업집단의 공시의무 반복 위반에 대한 과태료 가중 기준 개정안 행정예고",
       "source": "2026-09-07",
       "source_title": "공시의무 위반 과태료 부과 고시 개정안 행정예고",
-      "source_url": "https://www.ftc.go.kr/www/selectBbsNttView.do?pageUnit=10&pageIndex=1&searchCnd=all&key=12&bordCd=3&searchCtgry=01,02&nttSn=47977"
+      "source_url": "https://www.ftc.go.kr/www/selectBbsNttView.do?pageUnit=10&pageIndex=1&searchCnd=all&key=12&bordCd=3&searchCtgry=01,02&nttSn=47977",
+      "scope": [
+        "group"
+      ],
+      "sk": true
     },
     {
       "title": "표시·광고 고시 개정(수익형 부동산·렌탈 표시기준)",
       "kind": "행정예고",
       "date": "2026-09-14",
       "detail": "분양형 상가·오피스텔 등 수익형 부동산 광고에 수익 산출근거 명시 의무화, 렌탈 제품 표시기준도 정비",
-      "source": "2026-09-14"
+      "source": "2026-09-14",
+      "scope": [
+        "consumer"
+      ],
+      "sk": true
     },
     {
       "title": "공정거래법·하도급법 개정안",
@@ -1086,14 +1183,22 @@
       "detail": "공정거래법·하도급법 개정안이 국회 본회의를 통과, 기업의 실무 대응전략 논의 이어짐",
       "source": "2026-09-07",
       "source_title": "공정거래법·하도급법 개정안 국회 통과, 기업 대응전략은",
-      "source_url": "https://www.lawtimes.co.kr/news/articleViewAmp.html?idxno=225965"
+      "source_url": "https://www.lawtimes.co.kr/news/articleViewAmp.html?idxno=225965",
+      "scope": [
+        "subcon"
+      ],
+      "sk": true
     },
     {
       "title": "온라인 리뷰(사용후기) 정보공개 문답서",
       "kind": "시행",
       "date": "2026-09-07",
       "detail": "전자상거래법상 사용후기 작성·평가·삭제 기준 공개 의무 관련 문답서 배포, 미공개 시 과태료 최대 1000만원",
-      "source": "2026-09-07"
+      "source": "2026-09-07",
+      "scope": [
+        "platform"
+      ],
+      "sk": true
     },
     {
       "title": "중점조사기획단 출범(옛 특별조사팀)",
@@ -1102,7 +1207,11 @@
       "detail": "21년 만에 '조사 1·2·3과' 부활. 10월 1일 조직개편으로 중점조사기획단이 출범하고 초대 단장에 최장관 전 기업집단감시국장 임명. 중점조사 1·2·3담당관 체제로 민생 담합·플랫폼 독과점 등 중대 불공정행위 전담, 첫 사건은 민생 분야를 우선 고려할 방침. 플랫폼 독과점·대기업집단 내부거래·민생 담합처럼 여러 법 위반이 얽힌 복합 대형 사건을 맡는 국 단위 조직으로, 2005년 조사국 폐지 이후 21년 만. 기업들은 처분 전 단계부터 행정소송·집행정지로 맞대응하며 힘겨루기 양상",
       "source": "2026-10-04",
       "source_title": "기업은 법원으로, 공정위는 조사국 부활…거세진 힘겨루기",
-      "source_url": "https://www.fnnews.com/news/202610030900576420"
+      "source_url": "https://www.fnnews.com/news/202610030900576420",
+      "scope": [
+        "ftc"
+      ],
+      "sk": false
     },
     {
       "title": "현장조사 거부 기업 고발·관련 법개정",
@@ -1111,7 +1220,11 @@
       "detail": "10월 12일 공정위 국감에서 여야가 쿠팡의 현장조사 거부를 한목소리로 비판하며 국회 차원 공동 대응을 촉구했고, 유동수 정무위원장은 필요시 입법 보완 검토, 주병기 위원장은 조사 불응에 대한 경제적 제재 강화 방침을 밝힘. 쿠팡의 현장조사 거부 사태 재발 방지를 위해 조사 거부 기업 고발 및 뒷받침 법개정 검토, 한화 자료제출명령 법원 제동을 계기로 임의조사 한계 보완 위한 과징금 부과 방안도 검토, 임의조사 한계 지적에 영장제 도입 필요성도 제기됨. 최근 4년간 현장조사 701건 가운데 사전에 조사 사실을 통지한 사례는 단 한 건도 없는 것으로 확인. 공정위는 강제조사 도입에 신중론을 유지하며 현행 현장조사 체계의 기본 틀을 지키는 가운데, 국회에서는 조사 사전통지 규정의 적용 제외 범위를 넓히는 법 개정안이 잇달아 발의됨",
       "source": "2026-10-13",
       "source_title": "쿠팡 공정위 조사 거부에 여야 반발…\"국회 차원 공동 대응\"",
-      "source_url": "https://biz.chosun.com/distribution/channel/2026/10/12/4D22LYYA5JBXDGH5R6EH6KXLVE/"
+      "source_url": "https://biz.chosun.com/distribution/channel/2026/10/12/4D22LYYA5JBXDGH5R6EH6KXLVE/",
+      "scope": [
+        "ftc"
+      ],
+      "sk": true
     },
     {
       "title": "제약사 반복담합 영업정지(약사법 개정)",
@@ -1120,7 +1233,12 @@
       "detail": "당정이 제약사가 담합으로 두 차례 적발되면 영업정지 처분이 내려지도록 약사법 개정을 추진. 영업정지가 사실상 시장 퇴출이라는 점에서 환자 피해 우려도 함께 제기됨. 반복 담합 사업자 시장퇴출 입법(공정거래법·17개 업종 개별법)의 제약 분야 확대",
       "source": "2026-10-06",
       "source_title": "당·정 \"제약사 담합, 두 차례 적발 땐 영업정지\"",
-      "source_url": "https://www.dailymedi.com/news/news_view.php?wr_id=941135"
+      "source_url": "https://www.dailymedi.com/news/news_view.php?wr_id=941135",
+      "scope": [
+        "cartel",
+        "sector"
+      ],
+      "sk": false
     },
     {
       "title": "거짓·과장광고 과징금 상한 상향(표시광고법 개정안)",
@@ -1129,7 +1247,12 @@
       "detail": "소비자를 속이는 거짓·과장 광고에 대한 표시광고법상 과징금 상한을 높이는 법안 발의. 온라인 거래와 디지털 광고로 피해가 빠르게 확산되는 점을 고려해 위반 사업자의 부담을 키우는 취지",
       "source": "2026-10-06",
       "source_title": "[법안돋보기] 거짓 광고 과징금 상한 상향 추진",
-      "source_url": "https://www.womaneconomy.co.kr/news/articleView.html?idxno=259274"
+      "source_url": "https://www.womaneconomy.co.kr/news/articleView.html?idxno=259274",
+      "scope": [
+        "platform",
+        "consumer"
+      ],
+      "sk": true
     },
     {
       "title": "소비자생활협동조합법 하위법령 등 개정안",
@@ -1138,7 +1261,11 @@
       "detail": "특수거래정책과 소관 하위법령 개정안 예고",
       "source": "2026-09-04",
       "source_title": "「소비자생활협동조합법」 하위법령 등 개정안 입법·행정예고",
-      "source_url": "https://www.ftc.go.kr/www/selectBbsNttView.do?pageUnit=10&pageIndex=1&searchCnd=all&key=12&bordCd=3&searchCtgry=01,02&nttSn=47963"
+      "source_url": "https://www.ftc.go.kr/www/selectBbsNttView.do?pageUnit=10&pageIndex=1&searchCnd=all&key=12&bordCd=3&searchCtgry=01,02&nttSn=47963",
+      "scope": [
+        "consumer"
+      ],
+      "sk": true
     },
     {
       "title": "공정거래법 시행령 개정안",
@@ -1147,7 +1274,12 @@
       "detail": "9월 1일까지 행정예고 진행",
       "source": "2026-08-07",
       "source_title": "공정위, 공정거래법 시행령 개정안 행정예고…9월 1일까지",
-      "source_url": "https://www.lawtimes.co.kr/news/articleViewAmp.html?idxno=224468"
+      "source_url": "https://www.lawtimes.co.kr/news/articleViewAmp.html?idxno=224468",
+      "scope": [
+        "all"
+      ],
+      "sk": true,
+      "deadline": "2026-09-01"
     },
     {
       "title": "기업집단 지정자료 제출의무 위반 고발지침 개정안",
@@ -1156,7 +1288,11 @@
       "detail": "지정자료 허위제출에 대한 고발 기준 정비",
       "source": "2026-08-07",
       "source_title": "기업집단 지정자료 제출의무 위반 관련 고발지침 개정안 행정예고",
-      "source_url": "https://www.ftc.go.kr/www/selectBbsNttView.do?pageUnit=10&pageIndex=1&searchCnd=all&key=12&bordCd=3&searchCtgry=01,02&nttSn=47865"
+      "source_url": "https://www.ftc.go.kr/www/selectBbsNttView.do?pageUnit=10&pageIndex=1&searchCnd=all&key=12&bordCd=3&searchCtgry=01,02&nttSn=47865",
+      "scope": [
+        "ftc"
+      ],
+      "sk": true
     },
     {
       "title": "하도급·가맹·대리점 과징금 고시 개정",
@@ -1165,14 +1301,26 @@
       "detail": "과징금 상한 최대 13억원까지 상향, 8월 4일자 시행",
       "source": "2026-08-27",
       "source_title": "공정위, 하도급·가맹·대리점 과징금 고시 개정안 8월 4일자 시행",
-      "source_url": "https://www.lawtimes.co.kr/news/articleViewAmp.html?idxno=225235"
+      "source_url": "https://www.lawtimes.co.kr/news/articleViewAmp.html?idxno=225235",
+      "scope": [
+        "subcon",
+        "franchise"
+      ],
+      "sk": true,
+      "effective": "2026-08-04"
     },
     {
       "title": "가맹점주 협상력 강화 가맹사업법 시행령·고시",
       "kind": "입법·행정예고",
       "date": "2026-08-03",
       "detail": "가맹점사업자단체 등록 하한 완화 검토 중, 위원장이 점주·본부 각각 간담회로 의견 청취. 의견제출 9월 14일까지, 개정법은 12월 31일 시행",
-      "source": "2026-09-11"
+      "source": "2026-09-11",
+      "scope": [
+        "franchise"
+      ],
+      "sk": false,
+      "deadline": "2026-09-14",
+      "effective": "2026-12-31"
     },
     {
       "title": "하도급대금 지급보증의무 확대",
@@ -1181,7 +1329,11 @@
       "detail": "하도급대금 지급보증의무 확대 시행, 수급사업자 정보요청권 도입·전자대금지급시스템 의무화 단계적 확대 추진",
       "source": "2026-09-11",
       "source_title": "공정거래위원회-한국하도급법학회, 공동 학술대회 개최",
-      "source_url": "https://www.ftc.go.kr/www/selectBbsNttView.do?pageUnit=10&pageIndex=1&searchCnd=all&key=12&bordCd=3&searchCtgry=01,02&nttSn=48000"
+      "source_url": "https://www.ftc.go.kr/www/selectBbsNttView.do?pageUnit=10&pageIndex=1&searchCnd=all&key=12&bordCd=3&searchCtgry=01,02&nttSn=48000",
+      "scope": [
+        "subcon"
+      ],
+      "sk": true
     },
     {
       "title": "요가·필라테스 표준약관 제정",
@@ -1190,14 +1342,22 @@
       "detail": "휴폐업 14일 전 사전통지 의무화, 환급 기준 명확화",
       "source": "2026-07-20",
       "source_title": "요가·필라테스 표준약관 첫 제정…휴폐업 14일 전 통지 의무화",
-      "source_url": "https://www.news1.kr/amp/economy/trend/6232462"
+      "source_url": "https://www.news1.kr/amp/economy/trend/6232462",
+      "scope": [
+        "consumer"
+      ],
+      "sk": true
     },
     {
       "title": "전자상거래법 시행령·시행규칙 및 과징금 고시 개정",
       "kind": "시행",
       "date": "2026-07-14",
       "detail": "반복 위반 시 과징금 최대 100% 가중, 해외 플랫폼 국내 대리인 지정 의무화",
-      "source": "2026-07-14"
+      "source": "2026-07-14",
+      "scope": [
+        "platform"
+      ],
+      "sk": true
     },
     {
       "title": "갑을3법·표시광고법 조사·처분권 지방 이양",
@@ -1206,7 +1366,11 @@
       "detail": "하도급·가맹·대리점 및 표시광고법 사건 조사·처분권을 16개 광역 시도에 부여",
       "source": "2026-08-07",
       "source_title": "공정위, 16개 광역 시도에 갑을3법·표시광고법 조사·처분권 부여",
-      "source_url": "https://www.chosun.com/economy/economy_general/2026/08/04/PTWYLS5MKNFOLH3WCVYN3ZFBSI/"
+      "source_url": "https://www.chosun.com/economy/economy_general/2026/08/04/PTWYLS5MKNFOLH3WCVYN3ZFBSI/",
+      "scope": [
+        "ftc"
+      ],
+      "sk": true
     },
     {
       "title": "리니언시(자진신고 감면) 제도 개편",
@@ -1219,7 +1383,12 @@
       "next": {
         "date": "2026-11-02",
         "what": "공정거래법 시행령 개정안 입법예고 마감"
-      }
+      },
+      "scope": [
+        "cartel"
+      ],
+      "sk": true,
+      "deadline": "2026-11-02"
     },
     {
       "title": "메가특구 특별법 반도체 지주회사 증손회사 지분규제 완화",
@@ -1228,7 +1397,12 @@
       "detail": "반도체 업종에 한정해 지주회사의 증손회사 지분율 의무 보유 규제를 50%로 완화하는 특례, 정부·여당이 연내 제정 목표로 추진 중인 '메가특구 특별법'에 포함 검토",
       "source": "2026-09-24",
       "source_title": "메가특구법, 반도체 지주회사 증손회사 지분 50% 허용 가닥",
-      "source_url": "https://www.hani.co.kr/arti/economy/marketing/1279316.html"
+      "source_url": "https://www.hani.co.kr/arti/economy/marketing/1279316.html",
+      "scope": [
+        "group",
+        "sector"
+      ],
+      "sk": true
     },
     {
       "title": "과징금 부과체계 전면 개편",
@@ -1237,7 +1411,11 @@
       "detail": "기업 규모가 클수록 과징금을 무겁게 부과하는 방향, 이행강제금 제도도 함께 손질",
       "source": "2026-07-30",
       "source_title": "공정위, 대기업일수록 과징금 더 무겁게…부과체계 전면 개편 추진",
-      "source_url": "https://www.yna.co.kr/view/AKR20260728069400002"
+      "source_url": "https://www.yna.co.kr/view/AKR20260728069400002",
+      "scope": [
+        "all"
+      ],
+      "sk": true
     },
     {
       "title": "사익편취·중복상장 규제 기준 정비",
@@ -1246,7 +1424,11 @@
       "detail": "사익편취 지분율 산정 시 자사주 제외, 신규 상장 의무지분율 50%로 상향, 탈법행위 과징금 신설. 국감에서 자사주를 빼고 지분율을 계산하면 LS·효성 등 8개 대기업집단 계열사 25곳이 새로 규제 대상에 들어간다는 자료가 공개됐고, 주병기 위원장은 자사주가 규제 회피 수단으로 악용되는 것은 사실이라며 법 개정 필요성을 밝힘",
       "source": "2026-10-13",
       "source_title": "자사주 빼면 사익편취 규제 대상 25곳 늘어…주병기 \"법 개정 필요\"",
-      "source_url": "https://www.inews24.com/v/2013884"
+      "source_url": "https://www.inews24.com/v/2013884",
+      "scope": [
+        "group"
+      ],
+      "sk": true
     },
     {
       "title": "대기업 상표권(브랜드) 사용료 가이드라인 제정",
@@ -1255,7 +1437,11 @@
       "detail": "주병기 위원장이 국감에서 대기업 계열사 간 상표권 사용료의 적정 수준을 판단할 가이드라인을 마련 중이라고 밝힘. 한화·CJ 상표권 사용료 조사로 불거진 적정 브랜드값 기준 논란의 후속 조치",
       "source": "2026-10-13",
       "source_title": "주병기 \"대기업 브랜드 사용료 가이드라인 마련 중\"",
-      "source_url": "https://www.newspim.com/news/view/20261012000690"
+      "source_url": "https://www.newspim.com/news/view/20261012000690",
+      "scope": [
+        "group"
+      ],
+      "sk": true
     },
     {
       "title": "정유 담합 조사결과의 최고가격제 손실보전액 검증 활용",
@@ -1264,7 +1450,12 @@
       "detail": "주병기 위원장이 정유사 석유제품 가격담합 조사 결과를 정부 최고가격제 손실보전액 검증에 활용할 수 있도록 관계부처와 협의하겠다고 국감에서 밝힘",
       "source": "2026-10-13",
       "source_title": "주병기 \"정유사 담합 조사결과, 최고가 손실보전액 검증에 활용 협의\"",
-      "source_url": "https://www.fnnews.com/news/202610121823168419"
+      "source_url": "https://www.fnnews.com/news/202610121823168419",
+      "scope": [
+        "cartel",
+        "sector"
+      ],
+      "sk": true
     },
     {
       "title": "담합 신고 포상금 상한 폐지",
@@ -1273,7 +1464,11 @@
       "detail": "증거 수준·조사 기여도에 따라 상한 없이 지급하는 방안 논의",
       "source": "2026-07-20",
       "source_title": "담합 신고 포상금 상한 폐지 검토…수천억원 지급 가능성",
-      "source_url": "https://www.sankyungtoday.com/news/articleView.html?idxno=62084"
+      "source_url": "https://www.sankyungtoday.com/news/articleView.html?idxno=62084",
+      "scope": [
+        "ftc"
+      ],
+      "sk": false
     },
     {
       "title": "공정위책임강화법(공정거래법 개정안)",
@@ -1282,7 +1477,11 @@
       "detail": "법원에서 취소된 공정위 처분에 대한 사후 재검토 의무화",
       "source": "2026-07-21",
       "source_title": "박상웅 의원, 공정위 처분 사후 재검토 의무화하는 '공정위책임강화법' 발의",
-      "source_url": "https://www.jeonguknews.co.kr/news/articleView.html?idxno=85840"
+      "source_url": "https://www.jeonguknews.co.kr/news/articleView.html?idxno=85840",
+      "scope": [
+        "ftc"
+      ],
+      "sk": true
     },
     {
       "title": "입찰담합 반복사업자 입찰참가자격 제한요청 지침 개정",
@@ -1295,7 +1494,13 @@
       "next": {
         "date": "2027-01-01",
         "what": "지침 개정안 시행"
-      }
+      },
+      "scope": [
+        "cartel"
+      ],
+      "sk": true,
+      "deadline": "2026-10-12",
+      "effective": "2027-01-01"
     },
     {
       "title": "방산 반복담합 사업자 등록·허가취소 등 제재 강화",
@@ -1304,7 +1509,12 @@
       "detail": "방산시장 신규 사업자 진입 촉진과 함께 반복담합 사업자엔 등록·허가취소, 영업정지 등 시장퇴출 방안을 관계부처와 협의 중",
       "source": "2026-09-22",
       "source_title": "공정위, 방산 경쟁촉진·반복담합 제재 강화 추진",
-      "source_url": "https://www.safetimes.co.kr/news/articleView.html?idxno=245921"
+      "source_url": "https://www.safetimes.co.kr/news/articleView.html?idxno=245921",
+      "scope": [
+        "cartel",
+        "sector"
+      ],
+      "sk": false
     },
     {
       "title": "경제분석국 신설·확대",
@@ -1313,7 +1523,11 @@
       "detail": "10월 1일 조직개편으로 경제분석국을 신설해 산업경제분석과·계량경제분석과·시장분석팀 체제로 편성, 초대 국장에 김문식 전 기획조정관 보임. 담합 이전 경쟁가격 회복 여부 사후검증과 대형 기업결합 심사 분석을 담당",
       "source": "2026-10-01",
       "source_title": "2026-10-01 위원회 소식",
-      "source_url": "https://www.ftc.go.kr/www/selectBbsNttView.do?pageUnit=10&pageIndex=1&searchCnd=all&key=15&bordCd=5&nttSn=48071"
+      "source_url": "https://www.ftc.go.kr/www/selectBbsNttView.do?pageUnit=10&pageIndex=1&searchCnd=all&key=15&bordCd=5&nttSn=48071",
+      "scope": [
+        "ftc"
+      ],
+      "sk": false
     }
   ]
 }
