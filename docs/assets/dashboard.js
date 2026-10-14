@@ -156,6 +156,7 @@ function caseHTML(c, showStage = false, today = todayKST()) {
       <span>${esc(c.last_move)}</span>
     </div>
     ${nextHTML(c, today)}
+    ${c.sk_note ? `<div class="sk-note"><b class="sk-red">SK</b> 시사점 — ${esc(c.sk_note)}</div>` : ""}
     <div class="case-src">${sourceHTML(c)}</div>
   </li>`;
 }
