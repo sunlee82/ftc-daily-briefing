@@ -5,7 +5,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>지난 인사이트 — 공정위 동향</title>
   <meta name="robots" content="noindex, nofollow" />
-  <link rel="stylesheet" href="assets/styles.css?v=20261014d" />
+  <link rel="stylesheet" href="assets/styles.css?v=20261014e" />
 </head>
 <body>
   <div class="wrap">
@@ -31,7 +31,8 @@
       el.innerHTML = list.slice().reverse().map((n) => `<article class="ih">
         <div class="ih-date">${esc(n.date)} ${wd(n.date)}<small>${(n.threads || []).map(esc).join(" · ")}</small></div>
         <p>${rich(n.focus)}</p>
-        <ul>${(n.watch || []).map((w) => `<li>${rich(w)}</li>`).join("")}</ul>
+        ${(n.tags || []).length ? `<p>${n.tags.map((t) => `<span class="ins-tag ${esc(t.dir || "flat")}">${({up:"▲",down:"▼"})[t.dir] || "●"} ${esc(t.t)}</span>`).join(" ")}</p>` : ""}
+        <ul>${(n.watch || []).map((w) => typeof w === "string" ? `<li>${rich(w)}</li>` : `<li><strong class="kw">${esc(w.label)}</strong> — ${esc(w.action)}${w.why ? ` <small>(${esc(w.why)})</small>` : ""}</li>`).join("")}</ul>
         ${n.change ? `<p class="ih-change">${rich(n.change)}</p>` : ""}
         <div class="ih-basis">근거 브리핑: ${(n.basis || []).map((b) => `<a href="briefing.html?date=${encodeURIComponent(b)}">${esc(b)}</a>`).join("")}</div>
       </article>`).join("");

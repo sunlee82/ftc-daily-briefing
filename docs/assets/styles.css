@@ -625,23 +625,47 @@ header.site p a { color: inherit; text-decoration: underline; text-underline-off
 .wk-sub { display: block; margin-top: 3px; font-size: 0.86rem; color: var(--muted); }
 .wk-sub em { font-style: normal; color: var(--muted); opacity: 0.8; margin-left: 4px; }
 
-/* --- 오늘의 인사이트 (파란 카드 안, 2026-10) --- */
-header.site .insight { margin: 4px 0 10px; }
+/* --- 오늘의 인사이트 (파란 카드 안, 2026-10) ---
+   파란 바탕 위에 흰 패널을 띄워 글자가 묻히지 않게 하고, 흐름·점검 항목에 색을 준다. */
+header.site .insight { margin: 2px 0 12px; }
 header.site .insight[hidden], header.site #intro[hidden] { display: none; }
-.ins-head { display: flex; align-items: center; gap: 10px; margin-bottom: 8px; }
-.ins-label { font-size: 0.74rem; font-weight: 800; letter-spacing: 0.04em; padding: 2px 9px; border-radius: var(--radius-full); background: rgba(255,255,255,0.18); color: #fff; }
-.ins-date { font-size: 0.8rem; color: rgba(255,255,255,0.75); }
-header.site .ins-focus { margin: 0 0 10px; font-size: 1rem; line-height: 1.6; color: #fff; }
-header.site .ins-focus strong { color: #fff; font-weight: 800; text-decoration: underline; text-decoration-color: rgba(255,255,255,0.45); text-underline-offset: 3px; }
-.ins-watch-label { font-size: 0.8rem; font-weight: 800; color: rgba(255,255,255,0.85); margin-bottom: 4px; }
-.ins-watch-label b { color: #fff; }
-.ins-watch { margin: 0 0 8px; padding: 0; list-style: none; display: grid; gap: 6px; }
-.ins-watch li { position: relative; padding: 7px 10px 7px 26px; font-size: 0.92rem; line-height: 1.55; color: #fff; background: rgba(255,255,255,0.12); border-radius: 10px; }
-.ins-watch li::before { content: "✓"; position: absolute; left: 10px; top: 7px; font-weight: 800; color: #fff; }
-.ins-watch li strong { color: #fff; font-weight: 800; }
-header.site .ins-change { margin: 0 0 6px; font-size: 0.84rem; color: rgba(255,255,255,0.78); }
-header.site .ins-change strong { color: #fff; }
-.ins-more { font-size: 0.84rem; font-weight: 700; color: #fff; text-decoration: underline; text-underline-offset: 3px; }
+.ins-panel { background: #fff; color: #171a21; border-radius: 16px; padding: 14px 16px 12px; box-shadow: 0 8px 20px rgba(0,0,0,0.12); }
+@media (prefers-color-scheme: dark) { .ins-panel { background: #191c24; color: #eef0f5; } }
+.ins-head { display: flex; align-items: center; gap: 10px; margin-bottom: 10px; flex-wrap: wrap; }
+.ins-label { font-size: 0.74rem; font-weight: 800; letter-spacing: 0.04em; padding: 2px 9px; border-radius: var(--radius-full); background: var(--accent); color: #fff; }
+.ins-date { font-size: 0.8rem; color: var(--muted); }
+.ins-more { margin-left: auto; font-size: 0.8rem; font-weight: 700; color: var(--accent); text-decoration: none; }
+.ins-more:hover { text-decoration: underline; }
+.ins-tags { display: flex; flex-wrap: wrap; align-items: center; gap: 6px; margin-bottom: 12px; }
+.ins-now { font-size: 0.88rem; font-weight: 800; color: var(--text); margin-right: 2px; }
+.ins-tag { font-size: 0.88rem; font-weight: 800; padding: 4px 11px; border-radius: var(--radius-full); white-space: nowrap; }
+.ins-tag.up { color: #b42318; background: #fde8e6; }
+.ins-tag.flat { color: #1d4ed8; background: #e8f0ff; }
+.ins-tag.down { color: #6b7280; background: #eef0f4; text-decoration: line-through; text-decoration-thickness: 1px; }
+@media (prefers-color-scheme: dark) {
+  .ins-tag.up { color: #ff8a80; background: #3a1512; }
+  .ins-tag.flat { color: #7aa4ff; background: #1e2740; }
+  .ins-tag.down { color: #9aa1b2; background: #2a2e3a; }
+}
+header.site .ins-focus { margin: 0 0 10px; font-size: 0.95rem; line-height: 1.55; color: var(--text); }
+header.site .ins-focus strong { color: var(--accent); font-weight: 800; }
+.ins-watch-label { font-size: 0.78rem; font-weight: 800; color: var(--muted); margin-bottom: 6px; letter-spacing: 0.02em; }
+.ins-watch { margin: 0; padding: 0; list-style: none; display: grid; gap: 6px; }
+.ins-watch li { display: grid; grid-template-columns: auto 1fr; column-gap: 10px; align-items: baseline; padding: 8px 10px 8px 12px; border-radius: 10px; border-left: 4px solid; font-size: 0.9rem; line-height: 1.45; }
+.ins-watch li.w1 { border-color: #ea002c; background: #fff1f3; }
+.ins-watch li.w2 { border-color: #d97706; background: #fff7e8; }
+.ins-watch li.w3 { border-color: #7c3aed; background: #f3eeff; }
+@media (prefers-color-scheme: dark) {
+  .ins-watch li.w1 { background: #2b1216; } .ins-watch li.w2 { background: #2b2010; } .ins-watch li.w3 { background: #221a33; }
+}
+.ins-wl { font-weight: 800; color: var(--text); white-space: nowrap; }
+.ins-wa { color: var(--text); }
+.ins-ww { grid-column: 2; font-size: 0.78rem; color: var(--muted); }
+@media (max-width: 600px) {
+  .ins-watch li { grid-template-columns: 1fr; row-gap: 2px; }
+  .ins-wl { white-space: normal; }
+  .ins-ww { grid-column: 1; }
+}
 
 /* --- 지난 인사이트 페이지 --- */
 .ih { background: var(--surface); border: 1px solid var(--border); border-radius: var(--radius); padding: 16px 18px; margin-bottom: 14px; box-shadow: var(--shadow); }

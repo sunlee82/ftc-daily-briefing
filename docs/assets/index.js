@@ -253,6 +253,7 @@ load();
 // ── 오늘의 인사이트 ────────────────────────────────────────────────────
 // 배포 단계가 매일 insights-daily.json에 한 원소를 덧붙인다(공정위가 집중하는 것 + SK 점검 과제).
 // 파란 카드에는 마지막 원소만 보여주고, 지난 것은 insights.html에서 본다.
+function plainI(s) { return String(s || "").replace(/\*\*(.+?)\*\*/g, "$1"); }
 function richI(s) {
   return esc(s).replace(/\*\*(.+?)\*\*/g, "<strong>$1</strong>");
 }
@@ -267,14 +268,25 @@ async function loadInsight() {
     if (!Array.isArray(list) || !list.length) return;
     const n = list[list.length - 1];
     const stale = (Date.parse(todayKST()) - Date.parse(n.date)) / 86400000 > 3;
+    const DIR = { up: ["▲", "up"], down: ["▼", "down"], flat: ["●", "flat"] };
+    const tags = (n.tags || []).map((t) => {
+      const [sym, cls] = DIR[t.dir] || DIR.flat;
+      return `<span class="ins-tag ${cls}">${sym} ${esc(t.t)}</span>`;
+    }).join("");
+    const watch = (n.watch || []).map((w, i) => {
+      // 옛 형식(문자열 "제목 — 설명")도 받는다
+      const o = typeof w === "string" ? { label: w.split(" — ")[0], action: w.split(" — ").slice(1).join(" — ") } : w;
+      return `<li class="w${i + 1}"><span class="ins-wl">${esc(plainI(o.label))}</span><span class="ins-wa">${esc(plainI(o.action))}</span>${o.why ? `<span class="ins-ww">${esc(o.why)}</span>` : ""}</li>`;
+    }).join("");
     box.innerHTML = `
-      <div class="ins-head"><span class="ins-label">오늘의 인사이트</span>
-        <span class="ins-date">${esc(n.date)} ${weekdayOf(n.date)}${stale ? " · 최근 인사이트" : ""}</span></div>
-      <p class="ins-focus">${richI(n.focus)}</p>
-      <div class="ins-watch-label"><b>SK</b> 점검·대비</div>
-      <ul class="ins-watch">${(n.watch || []).map((w) => `<li>${richI(w)}</li>`).join("")}</ul>
-      ${n.change ? `<p class="ins-change">${richI(n.change)}</p>` : ""}
-      <a class="ins-more" href="insights.html">지난 인사이트 보기 →</a>`;
+      <div class="ins-panel">
+        <div class="ins-head"><span class="ins-label">오늘의 인사이트</span>
+          <span class="ins-date">${esc(n.date)} ${weekdayOf(n.date)}${stale ? " · 최근" : ""}</span>
+          <a class="ins-more" href="insights.html">지난 인사이트 →</a></div>
+        ${tags ? `<div class="ins-tags"><span class="ins-now">지금 공정위는</span>${tags}</div>` : `<p class="ins-focus">${richI(n.focus)}</p>`}
+        <div class="ins-watch-label"><b class="sk-red">SK</b> 점검·대비</div>
+        <ul class="ins-watch">${watch}</ul>
+      </div>`;
     box.hidden = false;
     if (intro) intro.hidden = true;
   } catch (_) {
