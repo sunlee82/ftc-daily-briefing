@@ -19,7 +19,11 @@
       "headline": "공정위, 우버-DH(배민) 기업결합 사전 심사 개시",
       "summary": "우버가 배민 모회사 DH 인수를 위해 공정위에 기업결합 사전심사를 신청했다.\n- 우버, DH 지분 전부 공개매수로 배달의민족 경영권 인수 추진\n- 우버택시(택시호출)와 배민(배달) 간 혼합결합, 멤버십·광고 연계 가능성 검토\n- **2026년 11월** 인수청약 완료 → 각국 승인 거쳐 **2027년 하반기** 주식취득 완료 예정\n- 공정위, 택시·배달앱 시장 경쟁구조·입점업체 영향 등 종합 심사 예정",
       "source_url": "https://www.ftc.go.kr/www/selectBbsNttView.do?pageUnit=10&pageIndex=1&searchCnd=all&key=12&bordCd=3&searchCtgry=01,02&nttSn=48040",
-      "published_at": "2026-09-22"
+      "published_at": "2026-09-22",
+      "topics": [
+        "platform",
+        "merger"
+      ]
     },
     {
       "category": "committee",
@@ -27,7 +31,10 @@
       "headline": "2026-09-23 위원회 소식",
       "summary": "##[인사발령]##\n· **이형준** 행정주사보(감사담당관실) - 시보에서 정규 임용\n· **민기환** 행정주사보(심판관리관실 송무담당관실) - 시보에서 정규 임용\n· **조정윤** 행정주사보(기획조정관실 혁신행정법무담당관실) - 시보에서 정규 임용\n· **이재호** 행정주사보(경쟁정책국 경쟁정책과) - 시보에서 정규 임용\n· **박소정** 행정주사보(경쟁정책국 국제협력과) - 시보에서 정규 임용\n· **한윤종** 행정주사보(기업협력정책관실 기업집단결합정책과) - 시보에서 정규 임용\n· **김도윤** 행정주사보(기업협력정책관실 가맹거래정책과) - 시보에서 정규 임용\n· **김형준** 행정주사보(소비자정책국 소비자정책총괄과) - 시보에서 정규 임용\n· **서도현** 행정주사보(소비자정책국 특수거래정책과) - 시보에서 정규 임용\n· **김진관** 행정주사보(조사관리관실 디지털포렌식담당관실) - 시보에서 정규 임용\n· **안재진** 행정주사보(시장감시국 표시광고감시팀) - 시보에서 정규 임용\n· **김이진** 행정주사보(카르텔조사국 입찰담합조사과) - 시보에서 정규 임용\n· **이동수** 행정주사보(카르텔조사국 서비스카르텔조사과) - 시보에서 정규 임용\n· **손호성** 행정주사보(기업거래결합심사국 기술유용조사과) - 시보에서 정규 임용\n· **임지민·박현창** 행정주사보(가맹유통심의관실 유통거래조사과) - 시보에서 정규 임용",
       "source_url": "https://www.ftc.go.kr/www/selectBbsNttView.do?pageUnit=10&pageIndex=1&searchCnd=all&key=15&bordCd=5&nttSn=48042",
-      "published_at": "2026-09-22"
+      "published_at": "2026-09-22",
+      "topics": [
+        "institution"
+      ]
     },
     {
       "category": "news",
@@ -35,7 +42,11 @@
       "headline": "조사 거부 쿠팡, 美 상공회의소 부소장 영입",
       "summary": "무역협상에도 관여했던 美 상공회의소 고위 인사 영입.\n대미 로비 강화 행보로 해석.",
       "source_url": "https://biz.sbs.co.kr/article/20000336194",
-      "published_at": "21시간 전"
+      "published_at": "21시간 전",
+      "topics": [
+        "platform",
+        "institution"
+      ]
     },
     {
       "category": "news",
@@ -43,7 +54,10 @@
       "headline": "SK하이닉스, 하도급대금 어음결제 논란",
       "summary": "하도급업체 결제기한 **80일** 넘어 자금난 호소.\nSK는 **10월부터 현금 전환** 방침 발표.",
       "source_url": "https://www.kmecnews.co.kr/news/articleView.html?idxno=51961",
-      "published_at": "3시간 전"
+      "published_at": "3시간 전",
+      "topics": [
+        "subcon"
+      ]
     },
     {
       "category": "news",
@@ -51,7 +65,10 @@
       "headline": "21년 만에 '조사 1·2·3과' 부활…중점조사기획단 내달 출범",
       "summary": "**21년 만에** '조사 1·2·3과' 명칭 부활, **10월** 중점조사기획단 출범.\n경제분석국(**37명**)은 담합 사후검증·네이버·두나무 기업결합 심의 등 담당.",
       "source_url": "https://www.khan.co.kr/article/202609230600111",
-      "published_at": "3시간 전"
+      "published_at": "3시간 전",
+      "topics": [
+        "institution"
+      ]
     },
     {
       "category": "news",
@@ -59,7 +76,11 @@
       "headline": "CJ제일제당·삼양사·롯데칠성, 국감 증인 채택…담합 질의",
       "summary": "설탕 가격·물량 담합 피해 관련 국정감사 증인 채택.\nCJ제일제당·삼양사 경영진 출석해 담합 질의 받을 예정.",
       "source_url": "https://zdnet.co.kr/view/?no=20260922145303",
-      "published_at": "18시간 전"
+      "published_at": "18시간 전",
+      "topics": [
+        "cartel",
+        "institution"
+      ]
     },
     {
       "category": "news",
@@ -67,7 +88,11 @@
       "headline": "국내 앱개발사·시민단체 24곳, 공정위에 구글 GVP 재조사 요청",
       "summary": "구글이 **2023년** 시정명령 이후에도 우회 방식으로 경쟁제한 반복했다는 의혹.\n실효적 재조사와 우회방지 시정명령 공식 요청.",
       "source_url": "https://ccej.or.kr/posts/lat5O57",
-      "published_at": "21시간 전"
+      "published_at": "21시간 전",
+      "topics": [
+        "platform",
+        "enforce"
+      ]
     },
     {
       "category": "news",
@@ -75,7 +100,11 @@
       "headline": "\"공정거래 형벌 범위 좁히고 수사경로 명확히 해야\"",
       "summary": "거래상 지위남용은 비범죄화, 담합·부당지원은 엄정 대응 주장.\n공정위 의결 중심 수사체계 재편, 리니언시 보호 강화 제안.",
       "source_url": "https://www.mk.co.kr/news/society/12159264",
-      "published_at": "19시간 전"
+      "published_at": "19시간 전",
+      "topics": [
+        "institution",
+        "cartel"
+      ]
     },
     {
       "category": "news",
@@ -83,7 +112,11 @@
       "headline": "공정위 담합 제재 잇단 제동…설탕도 집행정지",
       "summary": "법원, 제지·밀가루에 이어 설탕 담합 과징금 처분도 집행정지 인용.\n공정위 담합 제재에 잇단 제동.",
       "source_url": "https://www.g-enews.com/article/Distribution/2026/09/202609221043537907740eacf404_1",
-      "published_at": "22시간 전"
+      "published_at": "22시간 전",
+      "topics": [
+        "enforce",
+        "cartel"
+      ]
     },
     {
       "category": "news",
@@ -91,7 +124,11 @@
       "headline": "서울고법, 계란값 담합 처분 집행정지…가격정보 제공 재개",
       "summary": "법원, 계란값 담합 가격정보 금지명령 **조건부 집행정지** 인용.\n산지가격 공개 재개, 과징금 효력도 함께 정지.",
       "source_url": "https://www.chuksannews.co.kr/news/article.html?no=273736",
-      "published_at": "22시간 전"
+      "published_at": "22시간 전",
+      "topics": [
+        "enforce",
+        "cartel"
+      ]
     },
     {
       "category": "news",
@@ -99,7 +136,10 @@
       "headline": "공정위 조사 담당 퇴직자들, 대형로펌 재취업 잇따라",
       "summary": "국회 정무위 전현희 의원, 퇴직자들의 대형로펌 재취업 실태 지적.\n이해충돌 우려 제기.",
       "source_url": "https://www.mt.co.kr/amp/politics/2026/09/23/2026092215383679325",
-      "published_at": "3시간 전"
+      "published_at": "3시간 전",
+      "topics": [
+        "institution"
+      ]
     },
     {
       "category": "news",
@@ -107,7 +147,10 @@
       "headline": "[분석] 주병기 공정위 1년…과징금은 세졌는데 시장은 공정해졌나",
       "summary": "취임 1년간 설탕·밀가루·인쇄용지 등 대형 담합 사건 잇달아 처리.\n과징금 강화에도 시장 공정성 개선 여부는 논쟁적.",
       "source_url": "https://www.polinews.co.kr/news/articleView.html?idxno=743843",
-      "published_at": "18시간 전"
+      "published_at": "18시간 전",
+      "topics": [
+        "enforce"
+      ]
     },
     {
       "category": "news",
@@ -115,7 +158,10 @@
       "headline": "공정위 심사보고서 공개로 '여론재판' 논란",
       "summary": "최종 판단 전 심사보고서(검찰 공소장격) 송부 사실 공개 사례 증가.\n기업 낙인효과·여론재판 우려 제기.",
       "source_url": "https://biz.newdaily.co.kr/site/data/html/2026/09/22/2026092200091.amp.html",
-      "published_at": "22시간 전"
+      "published_at": "22시간 전",
+      "topics": [
+        "institution"
+      ]
     }
   ],
   "generated_at": "2026-09-22T23:51:53.000Z"

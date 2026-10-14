@@ -19,7 +19,10 @@
       "headline": "2026-09-16 위원회 소식",
       "summary": "##[주요일정]##\n· **위원장**: 포담 국제 반독점 컨퍼런스 참석 등 (미국)\n· **부위원장**: 10:00 정무위 법안 2소위 (국회)",
       "source_url": "https://www.ftc.go.kr/www/selectBbsNttView.do?pageUnit=10&pageIndex=1&searchCnd=all&key=15&bordCd=5&nttSn=48019",
-      "published_at": "2026-09-15"
+      "published_at": "2026-09-15",
+      "topics": [
+        "institution"
+      ]
     },
     {
       "category": "news",
@@ -29,7 +32,11 @@
       "headline": "LTV 담합 법정공방에 ELS 과징금까지…은행권 '이중고'",
       "summary": "금융위, 홍콩H지수 **ELS** 불완전판매 과징금 수위 막판 검토.\n은행권은 공정위 **LTV** 정보교환 담합 제재에 불복해 소송 중.",
       "source_url": "https://www.kukinews.com/article/view/kuk202609150222",
-      "published_at": "3시간 전"
+      "published_at": "3시간 전",
+      "topics": [
+        "enforce",
+        "cartel"
+      ]
     },
     {
       "category": "news",
@@ -39,7 +46,10 @@
       "headline": "국감 앞두고 공정위, 유통·식품업계 현장조사 주기 단축",
       "summary": "대통령 물가 발언 뒤 공정위 현장조사·국세청 세무조사 반복.\n올해만 현장조사 **9차례**, 대상기업 **16개사**로 늘어.",
       "source_url": "https://www.dnews.co.kr/uhtml/view.jsp?idxno=202609151143527860092",
-      "published_at": "3시간 전"
+      "published_at": "3시간 전",
+      "topics": [
+        "institution"
+      ]
     },
     {
       "category": "news",
@@ -49,7 +59,8 @@
       "headline": "공정위 \"가상자산거래소 지분 제한, 공정거래법과 충돌로 볼 수 없어\"",
       "summary": "박민규 의원실 요청으로 국회입법조사처가 **15일** 공개한 내용.\n가상자산거래소 지분제한 관련 공정위의 공식 서면 입장.",
       "source_url": "https://www.digitalasset.works/news/articleView.html?idxno=43027",
-      "published_at": "15시간 전"
+      "published_at": "15시간 전",
+      "topics": []
     },
     {
       "category": "news",
@@ -59,7 +70,10 @@
       "headline": "자조금으로 돼지고기 수급조절 길 열리나…'담합 논란'도 막는다",
       "summary": "송옥주 의원, **축산자조금법 개정안** 발의해 수매·비축 근거 마련.\n생산자단체 담합 논란 막게 농식품부·공정위 사전협의 명문화.",
       "source_url": "https://www.pigpeople.net/news/article.html?no=19966",
-      "published_at": "13시간 전"
+      "published_at": "13시간 전",
+      "topics": [
+        "cartel"
+      ]
     },
     {
       "category": "news",
@@ -69,7 +83,10 @@
       "headline": "20년 만에 부활한 '가격재결정명령', 법원서 잇따라 제동",
       "summary": "인쇄용지·밀가루 담합 사건 두 건에 적용된 조치.\n담합기업에 가격을 다시 정하도록 강제하는 이례적 처분 수단.",
       "source_url": "https://www.khan.co.kr/article/202609160600101",
-      "published_at": "3시간 전"
+      "published_at": "3시간 전",
+      "topics": [
+        "cartel"
+      ]
     },
     {
       "category": "news",
@@ -79,7 +96,11 @@
       "headline": "다비치안경 가맹점주 대표단, 공정위 과징금 결정에 반박",
       "summary": "공정위, 가맹사업법 위반으로 다비치안경 본사에 과징금 부과.\n가맹점주 대표단 \"본사와 사전 협의 구조 있었다\" 반박.",
       "source_url": "https://www.shinailbo.co.kr/news/articleView.html?idxno=5061921",
-      "published_at": "14시간 전"
+      "published_at": "14시간 전",
+      "topics": [
+        "subcon",
+        "enforce"
+      ]
     },
     {
       "category": "news",
@@ -89,7 +110,10 @@
       "headline": "압수수색 못지않은 '싹쓸이 현장조사'…과잉 행정 제동 필요",
       "summary": "검찰·경찰 수사기능 축소 속 행정조사 비중 커지는 현실 지적.\n\"사실상 강제수사와 다름없다\"는 현장 우려 목소리 소개.",
       "source_url": "https://v.daum.net/v/6IHqm2u5SC",
-      "published_at": "19시간 전"
+      "published_at": "19시간 전",
+      "topics": [
+        "institution"
+      ]
     },
     {
       "category": "news",
@@ -99,7 +123,10 @@
       "headline": "공정위 2심제, 타당한가",
       "summary": "법무법인 태평양 홍기태 변호사, 공정위 의결·불복 구조 문제 제기.\n검찰 개혁 사례에 빗대 정교한 정비 필요성 주장.",
       "source_url": "https://www.lawtimes.co.kr/news/articleView.html?idxno=226324",
-      "published_at": "3시간 전"
+      "published_at": "3시간 전",
+      "topics": [
+        "institution"
+      ]
     }
   ],
   "generated_at": "2026-09-15T23:47:01.000Z"

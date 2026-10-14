@@ -20,7 +20,10 @@
       "dept": "서비스카르텔조사과",
       "summary": "SK에너지·현대오일뱅크 경질유 담합 사건 심사보고서 송부로 심의 절차 개시\n- 러·우 전쟁 직전 **'22년 2월**부터 미·이란 전쟁 직후 **'26년 3월**까지 약 **4년간** 판매가격 정보 교환\n- 미·이란 전쟁 이후에는 판매가격(입금가)까지 담합 — 관련매출액 약 **44.1조 원**(일평균 약 **300억 원**)\n- 공정거래법 제40조 제1항 **1호(가격담합)·9호(정보교환)** 위반, 심사관은 시정조치·과징금 부과 의견\n- 피심인 서면의견 제출·증거 열람은 수령일로부터 **8주** — 방어권 절차 종료 후 전원회의 개최 예정",
       "source_url": "https://www.ftc.go.kr/www/selectBbsNttView.do?pageUnit=10&pageIndex=1&searchCnd=all&key=12&bordCd=3&searchCtgry=01,02&nttSn=48094",
-      "published_at": "2026-10-07"
+      "published_at": "2026-10-07",
+      "topics": [
+        "cartel"
+      ]
     },
     {
       "category": "committee",
@@ -28,7 +31,10 @@
       "headline": "2026-10-08 위원회 소식",
       "summary": "주요일정·인사발령 내용 없음",
       "source_url": "https://www.ftc.go.kr/www/selectBbsNttView.do?pageUnit=10&pageIndex=1&searchCnd=all&key=15&bordCd=5&nttSn=48096",
-      "published_at": "2026-10-07"
+      "published_at": "2026-10-07",
+      "topics": [
+        "institution"
+      ]
     },
     {
       "category": "news",
@@ -36,7 +42,11 @@
       "headline": "통신3사, 기지국·중계기 임차료까지 담합…행정소송 연패",
       "summary": "4G·5G 통신 기지국·중계기 상호 임대료가 담합 대상.\nLG유플러스가 낸 공정위 처분 취소소송도 법원서 기각.",
       "source_url": "http://www.newswatch.kr/news/articleView.html?idxno=81443",
-      "published_at": "22시간 전"
+      "published_at": "22시간 전",
+      "topics": [
+        "cartel",
+        "enforce"
+      ]
     },
     {
       "category": "news",
@@ -44,7 +54,10 @@
       "headline": "쿠팡, 공정위 '10년치 자료요구'에 또 집행정지 신청",
       "summary": "지난달 **30일** 서울고법에 보고·제출명령 집행정지 신청.\n현장조사 취소소송도 별도 제기 — 조사 불복 두 번째.",
       "source_url": "https://www.yna.co.kr/view/AKR20261007184700030",
-      "published_at": "14시간 전"
+      "published_at": "14시간 전",
+      "topics": [
+        "enforce"
+      ]
     },
     {
       "category": "news",
@@ -52,7 +65,10 @@
       "headline": "설탕·밀가루도 '반복담합' 퇴출 대상…입법 추진",
       "summary": "기존 당정 추진안은 안전·에너지 등 **17개 업종**에만 적용.\n먹거리 시장 담합에도 영업정지·시장 퇴출 제재 확대.",
       "source_url": "https://marketin.edaily.co.kr/News/ReadE?newsId=01653126645610952",
-      "published_at": "4시간 전"
+      "published_at": "4시간 전",
+      "topics": [
+        "cartel"
+      ]
     },
     {
       "category": "news",
@@ -60,7 +76,10 @@
       "headline": "[단독] 상표권 사용료 비중 높은 회사일수록 총수일가 지분율 높아",
       "summary": "계열사에서 받는 브랜드 수수료 비중과 총수일가 지분율을 대조 분석.\n사익편취 통로로 쓰이는지가 쟁점.",
       "source_url": "https://www.khan.co.kr/article/202610080600031/amp",
-      "published_at": "3시간 전"
+      "published_at": "3시간 전",
+      "topics": [
+        "group"
+      ]
     },
     {
       "category": "news",
@@ -68,7 +87,11 @@
       "headline": "KT, 정무위 국감 증인 소환…티오더 기술탈취 의혹 질의",
       "summary": "KT 임원들이 이틀 연속 출석할 전망.\n기술탈취 의혹과 개인정보 유출이 질의 대상.",
       "source_url": "https://www.4th.kr/news/articleView.html?idxno=2119371",
-      "published_at": "15시간 전"
+      "published_at": "15시간 전",
+      "topics": [
+        "subcon",
+        "institution"
+      ]
     },
     {
       "category": "news",
@@ -76,7 +99,11 @@
       "headline": "[재계지도] 총수일가 지분 0.06%에 순환출자 8개…QCP그룹 지배구조",
       "summary": "올해 처음 공시대상기업집단에 지정된 그룹(옛 큐로홀딩스).\n총수일가 직접 지분만으로는 지배 구조 설명이 어려운 형태.",
       "source_url": "http://www.dailypop.kr/news/articleView.html?idxno=103098",
-      "published_at": "17시간 전"
+      "published_at": "17시간 전",
+      "topics": [
+        "group",
+        "institution"
+      ]
     },
     {
       "category": "news",
@@ -84,7 +111,11 @@
       "headline": "기술탈취 신고부터 공정위 제재까지 평균 703일",
       "summary": "국회 제출 자료 기준 — 피해기업 신고 접수부터 제재까지 **2년** 가까이 소요.\n피해 구제가 늦어진다는 지적.",
       "source_url": "https://stock.mk.co.kr/news/view/1171413",
-      "published_at": "3시간 전"
+      "published_at": "3시간 전",
+      "topics": [
+        "institution",
+        "enforce"
+      ]
     }
   ],
   "generated_at": "2026-10-07T23:50:14.479Z"

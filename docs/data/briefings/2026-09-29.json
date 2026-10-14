@@ -19,7 +19,10 @@
       "headline": "공정거래위원회 사건절차규칙 개정·시행",
       "summary": "신고인 절차적 권리를 넓히는 사건절차규칙 개정안을 **9월 28일**부터 시행한다.\n- 심사보고서 상정 시 신고인에게도 **심의절차 개시 사실** 통지\n- 신고인이 심사관에게 **사전 의견청취절차** 진행 요청 가능\n- 부당 표시·광고 신고서에 **타 기관 중복신고 여부** 기재란 신설\n- 직제·상위법 개정 반영해 심사관 정의 규정·신고서식 정비",
       "source_url": "https://www.ftc.go.kr/www/selectBbsNttView.do?pageUnit=10&pageIndex=1&searchCnd=all&key=12&bordCd=3&searchCtgry=01,02&nttSn=48056",
-      "published_at": "2026-09-28"
+      "published_at": "2026-09-28",
+      "topics": [
+        "institution"
+      ]
     },
     {
       "category": "press",
@@ -27,7 +30,11 @@
       "headline": "명륜당의 부당한 지원행위 및 가맹사업법 위반행위 제재",
       "summary": "명륜당의 오너 일가 대부업체 부당지원·정보은폐 행위를 제재한다.\n- 이종근 회장 일가 소유 **14개 대부업체**에 **4년3개월**간 **2,983억원** 저리 대여(연 **2.3~4.6%**)\n- 정상금리 대비 조달비용 절감 **217억원** 상당 부당지원 인정\n- 가맹희망자에 신용제공 내역 '해당사항 없음' 허위 기재, 대부업체 특수관계 은폐\n- 시정명령·과징금 총 **148억7,200만원**(잠정) 부과, 명륜당·이종근 회장 **고발**",
       "source_url": "https://www.ftc.go.kr/www/selectBbsNttView.do?pageUnit=10&pageIndex=1&searchCnd=all&key=12&bordCd=3&searchCtgry=01,02&nttSn=48055",
-      "published_at": "2026-09-28"
+      "published_at": "2026-09-28",
+      "topics": [
+        "enforce",
+        "subcon"
+      ]
     },
     {
       "category": "press",
@@ -35,7 +42,10 @@
       "headline": "당정, 반복 담합 근절 입법 추진방안 발표",
       "summary": "안전·에너지·환경·운송 **17개 업종**의 반복 담합 사업자에 등록취소·영업정지 제도를 도입한다.\n- **5년 내 2회 이상** 담합 시 등록취소(4개 법)·영업정지(13개 법) 대상, 석유정제업·소방시설업 등 포함\n- 담합 처분시효 **최대 12년**에서 **최대 15년**으로 연장\n- 입찰담합징후분석시스템(BRIAS)에 **교육청** 정보제공 의무화\n- 자진신고자 시정조치 감면 혜택은 **폐지**, 과징금·고발 감면은 유지",
       "source_url": "https://www.ftc.go.kr/www/selectBbsNttView.do?pageUnit=10&pageIndex=1&searchCnd=all&key=12&bordCd=3&searchCtgry=01,02&nttSn=48054",
-      "published_at": "2026-09-28"
+      "published_at": "2026-09-28",
+      "topics": [
+        "cartel"
+      ]
     },
     {
       "category": "committee",
@@ -43,7 +53,10 @@
       "headline": "2026-09-29 위원회 소식",
       "summary": "##[주요일정]##\n· **위원장**: CBS 생방송 인터뷰, 국무회의(청와대)\n\n##[인사발령]##\n· **안주현** 행정사무관(기업거래결합심사국 국제기업결합과) - 파견복귀를 명함",
       "source_url": "https://www.ftc.go.kr/www/selectBbsNttView.do?pageUnit=10&pageIndex=1&searchCnd=all&key=15&bordCd=5&nttSn=48058",
-      "published_at": "2026-09-28"
+      "published_at": "2026-09-28",
+      "topics": [
+        "institution"
+      ]
     },
     {
       "category": "news",
@@ -51,7 +64,10 @@
       "headline": "이재명 대통령, '이자장사' 명륜당 사건 언급…\"공정위 칭찬, 부당이익 용납 불가\"",
       "summary": "공정위의 명륜당 과징금·고발 조치 하루 만에 대통령이 직접 언급.\n오너일가 사익편취에 대한 엄정 대응 방침 재확인.",
       "source_url": "https://www.yonhapnewstv.co.kr/news/AKR20260929003536GbT",
-      "published_at": "8시간 전"
+      "published_at": "8시간 전",
+      "topics": [
+        "enforce"
+      ]
     },
     {
       "category": "news",
@@ -59,7 +75,10 @@
       "headline": "'149억 과징금' 명륜당, 공정위 제재에 법적 대응 예고",
       "summary": "이종근 회장 고발 결정에 회사측 반발 표명.\n행정소송 등 불복 절차 검토 중.",
       "source_url": "https://v.daum.net/v/20260928181644141",
-      "published_at": "14시간 전"
+      "published_at": "14시간 전",
+      "topics": [
+        "enforce"
+      ]
     },
     {
       "category": "news",
@@ -67,7 +86,10 @@
       "headline": "대기업 공정위 제재 763건…현대百 82건·SK 39건·CJ 33건",
       "summary": "최근 5년간(2020~2025) 대기업집단 제재 현황 집계.\n제재 대부분 공정거래법 위반, 하도급법 등 뒤이어.",
       "source_url": "https://www.taxtimes.co.kr/news/article.html?no=277042",
-      "published_at": "23시간 전"
+      "published_at": "23시간 전",
+      "topics": [
+        "enforce"
+      ]
     },
     {
       "category": "news",
@@ -75,7 +97,10 @@
       "headline": "\"담합 2번이면 영업정지\"…설탕·밀가루는 왜 빠졌나",
       "summary": "소관 부처 협의로 정한 17개 적용업종에 식품 원자재는 미포함.\n앞서 과징금 다툼 겪은 설탕·밀가루는 이번 대상서 빠짐.",
       "source_url": "https://www.nocutnews.co.kr/news/6584065",
-      "published_at": "2시간 전"
+      "published_at": "2시간 전",
+      "topics": [
+        "cartel"
+      ]
     },
     {
       "category": "news",
@@ -83,7 +108,8 @@
       "headline": "[사설] 기업 생사여탈권까지 쥐겠다는 공정위",
       "summary": "지난 4월 과징금 하한 20배 상향에 이어 나온 추가 규제 강화.\n반복 억지력보다 기업 부담 가중 우려 제기.",
       "source_url": "https://www.mt.co.kr/amp/opinion/2026/09/29/2026092814455647677",
-      "published_at": "5시간 전"
+      "published_at": "5시간 전",
+      "topics": []
     },
     {
       "category": "news",
@@ -91,7 +117,10 @@
       "headline": "[매경이코노미스트] 조사방해엔 채찍, 협조엔 당근",
       "summary": "조사 협조 감경 축소 시 기업들이 소송으로 다툴 유인 커진다는 지적.\n법 위반 제재는 강화하되 조사개시 이후 협조유인도 중요하다는 진단.",
       "source_url": "https://v.daum.net/v/20260928174804930",
-      "published_at": "15시간 전"
+      "published_at": "15시간 전",
+      "topics": [
+        "institution"
+      ]
     }
   ],
   "generated_at": "2026-09-28T23:35:09.809Z"

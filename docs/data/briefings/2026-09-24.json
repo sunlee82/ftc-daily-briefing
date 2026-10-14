@@ -19,7 +19,10 @@
       "headline": "공정거래법 시행령 및 자진신고자 감면 고시 개정안 입법·행정예고",
       "summary": "담합 자진신고 감면 기준을 조사시점별로 차등화해 반복담합을 강하게 제재한다.\n- 조사개시 후 1순위 신고자 과징금 **면제→75% 감경**으로 축소\n- 반복담합(**5~10년 이내**) 감면 혜택 **1/2로 축소**, 합병·영업양도 승계자도 적용\n- 시행령 개정안 **11월 2일까지** 입법예고\n- 감면고시 개정안 **10월 13일까지** 행정예고, **2027년 1분기** 시행 목표",
       "source_url": "https://www.ftc.go.kr/www/selectBbsNttView.do?pageUnit=10&pageIndex=1&searchCnd=all&key=12&bordCd=3&searchCtgry=01,02&nttSn=48044",
-      "published_at": "2026-09-23"
+      "published_at": "2026-09-23",
+      "topics": [
+        "institution"
+      ]
     },
     {
       "category": "news",
@@ -27,7 +30,11 @@
       "headline": "쿠팡, 공정위 현장조사 중단 신청 기각…최대 2억원 과태료 수순",
       "summary": "서울고법 행정6-2부, 대규모유통업법 위반 혐의 현장조사 재개 가능케 함.\n공정위, 소회의 열어 조사방해 과태료 부과 절차 착수.",
       "source_url": "https://v.daum.net/v/Q1vzUXJ6gg",
-      "published_at": "13시간 전"
+      "published_at": "13시간 전",
+      "topics": [
+        "institution",
+        "enforce"
+      ]
     },
     {
       "category": "news",
@@ -35,7 +42,10 @@
       "headline": "메가특구법, 반도체 지주회사 증손회사 지분 50% 허용 가닥",
       "summary": "정부·여당, 연내 제정 목표로 추진 중인 '메가특구 특별법'에 포함 검토.\n반도체 업종 한정해 지주회사 증손회사 지분 의무보유 규제 완화.",
       "source_url": "https://www.hani.co.kr/arti/economy/marketing/1279316.html",
-      "published_at": "12시간 전"
+      "published_at": "12시간 전",
+      "topics": [
+        "group"
+      ]
     },
     {
       "category": "news",
@@ -43,7 +53,11 @@
       "headline": "설탕·밀가루 등 식품 원재료 담합 관련매출 15조원…과징금 비율은 12%에 그쳐",
       "summary": "올해 적발된 식품 원재료 담합 사건들의 관련매출 합산 집계치.\n설탕·밀가루 등 개별 사건 과징금을 합산한 실효 부과율.",
       "source_url": "https://www.safetimes.co.kr/news/articleView.html?idxno=245981",
-      "published_at": "22시간 전"
+      "published_at": "22시간 전",
+      "topics": [
+        "cartel",
+        "enforce"
+      ]
     }
   ],
   "generated_at": "2026-09-23T23:35:09.385Z"

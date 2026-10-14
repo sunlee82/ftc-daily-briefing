@@ -1,58 +1,74 @@
 {
- "id": "2026-10-04",
- "date": "2026-10-04",
- "title": "스마트폰 '성능 제한' 광고 기만성 1심 인정…배상은 기각",
- "summary": "스마트폰 **'성능 제한' 광고** 기만성 1심 인정 — 손해배상 청구는 전부 기각\n**10조원대 전분당 담합** 형사재판, 대표이사 공모·퇴직자 책임 공방\n공정위 **중점조사기획단** 출범, 기업은 **집행정지·소송**으로 맞대응",
- "competitors": [
-  "공정거래위원회"
- ],
- "keywords": [
-  "공정위",
-  "담합",
-  "표시광고",
-  "과징금"
- ],
- "items": [
-  {
-   "category": "news",
-   "category_label": "뉴스 보도내용",
-   "headline": "'10조원대 전분당 담합' 형사재판, 대표 공모·퇴직자 책임 공방",
-   "summary": "서울중앙지법 형사3단독에서 식품업체 임직원 재판 진행 중.\n검찰이 가격 담합 규모를 **10조원대**로 보고 기소한 사건.",
-   "source_url": "https://www.rightknow.co.kr/news/articleView.html?idxno=34886",
-   "published_at": "19시간 전"
-  },
-  {
-   "category": "news",
-   "category_label": "뉴스 보도내용",
-   "headline": "기업은 법원으로, 공정위는 조사국 부활…거세진 힘겨루기",
-   "summary": "**중점조사기획단** 출범 — 플랫폼 독과점·대기업집단 내부거래·민생 담합 담당.\n**2005년** 조사국 폐지 이후 **21년 만**의 국 단위 조사조직.",
-   "source_url": "https://www.fnnews.com/news/202610030900576420",
-   "published_at": "24시간 전"
-  },
-  {
-   "category": "news",
-   "category_label": "뉴스 보도내용",
-   "headline": "스마트폰 '성능 제한' 광고 기만성 1심 인정…배상 청구는 기각",
-   "summary": "게임 구동 시 성능을 낮춘 설정과 그 광고 표시가 쟁점.\n기만성 인정은 일부 광고로 한정, 소비자 배상 책임은 불인정.",
-   "source_url": "https://www.rightknow.co.kr/news/articleView.html?idxno=34890",
-   "published_at": "11시간 전"
-  },
-  {
-   "category": "news",
-   "category_label": "뉴스 보도내용",
-   "headline": "최근 10년 식품업체 담합 과징금 2조1,900억원 넘어서",
-   "summary": "가격 담합과 입찰 담합을 합산한 집계치.\n올해는 **설탕·밀가루·전분당** 등 원재료 담합 사건이 다수.",
-   "source_url": "http://www.fsnews.co.kr/news/articleView.html?idxno=62300",
-   "published_at": "19시간 전"
-  },
-  {
-   "category": "news",
-   "category_label": "뉴스 보도내용",
-   "headline": "공정위 신고 '민원 종결' 비율 2021년 16%→올해 48%",
-   "summary": "정식 사건으로 올리지 않고 민원으로 끝낸 비율이 **절반에 육박**.\n정부가 적극행정을 강조하는 가운데 신고 사건 처리 방식 점검 필요성 제기.",
-   "source_url": "https://www.news1.kr/amp/politics/assembly/6309900",
-   "published_at": "3시간 전"
-  }
- ],
- "generated_at": "2026-10-03T23:35:08.246Z"
+  "id": "2026-10-04",
+  "date": "2026-10-04",
+  "title": "스마트폰 '성능 제한' 광고 기만성 1심 인정…배상은 기각",
+  "summary": "스마트폰 **'성능 제한' 광고** 기만성 1심 인정 — 손해배상 청구는 전부 기각\n**10조원대 전분당 담합** 형사재판, 대표이사 공모·퇴직자 책임 공방\n공정위 **중점조사기획단** 출범, 기업은 **집행정지·소송**으로 맞대응",
+  "competitors": [
+    "공정거래위원회"
+  ],
+  "keywords": [
+    "공정위",
+    "담합",
+    "표시광고",
+    "과징금"
+  ],
+  "items": [
+    {
+      "category": "news",
+      "category_label": "뉴스 보도내용",
+      "headline": "'10조원대 전분당 담합' 형사재판, 대표 공모·퇴직자 책임 공방",
+      "summary": "서울중앙지법 형사3단독에서 식품업체 임직원 재판 진행 중.\n검찰이 가격 담합 규모를 **10조원대**로 보고 기소한 사건.",
+      "source_url": "https://www.rightknow.co.kr/news/articleView.html?idxno=34886",
+      "published_at": "19시간 전",
+      "topics": [
+        "cartel",
+        "enforce"
+      ]
+    },
+    {
+      "category": "news",
+      "category_label": "뉴스 보도내용",
+      "headline": "기업은 법원으로, 공정위는 조사국 부활…거세진 힘겨루기",
+      "summary": "**중점조사기획단** 출범 — 플랫폼 독과점·대기업집단 내부거래·민생 담합 담당.\n**2005년** 조사국 폐지 이후 **21년 만**의 국 단위 조사조직.",
+      "source_url": "https://www.fnnews.com/news/202610030900576420",
+      "published_at": "24시간 전",
+      "topics": [
+        "group"
+      ]
+    },
+    {
+      "category": "news",
+      "category_label": "뉴스 보도내용",
+      "headline": "스마트폰 '성능 제한' 광고 기만성 1심 인정…배상 청구는 기각",
+      "summary": "게임 구동 시 성능을 낮춘 설정과 그 광고 표시가 쟁점.\n기만성 인정은 일부 광고로 한정, 소비자 배상 책임은 불인정.",
+      "source_url": "https://www.rightknow.co.kr/news/articleView.html?idxno=34890",
+      "published_at": "11시간 전",
+      "topics": [
+        "consumer"
+      ]
+    },
+    {
+      "category": "news",
+      "category_label": "뉴스 보도내용",
+      "headline": "최근 10년 식품업체 담합 과징금 2조1,900억원 넘어서",
+      "summary": "가격 담합과 입찰 담합을 합산한 집계치.\n올해는 **설탕·밀가루·전분당** 등 원재료 담합 사건이 다수.",
+      "source_url": "http://www.fsnews.co.kr/news/articleView.html?idxno=62300",
+      "published_at": "19시간 전",
+      "topics": [
+        "cartel"
+      ]
+    },
+    {
+      "category": "news",
+      "category_label": "뉴스 보도내용",
+      "headline": "공정위 신고 '민원 종결' 비율 2021년 16%→올해 48%",
+      "summary": "정식 사건으로 올리지 않고 민원으로 끝낸 비율이 **절반에 육박**.\n정부가 적극행정을 강조하는 가운데 신고 사건 처리 방식 점검 필요성 제기.",
+      "source_url": "https://www.news1.kr/amp/politics/assembly/6309900",
+      "published_at": "3시간 전",
+      "topics": [
+        "institution"
+      ]
+    }
+  ],
+  "generated_at": "2026-10-03T23:35:08.246Z"
 }

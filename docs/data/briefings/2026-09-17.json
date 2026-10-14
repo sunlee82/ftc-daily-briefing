@@ -19,7 +19,10 @@
       "headline": "공정위-건설업계 민관협의체 출범",
       "summary": "상생협약 이행상황 공유를 위해 공정위-건설업계 민관협의체를 출범했다.\n- 19개 대형건설사, 납품단가 **1,077억 원** 인상(약정액 대비 **80%** 수준)\n- 15개사, **52개** 수급사업자와 하도급대금 연동계약 추가 체결\n- 14개사 분쟁해결기구 운영, 협약 이후 **14건** 분쟁 해결\n- **7월 24일** 협약 체결한 30개사와는 **11월 중** 회의 예정",
       "source_url": "https://www.ftc.go.kr/www/selectBbsNttView.do?pageUnit=10&pageIndex=1&searchCnd=all&key=12&bordCd=3&searchCtgry=01,02&nttSn=48022",
-      "published_at": "2026-09-16"
+      "published_at": "2026-09-16",
+      "topics": [
+        "subcon"
+      ]
     },
     {
       "category": "press",
@@ -27,7 +30,10 @@
       "headline": "의류관리기 3종 품질 비교정보 제공",
       "summary": "의류관리기 3개 브랜드 제품의 품질·안전성 비교정보를 공개한다.\n- 삼성전자·LG전자·코웨이 대상, 탈취·살균 성능 전 제품 **99%** 이상\n- 표준스타일링 작동시간 최대 **14분**, 건조시간 최대 **23분** 차이\n- 연간 전기요금 **7,600~9,100원** 수준, 소음은 코웨이가 상대적 우수\n- 3사 모두 건조코스 정확성·문 밀폐력 등 사용성 개선 조치 회신 완료",
       "source_url": "https://www.ftc.go.kr/www/selectBbsNttView.do?pageUnit=10&pageIndex=1&searchCnd=all&key=12&bordCd=3&searchCtgry=01,02&nttSn=48021",
-      "published_at": "2026-09-16"
+      "published_at": "2026-09-16",
+      "topics": [
+        "consumer"
+      ]
     },
     {
       "category": "press",
@@ -35,7 +41,10 @@
       "headline": "유승한(柳承翰) 교수 공정위 비상임위원 위촉",
       "summary": "유승한 고려대 경제학과 교수를 공정위 비상임위원으로 신규 위촉했다.\n- **9월 16일**자 위촉, 임기 **3년**(위원장 제청·대통령 위촉)\n- 미시경제이론·시장설계·플랫폼경제 분야 전문가\n- 코넬대 경제학 박사, 現 공정위 공정거래정책자문위원",
       "source_url": "https://www.ftc.go.kr/www/selectBbsNttView.do?pageUnit=10&pageIndex=1&searchCnd=all&key=12&bordCd=3&searchCtgry=01,02&nttSn=48020",
-      "published_at": "2026-09-16"
+      "published_at": "2026-09-16",
+      "topics": [
+        "institution"
+      ]
     },
     {
       "category": "committee",
@@ -43,7 +52,10 @@
       "headline": "2026-09-17 위원회 소식",
       "summary": "##[주요일정]##\n· **위원장**: 포담 국제 반독점 컨퍼런스 참석 등 (미국)\n· **부위원장**: 10:00 정무위 전체회의 (국회), 14:00 본회의 (국회)\n\n##[인사발령]##\n· **박영민** 전산사무관(조사관리관실 중점조사팀) - 제9회 전국동시지방선거 투표용지 부족사태 등 국민참정권 침해 의혹 진상규명 특별검사 파견근무를 명함(**2026. 9. 17. ~ 2027. 2. 3.**)",
       "source_url": "https://www.ftc.go.kr/www/selectBbsNttView.do?pageUnit=10&pageIndex=1&searchCnd=all&key=15&bordCd=5&nttSn=48024",
-      "published_at": "2026-09-16"
+      "published_at": "2026-09-16",
+      "topics": [
+        "institution"
+      ]
     },
     {
       "category": "news",
@@ -53,7 +65,11 @@
       "headline": "녹십자·씨젠재단 등 2,940억 입찰담합 혐의, 공정위 '고발 의견'",
       "summary": "검체검사 용역 입찰담합 사건이 대상.\n공정위 사무처, 지난달 **7일** 심사보고서 위원회 제출.",
       "source_url": "https://newsfield.net/%EB%8F%84%EC%82%B0-%EC%9A%B0%EB%A0%A4-%ED%98%B8%EC%86%8C%ED%95%98%EB%8D%94%EB%8B%88%EB%85%B9%EC%8B%AD%EC%9E%90%C2%B7%EC%94%A8%EC%A0%A0%EC%9E%AC%EB%8B%A8-%EB%93%B1-2940/",
-      "published_at": "10시간 전"
+      "published_at": "10시간 전",
+      "topics": [
+        "cartel",
+        "enforce"
+      ]
     },
     {
       "category": "news",
@@ -63,7 +79,10 @@
       "headline": "제지·밀가루에 내린 공정위 '가격 재결정 명령', 법원서 제동",
       "summary": "서울고법 \"회복하기 어려운 손해 예방할 필요\"로 집행정지 인용.\n제지 **4곳**·일부 제분사 대상, 공정위는 **재항고** 방침.",
       "source_url": "https://www.yna.co.kr/amp/view/AKR20260916179151004",
-      "published_at": "12시간 전"
+      "published_at": "12시간 전",
+      "topics": [
+        "enforce"
+      ]
     },
     {
       "category": "news",
@@ -73,7 +92,11 @@
       "headline": "아이에스동서 계열사 주식소유 공방, 공정위 1심 패소에 대법원 상고",
       "summary": "**PEF 출자지분**을 손자회사로 볼지가 쟁점.\n공정위, 앞서 예고한 대로 상고장 제출.",
       "source_url": "https://www.newspim.com/news/view/20260916000991",
-      "published_at": "16시간 전"
+      "published_at": "16시간 전",
+      "topics": [
+        "group",
+        "enforce"
+      ]
     },
     {
       "category": "news",
@@ -83,7 +106,10 @@
       "headline": "\"법 위반 매출 580조에 과징금 1.94%뿐\"…경실련, 집단소송제 도입 촉구",
       "summary": "최근 **21년간** 담합·부당지원 등 위법 매출 집계 기준.\n과징금은 관련 매출액의 **2%** 미만에 그쳐.",
       "source_url": "https://www.news1.kr/amp/society/incident-accident/6292410",
-      "published_at": "19시간 전"
+      "published_at": "19시간 전",
+      "topics": [
+        "enforce"
+      ]
     }
   ],
   "generated_at": "2026-09-16T23:42:18.000Z"

@@ -19,7 +19,10 @@
       "headline": "2026-09-10 위원회 소식",
       "summary": "##[주요일정]##\n· **위원장**: 14:00 대기업 1,2,3차 협력사 상생협약(HD현대/울산공단), 18:00 저연차·전입 직원 워크숍(청주)\n· **부위원장**: 07:40 비상경제본부회의(서울청사)\n\n##[인사발령]##\n· **이지혜** 행정사무관(시장감시국 표시광고감시팀) - 영국 University of York 국외훈련 파견(2026.9.10.~2027.9.9.)",
       "source_url": "https://www.ftc.go.kr/www/selectBbsNttView.do?pageUnit=10&pageIndex=1&searchCnd=all&key=15&bordCd=5&nttSn=47989",
-      "published_at": "2026-09-09"
+      "published_at": "2026-09-09",
+      "topics": [
+        "institution"
+      ]
     },
     {
       "category": "news",
@@ -29,7 +32,10 @@
       "headline": "공정위, 하도급 대금 늑장지급 건설사 등 18개 기업 조사",
       "summary": "지급기한(**60일**) 넘긴 사례 조사, 지연액 총 **1,015억원** 규모.\n우방 등 일부사는 **200억원** 이상 지연, 자진시정 의사 기업도 있어.",
       "source_url": "https://www.chosun.com/economy/economy_general/2026/09/10/BJWLOQLBY5BWHLYJ5GKAAL3FII/",
-      "published_at": "2026-09-10"
+      "published_at": "2026-09-10",
+      "topics": [
+        "subcon"
+      ]
     },
     {
       "category": "news",
@@ -39,7 +45,10 @@
       "headline": "공정위, 할부거래 분쟁조정 시장감시국으로 이관",
       "summary": "선불식 할부거래 통합정보시스템 운영도 시장감시국 이관.\n분쟁조정 인력 **임기제 16명** 증원.",
       "source_url": "https://www.inews24.com/view/2004098",
-      "published_at": "2026-09-10"
+      "published_at": "2026-09-10",
+      "topics": [
+        "consumer"
+      ]
     },
     {
       "category": "news",
@@ -49,7 +58,10 @@
       "headline": "공정위, TPG의 롯데렌탈 인수 승인",
       "summary": "**10월** 거래 마무리 예정, 중고차·MRO 등으로 사업영역 확대 전망.\n렌터카 업계 1위 굳히기 포석.",
       "source_url": "https://www.viva100.com/article/20260909500638",
-      "published_at": "2026-09-09"
+      "published_at": "2026-09-09",
+      "topics": [
+        "merger"
+      ]
     },
     {
       "category": "news",
@@ -59,7 +71,10 @@
       "headline": "한탑, 공정위 과징금 분할납부 승인받아",
       "summary": "서울고법 결정에 따른 과징금·시정명령 집행정지, **9월 18일**까지 유지.\n분할납부로 부담 완화.",
       "source_url": "https://dealsite.co.kr/articles/168714",
-      "published_at": "2026-09-09"
+      "published_at": "2026-09-09",
+      "topics": [
+        "enforce"
+      ]
     },
     {
       "category": "news",
@@ -69,7 +84,10 @@
       "headline": "주병기 위원장, 다음 주 방미…美 반독점 당국과 회동",
       "summary": "美 FTC 앤드루 퍼거슨 위원장·법무부 우드워드 차관보와 개별 회동 예정.\n**쿠팡** 관련 현안이 비공식 의제로 다뤄질지 주목.",
       "source_url": "https://www.chosun.com/international/us/2026/09/10/QJFL5EESWBCR7AESRHS4QPUQQQ/",
-      "published_at": "2026-09-10"
+      "published_at": "2026-09-10",
+      "topics": [
+        "institution"
+      ]
     }
   ],
   "generated_at": "2026-09-10T02:49:48.000Z"

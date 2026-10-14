@@ -597,3 +597,13 @@ header.site p a { color: inherit; text-decoration: underline; text-underline-off
 .month-btn:hover { border-style: solid; border-color: var(--accent); }
 .month-cards { margin-top: 12px; }
 .month-cards[hidden] { display: none; }
+
+/* --- 주제별 모아보기 (2026-10) --- */
+.tp-item h3 .sr-cat { margin-right: 8px; vertical-align: 2px; }
+.tp-foot { display: flex; flex-wrap: wrap; gap: 8px; align-items: center; margin-top: 6px; }
+.tp-chip {
+  font-size: 0.72rem; font-weight: 700; padding: 1px 8px; color: var(--muted);
+  border: 1px solid var(--border); border-radius: var(--radius-full);
+}
+.tp-desc { color: var(--muted); font-weight: 500; }
+@media (max-width: 600px) { .site-nav .nav-btn:nth-child(5) { grid-column: 1 / -1; } }

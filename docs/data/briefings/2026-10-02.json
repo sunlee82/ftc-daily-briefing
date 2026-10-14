@@ -19,7 +19,11 @@
       "headline": "[설명] 매일경제(9.30.) ｢공정위 고무줄 과징금 … 10건 중 9건 최종부과 땐 대폭 깎였다 등 기사 관련",
       "summary": "매일경제 '고무줄 과징금·심의 전 사건공개' 보도에 공정위 반박\n- 조사는 피조사업체 동의가 필요한 **임의조사** — 범위 밖 조사 거부·자료 반환·폐기 요청 가능\n- \"심사단계 산정액이 최종부과액의 **1.9~2.8배**\"는 감사원 단순계산치, 심사보고서엔 확정 과징금액 미기재\n- **이동통신 3사** 담합건은 피심인들이 자료 제출을 거부해 관련매출액을 추정 산출\n- 심의 개시 공개는 조사 종료·심사보고서 상정 후 — 감사원 지적 수용해 의결 보도자료 정확성 제고 방침",
       "source_url": "https://www.ftc.go.kr/www/selectBbsNttView.do?pageUnit=10&pageIndex=1&searchCnd=all&key=13&bordCd=3&searchCtgry=03&nttSn=48078",
-      "published_at": "2026-10-01"
+      "published_at": "2026-10-01",
+      "topics": [
+        "enforce",
+        "institution"
+      ]
     },
     {
       "category": "committee",
@@ -27,7 +31,10 @@
       "headline": "2026-10-02 위원회 소식",
       "summary": "주요일정·인사발령 내용 없음",
       "source_url": "https://www.ftc.go.kr/www/selectBbsNttView.do?pageUnit=10&pageIndex=1&searchCnd=all&key=15&bordCd=5&nttSn=48080",
-      "published_at": "2026-10-01"
+      "published_at": "2026-10-01",
+      "topics": [
+        "institution"
+      ]
     },
     {
       "category": "news",
@@ -35,7 +42,11 @@
       "headline": "검찰, 16.4조원대 석유화학 가격담합 6개사·임직원 43명 기소",
       "summary": "서울중앙지검 공정거래조사부가 공정거래법 위반으로 기소.\n**5년 3개월**간 기초 원재료 가격은 물론 낙찰업체·투찰가까지 사전 조율 혐의.",
       "source_url": "https://www.news1.kr/amp/society/court-prosecution/6307376",
-      "published_at": "21시간 전"
+      "published_at": "21시간 전",
+      "topics": [
+        "enforce",
+        "cartel"
+      ]
     },
     {
       "category": "news",
@@ -43,7 +54,11 @@
       "headline": "[단독] 공정위, 쿠팡에 '조사방해 과태료' 심사보고서 송부",
       "summary": "대규모유통업법 위반 혐의 현장조사 거부가 대상, 과태료 상한 **1억원**.\n법원이 쿠팡 집행정지 신청을 기각해 현장조사도 재개 예정.",
       "source_url": "https://news.kbs.co.kr/news/view.do?ncd=8675497",
-      "published_at": "21시간 전"
+      "published_at": "21시간 전",
+      "topics": [
+        "institution",
+        "enforce"
+      ]
     },
     {
       "category": "news",
@@ -51,7 +66,10 @@
       "headline": "공정위, '어펄마-도레이첨단소재 FCCL' 기업결합 공청회 이달 개최",
       "summary": "어펄마캐피탈이 지난해 **6월** 신고한 도레이첨단소재 연성동박적층판(FCCL) 사업 인수 건.",
       "source_url": "https://zdnet.co.kr/view/?no=20261001144900",
-      "published_at": "9시간 전"
+      "published_at": "9시간 전",
+      "topics": [
+        "merger"
+      ]
     },
     {
       "category": "news",
@@ -59,7 +77,11 @@
       "headline": "'담합 과징금 상한 30%' 입법에 야당도 가세…재계 \"예측 가능성 높여야\"",
       "summary": "관련 매출액 기준 과징금 상한을 **20%→30%**로 올리는 안.\n자진신고 감면 혜택 축소까지 겹쳐 기업 제재 부담 가중 전망.",
       "source_url": "https://www.edaily.co.kr/News/Read?newsId=02099206645608984&mediaCodeNo=257",
-      "published_at": "3시간 전"
+      "published_at": "3시간 전",
+      "topics": [
+        "institution",
+        "enforce"
+      ]
     },
     {
       "category": "news",
@@ -67,7 +89,10 @@
       "headline": "공정위 '건설 카르텔' 전담조직 가동…정비사업 수주전 촉각",
       "summary": "재건축·재개발 사업장 배분·입찰 참여 조율이 담합으로 걸릴 수 있다는 우려 확산.\n건설사 간 물량 나누기 관행이 점검 대상.",
       "source_url": "https://v.daum.net/v/0jcATBwaW0?f=p",
-      "published_at": "17시간 전"
+      "published_at": "17시간 전",
+      "topics": [
+        "cartel"
+      ]
     },
     {
       "category": "news",
@@ -75,7 +100,10 @@
       "headline": "공정위, 대형유통업체 납품·입점업체 영업이익률 첫 조사",
       "summary": "올해 처음으로 수익성 지표를 조사 항목에 포함.\n기존 불공정거래 경험·거래관행 조사에서 범위 확대.",
       "source_url": "https://www.finomy.com/news/articleView.html?idxno=262713",
-      "published_at": "15시간 전"
+      "published_at": "15시간 전",
+      "topics": [
+        "subcon"
+      ]
     },
     {
       "category": "news",
@@ -83,7 +111,11 @@
       "headline": "4년간 현장조사 701건 모두 불시 조사…쿠팡만 \"7일 전 통지\" 요구",
       "summary": "최근 4년간 사전에 조사 사실을 통지한 사례는 **단 한 건도** 없던 것으로 확인.\n쿠팡의 사전통지 누락 주장이 조사 관행과 배치된다는 지적.",
       "source_url": "https://www.sedaily.com/article/20096956",
-      "published_at": "22시간 전"
+      "published_at": "22시간 전",
+      "topics": [
+        "platform",
+        "institution"
+      ]
     },
     {
       "category": "news",
@@ -91,7 +123,10 @@
       "headline": "국감 증인 엇갈린 유통가…CJ제일제당·MBK 출석, GS리테일·CJ ENM 제외",
       "summary": "**10월 7일** 식품 원재료 담합·홈플러스 사태 집중 질의 예정.\n티빙 개인정보 유출 관련 최주희 대표 출석은 유지.",
       "source_url": "https://sateconomy.co.kr/news/view/1065576357477093",
-      "published_at": "22시간 전"
+      "published_at": "22시간 전",
+      "topics": [
+        "institution"
+      ]
     }
   ],
   "generated_at": "2026-10-01T23:41:30.000Z"

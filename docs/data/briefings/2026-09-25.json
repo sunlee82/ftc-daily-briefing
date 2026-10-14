@@ -18,42 +18,62 @@
       "headline": "공정위, 쿠팡 동일인 지정자료 위법사항 조사 중",
       "summary": "김범석 쿠팡Inc 의장 동일인(총수) 지정 신청 자료가 조사 대상.\n과거 친족 경영 참여 은폐 정황 파악, 하반기 엄정 조치 예고.",
       "source_url": "https://news.einfomax.co.kr/news/articleView.html?idxno=4436408",
-      "published_at": "20시간 전"
+      "published_at": "20시간 전",
+      "topics": [
+        "group",
+        "platform"
+      ]
     },
     {
       "category": "news",
       "headline": "공정위 직원 50명, 로펌 등 외부인 접촉 보고 누락 적발",
       "summary": "25일 국회 정무위 국정감사 자료로 확인, 최근 5년간 집계.\n접촉 대다수는 담당 사건 관련 로펌 관계자와의 만남.",
       "source_url": "https://news.jkn.co.kr/post/996327",
-      "published_at": "21분 전"
+      "published_at": "21분 전",
+      "topics": [
+        "institution"
+      ]
     },
     {
       "category": "news",
       "headline": "대기업 제재 763건 중 절반이 '경고'…과징금은 최종 44.8% 감경",
       "summary": "356건이 경고 처분에 그쳐 '솜방망이' 지적 제기.\n올해 누적 과징금은 벌써 지난해 연간 총액의 3배.",
       "source_url": "https://v.daum.net/v/yF9tSFgRsr",
-      "published_at": "4시간 전"
+      "published_at": "4시간 전",
+      "topics": [
+        "enforce"
+      ]
     },
     {
       "category": "news",
       "headline": "CP(자율준수프로그램) 신청 4년 새 7.8배 증가…대기업 78%는 무관심",
       "summary": "송언석 의원, 국정감사 앞두고 공정위 CP 운영 현황 분석 발표.\n대기업집단 상당수가 등급평가·신청 자체를 여전히 외면.",
       "source_url": "https://v.daum.net/v/20260925080152801",
-      "published_at": "33분 전"
+      "published_at": "33분 전",
+      "topics": [
+        "institution"
+      ]
     },
     {
       "category": "news",
       "headline": "공정거래 분쟁조정 5건 중 1건이 쿠팡…올해만 438건",
       "summary": "1~8월 한국공정거래조정원 접수 분쟁조정 중 19.4%가 쿠팡 상대.\n국회 정무위 국정감사 자료로 집계.",
       "source_url": "https://www.alphabiz.co.kr/news/articleView.html?idxno=190389",
-      "published_at": "9시간 전"
+      "published_at": "9시간 전",
+      "topics": [
+        "platform",
+        "institution"
+      ]
     },
     {
       "category": "news",
       "headline": "공정위, 10월 2차 조직개편 초읽기…신설 국장·상임위원 하마평",
       "summary": "대대적 조직개편과 고위급 인사로 하반기 진용 재정비 전망.\n신설 국장직·상임위원 인선 놓고 하마평 무성.",
       "source_url": "https://www.asiae.co.kr/article/2026092313571062178",
-      "published_at": "22시간 전"
+      "published_at": "22시간 전",
+      "topics": [
+        "institution"
+      ]
     }
   ],
   "generated_at": "2026-09-24T23:41:33.000Z"

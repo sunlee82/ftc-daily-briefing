@@ -21,7 +21,10 @@
       "headline": "공정위 인사…부이사관 승진",
       "summary": "소비자정책총괄과장 권순국, 가맹거래조사과장 이득규 등이 부이사관으로 승진했습니다.",
       "source_url": "https://www.donga.com/news/People/article/all/20260716/134308802/2",
-      "published_at": "5시간 전"
+      "published_at": "5시간 전",
+      "topics": [
+        "institution"
+      ]
     },
     {
       "category": "news",
@@ -31,7 +34,11 @@
       "headline": "밀가루·은행LTV·HDC 우회지원 조사팀에 2100만원 포상",
       "summary": "공정위가 제2회 특별성과 포상금 수여식을 열고 민생 3대 담합에 1500만원 등 총 2100만원을 수여했습니다.",
       "source_url": "https://v.daum.net/v/fRJ9AaLxNu",
-      "published_at": "22시간 전"
+      "published_at": "22시간 전",
+      "topics": [
+        "institution",
+        "group"
+      ]
     },
     {
       "category": "news",
@@ -41,7 +48,11 @@
       "headline": "야놀자·여기어때 등 숙박플랫폼 약관 공정위 제소",
       "summary": "국내외 주요 숙박 플랫폼 5개사가 오버부킹 취소 시 환불만 하는 배상 기준 약관 문제로 공정위에 제소당했습니다.",
       "source_url": "https://newsfield.net/%EC%98%A4%EB%B2%84%EB%B6%80%ED%82%B9-%EC%AB%93%EA%B2%A8%EB%82%98%EB%8F%84-%ED%99%98%EB%B6%88%EB%BF%90%EC%95%BC%EB%86%80%EC%9E%90%C2%B7%EC%97%AC%EA%B8%B0%EC%96%B4%EB%95%8C/",
-      "published_at": "14시간 전"
+      "published_at": "14시간 전",
+      "topics": [
+        "consumer",
+        "platform"
+      ]
     },
     {
       "category": "news",
@@ -51,7 +62,11 @@
       "headline": "KT 밀리의서재 결합상품 공정위 제재 여부 주목",
       "summary": "공정위가 KT가 계열사 밀리의서재를 활용한 결합상품 판매 과정에서 부당 지원이 있었는지를 들여다보고 있습니다.",
       "source_url": "https://www.metroseoul.co.kr/article/20260715500362",
-      "published_at": "18시간 전"
+      "published_at": "18시간 전",
+      "topics": [
+        "enforce",
+        "group"
+      ]
     },
     {
       "category": "news",
@@ -61,7 +76,11 @@
       "headline": "롯데웰푸드 아이스크림 담합 불복소송 대법 선고 임박",
       "summary": "아이스크림 가격 담합으로 과징금을 받은 롯데웰푸드의 불복소송 대법원 선고가 16일로 예정돼 있습니다.",
       "source_url": "https://www.bloter.net/news/articleView.html?idxno=668147",
-      "published_at": "21시간 전"
+      "published_at": "21시간 전",
+      "topics": [
+        "enforce",
+        "cartel"
+      ]
     }
   ],
   "generated_at": "2026-07-16T00:56:17.906Z"

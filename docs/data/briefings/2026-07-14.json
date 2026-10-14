@@ -16,7 +16,11 @@
       "headline": "전자상거래법 시행령·시행규칙 및 과징금 고시 개정",
       "summary": "담당부서: 소비자거래정책과 (보도/참고자료)",
       "source_url": "https://www.ftc.go.kr/www/selectBbsNttView.do?pageUnit=10&pageIndex=1&searchCnd=all&key=12&bordCd=3&searchCtgry=01,02&nttSn=47730",
-      "published_at": "2026-07-14"
+      "published_at": "2026-07-14",
+      "topics": [
+        "consumer",
+        "institution"
+      ]
     },
     {
       "category": "press",
@@ -24,7 +28,10 @@
       "headline": "’25년 하반기 하도급대금 결제조건 공시 점검결과",
       "summary": "담당부서: 하도급조사과 (보도/참고자료)",
       "source_url": "https://www.ftc.go.kr/www/selectBbsNttView.do?pageUnit=10&pageIndex=1&searchCnd=all&key=12&bordCd=3&searchCtgry=01,02&nttSn=47728",
-      "published_at": "2026-07-14"
+      "published_at": "2026-07-14",
+      "topics": [
+        "subcon"
+      ]
     },
     {
       "category": "committee",
@@ -32,7 +39,10 @@
       "headline": "2026-07-14 위원회 소식",
       "summary": "##[주요일정]##\n· **위원장**: 10:00 국무회의(청와대)\n\n##[인사발령]##\n· 카르텔조사국 국제카르텔조사과 행정사무관 **신경화** - 카르텔조사국 제조카르텔조사과 지원근무를 해제함 (2026. 7. 14.)\n· 조사관리관실 조사총괄담당관실 행정서기보(일반임기제) **양윤석** - 원에 의하여 그 직을 면함 (2026. 7. 14.)",
       "source_url": "https://www.ftc.go.kr/www/selectBbsNttView.do?pageUnit=10&pageIndex=1&searchCnd=all&key=15&bordCd=5&nttSn=47729",
-      "published_at": "2026-07-14"
+      "published_at": "2026-07-14",
+      "topics": [
+        "institution"
+      ]
     },
     {
       "category": "news",
@@ -42,7 +52,10 @@
       "headline": "전자상거래법 개정안 시행",
       "summary": "개인 간 중고거래 시 신원 노출 최소화, 상습 위반 사업자 과징금 가중, 알리·테무 등 해외 직구 플랫폼의 국내 대리인 지정 의무가 시행됩니다.",
       "source_url": "https://www.smedaily.co.kr/news/articleView.html?idxno=360283",
-      "published_at": "2시간 전"
+      "published_at": "2시간 전",
+      "topics": [
+        "consumer"
+      ]
     },
     {
       "category": "news",
@@ -52,7 +65,11 @@
       "headline": "전자상거래법 반복 위반 시 과징금 최대 100% 가중",
       "summary": "전자상거래 플랫폼이 관련 법을 반복 위반하면 과징금이 최대 100%까지 가중되며, C2C 거래에서도 플랫폼 관련 규정이 강화됩니다.",
       "source_url": "https://mobile.newsis.com/view_amp.html?ar_id=NISX20260714_0003708212",
-      "published_at": "3시간 전"
+      "published_at": "3시간 전",
+      "topics": [
+        "consumer",
+        "enforce"
+      ]
     },
     {
       "category": "news",
@@ -62,7 +79,10 @@
       "headline": "김범석 동일인 지정 효력정지",
       "summary": "법원이 김범석 쿠팡Inc 의장을 쿠팡 기업집단 동일인으로 지정한 공정위 처분의 효력을 본안 판결 전까지 일시 정지했습니다.",
       "source_url": "https://imnews.imbc.com/news/2026/society/article/6837318_36918.html",
-      "published_at": "3시간 전"
+      "published_at": "3시간 전",
+      "topics": [
+        "group"
+      ]
     },
     {
       "category": "news",
@@ -72,7 +92,10 @@
       "headline": "공정위 '혐의 사전공개' 논란…SM 반발",
       "summary": "공정위가 전원회의 개최 전 기업 불공정거래 혐의를 언론에 공개해 논란이 일고 있으며, SM 측은 부당기업으로 낙인찍혀 억울하다고 반발했습니다.",
       "source_url": "https://www.ekn.kr/web/view.php?key=20260714022362425",
-      "published_at": "1분 전"
+      "published_at": "1분 전",
+      "topics": [
+        "institution"
+      ]
     }
   ],
   "generated_at": "2026-07-14T07:37:03.062Z"

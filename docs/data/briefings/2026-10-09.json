@@ -19,7 +19,10 @@
       "headline": "SKT T멤버십 제휴 할인, 비용 최대 절반을 가맹점주가 부담",
       "summary": "제휴사·가맹본부·점주 사이의 비용 분담 구조가 쟁점.\nSKT 분담분이 **0원**인 계약도 확인됨.",
       "source_url": "https://mobile.newsis.com/view_amp.html?ar_id=NISX20261008_0003818937",
-      "published_at": "16시간 전"
+      "published_at": "16시간 전",
+      "topics": [
+        "subcon"
+      ]
     },
     {
       "category": "news",
@@ -27,7 +30,11 @@
       "headline": "SK에너지, 44조 담합 심의 하루 만에 사과…4대 쇄신안 발표",
       "summary": "공급가격 주 단위 사전 고지·**사후정산 폐지**, 경쟁사 접촉 사전승인제 도입.\n검찰 수사에선 자진신고 감면으로 기소 피함 — HD현대오일뱅크는 '사실무근' 부인.",
       "source_url": "https://www.mk.co.kr/news/economy/12171525",
-      "published_at": "17시간 전"
+      "published_at": "17시간 전",
+      "topics": [
+        "cartel",
+        "enforce"
+      ]
     },
     {
       "category": "news",
@@ -35,7 +42,10 @@
       "headline": "공정위, 한화·CJ 상표권 사용료 잇단 조사…'브랜드값' 기준 논란",
       "summary": "적정 사용료를 가릴 공정위 기준이 불투명하다는 지적.\n사익편취 해당 여부를 판단할 잣대가 쟁점.",
       "source_url": "https://www.meconomynews.com/news/articleView.html?idxno=202069",
-      "published_at": "15시간 전"
+      "published_at": "15시간 전",
+      "topics": [
+        "group"
+      ]
     },
     {
       "category": "news",
@@ -43,7 +53,10 @@
       "headline": "JW중외제약 과징금 299억 소송, 대법원서 최종 판단",
       "summary": "서울고법의 과징금 납부명령 취소 판결에 상고가 제기됨.\n**2018년** 조사로 시작된 리베이트 제재의 적법성이 쟁점.",
       "source_url": "https://www.kpanews.co.kr/news/articleView.html?idxno=545955",
-      "published_at": "15시간 전"
+      "published_at": "15시간 전",
+      "topics": [
+        "enforce"
+      ]
     },
     {
       "category": "news",
@@ -51,7 +64,10 @@
       "headline": "[단독] 대기업 상표권 사용료 7년간 69% 늘어 2.2조",
       "summary": "**2018년** 대비 **69%** 증가 — 기업별 산정식은 제각각.\n적정가격 판단 기준이 없어 정상가 기준을 세워야 한다는 지적.",
       "source_url": "https://biz.chosun.com/industry/company/2026/10/08/RRGYHO2PDVBS3MGOPAX7PMVU3E/?outputType=amp",
-      "published_at": "16시간 전"
+      "published_at": "16시간 전",
+      "topics": [
+        "group"
+      ]
     }
   ],
   "generated_at": "2026-10-08T23:41:05.496Z"

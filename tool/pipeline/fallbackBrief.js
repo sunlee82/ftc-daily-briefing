@@ -25,6 +25,7 @@
 const fs = require("fs");
 const path = require("path");
 const { loadPublishedUrls } = require("./publishedUrls");
+const { tagItem } = require("./topics");
 
 const PENDING = path.join("tool", "pending", "today.json");
 const BRIEF_DIR = path.join("docs", "data", "briefings");
@@ -278,6 +279,7 @@ async function main() {
   );
 
   const items = [...press, ...committee, ...news];
+  for (const it of items) it.topics = tagItem(it);
   if (!items.length) { log("실을 항목이 없음 — 브리핑을 만들지 않음"); return 0; }
 
   const top = [...press, ...news].slice(0, 3).map((i) => i.headline);

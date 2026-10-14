@@ -19,7 +19,10 @@
       "headline": "2026-10-12 위원회 소식",
       "summary": "##[주요일정]##\n· **위원장**: 10:00 정책감사(국회)\n· **부위원장**: 10:00 정책감사(국회)\n\n##[인사발령]##\n· **우병훈** 서기관(공정거래위원회) - 중점조사기획단 중점조사3담당관 직무대리를 해제함, 중점조사기획단 중점조사3담당관에 보함",
       "source_url": "https://www.ftc.go.kr/www/selectBbsNttView.do?pageUnit=10&pageIndex=1&searchCnd=all&key=15&bordCd=5&nttSn=48099",
-      "published_at": "2026-10-08"
+      "published_at": "2026-10-08",
+      "topics": [
+        "institution"
+      ]
     },
     {
       "category": "news",
@@ -27,7 +30,11 @@
       "headline": "반복되는 담합, 이유 있었다…\"과징금, 관련 매출의 6% 미만\"",
       "summary": "**2024년~지난달** 처리 담합 사건 관련매출 **36조3,894억원**, 과징금 **2조1,299억원**.\n부과율 **5.85%** — 현행 과징금으론 반복 담합 억제 어렵다는 지적.",
       "source_url": "https://www.hankyung.com/article/202610124959g",
-      "published_at": "20분 전"
+      "published_at": "20분 전",
+      "topics": [
+        "cartel",
+        "enforce"
+      ]
     },
     {
       "category": "news",
@@ -35,7 +42,10 @@
       "headline": "공정위, 과징금 소송 패소로 돌려준 돈 올해만 230억원",
       "summary": "행정소송에서 패해 기업에 반환한 과징금 기준.\n일단 부과 후 패소해 혈세로 되돌려준다는 비판.",
       "source_url": "https://www.e-sejong.co.kr/news/articleView.html?idxno=14546",
-      "published_at": "12시간 전"
+      "published_at": "12시간 전",
+      "topics": [
+        "enforce"
+      ]
     },
     {
       "category": "news",
@@ -43,7 +53,11 @@
       "headline": "부승찬 의원 \"3기 신도시 10곳 중 6곳 감리에 입찰담합 제재업체 참여\"",
       "summary": "과거 공공건설 감리용역 입찰담합으로 제재받은 업체들이 대상.\n감리업체 선정 기준 개선 필요성 제기.",
       "source_url": "https://www.jnewstimes.com/news/article.html?no=760834",
-      "published_at": "11시간 전"
+      "published_at": "11시간 전",
+      "topics": [
+        "cartel",
+        "enforce"
+      ]
     },
     {
       "category": "news",
@@ -51,7 +65,10 @@
       "headline": "오갑수 공정위 건설하도급과장 \"건설하도급 불공정 관행 척결\"",
       "summary": "'정부 정책을 듣는다' 연재 마지막 회 인터뷰.\n불공정 하도급은 기업 간 분쟁 넘어 중소업체 생존 문제라고 강조.",
       "source_url": "https://www.kmecnews.co.kr/news/articleView.html?idxno=52214",
-      "published_at": "3시간 전"
+      "published_at": "3시간 전",
+      "topics": [
+        "subcon"
+      ]
     }
   ],
   "generated_at": "2026-10-12T00:10:00.000Z"

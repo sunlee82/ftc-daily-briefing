@@ -19,7 +19,10 @@
       "headline": "2026-09-14 위원회 소식",
       "summary": "##[주요일정]##\n· **위원장**: 09:30 현안점검 간부회의(대회의실), 15:00 HD현대케미컬 상생협약 행사(서산 대산산단)\n· **부위원장**: 09:30 현안점검 간부회의(대회의실)\n\n##[인사발령]##\n· **박현철** 행정사무관 - 기업거래결합심사국 기술유용조사과 근무를 명함\n· **곽인서·권태욱·김다윤·김민서·김보민·김태은·박경리·박지환·변현민·손예원·손재혁·신준규·윤하영·임상화·정덕진·조진혁·최동균·최서우** 행정사무관시보(인사혁신처) - 공정거래위원회 근무(실무수습) 및 신규자교육(3기) 교육훈련을 명함(2026.9.14~2026.10.15)\n· **안성민** 행정주사보 - 서울지방공정거래사무소 경쟁과 근무를 명함\n· **김소연** 행정주사(시보) - 경인지방공정거래사무소 제조하도급과 근무를 명함\n· **백지원·서준혁·이도연** 행정서기보(시보) - 공정거래위원회 근무 및 신규자교육(3기) 교육훈련을 명함(2026.9.14~2026.9.18)\n· **민영은·이동욱·한승헌** 전산서기보(시보) - 공정거래위원회 근무 및 신규자교육(3기) 교육훈련을 명함(2026.9.14~2026.9.18)",
       "source_url": "https://www.ftc.go.kr/www/selectBbsNttView.do?pageUnit=10&pageIndex=1&searchCnd=all&key=15&bordCd=5&nttSn=48005",
-      "published_at": "2026-09-11"
+      "published_at": "2026-09-11",
+      "topics": [
+        "institution"
+      ]
     },
     {
       "category": "news",
@@ -29,7 +32,10 @@
       "headline": "공정위, 가맹점주 단체 등록제 보완 검토…업계 \"현장 부담 살펴야\"",
       "summary": "가맹점사업자단체 등록제·협의의무제 세부 운영기준 두고 이견.\n의견제출 마감(**9월 14일**)에도 가맹본부·점주 입장차 여전.",
       "source_url": "https://www.shinailbo.co.kr/news/articleView.html?idxno=5061603",
-      "published_at": "25분 전"
+      "published_at": "25분 전",
+      "topics": [
+        "subcon"
+      ]
     },
     {
       "category": "news",
@@ -39,7 +45,8 @@
       "headline": "\"걸리면 망한다\"더니…대기업들 1.3조 '폭탄' 맞았다",
       "summary": "최근 **4년**치 누적 과징금 넘어서는 규모.\n대통령 지시에 따른 조사 강화가 배경으로 지목.",
       "source_url": "https://www.hankyung.com/article/2026091314021",
-      "published_at": "15시간 전"
+      "published_at": "15시간 전",
+      "topics": []
     },
     {
       "category": "news",
@@ -49,7 +56,11 @@
       "headline": "역대급 과징금에 기업도 적극 대응…한계 부딪힌 공정위 조사 방식",
       "summary": "임의조사 한계 지적에 **영장제 도입** 필요성도 제기.\n기업들 불복소송 등으로 적극 대응하는 추세.",
       "source_url": "https://news.nate.com/view/20260913n13400",
-      "published_at": "15시간 전"
+      "published_at": "15시간 전",
+      "topics": [
+        "institution",
+        "enforce"
+      ]
     },
     {
       "category": "news",
@@ -59,7 +70,11 @@
       "headline": "병원 납품 '통행세' 간납사 논란…\"공정위 3년째 검토만\"",
       "summary": "박성훈 의원, 의료기기 독점공급·리베이트 등 불공정거래 지적.\n건강보험 재정 누수 우려하며 즉각 조사 촉구.",
       "source_url": "https://www.akomnews.com/bbs/board.php?bo_table=news&wr_id=67989&sfl=wr_subject%7C%7Cwr_content&stx=%ED%95%9C%EC%9D%98+%EC%9D%98%EB%A3%8C%EA%B8%B0%EA%B8%B0&sop=or&page=36&device=pc",
-      "published_at": "22시간 전"
+      "published_at": "22시간 전",
+      "topics": [
+        "subcon",
+        "group"
+      ]
     }
   ],
   "generated_at": "2026-09-13T23:44:47.000Z"

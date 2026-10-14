@@ -19,7 +19,11 @@
       "headline": "2개 이사서비스 업체의 부당광고 제재",
       "summary": "로젠이사·착한이사의 가격·수상 실적 거짓광고에 과징금·시정명령 부과\n- 과징금 총 **2억1900만원**(착한이사 1억3200만원, 로젠이사 8700만원)\n- 착한이사 \"전국 최저가\" 등 근거 없는 가격 광고(**2021.2~2026.4**)\n- 로젠이사 \"대한민국 no.1\" 등 수상 사실 기만 광고(**2021.1~2026.5**)\n- 두 업체 모두 이용자 수 부풀림 광고, 공표명령도 병과",
       "source_url": "https://www.ftc.go.kr/www/selectBbsNttView.do?pageUnit=10&pageIndex=1&searchCnd=all&key=12&bordCd=3&searchCtgry=01,02&nttSn=48059",
-      "published_at": "2026-09-29"
+      "published_at": "2026-09-29",
+      "topics": [
+        "consumer",
+        "enforce"
+      ]
     },
     {
       "category": "press",
@@ -27,7 +31,10 @@
       "headline": "소비자 안심 유통환경 조성 등을 위한 업무 협약 체결",
       "summary": "공정위 등 4개 기관, 소비자 보호·유통산업 발전 위한 업무협약 체결\n- 소비자24와 상품정보 표준DB 연계, **40만여건** 상품정보 제공\n- '유통산업 협력협의회' 구성, 공동 정책과제·제도개선 발굴\n- 대규모유통업법·유통산업발전법 등 유통 제도개선 과제로 포함",
       "source_url": "https://www.ftc.go.kr/www/selectBbsNttView.do?pageUnit=10&pageIndex=1&searchCnd=all&key=12&bordCd=3&searchCtgry=01,02&nttSn=48060",
-      "published_at": "2026-09-29"
+      "published_at": "2026-09-29",
+      "topics": [
+        "consumer"
+      ]
     },
     {
       "category": "committee",
@@ -35,7 +42,10 @@
       "headline": "2026-09-30 위원회 소식",
       "summary": "##[주요일정]##\n· **위원장**: 전원회의(심판정)\n\n##[인사발령]##\n· **임효진** 행정주사보(일반임기제, 조사관리관실 디지털포렌식담당관실) - 근무기간 연장(2026.9.30.~2029.9.29.)",
       "source_url": "https://www.ftc.go.kr/www/selectBbsNttView.do?pageUnit=10&pageIndex=1&searchCnd=all&key=15&bordCd=5&nttSn=48062",
-      "published_at": "2026-09-29"
+      "published_at": "2026-09-29",
+      "topics": [
+        "institution"
+      ]
     },
     {
       "category": "news",
@@ -43,7 +53,11 @@
       "headline": "주병기 위원장, 쿠팡 현장조사 재착수 의지 밝혀",
       "summary": "美 '차별 제재' 주장엔 선 그으며 조사 재개 방침 재확인.\n조사 거부로 막혔던 현장조사, 조만간 다시 착수 예고.",
       "source_url": "https://www.ytn.co.kr/_cs/_ln_0102_202609291700388003_005.html",
-      "published_at": "16시간 전"
+      "published_at": "16시간 전",
+      "topics": [
+        "institution",
+        "platform"
+      ]
     },
     {
       "category": "news",
@@ -51,7 +65,11 @@
       "headline": "공정위, '대리점법 위반' 의혹 대교·재능교육 현장조사",
       "summary": "학습지 업계 대리점 거래 관행 전반 겨냥한 조사로 풀이.\n이번 주 대교·재능교육 양사 본사에서 동시 진행.",
       "source_url": "https://www.yonhapnewstv.co.kr/news/AKR20260929174940ujr",
-      "published_at": "15시간 전"
+      "published_at": "15시간 전",
+      "topics": [
+        "subcon",
+        "institution"
+      ]
     },
     {
       "category": "news",
@@ -59,7 +77,11 @@
       "headline": "쿠팡, 공정위 현장조사 집행정지 기각에 재항고",
       "summary": "쿠팡, '사전통지 7일 누락' 주장하며 조사 취소소송도 제기.\n공정위는 집행정지와 무관하게 조사 재개 가능 입장.",
       "source_url": "https://www.newspim.com/news/view/20260929000954",
-      "published_at": "17시간 전"
+      "published_at": "17시간 전",
+      "topics": [
+        "enforce",
+        "platform"
+      ]
     },
     {
       "category": "news",
@@ -67,7 +89,11 @@
       "headline": "국고채 담합 제재 임박, 첫 리니언시 활용 증권사 놓고 신경전",
       "summary": "한 증권사가 가장 먼저 자진신고자 감면(리니언시) 활용한 사실 알려져.\n제재 임박 속 감면 혜택 형평성 두고 업계 반응 갈려.",
       "source_url": "https://www.asiatoday.co.kr/kn/view.php?key=20260930010010394",
-      "published_at": "15시간 전"
+      "published_at": "15시간 전",
+      "topics": [
+        "cartel",
+        "enforce"
+      ]
     },
     {
       "category": "news",
@@ -75,7 +101,10 @@
       "headline": "LH 담합업체, 3천억 수주하고도 손배 875억 미납",
       "summary": "LH 발주 건설사업관리(CM) 입찰담합 적발 업체들, 지난해 사업 다수 수주.\n담합 적발 이력이 이후 입찰 평가에 곧바로 반영되지 않는 구조적 문제로 지적.",
       "source_url": "https://news.jkn.co.kr/post/1001728",
-      "published_at": "2시간 전"
+      "published_at": "2시간 전",
+      "topics": [
+        "cartel"
+      ]
     },
     {
       "category": "news",
@@ -83,7 +112,10 @@
       "headline": "공정위, 대기업 과징금 8개월 만에 1.8조원…건당 제재액 10배",
       "summary": "올해 대기업 과징금 100건에 1조8195억원, 건당 평균 10배 급증.\n삼양사 4354억원·CJ제일제당 3740억원 등 대형 담합사건 집중.",
       "source_url": "https://sateconomy.co.kr/news/view/1065600250328605",
-      "published_at": "15시간 전"
+      "published_at": "15시간 전",
+      "topics": [
+        "enforce"
+      ]
     },
     {
       "category": "news",
@@ -91,7 +123,10 @@
       "headline": "약손명가·빛채, 불공정 가맹계약 21개 조항 시정",
       "summary": "가맹계약서 13개 조항 총 21개 항목이 시정 대상으로 통보.\n가맹점사업자협의회 요청에 따라 공정위가 조치.",
       "source_url": "https://www.financialpost.co.kr/news/articleView.html?idxno=277853",
-      "published_at": "17시간 전"
+      "published_at": "17시간 전",
+      "topics": [
+        "subcon"
+      ]
     },
     {
       "category": "news",
@@ -99,7 +134,11 @@
       "headline": "[단독] 먹거리 담합 과징금 10년간 2.2조…실제 징수는 10분의 1",
       "summary": "부과 과징금 중 61%가 미납 상태, 27.4%는 자진신고로 감면.\n설탕·밀가루 등 국민 먹거리 담합 반복에도 회수율 저조.",
       "source_url": "https://m.segye.com/ampView/20260929516031",
-      "published_at": "15시간 전"
+      "published_at": "15시간 전",
+      "topics": [
+        "cartel",
+        "enforce"
+      ]
     }
   ],
   "generated_at": "2026-09-29T23:40:52.000Z"

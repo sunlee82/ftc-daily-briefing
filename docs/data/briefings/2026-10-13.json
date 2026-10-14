@@ -20,7 +20,10 @@
       "headline": "2026-10-13 위원회 소식",
       "summary": "##[주요일정]##\n· **위원장**: 10:00 국무회의(청와대)",
       "source_url": "https://www.ftc.go.kr/www/selectBbsNttView.do?pageUnit=10&pageIndex=1&searchCnd=all&key=15&bordCd=5&nttSn=48100",
-      "published_at": "2026-10-12"
+      "published_at": "2026-10-12",
+      "topics": [
+        "institution"
+      ]
     },
     {
       "category": "news",
@@ -28,7 +31,11 @@
       "headline": "과징금 1.3조원에 로펌행까지…공정위 전관 카르텔 우려",
       "summary": "이동통신 3사 담합 사건, **5.5조→964억원**으로 줄어든 사례가 국감서 거론됨.\n공정위 출신 로펌 재취업자 **10명 중 6명** — \"로펌 취업사관학교\" 비판.",
       "source_url": "https://www.newspim.com/news/view/20261012001384",
-      "published_at": "15시간 전"
+      "published_at": "15시간 전",
+      "topics": [
+        "institution",
+        "cartel"
+      ]
     },
     {
       "category": "news",
@@ -36,7 +43,11 @@
       "headline": "국감 소환 정유 4사 \"유가 부담 송구\"…담합 의혹엔 \"절차 따라 소명\"",
       "summary": "SK에너지·HD현대오일뱅크 대표 사과, 경영진 관여 여부엔 즉답 피함.\n전량구매계약·사후정산 등 주유소 거래관행 개선 약속 — 최고가격제 손실보전도 질의.",
       "source_url": "https://www.news1.kr/industry/general-industry/6317427",
-      "published_at": "14시간 전"
+      "published_at": "14시간 전",
+      "topics": [
+        "cartel",
+        "institution"
+      ]
     },
     {
       "category": "news",
@@ -44,7 +55,10 @@
       "headline": "주병기 \"정유사 담합 조사결과, 최고가 손실보전액 검증에 활용 협의\"",
       "summary": "정부 최고가격제에 따른 정유사 손실보전액이 대상.\n담합 가격에 세금이 보전된다는 논란 속 관계부처와 협의 방침.",
       "source_url": "https://www.fnnews.com/news/202610121823168419",
-      "published_at": "14시간 전"
+      "published_at": "14시간 전",
+      "topics": [
+        "cartel"
+      ]
     },
     {
       "category": "news",
@@ -52,7 +66,10 @@
       "headline": "[사설] 국감에 정유사 경영진 꼭 불러야 했나",
       "summary": "SK에너지·HD현대오일뱅크 담합 사건이 공정위 심의 중인 시점의 경영진 증인 소환을 문제 삼은 사설.",
       "source_url": "https://www.mt.co.kr/amp/opinion/2026/10/13/2026101216230344401",
-      "published_at": "5시간 전"
+      "published_at": "5시간 전",
+      "topics": [
+        "institution"
+      ]
     },
     {
       "category": "news",
@@ -60,7 +77,11 @@
       "headline": "쿠팡 공정위 조사 거부에 여야 반발…\"국회 차원 공동 대응\"",
       "summary": "유동수 정무위원장 \"필요시 입법 보완\", 주병기 위원장은 조사 불응 경제적 제재 강화 방침.\n쿠팡 측은 \"조사 거부 아닌 절차적 권리구제\"라고 맞섬.",
       "source_url": "https://biz.chosun.com/distribution/channel/2026/10/12/4D22LYYA5JBXDGH5R6EH6KXLVE/",
-      "published_at": "14시간 전"
+      "published_at": "14시간 전",
+      "topics": [
+        "institution",
+        "platform"
+      ]
     },
     {
       "category": "news",
@@ -68,7 +89,10 @@
       "headline": "주병기 \"대기업 브랜드 사용료 가이드라인 마련 중\"",
       "summary": "계열사 간 상표권 사용료의 적정 수준을 판단할 기준 제정 방침.\n송언석 의원은 조사 예측가능성 문제 지적 — 배달앱 특별법엔 \"최대한 협력\".",
       "source_url": "https://www.newspim.com/news/view/20261012000690",
-      "published_at": "21시간 전"
+      "published_at": "21시간 전",
+      "topics": [
+        "group"
+      ]
     },
     {
       "category": "news",
@@ -76,7 +100,10 @@
       "headline": "자사주 빼면 사익편취 규제 대상 25곳 늘어…주병기 \"법 개정 필요\"",
       "summary": "의결권 없는 자사주가 지분율 분모에 들어가 규제 사각지대라는 박홍배 의원 지적.\nLS·효성 등 **8개** 집단 계열사가 새로 대상 — 위원장 \"규제 회피 수단 악용은 사실\".",
       "source_url": "https://www.inews24.com/v/2013884",
-      "published_at": "20시간 전"
+      "published_at": "20시간 전",
+      "topics": [
+        "group"
+      ]
     },
     {
       "category": "news",
@@ -84,7 +111,11 @@
       "headline": "주병기 \"담합 과징금 과도하지 않아…부당이익 넘게 물려야 반복 안 돼\"",
       "summary": "한국 담합 과징금이 세계 과징금의 **40%**에 이른다는 지적에 대한 답변.\n처벌받을 기업을 봐주는 것이 더 우려된다는 입장.",
       "source_url": "https://www.news1.kr/economy/trend/6317106",
-      "published_at": "17시간 전"
+      "published_at": "17시간 전",
+      "topics": [
+        "enforce",
+        "cartel"
+      ]
     },
     {
       "category": "news",
@@ -92,7 +123,11 @@
       "headline": "공정위 처분 '고법 직행' 2심제 논란…\"시장 경쟁 회복에 신속함 필요\"",
       "summary": "공정위 의결이 1심을 대신해 사실관계 다툼은 고법에서만 가능.\n유동수 \"조세심판원처럼 독립기구 둬야\", 주병기 \"미국 FTC 수준 절차 보장\".",
       "source_url": "https://www.hankyung.com/article/202610126708i",
-      "published_at": "16시간 전"
+      "published_at": "16시간 전",
+      "topics": [
+        "institution",
+        "enforce"
+      ]
     },
     {
       "category": "news",
@@ -100,7 +135,11 @@
       "headline": "[단독] 380억 갑질에 과징금 900만원?…공정위 간부의 '불공정 훈수'",
       "summary": "**2016년** 대림산업의 협력업체 공사대금 **380억여원** 미지급 사건이 대상.\n당시 공정위 간부가 사건 처리 과정에 부적절하게 관여했다는 의혹.",
       "source_url": "https://news.jtbc.co.kr/article/NB12322606",
-      "published_at": "12시간 전"
+      "published_at": "12시간 전",
+      "topics": [
+        "subcon",
+        "enforce"
+      ]
     }
   ],
   "generated_at": "2026-10-13T00:40:00.000Z"

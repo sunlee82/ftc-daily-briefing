@@ -19,7 +19,11 @@
       "headline": "'갤럭시폰 성능 제한' GOS 사건, 4년 만에 공정위 전원회의 상정",
       "summary": "표시광고법 위반 혐의 — 심사관 의견은 과징금 **최대 644억원**.\n게임 구동 시 성능을 낮춘 설정을 알리지 않은 광고의 기만성이 쟁점.",
       "source_url": "https://m.mk.co.kr/amp/12172461",
-      "published_at": "15시간 전"
+      "published_at": "15시간 전",
+      "topics": [
+        "consumer",
+        "institution"
+      ]
     },
     {
       "category": "news",
@@ -27,7 +31,11 @@
       "headline": "유통사 과징금 산정 기준 개선…납품대금 기준 전면 반영",
       "summary": "위반금액 계산이 어려운 경우 관련 납품대금을 기준으로 과징금 산정.\n대규모유통업체 제재 수준이 전반적으로 올라갈 전망.",
       "source_url": "https://www.polinews.co.kr/news/articleView.html?idxno=745323",
-      "published_at": "19시간 전"
+      "published_at": "19시간 전",
+      "topics": [
+        "subcon",
+        "enforce"
+      ]
     },
     {
       "category": "news",
@@ -35,7 +43,10 @@
       "headline": "코세페·블프 '가짜세일' 점검…할인율 기준은 직전 20일 최저가",
       "summary": "정가를 3배 올린 뒤 **84% 할인**으로 표시한 사례도 확인.\n설 선물세트 **800개 중 12.8%**가 정가를 올려 할인율 과장 — 가격 히스토리로 검증.",
       "source_url": "https://www.imaeil.com/page/view/2026101006540028747",
-      "published_at": "2시간 전"
+      "published_at": "2시간 전",
+      "topics": [
+        "consumer"
+      ]
     },
     {
       "category": "news",
@@ -43,7 +54,10 @@
       "headline": "공정위, 한화 김동선 측 지주사 전환 인정…계열분리 본격화",
       "summary": "한화머시너리앤서비스홀딩스가 **10월 8일** 공시로 지주회사 전환을 확인.\n한화그룹 3세 경영체제 구축과 계열분리가 실행 단계로 진입.",
       "source_url": "https://www.autodaily.co.kr/news/articleView.html?idxno=601060",
-      "published_at": "23시간 전"
+      "published_at": "23시간 전",
+      "topics": [
+        "group"
+      ]
     },
     {
       "category": "news",
@@ -51,7 +65,10 @@
       "headline": "담합 적발돼도 중소기업 피해보상은 '먼 길'",
       "summary": "과징금 **6689억원** LPG 담합 손해배상 소송은 **16년째** 1심 — 가상 경쟁가격 산정이 쟁점.\n구매 입증이 어렵고 거래 보복 우려로 소송을 포기하는 사례도 많음.",
       "source_url": "https://www.hankyung.com/article/2026100928561",
-      "published_at": "15시간 전"
+      "published_at": "15시간 전",
+      "topics": [
+        "cartel"
+      ]
     }
   ],
   "generated_at": "2026-10-09T23:39:47.000Z"

@@ -1,66 +1,84 @@
 {
- "id": "2026-10-07",
- "date": "2026-10-07",
- "title": "공정위, bhc·BBQ·교촌 치킨값 담합 현장조사",
- "summary": "**bhc·BBQ·교촌** 치킨값 담합 혐의로 공정위 **카르텔조사국** 현장조사 착수\n공정위, 다크패턴 **13개 유형** 가이드라인 배포 — 탈퇴 버튼 **첫 화면** 배치 권고\n공정위법 **5회 이상** 위반 대기업 **8곳**, 산업부 산하기관서 **210억** 지원 수령",
- "competitors": [
-  "공정거래위원회"
- ],
- "keywords": [
-  "공정위",
-  "담합",
-  "현장조사",
-  "다크패턴"
- ],
- "items": [
-  {
-   "category": "press",
-   "category_label": "공정위 보도자료",
-   "headline": "온라인 다크패턴 규제 관련 가이드라인 배포",
-   "summary": "공정위, 전자상거래법상 다크패턴 **13개 유형** 운영 가이드라인 배포\n- 자율관리 가이드라인(**'23.7월**)·**6개 유형** 규제 문답서(**'25.2월**) 통합·현행화\n- 유형별 개념·핵심 준수사항·세부 유의사항·구체적 법 위반 예시 제시\n- 취소·탈퇴 버튼은 로그인 첫 화면 또는 '마이페이지' 배치 권고\n- 온라인 인터페이스 **5가지 금지행위**(법 제21조의2), 정기결제 증액·유료 전환 시 동의·고지 의무 안내",
-   "source_url": "https://www.ftc.go.kr/www/selectBbsNttView.do?pageUnit=10&pageIndex=1&searchCnd=all&key=12&bordCd=3&searchCtgry=01,02&nttSn=48089",
-   "published_at": "2026-10-06"
-  },
-  {
-   "category": "press",
-   "category_label": "공정위 보도자료",
-   "headline": "카본러닝화 7종 품질 비교 정보 제공",
-   "summary": "한국소비자원, 카본 러닝화 **7개 브랜드** 기능성·내구성·안전성 시험평가 결과 공개\n- 충격흡수 우수 **2개**(나이키·푸마), 최대견인력 우수 **2개**(스케쳐스·아식스)\n- 접착강도 우수 **4개**, 겉창 마모 최소 호카 **2.4mm** — 유해물질 **5종**은 전 제품 기준 적합\n- **3개 제품**(아디다스·푸마·호카) 혼용률 오표기·안감 표시 누락 → 업체 개선 완료·예정\n- 가격 **18만9천~27만9천원**, 무게 **198~301g** — '소비자24' 비교공감에 게시 예정",
-   "source_url": "https://www.ftc.go.kr/www/selectBbsNttView.do?pageUnit=10&pageIndex=1&searchCnd=all&key=12&bordCd=3&searchCtgry=01,02&nttSn=48090",
-   "published_at": "2026-10-06"
-  },
-  {
-   "category": "committee",
-   "category_label": "위원회 소식",
-   "headline": "2026-10-07 위원회 소식",
-   "summary": "주요일정·인사발령 내용 없음",
-   "source_url": "https://www.ftc.go.kr/www/selectBbsNttView.do?pageUnit=10&pageIndex=1&searchCnd=all&key=15&bordCd=5&nttSn=48093",
-   "published_at": "2026-10-06"
-  },
-  {
-   "category": "news",
-   "category_label": "뉴스 보도내용",
-   "headline": "공정위, 치킨값 담합 조사 착수…bhc·BBQ·교촌 현장조사",
-   "summary": "이 대통령 **9월 30일** 가격 점검 지시 **1주일** 만에 카르텔조사국 투입.\n육계 가격이 떨어졌는데도 치킨 판매가가 유지된 점이 단서.",
-   "source_url": "https://www.yonhapnewstv.co.kr/news/MYH20261007062704Smu",
-   "published_at": "2시간 전"
-  },
-  {
-   "category": "news",
-   "category_label": "뉴스 보도내용",
-   "headline": "'상습 위반' 대기업 지원하는 정부…산업부 산하기관 210억 지급",
-   "summary": "최근 5년 공정위 소관 법률 **5회 이상** 위반 대기업 **21곳** 중 **8곳**이 대상.\nKCC글라스는 담합 과징금 **89억원**을 내고도 **119억원** 지원 — 국감 지적.",
-   "source_url": "https://www.ekn.kr/web/view.php?key=20261006023442530",
-   "published_at": "22시간 전"
-  },
-  {
-   "category": "news",
-   "category_label": "뉴스 보도내용",
-   "headline": "GS리테일 오진석 부사장 국감 증인 출석…'GS25 납품방식' 도마",
-   "summary": "국회 정무위 국정감사 증인으로 **10월 12일** 출석 예정.\n국정감사는 **6일** 개시 — 유통 납품 거래관행이 질의 소재.",
-   "source_url": "http://www.koreastocknews.com/news/articleView.html?idxno=121600",
-   "published_at": "19시간 전"
-  }
- ],
- "generated_at": "2026-10-06T23:39:25.693Z"
+  "id": "2026-10-07",
+  "date": "2026-10-07",
+  "title": "공정위, bhc·BBQ·교촌 치킨값 담합 현장조사",
+  "summary": "**bhc·BBQ·교촌** 치킨값 담합 혐의로 공정위 **카르텔조사국** 현장조사 착수\n공정위, 다크패턴 **13개 유형** 가이드라인 배포 — 탈퇴 버튼 **첫 화면** 배치 권고\n공정위법 **5회 이상** 위반 대기업 **8곳**, 산업부 산하기관서 **210억** 지원 수령",
+  "competitors": [
+    "공정거래위원회"
+  ],
+  "keywords": [
+    "공정위",
+    "담합",
+    "현장조사",
+    "다크패턴"
+  ],
+  "items": [
+    {
+      "category": "press",
+      "category_label": "공정위 보도자료",
+      "headline": "온라인 다크패턴 규제 관련 가이드라인 배포",
+      "summary": "공정위, 전자상거래법상 다크패턴 **13개 유형** 운영 가이드라인 배포\n- 자율관리 가이드라인(**'23.7월**)·**6개 유형** 규제 문답서(**'25.2월**) 통합·현행화\n- 유형별 개념·핵심 준수사항·세부 유의사항·구체적 법 위반 예시 제시\n- 취소·탈퇴 버튼은 로그인 첫 화면 또는 '마이페이지' 배치 권고\n- 온라인 인터페이스 **5가지 금지행위**(법 제21조의2), 정기결제 증액·유료 전환 시 동의·고지 의무 안내",
+      "source_url": "https://www.ftc.go.kr/www/selectBbsNttView.do?pageUnit=10&pageIndex=1&searchCnd=all&key=12&bordCd=3&searchCtgry=01,02&nttSn=48089",
+      "published_at": "2026-10-06",
+      "topics": [
+        "consumer"
+      ]
+    },
+    {
+      "category": "press",
+      "category_label": "공정위 보도자료",
+      "headline": "카본러닝화 7종 품질 비교 정보 제공",
+      "summary": "한국소비자원, 카본 러닝화 **7개 브랜드** 기능성·내구성·안전성 시험평가 결과 공개\n- 충격흡수 우수 **2개**(나이키·푸마), 최대견인력 우수 **2개**(스케쳐스·아식스)\n- 접착강도 우수 **4개**, 겉창 마모 최소 호카 **2.4mm** — 유해물질 **5종**은 전 제품 기준 적합\n- **3개 제품**(아디다스·푸마·호카) 혼용률 오표기·안감 표시 누락 → 업체 개선 완료·예정\n- 가격 **18만9천~27만9천원**, 무게 **198~301g** — '소비자24' 비교공감에 게시 예정",
+      "source_url": "https://www.ftc.go.kr/www/selectBbsNttView.do?pageUnit=10&pageIndex=1&searchCnd=all&key=12&bordCd=3&searchCtgry=01,02&nttSn=48090",
+      "published_at": "2026-10-06",
+      "topics": [
+        "consumer"
+      ]
+    },
+    {
+      "category": "committee",
+      "category_label": "위원회 소식",
+      "headline": "2026-10-07 위원회 소식",
+      "summary": "주요일정·인사발령 내용 없음",
+      "source_url": "https://www.ftc.go.kr/www/selectBbsNttView.do?pageUnit=10&pageIndex=1&searchCnd=all&key=15&bordCd=5&nttSn=48093",
+      "published_at": "2026-10-06",
+      "topics": [
+        "institution"
+      ]
+    },
+    {
+      "category": "news",
+      "category_label": "뉴스 보도내용",
+      "headline": "공정위, 치킨값 담합 조사 착수…bhc·BBQ·교촌 현장조사",
+      "summary": "이 대통령 **9월 30일** 가격 점검 지시 **1주일** 만에 카르텔조사국 투입.\n육계 가격이 떨어졌는데도 치킨 판매가가 유지된 점이 단서.",
+      "source_url": "https://www.yonhapnewstv.co.kr/news/MYH20261007062704Smu",
+      "published_at": "2시간 전",
+      "topics": [
+        "cartel",
+        "institution"
+      ]
+    },
+    {
+      "category": "news",
+      "category_label": "뉴스 보도내용",
+      "headline": "'상습 위반' 대기업 지원하는 정부…산업부 산하기관 210억 지급",
+      "summary": "최근 5년 공정위 소관 법률 **5회 이상** 위반 대기업 **21곳** 중 **8곳**이 대상.\nKCC글라스는 담합 과징금 **89억원**을 내고도 **119억원** 지원 — 국감 지적.",
+      "source_url": "https://www.ekn.kr/web/view.php?key=20261006023442530",
+      "published_at": "22시간 전",
+      "topics": []
+    },
+    {
+      "category": "news",
+      "category_label": "뉴스 보도내용",
+      "headline": "GS리테일 오진석 부사장 국감 증인 출석…'GS25 납품방식' 도마",
+      "summary": "국회 정무위 국정감사 증인으로 **10월 12일** 출석 예정.\n국정감사는 **6일** 개시 — 유통 납품 거래관행이 질의 소재.",
+      "source_url": "http://www.koreastocknews.com/news/articleView.html?idxno=121600",
+      "published_at": "19시간 전",
+      "topics": [
+        "institution",
+        "subcon"
+      ]
+    }
+  ],
+  "generated_at": "2026-10-06T23:39:25.693Z"
 }
