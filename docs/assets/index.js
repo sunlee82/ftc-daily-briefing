@@ -71,6 +71,164 @@ function cardHTML(b, isToday) {
   </a>`;
 }
 
+// ── 목록: 최근 2주는 펼치고, 그 전은 월별로 접는다 (2026-10) ──
+// 48일치가 넘어가며 첫 화면이 세로 7,000px을 넘겼다. 담당자가 보는 건 대개 최근 며칠이다.
+const RECENT_DAYS = 14;
+let ALL_CARDS = [];
+
+function monthLabel(ym) {
+  const [y, m] = ym.split("-");
+  return `${y}년 ${+m}월`;
+}
+
+function renderCards() {
+  const el = document.getElementById("cards");
+  const today = todayKST();
+  const cutoff = new Date(Date.parse(today) - RECENT_DAYS * 86400000).toISOString().slice(0, 10);
+  const recent = ALL_CARDS.filter((b) => b.date >= cutoff);
+  const older = ALL_CARDS.filter((b) => b.date < cutoff);
+
+  const byMonth = new Map();
+  for (const b of older) {
+    const ym = b.date.slice(0, 7);
+    if (!byMonth.has(ym)) byMonth.set(ym, []);
+    byMonth.get(ym).push(b);
+  }
+  const months = [...byMonth.keys()].sort().reverse();
+
+  el.innerHTML =
+    recent.map((b, i) => cardHTML(b, i === 0 && b.date === today)).join("") +
+    months.map((ym) => `
+      <section class="month" data-ym="${ym}">
+        <button type="button" class="month-btn" aria-expanded="false">
+          ${monthLabel(ym)} <small>${byMonth.get(ym).length}일치</small> <span class="arrow">▾</span>
+        </button>
+        <div class="month-cards cards" hidden>${byMonth.get(ym).map((b) => cardHTML(b, false)).join("")}</div>
+      </section>`).join("");
+}
+
+document.addEventListener("click", (e) => {
+  const btn = e.target.closest(".month-btn");
+  if (!btn) return;
+  const box = btn.nextElementSibling;
+  const open = box.hidden;
+  box.hidden = !open;
+  btn.setAttribute("aria-expanded", String(open));
+  btn.querySelector(".arrow").textContent = open ? "▴" : "▾";
+});
+
+// ── 전체 검색 (2026-10) ──
+// 브리핑 전체(제목·오늘의 핵심·각 항목의 제목과 요약)를 뒤진다.
+// 색인 파일을 따로 만들지 않고, 처음 검색할 때 모든 브리핑 JSON을 한 번에 받아 둔다
+// (48일치 약 400KB — 사내망에서 1초 안팎). 1년치가 넘어가면 색인 파일로 바꾼다.
+let SEARCH_DOCS = null;
+let SEARCH_LOADING = null;
+const CAT_SHORT = { press: "보도자료", committee: "위원회", news: "뉴스" };
+
+function plain(s) {
+  return String(s || "").replace(/\*\*(.+?)\*\*/g, "$1").replace(/##\[(.+?)\]##/g, "$1").replace(/\s+/g, " ").trim();
+}
+
+async function loadSearchDocs() {
+  if (SEARCH_DOCS) return SEARCH_DOCS;
+  if (SEARCH_LOADING) return SEARCH_LOADING;
+  SEARCH_LOADING = (async () => {
+    const briefs = await Promise.all(ALL_CARDS.map((c) =>
+      fetch(`data/briefings/${c.id}.json`, { cache: "no-store" })
+        .then((r) => (r.ok ? r.json() : null)).catch(() => null)));
+    const docs = [];
+    briefs.forEach((b, i) => {
+      if (!b) return;
+      const id = ALL_CARDS[i].id;
+      (b.items || []).forEach((it, idx) => {
+        docs.push({
+          id, idx, cat: it.category || "news",
+          headline: plain(it.headline), summary: plain(it.summary),
+          hay: `${plain(it.headline)} ${plain(it.summary)}`.toLowerCase(),
+        });
+      });
+    });
+    SEARCH_DOCS = docs;
+    return docs;
+  })();
+  return SEARCH_LOADING;
+}
+
+// 띄어쓰기로 나눈 낱말이 모두 들어 있어야 한다 (AND 검색)
+function matchDoc(doc, terms) {
+  return terms.every((t) => doc.hay.includes(t));
+}
+
+function hlText(text, terms) {
+  let out = esc(text);
+  for (const t of terms) {
+    const re = new RegExp(t.replace(/[.*+?^${}()|[\]\\]/g, "\\$&"), "gi");
+    out = out.replace(re, (m) => `<mark class="hl">${m}</mark>`);
+  }
+  return out;
+}
+
+// 요약에서 검색어 주변 120자만 보여준다
+function snippet(summary, terms) {
+  const low = summary.toLowerCase();
+  let pos = -1;
+  for (const t of terms) { pos = low.indexOf(t); if (pos >= 0) break; }
+  if (pos < 0) return summary.slice(0, 120) + (summary.length > 120 ? "…" : "");
+  const start = Math.max(0, pos - 40);
+  const end = Math.min(summary.length, pos + 80);
+  return (start ? "…" : "") + summary.slice(start, end) + (end < summary.length ? "…" : "");
+}
+
+async function runSearch(q) {
+  const el = document.getElementById("search-results");
+  const cardsEl = document.getElementById("cards");
+  const terms = q.toLowerCase().split(/\s+/).filter(Boolean);
+  if (!terms.length) {
+    el.hidden = true; el.innerHTML = ""; cardsEl.hidden = false;
+    return;
+  }
+  cardsEl.hidden = true; el.hidden = false;
+  el.innerHTML = `<p class="empty">찾는 중…</p>`;
+  const docs = await loadSearchDocs();
+  const hits = docs.filter((d) => matchDoc(d, terms)).sort((a, b) => (a.id < b.id ? 1 : a.id > b.id ? -1 : a.idx - b.idx));
+  if (!hits.length) {
+    el.innerHTML = `<p class="empty">"${esc(q)}"에 해당하는 내용이 없습니다. 낱말을 줄여서 다시 찾아보세요.</p>`;
+    return;
+  }
+  const byDay = new Map();
+  for (const h of hits) { if (!byDay.has(h.id)) byDay.set(h.id, []); byDay.get(h.id).push(h); }
+  const days = hits.length === 1 ? "" : ` · ${byDay.size}일`;
+  el.innerHTML = `<p class="search-meta">"<strong>${esc(q)}</strong>" 검색 결과 <strong>${hits.length}</strong>건${days}</p>` +
+    [...byDay.entries()].map(([id, rows]) => `
+      <section class="sr-day">
+        <h2 class="sr-date"><a href="briefing.html?date=${encodeURIComponent(id)}">${esc(id)} ${weekdayOf(id)}</a></h2>
+        ${rows.map((h) => `<a class="sr" href="briefing.html?date=${encodeURIComponent(id)}#item-${h.idx}">
+          <span class="sr-cat is-${CAT_CLASS[h.cat] || "news"}">${CAT_SHORT[h.cat] || "뉴스"}</span>
+          <span class="sr-body"><span class="sr-title">${hlText(h.headline, terms)}</span>
+          <span class="sr-snip">${hlText(snippet(h.summary, terms), terms)}</span></span>
+        </a>`).join("")}
+      </section>`).join("");
+}
+
+function wireSearch() {
+  const input = document.getElementById("q");
+  if (!input) return;
+  let timer = null;
+  input.addEventListener("input", () => {
+    clearTimeout(timer);
+    timer = setTimeout(() => runSearch(input.value.trim()), 250);
+  });
+  // 주소에 ?q=가 있으면 바로 검색한다 (검색 결과 링크를 공유할 수 있게)
+  const q0 = new URLSearchParams(location.search).get("q");
+  if (q0) { input.value = q0; runSearch(q0); }
+  // 검색어를 주소에도 남긴다 — 뒤로가기·공유용
+  input.addEventListener("change", () => {
+    const u = new URL(location.href);
+    if (input.value.trim()) u.searchParams.set("q", input.value.trim()); else u.searchParams.delete("q");
+    history.replaceState(null, "", u);
+  });
+}
+
 async function load() {
   const el = document.getElementById("cards");
   try {
@@ -81,10 +239,10 @@ async function load() {
       el.innerHTML = `<p class="empty">아직 배포된 브리핑이 없습니다.</p>`;
       return;
     }
-    // 최신순 정렬
     list.sort((a, b) => (a.date < b.date ? 1 : a.date > b.date ? -1 : 0));
-    const today = todayKST();
-    el.innerHTML = list.map((b, i) => cardHTML(b, i === 0 && b.date === today)).join("");
+    ALL_CARDS = list;
+    renderCards();
+    wireSearch();
   } catch (err) {
     el.innerHTML = `<p class="error">브리핑 목록을 불러오지 못했습니다.<br /><small>${esc(err.message)}</small></p>`;
   }

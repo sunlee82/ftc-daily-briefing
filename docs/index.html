@@ -4,7 +4,8 @@
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>공정위 일일동향</title>
-  <link rel="stylesheet" href="assets/styles.css?v=20261001c" />
+  <meta name="robots" content="noindex, nofollow" />
+  <link rel="stylesheet" href="assets/styles.css?v=20261014" />
 </head>
 <body>
   <div class="wrap">
@@ -20,10 +21,15 @@
       <a class="nav-btn" href="personnel.html">👥 FTC 인사발령</a>
       <a class="nav-btn" href="library.html">📚 자료실</a>
     </nav>
+    <div class="pr-search home-search">
+      <input id="q" type="search" placeholder="브리핑 전체 검색 — 회사명, 사건, 법령 (예: 하도급 연동제, 쿠팡)"
+             autocomplete="off" aria-label="브리핑 검색" />
+    </div>
+    <div id="search-results" class="search-results" hidden></div>
     <main id="cards" class="cards" aria-live="polite">
       <p class="empty">불러오는 중…</p>
     </main>
   </div>
-  <script src="assets/index.js?v=20260921"></script>
+  <script src="assets/index.js?v=20261014"></script>
 </body>
 </html>

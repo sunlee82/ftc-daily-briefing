@@ -27,13 +27,13 @@ function bodyHTML(it) {
   );
 }
 
-function itemHTML(it) {
+function itemHTML(it, idx) {
   // 원문은 제목 줄 오른쪽 작은 링크로 — 항목마다 버튼이 한 줄씩 차지하면
   // 15건이 넘는 날엔 버튼만으로 화면이 그만큼 길어진다.
   const src = it.source_url
     ? `<a class="src-inline" href="${esc(it.source_url)}" target="_blank" rel="noopener">원문 ↗</a>`
     : "";
-  return `<article class="item">
+  return `<article class="item" id="item-${idx}">
     <div class="item-row">
       <h3>${esc(it.headline)}</h3>
       ${src}
@@ -64,12 +64,14 @@ const CATEGORY_ORDER = ["press", "committee", "news"];
 const CATEGORY_LABELS = { press: "공정위 보도자료", committee: "위원회 소식", news: "뉴스 보도내용" };
 
 function itemsByCategoryHTML(items) {
+  // 검색 결과에서 #item-N 으로 바로 올 수 있게 items 배열의 원래 순번을 id로 쓴다
+  const indexed = (items || []).map((it, idx) => ({ it, idx }));
   return CATEGORY_ORDER.map((cat) => {
-    const group = (items || []).filter((it) => (it.category || "news") === cat);
+    const group = indexed.filter(({ it }) => (it.category || "news") === cat);
     if (!group.length) return "";
     return `<section class="item-group">
       <h2 class="group-title">${esc(CATEGORY_LABELS[cat])} <small>(${group.length}건)</small></h2>
-      ${group.map(itemHTML).join("")}
+      ${group.map(({ it, idx }) => itemHTML(it, idx)).join("")}
     </section>`;
   }).join("");
 }

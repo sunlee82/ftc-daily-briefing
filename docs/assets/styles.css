@@ -544,3 +544,56 @@ header.site .visits strong {
 /* 파란 히어로 카드 위에서는 빨간 SK가 묻혀 보여 흰색으로 둔다(2026-10-01) */
 header.site .sk-red { color: inherit; }
 header.site p a { color: inherit; text-decoration: underline; text-underline-offset: 3px; font-weight: 700; }
+
+/* --- 첫 화면 검색 (2026-10) — 인사발령 검색창과 같은 모양 --- */
+.home-search { margin: 0 0 18px; }
+.home-search input {
+  width: 100%; font: inherit; font-size: 1rem; color: var(--text);
+  background: var(--surface); border: 1px solid var(--border); border-radius: var(--radius-full);
+  padding: 12px 18px; box-shadow: var(--shadow);
+}
+.home-search input::placeholder { color: var(--muted); }
+.home-search input:focus { outline: none; border-color: var(--accent); box-shadow: 0 0 0 3px var(--accent-soft); }
+.search-results[hidden], .cards[hidden] { display: none; }
+.search-meta { margin: 0 0 14px; color: var(--muted); font-size: 0.9rem; }
+.search-meta strong { color: var(--text); }
+.sr-day { margin: 0 0 18px; }
+.sr-date { margin: 0 0 8px; font-size: 0.95rem; font-weight: 800; }
+.sr-date a { color: var(--text); text-decoration: none; }
+.sr-date a:hover { color: var(--accent); }
+.sr {
+  display: flex; gap: 10px; align-items: flex-start; text-decoration: none; color: var(--text);
+  background: var(--surface); border: 1px solid var(--border); border-radius: var(--radius);
+  padding: 10px 14px; margin-bottom: 8px; box-shadow: var(--shadow);
+}
+.sr:hover { border-color: var(--accent); }
+.sr-cat {
+  flex: 0 0 auto; margin-top: 2px; padding: 1px 8px; font-size: 0.72rem; font-weight: 700;
+  border-radius: var(--radius-full); border: 1px solid var(--border); color: var(--muted); white-space: nowrap;
+}
+.sr-cat.is-press { color: #b45309; background: #fdf0e1; border-color: transparent; }
+.sr-cat.is-cmte { color: #2f6feb; background: #e8f0ff; border-color: transparent; }
+.sr-cat.is-news { color: #15803d; background: #dcf7e3; border-color: transparent; }
+@media (prefers-color-scheme: dark) {
+  .sr-cat.is-press { color: #f0a72a; background: #3a2a10; }
+  .sr-cat.is-cmte { color: #7aa4ff; background: #1e2740; }
+  .sr-cat.is-news { color: #4ade80; background: #10281a; }
+}
+.sr-body { min-width: 0; }
+.sr-title { display: block; font-weight: 700; }
+.sr-snip { display: block; margin-top: 3px; font-size: 0.86rem; color: var(--muted); }
+.sr mark.hl { background: #fff3a3; color: inherit; padding: 0 2px; border-radius: 3px; }
+@media (prefers-color-scheme: dark) { .sr mark.hl { background: #5a4a00; } }
+
+/* --- 월별 접기 (2026-10) --- */
+.month { grid-column: 1 / -1; }
+.month-btn {
+  display: flex; align-items: center; gap: 8px; width: 100%; margin: 8px 0 0;
+  padding: 12px 16px; font: inherit; font-size: 1rem; font-weight: 800; color: var(--text);
+  background: var(--surface); border: 1px dashed var(--border); border-radius: var(--radius); cursor: pointer;
+}
+.month-btn small { font-weight: 600; color: var(--muted); }
+.month-btn .arrow { margin-left: auto; color: var(--muted); }
+.month-btn:hover { border-style: solid; border-color: var(--accent); }
+.month-cards { margin-top: 12px; }
+.month-cards[hidden] { display: none; }
