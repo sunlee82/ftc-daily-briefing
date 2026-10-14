@@ -5,13 +5,15 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>공정위 일일동향</title>
   <meta name="robots" content="noindex, nofollow" />
-  <link rel="stylesheet" href="assets/styles.css?v=20261014c" />
+  <link rel="stylesheet" href="assets/styles.css?v=20261014d" />
 </head>
 <body>
   <div class="wrap">
     <header class="site">
       <h1>📌 공정위 일일동향 브리핑</h1>
-      <p>매일 아침 손수 정리한 공정위 동향자료입니다.<br />일별 카드를 눌러 상세 내용을 확인해 보세요.</p>
+      <!-- 오늘의 인사이트 — data/insights-daily.json 마지막 원소. 없으면 예전 안내문으로 돌아간다 -->
+      <div id="insight" class="insight" hidden></div>
+      <p id="intro">매일 아침 손수 정리한 공정위 동향자료입니다.<br />일별 카드를 눌러 상세 내용을 확인해 보세요.</p>
       <!-- 방문 수. 카운터 서비스가 응답하지 않으면 통째로 숨긴다(깨진 숫자를 보이지 않게) -->
       <p id="visits" class="visits" hidden></p>
     </header>
@@ -32,6 +34,6 @@
       <p class="empty">불러오는 중…</p>
     </main>
   </div>
-  <script src="assets/index.js?v=20261014"></script>
+  <script src="assets/index.js?v=20261014b"></script>
 </body>
 </html>

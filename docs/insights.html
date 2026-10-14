@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>지난 인사이트 — 공정위 동향</title>
+  <meta name="robots" content="noindex, nofollow" />
+  <link rel="stylesheet" href="assets/styles.css?v=20261014d" />
+</head>
+<body>
+  <div class="wrap">
+    <a class="back" href="index.html">← 아카이브로</a>
+    <header class="site">
+      <h1>💡 지난 인사이트</h1>
+      <p>매일 브리핑을 다듬으며 "공정위가 지금 무엇에 집중하는지, SK는 무엇을 점검해야 하는지"를<br />
+        전날 판단을 이어받아 하루치씩 발전시킨 기록입니다. 최신순입니다.</p>
+    </header>
+    <main id="list" aria-live="polite"><p class="empty">불러오는 중…</p></main>
+  </div>
+  <script>
+  (async () => {
+    const esc = (s) => String(s == null ? "" : s).replace(/[&<>"']/g, (c) => ({ "&": "&amp;", "<": "&lt;", ">": "&gt;", '"': "&quot;", "'": "&#39;" }[c]));
+    const rich = (s) => esc(s).replace(/\*\*(.+?)\*\*/g, '<strong class="kw">$1</strong>');
+    const WD = ["일", "월", "화", "수", "목", "금", "토"];
+    const wd = (d) => { const m = /^(\d{4})-(\d{2})-(\d{2})$/.exec(d); return m ? WD[new Date(Date.UTC(+m[1], +m[2] - 1, +m[3])).getUTCDay()] : ""; };
+    const el = document.getElementById("list");
+    try {
+      const r = await fetch("data/insights-daily.json", { cache: "no-store" });
+      const list = r.ok ? await r.json() : [];
+      if (!list.length) { el.innerHTML = '<p class="empty">아직 기록된 인사이트가 없습니다.</p>'; return; }
+      el.innerHTML = list.slice().reverse().map((n) => `<article class="ih">
+        <div class="ih-date">${esc(n.date)} ${wd(n.date)}<small>${(n.threads || []).map(esc).join(" · ")}</small></div>
+        <p>${rich(n.focus)}</p>
+        <ul>${(n.watch || []).map((w) => `<li>${rich(w)}</li>`).join("")}</ul>
+        ${n.change ? `<p class="ih-change">${rich(n.change)}</p>` : ""}
+        <div class="ih-basis">근거 브리핑: ${(n.basis || []).map((b) => `<a href="briefing.html?date=${encodeURIComponent(b)}">${esc(b)}</a>`).join("")}</div>
+      </article>`).join("");
+    } catch (e) { el.innerHTML = `<p class="error">불러오지 못했습니다.<br /><small>${esc(e.message)}</small></p>`; }
+  })();
+  </script>
+</body>
+</html>

@@ -624,3 +624,33 @@ header.site p a { color: inherit; text-decoration: underline; text-underline-off
 .wk-title { display: block; font-weight: 700; }
 .wk-sub { display: block; margin-top: 3px; font-size: 0.86rem; color: var(--muted); }
 .wk-sub em { font-style: normal; color: var(--muted); opacity: 0.8; margin-left: 4px; }
+
+/* --- 오늘의 인사이트 (파란 카드 안, 2026-10) --- */
+header.site .insight { margin: 4px 0 10px; }
+header.site .insight[hidden], header.site #intro[hidden] { display: none; }
+.ins-head { display: flex; align-items: center; gap: 10px; margin-bottom: 8px; }
+.ins-label { font-size: 0.74rem; font-weight: 800; letter-spacing: 0.04em; padding: 2px 9px; border-radius: var(--radius-full); background: rgba(255,255,255,0.18); color: #fff; }
+.ins-date { font-size: 0.8rem; color: rgba(255,255,255,0.75); }
+header.site .ins-focus { margin: 0 0 10px; font-size: 1rem; line-height: 1.6; color: #fff; }
+header.site .ins-focus strong { color: #fff; font-weight: 800; text-decoration: underline; text-decoration-color: rgba(255,255,255,0.45); text-underline-offset: 3px; }
+.ins-watch-label { font-size: 0.8rem; font-weight: 800; color: rgba(255,255,255,0.85); margin-bottom: 4px; }
+.ins-watch-label b { color: #fff; }
+.ins-watch { margin: 0 0 8px; padding: 0; list-style: none; display: grid; gap: 6px; }
+.ins-watch li { position: relative; padding: 7px 10px 7px 26px; font-size: 0.92rem; line-height: 1.55; color: #fff; background: rgba(255,255,255,0.12); border-radius: 10px; }
+.ins-watch li::before { content: "✓"; position: absolute; left: 10px; top: 7px; font-weight: 800; color: #fff; }
+.ins-watch li strong { color: #fff; font-weight: 800; }
+header.site .ins-change { margin: 0 0 6px; font-size: 0.84rem; color: rgba(255,255,255,0.78); }
+header.site .ins-change strong { color: #fff; }
+.ins-more { font-size: 0.84rem; font-weight: 700; color: #fff; text-decoration: underline; text-underline-offset: 3px; }
+
+/* --- 지난 인사이트 페이지 --- */
+.ih { background: var(--surface); border: 1px solid var(--border); border-radius: var(--radius); padding: 16px 18px; margin-bottom: 14px; box-shadow: var(--shadow); }
+.ih-date { font-weight: 800; margin-bottom: 8px; }
+.ih-date small { font-weight: 600; color: var(--muted); margin-left: 6px; }
+.ih p { margin: 0 0 8px; }
+.ih .kw { color: var(--accent); font-weight: 800; }
+.ih ul { margin: 0 0 8px; padding-left: 18px; }
+.ih li { margin-bottom: 4px; }
+.ih .ih-change { color: var(--muted); font-size: 0.88rem; }
+.ih .ih-basis { font-size: 0.8rem; color: var(--muted); }
+.ih .ih-basis a { color: var(--accent); text-decoration: none; margin-right: 6px; }

@@ -250,6 +250,39 @@ async function load() {
 
 load();
 
+// ── 오늘의 인사이트 ────────────────────────────────────────────────────
+// 배포 단계가 매일 insights-daily.json에 한 원소를 덧붙인다(공정위가 집중하는 것 + SK 점검 과제).
+// 파란 카드에는 마지막 원소만 보여주고, 지난 것은 insights.html에서 본다.
+function richI(s) {
+  return esc(s).replace(/\*\*(.+?)\*\*/g, "<strong>$1</strong>");
+}
+async function loadInsight() {
+  const box = document.getElementById("insight");
+  const intro = document.getElementById("intro");
+  if (!box) return;
+  try {
+    const res = await fetch("data/insights-daily.json", { cache: "no-store" });
+    if (!res.ok) return;
+    const list = await res.json();
+    if (!Array.isArray(list) || !list.length) return;
+    const n = list[list.length - 1];
+    const stale = (Date.parse(todayKST()) - Date.parse(n.date)) / 86400000 > 3;
+    box.innerHTML = `
+      <div class="ins-head"><span class="ins-label">오늘의 인사이트</span>
+        <span class="ins-date">${esc(n.date)} ${weekdayOf(n.date)}${stale ? " · 최근 인사이트" : ""}</span></div>
+      <p class="ins-focus">${richI(n.focus)}</p>
+      <div class="ins-watch-label"><b>SK</b> 점검·대비</div>
+      <ul class="ins-watch">${(n.watch || []).map((w) => `<li>${richI(w)}</li>`).join("")}</ul>
+      ${n.change ? `<p class="ins-change">${richI(n.change)}</p>` : ""}
+      <a class="ins-more" href="insights.html">지난 인사이트 보기 →</a>`;
+    box.hidden = false;
+    if (intro) intro.hidden = true;
+  } catch (_) {
+    // 조용히 넘어간다 — 안내문이 그대로 남는다
+  }
+}
+loadInsight();
+
 // ── 방문 수 ────────────────────────────────────────────────────────────
 // GitHub Pages는 정적 사이트라 서버가 없어 외부 카운터(abacus)를 쓴다.
 // 가입·키가 필요 없고, /hit은 1 올리고 값을 돌려주며 /get은 올리지 않고 읽는다.
