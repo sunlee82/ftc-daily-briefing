@@ -1,0 +1,85 @@
+{
+  "id": "2026-10-16",
+  "date": "2026-10-16",
+  "title": "네이버의 토스 가맹점 차별 의혹, 공정위 사전조사 착수",
+  "summary": "**네이버·토스 POS 갈등**, 공정위 사전조사 착수 — 토스 측 가맹점 차별 여부 확인\n가정용 **뷰티기기 할인율** 부풀리기 혐의, 공정위 표시광고 조사 **막바지**\n이강일 의원, 쿠팡 **조사 불응** 추궁하며 **행정조사기본법 개정안** 대표발의",
+  "competitors": [
+    "공정거래위원회"
+  ],
+  "keywords": [
+    "공정위",
+    "플랫폼",
+    "표시광고",
+    "조사 불응"
+  ],
+  "items": [
+    {
+      "category": "press",
+      "category_label": "공정위 보도자료",
+      "headline": "편의점 김밥 12종 품질 비교 정보 제공",
+      "dept": "소비자안전교육과",
+      "summary": "한국소비자원, 편의점 4사 김밥 **12종**의 속재료·영양·안전성 비교정보 공개\n- 주요 속재료 비율 참치 **16.5~21.9%**, 불고기 **13.1~23.7%**로 제품별 차이\n- 나트륨 한 줄 **760~1,393mg**(1일 기준치 **38~70%**), 안전성·표시는 전 제품 적합\n- 가격은 같은 유형끼리 최대 **200~400원** 차이, 통신사 멤버십·T우주패스 등 할인방법 비교 수록",
+      "source_url": "https://www.ftc.go.kr/www/selectBbsNttView.do?pageUnit=10&pageIndex=1&searchCnd=all&key=12&bordCd=3&searchCtgry=01,02&nttSn=48112",
+      "published_at": "2026-10-15",
+      "topics": [
+        "consumer"
+      ]
+    },
+    {
+      "category": "news",
+      "category_label": "뉴스 보도내용",
+      "headline": "네이버, 토스 가맹점 차별했나…공정위 'POS 갈등' 사전조사",
+      "summary": "토스플레이스가 포스(POS) 연동 배제를 문제 삼은 사안.\n네이버가 토스 측 판매자를 차별했는지 확인하는 단계.",
+      "source_url": "https://biz.chosun.com/stock/finance/2026/10/15/4MZWFC7LN5D7LMGLHEJ3JRPC4Y/",
+      "published_at": "18시간 전",
+      "topics": [
+        "platform"
+      ]
+    },
+    {
+      "category": "news",
+      "category_label": "뉴스 보도내용",
+      "headline": "'뷰티기기 할인율 부풀렸나'…공정위, 업체 표시광고 조사 막바지",
+      "summary": "가정용 미용기기(뷰티 디바이스) 업체들의 표시광고법 위반 혐의가 대상.",
+      "source_url": "https://news.einfomax.co.kr/news/articleViewAmp.html?idxno=4439376",
+      "published_at": "22시간 전",
+      "topics": [
+        "consumer"
+      ]
+    },
+    {
+      "category": "news",
+      "category_label": "뉴스 보도내용",
+      "headline": "이강일 의원, 쿠팡 공정위 조사 불응·배상 거부 추궁…행정조사기본법 개정안 대표발의",
+      "summary": "**12일** 정무위 국감서 쿠팡의 현장조사·소비자 분쟁조정 결정 잇단 거부 지적.",
+      "source_url": "https://www.polinews.co.kr/news/articleView.html?idxno=745864",
+      "published_at": "12시간 전",
+      "topics": [
+        "institution"
+      ]
+    },
+    {
+      "category": "news",
+      "category_label": "뉴스 보도내용",
+      "headline": "자유기업원 \"공정위, 기업 압박·과징금 중심 정책 벗어나야\"",
+      "summary": "**15일** 국감 논란 관련 논평 발표.\n규제 확대 대신 시장경쟁 활성화·소비자 후생 중심 재정립 주장.",
+      "source_url": "https://www.bizwnews.com/news/articleView.html?idxno=149030",
+      "published_at": "14시간 전",
+      "topics": [
+        "institution"
+      ]
+    },
+    {
+      "category": "news",
+      "category_label": "뉴스 보도내용",
+      "headline": "[취재수첩] K푸드 세계로 뛰라면서…발목 잡는 정부",
+      "summary": "현장조사 뒤 10년 치 자료부터 요구하는 조사 관행 비판.\n반복되는 'N차 조사'가 해외시장 개척 동력 약화시킨다는 지적.",
+      "source_url": "https://www.hankyung.com/article/2026101548531",
+      "published_at": "15시간 전",
+      "topics": [
+        "institution"
+      ]
+    }
+  ],
+  "generated_at": "2026-10-15T23:35:12.090Z"
+}
