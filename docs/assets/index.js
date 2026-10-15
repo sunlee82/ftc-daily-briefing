@@ -253,6 +253,16 @@ load();
 // ── 오늘의 인사이트 ────────────────────────────────────────────────────
 // 배포 단계가 매일 insights-daily.json에 한 원소를 덧붙인다(공정위가 집중하는 것 + SK 점검 과제).
 // 파란 카드에는 마지막 원소만 보여주고, 지난 것은 insights.html에서 본다.
+// 문장 속 흐름 이름(**…**)을 tags의 방향 색으로 칠한다
+function leadHTML(lead, tags) {
+  const dirOf = {};
+  for (const t of tags || []) dirOf[t.t] = t.dir || "flat";
+  const SYM = { up: "▲", down: "▼", flat: "●" };
+  return esc(lead).replace(/\*\*(.+?)\*\*/g, (m, t) => {
+    const d = dirOf[t] || "flat";
+    return `<span class="ins-tag ${d}">${SYM[d]} ${t}</span>`;
+  });
+}
 function plainI(s) { return String(s || "").replace(/\*\*(.+?)\*\*/g, "$1"); }
 function richI(s) {
   return esc(s).replace(/\*\*(.+?)\*\*/g, "<strong>$1</strong>");
@@ -283,8 +293,8 @@ async function loadInsight() {
         <div class="ins-head"><span class="ins-label">오늘의 인사이트</span>
           <span class="ins-date">${esc(n.date)} ${weekdayOf(n.date)}${stale ? " · 최근" : ""}</span>
           <a class="ins-more" href="insights.html">지난 인사이트 →</a></div>
-        ${tags ? `<div class="ins-tags"><span class="ins-now">지금 공정위는</span>${tags}</div>` : `<p class="ins-focus">${richI(n.focus)}</p>`}
-        <div class="ins-watch-label"><b class="sk-red">SK</b> 점검·대비</div>
+        ${n.lead ? `<p class="ins-lead">${leadHTML(n.lead, n.tags)}</p>` : tags ? `<div class="ins-tags"><span class="ins-now">지금 공정위는</span>${tags}</div>` : `<p class="ins-focus">${richI(n.focus)}</p>`}
+        <div class="ins-watch-label">오늘 신경 써야 할 부분은?</div>
         <ul class="ins-watch">${watch}</ul>
       </div>`;
     box.hidden = false;

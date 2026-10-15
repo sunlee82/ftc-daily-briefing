@@ -641,12 +641,14 @@ header.site .insight[hidden], header.site #intro[hidden] { display: none; }
 .ins-tag { font-size: 0.88rem; font-weight: 800; padding: 4px 11px; border-radius: var(--radius-full); white-space: nowrap; }
 .ins-tag.up { color: #b42318; background: #fde8e6; }
 .ins-tag.flat { color: #1d4ed8; background: #e8f0ff; }
-.ins-tag.down { color: #6b7280; background: #eef0f4; text-decoration: line-through; text-decoration-thickness: 1px; }
+.ins-tag.down { color: #6b7280; background: #eef0f4; }
 @media (prefers-color-scheme: dark) {
   .ins-tag.up { color: #ff8a80; background: #3a1512; }
   .ins-tag.flat { color: #7aa4ff; background: #1e2740; }
   .ins-tag.down { color: #9aa1b2; background: #2a2e3a; }
 }
+header.site .ins-lead { margin: 0 0 12px; font-size: 0.97rem; line-height: 1.75; color: var(--text); }
+header.site .ins-lead .ins-tag { font-size: 0.9rem; padding: 2px 9px; margin: 0 1px; vertical-align: 1px; }
 header.site .ins-focus { margin: 0 0 10px; font-size: 0.95rem; line-height: 1.55; color: var(--text); }
 header.site .ins-focus strong { color: var(--accent); font-weight: 800; }
 .ins-watch-label { font-size: 0.78rem; font-weight: 800; color: var(--muted); margin-bottom: 6px; letter-spacing: 0.02em; }
