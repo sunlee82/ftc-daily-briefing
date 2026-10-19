@@ -1,25 +1,38 @@
 {
-  "id": "2026-10-19",
-  "date": "2026-10-19",
-  "title": "7년간 담합 3차례 이상 적발 기업 65곳…한샘 20건 최다",
-  "summary": "최근 **7년간** 담합 **3차례 이상** 적발 사업자 **65곳** — 한샘 **20건**·현대리바트 **18건** 최다\n중점조사기획단 식품 담합 조사에 **정보교환 담합** 조항 적용 가능성 거론\n**10대 로펌**에 공정위 퇴직자 **124명** 활동 — 전관예우·이해충돌 논란",
+  "id": "2026-10-20",
+  "date": "2026-10-20",
+  "title": "GIS 입찰담합 391억 과징금 소송, 공정위 잇따라 승소",
+  "summary": "전력기기 업체 **GIS 입찰담합** 과징금 **391억원** 취소소송, 법원이 공정위 처분 잇따라 인정\n'10대 로펌 퇴직자 **124명**' 보도에 공정위 \"취업심사·외부인 접촉보고로 유착 차단\" 반박\n상조·유통 법 개정, 전분당 담합 적발 등 직원 **28명**에 특별성과 포상금 **3,400만 원**",
   "competitors": [
     "공정거래위원회"
   ],
   "keywords": [
     "공정위",
-    "담합",
-    "반복담합",
-    "정보교환"
+    "입찰담합",
+    "과징금 소송",
+    "전관예우"
   ],
   "items": [
     {
-      "category": "committee",
-      "category_label": "위원회 소식",
-      "headline": "2026-10-19 위원회 소식",
-      "summary": "##[주요일정]##\n· **위원장**: 10:00 현안점검 간부회의(대회의실)\n· **부위원장**: 10:00 현안점검 간부회의(대회의실)\n\n##[인사발령]##\n· **한윤종** 행정주사보(시장감시국 특수거래감시팀) - 원에 의하여 그 직을 면함(2026. 10. 18.)\n· **백현진** 지방행정서기(충청북도 청주시) - 행정서기에 임함, 공정거래위원회 전입을 명함, 대전지방공정거래사무소 총괄과 근무를 명함(2026. 10. 19.)",
-      "source_url": "https://www.ftc.go.kr/www/selectBbsNttView.do?pageUnit=10&pageIndex=1&searchCnd=all&key=15&bordCd=5&nttSn=48116",
-      "published_at": "2026-10-16",
+      "category": "press",
+      "category_label": "공정위 보도자료",
+      "headline": "공정위, 제3회 특별성과 포상금 수여",
+      "dept": "혁신행정법무담당관",
+      "summary": "상조·유통 법 개정과 전분당 담합 적발 등 8개 과제 직원 28명에 특별성과 포상금 수여\n- **10월 7일** 수여식, 총 **3,400만 원** — 할부거래법·대규모유통업법 개정 **700만 원** 최다\n- 전분·전분당 담합 적발, 대한항공-아시아나 마일리지 통합안 각 **500만 원**\n- 을의 협상력 강화·제주 주유소 제재 각 **400만 원**, 명륜당 제재·쿠팡 동일인 변경·쉰들러 ISDS 승소 각 **300만 원**\n- 상조업체 지배주주 대여금 제한·공정위-금감원 합동조사반 근거, 유통 대금지급기한 단축이 포상 사유",
+      "source_url": "https://www.ftc.go.kr/www/selectBbsNttView.do?pageUnit=10&pageIndex=1&searchCnd=all&key=12&bordCd=3&searchCtgry=01,02&nttSn=48117",
+      "published_at": "2026-10-19",
+      "topics": [
+        "institution"
+      ]
+    },
+    {
+      "category": "press",
+      "category_label": "공정위 보도자료",
+      "headline": "[설명] 서울신문(10.19.) 10대 로펌에 공정위 퇴직자만 124명...등 기사 관련",
+      "dept": "감사담당관",
+      "summary": "'10대 로펌 공정위 퇴직자 124명' 보도에 퇴직자 영향력 행사·비상임위원 이해충돌 부인\n- **7급 이상** 직원은 퇴직 후 **3년간** 업무관련 로펌 취업 제한(타 부처는 4급 이상)\n- 로펌·대기업·퇴직자 접촉은 공무상 접촉까지 전부 보고, **올해 3월** 규정 개정으로 **2회 이상** 반복 위반 시 원칙 징계\n- 비상임위원 A·B는 철도침목·맨홀뚜껑 담합 사건 심결에 참여하지 않았거나 제척돼 이해충돌 아님\n- 취업심사·외부인 접촉 관리·위원 제척·회피 제도를 계속 엄정 운영 방침",
+      "source_url": "https://www.ftc.go.kr/www/selectBbsNttView.do?pageUnit=10&pageIndex=1&searchCnd=all&key=13&bordCd=3&searchCtgry=03&nttSn=48121",
+      "published_at": "2026-10-19",
       "topics": [
         "institution"
       ]
@@ -27,49 +40,15 @@
     {
       "category": "news",
       "category_label": "뉴스 보도내용",
-      "headline": "7년간 담합 3차례 이상 적발 기업 65곳…한샘 20건·현대리바트 18건 최다",
-      "summary": "국정감사 제출 자료 기준, 과징금 부과 뒤에도 같은 사업자가 담합을 반복.\n반복담합 제재 수위를 높이는 가운데 기존 제재의 실효성 지적.",
-      "source_url": "https://www.etoday.co.kr/news/view/2637124?trc=right_categori_news",
-      "published_at": "18분 전",
-      "topics": [
-        "cartel",
-        "enforce"
-      ]
-    },
-    {
-      "category": "news",
-      "category_label": "뉴스 보도내용",
-      "headline": "공정위 중점조사기획단, 식품업계 담합 정조준…'정보교환 담합' 적용 가능성",
-      "summary": "가격·생산량 합의 입증 없이 민감 정보 교환만으로 제재 가능한 조항 적용 거론.\n**2026년 1월** 시중은행 LTV 담합에 처음 적용된 법리.",
-      "source_url": "https://m.segye.com/view/20261018509320",
-      "published_at": "19시간 전",
-      "topics": [
-        "cartel"
-      ]
-    },
-    {
-      "category": "news",
-      "category_label": "뉴스 보도내용",
-      "headline": "중수청장 임명으로 수장 공백 해소…1호 수사로 '담합' 사건 거론",
-      "summary": "김지용 중대범죄수사청장, 출범 **13일** 만에 임명.\n중수청 안팎에서 담합 등 공정거래 사건이 첫 수사 대상으로 거론.",
-      "source_url": "https://www.sankyungilbo.com/news/articleView.html?idxno=535531",
+      "headline": "GIS 입찰담합 391억 과징금 줄소송, 공정위 잇따라 승소",
+      "summary": "가스절연개폐장치(GIS) 구매 입찰 담합으로 전력기기 업체들에 부과된 **391억원대** 과징금이 대상.\n업체들이 낸 과징금 취소소송에서 법원이 처분의 정당성을 잇따라 인정.",
+      "source_url": "https://www.edaily.co.kr/News/Read?newsId=04057366645614560",
       "published_at": "16시간 전",
       "topics": [
         "cartel",
         "enforce"
       ]
-    },
-    {
-      "category": "news",
-      "category_label": "뉴스 보도내용",
-      "headline": "10대 로펌에서 활동 중인 공정위 퇴직자 124명",
-      "summary": "기업 제재 대응과 소송 방어를 맡아 전관예우·이해충돌 논란 확산.\n서울신문 '무소불위 不공정위' 기획 보도.",
-      "source_url": "https://www.seoul.co.kr/news/plan/omnipotent-KFTC/2026/10/19/20261019001006",
-      "published_at": "8시간 전",
-      "topics": [
-        "institution"
-      ]
     }
   ],
-  "generated_at": "2026-10-18T23:35:09.501Z"
+  "generated_at": "2026-10-19T23:35:09.760Z"
 }
