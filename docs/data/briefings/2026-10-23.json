@@ -1,0 +1,80 @@
+{
+  "id": "2026-10-23",
+  "date": "2026-10-23",
+  "title": "AI 표시광고 가이드라인 초안 공개, 11월 11일까지 의견청취",
+  "summary": "**SK에너지**·HD현대오일뱅크 대표 산자위 국감 **증인 채택 철회** — 정무위 출석 이어 재소환은 무산\n**AI 표시광고 가이드라인** 초안 공개 — 'AI 워싱' 등 **16개 사례**·자가점검 **8개 항목**, **11월 11일**까지 의견제출\n**CJ프레시웨이** 식자재 입찰담합 의혹 현장조사 — 한창민 의원, **10년 내 재담합** 영업정지 요청 개정안 발의",
+  "competitors": [
+    "SK에너지",
+    "CJ프레시웨이",
+    "공정거래위원회"
+  ],
+  "keywords": [
+    "AI 표시광고 가이드라인",
+    "AI 워싱",
+    "CJ프레시웨이 입찰담합",
+    "반복담합 영업정지",
+    "정유 담합 국감"
+  ],
+  "items": [
+    {
+      "category": "press",
+      "category_label": "공정위 보도자료",
+      "headline": "AI관련 표시광고 가이드라인 초안 의견청취 실시",
+      "dept": "소비자정책총괄과",
+      "summary": "AI 활용 상품의 부당 표시·광고 판단기준을 담은 가이드라인 초안 공개, **11월 11일**까지 의견청취\n- 거짓·과장('AI 워싱')·기만·부당비교·비방 **4개 유형**별 판단기준과 품목별 사례 **16건**을 개선 전·후 광고 예시와 함께 제시\n- AI 적용 부분·작동 조건(앱 연동 등)·성능 한계·책임 범위를 주된 표시와 가까이 병기, 제3자 API를 쓰며 자체 개발 표방 금지\n- 사업자 자가점검 체크리스트 **8개 항목**·FAQ **16문항** 수록 — 법적 구속력 없는 자율준수 자료, AI 확인제·AI+ 인증 취득도 면책 아님. 식품·화장품·의약품의 AI 가상 전문가 추천·보증은 개정 개별법(**11월 27일** 시행)으로 금지\n- 의견은 **11월 11일**까지 소비자정책총괄과에 우편·전자우편 제출 → 관계부처 협의 후 확정·배포, 심결례·기술 변화 반영해 주기적 보완",
+      "source_url": "https://www.ftc.go.kr/www/selectBbsNttView.do?pageUnit=10&pageIndex=1&searchCnd=all&key=12&bordCd=3&searchCtgry=01,02&nttSn=48140",
+      "published_at": "2026-10-22",
+      "topics": [
+        "consumer",
+        "platform"
+      ]
+    },
+    {
+      "category": "committee",
+      "category_label": "위원회 소식",
+      "headline": "2026-10-23 위원회 소식",
+      "summary": "##[인사발령]##\n· **고다연** 행정사무관(공정거래위원회) - 서울지방공정거래사무소 제조하도급과 근무를 명함\n· **이재현** 행정사무관(서울지방공정거래사무소 제조하도급과) - 기업거래결합심사국 건설하도급조사팀 근무를 명함",
+      "source_url": "https://www.ftc.go.kr/www/selectBbsNttView.do?pageUnit=10&pageIndex=1&searchCnd=all&key=15&bordCd=5&nttSn=48143",
+      "published_at": "2026-10-22",
+      "topics": [
+        "institution"
+      ]
+    },
+    {
+      "category": "news",
+      "category_label": "뉴스 보도내용",
+      "headline": "SK에너지·HD현대오일뱅크 대표, 산자위 국감 증인 채택 철회",
+      "summary": "석유제품 가격담합 의혹으로 **22일** 산자위 종합감사 증인에 올랐던 김종화·송명준 대표의 채택 철회.\n정무위 국감(**12일**) 출석에 이어 재소환은 무산 — 공정위 제재 절차와 형사재판은 그대로 진행.",
+      "source_url": "https://www.dailian.co.kr/news/view/1704931/SK%EC%97%90%EB%84%88%EC%A7%80HD%ED%98%84%EB%8C%80%EC%98%A4%EC%9D%BC%EB%B1%85%ED%81%AC-%EB%8C%80%ED%91%9C-%EC%82%B0%EC%9E%90%EC%9C%84-2026",
+      "published_at": "16시간 전",
+      "topics": [
+        "cartel",
+        "institution"
+      ]
+    },
+    {
+      "category": "news",
+      "category_label": "뉴스 보도내용",
+      "headline": "공정위, CJ프레시웨이 현장조사…식자재 입찰담합 의혹",
+      "summary": "지난 **20일**부터 **22일**까지 CJ프레시웨이 상대로 조사 진행(KBS 단독).\n식자재 공급 입찰에서의 담합 의혹이 대상.",
+      "source_url": "https://news.kbs.co.kr/news/pc/view/view.do?ncd=8693189",
+      "published_at": "2시간 전",
+      "topics": [
+        "cartel"
+      ]
+    },
+    {
+      "category": "news",
+      "category_label": "뉴스 보도내용",
+      "headline": "한창민 의원, 10년 내 재담합 시 영업정지 요청 공정거래법 개정안 발의",
+      "summary": "담합 제재를 받은 기업이 **10년 이내** 다시 담합하면 공정위가 영업정지 등 추가 제재를 요청할 수 있게 규정.\n당정이 추진 중인 '**5년 내 2회**' 기준보다 긴 판단기간 — **22일** 발의.",
+      "source_url": "https://news.koreanbar.or.kr/news/articleView.html?idxno=36251",
+      "published_at": "13시간 전",
+      "topics": [
+        "cartel",
+        "institution"
+      ]
+    }
+  ],
+  "generated_at": "2026-10-22T23:50:00.000Z"
+}
