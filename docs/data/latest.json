@@ -1,42 +1,68 @@
 {
-  "id": "2026-10-25",
-  "date": "2026-10-25",
-  "title": "산업용 윤활유 6년 9개월 가격담합 의혹, 공정위 심의 개시",
-  "summary": "**산업용 윤활유** 가격담합 의혹 **6년 9개월**, 공정위 심의 절차 상정\n자동차·기계·금속가공 공정용 윤활유 대상 — 제조업 전반 '숨은 비용' 지적\n**우정소갈비** 가맹점 분쟁 신고 **6건** 공정위 무혐의 — 본사 \"점주 지원 집중\"",
+  "id": "2026-10-26",
+  "date": "2026-10-26",
+  "title": "주병기 \"조사 거부 기업에 매출 1% 과징금\"…강제수사권보다 제재 강화",
+  "summary": "주병기, 조사 거부 기업에 **매출 1% 과징금** 제안 — **강제수사권**보다 제재 강화가 효율적\n담합 **형사 리니언시**, 공소청·중수청 **중복 접수**로 수사 혼선 우려\n대상, 전분·전분당 담합 과징금 **2341억원** 부담 — 자기자본의 **21%**",
   "competitors": [
-    "영삼이네 우정소갈비",
+    "쿠팡",
+    "대상",
     "공정거래위원회"
   ],
   "keywords": [
-    "산업용 윤활유 담합",
-    "심의 절차",
-    "가맹점 분쟁",
-    "무혐의"
+    "조사 거부 과징금",
+    "강제수사권",
+    "형사 리니언시",
+    "중수청",
+    "전분당 담합"
   ],
   "items": [
     {
-      "category": "news",
-      "category_label": "뉴스 보도내용",
-      "headline": "산업용 윤활유 6년 9개월 가격담합 의혹, 공정위 심의 절차 상정",
-      "summary": "자동차·기계·금속가공 공정에 쓰이는 산업용 윤활유가 대상.\n**6년 9개월**에 걸친 가격담합 의혹 — 제조업 전반에 비용 전가됐다는 지적.",
-      "source_url": "https://wikyung.com/news/article?news=6023",
-      "published_at": "14시간 전",
+      "category": "committee",
+      "category_label": "위원회 소식",
+      "headline": "2026-10-26 위원회 소식",
+      "summary": "##[인사발령]##\n· **박채원** 행정주사보(공정거래위원회) - 소비자정책국 소비자거래정책과 지원근무를 해제함. 소비자정책국 소비자거래정책과 근무를 명함",
+      "source_url": "https://www.ftc.go.kr/www/selectBbsNttView.do?pageUnit=10&pageIndex=1&searchCnd=all&key=15&bordCd=5&nttSn=48150",
+      "published_at": "2026-10-23",
       "topics": [
-        "cartel"
+        "institution"
       ]
     },
     {
       "category": "news",
       "category_label": "뉴스 보도내용",
-      "headline": "우정소갈비 가맹점 분쟁 신고 6건, 공정위 무혐의 결론",
-      "summary": "가맹점 모집 때 허위·과장 매출 정보 제공, 할인행사 강요 의혹 등이 신고 내용.\n본사는 대응 미흡을 인정하고 점주 지원에 집중 방침.",
-      "source_url": "https://www.greened.kr/news/articleView.html?idxno=352925",
-      "published_at": "19시간 전",
+      "headline": "주병기 \"조사 거부 기업엔 매출 1% 과징금이 효율적\"…쿠팡 겨냥 경고",
+      "summary": "**25일** KBS 일요진단 발언 — 강제수사권 신설보다 조사 거부 과징금 강화를 우선.\n현장조사 거부한 쿠팡에 \"헤비급 기업, 체급에 맞는 책임\" 요구.",
+      "source_url": "https://www.sedaily.com/article/20105917",
+      "published_at": "2시간 전",
       "topics": [
-        "subcon",
+        "institution",
+        "enforce"
+      ]
+    },
+    {
+      "category": "news",
+      "category_label": "뉴스 보도내용",
+      "headline": "'담합 리니언시' 공소청·중수청 중복 접수…수사 혼선 우려",
+      "summary": "중수청이 대검(현 공소청)이 맡던 형사 리니언시를 직접 접수하기로 결정.\n새 형사사법 체계 출범 뒤 두 기관 업무 중복 — 자진신고 기업 혼선 우려.",
+      "source_url": "http://www.bubb.co.kr/news/articleView.html?idxno=5955",
+      "published_at": "11시간 전",
+      "topics": [
+        "cartel",
+        "institution"
+      ]
+    },
+    {
+      "category": "news",
+      "category_label": "뉴스 보도내용",
+      "headline": "대상, 전분·전분당 담합 과징금 2341억 부담…자기자본의 21%",
+      "summary": "과징금 **2341억 4100만원**은 **2025년 말** 자기자본의 **21.34%** 수준.\n제재 후폭풍 속 유통 사업 축소·바이오 육성으로 사업 재편 모색.",
+      "source_url": "https://dealsite.co.kr/articles/171169",
+      "published_at": "2시간 전",
+      "topics": [
+        "cartel",
         "enforce"
       ]
     }
   ],
-  "generated_at": "2026-10-25T00:10:00.000Z"
+  "generated_at": "2026-10-26T00:10:00.000Z"
 }
