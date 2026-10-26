@@ -1,28 +1,55 @@
 {
-  "id": "2026-10-26",
-  "date": "2026-10-26",
-  "title": "주병기 \"조사 거부 기업에 매출 1% 과징금\"…강제수사권보다 제재 강화",
-  "summary": "주병기, 조사 거부 기업에 **매출 1% 과징금** 제안 — **강제수사권**보다 제재 강화가 효율적\n담합 **형사 리니언시**, 공소청·중수청 **중복 접수**로 수사 혼선 우려\n대상, 전분·전분당 담합 과징금 **2341억원** 부담 — 자기자본의 **21%**",
+  "id": "2026-10-27",
+  "date": "2026-10-27",
+  "title": "인허가 숨긴 민간임대아파트 시행사 4곳 제재, 드림하우징 고발",
+  "summary": "**초광역특구법** 지주회사 증손회사 지분 **100%→50%** 특례 두고 **SK 특혜** 논란 확산\n**민간임대아파트 4개 시행사** 인허가 미승인 누락·'마감임박' 광고에 시정·공표명령, 드림하우징 **고발**\n공정위 과징금 소송 전부승소 **79.5%**·일부승소 포함 **94%** — '승소율 뻥튀기' 보도에 반박",
   "competitors": [
-    "쿠팡",
-    "대상",
+    "SK하이닉스",
+    "드림하우징",
+    "넥슨코리아",
     "공정거래위원회"
   ],
   "keywords": [
-    "조사 거부 과징금",
-    "강제수사권",
-    "형사 리니언시",
-    "중수청",
-    "전분당 담합"
+    "민간임대아파트 부당광고",
+    "초광역특구법",
+    "승소율",
+    "넥슨 과징금 소송",
+    "리니언시"
   ],
   "items": [
     {
+      "category": "press",
+      "category_label": "공정위 보도자료",
+      "headline": "4개 민간임대아파트 건설 사업 시행사의 부당광고 제재",
+      "dept": "표시광고감시과",
+      "summary": "드림하우징 등 4개 시행사의 인허가 미승인 누락·'마감임박' 광고에 시정명령·공표명령 부과, 드림하우징은 고발\n- 관할청 주택건설사업계획 승인 없이 **2024년 11월**부터 회원(예비 임차인) 모집 — 승인받은 것처럼 광고한 기만 광고(4개사 모두)\n- 회원 모집률 **28.4~33.6%**에도 '마감임박' 광고 — 드림하우징·베네치아·해성산업개발 **3개사** 거짓·과장 광고\n- 드림하우징은 **2026년 2월 10일** 시정명령 불이행으로 법인·대표자 **고발**, 해성산업개발은 심의 전 승인받아 통지명령 제외\n- 개정 민간임대주택법 시행(**2027년 3월 9일**)부터는 인허가·임대사업자 등록 전 회원 모집 자체가 금지",
+      "source_url": "https://www.ftc.go.kr/www/selectBbsNttView.do?pageUnit=10&pageIndex=1&searchCnd=all&key=12&bordCd=3&searchCtgry=01,02&nttSn=48151",
+      "published_at": "2026-10-26",
+      "topics": [
+        "consumer",
+        "enforce"
+      ]
+    },
+    {
+      "category": "press",
+      "category_label": "공정위 보도자료",
+      "headline": "[설명] 한국일보(10.26.) ''돌려준 과징금만 2000억인데... 공정위 승소율 90%대 뻥튀기'' 기사 관련",
+      "dept": "송무담당관",
+      "summary": "한국일보 '승소율 90%대 뻥튀기' 보도에 공정위가 과징금액 기준 승소 비율 **93%**로 반박\n- **2020년~2026년 8월** 과징금 사건 전부승소 **79.5%**·일부승소 **14.5%** — 합산 **94%**는 법원 판결 분류에 따른 수치\n- 최초 부과액 대비 소송 뒤 유지된 과징금 비율 **93%**(재산정 중인 건 포함)\n- 일부승소는 위법성 판단·시정명령이 유지된 경우로, 과징금이 취소돼도 법집행 목적은 달성됐다는 입장 — 전부승소율 등 세부 통계도 공개 중",
+      "source_url": "https://www.ftc.go.kr/www/selectBbsNttView.do?pageUnit=10&pageIndex=1&searchCnd=all&key=13&bordCd=3&searchCtgry=03&nttSn=48154",
+      "published_at": "2026-10-26",
+      "topics": [
+        "enforce",
+        "institution"
+      ]
+    },
+    {
       "category": "committee",
       "category_label": "위원회 소식",
-      "headline": "2026-10-26 위원회 소식",
-      "summary": "##[인사발령]##\n· **박채원** 행정주사보(공정거래위원회) - 소비자정책국 소비자거래정책과 지원근무를 해제함. 소비자정책국 소비자거래정책과 근무를 명함",
-      "source_url": "https://www.ftc.go.kr/www/selectBbsNttView.do?pageUnit=10&pageIndex=1&searchCnd=all&key=15&bordCd=5&nttSn=48150",
-      "published_at": "2026-10-23",
+      "headline": "2026-10-27 위원회 소식",
+      "summary": "##[주요일정]##\n· **위원장**: 10:00 국무회의(서울)\n\n##[인사발령]##\n· **유리나** 행정주사(시보, 경인지방공정거래사무소 총괄과) - 행정주사에 임함\n· **이가영** 행정주사(시보, 경인지방공정거래사무소 건설하도급과) - 행정주사에 임함\n· **홍성훈** 행정주사보(시보, 경인지방공정거래사무소 제조하도급과) - 행정주사보에 임함",
+      "source_url": "https://www.ftc.go.kr/www/selectBbsNttView.do?pageUnit=10&pageIndex=1&searchCnd=all&key=15&bordCd=5&nttSn=48152",
+      "published_at": "2026-10-26",
       "topics": [
         "institution"
       ]
@@ -30,39 +57,51 @@
     {
       "category": "news",
       "category_label": "뉴스 보도내용",
-      "headline": "주병기 \"조사 거부 기업엔 매출 1% 과징금이 효율적\"…쿠팡 겨냥 경고",
-      "summary": "**25일** KBS 일요진단 발언 — 강제수사권 신설보다 조사 거부 과징금 강화를 우선.\n현장조사 거부한 쿠팡에 \"헤비급 기업, 체급에 맞는 책임\" 요구.",
-      "source_url": "https://www.sedaily.com/article/20105917",
-      "published_at": "2시간 전",
+      "headline": "초광역특구법, 지주회사 증손회사 지분 '100%→50%' 완화…SK 특혜 논란",
+      "summary": "정부·여당 추진 법안에 지주회사 증손회사 지분 요건을 **100%→50%**로 낮추는 특례 포함.\nSK하이닉스의 외부 자본 합작 반도체 법인이 수혜 대상으로 꼽혀 규제 완화 논란 확산.",
+      "source_url": "https://www.sisajournal-e.com/news/articleViewAmp.html?idxno=424569",
+      "published_at": "17시간 전",
       "topics": [
-        "institution",
-        "enforce"
-      ]
-    },
-    {
-      "category": "news",
-      "category_label": "뉴스 보도내용",
-      "headline": "'담합 리니언시' 공소청·중수청 중복 접수…수사 혼선 우려",
-      "summary": "중수청이 대검(현 공소청)이 맡던 형사 리니언시를 직접 접수하기로 결정.\n새 형사사법 체계 출범 뒤 두 기관 업무 중복 — 자진신고 기업 혼선 우려.",
-      "source_url": "http://www.bubb.co.kr/news/articleView.html?idxno=5955",
-      "published_at": "11시간 전",
-      "topics": [
-        "cartel",
+        "group",
         "institution"
       ]
     },
     {
       "category": "news",
       "category_label": "뉴스 보도내용",
-      "headline": "대상, 전분·전분당 담합 과징금 2341억 부담…자기자본의 21%",
-      "summary": "과징금 **2341억 4100만원**은 **2025년 말** 자기자본의 **21.34%** 수준.\n제재 후폭풍 속 유통 사업 축소·바이오 육성으로 사업 재편 모색.",
-      "source_url": "https://dealsite.co.kr/articles/171169",
-      "published_at": "2시간 전",
+      "headline": "넥슨 확률형 아이템 116억 과징금 소송 장기화…28일 변론 재개",
+      "summary": "서울고법 재판부가 **두 차례** 변론을 종결하고도 선고 없이 다시 변론기일 지정.\n**9월** 선고 연기에 이어 장기화 — 공정위 과징금 처분 취소 여부가 쟁점.",
+      "source_url": "https://www.newsway.co.kr/news/view?ud=2026102615365562259",
+      "published_at": "1시간 전",
+      "topics": [
+        "consumer",
+        "enforce"
+      ]
+    },
+    {
+      "category": "news",
+      "category_label": "뉴스 보도내용",
+      "headline": "공정거래법 위반 1심 피고인 10명 중 6명 무죄…기업들 4년 넘게 소송",
+      "summary": "지난해 공정거래법 위반 사건 1심 피고인 약 **60%**가 무죄 선고.\n담합 등 불공정거래 수사 강화 속 무리한 기소가 장기 소송 부담으로 이어진다는 지적.",
+      "source_url": "https://www.sedaily.com/article/20106321",
+      "published_at": "14시간 전",
+      "topics": [
+        "enforce",
+        "institution"
+      ]
+    },
+    {
+      "category": "news",
+      "category_label": "뉴스 보도내용",
+      "headline": "담합 리니언시, 경쟁기업 죽이기에 악용 우려…형사 감면 1순위 선점 사례",
+      "summary": "시장점유율 **1위** A사가 올 초 대형 로펌 자문으로 검찰에 형사 리니언시 1순위 선점.\n담합 적발에 필요한 제도이나 경쟁사 제재 수단으로 쓰일 수 있다는 지적.",
+      "source_url": "https://www.sedaily.com/article/20106324",
+      "published_at": "14시간 전",
       "topics": [
         "cartel",
-        "enforce"
+        "institution"
       ]
     }
   ],
-  "generated_at": "2026-10-26T00:10:00.000Z"
+  "generated_at": "2026-10-27T00:10:00.000Z"
 }
