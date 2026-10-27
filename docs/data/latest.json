@@ -1,55 +1,37 @@
 {
-  "id": "2026-10-27",
-  "date": "2026-10-27",
-  "title": "인허가 숨긴 민간임대아파트 시행사 4곳 제재, 드림하우징 고발",
-  "summary": "**초광역특구법** 지주회사 증손회사 지분 **100%→50%** 특례 두고 **SK 특혜** 논란 확산\n**민간임대아파트 4개 시행사** 인허가 미승인 누락·'마감임박' 광고에 시정·공표명령, 드림하우징 **고발**\n공정위 과징금 소송 전부승소 **79.5%**·일부승소 포함 **94%** — '승소율 뻥튀기' 보도에 반박",
+  "id": "2026-10-28",
+  "date": "2026-10-28",
+  "title": "[간이] 삼성전자(주)의 부당한 광고행위 제재",
+  "summary": "삼성전자(주)의 부당한 광고행위 제재\n[단독] 해킹 후폭풍…SK텔레콤, '회생 신청한 대리점' 상계 적법성 이견에도 수수료 전액 공제 강행 논란\n\"경쟁사도 쓰는데\" 폭발한 삼성…과징금 폭탄에 '전면전'",
   "competitors": [
-    "SK하이닉스",
-    "드림하우징",
-    "넥슨코리아",
     "공정거래위원회"
   ],
   "keywords": [
-    "민간임대아파트 부당광고",
-    "초광역특구법",
-    "승소율",
-    "넥슨 과징금 소송",
-    "리니언시"
+    "공정위",
+    "과징금",
+    "현장조사",
+    "담합"
   ],
   "items": [
     {
       "category": "press",
       "category_label": "공정위 보도자료",
-      "headline": "4개 민간임대아파트 건설 사업 시행사의 부당광고 제재",
-      "dept": "표시광고감시과",
-      "summary": "드림하우징 등 4개 시행사의 인허가 미승인 누락·'마감임박' 광고에 시정명령·공표명령 부과, 드림하우징은 고발\n- 관할청 주택건설사업계획 승인 없이 **2024년 11월**부터 회원(예비 임차인) 모집 — 승인받은 것처럼 광고한 기만 광고(4개사 모두)\n- 회원 모집률 **28.4~33.6%**에도 '마감임박' 광고 — 드림하우징·베네치아·해성산업개발 **3개사** 거짓·과장 광고\n- 드림하우징은 **2026년 2월 10일** 시정명령 불이행으로 법인·대표자 **고발**, 해성산업개발은 심의 전 승인받아 통지명령 제외\n- 개정 민간임대주택법 시행(**2027년 3월 9일**)부터는 인허가·임대사업자 등록 전 회원 모집 자체가 금지",
-      "source_url": "https://www.ftc.go.kr/www/selectBbsNttView.do?pageUnit=10&pageIndex=1&searchCnd=all&key=12&bordCd=3&searchCtgry=01,02&nttSn=48151",
-      "published_at": "2026-10-26",
+      "headline": "삼성전자(주)의 부당한 광고행위 제재",
+      "summary": "시정명령 및 과징금 부과\n- 삼성전자, 2021. 1. 15.~2022. 3. 21. 갤럭시 S21·S22, 탭 S8 광고에서 고사양 게임 성능 제한 누락\n- 기기 성능을 과장 광고하면서 소비자 기만 행위 시정명령\n- 과징금 약 200억 원 부과(잠정)",
+      "source_url": "https://www.ftc.go.kr/www/selectBbsNttView.do?pageUnit=10&pageIndex=1&searchCnd=all&key=12&bordCd=3&searchCtgry=01,02&nttSn=48155",
+      "published_at": "2026-10-27",
       "topics": [
         "consumer",
         "enforce"
-      ]
-    },
-    {
-      "category": "press",
-      "category_label": "공정위 보도자료",
-      "headline": "[설명] 한국일보(10.26.) ''돌려준 과징금만 2000억인데... 공정위 승소율 90%대 뻥튀기'' 기사 관련",
-      "dept": "송무담당관",
-      "summary": "한국일보 '승소율 90%대 뻥튀기' 보도에 공정위가 과징금액 기준 승소 비율 **93%**로 반박\n- **2020년~2026년 8월** 과징금 사건 전부승소 **79.5%**·일부승소 **14.5%** — 합산 **94%**는 법원 판결 분류에 따른 수치\n- 최초 부과액 대비 소송 뒤 유지된 과징금 비율 **93%**(재산정 중인 건 포함)\n- 일부승소는 위법성 판단·시정명령이 유지된 경우로, 과징금이 취소돼도 법집행 목적은 달성됐다는 입장 — 전부승소율 등 세부 통계도 공개 중",
-      "source_url": "https://www.ftc.go.kr/www/selectBbsNttView.do?pageUnit=10&pageIndex=1&searchCnd=all&key=13&bordCd=3&searchCtgry=03&nttSn=48154",
-      "published_at": "2026-10-26",
-      "topics": [
-        "enforce",
-        "institution"
       ]
     },
     {
       "category": "committee",
       "category_label": "위원회 소식",
-      "headline": "2026-10-27 위원회 소식",
-      "summary": "##[주요일정]##\n· **위원장**: 10:00 국무회의(서울)\n\n##[인사발령]##\n· **유리나** 행정주사(시보, 경인지방공정거래사무소 총괄과) - 행정주사에 임함\n· **이가영** 행정주사(시보, 경인지방공정거래사무소 건설하도급과) - 행정주사에 임함\n· **홍성훈** 행정주사보(시보, 경인지방공정거래사무소 제조하도급과) - 행정주사보에 임함",
-      "source_url": "https://www.ftc.go.kr/www/selectBbsNttView.do?pageUnit=10&pageIndex=1&searchCnd=all&key=15&bordCd=5&nttSn=48152",
-      "published_at": "2026-10-26",
+      "headline": "2026-10-28 위원회 소식",
+      "summary": "##[주요일정]##\n· **위원장**: 전원회의 (심판정)\n· **부위원장**: 전원회의 (심판정)\n\n##[인사발령]##\n· **이향림** 지방행정서기(부산지방공정거래사무소 소비자과) - 공정거래위원회 전입 (2026. 10. 27. ~ )\n· **최승완** 지방행정서기(부산지방공정거래사무소 제조하도급과) - 공정거래위원회 전입 (2026. 10. 27. ~ )",
+      "source_url": "https://www.ftc.go.kr/www/selectBbsNttView.do?pageUnit=10&pageIndex=1&searchCnd=all&key=15&bordCd=5&nttSn=48157",
+      "published_at": "2026-10-27",
       "topics": [
         "institution"
       ]
@@ -57,22 +39,100 @@
     {
       "category": "news",
       "category_label": "뉴스 보도내용",
-      "headline": "초광역특구법, 지주회사 증손회사 지분 '100%→50%' 완화…SK 특혜 논란",
-      "summary": "정부·여당 추진 법안에 지주회사 증손회사 지분 요건을 **100%→50%**로 낮추는 특례 포함.\nSK하이닉스의 외부 자본 합작 반도체 법인이 수혜 대상으로 꼽혀 규제 완화 논란 확산.",
-      "source_url": "https://www.sisajournal-e.com/news/articleViewAmp.html?idxno=424569",
-      "published_at": "17시간 전",
+      "headline": "[단독] 해킹 후폭풍…SK텔레콤, '회생 신청한 대리점' 상계 적법성 이견에도 수수료 전액 공제 강행 논란",
+      "summary": "대리점 측 법무법인, 소송·공정위 신고 예고…아내 판매점 단말기까지 심야 회수, SK텔레콤은 개입 부인.",
+      "source_url": "https://newsfield.net/%EB%8B%A8%EB%8F%85-%ED%95%B4%ED%82%B9-%ED%9B%84%ED%8F%AD%ED%92%8Dsk%ED%85%94%EB%A0%88%EC%BD%A4-%ED%9A%8C%EC%83%9D-%EC%8B%A0%EC%B2%AD%ED%95%9C-%EB%8C%80%EB%A6%AC%EC%A0%90-%EC%83%81/",
+      "published_at": "15시간 전",
       "topics": [
-        "group",
+        "subcon",
         "institution"
       ]
     },
     {
       "category": "news",
       "category_label": "뉴스 보도내용",
-      "headline": "넥슨 확률형 아이템 116억 과징금 소송 장기화…28일 변론 재개",
-      "summary": "서울고법 재판부가 **두 차례** 변론을 종결하고도 선고 없이 다시 변론기일 지정.\n**9월** 선고 연기에 이어 장기화 — 공정위 과징금 처분 취소 여부가 쟁점.",
-      "source_url": "https://www.newsway.co.kr/news/view?ud=2026102615365562259",
-      "published_at": "1시간 전",
+      "headline": "\"경쟁사도 쓰는데\" 폭발한 삼성…과징금 폭탄에 '전면전'",
+      "summary": "경쟁사도 쓰는데 폭발한 삼성…과징금 폭탄에 전면전, 삼성전자, 공정위 판단에 불복 과징금 200억원 나오자 소송 GOS=성능 저하 성립 안 돼.",
+      "source_url": "https://www.hankyung.com/article/202610278378g",
+      "published_at": "35분 전",
+      "topics": [
+        "enforce"
+      ]
+    },
+    {
+      "category": "news",
+      "category_label": "뉴스 보도내용",
+      "headline": "공정위 '치킨값' 정조준…국감발 식품기업 후폭풍",
+      "summary": "공정거래위원회가 가공식품과 외식 프랜차이즈 등 유통 업계 전반으로 조사 범위를 넓히고 있다. 10월 한 달 동안 대상·오뚜기·CJ제일제당, bhc·교촌치킨·BBQ 등을...",
+      "source_url": "https://www.ngetnews.com/news/articleView.html?idxno=555148",
+      "published_at": "2시간 전",
+      "topics": [
+        "institution"
+      ]
+    },
+    {
+      "category": "news",
+      "category_label": "뉴스 보도내용",
+      "headline": "삼성에 과징금 201억 때린 공정위...갤럭시에 무슨 일이 [Pick코노미]",
+      "summary": "공정거래위원회가 스마트기기의 게임 성능을 부풀려 광고한 삼성전자에 201억 원대 과징금을 부과했다. 소비자들이 제기한 손해배상 소송에서 삼성전자의 책임이 인정...",
+      "source_url": "https://m.sedaily.com/amparticle/20106909",
+      "published_at": "2시간 전",
+      "topics": [
+        "enforce",
+        "consumer"
+      ]
+    },
+    {
+      "category": "news",
+      "category_label": "뉴스 보도내용",
+      "headline": "’성능제한 미고지’ 200억 과징금…삼성 “유감“",
+      "summary": "삼성전자가 갤럭시 스마트폰 광고에서 게임 성능 제한 사실을 알리지 않아 200억원대 과징금을 내게 됐습니다. 공정거래위원회는 삼성전자의 기만적인 광고 행위에...",
+      "source_url": "https://www.yonhapnewstv.co.kr/news/MYH202610280651599DN",
+      "published_at": "2시간 전",
+      "topics": [
+        "enforce",
+        "consumer"
+      ]
+    },
+    {
+      "category": "news",
+      "category_label": "뉴스 보도내용",
+      "headline": "[N2 포커스] 공정위, 삼성에 과징금 200억…삼성 \"동의하기 어려워\"",
+      "summary": "[뉴스투데이=전소영 기자] 공정거래위원회(이하 공정위)가 삼성전자의 갤럭시 S21·S22 시리즈와 갤럭시 탭 S8 시리즈(이하 이 사건 기기) 게임 성능 광고와 관련해...",
+      "source_url": "https://www.news2day.co.kr/article/20261027500268",
+      "published_at": "3시간 전",
+      "topics": [
+        "enforce"
+      ]
+    },
+    {
+      "category": "news",
+      "category_label": "뉴스 보도내용",
+      "headline": "공정위, 지방 국공립병원 의약품 입찰 '담합 조준'… 유통업계 초긴장",
+      "summary": "[의학신문·일간보사=김상일 기자]공정거래위원회가 최근 지방 국공립병원의 의약품 입찰 과정에서 발생한 담합 행위 여부를 겨냥해 고강도 조사에 착수한 것으로 확인...",
+      "source_url": "https://www.bosa.co.kr/news/articleView.html?idxno=3014755",
+      "published_at": "3시간 전",
+      "topics": [
+        "cartel",
+        "subcon"
+      ]
+    },
+    {
+      "category": "news",
+      "category_label": "뉴스 보도내용",
+      "headline": "[금융, 사다리를 놓자] “금융을 보는 관점 새롭게…금리체계에 ‘공정도 등급’ 반영하자”",
+      "summary": "김자봉 공정거래위원회 상임위원이자 은행법학회장은 “금융을 보는 관점을 새롭게 가져갈 필요가 있다”며 대출 금리를 정할 때 소비자 입장에선 시스템 위험을 야기...",
+      "source_url": "https://www.khan.co.kr/article/202610280500021",
+      "published_at": "4시간 전",
+      "topics": []
+    },
+    {
+      "category": "news",
+      "category_label": "뉴스 보도내용",
+      "headline": "법원은 “단정 어렵다”는데 공정위는 “기만광고”…재계 “피해자 없는 과징금”",
+      "summary": "공정거래위원회가 27일 삼성전자 갤럭시 스마트폰의 게임 최적화 서비스(GOS) 광고를 기만광고로 판단하고 시정명령과 과징금 201억1400만원(잠정)을 부과하자 재계가...",
+      "source_url": "https://m.ekn.kr/view.php?key=20261027029521910",
+      "published_at": "13시간 전",
       "topics": [
         "consumer",
         "enforce"
@@ -81,27 +141,16 @@
     {
       "category": "news",
       "category_label": "뉴스 보도내용",
-      "headline": "공정거래법 위반 1심 피고인 10명 중 6명 무죄…기업들 4년 넘게 소송",
-      "summary": "지난해 공정거래법 위반 사건 1심 피고인 약 **60%**가 무죄 선고.\n담합 등 불공정거래 수사 강화 속 무리한 기소가 장기 소송 부담으로 이어진다는 지적.",
-      "source_url": "https://www.sedaily.com/article/20106321",
-      "published_at": "14시간 전",
-      "topics": [
-        "enforce",
-        "institution"
-      ]
-    },
-    {
-      "category": "news",
-      "category_label": "뉴스 보도내용",
-      "headline": "담합 리니언시, 경쟁기업 죽이기에 악용 우려…형사 감면 1순위 선점 사례",
-      "summary": "시장점유율 **1위** A사가 올 초 대형 로펌 자문으로 검찰에 형사 리니언시 1순위 선점.\n담합 적발에 필요한 제도이나 경쟁사 제재 수단으로 쓰일 수 있다는 지적.",
-      "source_url": "https://www.sedaily.com/article/20106324",
+      "headline": "[식품업계 담합 제재 후폭풍] 삼양사, 과징금 1위의 부담…사과부터 소송까지 전방위 대응 나섰다",
+      "summary": "삼양사가 담합 과징금에 따른 재무부담을 줄이기 위해 전방위적 노력을 기울이고 있습니다. 전분·전분당 담합 과징금은 자진신고자 감면제도로, 설탕·밀가루 담합...",
+      "source_url": "https://blog.naver.com/PostView.naver?blogId=dealsite&logNo=224455687494&redirect=Dlog",
       "published_at": "14시간 전",
       "topics": [
         "cartel",
-        "institution"
+        "enforce"
       ]
     }
   ],
-  "generated_at": "2026-10-27T00:10:00.000Z"
+  "generated_at": "2026-10-27T23:41:31.415Z",
+  "fallback": "local:qwen2.5:14b"
 }
