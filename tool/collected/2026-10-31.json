@@ -1,0 +1,586 @@
+{
+  "id": "2026-10-31",
+  "date": "2026-10-31",
+  "title": "공정거래위원회 일일동향 (초안 — 53건, 제목 다듬기 필요)",
+  "summary": "항목을 취사선택·순서조정한 뒤 저장하면 Claude Code가 제목/요약을 다듬어 배포합니다.",
+  "competitors": [
+    "공정거래위원회"
+  ],
+  "keywords": [
+    "공정위",
+    "과징금",
+    "현장조사",
+    "담합"
+  ],
+  "items": [
+    {
+      "category": "news",
+      "category_label": "뉴스 보도내용",
+      "competitor": "공정거래위원회",
+      "keyword": "과징금",
+      "headline": "공정위 “셀트리온 하도급법 위반, 과징금 6억3천만원”",
+      "summary": "공정거래위원회가 코로나19 진단키트 제조를 위탁하는 과정에서 하도급법을 위반한 셀트리온에 과징금 6억3000만원을 부과했다.셀트리온은 공정위 판단에 이의를 제기...",
+      "source_url": "https://www.dailymedi.com/news/news_view.php?wr_id=942099",
+      "published_at": "2시간 전"
+    },
+    {
+      "category": "news",
+      "category_label": "뉴스 보도내용",
+      "competitor": "공정거래위원회",
+      "keyword": "현장조사",
+      "headline": "[나경연의 유통기한] “가격 내렸는데 담합?”…‘묻지마’ 조사에 속 끓는 라면 업계",
+      "summary": "식품업계에 악재가 잇따르고 있다. 공정거래위원회는 지난 28일 가공식품에 이어 라면 가격 담합 의혹에 대한 현장조사에 나섰다. 업체들은 정부의 물가 안정 기조에...",
+      "source_url": "https://www.dt.co.kr/article/12092192",
+      "published_at": "3시간 전"
+    },
+    {
+      "category": "news",
+      "category_label": "뉴스 보도내용",
+      "competitor": "공정거래위원회",
+      "keyword": "공정위",
+      "headline": "[2025년 분야별 중요판례분석] (23) 공정거래법",
+      "summary": "2025년에는 시장지배적지위 남용행위 및 불공정거래행위 중 자사우대 관련 법위반의 요건과 부당성 쟁점을 비롯하여 배타조건부 거래, 사업기회 제공, 공정거래법의...",
+      "source_url": "https://www.lawtimes.co.kr/news/articleView.html?idxno=228545",
+      "published_at": "4시간 전"
+    },
+    {
+      "category": "news",
+      "category_label": "뉴스 보도내용",
+      "competitor": "공정거래위원회",
+      "keyword": "과징금",
+      "headline": "[2025년 분야별 중요판례분석] (23) 공정거래법",
+      "summary": "2025년에는 시장지배적지위 남용행위 및 불공정거래행위 중 자사우대 관련 법위반의 요건과 부당성 쟁점을 비롯하여 배타조건부 거래, 사업기회 제공, 공정거래법의...",
+      "source_url": "https://www.lawtimes.co.kr/news/articleViewAmp.html?idxno=228545",
+      "published_at": "4시간 전"
+    },
+    {
+      "category": "news",
+      "category_label": "뉴스 보도내용",
+      "competitor": "공정거래위원회",
+      "keyword": "담합",
+      "headline": "교복 가격 담합 적발됐지만...새 학기 교복 입찰도 참가?",
+      "summary": "울산의 교복 업체 두 곳이 과거 입찰 담합한 사실이 적발됐지만, 해당 업체들의 입찰 참가를 제한하기 위한 통보조차 이뤄지지 않은 것으로 확인됐습니다.",
+      "source_url": "https://m.ytn.co.kr/news_view.amp.php?param=0115_202610310445520617",
+      "published_at": "4시간 전"
+    },
+    {
+      "category": "news",
+      "category_label": "뉴스 보도내용",
+      "competitor": "SK하이닉스",
+      "keyword": "공정거래위원회",
+      "headline": "SK일렉링크, SK시그넷 지분 750억원에 인수 : 기업·산업",
+      "summary": "SK일렉링크는 SK가 보유한 SK시그넷 지분 100%를 750억 원에 인수하는 주식매매계약을 체결했다고 30일 밝혔다. 인수 대금은 주주배정 유상증자로 조달하며 공정거래...",
+      "source_url": "https://news.jkn.co.kr/post/1059601",
+      "published_at": "11시간 전"
+    },
+    {
+      "category": "news",
+      "category_label": "뉴스 보도내용",
+      "competitor": "공정거래위원회",
+      "keyword": "공정위",
+      "headline": "[공정거래#35] BS 계열사 70억 원 지원 의혹, 공정거래위원회 부당지원 심의절차 개시",
+      "summary": "BS 계열사 PFV 주식 저가 매각 의혹의 핵심 쟁점과 공정거래법상 부당지원행위, 지원금액 70억 원과 배당수익 370억 원의 차이, 향후 공정위 제재 절차를 살펴봅니다.",
+      "source_url": "https://www.lawtalk.co.kr/posts/202843",
+      "published_at": "12시간 전"
+    },
+    {
+      "category": "news",
+      "category_label": "뉴스 보도내용",
+      "competitor": "공정거래위원회",
+      "keyword": "과징금",
+      "headline": "[공정거래#35] BS 계열사 70억 원 지원 의혹, 공정거래위원회 부당지원 심의절차 개시",
+      "summary": "BS 계열사 PFV 주식 저가 매각 의혹의 핵심 쟁점과 공정거래법상 부당지원행위, 지원금액 70억 원과 배당수익 370억 원의 차이, 향후 공정위 제재 절차를 살펴봅니다.",
+      "source_url": "https://www.google.com/goto?url=CAESYQHrOzAVOrr_kKsPgGiyZUCOXZhdqMd4YI05WU1zsdZ60CWF0rJo2UOe6xN3aAsOgEPuSqDu1Of0NTf83TUkgCoh1_nNzAEOxhp_7U2INP17lLQ2bkBuwCZnt8J0wr_QI2o",
+      "published_at": "12시간 전"
+    },
+    {
+      "category": "news",
+      "category_label": "뉴스 보도내용",
+      "competitor": "공정거래위원회",
+      "keyword": "담합",
+      "headline": "[공정거래#35] BS 계열사 70억 원 지원 의혹, 공정거래위원회 부당지원 심의절차 개시",
+      "summary": "BS 계열사 PFV 주식 저가 매각 의혹의 핵심 쟁점과 공정거래법상 부당지원행위, 지원금액 70억 원과 배당수익 370억 원의 차이, 향후 공정위 제재 절차를 살펴봅니다.",
+      "source_url": "https://www.google.com/goto?url=CAESYQHrOzAVce2t4qrFN-_m9JzxynWvcuzwhcMuxGPfO8wVCSTdac4d52I-H55AhFUXoC4PvqcS7__kRECeX77acFtELY5xTJB4v0XDMln4iE-NNz4CNSFcJQUmBgU_2fSZhwU",
+      "published_at": "12시간 전"
+    },
+    {
+      "category": "news",
+      "category_label": "뉴스 보도내용",
+      "competitor": "공정거래위원회",
+      "keyword": "과징금",
+      "headline": "공정위 제재 귀한족발, 뿔난 점주들 집단소송 휘말리나",
+      "summary": "[리버티코리아포스트= 이제원 기자]. 가맹점 수를 부풀리는 꼼수 광고로 공정거래위원회의 억대 과징금 철퇴를 맞은 외식 프랜차이즈 '귀한족발'이 이번에는 가맹점주...",
+      "source_url": "https://www.google.com/goto?url=CAEScwHrOzAVu-0v6ghTWQp5Sq0HaV3mtgQsMStXXWmctIuRm_uTx8Jr-grNBHB_Jmfu_bTR0s63InOkAyhnFUzmgWsjLLsp3WZsAApZMbInwZyLyZNMaSSQjYWvrzU9hPT2ZIH60kk_dsULK0vKjXl7kedjsCU",
+      "published_at": "14시간 전"
+    },
+    {
+      "category": "news",
+      "category_label": "뉴스 보도내용",
+      "competitor": "공정거래위원회",
+      "keyword": "공정위",
+      "headline": "공정위 \"한약사약국 약 공급 거부 모니터링\"…논란 재점화",
+      "summary": "[데일리팜=강혜경 기자] \"(한약사 개설약국을 대상으로 한 의약품 공급거부 사례가 다시 증가하고 있다는) 지적 사항에 대해 인지하고 있으며, 관련 시장을 지속적으로...",
+      "source_url": "https://dailypharm.com/user/news/343956",
+      "published_at": "15시간 전"
+    },
+    {
+      "category": "news",
+      "category_label": "뉴스 보도내용",
+      "competitor": "공정거래위원회",
+      "keyword": "현장조사",
+      "headline": "식품업계 '가격 담합 의심' 시선 여전, 내부에서는 '정상적 가격 결정도 의심받나' 하소연도",
+      "summary": "식품업계가 잇따르는 정부의 가격 담합 조사에 부담을 느끼고 있다. 정부의 물가 안정 기조에 맞춰 가격 인상을 억제하다가 경쟁사와 비슷한 시기에 가격을 연달아...",
+      "source_url": "https://www.businesspost.co.kr/BP?command=article_view&num=450828",
+      "published_at": "15시간 전"
+    },
+    {
+      "category": "news",
+      "category_label": "뉴스 보도내용",
+      "competitor": "공정거래위원회",
+      "keyword": "담합",
+      "headline": "[2026 국감] 임원 사퇴로 끝날까…삼양사 세 품목 담합 후폭풍",
+      "summary": "삼양홀딩스가 계열사 삼양사의 설탕·밀가루·전분당 담합 문제로 공정거래 제재와 소비자 신뢰 하락이라는 부담을 안은 가운데, 재발 방지를 위한 준법경영 체계의...",
+      "source_url": "https://www.google.com/goto?url=CAESeAHrOzAVvDuxuFGha6CDLzcq_-Wbe-WfwuzkNBhmH_DGcFziEC6ha6B--0aQ_evXX22VvOwl0K4SpEhFg7tS25U-7SbSd9hrC3GYLBKisWS-HHmgxwC6JxFKa0WEAiyzV8A3hu8TMoTCeqBv1dNaDDrYCG9XwszMnA",
+      "published_at": "15시간 전"
+    },
+    {
+      "category": "news",
+      "category_label": "뉴스 보도내용",
+      "competitor": "공정거래위원회",
+      "keyword": "공정위",
+      "headline": "‘18억 아파트 공사 담합’ 의혹 넘겼던 공정위…국회 지적에 “조사 착수”",
+      "summary": "서울 도봉구의 한 아파트에서 진행된 18억원대 개별난방 전환 공사를 둘러싸고 입찰담합 의혹이 제기된 가운데, 주민들의 신고에도 소극 대응으로 일관해 국회 질타를...",
+      "source_url": "https://www.google.com/goto?url=CAESfAHrOzAVtJ7SMtOilSuLuezyhWm5w3DepSbH-WWwy_9cbdsKTdfXo521V3LzqDKNkry8qr7rJ9kai-F_rKkNUGMuZ85hVVbhBvmtfNssFMrAmKywgWZqXFQ1I-9hzT_R4307ec3x6rOb9Gi-64M0HOYOTLAcw4o8TS2HlNg",
+      "published_at": "16시간 전"
+    },
+    {
+      "category": "news",
+      "category_label": "뉴스 보도내용",
+      "competitor": "공정거래위원회",
+      "keyword": "공정위",
+      "headline": "사조-푸른, 연내 결별할까…계열분리 서류 보완 마치고 승인 대기",
+      "summary": "계열분리 서류 제출·보완 완료…공정위 “결과 시점 미정” 푸른그룹 비상장 계열사, 공정위 과태료 부과…계열분리 필요성 커져.",
+      "source_url": "https://www.google.com/goto?url=CAESYgHrOzAVBEaYYMVlXdcY8mEUepXJA9W_pCGLFSxiNSZfrFb1YNUB7nRTzC4jsL-Zm37KNQaFyzzCzD6dv2zWu5LpZ2L6HHci6hhKt52PBEGzZEBJrDveJrnTe5xX-juxotct",
+      "published_at": "16시간 전"
+    },
+    {
+      "category": "news",
+      "category_label": "뉴스 보도내용",
+      "competitor": "공정거래위원회",
+      "keyword": "과징금",
+      "headline": "마니커, 246억 육계 담합 과징금 취소 판결…공정위 제재 뒤집힌 이유는",
+      "summary": "[뉴스락] 마니커가 육계 판매사업자 간 담합과 관련해 공정거래위원회로부터 부과받은 245억6000만원의 과징금 납부명령을 취소하는 판결을 받았다.30일 법조계 및...",
+      "source_url": "https://www.google.com/goto?url=CAESdwHrOzAVW55naUrk3lYPQ6H-8Y83PihBp5_IzkmKlQIXyxZ22udpDUO5MV6rdPjVcMyoxQIpOdVQvObyNJBoh8Gsv-fTNzWq_6jfp9y2tL_tVoAkSSePYaGRLR1QML0QMKjd61oM2ZXTLlGgUC3aEnUFVWMgeyBq",
+      "published_at": "16시간 전"
+    },
+    {
+      "category": "news",
+      "category_label": "뉴스 보도내용",
+      "competitor": "공정거래위원회",
+      "keyword": "과징금",
+      "headline": "공정위, 셀트리온에 과징금 6.3억…셀트리온 \"행정소송 제기\"",
+      "summary": "서면 미발급·지연발급, 수급사업자에 귀책 없는 위탁취소 공정위, 시정명령·과징금 6억3000만원 부과 셀트리온, 공정위 결정 불복…행정소송 예고 [아시아타임즈=김지수...",
+      "source_url": "https://www.google.com/goto?url=CAESbAHrOzAVEgknxsaT0Demt7l3_1HGUZmted83ECddCnBREctxHQDLb-J2AOXxpF9MhFmPYhmLm8Je1_W2RROT2pscewOtFl5O3U_d_xEMhZStmXsdu3QcBo10RLPD6SSiPzN2pFhCSwy-RZ8BzA",
+      "published_at": "16시간 전"
+    },
+    {
+      "category": "news",
+      "category_label": "뉴스 보도내용",
+      "competitor": "공정거래위원회",
+      "keyword": "현장조사",
+      "headline": "이달만 세 번째 식품 담합 조사…`경쟁제한성` 판단 주목",
+      "summary": "사진은 8월14일 서울시내 한 대형마트에 진열된 오뚜기 컵라면. [사진=연합뉴스][디지털데일리 유채리 기자] 공정거래위원회가 치킨과 가공식품에 이어 라면 업체까지...",
+      "source_url": "https://www.google.com/goto?url=CAESbwHrOzAVjLDlYak5tHR8ZcJhhftsLfak4GYjDDTeDXTrDH4cyfCryaOKEypKPPowJjpn6U8rLHTiHcorfAp7vNCpcgQmwTNKth2DSS3PujBJqEX42jJVKzDqKbylfvSqDTTEQSbtxFKIkAsTrJ9ktg",
+      "published_at": "16시간 전"
+    },
+    {
+      "category": "news",
+      "category_label": "뉴스 보도내용",
+      "competitor": "공정거래위원회",
+      "keyword": "현장조사",
+      "headline": "‘18억 아파트 공사 담합’ 의혹 넘겼던 공정위…국회 지적에 “조사 착수”",
+      "summary": "서울 도봉구의 한 아파트에서 진행된 18억원대 개별난방 전환 공사를 둘러싸고 입찰담합 의혹이 제기된 가운데, 주민들의 신고에도 소극 대응으로 일관해 국회 질타를...",
+      "source_url": "https://www.google.com/goto?url=CAESfAHrOzAV-twQm3HCh7qepzbTAGwXPk1ttt7Pl-aGvY4WhwgwDDDThgWr2IXHv90jOBQVoYRzVCciiFqpSc0TNwKV4mJJ3VODzzVGrO06gJRGs-M-OeGkHJFlx4ybm3bff1eq1COu_NnDTYuuk6RxeKmufWXhKUksoymUaWw",
+      "published_at": "16시간 전"
+    },
+    {
+      "category": "news",
+      "category_label": "뉴스 보도내용",
+      "competitor": "공정거래위원회",
+      "keyword": "담합",
+      "headline": "‘18억 아파트 공사 담합’ 의혹 넘겼던 공정위…국회 지적에 “조사 착수”",
+      "summary": "서울 도봉구의 한 아파트에서 진행된 18억원대 개별난방 전환 공사를 둘러싸고 입찰담합 의혹이 제기된 가운데, 주민들의 신고에도 소극 대응으로 일관해 국회 질타를...",
+      "source_url": "https://www.sisajournal.com/news/articleViewAmp.html?idxno=392397",
+      "published_at": "16시간 전"
+    },
+    {
+      "category": "news",
+      "category_label": "뉴스 보도내용",
+      "competitor": "공정거래위원회",
+      "keyword": "담합",
+      "headline": "마니커, 246억 육계 담합 과징금 취소 판결…공정위 제재 뒤집힌 이유는",
+      "summary": "[뉴스락] 마니커가 육계 판매사업자 간 담합과 관련해 공정거래위원회로부터 부과받은 245억6000만원의 과징금 납부명령을 취소하는 판결을 받았다.30일 법조계 및...",
+      "source_url": "https://www.google.com/goto?url=CAESdwHrOzAV5yEjtLPLoyqwTfZvNlGA6vLHpC7p575Aq77EBZWmBM3keG09XlVAgcg4BjxQmsOD-tJbyO9hyrknXCJlY2LpY94Fj_ZelP37jHqNiTgn5G4UYJC2hG_4uEtX733LB13y5OcZSoJlawzC_cgeUfAGrX__",
+      "published_at": "16시간 전"
+    },
+    {
+      "category": "news",
+      "category_label": "뉴스 보도내용",
+      "competitor": "공정거래위원회",
+      "keyword": "담합",
+      "headline": "이달만 세 번째 식품 담합 조사…`경쟁제한성` 판단 주목",
+      "summary": "사진은 8월14일 서울시내 한 대형마트에 진열된 오뚜기 컵라면. [사진=연합뉴스][디지털데일리 유채리 기자] 공정거래위원회가 치킨과 가공식품에 이어 라면 업체까지...",
+      "source_url": "https://www.google.com/goto?url=CAESbwHrOzAVT38XlcX12sOqHrXxAsVYWklSJhMFdXXAlu1o-iZf0QcAyzgQpAgccW4aTSLbMcKvnBwB-jyp2wK8b-HeRsnHZfIriW5fOUXbPYrz6pxVQQpbAuJc9lmYt-JF5gnFS_zfTFy8aU0HVMdVpA",
+      "published_at": "16시간 전"
+    },
+    {
+      "category": "news",
+      "category_label": "뉴스 보도내용",
+      "competitor": "SK그룹",
+      "keyword": "공정거래위원회",
+      "headline": "롯데, 롯데렌탈 1조3105억원에 매각 완료…최대주주 렉시콘코리아홀드코로 변경",
+      "summary": "[소셜밸류=소민영 기자] 롯데그룹이 롯데렌탈 경영권 지분 매각을 마무리하며 1조 3000억원대 자금을 확보했다. 지난해부터 추진해 온 비핵심 사업 정리와 저효율 자산...",
+      "source_url": "https://www.google.com/goto?url=CAEScAHrOzAVW-fNHwBcCqBJK00B2i2SO5qh2cHlvmnHRYP1rRrHKCJAOd03lmUEDbytr0DTX2FZYhRvzVglJ1lzdTupkbI6I6qZ8PS9bFDXSG0Loc0uFXRke2YyHmKdAZrSbglkWil72fBgEiymYESF3q4",
+      "published_at": "16시간 전"
+    },
+    {
+      "category": "news",
+      "category_label": "뉴스 보도내용",
+      "competitor": "공정거래위원회",
+      "keyword": "공정위",
+      "headline": "공정위 제재받은 귀한족발…차액가맹금 반환 소송 움직임",
+      "summary": "가맹점 개설 실적을 부풀려 광고하고 납품업체로부터 받은 경제적 이익을 제대로 공개하지 않아 공정거래위원회 제재를 받은 족발 프랜차이즈 귀한족발을 상대로 차액...",
+      "source_url": "https://www.google.com/goto?url=CAESeAHrOzAVtCLsRwMUJZIK5mMgeaf0IkuDEONc8_sZHk3pg5GME_a75ti4BruUC-p3DEtIsiqIr5Ai0WQdgdL4sGTSAbgwSWNGQhvD06soiu_e_Ay21AudRbGY8RBx5mS8qLuIf0SXVbnWAl_ldy4_B468ZlpWZyfFIw",
+      "published_at": "17시간 전"
+    },
+    {
+      "category": "news",
+      "category_label": "뉴스 보도내용",
+      "competitor": "공정거래위원회",
+      "keyword": "공정위",
+      "headline": "공정위 제재에도 ‘전국 150호점’…귀한족발, 점주들 집단소송 직면",
+      "summary": "더트래커 = 강혜림 기자족발 프랜차이즈 귀한족발이 가맹점주들의 집단소송에 직면했다. 전·현직 점주들이 가맹본부가 원재료 공급 과정에서 챙긴 유통 마진을 돌려...",
+      "source_url": "https://www.google.com/goto?url=CAESaAHrOzAVsztRnCFqGTefpuQBcv1qe49GA5GCDFKfkwRrMHLZdtd_ncuWrwjTLG6xZaTjTjvoqBeCDPZJkyJaB3g6a_6nYcRnTH5hr1nJ90G5LPy9WYGSOvV_U9VAomy3Q7Msyl68wEV4",
+      "published_at": "17시간 전"
+    },
+    {
+      "category": "news",
+      "category_label": "뉴스 보도내용",
+      "competitor": "공정거래위원회",
+      "keyword": "과징금",
+      "headline": "셀트리온, 진단키트 3717만개 위탁 취소…과징금 6억3000만원",
+      "summary": "스페셜경제=최진형 기자 | 셀트리온이 하도급업체의 책임이 없는데도 코로나19 신속진단키트 제조위탁을 일방적으로 취소해 공정거래위원회의 제재를 받게 됐다.",
+      "source_url": "https://www.google.com/goto?url=CAESdwHrOzAVIsi19lMpt-YbpJexvzqA0iPd1IdMSW-Fb0maBqgJD3ImbUfWASVoZf7DJy3F2PoL7_CnubVAGBINgy9RDAAZFuLmVEkL36vtpUDl20CzDViSN8cg4xnMKEMj9WBRDZjswISW_JlLQVIs7VFeV0duSHZ3",
+      "published_at": "17시간 전"
+    },
+    {
+      "category": "news",
+      "category_label": "뉴스 보도내용",
+      "competitor": "SK그룹",
+      "keyword": "공정거래위원회",
+      "headline": "롯데, 롯데렌탈 1.3조 매각 완료…재무개선·사업 재편 가속화",
+      "summary": "롯데렌터카 서울역 지점 전경. 사진=롯데렌탈 제공롯데그룹이 롯데렌탈을 글로벌 사모펀드(PEF) 운용사 TPG에 1조3105억원에 매각하며 사업 포트폴리오 재편에 속도를...",
+      "source_url": "https://m.joseilbo.com/news/view.htm?newsid=578568&class2=&class=3",
+      "published_at": "17시간 전"
+    },
+    {
+      "category": "news",
+      "category_label": "뉴스 보도내용",
+      "competitor": "SK하이닉스",
+      "keyword": "공정거래위원회",
+      "headline": "코스피, 3% 이상 하락 마감…반도체 관련 주식 낙폭 커",
+      "summary": "코스피가 미국 기술주가 급락한 여파로 3% 넘게 하락한 30일 서울 중구 하나은행 딜링룸에서 직원이 업무를 보고 있다. 이날 코스피는 전장보다 2...",
+      "source_url": "https://www.google.com/goto?url=CAESgwEB6zswFZcU3F8aHbg-HQJEc_E41pvj0IxYptcm18x7f_hzIMnNgoVxh_obQ1Go_8Sggn6oVsCCcoEbPs5MP0UCzXSh9pDWH-qipXGW_8w3xLUDT7fQE_lB73YNYlyCLoyD58nyZYGZU7FKA5xVWkgyD6az5QD-liUtbl8T30uDIay9Cw&gsessionid=nG8WGikl30050-07SXCIJH03G2lPXftrqcMxMdC-38gL3wNdc2joeQ",
+      "published_at": "17시간 전"
+    },
+    {
+      "category": "news",
+      "category_label": "뉴스 보도내용",
+      "competitor": "SK하이닉스",
+      "keyword": "공정거래위원회",
+      "headline": "롯데, 롯데렌탈 1조3105억 매각 완료···사업 재편 '속도'",
+      "summary": "현대경제신문 길나영 기자 |롯데가 롯데렌탈 경영권 지분 61.2%를 글로벌 사모펀드 운용사 TPG에 매각하는 거래를 완료했다. 총 1조3105억원 규모의 매각을 마무리...",
+      "source_url": "https://www.google.com/goto?url=CAESdAHrOzAVLuty0jYylPFf98WXjxclOWwi4jfbeu00KaI0oo4ArcEI6ANZ68SWRzfYoQ_tXcNT2mVoBvlM7IrS7xPsBXD03cNr2LDmdwwr5V6Ao-IQUpv7KcMBjrMAUYOWsvywtcdApHU6MF1vYM5pnJQT8Yd0&gsessionid=nG8WGikl30050-07SXCIJH03G2lPXftrqcMxMdC-38gL3wNdc2joeQ",
+      "published_at": "17시간 전"
+    },
+    {
+      "category": "news",
+      "category_label": "뉴스 보도내용",
+      "competitor": "공정거래위원회",
+      "keyword": "공정위",
+      "headline": "미국 싱크탱크 \"공정위 과징금 한국 재벌보다 미국 기업에 집중, 미국 정부에서 대응 필요\"",
+      "summary": "공정거래위원회가 미국 기업에 부과한 평균 과징금이 한국 재벌기업과 비교해 지나치게 많다는 미국 싱크탱크의 분석이 나왔다. 공정위가 자국 및 미국 기업에 차별적...",
+      "source_url": "https://www.google.com/goto?url=CAESfAHrOzAVRMKhPC5B2MSw8Utlq_XdbeD-Unqo7H8ACLDSKDxVm502bZ0UJeX7lFVrzgMaNYntulrSUg4huzy4B2i9CGgvaHLqJuHzPetzE0fC0dTL2ayTjkKUhO5GftOzB44omydwhqJEkOjgUpJLFxPBBgWZmYr9HXIW2Jo",
+      "published_at": "18시간 전"
+    },
+    {
+      "category": "news",
+      "category_label": "뉴스 보도내용",
+      "competitor": "공정거래위원회",
+      "keyword": "공정위",
+      "headline": "SKT ‘5G 과장광고’ 대법원 심리 개시···정재헌 상고심 대응 역량 시험대",
+      "summary": "[시사저널e=김용수 기자] SK텔레콤의 5G 과장광고에 대한 공정거래위원회(공정위)의 168억원대 과징금 처분을 둘러싼 법정공방이 대법원에서 본격화했다.",
+      "source_url": "https://www.google.com/goto?url=CAESfgHrOzAVsVgEnLzRZP3MosCMSqvp6DQ6fOk8sytRTP6Jn9sbx3tvBloD82SfRSe0dJUucpydKvXs2dky24MCwmsmpNkHapX-nOD5og8p2pVUgw1T6qezvTBIO8YqgNX-sYU8-qGNfvGN5x64tRkxFlj2e6imTqIraPpuYPX2fg",
+      "published_at": "18시간 전"
+    },
+    {
+      "category": "news",
+      "category_label": "뉴스 보도내용",
+      "competitor": "공정거래위원회",
+      "keyword": "공정위",
+      "headline": "'동의' 앞세운 공정위의 막무가내 포렌식, '위법 조사'가 쟁점",
+      "summary": "[포인트데일리 윤은식 기자] '경제 검찰'로 불리는 공정거래위원회(이하 공정위)가 엄격한 법적 절차를 외면한 채 피조사자 '사전 동의'만을 명분 삼아 무리한 행정권...",
+      "source_url": "https://www.google.com/goto?url=CAESegHrOzAV0Dtow4qfz57Ck2hEz-ArexbAaVHb-Olks48gcadbGHKa3tYwSufjJW3Skmrd3J-Qg_hAv9oQ7OlZbuNQiPkSVHh6Cw-4FSuGSITE1MhYvSwuSBlp0pUWsu8hELJc3Nh4P1tPou9AM-HPnIJbECUJj_fO1LY0",
+      "published_at": "18시간 전"
+    },
+    {
+      "category": "news",
+      "category_label": "뉴스 보도내용",
+      "competitor": "공정거래위원회",
+      "keyword": "과징금",
+      "headline": "미국 싱크탱크 \"공정위 과징금 한국 재벌보다 미국 기업에 집중, 미국 정부에서 대응 필요\"",
+      "summary": "공정거래위원회가 미국 기업에 부과한 평균 과징금이 한국 재벌기업과 비교해 지나치게 많다는 미국 싱크탱크의 분석이 나왔다. 공정위가 자국 및 미국 기업에 차별적...",
+      "source_url": "https://www.businesspost.co.kr/BP?command=article_view&num=450778",
+      "published_at": "18시간 전"
+    },
+    {
+      "category": "news",
+      "category_label": "뉴스 보도내용",
+      "competitor": "공정거래위원회",
+      "keyword": "과징금",
+      "headline": "SKT ‘5G 과장광고’ 대법원 심리 개시···정재헌 상고심 대응 역량 시험대",
+      "summary": "[시사저널e=김용수 기자] SK텔레콤의 5G 과장광고에 대한 공정거래위원회(공정위)의 168억원대 과징금 처분을 둘러싼 법정공방이 대법원에서 본격화했다.",
+      "source_url": "https://www.google.com/goto?url=CAESfgHrOzAV0ckhqUnOhTJQGJKl9f5JRY_yWBQ1CrLXyrcxkUPKG4Rzd2EyneyCDOrrokpyuVSEmHl7UJ3A4jO7xawHapkjyw_Pok9MQpzK13v88-pZ17khGRwnlv0VM0y5zkFW4PzxCbjosBdNQNxfr7wAekJINSc03653IVWerA",
+      "published_at": "18시간 전"
+    },
+    {
+      "category": "news",
+      "category_label": "뉴스 보도내용",
+      "competitor": "공정거래위원회",
+      "keyword": "현장조사",
+      "headline": "'동의' 앞세운 공정위의 막무가내 포렌식, '위법 조사'가 쟁점",
+      "summary": "[포인트데일리 윤은식 기자] '경제 검찰'로 불리는 공정거래위원회(이하 공정위)가 엄격한 법적 절차를 외면한 채 피조사자 '사전 동의'만을 명분 삼아 무리한 행정권...",
+      "source_url": "https://www.google.com/goto?url=CAESegHrOzAV7ilQVQ54RgY59fHNItIN-jua15ssnLCCWJF7cPG-AqmHGHh0L1Or4Ei-ReZFod150ytpSb8g7m2RTX_QYsZsFGUy9nyhuRydMAOWtb8WugrDKpmhaYtL1Pb7XYFBNA7lHzDI1mTGx5R1pComKHKbT8FwLKl7",
+      "published_at": "18시간 전"
+    },
+    {
+      "category": "news",
+      "category_label": "뉴스 보도내용",
+      "competitor": "SK그룹",
+      "keyword": "공정거래위원회",
+      "headline": "SKT ‘5G 과장광고’ 대법원 심리 개시···정재헌 상고심 대응 역량 시험대",
+      "summary": "[시사저널e=김용수 기자] SK텔레콤의 5G 과장광고에 대한 공정거래위원회(공정위)의 168억원대 과징금 처분을 둘러싼 법정공방이 대법원에서 본격화했다.",
+      "source_url": "https://www.sisajournal-e.com/news/articleViewAmp.html?idxno=424694",
+      "published_at": "18시간 전"
+    },
+    {
+      "category": "news",
+      "category_label": "뉴스 보도내용",
+      "competitor": "SK하이닉스",
+      "keyword": "공정거래위원회",
+      "headline": "SKT ‘5G 과장광고’ 대법원 심리 개시···상고심 대응 역량 시험대",
+      "summary": "[시사저널e=김용수 기자] SK텔레콤의 5G 과장광고에 대한 공정거래위원회(공정위)의 168억원대 과징금 처분을 둘러싼 법정공방이 대법원에서 본격화했다. 대법원은.",
+      "source_url": "https://www.sisajournal-e.com/news/articleView.html?idxno=424694",
+      "published_at": "19시간 전"
+    },
+    {
+      "category": "news",
+      "category_label": "뉴스 보도내용",
+      "competitor": "SK하이닉스",
+      "keyword": "공정거래위원회",
+      "headline": "SK일렉링크, SK시그넷 경영권 100% 인수…전기차 충전 풀 밸류체인 구축",
+      "summary": "SK일렉링크가 전기차 초급속 충전기 제조업체 SK시그넷의 경영권을 100% 확보하며 전기차 충전 사업 전반의 풀 밸류체인 완성에 나섰다. SK일렉링크는 13일 SK가 소유...",
+      "source_url": "https://www.google.com/goto?url=CAESYAHrOzAVmafOTv__GT94MSGcgk1IzKwCn4xb95KAuc2Pcqmhpw7lbT6jz5F88vnwlMu4vXK4-735Yter88T7t3tSAHaP01gmEv6ueM8rD4LGqryAR5s1w-zANAg9w-BkWg&gsessionid=nG8WGikl30050-07SXCIJH03G2lPXftrqcMxMdC-38gL3wNdc2joeQ",
+      "published_at": "19시간 전"
+    },
+    {
+      "category": "news",
+      "category_label": "뉴스 보도내용",
+      "competitor": "공정거래위원회",
+      "keyword": "현장조사",
+      "headline": "미 소비자단체 “쿠팡 제재는 ‘미국 기업 차별’ 아니다”",
+      "summary": "미국의 유력 소비자단체가 쿠팡에 대한 한국 공정거래위원회의 조사와 제재를 '미국 기업 차별'로 보는 주장은 근거가 없다고 반박했다. 공정위가 미국 기업뿐 아니라...",
+      "source_url": "https://www.google.com/goto?url=CAESbQHrOzAVaPqat9ZQtAz-Yz3R1JPpctxltJ1tS6sq1cIv0oFlFqqkGTj0GRwTA6x7Rjb30qfdSqBad5m9I7UZ9d9Eeni9Eo40QBrdWdxCAyhZd9GqhdyZ2WFK2FkLJ7zHKPW1lnu-08dDuAByCak",
+      "published_at": "21시간 전"
+    },
+    {
+      "category": "news",
+      "category_label": "뉴스 보도내용",
+      "competitor": "공정거래위원회",
+      "keyword": "현장조사",
+      "headline": "경실련 \"신세계면세점 세무조사 환영…탈루 철저히 규명해야\"",
+      "summary": "인천공항 신세계 면세점(사진=연합뉴스) 신세계면세점이 총수 일가 친인척이 운영하는 송객업체에 유리한 거래조건을 제공했다는 의혹으로 특별세무조사를 받고 있다.",
+      "source_url": "https://www.google.com/goto?url=CAESfQHrOzAVBmplAwxNOmfjWVWnQ1b20TUdx7W2cz8pWZbqzpCHYPJmWZ36aov8q_GSpJ5OoK2CsUNXtVTH2BDkrUx6gaJ9tGaprght6S-b_i9HcId8B4klltkQa-jFOPSuX9eUbsIi_I4qit7u5ZjvXx33T67hOcK3SUL7WARj",
+      "published_at": "21시간 전"
+    },
+    {
+      "category": "news",
+      "category_label": "뉴스 보도내용",
+      "competitor": "공정거래위원회",
+      "keyword": "현장조사",
+      "headline": "\"신세계면세점 친인척 특혜 의혹\"…경실련, 국세청 조사·공정위 검증 요구",
+      "summary": "신세계면세점이 총수 일가의 친인척 업체에 유리한 거래조건을 제공했다는 의혹과 관련해 국세청의 특별세무조사가 시작됐다.경제정의실천시민연합(경실련)은 세금...",
+      "source_url": "https://www.google.com/goto?url=CAESdAHrOzAVuawSiGllIdGSa87kj6GmgEiDvR3uE902iTZXPoFrcXhkTaSd_utBpCS4jYA4pq8qMQCrV8QqlDkzAhFc-vlfCXvpJNuWdD3aEKAfqfjzV0_CfEmwa8zMvwT0Z1xsPXubf-YSrc56J1S9dbtGfYD3",
+      "published_at": "21시간 전"
+    },
+    {
+      "category": "news",
+      "category_label": "뉴스 보도내용",
+      "competitor": "공정거래위원회",
+      "keyword": "현장조사",
+      "headline": "신세계면세점 친인척 업체 특혜 의혹…경실련, 국세청·공정위 철저 조사 촉구",
+      "summary": "신세계면세점이 총수일가 친인척이 운영하는 업체에 유리한 거래조건을 제공했다는 의혹과 관련해 경제정의실천시민연합(경실련)이 국세청의 철저한 세무조사와 공정...",
+      "source_url": "https://www.google.com/goto?url=CAESjAIB6zswFYNy9XIGPo8U1YdJoV6zHMpOe4WIkopllMMeJdlJk5N8e4SS8nvVC3pChRLlZIPUsLcWFsh9_caECga6RdbzTLEP_IcOT0ftE1rFeFwuEKyMeD_MstLYeJv-CArlW5ZT2jbtAM0QLXfqZ9jwtFh_7hkAHOVhS6DFFc8uxhOXdmoyTjWkvSMy3hiEtejkJ4p2ZgJd3OEUAq3MtOFxPjYyhSN91beWm5J7piNeJ2CZM6MwEulLRxvVtv8osMMweqKm5vIqOpl88mOKatxdaKYzdksxOs9PPq4HU43GS-uKD6SPApY3Ff0zy58C_wuMiv8_SB5n2T6F7a8MmHrPUhzGzU3lEssGpDw7",
+      "published_at": "21시간 전"
+    },
+    {
+      "category": "news",
+      "category_label": "뉴스 보도내용",
+      "competitor": "공정거래위원회",
+      "keyword": "담합",
+      "headline": "내년 신고포상금 예산 8배 증가에…“정상적 정책인가”",
+      "summary": "[금융소비자뉴스 정윤승 기자] 정부가 내년 신고포상금 예산을 올해보다 약 8배 늘린 2546억원으로 편성했다. 공익신고 활성화를 위한 기금 신설과 함께 일부 사업의...",
+      "source_url": "https://www.google.com/goto?url=CAESdQHrOzAV2gpcmGqtduPdYnruf9cTYHGqb_mdPeJBGljp62yR-W0zks5OSGmH7gsbPaY4w2aY_LOIcR2HW9PdU56c8WShuSksLAaMziM1QhVk_CQ5Xav1jPeOsbw1Wby6YN-aVXOui_QUVHuyr7zZlcHRjna3Iw",
+      "published_at": "21시간 전"
+    },
+    {
+      "category": "news",
+      "category_label": "뉴스 보도내용",
+      "competitor": "SK그룹",
+      "keyword": "공정거래위원회",
+      "headline": "[인사] SK그룹",
+      "summary": "1 정유사 담합 심의 착수한 시점에…민간 주유소 사업자, 100만 리터 저유고 열었다 대형 정유사들의 석유제품 가격 담합 의혹에 대한 공정거래위원회 심의가 진행되는...",
+      "source_url": "https://www.jeonmae.co.kr/news/articleView.html?idxno=1306876",
+      "published_at": "21시간 전"
+    },
+    {
+      "category": "news",
+      "category_label": "뉴스 보도내용",
+      "competitor": "SK하이닉스",
+      "keyword": "공정거래위원회",
+      "headline": "[인사] SK하이닉스",
+      "summary": "사장 보임△ 안현 사장(현 개발총괄) → 미주총괄 사장△ 차선용 사장(현 미래기술연구원장) → 개발총괄 사장(미래기술연구원장 겸임)△ 윤풍영 사장(현 SK SUPEX추구...",
+      "source_url": "https://www.jeonmae.co.kr/news/articleView.html?idxno=1306877",
+      "published_at": "21시간 전"
+    },
+    {
+      "category": "news",
+      "category_label": "뉴스 보도내용",
+      "competitor": "공정거래위원회",
+      "keyword": "담합",
+      "headline": "野유상범 \"내년 정부예산서 각종 신고포상금 8배 늘어 2천500억\"",
+      "summary": "(서울=연합뉴스) 김연정 노선웅 기자 = 국민의힘 유상범 의원은 30일 내년도 정부 예산안과 관련, \"21개 사업의 '신고 포상금'이 올해 32...",
+      "source_url": "https://www.google.com/goto?url=CAESbgHrOzAVADy080x7sbpzFw3gU0KlLt3wsaZc3A3KAsRkI5mz7243MDbGqVacppwySwwP8Bv_1X59A_lJ_FNula-alt6S7C2wz6D50a_5eeeZSGBRjTpI7RsfU2ajy0qZu5h47Y5TwwtUu5dTLbXA",
+      "published_at": "22시간 전"
+    },
+    {
+      "category": "news",
+      "category_label": "뉴스 보도내용",
+      "competitor": "SK그룹",
+      "keyword": "공정거래위원회",
+      "headline": "[소비자 Q&A] 항공권 결제 1시간 만에 취소…수수료 부과 논란",
+      "summary": "Q. 온라인 여행사에서 해외 항공권을 구매했다가 날짜를 잘못 선택한 사실을 알고 1시간 만에 취소했습니다. 그런데 여행사는 수수료를 내야 한다고 합니다.",
+      "source_url": "https://www.google.com/goto?url=CAESdwHrOzAVFjvMl5i-vKr3DCRcIo1wzR6hY1PMdCgy3aKoco6ujdKrTf1gwhCwOQDC06GfpUhVHLWHzqhKNI33xtkfUBLQDArCUMnUbKsd1dcaDQyYEUzFlCHFEPW2XZ_bEsOcAzhJPql99pj3leb-94gY5Td7lclu",
+      "published_at": "22시간 전"
+    },
+    {
+      "category": "news",
+      "category_label": "뉴스 보도내용",
+      "competitor": "SK하이닉스",
+      "keyword": "공정거래위원회",
+      "headline": "[분석] 2026 국감에서 나타난 한국 산업의 5대 과제…기업 경쟁력부터 소상공인 생존까지",
+      "summary": "김정관 산업통상부 장관이 22일 국회 산업통상자원중소벤처기업위원회에서 열린 2026년도 종합 국정감사에서 위원 질문에 답하고 있다. [사진=연합뉴스].",
+      "source_url": "https://www.google.com/goto?url=CAESeAHrOzAVcpo9kjd6Rm3T8yjQmREkW3qqOG01iX_QPd5sYSYtBE9285PI-Iw_joAJ1TkCkI7yNitygD5H7_hOM4pCSBi_ln1N-pmRu0XtcCenuVC2oYVWOHW9Cj-cyRjlcoFZABgXV6fq3N5tWbOdaRQ_5r2yd80vzw&gsessionid=nG8WGikl30050-07SXCIJH03G2lPXftrqcMxMdC-38gL3wNdc2joeQ",
+      "published_at": "22시간 전"
+    },
+    {
+      "category": "news",
+      "category_label": "뉴스 보도내용",
+      "competitor": "SK하이닉스",
+      "keyword": "공정거래위원회",
+      "headline": "코스피 4%대 급락에 매도 사이드카",
+      "summary": "30일 서울 중구 하나은행 딜링룸 현황판에 코스피가 표시되고 있다. 이날 코스피는 장 초반 3% 넘게 하락해 오전 9시 3분 기준 전장보다 187...",
+      "source_url": "https://www.google.com/goto?url=CAESgwEB6zswFSxDZ7hDDQqaDje2MvCR4z0wXQSxRXHf1kpU18AXaCAQJXC34IqXcRcpdyP3vE85NBt9o7Z1uNjXe8dcBG-S7lkQ6ULo9qp_cNC3G2R09j6XR9MApMjJZ2WszLtiamL_-WEu6hvB_rvBZHdtecz8tpV3aVDLu_PvSRlFMLYCEA&gsessionid=nG8WGikl30050-07SXCIJH03G2lPXftrqcMxMdC-38gL3wNdc2joeQ",
+      "published_at": "22시간 전"
+    },
+    {
+      "category": "news",
+      "category_label": "뉴스 보도내용",
+      "competitor": "공정거래위원회",
+      "keyword": "과징금",
+      "headline": "셀트리온, 공정위 과징금 6억3000만원 불복…행정소송 예고",
+      "summary": "'코로나19 진단키트 제조 위탁 취소·서면 발급 의무 위반' 판단에 반박.",
+      "source_url": "https://www.google.com/goto?url=CAESbgHrOzAVXzoln6lgZ3HT6LAhrEGItd7XowTu5_fi64Y5zxXccBXEJXX0UcLCioQxoyVwpMPn4Gg0rc-btFXwpey6BpSwxLfm5HB4lbRVmWmjkZ1wX60wO5b2v-eh3l3OTdbNCI4M3R3JrX54nUPQ",
+      "published_at": "23시간 전"
+    },
+    {
+      "category": "news",
+      "category_label": "뉴스 보도내용",
+      "competitor": "공정거래위원회",
+      "keyword": "현장조사",
+      "headline": "공정위, 쿠팡 할인쿠폰 '정조준' … 경쟁사 영업 방해 의혹",
+      "summary": "공정거래위원회가 쿠팡의 공정거래법 위반 의혹을 조사하면서 경쟁 온라인 쇼핑몰의 할인행사를 위축시켰는지 살펴보고 있다. 쿠팡이 운영하는 '가격 맞춤형 쿠폰'이...",
+      "source_url": "https://www.safetimes.co.kr/news/articleViewAmp.html?idxno=247009",
+      "published_at": "23시간 전"
+    },
+    {
+      "category": "news",
+      "category_label": "뉴스 보도내용",
+      "competitor": "공정거래위원회",
+      "keyword": "담합",
+      "headline": "밀가루 부산물 가격담합 사건 심의 절차 개시",
+      "summary": "밀가루 부산물 가격담합 사건 심의 절차 개시. 공정거래위원회(위원장 주병기, 이하 '공정위') 사무처는 밀가루 부산물 가격담합 사건에 대해 심사관이 조사한 행위...",
+      "source_url": "https://www.google.com/goto?url=CAESbwHrOzAVJJRAT8wduujRwiNNPy-SFsj9kpgPvjG3N4KwklxdOsvjune7Z35A5abyvVjKeZZ_-ePM1t5J8f28-q4-Gf17fDpqyltI58zFqXvXrHQSAcJTVQAAF32HZ-zB84dBT2idY8ugc8OYe2rfVQ",
+      "published_at": "23시간 전"
+    },
+    {
+      "category": "news",
+      "category_label": "뉴스 보도내용",
+      "competitor": "SK바이오사이언스",
+      "keyword": "공정거래위원회",
+      "headline": "셀트리온, 공정위 과징금 6억3000만원 불복…행정소송 예고",
+      "summary": "'코로나19 진단키트 제조 위탁 취소·서면 발급 의무 위반' 판단에 반박.",
+      "source_url": "https://www.newstomato.com/ReadNews.aspx?no=1318622",
+      "published_at": "23시간 전"
+    }
+  ],
+  "generated_at": "2026-10-30T23:35:09.406Z",
+  "_meta": {
+    "sources": [
+      "ftc.go.kr(보도자료)",
+      "ftc.go.kr(위원회 소식)",
+      "serper.dev/news"
+    ],
+    "windowHours": {
+      "press": 48,
+      "committee": 168,
+      "news": 24
+    },
+    "gapDays": 1,
+    "committeeCandidates": 5,
+    "boards": {
+      "committee": {
+        "boardsRead": 1,
+        "boardsTotal": 1,
+        "rowsSeen": 10,
+        "matched": 5
+      },
+      "press": {
+        "boardsRead": 2,
+        "boardsTotal": 2,
+        "rowsSeen": 20,
+        "matched": 0
+      }
+    },
+    "affiliateCompanies": 28,
+    "affiliateCollected": 19,
+    "categoryCounts": {
+      "press": 0,
+      "committee": 0,
+      "news": 53
+    },
+    "collected": 59,
+    "deduped": 53,
+    "errors": []
+  }
+}
