@@ -1,135 +1,86 @@
 {
-  "id": "2026-10-30",
-  "date": "2026-10-30",
-  "title": "셀트리온 진단키트 위탁 임의취소, 과징금 6억3천만원·시정명령",
-  "summary": "임광현 비서실장, **초광역특구법** 규제완화 조항에 \"반도체 메가프로젝트 신속 추진 위해 필요\"\n**셀트리온** 진단키트 **3,717만개** 위탁 임의취소·서면 미발급에 과징금 **6억 3천만원** — 셀트리온은 행정소송 방침\n**한화** 자료제출명령 취소소송 첫 변론 — 상출집단 채무보증 **2,000억원**(**325.5%**↑) 공개",
+  "id": "2026-10-31",
+  "date": "2026-10-31",
+  "title": "SKT 5G 과장광고 168억 과징금 소송, 대법원 심리 개시",
+  "summary": "**SK텔레콤** 5G 과장광고 과징금 **168억원** 취소소송, 대법원 상고심 심리 본격화\n**마니커** 육계 담합 과징금 **245억 6천만원** 납부명령, 법원서 취소 판결\n도봉구 **18억 아파트 난방공사** 입찰담합 의혹, 국회 지적 뒤 공정위 조사 착수",
   "competitors": [
     "공정거래위원회",
+    "SK텔레콤",
     "SK㈜"
   ],
   "keywords": [
     "공정위",
     "과징금",
-    "하도급",
-    "채무보증",
-    "자료제출명령"
+    "담합",
+    "대법원",
+    "계열분리"
   ],
   "items": [
     {
-      "category": "press",
-      "category_label": "공정위 보도자료",
-      "headline": "(주)셀트리온의 하도급법 위반행위 제재",
-      "dept": "제조하도급과",
-      "summary": "셀트리온의 코로나19 진단키트 제조위탁 서면 미발급·임의 위탁취소에 시정명령·과징금 **6억 3천만원** 부과\n- **2021년 9월~2022년 1월** 7차 발주 중 2차·7차 품목 변경 시 변경계약 서면 미발급, 3차는 작업 착수 후 지연 발급 — 과징금 **4천만원**\n- **2022년 12월** 계약 해지하며 수급사업자 귀책 없이 미납품 진단키트 **3,717만개** 제조위탁 임의 취소 — 과징금 **5억 9천만원**\n- 위반행위가 **2026년 8월 4일** 개정 과징금 고시 시행 전 종료돼 종전 고시 적용, 이후 위반은 상향 기준 적용\n- 재발방지명령 병과 — 추가·변경위탁 시 작업 착수 전 서면 발급(하도급법 **제3조**), 임의 위탁취소 금지(**제8조**) 위반",
-      "source_url": "https://www.ftc.go.kr/www/selectBbsNttView.do?pageUnit=10&pageIndex=1&searchCnd=all&key=12&bordCd=3&searchCtgry=01,02&nttSn=48162",
-      "published_at": "2026-10-29",
+      "category": "news",
+      "category_label": "뉴스 보도내용",
+      "headline": "SKT 5G 과장광고 과징금 소송, 대법원 심리 개시…상고심 대응 시험대",
+      "summary": "공정위 **168억원대** 과징금 처분을 둘러싼 법정 공방이 상고심으로 넘어가 대법원 심리 본격화.\n정재헌 대표 체제에서 맞는 대형 상고심 — 상고심 대응 역량이 시험대.",
+      "source_url": "https://www.sisajournal-e.com/news/articleView.html?idxno=424694",
+      "published_at": "19시간 전",
       "topics": [
-        "subcon",
+        "consumer",
         "enforce"
       ]
     },
     {
-      "category": "press",
-      "category_label": "공정위 보도자료",
-      "headline": "2026년 상호출자제한기업집단 채무보증 현황 및 금융·보험사 의결권 행사 현황 정보 공개",
-      "dept": "기업집단관리과",
-      "summary": "상호출자제한기업집단 **47개**의 계열사 간 채무보증·금융보험사 의결권 행사 현황 공개\n- **5월 1일** 기준 채무보증 **2,000억원**, 전년(470억원) 대비 **325.5%** 증가 — 신규 지정 집단의 제한대상 **600억원**, 수출입 기반 조성 등 제한제외대상 **1,400억원**\n- 제한대상 채무보증은 **2년 내** 해소 의무, 제도 도입 후 법 위반 사례 없음\n- TRS 등 채무보증 탈법행위 고시 **4월 24일** 시행 후 첫 점검 — 계열사 간 TRS **1조 567억원**(3개 집단·9건, 전년 동일), CDS·CLN 거래 없음\n- 최근 2년간 **6개** 집단 **14개** 금융보험사가 비금융 계열사 주총서 **399회** 의결권 행사, 세부안건별 집계로 예외 허용 건수 **161→312건** 증가",
-      "source_url": "https://www.ftc.go.kr/www/selectBbsNttView.do?pageUnit=10&pageIndex=1&searchCnd=all&key=12&bordCd=3&searchCtgry=01,02&nttSn=48163",
-      "published_at": "2026-10-29",
+      "category": "news",
+      "category_label": "뉴스 보도내용",
+      "headline": "SK일렉링크, SK㈜ 보유 SK시그넷 지분 100% 750억원에 인수 계약",
+      "summary": "SK㈜가 가진 전기차 초급속 충전기 제조사 SK시그넷 지분 **100%**를 **750억원**에 사는 주식매매계약 **30일** 체결.\n인수대금은 주주배정 유상증자로 조달 — 공정거래위원회 절차 등을 거쳐 거래 마무리, 충전 사업 밸류체인 구축.",
+      "source_url": "https://news.jkn.co.kr/post/1059601",
+      "published_at": "11시간 전",
+      "topics": [
+        "merger",
+        "group"
+      ]
+    },
+    {
+      "category": "news",
+      "category_label": "뉴스 보도내용",
+      "headline": "사조-푸른 계열분리, 서류 보완 마치고 공정위 승인 대기",
+      "summary": "계열분리 신청 서류 제출·보완 완료 — 공정위는 결과 시점 미정.\n푸른그룹 비상장 계열사가 공정위 과태료를 받아 계열분리 필요성 커짐.",
+      "source_url": "https://www.google.com/goto?url=CAESYgHrOzAVBEaYYMVlXdcY8mEUepXJA9W_pCGLFSxiNSZfrFb1YNUB7nRTzC4jsL-Zm37KNQaFyzzCzD6dv2zWu5LpZ2L6HHci6hhKt52PBEGzZEBJrDveJrnTe5xX-juxotct",
+      "published_at": "16시간 전",
       "topics": [
         "group"
       ]
     },
     {
-      "category": "press",
-      "category_label": "공정위 보도자료",
-      "headline": "[설명] 국민일보(10.29.) 기업 때리니 로펌대박 공정위 發 기이한 호황 등 기사 관련",
-      "dept": "심판총괄담당관",
-      "summary": "'로펌 호황·무단 휴대전화 열람·과징금 취소 자기합리화' 보도에 공정위, 법 집행·과징금 산정은 법과 원칙에 따른다고 설명\n- 올해 과징금 증가는 담합 등 중대 사건 처분 누적 결과, 대형 로펌 수임 여부는 과징금액에 영향 없음\n- 심사보고서는 심사관 의견일 뿐 — 최종 과징금은 위반 기간·관련매출액·부당이득 등 종합해 위원회가 결정\n- 한화 현장조사 당시 휴대전화 문자 열람은 한화 측 변호사 배석하에 직원이 직접 조작해 보여준 것, 무단 열람 아님\n- 과징금이 취소돼도 시정명령 유지로 재발 방지 효과 — 승소율 제고 위해 조사·심의·소송 전 단계 보완 계획",
-      "source_url": "https://www.ftc.go.kr/www/selectBbsNttView.do?pageUnit=10&pageIndex=1&searchCnd=all&key=13&bordCd=3&searchCtgry=03&nttSn=48166",
-      "published_at": "2026-10-29",
+      "category": "news",
+      "category_label": "뉴스 보도내용",
+      "headline": "'18억 아파트 공사 담합' 의혹 넘겼던 공정위, 국회 지적에 조사 착수",
+      "summary": "서울 도봉구 아파트 **18억원대** 개별난방 전환 공사 입찰담합 의혹이 대상.\n주민 신고에도 소극 대응이라는 국회 질타 뒤 조사 착수.",
+      "source_url": "https://www.sisajournal.com/news/articleViewAmp.html?idxno=392397",
+      "published_at": "16시간 전",
       "topics": [
-        "institution",
-        "enforce"
-      ]
-    },
-    {
-      "category": "press",
-      "category_label": "공정위 보도자료",
-      "headline": "2026년 공정거래 학술연구 지원사업 최종발표회 개최",
-      "dept": "경쟁정책과",
-      "summary": "한국공정거래조정원 주최·공정위 후원으로 **10월 29일** 공정거래 학술연구 지원사업 최종발표회 개최\n- 올해 선정 과제 **4건** — 스테이블코인 경쟁 이슈, AI 상·하방 시장 기업결합 심사 방법론, 지식재산권 규제의 디지털·AI 시장 경쟁 영향, 공기업의 석유정제시장 참여 조건(경쟁중립성)\n- 연구책임자는 발표회 의견 반영해 보고서 마무리, 조정원이 **연말** 연구보고서로 발간·배포\n- 조정원은 2008년부터 사업 운영 — 정책 수립·법집행 지원 연구주제 발굴 계획",
-      "source_url": "https://www.ftc.go.kr/www/selectBbsNttView.do?pageUnit=10&pageIndex=1&searchCnd=all&key=12&bordCd=3&searchCtgry=01,02&nttSn=48165",
-      "published_at": "2026-10-29",
-      "topics": [
-        "institution"
-      ]
-    },
-    {
-      "category": "committee",
-      "category_label": "위원회 소식",
-      "headline": "2026-10-30 위원회 소식",
-      "summary": "주요일정·인사발령 내용 없음",
-      "source_url": "https://www.ftc.go.kr/www/selectBbsNttView.do?pageUnit=10&pageIndex=1&searchCnd=all&key=15&bordCd=5&nttSn=48167",
-      "published_at": "2026-10-29",
-      "topics": [
-        "institution"
+        "cartel"
       ]
     },
     {
       "category": "news",
       "category_label": "뉴스 보도내용",
-      "headline": "임광현 비서실장 \"반도체 메가프로젝트 신속 추진 위해 규제완화 필요\"",
-      "summary": "초광역전략산업특구법안의 기업 규제 완화 조항에 반도체 투자 확대·지역균형발전 명분으로 필요성 강조.\n지주회사 증손회사 지분 특례의 SK 특혜 논란 속 나온 대통령실 입장.",
-      "source_url": "https://news.einfomax.co.kr/news/articleViewAmp.html?idxno=4442032",
-      "published_at": "12시간 전",
-      "topics": [
-        "group",
-        "institution"
-      ]
-    },
-    {
-      "category": "news",
-      "category_label": "뉴스 보도내용",
-      "headline": "한화 vs 공정위, 자료제출명령 취소소송 첫 변론",
-      "summary": "현장조사 중 한화 직원 개인 휴대전화 열람·문자메시지 제출 요구 명령의 적법성이 쟁점.\n공정위는 같은 날 설명자료로 변호사 배석하에 직원이 직접 보여준 것이라 반박.",
-      "source_url": "https://www.lawtimes.co.kr/news/articleViewAmp.html?idxno=228560",
-      "published_at": "14시간 전",
-      "topics": [
-        "group",
-        "enforce"
-      ]
-    },
-    {
-      "category": "news",
-      "category_label": "뉴스 보도내용",
-      "headline": "쿠팡 '가격 맞춤 쿠폰'으로 네이버 등 사업 방해했나…공정위 조사",
-      "summary": "공정거래법 위반 조사 중 경쟁 온라인몰 사업활동 방해 혐의가 중점 — 네이버 등 경쟁사 가격에 맞춘 쿠폰 발행이 대상.\n끼워팔기 심의와 별개로 조사 중인 시장지배적 지위 남용 혐의.",
-      "source_url": "https://www.hani.co.kr/arti/economy/economy_general/1284842.html",
-      "published_at": "13시간 전",
-      "topics": [
-        "platform"
-      ]
-    },
-    {
-      "category": "news",
-      "category_label": "뉴스 보도내용",
-      "headline": "제약·도매 백신 입찰가 담합 땐 영업정지…약사법 개정안 발의",
-      "summary": "권칠승 의원 발의 — 백신·의약품 입찰담합 등 상습 불공정행위 제약사·의약품 도매상에 공정위 요청 거쳐 식약처가 영업정지.\n당정이 10월 초 추진 방침을 밝힌 제약 분야 반복담합 제재가 법안으로 구체화.",
-      "source_url": "https://dailypharm.com/user/news/343941",
-      "published_at": "5시간 전",
+      "headline": "마니커, 246억 육계 담합 과징금 취소 판결…공정위 제재 뒤집혀",
+      "summary": "육계 판매사업자 간 담합 사건의 과징금 납부명령 **245억 6,000만원**을 법원이 취소.\n**30일** 법조계 확인 — 공정위 담합 제재가 법원에서 다시 뒤집힌 사례.",
+      "source_url": "https://www.google.com/goto?url=CAESdwHrOzAVW55naUrk3lYPQ6H-8Y83PihBp5_IzkmKlQIXyxZ22udpDUO5MV6rdPjVcMyoxQIpOdVQvObyNJBoh8Gsv-fTNzWq_6jfp9y2tL_tVoAkSSePYaGRLR1QML0QMKjd61oM2ZXTLlGgUC3aEnUFVWMgeyBq",
+      "published_at": "16시간 전",
       "topics": [
         "cartel",
-        "institution"
+        "enforce"
       ]
     },
     {
       "category": "news",
       "category_label": "뉴스 보도내용",
-      "headline": "셀트리온, 과징금 6.3억 불복…행정소송 방침",
-      "summary": "셀트리온 29일 홈페이지 입장문 — 사실관계 추가 소명 위해 행정소송 진행.\n수급사업자 귀책 없는 위탁취소·서면 미발급 판단을 법정에서 다툴 계획.",
-      "source_url": "https://www.yna.co.kr/amp/view/AKR20261029076751002",
-      "published_at": "16시간 전",
+      "headline": "공정위 제재받은 귀한족발, 점주들 차액가맹금 반환 집단소송 움직임",
+      "summary": "가맹점 개설 실적 부풀린 광고와 납품업체 경제적 이익 미공개로 공정위 억대 과징금 제재.\n전·현직 점주들이 원재료 공급 유통마진(차액가맹금) 반환 집단소송 준비 — 가맹점은 **전국 150호점** 규모.",
+      "source_url": "https://www.google.com/goto?url=CAESeAHrOzAVtCLsRwMUJZIK5mMgeaf0IkuDEONc8_sZHk3pg5GME_a75ti4BruUC-p3DEtIsiqIr5Ai0WQdgdL4sGTSAbgwSWNGQhvD06soiu_e_Ay21AudRbGY8RBx5mS8qLuIf0SXVbnWAl_ldy4_B468ZlpWZyfFIw",
+      "published_at": "17시간 전",
       "topics": [
         "subcon",
         "enforce"
@@ -138,14 +89,26 @@
     {
       "category": "news",
       "category_label": "뉴스 보도내용",
-      "headline": "\"목동 재건축 홀수 단지는 S사, 짝수는 H사?\" 공정위, 건설사 담합 정조준",
-      "summary": "건설 카르텔 전담조직이 건설사 간 사업장 배분·담합 전면 조사 — 시공사 선정 앞둔 서울 목동 재건축 단지 배분 의혹 거론.\n정비사업 수주전의 단지 나눠먹기가 입찰담합 단서로 지목.",
-      "source_url": "https://realty.chosun.com/site/data/html_dir/2026/10/29/2026102902603.html",
-      "published_at": "3시간 전",
+      "headline": "신세계면세점 친인척 업체 특혜 의혹, 국세청 특별세무조사…경실련, 공정위 검증 요구",
+      "summary": "총수 일가 친인척이 운영하는 송객업체에 유리한 거래조건을 줬다는 의혹으로 특별세무조사 진행 중.\n경실련은 탈루 규명과 함께 부당지원 여부에 대한 공정위 검증 촉구.",
+      "source_url": "https://www.google.com/goto?url=CAESdAHrOzAVuawSiGllIdGSa87kj6GmgEiDvR3uE902iTZXPoFrcXhkTaSd_utBpCS4jYA4pq8qMQCrV8QqlDkzAhFc-vlfCXvpJNuWdD3aEKAfqfjzV0_CfEmwa8zMvwT0Z1xsPXubf-YSrc56J1S9dbtGfYD3",
+      "published_at": "21시간 전",
       "topics": [
-        "cartel"
+        "group"
+      ]
+    },
+    {
+      "category": "news",
+      "category_label": "뉴스 보도내용",
+      "headline": "미 소비자단체 \"쿠팡 제재는 미국 기업 차별 아니다\"",
+      "summary": "미국 유력 소비자단체가 공정위의 쿠팡 조사·제재를 '미국 기업 차별'로 보는 주장은 근거 없다고 반박.\n공정위가 미국 기업뿐 아니라 국내 기업도 같은 기준으로 제재한다는 점을 들어 ITIF 보고서 논리에 맞섬.",
+      "source_url": "https://www.google.com/goto?url=CAESbQHrOzAVaPqat9ZQtAz-Yz3R1JPpctxltJ1tS6sq1cIv0oFlFqqkGTj0GRwTA6x7Rjb30qfdSqBad5m9I7UZ9d9Eeni9Eo40QBrdWdxCAyhZd9GqhdyZ2WFK2FkLJ7zHKPW1lnu-08dDuAByCak",
+      "published_at": "21시간 전",
+      "topics": [
+        "enforce",
+        "platform"
       ]
     }
   ],
-  "generated_at": "2026-10-29T23:40:00.000Z"
+  "generated_at": "2026-10-30T23:35:09.406Z"
 }
