@@ -1,7 +1,7 @@
 {
-  "id": "2026-11-03",
-  "date": "2026-11-03",
-  "generated_at": "2026-11-02T23:55:00.000Z",
+  "id": "2026-11-04",
+  "date": "2026-11-04",
+  "generated_at": "2026-11-03T23:50:00.000Z",
   "cases": [
     {
       "title": "브로드컴 삼성전자 장기구매계약(LTA) 강요 과징금 취소소송",
@@ -362,11 +362,11 @@
       "conduct": "플랫폼 차별(포스 단말기 연동에서 토스 측 가맹점 배제 의혹)",
       "stage": "조사",
       "scale": "",
-      "last_move": "토스플레이스 신고에 이어 공정위가 네이버의 토스 측 판매자 차별 여부에 대해 사전조사에 나섬",
-      "last_date": "2026-10-15",
-      "source": "2026-10-16",
-      "source_title": "네이버, 토스 가맹점 차별했나…공정위 'POS 갈등' 사전조사",
-      "source_url": "https://biz.chosun.com/stock/finance/2026/10/15/4MZWFC7LN5D7LMGLHEJ3JRPC4Y/",
+      "last_move": "토스플레이스가 11월 2일 네이버 매장 정보 서비스 연동 대상에서 토스포스만 제외한 것을 시장지배적 지위 남용·부당 차별로 보고 공정위에 정식 신고서 접수(10월 사전조사에 이어 사건화), 네이버는 '차별 없다'고 반박",
+      "last_date": "2026-11-02",
+      "source": "2026-11-04",
+      "source_title": "토스플레이스, 네이버 공정위에 신고…포스 연동 배제 두고 \"불공정\" vs \"차별 없다\"",
+      "source_url": "https://www.yna.co.kr/amp/view/AKR20261103071751017",
       "sk_note": "플랫폼이 연동 상대에 따라 가맹점을 달리 대우했는지 보는 사례. 11번가·티맵 등 플랫폼 계열사의 제휴·연동 조건 참고"
     },
     {
@@ -1740,16 +1740,21 @@
     },
     {
       "title": "공시의무 위반 과태료 부과기준 개정",
-      "kind": "행정예고",
-      "date": "2026-09-07",
-      "detail": "공시대상기업집단의 공시의무 반복 위반에 대한 과태료 가중 기준 개정안 행정예고",
-      "source": "2026-09-07",
-      "source_title": "공시의무 위반 과태료 부과 고시 개정안 행정예고",
-      "source_url": "https://www.ftc.go.kr/www/selectBbsNttView.do?pageUnit=10&pageIndex=1&searchCnd=all&key=12&bordCd=3&searchCtgry=01,02&nttSn=47977",
+      "kind": "시행",
+      "date": "2026-11-09",
+      "detail": "기업집단 현황 공시·대규모 내부거래 공시의무 위반 과태료 부과 고시 2건 개정, 2026년 11월 9일 시행(9월 7일 행정예고 거침). 반복 위반 가중을 종전 5년 내 4~6회 10%·7회 이상 20%에서 1회 10%·2회 30%·3회 이상 50%로 강화하고 점검연도 위반은 횟수 산정에서 제외. 공시지연 일수별 감경(3일 이하 75%~30일 이하 20%)과 최초 위반·5년 무전력 20% 감경 삭제(신규 지정·편입 후 30일 내 위반 50% 감경만 유지). 소규모회사(자본금·자본총계 10억/50억 이하) 기본금액을 자본의 1%로 제한하던 상한 삭제. 시행일 전 공시기한 도래분은 종전 고시 적용",
+      "source": "2026-11-04",
+      "source_title": "공시의무 위반에 대한 과태료 부과 고시 개정·시행",
+      "source_url": "https://www.ftc.go.kr/www/selectBbsNttView.do?pageUnit=10&pageIndex=1&searchCnd=all&key=12&bordCd=3&searchCtgry=01,02&nttSn=48181",
       "scope": [
         "group"
       ],
-      "sk": true
+      "sk": true,
+      "effective": "2026-11-09",
+      "next": {
+        "date": "2026-11-09",
+        "what": "공시 과태료 개정 고시 시행"
+      }
     },
     {
       "title": "표시·광고 고시 개정(수익형 부동산·렌탈 표시기준)",
@@ -1842,16 +1847,21 @@
     },
     {
       "title": "소비자생활협동조합법 하위법령 등 개정안",
-      "kind": "입법·행정예고",
-      "date": "2026-09-03",
-      "detail": "특수거래정책과 소관 하위법령 개정안 예고",
-      "source": "2026-09-04",
-      "source_title": "「소비자생활협동조합법」 하위법령 등 개정안 입법·행정예고",
-      "source_url": "https://www.ftc.go.kr/www/selectBbsNttView.do?pageUnit=10&pageIndex=1&searchCnd=all&key=12&bordCd=3&searchCtgry=01,02&nttSn=47963",
+      "kind": "시행",
+      "date": "2026-11-13",
+      "detail": "소비자생협 소관부처를 공정위에서 중소벤처기업부로 옮기는 생협법 시행령 개정안이 11월 3일 국무회의 의결, 11월 13일 시행(9월 입법·행정예고 거침). 5월 12일 개정 생협법 시행에 맞춰 소관 부처(공정위→중기부장관)·위임법령(총리령→중기부령) 명칭 정비. 생협 연합회·전국연합회 설립인가는 중기부가, 개별 조합 설립인가·관리감독은 현행대로 관할 시·도가 담당",
+      "source": "2026-11-04",
+      "source_title": "소비자생활협동조합법 시행령 개정안 국무회의 통과",
+      "source_url": "https://www.ftc.go.kr/www/selectBbsNttView.do?pageUnit=10&pageIndex=1&searchCnd=all&key=12&bordCd=3&searchCtgry=01,02&nttSn=48182",
       "scope": [
         "consumer"
       ],
-      "sk": true
+      "sk": false,
+      "effective": "2026-11-13",
+      "next": {
+        "date": "2026-11-13",
+        "what": "생협법 시행령 시행(중기부 이관)"
+      }
     },
     {
       "title": "공정거래법 시행령 개정안",
