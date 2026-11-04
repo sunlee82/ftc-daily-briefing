@@ -1,0 +1,151 @@
+{
+  "id": "2026-11-05",
+  "date": "2026-11-05",
+  "title": "네이버-두나무 기업결합 18일 전원회의…공정위 \"심의 결과 미확정\"",
+  "summary": "**SK에너지** 대표 교체 — 강동수 사장 복귀, 기름값 담합 혐의 국면의 **김종화** 사장은 연구위원으로\n**네이버파이낸셜-두나무** 기업결합 **11월 18일** 전원회의 심의 — 공정위 \"결과 미확정\" 설명자료\n**LG전자** 협력사 기술유용 의혹 창원공장 **현장조사** — 국감 '기술탈취' 지적 뒤 첫 조사",
+  "competitors": [
+    "공정거래위원회",
+    "SK에너지",
+    "네이버파이낸셜",
+    "두나무",
+    "LG전자"
+  ],
+  "keywords": [
+    "공정위",
+    "기업결합",
+    "현장조사",
+    "담합",
+    "SK에너지"
+  ],
+  "items": [
+    {
+      "category": "press",
+      "category_label": "공정위 보도자료",
+      "headline": "중국 산동행정 연수단, 조정원 방문…선진 분쟁조정 노하우 배운다",
+      "dept": "경쟁정책과",
+      "summary": "한국공정거래조정원, **11월 6일** 중국 산동행정학원 연수단에 분쟁조정제도·사례 소개\n- 산동행정학원은 중국공산당 산동성위 당교와 통합 운영되는 교육·연구기관 — '고수준 제도형 개방 추진 연수'의 일환\n- 조정원 주요 업무·대체적분쟁해결(ADR) 제도와 주요 조정 사례 소개 — **10월** 인도 ODR 기관 Presolv360 간담회에 이은 해외 소개\n- 조정원 2025년 분쟁조정 **4,726건** 접수·**4,407건** 처리(2024년 4,041건·3,840건), 정원 **137명**·예산 **166억원**",
+      "source_url": "https://www.ftc.go.kr/www/selectBbsNttView.do?pageUnit=10&pageIndex=1&searchCnd=all&key=12&bordCd=3&searchCtgry=01,02&nttSn=48185",
+      "published_at": "2026-11-04",
+      "topics": [
+        "institution"
+      ]
+    },
+    {
+      "category": "press",
+      "category_label": "공정위 보도자료",
+      "headline": "[설명] 20261104 한국경제TV(11.4.) 두나무-네이버 합병 초읽기 기사 관련",
+      "dept": "기업결합과",
+      "summary": "네이버파이낸셜-두나무 기업결합 심의 결과 미확정 — '합병 초읽기' 보도에 공정위 설명자료\n- 한국경제TV는 **11월 18일** 기업결합 심사에서 승인되면 내년 **3월** 합병 마무리, '사실상 승인 단계'라고 보도\n- 공정위 \"심의 결과는 확정되지 않았으므로 보도에 유의\" — 기업거래결합심사국 기업결합과\n- 뉴시스 등도 **18일** 전원회의 개최 보도 — 2025년 11월 말 신고 접수 후 약 **1년** 만의 심의",
+      "source_url": "https://www.ftc.go.kr/www/selectBbsNttView.do?pageUnit=10&pageIndex=1&searchCnd=all&key=13&bordCd=3&searchCtgry=03&nttSn=48189",
+      "published_at": "2026-11-04",
+      "topics": [
+        "merger",
+        "platform"
+      ]
+    },
+    {
+      "category": "committee",
+      "category_label": "위원회 소식",
+      "headline": "2026-11-05 위원회 소식",
+      "summary": "##[주요일정]##\n· **위원장**: 10:00 예결위 전체회의(국회), 14:00 정무위 전체회의, 이어서 예결위 전체회의 계속\n· **부위원장**: 09:00 차관회의(세종청사), 14:00 예결위 전체회의(국회)",
+      "source_url": "https://www.ftc.go.kr/www/selectBbsNttView.do?pageUnit=10&pageIndex=1&searchCnd=all&key=15&bordCd=5&nttSn=48188",
+      "published_at": "2026-11-04",
+      "topics": [
+        "institution"
+      ]
+    },
+    {
+      "category": "news",
+      "category_label": "뉴스 보도내용",
+      "headline": "SK에너지 대표 교체, 강동수 사장 귀환…김종화 사장은 연구위원으로",
+      "summary": "SK이노베이션 사장 겸 SK에너지 사장에 강동수 사장 신규 선임.\n김종화 사장은 퇴임 후 연구위원 발령 — 공정위 심의 중인 기름값 담합 혐의와 연관해 거론.",
+      "source_url": "https://dealsite.co.kr/articles/171933",
+      "published_at": "21시간 전",
+      "topics": [
+        "cartel"
+      ]
+    },
+    {
+      "category": "news",
+      "category_label": "뉴스 보도내용",
+      "headline": "국감 '기술탈취' 논란 이후…공정위, LG전자 창원공장 첫 현장조사",
+      "summary": "협력사 기술유용(하도급법) 의혹 관련 창원공장 현장조사 착수.\n과거 협력사와의 기술 탈취 논란이 다시 거론 — 대기업 기술탈취 국감 지적의 후속 조사.",
+      "source_url": "https://www.newsian.co.kr/news/articleView.html?idxno=100578",
+      "published_at": "19시간 전",
+      "topics": [
+        "subcon"
+      ]
+    },
+    {
+      "category": "news",
+      "category_label": "뉴스 보도내용",
+      "headline": "'반쪽' 된 공정위 피해구제기금…과징금 재원 활용 무산",
+      "summary": "불공정거래 피해기업 지원 기금이 과징금 재원 없이 출범할 전망.\n과징금을 피해구제에 돌리자던 당초 구상은 무산 — 기금은 축소된 형태로 추진.",
+      "source_url": "https://www.edaily.co.kr/News/Read?newsId=01623606645642768&mediaCodeNo=257",
+      "published_at": "4시간 전",
+      "topics": [
+        "institution",
+        "enforce"
+      ]
+    },
+    {
+      "category": "news",
+      "category_label": "뉴스 보도내용",
+      "headline": "4대 시중은행, LTV 담합 과징금 불복 행정소송 제기",
+      "summary": "담보인정비율(LTV) 정보교환 담합 과징금 **2,720억원** 처분 취소를 구하는 행정소송 수순.\n합의 없이 정보교환만으로 제재한 첫 대형 사건 — 정보교환 담합 법리가 법원 판단대에 오름.",
+      "source_url": "https://m.tf.co.kr/read/economy/2304607.htm?appmode=iphone",
+      "published_at": "16시간 전",
+      "topics": [
+        "cartel",
+        "enforce"
+      ]
+    },
+    {
+      "category": "news",
+      "category_label": "뉴스 보도내용",
+      "headline": "코오롱 계열 코오롱테크비전, 타사 효과 베낀 '록볼트' 광고로 공정위 경고",
+      "summary": "건설자재 록볼트의 탄소저감 효과 등을 다른 업체 자료로 광고 — 표시광고법 위반.\n코오롱그룹 건설자재 도소매 계열사에 경고 조치.",
+      "source_url": "https://biz.sbs.co.kr/article/20000344183",
+      "published_at": "20시간 전",
+      "topics": [
+        "consumer",
+        "enforce"
+      ]
+    },
+    {
+      "category": "news",
+      "category_label": "뉴스 보도내용",
+      "headline": "한성숙 총리 \"설탕·계란 담합 적발해 1조8000억 과징금…국민 밥상 지키겠다\"",
+      "summary": "**11월 4일** X(옛 트위터)에서 올해 담합 적발·과징금 **1조 8,000억원** 성과 언급.\n'담합에 맞서 국민 밥상 지키겠다' — 먹거리 담합 제재를 정부 차원 과제로 재확인.",
+      "source_url": "https://news.jtbc.co.kr/article/NB12326376",
+      "published_at": "21시간 전",
+      "topics": [
+        "cartel"
+      ]
+    },
+    {
+      "category": "news",
+      "category_label": "뉴스 보도내용",
+      "headline": "과징금·화재에…쿠팡 올해 누적손실 1.8조, '규제형 적자' 흐름",
+      "summary": "1~3분기 영업손실 **1조 8,318억원**, 3분기 적자 **6,400억**으로 2021년 연간 최대 적자 넘어서.\n공정위 최혜대우·끼워팔기 과징금 **2,500억** 부과 시 연간 적자 **2조** 전망 — 매출은 **7%** 증가.",
+      "source_url": "https://www.hankyung.com/article/2026110463991",
+      "published_at": "14시간 전",
+      "topics": [
+        "platform",
+        "enforce"
+      ]
+    },
+    {
+      "category": "news",
+      "category_label": "뉴스 보도내용",
+      "headline": "[김형배의 공정과 효율] 경쟁민감정보, 주지도 받지도 말자",
+      "summary": "경쟁사 간 가격·생산량 정보교환도 담합 — 2012년 라면 담합 **1,354억원** 과징금 사례 인용.\n손해는 소비자에게 돌아감 — 직원 교육·내부 신고제 활용 권고.",
+      "source_url": "https://www.segye.com/newsView/20261104516604?OutUrl=google",
+      "published_at": "9시간 전",
+      "topics": [
+        "cartel"
+      ]
+    }
+  ],
+  "generated_at": "2026-11-04T23:40:00.000Z"
+}
