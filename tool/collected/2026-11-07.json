@@ -1,0 +1,567 @@
+{
+  "id": "2026-11-07",
+  "date": "2026-11-07",
+  "title": "공정거래위원회 일일동향 (초안 — 51건, 제목 다듬기 필요)",
+  "summary": "항목을 취사선택·순서조정한 뒤 저장하면 Claude Code가 제목/요약을 다듬어 배포합니다.",
+  "competitors": [
+    "공정거래위원회"
+  ],
+  "keywords": [
+    "공정위",
+    "과징금",
+    "현장조사",
+    "담합"
+  ],
+  "items": [
+    {
+      "category": "press",
+      "category_label": "공정위 보도자료",
+      "headline": "공정거래법 시행령 개정안 입법예고",
+      "dept": "디지털공정거래정책과",
+      "summary": "(PDF 원문 확인 필요 — 배포 전 Claude Code가 요약)",
+      "source_url": "https://www.ftc.go.kr/www/selectBbsNttView.do?pageUnit=10&pageIndex=1&searchCnd=all&key=12&bordCd=3&searchCtgry=01,02&nttSn=48192",
+      "published_at": "2026-11-06",
+      "pdfPath": null,
+      "pdfText": "- 1 -\n보도참고자료\n보도시점 2026. 11. 6.(금) 10:00 / 배포 2026. 11. 6.(금) 08:30\n“ 독과점 사업자 규율\n25 년 만에 정비 추진 ”\n공정거래법 시행령 개정안 입법예고\n- 독과점 사업자의 가격 남용, 소비자 대상 착취행위 등에 대한 규율 강화 -\n- 전통적 제조업 기반 규제에서 벗어나 환경 변화 반영 -\n공정거래위원회 (위원장 주병기, 이하 ‘ 공정위 ’) 는 「 독점규제 및 공정거래에\n관한 법률 (이하 ‘ 공정거래법 ’) 시행령 」 (이하 ‘ 시행령 ’) 개정안을 11 월 6 일부 터 12 월\n16 일까지 입법예고 한다.\n이번 시행령 개정안은 지난 ’01 년 이후 개정 이력이 없는 시장지배적지위\n남용행위 를 변화한 경제 환경 및 집행 현실에 맞추어 정비 하기 위한 것으로,\n① 가격남용, ② 사업활동방해, ③ 소비자이익저해 행위의 유형을 신설 · 보완\n하는 등 시장지배적 사업자의 남용행위에 대한 대응력을 제고하는 것을\n목적으로 마련되었다.\n이번 시행령 개정안의 주요 내용은 다음과 같다.\n 독과점 사업자의 ‘ 가격 남용행위 ’ 규율 개선 (개정안 제 9 조 제 1 항)\n현행 공정거래법 은 가격 남용행위를 ‘ 가격의 부당한 결정 · 유지 · 변경 ’ 으로 명시\n하면서 구체적인 행위유형 및 기준을 시행령에 위임하고 있다. 그런데 현행 동법\n시행령 은 ‘ 가격의 부당한 변경 ’ 관련 사항만을 규정하고 있어 법에서 위임된\n범위가 축소된 측면 이 있다.\n이로 인해, 해외시장에 비해 국내시장에서 가격을 부당하게 높게 결정 하거나,\n원가 상승기에는 상품 가격을 즉각 인상하면서, 원가 하락기에는 인상된 높은\n가 격을 계속 유지 해 폭리를 취하는 행위 등 다양한 형태의 가격 남용행위를\n규 율하는데 한계가 있었다.\n- 2 -\n이에 법의 취지에 맞게 가격의 부당한 결정 또는 유지 행위도 가격 남용으로\n포섭될 수 있도록 규율 범위를 확대 하는 한편, 가격 결정 행위에 대해서는 ‘ 공급에\n필요한 비용 ’ 뿐만 아니라 ‘ 외부의 통상적 가격 수준 ’ 과도 비교하여 판단하도록\n할 예정이다.\n또한, 현행 시행령은 가격 남용의 성립 요건으로 ‘ 가격의 현저한 상승 ’ 을 요구\n하고 있는데, ‘ 현저성 ’ 의 입증이 지나치게 어려워 가격남용 조항 자체가 사실상\n사문화 된 상황임을 고려하여 ‘ 현저성 ’ 요건을 ‘ 상당성 ’ 으로 완화 하여 법 집행의\n실효성을 제고할 예정이다.\n 독과점 사업자의 ‘ 사업활동 방해행위 ’ 유형 재정비 (개정안 제 9 조 제 3 항)\n현행 시행령은 사업활동 방해행위의 유형으로\n▲\n원재료 구매방해,\n▲\n필수인력\n채용,\n▲\n필수요소 접근제한을 규정하고 있으며, 동 시행령의 위임을 받은 고시\n(시장지배적지위 남용행위 심사기준) 에서는\n▲\n거래거절,\n▲\n타당성 없는 조건제시,\n▲\n가격 또는 거래조건 차별,\n▲\n불이익강제 행위 등을 규정하고 있다.\n시행령 규정 유형들은 고시에서 다시 한번 세부 유형 및 기준 등이 구체화 되는\n반면, 고시 규정 유형들은 구체적인 판단 기준 등이 명시되지 않아 법 해석에\n의존하여 집행 되는 차이점이 있다. 다만, 그간의 집행 실적을 살펴보면 시행령에\n규정된 유형 (6 건) 에 비해 고시에 규정된 유형 (24 건) 의 집행 실적이 월등히 많아\n현 시행령 - 고시 체계가 집행 현실과 괴리 되어 있음이 나타난다.\n이에 집행 실적이 많은 주요 고시 규정 유형 (\n▲\n거래거절,\n▲\n타당성 없는 조건제시,\n▲\n가격 또는 거래조건 차별,\n▲\n불이익강제) 은 시행령으로 상향 하고, 실적이 거의\n없는 시행령 규정 유형 (필수인력 채용) 은 고시로 하향 하여 집행 현실에 맞게\n유형을 정비하고 수범자의 예측 가능성을 제고할 예정이다.\n한편, 현행 시행령 규정 대부분은 27 년 전에 만들어졌을 뿐만 아니라, 전통적\n제조업을 기 반 으로 마련되어 있어 새로운 시장의 성장 및 새로운 유형의 남용\n행위 등장 등 시장환경의 변화를 반영하는데 한계 가 있다. 공정거래법은\n전 산업을 대상 으로 하는 만큼, 변화하는 시장 환경을 반영 하여 신유형 남용\n행위에 적용 가능한 유형을 신설 · 보완함으로써 법 집행의 사각지대를 최소화할\n필요가 있다.\n- 3 -\n이에\n▲\n기존의 ‘ 원재료 구매 방해 행위 ’ 조항을 ‘ 유 · 무형의 재화 또는 용역 에 대한\n구매 · 접근 · 이용 또는 이동 을 방해하는 행위 ’ 로 개정함으로써 제조업에 한정되지\n않고 전 산업에 적용 가능하도록 범위를 확대할 예정이다. 또한\n▲\n현행 불공정\n거래행위 시행령에서는 금지하나 시지남용행위 시행령에는 별도 조항이 없는\n‘ 경쟁제한적 끼워팔기 ’ 를 별도 유형으로 추가하고,\n▲\n거래 과정에서 생성 또는\n수집한 비공개 정보 를 부당하게 경쟁에 활용 하는 행위,\n▲\n독과점 사업자 자신을\n통하지 않고 소비자와 직거래 하는 것을 부당하게 방해 하는 행위를 신설할 예정이다.\n 독과점 사업자의 ‘ 소비자 착취행위 ’ 금지 (개정안 제 9 조 제 6 항)\n현행 공정거래법은 시장지배적지위 남용행위의 유형 중 하나로 ‘ 소비자이익\n저해행위 ’ 를 규정하고 구체적인 유형 및 기준을 시행령에 위임하고 있으나, 현행\n시행령 에는 소비자이익 저해행위 유형이 부재 하는 입법 공백 상태이다.\n이에 입법 공백 상태를 해소하고, 독과점 사업자의 소비자 착취행위에 대한\n적극적인 법 집행을 위해 소비자에게\n▲\n타당성 없는 거래조건 을 부과하거나 상품 ·\n용역의 품질을 현저히 저하 시키는 행위,\n▲\n부당하게 선택을 제약 하거나 불이익을\n주는 행위 등 그간 법집행 과정에서 나타난 대표적인 소비자 착취행위를 소비자\n이익 저해행위로 규정할 예정이다.\n공정위는 이번 입법예고 기간에 제출된 이해관계자, 관계 부처 등의\n의견을 면밀히 검토한 후, 법제처 심사 등의 절차를 거쳐 2027 년 상반기\n중 시행령 개정 작업을 마무리 할 예정이다.\n< 붙임 > 1. 독점규제 및 공정거래에 관한 법률 시행령 개정안 신 · 구조문 대비표\n2. 시장지배적지위 남용행위 시행령 개정방향 요약\n- 4 -\n※ 입법예고안에 대한 의견 제출 방법\n▶ 개정안의 구체적인 내용은 공정위 누리집 (http://www.ftc.go.kr → 소식 · 뉴스 →\n입법 · 행정예고) 에서 확인할 수 있습니다.\n▶ 시행령 개정안 에 의견이 있는 개인이나 단체는 2026 년 12 월 16 일 까지 통합입법\n예고센 터 (http://opinion.lawmaking.go.kr) 를 통하여 온라인으로 의견을 제출\n하시 거나, ① 예고사 항에 대한 의견 (찬성 · 반대 · 수정 의견과 그 이유), ② 성명\n(단체의 경우 단체명과 대표자명), 주소, 전화번호 를 적은 의견서를 우편, 전자\n우편 또는 팩스로 제출해 주시 기 바랍니다.\n* 우편: 세종시 다솜 3 로 95, 정부세종청사 공정거래위원회 디지털공정거래정책과 (우: 30108)\n* 팩스: 044-200-5223 * 전자우편: gndud0519@korea.kr\n담당 부서\n경쟁정책국\n디지털공정거래정책과\n책임자 과 장 홍수진 (044-200-4365)\n담당자 사무관 정후영 (044-200-4367)\n- 5 -\n붙임 1 공정거래법 시행령 개정안 신 · 구조문 대비표\n현 행 개 정 안\n제 9 조 (남용행위의 유형 또는 기준)\n① 법 제 5 조제 1 항제 1 호에 따른 상\n품의 가격이나 용역의 대가 (이하\n“ 가격 ” 이라 한다) 를 부당하게 결정\nㆍ 유 지 또는 변경하는 행위는 정당\n한 이유 없이 가격을 수급의 변동\n이나 공급에 필요한 비용 (같은 종\n류 또는 유사한 업종의 통상적인\n수준의 것으로 한정한다) 의 변동에\n비하여 현저하게 상승시키거나 근\n소하게 하락시키는 행위로 한다.\n제 9 조 (남용행위의 유형 또는 기준)\n① ------------------------\n---------------------------\n---------------------------\n--------------------- 다음\n각 호의 --------------------\n---------------------------\n---------------------------\n---------------------------\n---------------------------\n-----------------------.\n< 신 설 > 1. 정당한 이유 없이 가격을 공급에\n필요한 비용 (같은 종류 또는 유사\n한 업종의 통상적인 수준의 것으\n로 한정한다. 이하 이 항에서 같\n다) 보다 상당히 높게 결정하고,\n그 가격이 동일 상품 ㆍ 용 역 의 다\n른 시장에서의 통상적인 가격 또\n는 유사한 상품 ㆍ 용 역 의 통상적\n인 가격에 비하여도 상당히 높은\n경우\n< 신 설 > 2. 정당한 이유 없이 가격을 수급\n의 변동이나 공급에 필요한 비용\n- 6 -\n의 변동에 비하여 상당히 상승시\n키거나 근소하게 하락 또는 유지\n시키는 행위\n② (생 략) ② (현행과 같음)\n③ 법 제 5 조제 1 항제 3 호에 따른 다\n른 사업자의 사업활동을 부당하게\n방해하는 행위는 직접 또는 간접\n으로 다음 각 호의 행위를 하여 다\n른 사업자의 사업활동을 어렵게\n하는 행위로 한다.\n③ ------------------------\n--------------------------\n--------------------------\n--------------------------\n--------------------------\n-------------.\n1. 정당한 이유 없이 다른 사업자\n의 생산활동에 필요한 원재료 구\n매를 방해하는 행위\n1. ------------------------\n사업활동에 필요한 유 · 무형의 재\n화 또는 용역에 대한 구매 · 접근 ·\n이용 또는 이동을 ---\n2. 정상적인 관행에 비추어 과도한\n경제상의 이익을 제공하거나 제\n공할 것을 약속하면서 다른 사업\n자의 사업활동에 필수적인 인력\n을 채용하는 행위\n< 삭 제 >\n< 신 설 > 3. 부당하게 특정사업자에 대하여\n거래를 거절하거나 거래하는 상\n품 또는 용역의 수량이나 내용을\n현저히 제한하는 행위\n3. (생 략) 2. (현행 제 3 호와 같음)\n- 7 -\n< 신 설 > 4. 거래상대방에게 정상적인 거래\n관행에 비추어 타당성이 없는 조\n건을 제시하는 행위\n< 신 설 > 5. 자기 또는 다른 거래상대방에\n비하여 가격 또는 거래조건에 있\n어 거래상대방을 부당하게 차별\n하는 행위\n< 신 설 > 6. 부당하게 거래상대방에게 불이\n익이 되는 거래 또는 행위를 강\n제하는 행위\n< 신 설 > 7. 거래상대방에게 자기의 상품 또\n는 용역을 공급하면서 부당하게\n다른 상품 또는 용역을 자기 또\n는 자기가 지정하는 사업자와 거\n래하도록 하는 행위\n< 신 설 > 8. 거래상대방과의 거래 과정에서\n생성 또는 수집한 비공개 정보를\n부당하게 그 거래상대방과의 경\n쟁에서 자기에게 유리하도록 이\n용하는 행위\n< 신 설 > 9. 정당한 이유 없이 거래상대방이\n자기 또는 자기가 지정하는 사업\n자를 통하지 아니하고 소비자와\n직접 거래하거나 소비자에게 정\n보를 제공하는 것을 방해하는 행위\n- 8 -\n4. 그 밖에 제 1 호부터 제 3 호 까지의\n방법 외의 다른 부당한 방법에\n따른 행위를 하여 다른 사업자의\n사업활동을 어렵게 하는 행위 중\n공정거래위원회가 정하여 고시\n하는 행위\n10. -----------------------\n제 9 호 --------\n④ ㆍ ⑤ (생 략) ④ ㆍ ⑤ (현행과 같음)\n< 신 설 > ⑥ 법 제 5 조제 1 항제 5 호 후단에 따\n른 소비자의 이익을 현저히 해칠\n우려가 있는 행위는 다음 각 호의\n행위로 한다.\n1. 소비자에게 정상적인 거래관행\n에 비추어 타당성이 없는 거래조\n건을 부과하거나 소비자에게 현\n저히 불리하도록 상품 또는 용역\n의 품질을 저하시키는 행위\n2. 소비자에게 상품 또는 용역을\n제공하는 과정에서 부당하게 선\n택을 제약하거나 현저히 불이익\n을 주는 행위\n3. 그 밖에 제 1 호부터 제 2 호까지의\n방법 외의 다른 부당한 방법에\n따른 행위를 하여 소비자의 이익\n을 현저히 해칠 우려가 있는 행\n위 중 공정거래위원회가 정하여\n고시하는 행위\n⑥ (생 략) ⑦ (현행 제 6 항과 같음)\n- 9 -\n붙임 2 시장지배적지위 남용행위 시행령 개정방향 요약\n시행령 또는 고시 현행안\n개정\n방향\n개정안 조문\n[법 제 5 조 ⓛ 제 1 호] 가격남용\n- [신설] 가격을 공급 비용 및 비교시장 가격 대비 상당히 높게 결정 신설\n시행령\n제 9 조 ① 제 1 호\n- [시행령 제 9 조 ①] 가 격 을 수 급 · 비 용 변 동 에 비 해 상 당 히 상 승 · 근 소 하 게 하 락 또 는 유 지 개정\n시행령\n제 9 조 ① 제 2 호\n[법 제 5 조 ⓛ 제 3 호] 타 사업자 사업활동 방해\n- [시행령 제 9 조 ③ 제 1 호] 유무형의 재화 또는 용역의 구매 ‧ 접근 ‧ 이용 또는 이동 방해 개정\n시행령\n제 9 조 ③ 제 1 호\n- [시행령 제 9 조 ③ 제 2 호] 필수인력 채용 하향 고시\n- [시행령 제 9 조 ③ 제 3 호] 필수요소의 접근 제한 유지\n시행령\n제 9 조 ③ 제 2 호\n- [시행령 제 9 조 ③ 제 4 호] 그 밖에 공정거래위원회가 정하여 고시하는 행위\n(고시) 거래거절 또는 수량ㆍ내용의 현저한 제한 상향\n시행령\n제 9 조 ③ 제 3 호\n(고시) 정상적 거래관행에 비추어 타당성 없는 조건제시 상향\n시행령\n제 9 조 ③ 제 4 호\n(고시) 가격 또는 거래조건 차별 상향\n시행령\n제 9 조 ③ 제 5 호\n(고시) 불이익강제 상향\n시행령\n제 9 조 ③ 제 6 호\n- [신설] 끼워팔기 신설\n시행령\n제 9 조 ③ 제 7 호\n- [신설] 비공개 정보를 거래상대방과의 경쟁에 이용 신설\n시행령\n제 9 조 ③ 제 8 호\n- [신설] 거래상대방과 소비자 간 거래 방해 신설\n시행령\n제 9 조 ③ 제 9 호\n- [시행령 제 9 조 ③ 제 4 호] (고시) 사업자금 대여 후 일시 회수\n유지 고시 - [시행령 제 9 조 ③ 제 4 호] (고시) 사업활동에 필요한 절차 방해\n- [시행령 제 9 조 ③ 제 4 호] (고시) 특허 쟁송절차 등 남용\n[법 제 5 조 ⓛ 제 5 호 후단] 소비자이익 저해\n- [신설] 타당성 없는 거래조건 부과 또는 상품 · 용역의 품질 저하 신설\n시행령\n제 9 조 ⑥ 제 1 호\n- [신설] 소비자의 선택 제약 또는 불이익 제공 신설\n시행령\n제 9 조 ⑥ 제 2 호\n※ [하향] 시행령 → 고시\n[상향] 고시 → 시행령"
+    },
+    {
+      "category": "news",
+      "category_label": "뉴스 보도내용",
+      "competitor": "공정거래위원회",
+      "keyword": "과징금",
+      "headline": "내릴 줄 모르는 기름값, 해외보다 비싼 유튜브…공정위 제재 대상으로 [Pick코노미]",
+      "summary": "앞으로 국제 유가가 떨어졌는데도 정유사들이 기름값을 내리지 않으면 공정거래위원회에 관련 매출액의 최대 6%를 과징금으로 물어야 할 수도 있다. 해외에선 싼 값에...",
+      "source_url": "https://www.sedaily.com/article/20111377",
+      "published_at": "3시간 전"
+    },
+    {
+      "category": "news",
+      "category_label": "뉴스 보도내용",
+      "competitor": "공정거래위원회",
+      "keyword": "공정위",
+      "headline": "원가 내려도 가격 그대로?…공정위, 독과점 가격남용 기준 손본다",
+      "summary": "공정거래위원회가 독과점 사업자의 가격남용 판단 범위를 부당한 가격 변경에서 가격 결정과 유지로 넓힌다. 거래 과정에서 얻은 비공개 정보를 경쟁에 부당하게 활용...",
+      "source_url": "https://www.newswhoplus.com/news/articleView.html?idxno=73706",
+      "published_at": "12시간 전"
+    },
+    {
+      "category": "news",
+      "category_label": "뉴스 보도내용",
+      "competitor": "공정거래위원회",
+      "keyword": "공정위",
+      "headline": "‘김범석 총수’ 법정 다툼 속…쿠팡 향한 공정위 칼끝 넓어졌다",
+      "summary": "김범석 쿠팡Inc 의장의 동일인 지정 문제를 둘러싼 공정거래위원회와 쿠팡의 갈등이 새로운 국면을 맞고 있다. 동일인 지정 취소소송과 지정자료 허위.",
+      "source_url": "https://www.google.com/goto?url=CAEScgHEIkXX3hrv3z5wVEtymAnPeSydng6e-PQo-_Qr8JUpK4uEdEf3gwBKUKuPbkVjylpIKVUaCZvRar2omYmkDs_HlA2F0orjSIlpvvE6zWwsMKCPj7U37D0BN1U6MWfe3t1ejyt4Wyugre-EcEnfClX8dQ",
+      "published_at": "12시간 전"
+    },
+    {
+      "category": "news",
+      "category_label": "뉴스 보도내용",
+      "competitor": "공정거래위원회",
+      "keyword": "과징금",
+      "headline": "‘김범석 총수’ 법정 다툼 속…쿠팡 향한 공정위 칼끝 넓어졌다",
+      "summary": "김범석 쿠팡Inc 의장의 동일인 지정 문제를 둘러싼 공정거래위원회와 쿠팡의 갈등이 새로운 국면을 맞고 있다. 동일인 지정 취소소송과 지정자료 허위.",
+      "source_url": "https://www.google.com/goto?url=CAEScgHEIkXXcKisR6KDfcKd2TCVNjFAy_ITJOZCtAtWbO61iiedLHvolT6VzQDeP0fpqY02GaPzE6ZrOA5_nShjpPFJRG9YkYWmKgzkW0Bdf9VIKO1js_x6VdzYVeY_jlMWIrHzNry3q_a3TNOVgH98Vnxn6Q",
+      "published_at": "12시간 전"
+    },
+    {
+      "category": "news",
+      "category_label": "뉴스 보도내용",
+      "competitor": "공정거래위원회",
+      "keyword": "공정위",
+      "headline": "결혼준비 대행업체 10곳 중 6곳, 온라인 가격 ‘깜깜이 : 네이버 블로그",
+      "summary": "결혼서비스 가격 공개가 의무화된 지 1년을 앞두고 있지만 대부분의 예식장과 결혼준비대행업체가 가격을 공개하지 않고 있습니다. 이에 공정거래위원회(공정위)는...",
+      "source_url": "https://www.google.com/goto?url=CAESkwEBxCJF17IRuYcPFMBAJ1BeFpNefsOM3_LVPNnEpKplJSqBMub3vdPWMirZYO_vwRJiu_R-Wf47MmNZHnLXAkx1BlJNOAvHZ7JJThrq-3w2knRONy20H5Mi_0TRe8Rr07ChwK-123eIzZkUQqJyiPqRqEhq9J8Stu3y85WmkeSgRf5rfmEYXyYmSMakNsylzgqBEj4",
+      "published_at": "13시간 전"
+    },
+    {
+      "category": "news",
+      "category_label": "뉴스 보도내용",
+      "competitor": "SK그룹",
+      "keyword": "공정거래위원회",
+      "headline": "롯데렌탈 상폐 추진…TPG, 지분 8317억원 공개매수",
+      "summary": "글로벌 사모펀드 운용사 TPG가 롯데렌탈의 남은 지분 전량에 대한 공개매수에 나섰습니다. 롯데그룹 보유 지분을 인수한 데 이어 소액주주 지분까지 사.",
+      "source_url": "https://www.sentv.co.kr/article/view/sentv202611060045?d=pc",
+      "published_at": "14시간 전"
+    },
+    {
+      "category": "news",
+      "category_label": "뉴스 보도내용",
+      "competitor": "최태원",
+      "keyword": "공정거래위원회",
+      "headline": "[인사] 공정거래위원회",
+      "summary": "부이사관 승진. △ 심판총괄담당관 피계림 △ 경인지방공정거래사무소장 박정웅 (세종=연합뉴스). 제보는 카카오톡 okjebo <저작권자(c) 연합뉴스, 무단 전재-재배포,...",
+      "source_url": "https://www.yna.co.kr/amp/view/AKR20261106172800002",
+      "published_at": "14시간 전"
+    },
+    {
+      "category": "news",
+      "category_label": "뉴스 보도내용",
+      "competitor": "SK하이닉스",
+      "keyword": "공정거래위원회",
+      "headline": "[인사]공정거래위원회 - 머니투데이",
+      "summary": "승진> ▷부이사관 △심판총괄담당관 피계림 △경인지방공정거래사무소장 박정웅.",
+      "source_url": "https://www.google.com/goto?url=CAESeAHEIkXXxVdTlQSPhXqtBQC7eDiQf27WVcMbn6mcg6NCeidEtFAZn_b57nhkSRyJHHKicVk8xJfyNMY_ndvePymx_ExRuNMGOUwJAMiZnwAvgLk8r3eGwtuzrmZ0twEofVT2JobPSQEWA2L9cB1V9R8LzAkBbG7h6Q",
+      "published_at": "14시간 전"
+    },
+    {
+      "category": "news",
+      "category_label": "뉴스 보도내용",
+      "competitor": "공정거래위원회",
+      "keyword": "과징금",
+      "headline": "[인사]공정거래위원회",
+      "summary": "부이사관△심판총괄담당관 피계림 △경인지방공정거래사무소장 박정웅.",
+      "source_url": "https://www.google.com/goto?url=CAESZwHEIkXXqicee_nlRmFI3RXPBuLTu2P4njgnZ-xMUoC-AXiNnhQlZ5fiSl0qhILNpd5Ng0Ndh_71oQAfEmtFTjGxuDvllgCy6euZ2FTdtYDSlX6BA7Bm_FgwrHoY5Wl6psNhhp6GSY8",
+      "published_at": "15시간 전"
+    },
+    {
+      "category": "news",
+      "category_label": "뉴스 보도내용",
+      "competitor": "공정거래위원회",
+      "keyword": "현장조사",
+      "headline": "[사설]‘화물연대 무죄’ 뒤집은 법원, 윤석열 노조 탄압에 면죄부 줬다",
+      "summary": "윤석열 정권의 대표적 노조 탄압 사건인 '화물연대 파업' 관련 재판에서 공정거래위원회의 현장 조사를 막았다는 이유로 기소된 민주노총 공공운수노조 화물연대본부가...",
+      "source_url": "https://www.google.com/goto?url=CAESdwHEIkXXnkY5uRN0rUTD0qbgMbch3H8mS47fUS1w_G9MMlEtJAw8l4ss6naEwQqxQD7hUTVY1e0_RaKkTDSgv88eVmnvgUmLp0UJGElQQvEbmUCZXxN_fn36XRQ0AZOxI6cHqi4Bo3ERAlPQ15t6Fu1yjwR1bezc",
+      "published_at": "15시간 전"
+    },
+    {
+      "category": "news",
+      "category_label": "뉴스 보도내용",
+      "competitor": "SK하이닉스",
+      "keyword": "공정거래위원회",
+      "headline": "테슬라 FSD, 기만적 표시‧광고 논란… 공정위 판단 주목",
+      "summary": "시사위크=제갈민 기자 테슬라 FSD(풀 셀프 드라이빙)와 관련한 분쟁이 공정거래위원회로 번졌다. 앞서 일부 테슬라 차주가 공동으로 제기한 'FSD 옵션 비용 환불' 민사...",
+      "source_url": "https://www.sisaweek.com/news/articleView.html?idxno=238838",
+      "published_at": "15시간 전"
+    },
+    {
+      "category": "news",
+      "category_label": "뉴스 보도내용",
+      "competitor": "공정거래위원회",
+      "keyword": "공정위",
+      "headline": "“올릴 땐 빨리, 내릴 땐 찔끔”…공정위, 독과점 가격남용 규제 강화",
+      "summary": "원가가 내려갔는데도 높은 가격을 부당하게 유지하거나 해외보다 국내에서 비싸게 파는 독과점 기업에 대한 규제가 강화된다. 공정거래위원회가 25년 만에 가격남용...",
+      "source_url": "https://www.koreadaily.com/article/20261105234600532",
+      "published_at": "16시간 전"
+    },
+    {
+      "category": "news",
+      "category_label": "뉴스 보도내용",
+      "competitor": "공정거래위원회",
+      "keyword": "공정위",
+      "headline": "예고 없는 공정위 조사 \"적법\"…화물연대 판결, 쿠팡에도 참고될까",
+      "summary": "[세종=뉴시스]임하은 기자 = 공정거래위원회의 현장조사가 전면 거부로 무산된 첫 사례인 화물연대 사건에서 항소심이 조사방해 책임을 인정했다.",
+      "source_url": "https://www.google.com/goto?url=CAEScAHEIkXXlaTBAZAn6ZOSlkJBFcaR90qfGvH6YrYXZLBG47jLmeF-4lE0XPwgbSE-dUzWnaiDsiDhWkzMjGrEt0hYdasogDxhI4JMxMwZ_5OH8LGiMPk0iSbX0WfBwf9Jm8d_QtwFLtzRtkM1cXoKTwk",
+      "published_at": "16시간 전"
+    },
+    {
+      "category": "news",
+      "category_label": "뉴스 보도내용",
+      "competitor": "공정거래위원회",
+      "keyword": "과징금",
+      "headline": "[간추린 경제] 1. 원가 내리면 가격도‥ 2. 쿠팡 '개인정보 과징금' 중 2천억 원 효력정지",
+      "summary": "앞으로 독과점 사업자가 원가 상승기에 올린 상품 가격을 원가 하락기에 유지하거나, 해외보다 국내에서 상품 가격을 높게 매겨 폭리를 취하는 행위를 금지하는 방안을...",
+      "source_url": "https://imnews.imbc.com/replay/2026/nw1700/article/6863750_36981.html",
+      "published_at": "16시간 전"
+    },
+    {
+      "category": "news",
+      "category_label": "뉴스 보도내용",
+      "competitor": "공정거래위원회",
+      "keyword": "과징금",
+      "headline": "벤츠, '배터리 기망' 400만원 배상안 불수용 전망…공정위 소송 변수",
+      "summary": "소비자분쟁조정위, 차주 142명에 총 5억6800만원 배상 결정 공정위 과징금 112억원 불복 소송 중…추가 배상 부담도 변수. 메르세데스-벤츠 코리아가 전기차 배터리...",
+      "source_url": "https://news.bizwatch.co.kr/article/industry/2026/11/06/0043",
+      "published_at": "16시간 전"
+    },
+    {
+      "category": "news",
+      "category_label": "뉴스 보도내용",
+      "competitor": "공정거래위원회",
+      "keyword": "현장조사",
+      "headline": "예고 없는 공정위 조사 \"적법\"…화물연대 판결, 쿠팡에도 참고될까",
+      "summary": "항소심, 1심 무죄 뒤집고 벌금 3000만원 선고 \"사전통지 없이 착수한 현장조사 적법\" 판단 쿠팡은 유통업법 준용 범위 쟁점…별도 판단 필요.",
+      "source_url": "https://www.newsis.com/view/NISX20261106_0003858053",
+      "published_at": "16시간 전"
+    },
+    {
+      "category": "news",
+      "category_label": "뉴스 보도내용",
+      "competitor": "공정거래위원회",
+      "keyword": "과징금",
+      "headline": "코오롱테크비전, 터널 록볼트 절감 수치 근거 없어 공정위 경고",
+      "summary": "공정위, 탄소 28.2% 저감 문구 거짓 광고 판단 강재 24.5%·건설재료 32.4% 절감도 근거 없어 이알텍도 함께 경고…과징금 없이 사건 종결.",
+      "source_url": "https://www.google.com/goto?url=CAESeQHEIkXXp3IDlIxks46aD8SpkJj75CDHfppvImlgUB6gbHi8l1s9VNgMhHgGX4CXVEYB4yBGXD78ltPH-QzK66lzHmXgSGnQOryFQ22H87GzhofcBrDgG2OXyoRF3ot-QnWv1H6wYe1dC5ItjbB7XcIxzoZPBTxLS2I",
+      "published_at": "17시간 전"
+    },
+    {
+      "category": "news",
+      "category_label": "뉴스 보도내용",
+      "competitor": "공정거래위원회",
+      "keyword": "과징금",
+      "headline": "[기자수첩] 유통업계에 쏠린 공정위 담합 '잣대'…공정한가",
+      "summary": "[SRT(에스알 타임스) 박현주 기자] 담합은 시장질서를 훼손하는 중대한 위법행위다. 유통기업이라고 예외일 수는 없다.올해 유통업계에서도 특히 식품업계는 공정거래...",
+      "source_url": "https://www.google.com/goto?url=CAESdgHEIkXX_cMj0I9F871xV_qstQ6OJNlND94X6JRO-lGktdFacBMzJAIvYh-gf7NiIhub5OiBixbBhYXS8_sKM3l2o1HBAYpOSDxPOypqHgScdueSb2SLSdD9ygZGjjHI4AvQ3-pcl-gonYCMtoiL6kqixkmuBww",
+      "published_at": "17시간 전"
+    },
+    {
+      "category": "news",
+      "category_label": "뉴스 보도내용",
+      "competitor": "공정거래위원회",
+      "keyword": "담합",
+      "headline": "[기자수첩] 유통업계에 쏠린 공정위 담합 '잣대'…공정한가",
+      "summary": "[SRT(에스알 타임스) 박현주 기자] 담합은 시장질서를 훼손하는 중대한 위법행위다. 유통기업이라고 예외일 수는 없다. 올해 유통업계에서도 특히 식품업계는 공정거래...",
+      "source_url": "http://www.srtimes.kr/news/articleViewAmp.html?idxno=216931",
+      "published_at": "17시간 전"
+    },
+    {
+      "category": "news",
+      "category_label": "뉴스 보도내용",
+      "competitor": "SK 계열사",
+      "keyword": "공정거래위원회",
+      "headline": "국민연금이 총구 겨눈 임원 스펙…회사 편 사외이사, 능력 없는 사내이사",
+      "summary": "이사·감사위원 선임 반대 50건 분석…독립성 21명·주주권익 침해 14명·과도한 겸직 6명.",
+      "source_url": "https://www.ledesk.co.kr/view.php?uid=16760",
+      "published_at": "17시간 전"
+    },
+    {
+      "category": "news",
+      "category_label": "뉴스 보도내용",
+      "competitor": "SK하이닉스",
+      "keyword": "공정거래위원회",
+      "headline": "국민연금이 총구 겨눈 임원 스펙…회사 편 사외이사, 능력 없는 사내이사",
+      "summary": "이사·감사위원 선임 반대 50건 분석…독립성 21명·주주권익 침해 14명·과도한 겸직 6명.",
+      "source_url": "https://www.google.com/goto?url=CAESaAHEIkXXpveN_wpC7w1YknW6AU1H5uAUMnbZawA6OCQVOO5hj5ZvD9fpoz9ZYvxPSWzr76ZhpenLUAyzbwARDZZhwUK3C9b7MlEotiJiDy966qBROxLrQBJfw_yuaHHy7EnZTa30DCRg",
+      "published_at": "17시간 전"
+    },
+    {
+      "category": "news",
+      "category_label": "뉴스 보도내용",
+      "competitor": "SK이노베이션",
+      "keyword": "공정거래위원회",
+      "headline": "\"사진 몇 장 추가했더니 수백만원\"…결혼 앞둔 예비부부들, 웨딩업계 비용 불만 여전",
+      "summary": "웨딩사진 추가금부터 예식장 환불·부대 서비스 비용까지 불만 기본 계약만으로는 최종 지출 규모 예측하기 어려워 공정위 점검 대상 568곳 중 가격정보 공개 업체...",
+      "source_url": "https://www.greened.kr/news/articleView.html?idxno=354073",
+      "published_at": "17시간 전"
+    },
+    {
+      "category": "news",
+      "category_label": "뉴스 보도내용",
+      "competitor": "공정거래위원회",
+      "keyword": "공정위",
+      "headline": "원가 하락에도 가격 유지하면 제재…공정위, 독과점 사업자 규율 정비",
+      "summary": "공정거래위원회가 원가가 오를 때는 상품 가격을 빠르게 올리고, 내릴 때는 높은 가격을 그대로 유지하는 독과점 사업자의 가격 남용 행위를 막기 위해 25년 만에 관련...",
+      "source_url": "https://www.electimes.com/news/articleView.html?idxno=374463",
+      "published_at": "18시간 전"
+    },
+    {
+      "category": "news",
+      "category_label": "뉴스 보도내용",
+      "competitor": "공정거래위원회",
+      "keyword": "공정위",
+      "headline": "독과점 기업 '폭리·소비자 착취' 규제 강화",
+      "summary": "공정거래위원회가 독과점 기업의 과도한 가격 책정과 소비자 착취행위에 대한 규제를 강화한다. 원가가 내려도 가격을 유지하거나 소비자에게 불리한 거래조건을 강요...",
+      "source_url": "https://www.google.com/goto?url=CAESfgHEIkXXZvmNJTKgsmDIXZ5-XMZUpRdrsb0xQ5pTr3toiOWK0cAgbHPAfkB_N0sEb87-Mh8ZMaz62qbixXGojhNaQ5zizRvl9v3oapGXK2elZsm5EZWSNV0C4OJNrVSTTpCwrkblUnsn0wU1uXsKJoG9y8JaeCHpM8qGKHFLQQ",
+      "published_at": "18시간 전"
+    },
+    {
+      "category": "news",
+      "category_label": "뉴스 보도내용",
+      "competitor": "공정거래위원회",
+      "keyword": "과징금",
+      "headline": "원재료비 오르면 발빠르게 제품값 인상하더니 원가 내릴 땐 모른척...공정위, 독과점 기업 '가격 꼼수' 손본다",
+      "summary": "공정거래위원회가 시장지배적 사업자의 가격 남용 행위를 규제하는 공정거래법 시행령 개정안을 입법예고함. 원가 하락 시 가격 미인하 및 국내외 가격 차별,...",
+      "source_url": "https://www.google.com/goto?url=CAESkgEBxCJF14ZhRkCsYDk5nVoi_UtSwk6tvrMXsEtbH9XS_VO0tbnEZUFRbkdHNpDbu74fri_U0R3dcZL8l18iLqf0HUKwxtYJftaO1NJCZVB1o_mMYBqxnwD5aFAu9o8Sgm0P-e3ODB7jofaIMUKt-xZT8NhBKvNGMmLskZMh954CWcMsckPNre3TQXZJ_XCnpr6q4A",
+      "published_at": "18시간 전"
+    },
+    {
+      "category": "news",
+      "category_label": "뉴스 보도내용",
+      "competitor": "공정거래위원회",
+      "keyword": "과징금",
+      "headline": "법원, 쿠팡 과징금 제동 요청 불허 … 4235억원 처분 '유지'",
+      "summary": "쿠팡이 개인정보 유출로 부과받은 4235억원의 과징금 처분을 일시 중단해달라고 요청했으나 법원이 받아들이지 않았다. 다만 시정명령과 공표 관련 처분의 효력은 본안...",
+      "source_url": "https://www.google.com/goto?url=CAESfgHEIkXXQWdU0woUSSoudR-ul7ssBTFbrsc-Ti1ftFuwnttRFXDqAp-Q0hsQoj7WgoqyO9pGZUEExL6yLLLWXSs0pVoJc8U5GfpQVTUKpDYWfuCPOASriLV9L1NoHA1Y_KQAWqaEOzgbBY3kCVsT0qxy-o37tv2EGY8Gg4DphA",
+      "published_at": "18시간 전"
+    },
+    {
+      "category": "news",
+      "category_label": "뉴스 보도내용",
+      "competitor": "공정거래위원회",
+      "keyword": "현장조사",
+      "headline": "화물연대, 공정위 조사 방해 혐의 2심서 유죄…무죄 뒤집고 벌금 3천만원",
+      "summary": "2022년 총파업 당시 공정거래위원회의 현장조사를 방해한 혐의로 기소된 민주노총 공공운수노조 화물연대본부가 항소심에서 유죄를 선고받았다.",
+      "source_url": "http://www.haesanews.com/news/articleView.html?idxno=152534",
+      "published_at": "18시간 전"
+    },
+    {
+      "category": "news",
+      "category_label": "뉴스 보도내용",
+      "competitor": "공정거래위원회",
+      "keyword": "현장조사",
+      "headline": "원재료비 오르면 발빠르게 제품값 인상하더니 원가 내릴 땐 모른척...공정위, 독과점 기업 '가격 꼼수' 손본다",
+      "summary": "공정거래위원회가 시장지배적 사업자의 가격 남용 행위를 규제하는 공정거래법 시행령 개정안을 입법예고함. 원가 하락 시 가격 미인하 및 국내외 가격 차별,...",
+      "source_url": "https://www.google.com/goto?url=CAESkgEBxCJF12bqWVXgLM6FvPnqY3ht1xyffmPsaktVgNqCFCJyCamdDHqzsVCneS7WQk8ocIaOYVkM8XP3LzPyGs7bsYULByJtrztEt0C-hqZelRnDQGG0EZl3CAdHwm3Eu7laXlU8UwcpEwtT6ELgfE917BkJBOKSahiwZz_ubfq5NFexjv_j6p126PlmkOcXAhcfLg",
+      "published_at": "18시간 전"
+    },
+    {
+      "category": "news",
+      "category_label": "뉴스 보도내용",
+      "competitor": "공정거래위원회",
+      "keyword": "현장조사",
+      "headline": "독과점 기업 '폭리·소비자 착취' 규제 강화",
+      "summary": "공정거래위원회가 독과점 기업의 과도한 가격 책정과 소비자 착취행위에 대한 규제를 강화한다. 원가가 내려도 가격을 유지하거나 소비자에게 불리한 거래조건을 강요...",
+      "source_url": "https://www.google.com/goto?url=CAESewHEIkXX75Ay3NLmGQuHOBJivypgn7bbamJ7p2r8dCbCCGdvWmjlq2d9N2UguxzR-18xgfGY8nqoPWUiEYCKIa8flGw5P6QkA8E5VJb9Ivi9cFdIUVlLRiJ2PL9xBLbtQywgzjyT_F7ppJzzir9gPa6iDecnRPcbohwPvw",
+      "published_at": "18시간 전"
+    },
+    {
+      "category": "news",
+      "category_label": "뉴스 보도내용",
+      "competitor": "공정거래위원회",
+      "keyword": "담합",
+      "headline": "태평양, 공정거래그룹에 이동률·김치열·이종헌 변호사 영입",
+      "summary": "법무법인 태평양(대표변호사 이준기)은 공정거래 분야 대응 역량 강화를 위해 이동률(사법연수원 33기)·김치열(변호사시험 3회)·이종헌(변시 3회) 변호사를 영입했.",
+      "source_url": "https://www.lawtimes.co.kr/news/articleViewAmp.html?idxno=228985",
+      "published_at": "18시간 전"
+    },
+    {
+      "category": "news",
+      "category_label": "뉴스 보도내용",
+      "competitor": "공정거래위원회",
+      "keyword": "담합",
+      "headline": "원재료비 오르면 발빠르게 제품값 인상하더니 원가 내릴 땐 모른척...공정위, 독과점 기업 '가격 꼼수' 손본다",
+      "summary": "공정거래위원회가 시장지배적 사업자의 가격 남용 행위를 규제하는 공정거래법 시행령 개정안을 입법예고함. 원가 하락 시 가격 미인하 및 국내외 가격 차별,...",
+      "source_url": "https://www.chosun.com/economy/economy_general/2026/11/06/4D4ALTSFSBDA5BVWI2CO736ELI/",
+      "published_at": "18시간 전"
+    },
+    {
+      "category": "news",
+      "category_label": "뉴스 보도내용",
+      "competitor": "SK하이닉스",
+      "keyword": "공정거래위원회",
+      "headline": "독과점 기업 '고가 책정' 제재 강화…공정위 25년 만에 규제 손질",
+      "summary": "팩트인뉴스=박상우 기자 | 독과점 사업자가 정당한 사유 없이 원가보다 지나치게 높은 가격을 책정할 경우 공정거래위원회의 제재 대상에 포함될 수 있다. 공정위가 2.",
+      "source_url": "https://www.factinnews.co.kr/news/articleView.html?idxno=300878",
+      "published_at": "18시간 전"
+    },
+    {
+      "category": "news",
+      "category_label": "뉴스 보도내용",
+      "competitor": "공정거래위원회",
+      "keyword": "공정위",
+      "headline": "공정위, 독과점 기업 ‘내리지 않는 가격’ 겨눈다",
+      "summary": "공정거래위원회는 독과점 기업의 가격 남용을 방지하기 위해 25년 만에 공정거래법 시행령 개정안을 입법예고했다. 개정안은 가격 상승 판단 기준을 '현저히'에서...",
+      "source_url": "https://www.google.com/goto?url=CAESYwHEIkXX9ra4cKCnTAaBkC2s5-BRb4gqpk-eGbx_grP0NNCpScegvQ0cR4ZI-1_vXIxuB1cR6zFhdNjG5i8KtwODQp7MtuUexUVPRic6dgazjE2Av_I16Oxfrnf7LnqS2jfm6A",
+      "published_at": "19시간 전"
+    },
+    {
+      "category": "news",
+      "category_label": "뉴스 보도내용",
+      "competitor": "공정거래위원회",
+      "keyword": "현장조사",
+      "headline": "화물연대 '공정위 조사방해' 무죄 뒤집혀…2심서 벌금 3천만원",
+      "summary": "[서울=뉴시스]이승주 기자 = 2022년 총파업에 따른 '운송거부' 사태 당시 공정거래위원회(공정위)의 현장조사를 방해한 혐의로 재판에 넘겨진 민주노총 공공운수노조...",
+      "source_url": "https://www.google.com/goto?url=CAESggEBxCJF19VQ7kQBHcPSpm50Q9OnoWplzwXe85JqqkJlktqrr1M-FYxtdgm1m8nHVUEj3sMeOH7iHK459ng-4yMbZBeXnwvEsIQXjta1dRPWFWWZBC3S8uh5ImQeHYwKO2XG3ZgF16fRUR-dQBxHdALTXBEGHKz2-kcqLwQOFnWy-MbF",
+      "published_at": "21시간 전"
+    },
+    {
+      "category": "news",
+      "category_label": "뉴스 보도내용",
+      "competitor": "SK㈜",
+      "keyword": "공정거래위원회",
+      "headline": "가입은 첫 화면, 탈퇴는 숨겨두면 '다크패턴'…공정위, 해석기준 구체화",
+      "summary": "전자상거래 소비자보호지침 개정안 행정예고…탈퇴 버튼 위치까지 위반 예시로 탈퇴 때만 본인인증·설문 강요도 위반…주문제작 상품도 단순변심 청약철회 가능 온라인...",
+      "source_url": "http://www.inews24.com/v/2023416",
+      "published_at": "21시간 전"
+    },
+    {
+      "category": "news",
+      "category_label": "뉴스 보도내용",
+      "competitor": "SK하이닉스",
+      "keyword": "공정거래위원회",
+      "headline": "가입은 첫 화면, 탈퇴는 숨겨두면 '다크패턴'…공정위, 해석기준 구체화",
+      "summary": "전자상거래 소비자보호지침 개정안 행정예고…탈퇴 버튼 위치까지 위반 예시로 탈퇴 때만 본인인증·설문 강요도 위반…주문제작 상품도 단순변심 청약철회 가능 온라인...",
+      "source_url": "https://www.google.com/goto?url=CAESXQHEIkXXvikf7AUzLZpp1Ufnld5xxfnwjGXgDjBbIXdoTzjE_tj89eiqPouhZfJcs4EzbP_zmq4lIm45MXi638KJr1YompwXKfYRUisugSia-1LQANjdrlX3zK7Q9A",
+      "published_at": "21시간 전"
+    },
+    {
+      "category": "news",
+      "category_label": "뉴스 보도내용",
+      "competitor": "SK하이닉스",
+      "keyword": "공정거래위원회",
+      "headline": "삼성전자 GOS 논란 집중 해부…'최고 성능' 광고 뒤에 감춰진 진실은? [머니카운터 방송 예고]",
+      "summary": "경인방송의 본격 경제 프로그램 '곽경호의 머니카운터'가 이른바 '삼성전자 GOS 논란'의 핵심 쟁점을 집중적으로 파헤친다.삼성전자가 갤럭시 스마트폰의 게임 성능...",
+      "source_url": "https://www.google.com/goto?url=CAEScwHEIkXXpkYCvzuxB_Ek2JI8BNvhz2uwo16Un5m-0PuqfiZJ3fCn8ZCnDrd4c277pP6eKm5opQmRCLDfXedsAqSpYRS6ISPdvE_qcjkm4qOINYG_DIjKw83XEdU0Ck6Z3YwZD82IqvzCeXuLMgx9LzN7jXw",
+      "published_at": "21시간 전"
+    },
+    {
+      "category": "news",
+      "category_label": "뉴스 보도내용",
+      "competitor": "SK하이닉스",
+      "keyword": "공정거래위원회",
+      "headline": "미국 중간선거가 AI 투자 지형 흔드나…삼성전자·SK하이닉스 폭락, 데이터센터 규제와 2천조원 IPO의 향방",
+      "summary": "미국 중간선거 이후 AI 데이터센터 건설 규제 우려가 확산하면서 뉴욕증시와 국내 반도체주가 급락했다. 삼성전자·SK하이닉스의 HBM 수요부터 AI 기업 IPO,...",
+      "source_url": "https://www.google.com/goto?url=CAESfQHEIkXXsY7I7CVv8kANRgEj-eIGwAHbeKXxfj_SS9xoLSuQjGU-BZ1tng5H0dcsyi4urhxZcS7q7r9MEo8wwZm5GFNEyjqZy_0_pyYwpLFTxV7uPvc7M62CTWFEaanNKZCGBA78iZMGVjfZ8G9xqZomV2EVeHAOuGbekLZK",
+      "published_at": "21시간 전"
+    },
+    {
+      "category": "news",
+      "category_label": "뉴스 보도내용",
+      "competitor": "공정거래위원회",
+      "keyword": "공정위",
+      "headline": "공정위, 독과점 '고가 책정·유지' 규율 강화…25년 만에 정비",
+      "summary": "가격 남용 판단 '현저성'→'상당성'…소비자 착취행위 유형 신설 비공개 정보 경쟁 활용·직거래 방해도 규정…내년 상반기 개정 목표 가격 남용 판단 '현저성'→'상당성'...",
+      "source_url": "https://www.google.com/goto?url=CAESZwHEIkXXY-XjxeWaWumHYK6XOM9A21NpM3d527EuFRj3EG0ZGRCnoMUbuO7KKAcGjLWqUEs0PmfccmcT8ev-siKiwsmoSq4g7lLZeqTQ-ovjv3ft2DOvkzl2OaXZzQUEfmDf-Kfn_Gk",
+      "published_at": "22시간 전"
+    },
+    {
+      "category": "news",
+      "category_label": "뉴스 보도내용",
+      "competitor": "공정거래위원회",
+      "keyword": "과징금",
+      "headline": "공정위, 독과점 사업자 가격폭리·사업활동 방해 등 제재",
+      "summary": "공정거래위원회가 앞으로 독과점 사업자가 해외 시장보다 국내 시장에서 가격을 부당하게 높게 결정하거나 원가 상승기 상품 가격을 재빠르게 인상하면서 원가 하락기.",
+      "source_url": "https://www.google.com/goto?url=CAEShAEBxCJF1xJEgpBRMhFgcGlCKUZ4CON1NEylXpLWR3r6LC7lh9bjoXVw2GhEwpcA7Xy2eOP4yz6cSYUx0WHvSFkCZRFY75qaeSWiHHwgCIB2bx25p5X-HZ3JKitvMXcyGSZTH-5GnhWbPvSzH5mRKbOIfylMMOQsmGHZeNpcAbg_UVHGdLc",
+      "published_at": "22시간 전"
+    },
+    {
+      "category": "news",
+      "category_label": "뉴스 보도내용",
+      "competitor": "공정거래위원회",
+      "keyword": "현장조사",
+      "headline": "'공정위 조사 방해' 화물연대, 항소심서 벌금형으로 뒤집혀",
+      "summary": "(서울=뉴스1) 한수현 기자 = 공정거래위원회 현장 조사를 거부한 혐의로 재판에 넘겨진 민주노총 공공운수노조 화물연대본부(화물연대)가 1심에서 무죄 선고를...",
+      "source_url": "https://www.news1.kr/society/court-prosecution/6345373",
+      "published_at": "22시간 전"
+    },
+    {
+      "category": "news",
+      "category_label": "뉴스 보도내용",
+      "competitor": "공정거래위원회",
+      "keyword": "현장조사",
+      "headline": "'공정위 현장조사 봉쇄' 화물연대… 1심 무죄 뒤집히고 항소심서 유죄 판결",
+      "summary": "지난 2022년 총파업 과정에서 공정거래위원회의 부당공동행위 현장조사를 조직적으로 방해한 혐의로 재판에 넘겨진 민주노총 공공운수노조 화물연대본부(화물연대)가...",
+      "source_url": "https://www.google.com/goto?url=CAESeQHEIkXXbpOqgq0Tn2eDPCuPr3gFBowQxMaUbQTWEYa4J-IAGE2k2nmF3bNfebrtzdNdfWcoCmZGzc-CLMkLKANqkwjB6wMaVaSJ3XzC9NeC5VHi_naM0HAMpCB6HG313nbro-0yJcmePGG0uP35X63AcIejezXxEhs",
+      "published_at": "22시간 전"
+    },
+    {
+      "category": "news",
+      "category_label": "뉴스 보도내용",
+      "competitor": "공정거래위원회",
+      "keyword": "현장조사",
+      "headline": "'파업 중 공정위 조사방해' 화물연대 2심 벌금형…무죄 뒤집혀",
+      "summary": "1심 \"정당한 쟁의행위, 공정거래법 적용 배제\" 무죄 판결 2심 \"사업자단체라면 원칙적으로 법 적용…죄질 가볍지 않아\". 2022년 11월 결의대회에서 구호 외치는 화물...",
+      "source_url": "https://www.google.com/goto?url=CAESZQHEIkXXrAMmqml5-e57r_yApC1YrdfHoMn1fyvFmreg0C-2VYGhI22U11XTNon5nmmkI9fITF0UeaQtlE6WSASdT9xFPUJoJTiE5cC1xq_tHc8bq5Hp42EYInxxNemBAv63ok8S",
+      "published_at": "22시간 전"
+    },
+    {
+      "category": "news",
+      "category_label": "뉴스 보도내용",
+      "competitor": "공정거래위원회",
+      "keyword": "현장조사",
+      "headline": "화물연대 공정위 조사방해, 2심서 벌금 3천만원",
+      "summary": "총파업 도중 공정거래위원회의 현장조사를 막은 혐의로 재판에 넘겨진 민주노총 공공운수노조 화물연대본부가 항소심에서 벌금형을 선고받았다.",
+      "source_url": "https://www.google.com/goto?url=CAESdgHEIkXXMyFvg8iCUqkP562F8kLg0Ig8FMMNlR15BHBKZGvtRCvUQmlZRnVrp9xgJWJ-O_y26bP1I7cLy6tBgcyuTrXjMCvQh_pJ31qJVpgFNr1jcamdTsNm0opZdr86sC-fAjzzdv1GPxW2NUOSMAs_9FY32kM",
+      "published_at": "22시간 전"
+    },
+    {
+      "category": "news",
+      "category_label": "뉴스 보도내용",
+      "competitor": "공정거래위원회",
+      "keyword": "담합",
+      "headline": "독과점 사업자 '국내서만 비싸게' 제재…공정거래법 시행령 25년만 정비",
+      "summary": "공정거래위원회가 독과점 사업자가 해외보다 국내에서 상품 가격을 부당하게 높게 책정하거나 원가 하락기에도 높은 가격을 유지해 폭리를 취하는 행위를 금지한다.",
+      "source_url": "https://www.google.com/goto?url=CAESfAHEIkXX7waDqJmHpixEGXKHWAJ4-hcuUNEOMEWb-FPdGHIhenEo3Vvx5GXzqACwJKFUAdUN_zDLp8CNAv5_X_6I_hfnHHNyp38LAs5uPTd0RXFpzwccu20TUktfR2e_k1a48YzHDeIm5j2xi1tXDJHgYCEVUzCNPTbz45w",
+      "published_at": "22시간 전"
+    },
+    {
+      "category": "news",
+      "category_label": "뉴스 보도내용",
+      "competitor": "SK하이닉스",
+      "keyword": "공정거래위원회",
+      "headline": "독과점 사업자 '국내서만 비싸게' 제재…공정거래법 시행령 25년만 정비",
+      "summary": "공정거래위원회가 독과점 사업자가 해외보다 국내에서 상품 가격을 부당하게 높게 책정하거나 원가 하락기에도 높은 가격을 유지해 폭리를 취하는 행위를 금지한다.",
+      "source_url": "https://www.google.com/goto?url=CAESfAHEIkXXbmN5BkbA3tUMrveB-TTTfCZRFNc7h-wbIwGXt03uvYSDAQ8pWBAIt0hPoGERixkBz4BKwP37hmvOVnSep0z_8faEaDqjouoZRCVczRvZx2ftaJmCHXEF7ZOymwNQqw8Zzwq6FKNkEaNHEHlEQyfmIxiFKB_NvQ4",
+      "published_at": "22시간 전"
+    },
+    {
+      "category": "news",
+      "category_label": "뉴스 보도내용",
+      "competitor": "SK하이닉스",
+      "keyword": "공정거래위원회",
+      "headline": "25년 만에 독과점 규제 손질…부당한 가격 유지도 제재",
+      "summary": "독과점 기업이 원가 하락에도 부당하게 높은 가격을 유지하거나 소비자의 선택을 제한하는 행위에 대한 규제가 25년 만에 강화된다.공정거래위원회(공정위)는 6일 이...",
+      "source_url": "https://www.google.com/goto?url=CAESaQHEIkXXrxlMZg37iV3NEfJbxPRIw4uTSpmufWmft4Ph0rJxnQmV9Jyh-rtvEkcAzIcQ3TPjH8Rp7etaad1Oj7LdKRWHzq6D8AM4VpsLrVQxxGkT8rCj2_6o52tuSEfwjSg1a-PX9eaPcw",
+      "published_at": "22시간 전"
+    },
+    {
+      "category": "news",
+      "category_label": "뉴스 보도내용",
+      "competitor": "공정거래위원회",
+      "keyword": "공정위",
+      "headline": "원가 내렸는데 가격 유지하면 제재…독과점 규율 25년 만에 손질 |",
+      "summary": "(서울=연합인포맥스) 변명섭 기자 = 독과점 사업자가 원가 하락기에도 올린 가격을 그대로 유지하거나 해외보다 국내에서 가격을 부당하게 높게 매기면 공정거래위원회...",
+      "source_url": "https://www.google.com/goto?url=CAESfwHEIkXXnchd9tYJrAS-l1KdGXqrMiUZjItwqhkC3ovgqaf6DtxsG4qq64iFGucm_iAfc2s7fHBHCke8uNxVNBsK9ETokU6DoSgEixbiXFjQVnAtJGUs9iyulY-tW0ZuHwNOVRkGDCQx_lBYBPHy_pY63ipsG6JTu2kelxqaH9o",
+      "published_at": "23시간 전"
+    },
+    {
+      "category": "news",
+      "category_label": "뉴스 보도내용",
+      "competitor": "공정거래위원회",
+      "keyword": "담합",
+      "headline": "독과점 사업자, 해외보다 국내서 터무니 없이 비싸게 팔면 제재",
+      "summary": "(세종=연합뉴스) 김수현 기자 = 앞으로 독과점 사업자가 해외 시장보다 국내 시장에서 가격을 부당하게 높게 결정하거나 원가 상승기 상품 가격을 ...",
+      "source_url": "https://www.google.com/goto?url=CAESbAHEIkXX4rmFMvbiQB9_p1Xhf2nl2hqJVe1M0U-fCKuqv82g4LovwIbTZ4HVHNq_FfbtHpaCdVUGxxv_mtR6xua8_9xfWmfu2N4FpysIwMNp1uxqSPm0IsROHbjDjxkY0Lr1zoPmNmOLg_QTVg",
+      "published_at": "23시간 전"
+    },
+    {
+      "category": "news",
+      "category_label": "뉴스 보도내용",
+      "competitor": "SK그룹",
+      "keyword": "공정거래위원회",
+      "headline": "\"무서운 공정위...\" 위법·부당행위 없는 정도경영 선포 '하이트진로' - 머니투데이",
+      "summary": "하이트진로그룹이 지난 5일 서울 서초동 사옥에서 '정도경영 선포식'을 개최했다고 6일 밝혔다. 이번 선포식은 법과 원칙을 준수하고 공정하고 투명한 경영을 실천...",
+      "source_url": "https://www.mt.co.kr/index.php/amp/living/2026/11/06/2026110609053572642",
+      "published_at": "23시간 전"
+    }
+  ],
+  "generated_at": "2026-11-06T23:35:10.503Z",
+  "_meta": {
+    "sources": [
+      "ftc.go.kr(보도자료)",
+      "ftc.go.kr(위원회 소식)",
+      "serper.dev/news"
+    ],
+    "windowHours": {
+      "press": 48,
+      "committee": 168,
+      "news": 24
+    },
+    "gapDays": 1,
+    "committeeCandidates": 5,
+    "boards": {
+      "committee": {
+        "boardsRead": 1,
+        "boardsTotal": 1,
+        "rowsSeen": 10,
+        "matched": 5
+      },
+      "press": {
+        "boardsRead": 2,
+        "boardsTotal": 2,
+        "rowsSeen": 20,
+        "matched": 1
+      }
+    },
+    "affiliateCompanies": 28,
+    "affiliateCollected": 17,
+    "categoryCounts": {
+      "press": 1,
+      "committee": 0,
+      "news": 50
+    },
+    "collected": 52,
+    "deduped": 50,
+    "errors": []
+  }
+}
