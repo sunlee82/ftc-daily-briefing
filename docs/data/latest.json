@@ -1,41 +1,27 @@
 {
-  "id": "2026-11-13",
-  "date": "2026-11-13",
-  "title": "진에어·에어서울·에어부산 3사 합병 승인, 내년 3월 통합 LCC 출범",
-  "summary": "**진에어·에어서울·에어부산** 합병 기업결합 승인 — 한진 계열사 간 결합, **2027년 3월 17일** 통합 LCC 출범\n중견 건설사 **29곳** 상생협약 이행 점검 — 하도급대금 **184억** 증액, SK에코엔지니어링은 **12월 1일** SK에코플랜트 합병 앞둬 불참\n올해 대형 담합 **6건** 과징금 **4조** 돌파·내년 경제분석 예산 **3배** — 우리은행 **LTV 담합** 소송 2차 변론",
+  "id": "2026-11-14",
+  "date": "2026-11-14",
+  "title": "유통 표준계약서 7종 개정, 대금 기산일 '상품 인도일'로 명확화",
+  "summary": "유통 **표준거래계약서 7종** 개정 — 대금 기산일 **상품 인도일** 명시, 미협의 광고비·물류비는 사전 통지 없이 청구 불가\n**국고채 담합 1.6조** 후폭풍 — 증권가 담합 입증·산정 기준 다툴 방침, 사무금융노조는 제재 **철회** 요구\n기업 임직원 **220명** 담합 예방 설명회 — 올해 심결례·판례와 반복 담합 근절 제도 개선방안 공유",
   "competitors": [
-    "공정거래위원회",
-    "진에어",
-    "우리은행"
+    "공정거래위원회"
   ],
   "keywords": [
-    "LCC 기업결합",
-    "건설 상생협약",
-    "AI 경쟁정책",
-    "LTV 정보교환 담합",
-    "경제분석 예산"
+    "표준거래계약서",
+    "대규모유통업",
+    "국고채 담합",
+    "카르텔 설명회",
+    "디지털 통상"
   ],
   "items": [
     {
       "category": "press",
       "category_label": "공정위 보도자료",
-      "headline": "진에어-에어서울-에어부산 합병 인가, 27년 3월 17일부터 진에어로 통합 예정",
-      "dept": "기업결합과",
-      "summary": "국토부·공정위, 진에어의 에어서울·에어부산 합병 인가 및 기업결합 신고 승인\n- 3사 모두 기업집단 「한진」 계열사 — 기업결합 심사기준상 **경쟁제한성 없음** 추정\n- **12월 17일** 대한항공-아시아나 통합 FSC 출범에 이어 **2027년 3월 17일** 통합 LCC 출범 — 국내 LCC 중 국제·국내선 최다 운항\n- 인가 조건: 출범일까지 안전운항체계 변경검사·해외 항공당국 인허가 완료, 소비자 보호 등 계획 이행을 **매월** 국토부에 보고\n- 부산 제2허브 계획: 김해공항 국제선 **28→33개** 노선·주 **281→339회**, 기존 인력 고용승계·인위적 구조조정 배제 — 국토부는 다른 LCC 경쟁력 강화 방안도 검토",
-      "source_url": "https://www.ftc.go.kr/www/selectBbsNttView.do?pageUnit=10&pageIndex=1&searchCnd=all&key=12&bordCd=3&searchCtgry=01,02&nttSn=48219",
-      "published_at": "2026-11-12",
-      "topics": [
-        "merger"
-      ]
-    },
-    {
-      "category": "press",
-      "category_label": "공정위 보도자료",
-      "headline": "중견 건설사 대상 민관협의체 개최",
-      "dept": "건설하도급조사팀",
-      "summary": "공정위·중견 종합건설사 29곳, 7월 상생협약 이행실적 점검 민관협의체 회의 개최\n- **23개사**가 원자재·유가 상승 반영해 **152개** 수급사업자 하도급대금 약 **184억** 증액 — HJ중공업은 연동계약으로 3개사 **33억**\n- **11개사** 유보금 미설정·계약조건 점검, **2개사**는 전산시스템으로 유보금 설정 원천 차단 — 5개사는 **190개** 수급사업자에 하자소송 제기 사실 통보\n- **14개사** 산업안전·폐기물처리비용 직접 부담 명시 등 비용 전가 특약 정비, **16개사** 사내 하도급 분쟁해결기구 운영(5개사 신설)\n- 대상은 시공능력 **21~50위** 29개사(9월 대형 19개사 회의에 이은 2차) — SK에코엔지니어링(48위)은 **12월 1일** SK에코플랜트와 합병 예정으로 불참",
-      "source_url": "https://www.ftc.go.kr/www/selectBbsNttView.do?pageUnit=10&pageIndex=1&searchCnd=all&key=12&bordCd=3&searchCtgry=01,02&nttSn=48218",
-      "published_at": "2026-11-12",
+      "headline": "유통분야 표준거래계약서 7종 개정",
+      "dept": "유통대리점정책과",
+      "summary": "대규모유통업자의 대금 지급 기산일 명확화·미협의 비용 사전 통지 의무화를 담은 유통분야 표준거래계약서 **7종** 개정\n- 대상: 온라인쇼핑몰 **2종**(직매입·위수탁), 백화점·대형마트 **2종**(직매입·특약매입), 면세점·편의점 직매입, TV홈쇼핑\n- 대금 지급 기산일인 상품수령일을 검수 전 **상품 인도일**로 명시하고 검수 조항은 대금 조항 뒤로 이동 — 직매입 **4종**\n- 물류비·배송비·광고비 등 계약서에 없는 비용은 계약 체결 시 서면·전자시스템으로 부담 내역·분담 비율 사전 통지, 미통지·미협의 비용은 명칭 불문 청구 불가 — **6종**에 신설\n- 직매입 대금 기한 **60일**은 **2027년 10월** 개정법 시행으로 **35일**(특약매입 등 40→**20일**)로 단축 예정 — 개정 전문은 공정위 누리집 표준유통거래계약서 메뉴",
+      "source_url": "https://www.ftc.go.kr/www/selectBbsNttView.do?pageUnit=10&pageIndex=1&searchCnd=all&key=12&bordCd=3&searchCtgry=01,02&nttSn=48222",
+      "published_at": "2026-11-13",
       "topics": [
         "subcon"
       ]
@@ -43,74 +29,62 @@
     {
       "category": "press",
       "category_label": "공정위 보도자료",
-      "headline": "2026년도 공정위·한국산업조직학회 공동 정책포럼 개최",
+      "headline": "제23회 카르텔 업무 설명회 개최",
       "dept": "시장감시정책과",
-      "summary": "공정위·한국산업조직학회, 「AI 생태계와 경쟁정책」 주제 공동 정책포럼 개최\n- 주병기 위원장 \"AI 혁신·역동성은 살리되 소수 기업 독과점 구조 방지\" — AI 생태계 **시장분석 진행 중**, 경쟁제한 행위 감시 지속\n- 발표 3건: AI 기술 진화와 경쟁환경 변화(김민기), AI 고도화와 새 시장질서(이화령), AI 생태계 내 준기업결합성 협력·혁신경쟁 봉쇄(권영관)\n- 포럼 논의 반영한 정책보고서 「AI 하류시장과 경쟁」 **연내** 발간 예정",
-      "source_url": "https://www.ftc.go.kr/www/selectBbsNttView.do?pageUnit=10&pageIndex=1&searchCnd=all&key=12&bordCd=3&searchCtgry=01,02&nttSn=48217",
-      "published_at": "2026-11-12",
+      "summary": "공정위, 기업·사업자단체 임직원 약 **220명** 대상 담합 예방 설명회 **11월 13일** 대한상의서 개최\n- 담합 관련 법령·제도, **2026년** 주요 심결례, 최신 판례 소개 — 법 위반 유형·조치 수준·시사점 전달\n- 반복 담합 근절을 위해 추진 중인 제도 개선방안 등 정책 방향 공유, 업계 애로사항·제도 개선 의견 청취\n- 미국·EU·중국 등 주재관 통해 현지 진출 기업 대상 담합 예방 교육도 지속",
+      "source_url": "https://www.ftc.go.kr/www/selectBbsNttView.do?pageUnit=10&pageIndex=1&searchCnd=all&key=12&bordCd=3&searchCtgry=01,02&nttSn=48223",
+      "published_at": "2026-11-13",
       "topics": [
-        "platform"
+        "cartel"
       ]
     },
     {
-      "category": "committee",
-      "category_label": "위원회 소식",
-      "headline": "2026-11-13 위원회 소식",
-      "summary": "##[주요일정]##\n· **부위원장**: 08:30 차관회의(세종청사)",
-      "source_url": "https://www.ftc.go.kr/www/selectBbsNttView.do?pageUnit=10&pageIndex=1&searchCnd=all&key=15&bordCd=5&nttSn=48221",
-      "published_at": "2026-11-12",
+      "category": "news",
+      "category_label": "뉴스 보도내용",
+      "headline": "국고채 담합 1.6조 과징금 후폭풍…증권가, 담합 입증·산정 기준 다툰다",
+      "summary": "금투협의 소송 지원 방침에 이어 과징금을 받은 증권사들이 법적 대응 준비에 착수.\n정보교환만으로 담합을 입증할 수 있는지와 관련매출·과징금 산정 기준이 쟁점.",
+      "source_url": "https://www.greened.kr/news/articleView.html?idxno=354629",
+      "published_at": "16시간 전",
       "topics": [
+        "cartel",
+        "enforce"
+      ]
+    },
+    {
+      "category": "news",
+      "category_label": "뉴스 보도내용",
+      "headline": "사무금융노조 \"공정위 PD 담합 과징금은 행정 폭력…즉각 철회해야\"",
+      "summary": "전국사무금융서비스노조 증권업종본부, **13일** 성명으로 제재 결정 철회·과징금 적정성 재검토 요구.\n국고채전문딜러(PD) 제도를 설계·운영한 정부 책임도 함께 거론.",
+      "source_url": "https://news.einfomax.co.kr/news/articleViewAmp.html?idxno=4444707",
+      "published_at": "16시간 전",
+      "topics": [
+        "cartel",
+        "enforce"
+      ]
+    },
+    {
+      "category": "news",
+      "category_label": "뉴스 보도내용",
+      "headline": "한미 무역합의 1년 '낙제점' 미국 싱크탱크 평가…공정위 디지털 규제 비판",
+      "summary": "무역 합의·공동 팩트시트 발표 뒤 **1년**간 디지털 무역장벽 해소 노력이 거의 진전되지 않았다는 평가.\n공정위의 디지털 플랫폼 규제를 대표적 장벽으로 지목 — ITIF·CCIA 보고서에 이은 통상 압박 자료.",
+      "source_url": "https://www.businesspost.co.kr/BP?command=article_view&num=451953",
+      "published_at": "19시간 전",
+      "topics": [
+        "platform",
         "institution"
       ]
     },
     {
       "category": "news",
       "category_label": "뉴스 보도내용",
-      "headline": "LTV 정보교환, 담합인가…우리은행·공정위, 2차 변론서 '경쟁 제한성' 공방",
-      "summary": "우리은행, LTV는 대출한도와 무관하다며 경쟁제한 효과 부인.\n합의 없는 정보교환만으로 담합을 인정한 처분의 적법성이 법원 심리 중.",
-      "source_url": "https://www.topdaily.kr/articles/112888",
-      "published_at": "14시간 전",
+      "headline": "창업자 젠슨 황도 이사회 압박에 사퇴…한국 '총수'는 누가 견제하나",
+      "summary": "총수·회장은 상법상 직책이 아니며, 등기이사 여부와 무관하게 그룹을 지배하는 사람을 가리키는 개념.\n창업자도 이사회가 교체하는 미국과 달리 한국 대기업집단 총수의 견제 장치가 미비하다는 기획 ①편.",
+      "source_url": "https://m.ekn.kr/view.php?key=20261113025038730",
+      "published_at": "24시간 전",
       "topics": [
-        "cartel",
-        "enforce"
-      ]
-    },
-    {
-      "category": "news",
-      "category_label": "뉴스 보도내용",
-      "headline": "국고채 '과징금 폭탄' 맞은 증권가, 금감원도 별도 점검",
-      "summary": "조 단위 과징금 부과받은 증권사 대상, 금융당국 차원의 별도 점검 추진.\n공정위 제재와 별개로 진행 — 감독 축 추가.",
-      "source_url": "https://news.einfomax.co.kr/news/articleViewAmp.html?idxno=4444441",
-      "published_at": "18시간 전",
-      "topics": [
-        "cartel",
-        "enforce"
-      ]
-    },
-    {
-      "category": "news",
-      "category_label": "뉴스 보도내용",
-      "headline": "대형 담합 6건 과징금 4조원…공정위, 내년 경제분석 예산 3배로",
-      "summary": "국고채 입찰·식품 원재료 담합 등 올해 결정한 대형 사건 **6건** 과징금 **4조원** 돌파 — 역대 최대.\n경제분석 역량 강화 위해 내년 관련 예산 **3배** 증액.",
-      "source_url": "https://mobile.newsis.com/view_amp.html?ar_id=NISX20261112_0003865359",
-      "published_at": "20시간 전",
-      "topics": [
-        "cartel",
-        "institution"
-      ]
-    },
-    {
-      "category": "news",
-      "category_label": "뉴스 보도내용",
-      "headline": "李대통령 응원한 1.6조 과징금…국고채시장 독될라",
-      "summary": "이재명 대통령, **11일** X에 \"입찰 담합 꿈도 꾸지 마십시오\" 글로 공정위 제재 지지.\n역대 최대 과징금이 PD 입찰 참여 위축 등 국고채 시장 부담으로 번질 수 있다는 우려 제기.",
-      "source_url": "https://www.sedaily.com/article/20113641",
-      "published_at": "2시간 전",
-      "topics": [
-        "cartel",
-        "enforce"
+        "group"
       ]
     }
   ],
-  "generated_at": "2026-11-12T23:45:00.000Z"
+  "generated_at": "2026-11-13T23:35:09.541Z"
 }
