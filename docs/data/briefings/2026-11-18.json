@@ -1,0 +1,69 @@
+{
+  "id": "2026-11-18",
+  "date": "2026-11-18",
+  "title": "쿠팡·김범석 지정자료 허위제출 고발 여부 심의 착수",
+  "summary": "공정위 사무처, **쿠팡·김범석 의장** 총수 지정자료 허위 제출에 **고발 의견** — 전원회의 심의 착수\n방문판매법 시행령 국무회의 통과 — 위반 가담 임직원도 신고포상금, **1천만원 한도 폐지**해 과징금 **최대 10%**\n**LG유플러스** 5G 속도 과장광고 과징금 소송 **패소 확정** — SKT **168억** 사건은 대법원 상고심 진행 중",
+  "competitors": [
+    "쿠팡",
+    "LG유플러스",
+    "공정거래위원회"
+  ],
+  "keywords": [
+    "지정자료 허위제출",
+    "신고포상금 상한 폐지",
+    "5G 과장광고",
+    "보습크림 비교정보"
+  ],
+  "items": [
+    {
+      "category": "press",
+      "category_label": "공정위 보도자료",
+      "headline": "방문판매법 시행령 개정안 국무회의 통과",
+      "dept": "특수거래정책과",
+      "summary": "방판법 위반 신고포상금을 가담 임직원까지 확대하고 **1천만원** 한도를 폐지하는 시행령 개정안 국무회의 의결\n- 법 위반에 가담한 임직원도 포상금 지급 대상에 포함 — 가담 정도에 따라 지급액 감액 가능\n- 포상금 한도 **1천만원** 삭제 → 과징금 부과액의 **최대 10%**까지 지급(**6월 18일** 개정 포상금 규정과 연동)\n- **공포 즉시 시행**, 공포 전 신고분은 종전 규정 적용. 시행령 제51조 제4항 '1천만원 한도' 문구 삭제",
+      "source_url": "https://www.ftc.go.kr/www/selectBbsNttView.do?pageUnit=10&pageIndex=1&searchCnd=all&key=12&bordCd=3&searchCtgry=01,02&nttSn=48243",
+      "published_at": "2026-11-17",
+      "topics": [
+        "consumer",
+        "institution"
+      ]
+    },
+    {
+      "category": "press",
+      "category_label": "공정위 보도자료",
+      "headline": "보습크림 8종 품질 비교정보 제공",
+      "dept": "소비자안전교육과",
+      "summary": "한국소비자원, 보습크림 **8종** 보습력·사용감·안전성·가격 비교 결과 공개\n- 보습력은 라로슈포제·에스트라·이니스프리 **3개**, 수분 증발 감소도는 세타필·에스트라·이니스프리·일리윤·피지오겔 **5개**가 상대적 우수. 표피 이하 수분 증가도는 전 제품 양호\n- 중금속 **7종**·보존제 **6종** 안전성, 내용량·의무표시사항 전 제품 적합. 재활용 용이성 '우수' **4개**·'보통' **4개**\n- 단위(mL·g)당 가격 **66~456원**, 최대 **6.9배** 차 — 세타필 최저·라로슈포제 최고. 사용 만족도는 세타필 **4.0점** 최고\n- 결과는 '소비자24' 비교공감 코너에 게재 예정",
+      "source_url": "https://www.ftc.go.kr/www/selectBbsNttView.do?pageUnit=10&pageIndex=1&searchCnd=all&key=12&bordCd=3&searchCtgry=01,02&nttSn=48239",
+      "published_at": "2026-11-17",
+      "topics": [
+        "consumer"
+      ]
+    },
+    {
+      "category": "news",
+      "category_label": "뉴스 보도내용",
+      "headline": "공정위, 쿠팡·김범석 의장 '총수 지정자료 허위 제출' 고발 여부 심의 착수",
+      "summary": "사무처가 검찰 고발 의견을 담은 심사보고서 송부 — 전원회의가 고발 여부 결정.\n회사 경영에 참여한 동생을 지정자료에서 숨긴 혐의. 김 의장의 경영 관여 여부도 쟁점.",
+      "source_url": "https://mobile.newsis.com/view_amp.html?ar_id=NISX20261117_0003872169",
+      "published_at": "13시간 전",
+      "topics": [
+        "group",
+        "enforce"
+      ]
+    },
+    {
+      "category": "news",
+      "category_label": "뉴스 보도내용",
+      "headline": "LG유플러스, 5G 속도 과장광고 행정소송 패소 확정",
+      "summary": "통신 3사 **2023년** 5G 속도 과장광고 과징금 사건 중 처분이 확정된 건.\nSK텔레콤 **168억**은 대법원 상고심 심리 중, KT **139억**은 서울고법 처분 유지 뒤 상고.",
+      "source_url": "http://www.newslock.co.kr/news/articleView.html?idxno=140269",
+      "published_at": "19시간 전",
+      "topics": [
+        "consumer",
+        "enforce"
+      ]
+    }
+  ],
+  "generated_at": "2026-11-17T23:45:00.000Z"
+}
