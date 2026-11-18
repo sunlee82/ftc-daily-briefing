@@ -1,0 +1,720 @@
+{
+  "id": "2026-11-19",
+  "date": "2026-11-19",
+  "title": "공정거래위원회 일일동향 (초안 — 66건, 제목 다듬기 필요)",
+  "summary": "항목을 취사선택·순서조정한 뒤 저장하면 Claude Code가 제목/요약을 다듬어 배포합니다.",
+  "competitors": [
+    "공정거래위원회"
+  ],
+  "keywords": [
+    "공정위",
+    "과징금",
+    "현장조사",
+    "담합"
+  ],
+  "items": [
+    {
+      "category": "press",
+      "category_label": "공정위 보도자료",
+      "headline": "전자상거래법에 따른 국내대리인 지정 가이드라인 제정",
+      "dept": "소비자거래정책과",
+      "summary": "(PDF 원문 확인 필요 — 배포 전 Claude Code가 요약)",
+      "source_url": "https://www.ftc.go.kr/www/selectBbsNttView.do?pageUnit=10&pageIndex=1&searchCnd=all&key=12&bordCd=3&searchCtgry=01,02&nttSn=48246",
+      "published_at": "2026-11-18",
+      "pdfPath": null,
+      "pdfText": "- 1 -\n보도자료\n보도시점\n2026. 11. 18.(수) 12:00\n< 11. 19.(목) 조간 >\n/ 배포 2026. 11. 18.(수) 07:00\n공정위, ｢ 전자상거래법 국내대리인 지정\n가이드라인 ｣ 배포\n- 해외 전자상거래 사업자의 국내대리인 지정 · 운영 기준 구체화 …\n한국어 상담 등 소비자 응대 기준 제시 -\n공정거래위원회 (위원장 주병기, 이하 ‘ 공정위 ’) 는 2027 년 1 월 21 일부터 시행\n되는 ｢ 전자상거래 등에서의 소비자보호에 관한 법률 ｣ (이하 ‘ 전자상거래법 ’) 에\n따른 국내대리인 지정 제도의 원활한 시행 을 위해 「 전자상거래법 국내대리인\n지정 가이드라인 」 (이하 ‘ 가이드라인 ’) 을 마련하여 배포한다.\n그간 해외 통신판매업자 및 통신판매중개자 (이하 ' 해외사업자 ') 와 거래하는\n국내 소비자들은 언어 장벽과 미흡한 불만 · 분쟁 처리 등으로 어려움을 겪어\n왔다. 공정위가 2024 년 11 월 발표한 「 국내외 플랫폼 사업자의 소비자 보호\n의무 이행 점검 실태조사 」 에서도 국외 쇼핑몰은 국내 쇼핑몰에 비해 소비\n자 불만 처리 에 더 많은 시간이 소요되고, 소비자가 문제 제기 자체를 포기\n하는 비율도 높은 것\n*\n으로 나타났다.\n* (불만처리기간) 국내 쇼핑몰 평균 1.8 일, 국외 쇼핑몰 평균 2.6 일\n(소비자 문제제기 포기 비율) 국내 쇼핑몰 평균 13.8%, 국외 쇼핑몰 평균 29.2%\n이에 공정위는 해외사업자와 거래하는 국내 소비자 의 불만 · 분쟁 해결을\n지원 하고, 해외사업자에 대한 법 집행의 실효성 을 높이기 위해 일정 규모\n이상의 해외사업자의 경우 국내대리인을 지정하도록 전자상거래법 개정을\n추진하였고, 지난 2026 년 1 월 개정 법률이 공포되었다.\n이번 가이드라인은 해외사업자가 국내대리인 지정 대상 에 해당 하는지를\n스스로 판단 하고 관련 의무를 이행할 수 있도록 지정 요건과 방법을 구체화\n하는 한편, 국내대리인이 실질적인 소비자 보호 기능을 수행할 수 있도록\n업무 범위와 운영 기준 을 제시하기 위해 마련되었다.\n- 2 -\n< 가이드라인 주요 내용 >\n1. 국내대리인 지정 대상 및 판단 기준\n국내대리인 지정 의무는 국내에 주소 또는 영업소가 없는 해외사업자\n중에서 지정 대상 기준을 충족하는 사업자 에게 부과된다.\n지정 대상 기준 은 다음 세 가지 중 하나를 충족하는 경우에 해당한다.\n지정 대상 기준\n➊ 전년도 전체 매출액이 1 조 원 이상 인 경우\n➋ 전 년 도 말 기 준 직 전 3 개 월 간 월 평 균 사 이 버 몰 접 속 국 내 소 비 자 수 (M AU) 가 100 만 명 이상 인 경우\n➌ 전자상거래법을 위반하여 현저한 소비자 피해가 발생하였거나 발생할 우려 가 있어\n공정위로부터 보고 또는 자료 · 물건 제출 명령 등을 받은 경우\n이번 가이드라인은\n➊\n매출액 산정 시 전세계 매출액을 기준 으로 한다는 점과\n자회사 매출액도 포함 된다는 점,\n➋\n사이버몰 접속 국내 소비자 수 의 산정이\n실제 활동을 수행한 고유 이용자 수 를 기준으로 한다는 점,\n➌\n공정위로부터\n보고 또는 자료 · 물건 제출 명령 을 받은 경우 국내대리인을 지정하여야 하는\n현저한 소비자 피해 발생 여부의 판단기준\n*\n등을 제시하였다.\n*\n▲\n피해의 중대성,\n▲\n피해자의 수,\n▲\n피해의 반복 · 확산성,\n▲\n피해의 긴급 · 회복가능성\n2. 국내대리인 지정 방법\n해외사업자는 국내에 주소 또는 영업소 가 있는 개인이나 법인을 국내대리인으로\n서면 지정 하여야 한다. 다만, 해외사업자가 설립하거나 지배적인 영향력을\n행사하는 국내 법인이 있는 경우 에는 해당 법인 중에서 지정 하여야 한다.\n이번 가이드라인은 국내 법인의 설립 · 지배 여부 에 관한 판단 기준을 구체화\n*\n하고,\n하나의 해외사업자가 복수의 국내대리인을 지정하거나 하나의 국내대리인이\n복수의 해외사업자를 대리하는 것도 가능하다는 점을 안내하였다.\n* (설립) 해외사업자가 출자 · 발기에 참여\n(지배) 공정거래법 시행령 제 4 조 제 1 항 제 2 호 (대표이사의 임면 혹은 임원의 50% 이상 선임 등) 준용\n- 3 -\n3. 국내대리인의 역할 및 운영\n국내대리인은 해외사업자를 대신하여 소비자 불만 · 분쟁 해결, 공정위 자료\n제출 명령 등에 대한 협조 등의 업무를 수행하며, 이를 실효적으로 수행하기\n위해 정보 공개 와 유효한 연락체계 구축 의무 를 진다.\n이번 가이드라인은 국내대리인이 형식적인 연락 창구에 그치지 않고, 실질적으로\n소비자 불만 · 분쟁 해결 업무를 수행할 수 있도록 전화 및 전자우편 응대 방식 을\n구체화하였다.\n국내대리인 소비자 응대 방식 관련 가이드라인 주요내용\n➀ 다른 절차를 우선 밟거나 복잡한 인터페이스를 거치지 않고 소비자가 원하는 경우\n전화와 전자우편을 모두 이용하여 국내대리인에게 직접 연락할 수 있도록 할 것\n➁ 국내 영업시간 (9~18 시) 에 직원이 직접 전화에 응대하고, 한국어로 원활한 의사소통이\n가능하도록 할 것\n➂ 전자우편 문의에 대해서도 한국어로 처리상황 및 결과를 회신하고, 소비자 질의에\n성실하게 구체적으로 답변할 것\n특히, ARS, AI 챗봇, 온라인 문의 접수 등 다양한 상담방식 을 활용할 수\n있도록 하면서도, 소비자가 원하는 경우에는 전화와 전자우편 을 통해 직접\n연락 할 수 있도록 하였다.\n또한, 국내대리인이 해외사업자와 원활하게 소통할 수 있도록 유효한 연락\n수단을 확보 하였는지에 관한 판단 기준으로, 일반적인 소비자 문의 에 대해서는\n3 영업일 이내, 긴급한 소비자 피해 또는 공정위의 자료제출 요구 등 에 대해\n서는 24 시간 이내에 해외사업자로부터 적절한 회신을 받을 수 있는지 여부\n등을 제시하여 구체화하였다.\n< 제정 경과 및 기대 효과 >\n공정위는 이번 가이드라인 마련을 위해 국내 · 외 주요 협회 · 단체 5 곳\n*\n의\n의견을 수렴하고, 지난 10 월 28 일에는 이들 협회 · 단체 및 주요 해외사업자\n3 곳\n**\n이 참여하는 간담회를 개최 하여 가이드라인의 주요 내용과 의견 검토\n결과를 설명하였다.\n* 한국인터넷기업협회, 한국온라인쇼핑협회, 주한미국상공회의소, Asia Tech\nAlliance(ATA), Motion Picture Association Korea(MPA)\n** 알리바바, 테무, 오픈 AI\n- 4 -\n특히, 업계 의견을 반영하여 제도의 원활한 안착을 위해 국내대리인 제도\n시행 후 3 개월간 의 계도기간 을 운영할 예정이다. 다만, 계도기간은 법률상\n의무를 유예하는 것이 아니라 공정위가 직권조사 등 적극적인 법 집행을 유예\n하는 기간으로, 지정 의무 대상 사업자는 원칙적으로 법 시행일에 맞춰 국내\n대리인을 지정 하여야 한다.\n이번 가이드라인을 통해 국내대리인 지정 대상과 의무 이행에 관한 구체\n적인 기준을 제시함으로써 해외 사업자의 법령에 대한 이해 를 돕고, 제도\n시행에 따른 혼란을 최소화 하는데 기여할 것으로 기대된다.\n공정위는 “ 국내대리인 제도 시행으로 해외 통신판매업자 및 전자상거래\n플랫폼에 대한 실효적인 소통 창구 가 열리게 될 것으로 기대된다 ” 면서,\n“ 국내대리인 제도 가 잘 안착 될 수 있도록 모니터링하고, 필요한 제도 개선\n방안 도 지속적으로 검토할 계획 ” 이라고 밝혔다.\n< 별첨 > 전자상거래법 국내대리인 지정 가이드라인\n담당 부서\n소비자정책국\n소비자거래정책과\n책임자 과 장 김효식 (044-200-4445)\n담당자 사무관 박 찬 (044-200-4446)"
+    },
+    {
+      "category": "press",
+      "category_label": "공정위 보도자료",
+      "headline": "한신공영(주)의 자회사 행위제한규정 위반행위 제재",
+      "dept": "기업집단관리과",
+      "summary": "(PDF 원문 확인 필요 — 배포 전 Claude Code가 요약)",
+      "source_url": "https://www.ftc.go.kr/www/selectBbsNttView.do?pageUnit=10&pageIndex=1&searchCnd=all&key=12&bordCd=3&searchCtgry=01,02&nttSn=48245",
+      "published_at": "2026-11-18",
+      "pdfPath": null,
+      "pdfText": "- 1 -\n보도자료\n보도시점 2026. 11. 18.(수) 12:00\n< 11. 19.(목) 조간 >\n/ 배포 2026. 11. 18.(수) 07:00\n한신공영 (주) 의 자회사 행위제한규정\n위반행위 제재\n- 일반지주회사 자회사의 손자회사 주식 소유행위에 시정명령 부과 -\n공정거래위원회 (위원장 주병기, 이하 ‘ 공정위 ’) 는 한신공영 ㈜ 가 「 독점규제 및\n공정거래에 관한 법률 」 (이하 ‘ 공정거래법 ’) 상 자회사 행위제한규정 을 위반한\n행위에 대해 시정명령 을 부과 하기로 결정하였다.\n공정거래법 (제 18 조 제 3 항 제 3 호) 은 일반지주회사의 자회사가 금융 · 보험업을\n영위하는 회사를 손자회사\n*\n로 지배하지 못하도록 규정\n**\n함으로써 산업자본의\n금융자본 소유로 인한 경제력집중을 억제 하고 공정한 시장 경쟁을 촉진 하도록\n하고 있다.\n* 공정거래법상 자회사의 계열회사이면서 자회사가 소유하는 주식수가 동일인 또는 동일인관련자\n중 최다출자자가 소유하는 주식수와 같거나 많은 국내회사\n* * 다만, 공정거래법상 일반지주회사의 자회사가 될 당시에 금융 · 보험업을 영위하는 회사를 손자\n회사로 지배하고 있는 경우, 자회사에 해당하게 된 날부터 2 년간 그 손자회사를 지배 가능\n한신공영 ㈜ 는 일반지주회사인 코암시앤시개발 ㈜ 의 자회사로서 금융업을 영위\n하는 부산드림제일차 ㈜\n*\n주식 1,000 주 (지분 100%) 및 뉴스타드림제삼차 ㈜\n*\n주식\n12 주 (지분 100%) 를 각각 약 1 년 1 개월 (2024. 2. 29. ~ 2025. 3. 27.) 및 약 4 개월\n(2024. 11. 12. ~ 2025. 3. 10.) 간 소유 하여 자회사 행위제한규정 을 위반 하였다.\n* 아파트 신축공사 사업의 자금 조달을 위해 대출채권의 유동화를 목적으로 설립된 특수목적법인 (SPC)\n공정위는 한신공영 ㈜ 가 공정거래법 위반을 인지한 즉시 부산드림제일차 ㈜ 와\n뉴스타드림제삼차 ㈜ 의 주식을 매각하였으나, 향후 이 사건 행위와 동일하거나\n유사한 행위를 반복할 우려를 해소하기 위하여 시정명령 (행위금지명령) 을 부과\n하기로 결정하였다.\n- 2 -\n이번 조치는 단순 · 투명 하고 건전한 소유지배구조 형성 이라는 공정거래법상\n지주회사 제도의 취지 를 훼손 한 행위제한규정 위반 을 적발 · 제재 함으로써 지주\n회사의 법규 준수에 대한 책임성 및 경각심을 높였다 는 점에서 의의가 있다.\n공정위는 앞으로도 지주회사 제도가 원활하게 작동 될 수 있도록 지주회사\n등의 법 위반행위를 면밀히 감시 하고 적발 시 엄중히 제재 할 계획이다.\n< 붙임 > 한신공영 ㈜ 의 자회사 행위제한규정 위반 건 세부내용\n담당 부서\n기업집단감시국\n기업집단관리과\n책임자 과 장 음잔디 (044-200-4842)\n담당자 조사관 박지훈 (044-200-4858)\n- 3 -\n붙임 한신공영 (주) 의 자회사 행위제한규정 위반 건 세부내용\n1 한신공영 (주) 등 일반현황\n□ (지주회사) 코암시앤시개발 (주) 일반현황\n구분 `11.12.31. … `21.12.31. `22.12.31. `23.12.31. `24.12.31. `25.12.31.\n자산총액 (A) 118,717 259,090 280,095 297,957 303,924 320,943\n자회사\n주식가액 (B)\n111,465 246,710 268,119 280,921 284,380 307,523\n지주비율 (B/A) 93.9 95.22 95.72 94.28 93.57 95.82\n(단위: 백만 원, %)\n□ (자회사) 한신공영 (주) 일반현황\n설립일 영위업종 자산총액 부채총액 자본총액 매출액 당기순이익\n1950. 3. 5. 종합 건설업 1,930,089 1,101,044 829,045 1,113,570 34,268\n(2025. 12. 31. 기준, 단위: 백만 원)\n□ 코암시앤시개발 (주) 의 자 · 손자회사 현황\n(2024. 12. 31. 기준)\n- 4 -\n2 법 위반 내용\n□ 일반지주회사인 코암시앤시개발 ㈜ 의 자회사인 한신공영 ㈜ 는 금융업을\n영위하는 회사인 부산드림제일차 ㈜\n*\n주식 1,000 주 (지분 100%) 및 뉴스타\n드림제삼차 ㈜\n*\n주식 12 주 (지분 100%) 를 소유 하여 자회사 행위제한규정 을\n위반 하였다.\n* 한국표준산업분류 상 ‘ 금융 및 보험업 ’ 중 ‘ 그 외 기타 금융업 (K64999)’ 을 영위하는\n국내회사에 해당함\nㅇ 한신공영 ㈜ 가 부산드림제일차 ㈜ 및 뉴스타드림제삼차 ㈜ 의 주식을 보유한\n법 위반행위는 각각 약 1 년 1 개월, 약 4 개월 간 지속되었다.\n3 적용법조 및 조치 내용\n□ (적용법조) 공정거래법 제 18 조 제 3 항 제 3 호\n□ (조치내용) 시정명령 (행위금지명령)\n제 18 조 (지주회사 등의 행위제한 등)\n③ 일반지주회사의 자회사는 다음 각 호의 어느 하나에 해당하는 행위를 하여서는 아니된다.\n1. ∼ 2. (생략)\n3. 금융업이나 보험업을 영위하는 회사를 손자회사로 지배하는 행위. 다만, 일반지주회사의\n자회사가 될 당시에 금융업이나 보험업을 영위하는 회사를 손자회사로 지배하고 있는 경우\n에는 자회사에 해당하게 된 날부터 2 년간 그 손자회사를 지배할 수 있다.\n- 5 -\n참고 공정거래법상 지주회사 요건 및 행위제한규정\n□ 지주회사 요건\nㅇ (자산총액 기준) 자산총액이 5,000 억 원 (’ 17. 7. 1. 이전 1,000 억 원\n*\n) 이상이고,\n* 다만, ‘ 17. 7. 1. 전 에 지 주 회 사 를 설 립 하 거 나 지 주 회 사 로 전 환 한 자 산 총 액 1,000 억 원 이 상 5,000 억 원\n미만인 회사 (이하 “ 기존 지주회사 ”) 의 경우 ‘27. 6. 30. 까지 지주회사 지위를 유지할 수 있 으며,\n기존 지주회사가 지주회사 제외신고를 하는 경우 신고한 날로부터 공정거래법상 지주회사\n에서 제외됨\nㅇ (지주비율 기준) 지주회사가 소유하는 자회사 주식가액의 합계액이 당해\n지주회사 자산총액에서 차지하는 비율이 50% 이상인 회사\n□ 지주회사 및 그 자회사 등의 행위제한규정\n규제대상 규제 내용 現 공정거래법 조항\n지주\n지주회사의 부채비율을 200% 이하로 유지 제 18 조 제 2 항 제 1 호\n비계열사의 주식 5% 초과 보유 금지 (비계열주식가액\n합계액이 자회사 주식가액 합계액의 15% 미만인 경우\n미적용)\n제 18 조 제 2 항 제 3 호\n일반지주회사의 금융 ․ 보험회사 주식소유 금지\n금융지주회사의 금융 ․ 보험 外 회사 주식소유 금지\n제 18 조 제 2 항 제 4 호\n제 18 조 제 2 항 제 5 호\n공통\n(지주 ․ 자\n․ 손자)\n자기가 지배하는 회사 外 계열회사 주식소유 금지\n(수직적 출자구조 유지의무)\n제 18 조 제 2 항 제 3 호\n제 18 조 제 3 항 제 2 호\n제 18 조 제 4 항\n지분율 규제 (상장 등 30%, 비상장 50% 이상)\n제 18 조 제 2 항 제 2 호\n제 18 조 제 3 항 제 1 호\n지주회사 체제 내 금융 ‧ 보험회사 지배 금지\n제 18 조 제 3 항 제 3 호\n제 18 조 제 4 항 제 4 호\n손자 증손회사 (지분율 100%) 外 계열회사 주식소유 금지 제 18 조 제 4 항\n증손 계열회사 주식소유 금지 제 18 조 제 5 항"
+    },
+    {
+      "category": "press",
+      "category_label": "공정위 보도자료",
+      "headline": "최근 3개월간 대규모기업집단 소속회사 변동 현황",
+      "dept": "기업집단관리과",
+      "summary": "(PDF 원문 확인 필요 — 배포 전 Claude Code가 요약)",
+      "source_url": "https://www.ftc.go.kr/www/selectBbsNttView.do?pageUnit=10&pageIndex=1&searchCnd=all&key=12&bordCd=3&searchCtgry=01,02&nttSn=48244",
+      "published_at": "2026-11-18",
+      "pdfPath": null,
+      "pdfText": "보도참고자료\n보도시점 2026. 11. 18.(수) 10:00 / 배포 2026. 11. 18.(수) 07:00\n최근 3 개월간 대규모기업집단 소속회사 변동 현황\n- 미래 성장동력 확보 위한 지분 인수 활발, 유사 법인 합병 통한 경영 효율화 다수 -\n공정거래위원회 (위원장 주병기, 이하 ‘ 공정위 ’) 는 최근 3 개월간 (’26.8 월 ~’26.10 월)\n발생한 대규모기업집단 (자산 5 조 원 이상 공시대상기업집단) 의 소속회사 변동\n현황을 공개하였다.\n102 개 대규모기업집단 의 소속회사 는 ’26.8.3. 3,534 개 사 에서 ’26.11.2. 3,529 개 사 로\n5 개 사 가 감소 하였다 (해당 기간 소속회사 변동이 있었던 대규모기업집단은 47 개).\n<’26.8 월 ~ ’26.10 월 기간 중 소속회사 수 변동 현황 >\n2026.8.3.\n편 입 제 외\n증감 2026.11.2.\n회사\n설립\n지분\n취득\n기타\n1)\n계\n흡수\n합병\n지분\n매각\n청산\n종결\n기타\n2)\n계\n3,534 34 18 8 60 16 15 15 19 65 △ 5 3,529\n1) 모회사 편입에 따른 자회사의 동반 편입, 소속회사 임원 취임에 따른 지배회사 편입 등\n2) 친족 · 임원 독립경영 인정에 따른 제외, 소속회사 임원 사임에 따른 지배회사 제외 등\n회사설립 (신규 29 개 사, 분할 5 개 사), 지분취득 (18 개 사) 등으로 34 개 집단 에서\n60 개 사 가 계열 편입 되었고, 흡수합병 (16 개 사), 지분매각 (15 개 사), 청산 종결\n(15 개 사) 등으로 28 개 집단 에서 65 개 사 가 계열 제외 되었다.\n신규 편입된 회사가 많은 집단은 ｢ 한화 ｣ (6 개 사), ｢ 코오롱 ｣ (4 개 사), ｢ 신세계 ｣\n및 ｢ 에스케이 ｣ (3 개 사) 순이며, 계열 제외된 회사가 많은 집단은 ｢ 에스케이 ｣\n(11 개 사), ｢ 카카오 ｣ (8 개 사), ｢ 씨제이 ｣ (5 개 사) 순이다.\n이번 소속회사 변동 에는 다음과 같은 세 가지 특징 이 나타났다.\n첫째, AI· 데이터 및 디지털 금융 등 미래 성장동력 을 확보하기 위한\n계 열 편입 움직임이 있었다.\n｢ 신세계 ｣ 는 AI 데이터센터 구축 사업 을 위해 ㈜ 에스에스지에이아이코리 아 와\n㈜ 에스에스지디씨 를 계열 편입하였고, ｢ 미래에셋 ｣ 은 디지털 자산 시장 으로\n진출하기 위해 가상자산 거래소 ‘ 디지털엑스 ’ 의 운영사인 디지털엑스 ㈜ 와\n트래블룰\n*\n솔루션 기업인 ㈜ 코드 를 계열 편입 하였다.\n* 가상자산 사업자로 하여금 가상자산 송금 시 사용자의 신원을 확인하도록 하는 제도\n둘째, 소규모 · 유사 기능 법인 들을 통합 하여 경영 및 의사결정 구조 를\n효 율화 하기 위한 계열 제외 가 나타났다.\n｢ 에스케이 ｣ 는 운영 효율화 를 위해 복지 관련 법인인 행복나무 ㈜ 등 5 개사 를\n행복모아 ㈜ 와 행복한울 ㈜ 로 각각 흡수합병\n*\n하였다. 또한, ｢ 씨제이 ｣ 는 방송 프 로\n그램 제작 기업인 ㈜ 넥스트씬 과 ㈜ 제이에스픽쳐스 를 각각 동종 업종 계열 사 인\n스튜디오드래곤 ㈜ 와 ㈜ 화앤담픽쳐스 로 흡수 합병 함으로써 경영 효율성 을\n증대하고자 하였다.\n* ① 행복나무 ㈜, 행복디딤 ㈜, 행복모음 ㈜, 행복믿음 ㈜ → 행복키움 ㈜ 로 흡수합병\n② 행복믿음 ㈜ → 행복한울 ㈜ 로 흡수합병\n마지막으로, 부동산 개발 및 투자 관련 회사 에 대한 계열 편입 과 계열\n제외 가 지속적으로 나타나고 있다.\n｢ 한화 ｣ 는 와이씨케이피에프브이 ㈜ 등 4 개 사, ｢ 케이티 ｣ 는 케이리얼티 9 호일반\n사모부동산투자회사전문 등 2 개 사 의 부동산 개발 및 공급업체를 신규 계열\n편입 하였다.\n반면, ｢ 지에스 ｣ 는 지앤엠에스테이트 ㈜ 등 2 개 사 를, ｢ 롯데 ｣ 는 롯데울산\n개발 ㈜ 를 청산 종결 하여 부동산 개발 회사를 계열 제외 하였다.\n※ [붙임] 1. ’ 26 년 8 월 ~ ’ 26 년 10 월 중 대규모기업집단 소속회사 변동내역\n2. 기업집단별 소속회사 현황\n담당 부서\n기업집단감시국\n기업집단관리과\n책임자 과 장 음잔디 (044-200-4842)\n담당자 사무관 송지원 (044-200-4843)"
+    },
+    {
+      "category": "press",
+      "category_label": "공정위 보도자료",
+      "headline": "[설명] 한국경제(11.18.) 영장없이 기업 강제조사하겠다는 공정위 등 기사관련",
+      "dept": "조사총괄담당관",
+      "summary": "(PDF 원문 확인 필요 — 배포 전 Claude Code가 요약)",
+      "source_url": "https://www.ftc.go.kr/www/selectBbsNttView.do?pageUnit=10&pageIndex=1&searchCnd=all&key=13&bordCd=3&searchCtgry=03&nttSn=48252",
+      "published_at": "2026-11-18",
+      "pdfPath": null,
+      "pdfText": "보도설명자료\n보도시점 수신 즉시 보도 가능 배포 2026. 11. 18.(수)\n공정위는 조사의 실효성을 제고하기 위해\n조사불응시 경제적 제재 강화를 추진하고 있을 뿐,\n이를 영장 없는 강제조사로 볼 수는 없습니다.\n< 보도 내용 >\n□ 2026.11.18. 한국경제 ｢ ‘ 영장없이 기업 강제조사 ’ 하겠다는 공정위 ｣,\n｢ 과징금 무기로 사실상 강제수사... 기업 ‘ 방어권 침해 ’ 논란 ｣ 보도 관련\n입니다.\nㅇ 위 보도는 “ 공정위가 조사를 거부하는 기업의 매출 1% 를 과징금으로\n부과하는 방안을 추진 중으로, 공정위가 영장도 없이 강제적 행정조사에\n나 서는 것은 헌법상 ‘ 영장주의 원칙 ’ 에 위배된다 ”, “ 공정위 조사가 자의적\n이고 조사 범위가 한정되지 않는다 ” 는 등의 내용을 포함하고 있습니다.\n< 공정거래위원회 입장 >\n□ 공정거래위원회 조사는 피조사기업의 동의와 협조를 전제로 하는 행정\n조사로서 영장에 의한 강제조사와 구별됩니다. 행정조사는 기업의 무\n조건적인 동의와 협조를 요하는 것이 아닙니다. 기업이 정당한 사유가\n있는 경우 언제나 법원을 통한 방어권 행사가 보장됩니다.\n□ 공정위는 조사의 실효성을 제고하기 위해 조사불응에 대한 경제적 제재\n강 화를 추진하고 있으며, 강제조사 권한의 도입을 추진하고 있지 않습니다.\n- 2 -\nㅇ 현 공정거래법상 조사거부에 대한 제재 수준은 벌금 최대 2 억원, 과태료\n최대 1 억원으로 법 위반시 부과될 과징금 규모대비 매우 낮고, 심지어\n공정거래법 외 7 개 법령\n*\n은 형벌 없이 과태료 (최대 5 천만원 ~2 억원) 만 규정\n되어, 기업들이 조사를 거부할 경우 실질적인 대응수단이 부족한 실정입니다.\n* 대규모유통업법, 대리점법, 하도급법, 가맹사업법, 방문판매법, 표시광고법, 할부거래법\nㅇ 이러한 법령을 통해 경제적 약자의 권익을 보호하기 위해서는 조사를\n거부하는 사업자에 대한 현재의 턱없이 낮은 제재 수준을 높여야 합\n니다.\n□ 경쟁당국의 조사에 불응하는 경우 매출액의 최대 1% 과징금을 부과하는\n방안은 이미 EU, 영국 등 해외 경쟁당국에서 도입하여 시행하고 있는\n제도로, 오히려 경제발전 단계에 부합하는 글로벌 스탠다드로 정상화\n하는 것입니다.\n□ 공정위는 적법한 절차에 따라 조사를 진행하고 있으며, 조사 과정에서\n피조사기업들의 권익을 최대한 보호하고 있습니다.\nㅇ 공정위는 현장조사시 조사목적, 기간, 대상, 방법 및 조사대상 거래분야,\n행위유형 등이 명시된 서면을 피조사인에게 교부하고 있으며, 해당 범위\n를 벗어난 조사에 대해서는 이를 거부할 수 있다는 사실 역시 고지하고\n있습니다.\n□ 따라서, 공정위가 과징금을 무기로 사실상 강제조사를 추진하고 있다는\n주장은 사실과 다르므로 공정위의 법 집행의 신뢰성이 훼손되지 않도록\n보도에 유의하여 주시기 바랍니다.\n담당 부서 조사총괄담당관\n책임자 과 장 문종숙 (044-200-4594)\n담당자 사무관 민경언 (044-200-4595)"
+    },
+    {
+      "category": "committee",
+      "category_label": "위원회 소식",
+      "headline": "2026-11-19 위원회 소식",
+      "summary": "(PDF 원문 확인 필요 — 배포 전 Claude Code가 요약)",
+      "source_url": "https://www.ftc.go.kr/www/selectBbsNttView.do?pageUnit=10&pageIndex=1&searchCnd=all&key=15&bordCd=5&nttSn=48251",
+      "published_at": "2026-11-18",
+      "pdfPath": "tool/pending/today-pdfs/2026-11-18_2026-11-19_위원회_소식.pdf",
+      "pdfText": "- 1 -\n위원회소식 공정거래위원회 회보 2026-202 (2026. 11. 19. 목)\n【주요일정】\n□ 위 원 장 □ 부위원장\n11:20 정무위 전체회의 (국회) 11:20 정무위 전체회의 (국회)\n자료 제공 및 회보 게재 문의: 운영지원과\n◆ 목 표: 독과점 구조개혁과 공정성장 기반 조성\n◆ 과 제: 민생분야 공정거래질서 확립, 경제주체 간 힘의 불균형 완화, 디지털 시장 혁신 생태계 조성,\n대기업집단 경제력 집중 완화"
+    },
+    {
+      "category": "news",
+      "category_label": "뉴스 보도내용",
+      "competitor": "공정거래위원회",
+      "keyword": "과징금",
+      "headline": "[쿠팡 사태 1년] 이용자 수 회복했지만… 9000억대 과징금에 규제 부담 후폭풍",
+      "summary": "(요약 없음 — 원문 확인 필요)",
+      "source_url": "https://www.ajunews.com/view/20261118105635637",
+      "published_at": "16분 전"
+    },
+    {
+      "category": "news",
+      "category_label": "뉴스 보도내용",
+      "competitor": "SK하이닉스",
+      "keyword": "공정거래위원회",
+      "headline": "더불어민주당 품격민생위·을지로위, 반도체 건설공사 대금지급기한 단축 상생협약식 개최",
+      "summary": "(요약 없음 — 원문 확인 필요)",
+      "source_url": "http://www.seoulilbo.com/news/articleViewAmp.html?idxno=866026",
+      "published_at": "1시간 전"
+    },
+    {
+      "category": "news",
+      "category_label": "뉴스 보도내용",
+      "competitor": "공정거래위원회",
+      "keyword": "현장조사",
+      "headline": "공정위, 굽네치킨 ‘2세 일감 몰아주기’ 의혹 조사",
+      "summary": "(요약 없음 — 원문 확인 필요)",
+      "source_url": "https://weekly.donga.com/List/article/all/11/6464023/1",
+      "published_at": "2시간 전"
+    },
+    {
+      "category": "news",
+      "category_label": "뉴스 보도내용",
+      "competitor": "공정거래위원회",
+      "keyword": "현장조사",
+      "headline": "[단독] 공정위, 투썸플레이스 조사 착수… ‘시중가 최대 4배’ 물품·장비 강매 의혹",
+      "summary": "(요약 없음 — 원문 확인 필요)",
+      "source_url": "https://biz.chosun.com/distribution/food/2026/11/19/S36AHAH6EBH2FAJ2VY6RSPMCQE/?outputType=amp",
+      "published_at": "2시간 전"
+    },
+    {
+      "category": "news",
+      "category_label": "뉴스 보도내용",
+      "competitor": "SK하이닉스",
+      "keyword": "공정거래위원회",
+      "headline": "공정위, 굽네치킨 ‘2세 일감 몰아주기’ 의혹 조사",
+      "summary": "(요약 없음 — 원문 확인 필요)",
+      "source_url": "https://weekly.donga.com/List/Series/article/all/11/6464023/1",
+      "published_at": "2시간 전"
+    },
+    {
+      "category": "news",
+      "category_label": "뉴스 보도내용",
+      "competitor": "SK 계열사",
+      "keyword": "공정거래위원회",
+      "headline": "한화, 코오롱, 신세계, SK, “최근 신규 계열사 급증”",
+      "summary": "(요약 없음 — 원문 확인 필요)",
+      "source_url": "http://www.apple-economy.com/news/articleView.html?idxno=80570",
+      "published_at": "9시간 전"
+    },
+    {
+      "category": "news",
+      "category_label": "뉴스 보도내용",
+      "competitor": "공정거래위원회",
+      "keyword": "과징금",
+      "headline": "[사설]눈덩이 과징금, 산정기준 명확해야 - 머니투데이",
+      "summary": "(요약 없음 — 원문 확인 필요)",
+      "source_url": "https://www.mt.co.kr/opinion/2026/11/17/2026111616162623591",
+      "published_at": "12시간 전"
+    },
+    {
+      "category": "news",
+      "category_label": "뉴스 보도내용",
+      "competitor": "공정거래위원회",
+      "keyword": "과징금",
+      "headline": "[설명] 한국경제(11.18.) 영장없이 기업 강제조사하겠다는 공정위 등 기사관련",
+      "summary": "(요약 없음 — 원문 확인 필요)",
+      "source_url": "https://www.korea.kr/briefing/actuallyView.do?newsId=148976030&pWise=sub&pWiseSub=C3",
+      "published_at": "12시간 전"
+    },
+    {
+      "category": "news",
+      "category_label": "뉴스 보도내용",
+      "competitor": "공정거래위원회",
+      "keyword": "현장조사",
+      "headline": "[설명] 한국경제(11.18.) 영장없이 기업 강제조사하겠다는 공정위 등 기사관련",
+      "summary": "(요약 없음 — 원문 확인 필요)",
+      "source_url": "https://www.korea.kr/briefing/actuallyView.do?newsId=148976030&pWise=sub&pWiseSub=C1",
+      "published_at": "14시간 전"
+    },
+    {
+      "category": "news",
+      "category_label": "뉴스 보도내용",
+      "competitor": "공정거래위원회",
+      "keyword": "현장조사",
+      "headline": "[인사] 공정거래위원회",
+      "summary": "(요약 없음 — 원문 확인 필요)",
+      "source_url": "https://www.e2news.com/news/articleView.html?idxno=336254",
+      "published_at": "14시간 전"
+    },
+    {
+      "category": "news",
+      "category_label": "뉴스 보도내용",
+      "competitor": "SK그룹",
+      "keyword": "공정거래위원회",
+      "headline": "HD현대오일뱅크·SK에너지 가격담합 의혹…경영진은 몰랐나",
+      "summary": "(요약 없음 — 원문 확인 필요)",
+      "source_url": "http://www.urinews.co.kr/92617",
+      "published_at": "14시간 전"
+    },
+    {
+      "category": "news",
+      "category_label": "뉴스 보도내용",
+      "competitor": "SK하이닉스",
+      "keyword": "공정거래위원회",
+      "headline": "더불어민주당 품격민생위·을지로위, 반도체 건설공사 대금지급기한 단축 상생협약식 개최",
+      "summary": "(요약 없음 — 원문 확인 필요)",
+      "source_url": "http://m.ibnews.or.kr/135464",
+      "published_at": "14시간 전"
+    },
+    {
+      "category": "news",
+      "category_label": "뉴스 보도내용",
+      "competitor": "SK하이닉스",
+      "keyword": "공정거래위원회",
+      "headline": "윤 회장 “설계 변경 조속 이행해야”···민병덕 의원 “논의 확대할 것”",
+      "summary": "(요약 없음 — 원문 확인 필요)",
+      "source_url": "https://www.koscaj.com/news/articleViewAmp.html?idxno=327520",
+      "published_at": "14시간 전"
+    },
+    {
+      "category": "news",
+      "category_label": "뉴스 보도내용",
+      "competitor": "SK에너지",
+      "keyword": "공정거래위원회",
+      "headline": "[인사] 공정거래위원회",
+      "summary": "(요약 없음 — 원문 확인 필요)",
+      "source_url": "http://www.e2news.com/news/articleView.html?idxno=336254",
+      "published_at": "14시간 전"
+    },
+    {
+      "category": "news",
+      "category_label": "뉴스 보도내용",
+      "competitor": "공정거래위원회",
+      "keyword": "과징금",
+      "headline": "허창수 GS 명예회장, 계열사 3년간 누락에도 '경고'만…누락된 회사는 GS 계열사 시절 6년간 담합",
+      "summary": "(요약 없음 — 원문 확인 필요)",
+      "source_url": "https://newsfield.net/%ED%97%88%EC%B0%BD%EC%88%98-gs-%EB%AA%85%EC%98%88%ED%9A%8C%EC%9E%A5-%EA%B3%84%EC%97%B4%EC%82%AC-3%EB%85%84%EA%B0%84-%EB%88%84%EB%9D%BD%EC%97%90%EB%8F%84-%EA%B2%BD%EA%B3%A0%EB%A7%8C/",
+      "published_at": "16시간 전"
+    },
+    {
+      "category": "news",
+      "category_label": "뉴스 보도내용",
+      "competitor": "공정거래위원회",
+      "keyword": "현장조사",
+      "headline": "공정거래위원회, 전자상거래법에 따른 국내대리인 지정 가이드라인 제정",
+      "summary": "(요약 없음 — 원문 확인 필요)",
+      "source_url": "http://www.koreasisailbo.com/2472694",
+      "published_at": "16시간 전"
+    },
+    {
+      "category": "news",
+      "category_label": "뉴스 보도내용",
+      "competitor": "공정거래위원회",
+      "keyword": "현장조사",
+      "headline": "김정현號 우진산전, 담합 후폭풍에 발목…소송·부채 부담 확대",
+      "summary": "(요약 없음 — 원문 확인 필요)",
+      "source_url": "https://www.1conomynews.co.kr/news/articleView.html?idxno=51366",
+      "published_at": "16시간 전"
+    },
+    {
+      "category": "news",
+      "category_label": "뉴스 보도내용",
+      "competitor": "SK그룹",
+      "keyword": "공정거래위원회",
+      "headline": "공정거래위원회, 전자상거래법에 따른 국내대리인 지정 가이드라인 제정",
+      "summary": "(요약 없음 — 원문 확인 필요)",
+      "source_url": "https://www.climatepol.com/news/articleView.html?idxno=36101",
+      "published_at": "16시간 전"
+    },
+    {
+      "category": "news",
+      "category_label": "뉴스 보도내용",
+      "competitor": "SK에너지",
+      "keyword": "공정거래위원회",
+      "headline": "사후정산 폐지 약속 7개월…정유사 \"최고가격제 끝나야 시행\"",
+      "summary": "(요약 없음 — 원문 확인 필요)",
+      "source_url": "http://www.inews24.com/view/2027703",
+      "published_at": "16시간 전"
+    },
+    {
+      "category": "news",
+      "category_label": "뉴스 보도내용",
+      "competitor": "SK에너지",
+      "keyword": "공정거래위원회",
+      "headline": "정기선 회장 '위험 신호' 강조했지만…HD현대오일뱅크 담합 의혹에 내부통제 도마",
+      "summary": "(요약 없음 — 원문 확인 필요)",
+      "source_url": "https://www.ppss.kr/news/articleView.html?idxno=321753",
+      "published_at": "16시간 전"
+    },
+    {
+      "category": "news",
+      "category_label": "뉴스 보도내용",
+      "competitor": "SK 계열사",
+      "keyword": "공정거래위원회",
+      "headline": "대기업 계열사 3개월 새 5곳 감소…신세계·미래에셋은 AI·가상자산 투자 확대",
+      "summary": "(요약 없음 — 원문 확인 필요)",
+      "source_url": "https://www.newsian.co.kr/news/articleView.html?idxno=101516",
+      "published_at": "17시간 전"
+    },
+    {
+      "category": "news",
+      "category_label": "뉴스 보도내용",
+      "competitor": "SK에코플랜트",
+      "keyword": "공정거래위원회",
+      "headline": "民품격민생위·을지로위, 반도체 대금지급기한 단축 상생협약식 개최",
+      "summary": "(요약 없음 — 원문 확인 필요)",
+      "source_url": "https://www.globalnewsagency.kr/news/articleView.html?idxno=505591",
+      "published_at": "17시간 전"
+    },
+    {
+      "category": "news",
+      "category_label": "뉴스 보도내용",
+      "competitor": "공정거래위원회",
+      "keyword": "과징금",
+      "headline": "3000억 과징금 이어 형사고발...공정위, 이번엔 '총수 지정' 문제로 쿠팡 조준 - 머니투데이",
+      "summary": "(요약 없음 — 원문 확인 필요)",
+      "source_url": "https://www.mt.co.kr/amp/living/2026/11/18/2026111814452544829",
+      "published_at": "18시간 전"
+    },
+    {
+      "category": "news",
+      "category_label": "뉴스 보도내용",
+      "competitor": "공정거래위원회",
+      "keyword": "현장조사",
+      "headline": "공정위, 쿠팡·김범석 고발 심의…동생 경영 참여 쟁점",
+      "summary": "(요약 없음 — 원문 확인 필요)",
+      "source_url": "https://www.newspim.com/news/view/20261118000957",
+      "published_at": "18시간 전"
+    },
+    {
+      "category": "news",
+      "category_label": "뉴스 보도내용",
+      "competitor": "SK텔레콤",
+      "keyword": "공정거래위원회",
+      "headline": "[단독] 삼양식품 “‘탱글’ 안사면 ‘불닭’ 줄인다”…해외 유통사에 ‘끼워팔기’, 공정위 신고",
+      "summary": "(요약 없음 — 원문 확인 필요)",
+      "source_url": "https://www.sentv.co.kr/article/view/sentv202611180028?d=pc",
+      "published_at": "18시간 전"
+    },
+    {
+      "category": "news",
+      "category_label": "뉴스 보도내용",
+      "competitor": "SK그룹",
+      "keyword": "공정거래위원회",
+      "headline": "건설자금 조달용 SPC도 금융업 규제 대상..한신공영, 지주회사법 위반",
+      "summary": "(요약 없음 — 원문 확인 필요)",
+      "source_url": "https://kpenews.com/View.aspx?No=4318496",
+      "published_at": "18시간 전"
+    },
+    {
+      "category": "news",
+      "category_label": "뉴스 보도내용",
+      "competitor": "SK하이닉스",
+      "keyword": "공정거래위원회",
+      "headline": "민주당, 반도체 공사대금 '지급기한 단축' 상생협약…\"호황의 온기가 현장까지\"",
+      "summary": "(요약 없음 — 원문 확인 필요)",
+      "source_url": "https://www.metroseoul.co.kr/article/20261118500296",
+      "published_at": "18시간 전"
+    },
+    {
+      "category": "news",
+      "category_label": "뉴스 보도내용",
+      "competitor": "SK온",
+      "keyword": "공정거래위원회",
+      "headline": "[특징주] 미투온, 카카오게임즈 품 안긴다…공정위 기업결합심사 통과에 11%대 급등",
+      "summary": "(요약 없음 — 원문 확인 필요)",
+      "source_url": "https://www.widedaily.com/news/articleView.html?idxno=304066",
+      "published_at": "18시간 전"
+    },
+    {
+      "category": "news",
+      "category_label": "뉴스 보도내용",
+      "competitor": "공정거래위원회",
+      "keyword": "과징금",
+      "headline": "방문판매법 위반 신고포상금 1000만원 상한 '폐지'",
+      "summary": "(요약 없음 — 원문 확인 필요)",
+      "source_url": "https://www.safetimes.co.kr/news/articleViewAmp.html?idxno=247628",
+      "published_at": "19시간 전"
+    },
+    {
+      "category": "news",
+      "category_label": "뉴스 보도내용",
+      "competitor": "SK그룹",
+      "keyword": "공정거래위원회",
+      "headline": "SK 3개월 새 11곳 계열 제외…복지법인 5곳 합쳤다",
+      "summary": "(요약 없음 — 원문 확인 필요)",
+      "source_url": "https://www.jabon.co.kr/news/articleView.html?idxno=8880",
+      "published_at": "19시간 전"
+    },
+    {
+      "category": "news",
+      "category_label": "뉴스 보도내용",
+      "competitor": "SK㈜",
+      "keyword": "공정거래위원회",
+      "headline": "대기업, AI·디지털 금융 투자 확대…계열사 통폐합도 속도",
+      "summary": "(요약 없음 — 원문 확인 필요)",
+      "source_url": "https://m.ddaily.co.kr/page/view/2026111810445760309",
+      "published_at": "19시간 전"
+    },
+    {
+      "category": "news",
+      "category_label": "뉴스 보도내용",
+      "competitor": "SK하이닉스",
+      "keyword": "공정거래위원회",
+      "headline": "이용선 의원, 반도체 건설 ‘10일 내 현금 결제’ 상생협약 이끈다",
+      "summary": "(요약 없음 — 원문 확인 필요)",
+      "source_url": "https://www.globalnewsagency.kr/news/articleView.html?idxno=505534",
+      "published_at": "19시간 전"
+    },
+    {
+      "category": "news",
+      "category_label": "뉴스 보도내용",
+      "competitor": "SK하이닉스",
+      "keyword": "공정거래위원회",
+      "headline": "반도체 공사 하도급대금 10일 내 지급하자",
+      "summary": "(요약 없음 — 원문 확인 필요)",
+      "source_url": "http://www.sanupnews.com/news/articleViewAmp.html?idxno=59302",
+      "published_at": "19시간 전"
+    },
+    {
+      "category": "news",
+      "category_label": "뉴스 보도내용",
+      "competitor": "SK온",
+      "keyword": "공정거래위원회",
+      "headline": "[단독]미투온, 카카오게임즈와 기업결합심사 완료",
+      "summary": "(요약 없음 — 원문 확인 필요)",
+      "source_url": "https://mobile.newsis.com/view/NISX20261118_0003873171",
+      "published_at": "19시간 전"
+    },
+    {
+      "category": "news",
+      "category_label": "뉴스 보도내용",
+      "competitor": "SK AX",
+      "keyword": "공정거래위원회",
+      "headline": "대기업 계열사 다이어트 돌입… 신사업 늘리고 중복법인 합병",
+      "summary": "(요약 없음 — 원문 확인 필요)",
+      "source_url": "https://stock.mk.co.kr/news/view/1201531",
+      "published_at": "19시간 전"
+    },
+    {
+      "category": "news",
+      "category_label": "뉴스 보도내용",
+      "competitor": "SK하이닉스",
+      "keyword": "공정거래위원회",
+      "headline": "반도체 호황…발주자·원도급·하도급사 상생 나섰다",
+      "summary": "(요약 없음 — 원문 확인 필요)",
+      "source_url": "https://www.kmecnews.co.kr/news/articleView.html?idxno=52802",
+      "published_at": "20시간 전"
+    },
+    {
+      "category": "news",
+      "category_label": "뉴스 보도내용",
+      "competitor": "SK하이닉스",
+      "keyword": "공정거래위원회",
+      "headline": "매출 1조·이용자 100만 해외 플랫폼, 내년부터 국내대리인 지정 의무",
+      "summary": "(요약 없음 — 원문 확인 필요)",
+      "source_url": "https://www.newspim.com/news/view/20261118000725",
+      "published_at": "20시간 전"
+    },
+    {
+      "category": "news",
+      "category_label": "뉴스 보도내용",
+      "competitor": "공정거래위원회",
+      "keyword": "과징금",
+      "headline": "[황규찬의 시선] EU가 과징금을 매길 때 공정위는 동의의결 절차를 열었다",
+      "summary": "(요약 없음 — 원문 확인 필요)",
+      "source_url": "http://www.casenews.co.kr/news/articleViewAmp.html?idxno=19763",
+      "published_at": "21시간 전"
+    },
+    {
+      "category": "news",
+      "category_label": "뉴스 보도내용",
+      "competitor": "공정거래위원회",
+      "keyword": "과징금",
+      "headline": "[기자수첩] 국고채 입찰, 관행과 담합 사이 : 네이버 블로그",
+      "summary": "(요약 없음 — 원문 확인 필요)",
+      "source_url": "https://blog.naver.com/PostView.naver?blogId=dealsite&logNo=224481768939&redirect=Dlog",
+      "published_at": "21시간 전"
+    },
+    {
+      "category": "news",
+      "category_label": "뉴스 보도내용",
+      "competitor": "공정거래위원회",
+      "keyword": "과징금",
+      "headline": "1.6조 국고채 담합 ‘쩐의 전쟁’ 2막…7대 로펌 ‘뒤집기’ 총력전",
+      "summary": "(요약 없음 — 원문 확인 필요)",
+      "source_url": "https://www.asiae.co.kr/realtime/sokbo_viewNew.htm?idxno=2026111710084047906",
+      "published_at": "21시간 전"
+    },
+    {
+      "category": "news",
+      "category_label": "뉴스 보도내용",
+      "competitor": "공정거래위원회",
+      "keyword": "현장조사",
+      "headline": "공정위, 김범석 쿠팡 의장 고발 추진…\"허위자료 제출에 따른 제재사안\"",
+      "summary": "(요약 없음 — 원문 확인 필요)",
+      "source_url": "https://tfmedia.co.kr/mobile/article.html?no=208991",
+      "published_at": "21시간 전"
+    },
+    {
+      "category": "news",
+      "category_label": "뉴스 보도내용",
+      "competitor": "SK 계열사",
+      "keyword": "공정거래위원회",
+      "headline": "대기업 계열사 3개월 새 5곳 감소…SK 11곳 줄이고 한화 6곳 늘려",
+      "summary": "(요약 없음 — 원문 확인 필요)",
+      "source_url": "https://m.thepowernews.co.kr/view.php?ud=202611181117394533de3f0aa1be_7",
+      "published_at": "21시간 전"
+    },
+    {
+      "category": "news",
+      "category_label": "뉴스 보도내용",
+      "competitor": "SK㈜",
+      "keyword": "공정거래위원회",
+      "headline": "대기업집단 석 달 새 발전사 8곳 편입·게임사 7곳 제외…코빗은 넥슨에서 미래에셋으로",
+      "summary": "(요약 없음 — 원문 확인 필요)",
+      "source_url": "http://www.casenews.co.kr/news/articleView.html?idxno=19780",
+      "published_at": "21시간 전"
+    },
+    {
+      "category": "news",
+      "category_label": "뉴스 보도내용",
+      "competitor": "SK에코플랜트",
+      "keyword": "공정거래위원회",
+      "headline": "[SK케미칼 리스크] 가습기살균제 국가배상 분담금·630억 소송… 바이오연료 담합 심의·비염약 수입정지",
+      "summary": "(요약 없음 — 원문 확인 필요)",
+      "source_url": "https://www.newsclaim.co.kr/news/articleView.html?idxno=3083197",
+      "published_at": "21시간 전"
+    },
+    {
+      "category": "news",
+      "category_label": "뉴스 보도내용",
+      "competitor": "SK실트론",
+      "keyword": "공정거래위원회",
+      "headline": "“태광 이호진 자녀들, 계열사 부동산 PFV 출자 '사업기회 유용' 의혹”",
+      "summary": "(요약 없음 — 원문 확인 필요)",
+      "source_url": "https://www.autodaily.co.kr/news/articleView.html?idxno=602191",
+      "published_at": "21시간 전"
+    },
+    {
+      "category": "news",
+      "category_label": "뉴스 보도내용",
+      "competitor": "공정거래위원회",
+      "keyword": "과징금",
+      "headline": "2.2조 과징금 몰아친 공정위, 소송비 34% 증액 … 기업 옥죄고 소송 비용까지 키웠다",
+      "summary": "(요약 없음 — 원문 확인 필요)",
+      "source_url": "https://biz.newdaily.co.kr/site/data/html/2026/11/18/2026111850096.amp.html",
+      "published_at": "22시간 전"
+    },
+    {
+      "category": "news",
+      "category_label": "뉴스 보도내용",
+      "competitor": "SK그룹",
+      "keyword": "공정거래위원회",
+      "headline": "대기업집단, 계열사 편입 ’적극 추진’…석달간 60개 편입",
+      "summary": "(요약 없음 — 원문 확인 필요)",
+      "source_url": "https://www.yonhapnewstv.co.kr/news/AKR20261118101940St8",
+      "published_at": "22시간 전"
+    },
+    {
+      "category": "news",
+      "category_label": "뉴스 보도내용",
+      "competitor": "SK그룹",
+      "keyword": "공정거래위원회",
+      "headline": "대기업 계열사 3개월 새 5곳 감소…신세계 신사업, SK·CJ는 흡수합병",
+      "summary": "(요약 없음 — 원문 확인 필요)",
+      "source_url": "https://www.ezyeconomy.com/news/articleView.html?idxno=241956",
+      "published_at": "22시간 전"
+    },
+    {
+      "category": "news",
+      "category_label": "뉴스 보도내용",
+      "competitor": "최태원",
+      "keyword": "공정거래위원회",
+      "headline": "공정위, 쿠팡 김범석 고발...\"총수 지정자료 허위제출\"",
+      "summary": "(요약 없음 — 원문 확인 필요)",
+      "source_url": "https://www.dailybrief.co.kr/news/articleView.html?idxno=7347",
+      "published_at": "22시간 전"
+    },
+    {
+      "category": "news",
+      "category_label": "뉴스 보도내용",
+      "competitor": "SK하이닉스",
+      "keyword": "공정거래위원회",
+      "headline": "한화·신세계 AI 데이터센터로 '확장', SK·카카오 '군살 빼기'…대기업 계열사 희비",
+      "summary": "(요약 없음 — 원문 확인 필요)",
+      "source_url": "https://www.newspim.com/news/view/20261118000312",
+      "published_at": "22시간 전"
+    },
+    {
+      "category": "news",
+      "category_label": "뉴스 보도내용",
+      "competitor": "SK이노베이션",
+      "keyword": "공정거래위원회",
+      "headline": "원전 공론화 누리집 개설…공개토론회 참석 신청도 접수",
+      "summary": "(요약 없음 — 원문 확인 필요)",
+      "source_url": "https://www.e2news.com/news/articleView.html?idxno=336228",
+      "published_at": "22시간 전"
+    },
+    {
+      "category": "news",
+      "category_label": "뉴스 보도내용",
+      "competitor": "SK그룹",
+      "keyword": "공정거래위원회",
+      "headline": "SK, 3개월새 11개사 계열 제외···\"리밸런싱 계속\"",
+      "summary": "(요약 없음 — 원문 확인 필요)",
+      "source_url": "https://www.seoulfn.com/news/articleView.html?idxno=643160",
+      "published_at": "23시간 전"
+    },
+    {
+      "category": "news",
+      "category_label": "뉴스 보도내용",
+      "competitor": "SK그룹",
+      "keyword": "공정거래위원회",
+      "headline": "102개 대기업집단, 석달간 계열사 60개 편입·65개 제외",
+      "summary": "(요약 없음 — 원문 확인 필요)",
+      "source_url": "https://www.yna.co.kr/amp/view/AKR20261118042000002",
+      "published_at": "23시간 전"
+    },
+    {
+      "category": "news",
+      "category_label": "뉴스 보도내용",
+      "competitor": "SK 계열사",
+      "keyword": "공정거래위원회",
+      "headline": "공정위, 최근 3개월간 대기업집단 계열사 5곳 감소…SK·카카오 계열사 줄어",
+      "summary": "(요약 없음 — 원문 확인 필요)",
+      "source_url": "https://news.bbsi.co.kr/news/articleView.html?idxno=4119255",
+      "published_at": "23시간 전"
+    },
+    {
+      "category": "news",
+      "category_label": "뉴스 보도내용",
+      "competitor": "SK 계열사",
+      "keyword": "공정거래위원회",
+      "headline": "비슷한 사업 합치고 AI·디지털금융 키우고…대기업 계열사 5곳 줄어",
+      "summary": "(요약 없음 — 원문 확인 필요)",
+      "source_url": "https://mobile.newsis.com/view_amp.html?ar_id=NISX20261118_0003872424",
+      "published_at": "23시간 전"
+    },
+    {
+      "category": "news",
+      "category_label": "뉴스 보도내용",
+      "competitor": "SK 계열사",
+      "keyword": "공정거래위원회",
+      "headline": "SK 계열사 11곳 제외, 미래에셋은 가상자산 진출⋯대기업집단 재편 활발",
+      "summary": "(요약 없음 — 원문 확인 필요)",
+      "source_url": "https://www.etoday.co.kr/news/view/2649540",
+      "published_at": "23시간 전"
+    },
+    {
+      "category": "news",
+      "category_label": "뉴스 보도내용",
+      "competitor": "SK㈜",
+      "keyword": "공정거래위원회",
+      "headline": "공정위 최근 3개월간 대규모기업집단 소속회사 변동 현황 공개",
+      "summary": "(요약 없음 — 원문 확인 필요)",
+      "source_url": "https://www.intn.co.kr/news/articleView.html?idxno=3000319",
+      "published_at": "23시간 전"
+    },
+    {
+      "category": "news",
+      "category_label": "뉴스 보도내용",
+      "competitor": "SK㈜",
+      "keyword": "공정거래위원회",
+      "headline": "대기업집단 계열사 3개월 새 5곳 감소…AI·디지털금융 편입 활발 |",
+      "summary": "(요약 없음 — 원문 확인 필요)",
+      "source_url": "https://news.einfomax.co.kr/news/articleViewAmp.html?idxno=4445303",
+      "published_at": "23시간 전"
+    },
+    {
+      "category": "news",
+      "category_label": "뉴스 보도내용",
+      "competitor": "SK㈜",
+      "keyword": "공정거래위원회",
+      "headline": "대기업 계열사, 3개월 간 5개 줄었다…AI·디지털 금융 '집중' - 머니투데이",
+      "summary": "(요약 없음 — 원문 확인 필요)",
+      "source_url": "https://www.mt.co.kr/amp/economy/2026/11/18/2026111808264390694",
+      "published_at": "23시간 전"
+    },
+    {
+      "category": "news",
+      "category_label": "뉴스 보도내용",
+      "competitor": "SK바이오팜",
+      "keyword": "공정거래위원회",
+      "headline": "SK바이오팜, 세노바메이트 넘어 신약 포트폴리오 다변화…글로벌 성장 전략 공개",
+      "summary": "(요약 없음 — 원문 확인 필요)",
+      "source_url": "https://www.mdtoday.co.kr/news/articleView.html?idxno=625926",
+      "published_at": "23시간 전"
+    },
+    {
+      "category": "news",
+      "category_label": "뉴스 보도내용",
+      "competitor": "SK그룹",
+      "keyword": "공정거래위원회",
+      "headline": "‘대한상의’ 새 수장에 재계 맏형 구자열 LS 의장 물망",
+      "summary": "(요약 없음 — 원문 확인 필요)",
+      "source_url": "https://www.newstopkorea.com/news/articleView.html?idxno=49121",
+      "published_at": "24시간 전"
+    }
+  ],
+  "generated_at": "2026-11-18T23:35:09.284Z",
+  "_meta": {
+    "sources": [
+      "ftc.go.kr(보도자료)",
+      "ftc.go.kr(위원회 소식)",
+      "serper.dev/news"
+    ],
+    "windowHours": {
+      "press": 48,
+      "committee": 168,
+      "news": 24
+    },
+    "gapDays": 1,
+    "committeeCandidates": 4,
+    "boards": {
+      "committee": {
+        "boardsRead": 1,
+        "boardsTotal": 1,
+        "rowsSeen": 10,
+        "matched": 4
+      },
+      "press": {
+        "boardsRead": 2,
+        "boardsTotal": 2,
+        "rowsSeen": 20,
+        "matched": 4
+      }
+    },
+    "affiliateCompanies": 28,
+    "affiliateCollected": 64,
+    "categoryCounts": {
+      "press": 4,
+      "committee": 1,
+      "news": 61
+    },
+    "collected": 84,
+    "deduped": 61,
+    "errors": []
+  }
+}
