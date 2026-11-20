@@ -1,0 +1,406 @@
+{
+  "id": "2026-11-21",
+  "date": "2026-11-21",
+  "title": "공정거래위원회 일일동향 (초안 — 35건, 제목 다듬기 필요)",
+  "summary": "항목을 취사선택·순서조정한 뒤 저장하면 Claude Code가 제목/요약을 다듬어 배포합니다.",
+  "competitors": [
+    "공정거래위원회"
+  ],
+  "keywords": [
+    "공정위",
+    "과징금",
+    "현장조사",
+    "담합"
+  ],
+  "items": [
+    {
+      "category": "news",
+      "category_label": "뉴스 보도내용",
+      "competitor": "공정거래위원회",
+      "keyword": "현장조사",
+      "headline": "공정위, ‘태양광 발전 패널 담합 의혹’ 한화솔루션 조사",
+      "summary": "(요약 없음 — 원문 확인 필요)",
+      "source_url": "https://www.hani.co.kr/arti/economy/economy_general/1288383.html",
+      "published_at": "7시간 전"
+    },
+    {
+      "category": "news",
+      "category_label": "뉴스 보도내용",
+      "competitor": "공정거래위원회",
+      "keyword": "공정위",
+      "headline": "공정위, 2026년 중소기업 간 하도급거래 모범업체 선정",
+      "summary": "(요약 없음 — 원문 확인 필요)",
+      "source_url": "https://www.newspanorama.kr/news/articleView.html?idxno=941782",
+      "published_at": "11시간 전"
+    },
+    {
+      "category": "news",
+      "category_label": "뉴스 보도내용",
+      "competitor": "SK에너지",
+      "keyword": "공정거래위원회",
+      "headline": "코스피, 5%대 낙폭에 4900선 밑으로...삼성전기, SK스퀘어 등 하락",
+      "summary": "(요약 없음 — 원문 확인 필요)",
+      "source_url": "https://www.econonews.co.kr/news/articleView.html?idxno=447479",
+      "published_at": "11시간 전"
+    },
+    {
+      "category": "news",
+      "category_label": "뉴스 보도내용",
+      "competitor": "공정거래위원회",
+      "keyword": "공정위",
+      "headline": "공정위, 태양광 업체 담합 의혹 조사 진행",
+      "summary": "(요약 없음 — 원문 확인 필요)",
+      "source_url": "https://www.m-i.kr/news/articleView.html?idxno=2021594",
+      "published_at": "12시간 전"
+    },
+    {
+      "category": "news",
+      "category_label": "뉴스 보도내용",
+      "competitor": "SK 계열사",
+      "keyword": "공정거래위원회",
+      "headline": "공정위, ‘26년 공시대상기업집단 내부거래 총수 집단 89개 약 185조원",
+      "summary": "(요약 없음 — 원문 확인 필요)",
+      "source_url": "http://www.4ihjnews.com/default/index_view_page.php?idx=43782",
+      "published_at": "14시간 전"
+    },
+    {
+      "category": "news",
+      "category_label": "뉴스 보도내용",
+      "competitor": "공정거래위원회",
+      "keyword": "공정위",
+      "headline": "[설명] 한국경제(11.18.) 영장없이 기업 강제조사하겠다는 공정위 등 기사관련",
+      "summary": "(요약 없음 — 원문 확인 필요)",
+      "source_url": "https://www.korea.kr/briefing/actuallyView.do?newsId=148976030",
+      "published_at": "15시간 전"
+    },
+    {
+      "category": "news",
+      "category_label": "뉴스 보도내용",
+      "competitor": "공정거래위원회",
+      "keyword": "공정위",
+      "headline": "한화솔루션, 태양광 패널 담합 의혹…공정위 현장조사",
+      "summary": "(요약 없음 — 원문 확인 필요)",
+      "source_url": "https://www.speconomy.com/news/articleView.html?idxno=420271",
+      "published_at": "15시간 전"
+    },
+    {
+      "category": "news",
+      "category_label": "뉴스 보도내용",
+      "competitor": "SK그룹",
+      "keyword": "공정거래위원회",
+      "headline": "이랜드, ‘뉴발란스·호카’ 투트랙 채비…조이웍스 노조 반발 넘어서야",
+      "summary": "(요약 없음 — 원문 확인 필요)",
+      "source_url": "https://www.lkp.news/news/articleView.html?idxno=86307",
+      "published_at": "16시간 전"
+    },
+    {
+      "category": "news",
+      "category_label": "뉴스 보도내용",
+      "competitor": "SK그룹",
+      "keyword": "공정거래위원회",
+      "headline": "캐피탈사 렌탈 규제 완화 추진..렌터카 시장 경쟁구도 바뀌나",
+      "summary": "(요약 없음 — 원문 확인 필요)",
+      "source_url": "https://kpenews.com/View.aspx?No=4322595",
+      "published_at": "16시간 전"
+    },
+    {
+      "category": "news",
+      "category_label": "뉴스 보도내용",
+      "competitor": "SK 계열사",
+      "keyword": "공정거래위원회",
+      "headline": "“우리끼리 거래한 돈만 841조”…대기업 매출 35%가 내부거래",
+      "summary": "(요약 없음 — 원문 확인 필요)",
+      "source_url": "https://m.mk.co.kr/amp/12214710",
+      "published_at": "16시간 전"
+    },
+    {
+      "category": "news",
+      "category_label": "뉴스 보도내용",
+      "competitor": "SK이노베이션",
+      "keyword": "공정거래위원회",
+      "headline": "공정위, 태양광 모듈 대기업 담합 의혹 현장 조사",
+      "summary": "(요약 없음 — 원문 확인 필요)",
+      "source_url": "https://www.e2news.com/news/articleView.html?idxno=336350",
+      "published_at": "16시간 전"
+    },
+    {
+      "category": "news",
+      "category_label": "뉴스 보도내용",
+      "competitor": "SK온",
+      "keyword": "공정거래위원회",
+      "headline": "석화·정유 이어 태양광까지…공정위, 담합 조사 범위 확대",
+      "summary": "(요약 없음 — 원문 확인 필요)",
+      "source_url": "https://zdnet.co.kr/view/?no=20261120164527",
+      "published_at": "16시간 전"
+    },
+    {
+      "category": "news",
+      "category_label": "뉴스 보도내용",
+      "competitor": "공정거래위원회",
+      "keyword": "공정위",
+      "headline": "국산 태양광 위기인데…공정위 담합조사에 업계 긴장",
+      "summary": "(요약 없음 — 원문 확인 필요)",
+      "source_url": "https://www.sedaily.com/article/20117006",
+      "published_at": "17시간 전"
+    },
+    {
+      "category": "news",
+      "category_label": "뉴스 보도내용",
+      "competitor": "공정거래위원회",
+      "keyword": "현장조사",
+      "headline": "공정위, 한화솔루션 등 태양광 업체 현장조사… 패널 담합 의혹",
+      "summary": "(요약 없음 — 원문 확인 필요)",
+      "source_url": "https://biz.chosun.com/policy/policy_sub/2026/11/20/5VJ52G7K4NHFHJYSNRWQGOPCZY/",
+      "published_at": "17시간 전"
+    },
+    {
+      "category": "news",
+      "category_label": "뉴스 보도내용",
+      "competitor": "SK그룹",
+      "keyword": "공정거래위원회",
+      "headline": "포스코, 계열사 내부거래 22조3000억원…비중 줄었지만 높은 의존도 지속",
+      "summary": "(요약 없음 — 원문 확인 필요)",
+      "source_url": "https://www.opinionnews.co.kr/news/articleView.html?idxno=147319",
+      "published_at": "17시간 전"
+    },
+    {
+      "category": "news",
+      "category_label": "뉴스 보도내용",
+      "competitor": "공정거래위원회",
+      "keyword": "공정위",
+      "headline": "공정위원장 \"플랫폼사업자 시장력, 흉기될수도\" \"혁신적으로 심판해야\"",
+      "summary": "(요약 없음 — 원문 확인 필요)",
+      "source_url": "https://www.chosun.com/economy/economy_general/2026/11/20/VC3FCUKRZRDJLHXPEALCWG7SEA/",
+      "published_at": "18시간 전"
+    },
+    {
+      "category": "news",
+      "category_label": "뉴스 보도내용",
+      "competitor": "공정거래위원회",
+      "keyword": "공정위",
+      "headline": "공정위, 한화솔루션 등 태양광 패널업체 현장조사…담합 의혹",
+      "summary": "(요약 없음 — 원문 확인 필요)",
+      "source_url": "https://www.ajunews.com/view/20261120142713991",
+      "published_at": "18시간 전"
+    },
+    {
+      "category": "news",
+      "category_label": "뉴스 보도내용",
+      "competitor": "공정거래위원회",
+      "keyword": "현장조사",
+      "headline": "공정위, 한화솔루션 등 현장조사‥태양광 발전 패널 담합 의혹",
+      "summary": "(요약 없음 — 원문 확인 필요)",
+      "source_url": "https://imnews.imbc.com/news/2026/econo/article/6867257_36932.html",
+      "published_at": "18시간 전"
+    },
+    {
+      "category": "news",
+      "category_label": "뉴스 보도내용",
+      "competitor": "공정거래위원회",
+      "keyword": "현장조사",
+      "headline": "공정위, 한화솔루션 등 현장조사…태양광 패널 담합 의혹(종합)",
+      "summary": "(요약 없음 — 원문 확인 필요)",
+      "source_url": "https://www.yna.co.kr/view/AKR20261120086251002",
+      "published_at": "18시간 전"
+    },
+    {
+      "category": "news",
+      "category_label": "뉴스 보도내용",
+      "competitor": "공정거래위원회",
+      "keyword": "현장조사",
+      "headline": "태양광 발전 패널 담합했나…공정위, 한화솔루션 등 조사 |",
+      "summary": "(요약 없음 — 원문 확인 필요)",
+      "source_url": "https://news.einfomax.co.kr/news/articleViewAmp.html?idxno=4445772",
+      "published_at": "18시간 전"
+    },
+    {
+      "category": "news",
+      "category_label": "뉴스 보도내용",
+      "competitor": "SK텔레콤",
+      "keyword": "공정거래위원회",
+      "headline": "경실련, 안덕수 국세청장 후보자에 \"구글 Project Hug 조세회피 의혹 규명\" 촉구",
+      "summary": "(요약 없음 — 원문 확인 필요)",
+      "source_url": "https://www.kjtimes.com/news/article.html?no=80550",
+      "published_at": "18시간 전"
+    },
+    {
+      "category": "news",
+      "category_label": "뉴스 보도내용",
+      "competitor": "SK 계열사",
+      "keyword": "공정거래위원회",
+      "headline": "대기업집단 내부거래 841조…계열사 상표권 사용료 '역대 최대'",
+      "summary": "(요약 없음 — 원문 확인 필요)",
+      "source_url": "https://m.tf.co.kr/amp/economy/2391548.htm",
+      "published_at": "18시간 전"
+    },
+    {
+      "category": "news",
+      "category_label": "뉴스 보도내용",
+      "competitor": "SK에너지",
+      "keyword": "공정거래위원회",
+      "headline": "공판서 유가 담합 의혹 맞선 정유 4사…거래 관행 개선은 ‘진행중’",
+      "summary": "(요약 없음 — 원문 확인 필요)",
+      "source_url": "https://www.ntoday.co.kr/news/articleViewAmp.html?idxno=130984",
+      "published_at": "18시간 전"
+    },
+    {
+      "category": "news",
+      "category_label": "뉴스 보도내용",
+      "competitor": "공정거래위원회",
+      "keyword": "공정위",
+      "headline": "공정거래위원회·한국유통법학회 추계 공동학술대회 개최",
+      "summary": "(요약 없음 — 원문 확인 필요)",
+      "source_url": "https://www.intn.co.kr/news/articleView.html?idxno=3000396",
+      "published_at": "19시간 전"
+    },
+    {
+      "category": "news",
+      "category_label": "뉴스 보도내용",
+      "competitor": "공정거래위원회",
+      "keyword": "현장조사",
+      "headline": "공정위, 한화솔루션 등 현장조사…태양광 발전 패널 담합 의혹",
+      "summary": "(요약 없음 — 원문 확인 필요)",
+      "source_url": "https://news.kbs.co.kr/news/pc/view/view.do?ncd=8718450",
+      "published_at": "19시간 전"
+    },
+    {
+      "category": "news",
+      "category_label": "뉴스 보도내용",
+      "competitor": "SK그룹",
+      "keyword": "공정거래위원회",
+      "headline": "쿠팡, 국내 계열사간 거래액 첫 5위…CJ는 매출 절반이 상표권 수입",
+      "summary": "(요약 없음 — 원문 확인 필요)",
+      "source_url": "https://www.hankyung.com/article/202611209690g",
+      "published_at": "19시간 전"
+    },
+    {
+      "category": "news",
+      "category_label": "뉴스 보도내용",
+      "competitor": "공정거래위원회",
+      "keyword": "공정위",
+      "headline": "공정위, 중소기업 간 하도급거래 모범업체 2곳 선정",
+      "summary": "(요약 없음 — 원문 확인 필요)",
+      "source_url": "https://www.electimes.com/news/articleViewAmp.html?idxno=375059",
+      "published_at": "21시간 전"
+    },
+    {
+      "category": "news",
+      "category_label": "뉴스 보도내용",
+      "competitor": "공정거래위원회",
+      "keyword": "현장조사",
+      "headline": "[단독] 공정위, 한화솔루션 등 태양광 업체 현장조사 착수",
+      "summary": "(요약 없음 — 원문 확인 필요)",
+      "source_url": "https://www.joongang.co.kr/article/25480440",
+      "published_at": "21시간 전"
+    },
+    {
+      "category": "news",
+      "category_label": "뉴스 보도내용",
+      "competitor": "SK에너지",
+      "keyword": "공정거래위원회",
+      "headline": "석유 한 방울 안 나는데 … 수출 금자탑 견인하고도 웃지 못하는 K정유사",
+      "summary": "(요약 없음 — 원문 확인 필요)",
+      "source_url": "https://biz.newdaily.co.kr/site/data/html/2026/11/20/2026112050104.amp.html",
+      "published_at": "21시간 전"
+    },
+    {
+      "category": "news",
+      "category_label": "뉴스 보도내용",
+      "competitor": "SK그룹",
+      "keyword": "공정거래위원회",
+      "headline": "삼성·SK 줄 때 현대차만 내부거래 60.9조로 늘었다",
+      "summary": "(요약 없음 — 원문 확인 필요)",
+      "source_url": "https://www.jabon.co.kr/news/articleView.html?idxno=8927",
+      "published_at": "22시간 전"
+    },
+    {
+      "category": "news",
+      "category_label": "뉴스 보도내용",
+      "competitor": "SK그룹",
+      "keyword": "공정거래위원회",
+      "headline": "대기업 상표권 수익 '역대 최대' 총수일가 배불리나",
+      "summary": "(요약 없음 — 원문 확인 필요)",
+      "source_url": "https://www.safetimes.co.kr/news/articleView.html?idxno=247726",
+      "published_at": "22시간 전"
+    },
+    {
+      "category": "news",
+      "category_label": "뉴스 보도내용",
+      "competitor": "공정거래위원회",
+      "keyword": "공정위",
+      "headline": "진보건설·가온, 공정위 하도급 거래 모범업체로 선정",
+      "summary": "(요약 없음 — 원문 확인 필요)",
+      "source_url": "https://www.yna.co.kr/amp/view/AKR20261120038700002",
+      "published_at": "23시간 전"
+    },
+    {
+      "category": "news",
+      "category_label": "뉴스 보도내용",
+      "competitor": "SK그룹",
+      "keyword": "공정거래위원회",
+      "headline": "10대 그룹 작년 내부거래 185조 ‘쏠림’...쿠팡, 첫 상위 5위 진입",
+      "summary": "(요약 없음 — 원문 확인 필요)",
+      "source_url": "https://www.fnnews1.com/news/articleViewAmp.html?idxno=109030",
+      "published_at": "23시간 전"
+    },
+    {
+      "category": "news",
+      "category_label": "뉴스 보도내용",
+      "competitor": "SK온",
+      "keyword": "공정거래위원회",
+      "headline": "정부, 노동시장 이중구조 개선 착수…노동조건 격차 등 4대 분야 점검",
+      "summary": "(요약 없음 — 원문 확인 필요)",
+      "source_url": "https://m.dailian.co.kr/news/view/1717617/%EC%A0%95%EB%B6%80-%EB%85%B8%EB%8F%99%EC%8B%9C%EC%9E%A5-%EC%9D%B4%EC%A4%91%EA%B5%AC%EC%A1%B0-%EA%B0%9C%EC%84%A0-%EC%B0%A9%EC%88%98%EB%85%B8%EB%8F%99-2026",
+      "published_at": "23시간 전"
+    },
+    {
+      "category": "news",
+      "category_label": "뉴스 보도내용",
+      "competitor": "SK텔레콤",
+      "keyword": "공정거래위원회",
+      "headline": "이통3사, 3년간 행정 제재 100건 육박…KT 49건 '최다'",
+      "summary": "(요약 없음 — 원문 확인 필요)",
+      "source_url": "http://www.srtimes.kr/news/articleViewAmp.html?idxno=218103",
+      "published_at": "24시간 전"
+    }
+  ],
+  "generated_at": "2026-11-20T23:35:08.772Z",
+  "_meta": {
+    "sources": [
+      "ftc.go.kr(보도자료)",
+      "ftc.go.kr(위원회 소식)",
+      "serper.dev/news"
+    ],
+    "windowHours": {
+      "press": 48,
+      "committee": 168,
+      "news": 24
+    },
+    "gapDays": 1,
+    "committeeCandidates": 3,
+    "boards": {
+      "committee": {
+        "boardsRead": 1,
+        "boardsTotal": 1,
+        "rowsSeen": 10,
+        "matched": 3
+      },
+      "press": {
+        "boardsRead": 2,
+        "boardsTotal": 2,
+        "rowsSeen": 20,
+        "matched": 0
+      }
+    },
+    "affiliateCompanies": 28,
+    "affiliateCollected": 32,
+    "categoryCounts": {
+      "press": 0,
+      "committee": 0,
+      "news": 35
+    },
+    "collected": 52,
+    "deduped": 35,
+    "errors": []
+  }
+}
