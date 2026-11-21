@@ -1,0 +1,45 @@
+{
+  "id": "2026-11-22",
+  "date": "2026-11-22",
+  "title": "축구협회·쿠팡플레이 불공정 의혹, 공정위 조사 본격화",
+  "summary": "**축구협회·쿠팡플레이** 불공정 의혹 확산 — 공정위 **조사 본격화** 보도, 쿠팡 그룹 공정위 절차 잇따름\n은행권 **LTV 담합 소송** 본격화 — 합의 없는 **정보교환**만으로 담합이 성립하는지가 쟁점\n같은 법리로 제재된 **1조 6,266억** 국고채 담합 PD사 소송의 **가늠자**로 거론",
+  "competitors": [
+    "쿠팡플레이",
+    "축구협회",
+    "4대 시중은행",
+    "공정거래위원회"
+  ],
+  "keywords": [
+    "쿠팡플레이",
+    "축구협회",
+    "LTV 담합",
+    "정보교환 담합",
+    "국고채 담합 소송"
+  ],
+  "items": [
+    {
+      "category": "news",
+      "category_label": "뉴스 보도내용",
+      "headline": "축구협회·쿠팡플레이 불공정 의혹 확산…'공정위 조사 본격화'",
+      "summary": "쿠팡플레이는 축구 국가대표 경기 중계권을 보유한 쿠팡 계열 OTT.\n쿠팡 그룹은 끼워팔기 재심사·지정자료 허위제출 고발 심의 등 공정위 절차가 잇따르는 상황.",
+      "source_url": "https://www.ngonews.kr/news/articleView.html?idxno=243814",
+      "published_at": "12시간 전",
+      "topics": [
+        "platform"
+      ]
+    },
+    {
+      "category": "news",
+      "category_label": "뉴스 보도내용",
+      "headline": "은행권 LTV 담합 소송 본격화…1.6조 국고채 소송 가늠자",
+      "summary": "4대 은행 과징금 **2,720억** 취소소송 — 합의 없는 정보교환만으로 담합이 성립하는지가 쟁점.\n같은 법리로 제재된 **1조 6,266억** 국고채 담합의 PD사 소송 결과를 가늠할 선행 사건으로 거론.",
+      "source_url": "https://biz.chosun.com/stock/finance/2026/11/22/MJWCSHWZWBEYRDNKOQACTFCJ6E/?outputType=amp",
+      "published_at": "2시간 전",
+      "topics": [
+        "cartel",
+        "enforce"
+      ]
+    }
+  ],
+  "generated_at": "2026-11-21T23:35:11.017Z"
+}
