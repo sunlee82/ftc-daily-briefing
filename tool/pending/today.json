@@ -1,0 +1,306 @@
+{
+  "id": "2026-11-22",
+  "date": "2026-11-22",
+  "title": "공정거래위원회 일일동향 (초안 — 25건, 제목 다듬기 필요)",
+  "summary": "항목을 취사선택·순서조정한 뒤 저장하면 Claude Code가 제목/요약을 다듬어 배포합니다.",
+  "competitors": [
+    "공정거래위원회"
+  ],
+  "keywords": [
+    "공정위",
+    "과징금",
+    "현장조사",
+    "담합"
+  ],
+  "items": [
+    {
+      "category": "news",
+      "category_label": "뉴스 보도내용",
+      "competitor": "공정거래위원회",
+      "keyword": "과징금",
+      "headline": "요즘 유통회사들이 제일 무서워하는 ‘이곳’…공정위 조사, 다음 타깃은?",
+      "summary": "(요약 없음 — 원문 확인 필요)",
+      "source_url": "https://www.mk.co.kr/news/business/12215375",
+      "published_at": "2시간 전"
+    },
+    {
+      "category": "news",
+      "category_label": "뉴스 보도내용",
+      "competitor": "공정거래위원회",
+      "keyword": "과징금",
+      "headline": "은행권 LTV 담합 소송 본격화… 1.6조원 국고채 소송 가늠자",
+      "summary": "(요약 없음 — 원문 확인 필요)",
+      "source_url": "https://biz.chosun.com/stock/finance/2026/11/22/MJWCSHWZWBEYRDNKOQACTFCJ6E/?outputType=amp",
+      "published_at": "2시간 전"
+    },
+    {
+      "category": "news",
+      "category_label": "뉴스 보도내용",
+      "competitor": "SK그룹",
+      "keyword": "공정거래위원회",
+      "headline": "\"손정의 소프트뱅크 회장, SK하이닉스 1조달러 인수 검토\"",
+      "summary": "(요약 없음 — 원문 확인 필요)",
+      "source_url": "https://www.m-i.kr/news/articleView.html?idxno=2021661",
+      "published_at": "10시간 전"
+    },
+    {
+      "category": "news",
+      "category_label": "뉴스 보도내용",
+      "competitor": "공정거래위원회",
+      "keyword": "공정위",
+      "headline": "축구협회·쿠팡플레이 불공정 의혹 확산…'공정위 조사 본격화'",
+      "summary": "(요약 없음 — 원문 확인 필요)",
+      "source_url": "https://www.ngonews.kr/news/articleView.html?idxno=243814",
+      "published_at": "12시간 전"
+    },
+    {
+      "category": "news",
+      "category_label": "뉴스 보도내용",
+      "competitor": "공정거래위원회",
+      "keyword": "공정위",
+      "headline": "공정위, 한화솔루션 등 현장조사…태양광 발전 패널 담합 의혹",
+      "summary": "(요약 없음 — 원문 확인 필요)",
+      "source_url": "https://m.segye.com/daumview/20261120508786",
+      "published_at": "12시간 전"
+    },
+    {
+      "category": "news",
+      "category_label": "뉴스 보도내용",
+      "competitor": "공정거래위원회",
+      "keyword": "현장조사",
+      "headline": "공정위, 한화솔루션 등 현장조사…태양광 발전 패널 담합 의혹",
+      "summary": "(요약 없음 — 원문 확인 필요)",
+      "source_url": "https://m.segye.com/ampView/20261120508786",
+      "published_at": "12시간 전"
+    },
+    {
+      "category": "news",
+      "category_label": "뉴스 보도내용",
+      "competitor": "공정거래위원회",
+      "keyword": "담합",
+      "headline": "공정위, 한화솔루션 등 현장조사…태양광 발전 패널 담합 의혹",
+      "summary": "(요약 없음 — 원문 확인 필요)",
+      "source_url": "https://m.segye.com/view/20261120508786",
+      "published_at": "12시간 전"
+    },
+    {
+      "category": "news",
+      "category_label": "뉴스 보도내용",
+      "competitor": "SK하이닉스",
+      "keyword": "공정거래위원회",
+      "headline": "전 세계 임대료 9위, 우리나라에서 가장 비싼 상권은 어디?",
+      "summary": "(요약 없음 — 원문 확인 필요)",
+      "source_url": "https://story.pay.naver.com/content/4021",
+      "published_at": "13시간 전"
+    },
+    {
+      "category": "news",
+      "category_label": "뉴스 보도내용",
+      "competitor": "공정거래위원회",
+      "keyword": "공정위",
+      "headline": "공정위, 한화솔루션 등 현장조사…태양광 패널 담합 의혹 조사 착수",
+      "summary": "(요약 없음 — 원문 확인 필요)",
+      "source_url": "https://www.delighti.co.kr/news/articleView.html?idxno=125321",
+      "published_at": "15시간 전"
+    },
+    {
+      "category": "news",
+      "category_label": "뉴스 보도내용",
+      "competitor": "공정거래위원회",
+      "keyword": "과징금",
+      "headline": "중흥건설 과징금 180억 파장···PF 신용보강 기준 모호성에 업계 긴장",
+      "summary": "(요약 없음 — 원문 확인 필요)",
+      "source_url": "https://www.newsway.co.kr/news/view?ud=2026111916021636360",
+      "published_at": "16시간 전"
+    },
+    {
+      "category": "news",
+      "category_label": "뉴스 보도내용",
+      "competitor": "SK그룹",
+      "keyword": "공정거래위원회",
+      "headline": "“SK·LG 이름 쓰려면 돈 내라?”…두 그룹이 각각 2천억 넘게 받은 비결에 ‘입이 쩍’",
+      "summary": "(요약 없음 — 원문 확인 필요)",
+      "source_url": "https://car.withnews.kr/economy/chaebol-brand-fee-2_2tn?amp=1",
+      "published_at": "16시간 전"
+    },
+    {
+      "category": "news",
+      "category_label": "뉴스 보도내용",
+      "competitor": "SK그룹",
+      "keyword": "공정거래위원회",
+      "headline": "대형 건설사들, 협력사들과 상생 통해 동반 성장 도모",
+      "summary": "(요약 없음 — 원문 확인 필요)",
+      "source_url": "https://sports.hankooki.com/news/articleView.html?idxno=6943910",
+      "published_at": "16시간 전"
+    },
+    {
+      "category": "news",
+      "category_label": "뉴스 보도내용",
+      "competitor": "SK하이닉스",
+      "keyword": "공정거래위원회",
+      "headline": "김성수 경기도의원, 경부선 안양구간 지하화 국가계획안 조건부 반영 환영",
+      "summary": "(요약 없음 — 원문 확인 필요)",
+      "source_url": "https://www.m-i.kr/news/articleView.html?idxno=2021633",
+      "published_at": "17시간 전"
+    },
+    {
+      "category": "news",
+      "category_label": "뉴스 보도내용",
+      "competitor": "SK하이닉스",
+      "keyword": "공정거래위원회",
+      "headline": "마이크론·브로드컴·TSMC 동반 급락…삼성전자·SK하이닉스에 쏠리는 '경계령'",
+      "summary": "(요약 없음 — 원문 확인 필요)",
+      "source_url": "https://www.pinpointnews.co.kr/news/articleViewAmp.html?idxno=506591",
+      "published_at": "18시간 전"
+    },
+    {
+      "category": "news",
+      "category_label": "뉴스 보도내용",
+      "competitor": "SK하이닉스",
+      "keyword": "공정거래위원회",
+      "headline": "고려아연, 투자 공방서 책임경영 문제 제기…MBK·영풍 겨냥",
+      "summary": "(요약 없음 — 원문 확인 필요)",
+      "source_url": "https://www.m-i.kr/news/articleView.html?idxno=2021640",
+      "published_at": "19시간 전"
+    },
+    {
+      "category": "news",
+      "category_label": "뉴스 보도내용",
+      "competitor": "공정거래위원회",
+      "keyword": "공정위",
+      "headline": "[ 2026년 11월 21일(토) 프랜차이즈 뉴스 ] : 네이버 블로그",
+      "summary": "(요약 없음 — 원문 확인 필요)",
+      "source_url": "https://blog.naver.com/PostView.naver?blogId=adevent&logNo=224485420372&redirect=Dlog",
+      "published_at": "20시간 전"
+    },
+    {
+      "category": "news",
+      "category_label": "뉴스 보도내용",
+      "competitor": "SK하이닉스",
+      "keyword": "공정거래위원회",
+      "headline": "나스닥 주간 10% 폭락·SOXL 32% 추락…삼성전자·SK하이닉스 '월요일 공포'",
+      "summary": "(요약 없음 — 원문 확인 필요)",
+      "source_url": "http://www.greened.kr/news/articleView.html?idxno=355237",
+      "published_at": "22시간 전"
+    },
+    {
+      "category": "news",
+      "category_label": "뉴스 보도내용",
+      "competitor": "SK하이닉스",
+      "keyword": "공정거래위원회",
+      "headline": "1540억 세금 소송 이긴 구글, 이번엔 ‘14조 매출’ 과세 논란…경실련 “싱가포르 법인 고정사업장 조사해야”",
+      "summary": "(요약 없음 — 원문 확인 필요)",
+      "source_url": "https://www.greened.kr/news/articleView.html?idxno=355235",
+      "published_at": "22시간 전"
+    },
+    {
+      "category": "news",
+      "category_label": "뉴스 보도내용",
+      "competitor": "공정거래위원회",
+      "keyword": "공정위",
+      "headline": "공정위, 태양광 패널 담합 의혹 조사…한화솔루션 등 3곳 현장조사",
+      "summary": "(요약 없음 — 원문 확인 필요)",
+      "source_url": "https://www.thepublic.kr/news/articleView.html?idxno=327817",
+      "published_at": "23시간 전"
+    },
+    {
+      "category": "news",
+      "category_label": "뉴스 보도내용",
+      "competitor": "공정거래위원회",
+      "keyword": "과징금",
+      "headline": "한경록 한솔제지 대표, 인쇄용지 담합 3,383억 과징금…주사위 굴려 인상 순서 정했다",
+      "summary": "(요약 없음 — 원문 확인 필요)",
+      "source_url": "https://www.ceojhn.com/news/articleViewAmp.html?idxno=10991",
+      "published_at": "23시간 전"
+    },
+    {
+      "category": "news",
+      "category_label": "뉴스 보도내용",
+      "competitor": "공정거래위원회",
+      "keyword": "과징금",
+      "headline": "대신증권, 미래에셋 목표가 2만3000원으로 낮췄다",
+      "summary": "(요약 없음 — 원문 확인 필요)",
+      "source_url": "https://www.jabon.co.kr/news/articleView.html?idxno=8988",
+      "published_at": "23시간 전"
+    },
+    {
+      "category": "news",
+      "category_label": "뉴스 보도내용",
+      "competitor": "공정거래위원회",
+      "keyword": "과징금",
+      "headline": "이운익 삼양사 대표, 담합 과징금 누적 4,354억 '업계 1위'…전분당 2,103억은 자진신고로 면제",
+      "summary": "(요약 없음 — 원문 확인 필요)",
+      "source_url": "https://www.ceojhn.com/news/articleViewAmp.html?idxno=10985",
+      "published_at": "24시간 전"
+    },
+    {
+      "category": "news",
+      "category_label": "뉴스 보도내용",
+      "competitor": "공정거래위원회",
+      "keyword": "과징금",
+      "headline": "주지홍 사조그룹 부회장, 밀가루·전분당 '이중 담합' 과징금 3,832억…영업이익의 4~5.5배",
+      "summary": "(요약 없음 — 원문 확인 필요)",
+      "source_url": "https://www.ceojhn.com/news/articleViewAmp.html?idxno=10997",
+      "published_at": "24시간 전"
+    },
+    {
+      "category": "news",
+      "category_label": "뉴스 보도내용",
+      "competitor": "공정거래위원회",
+      "keyword": "담합",
+      "headline": "이운익 삼양사 대표, 담합 과징금 누적 4,354억 '업계 1위'…전분당 2,103억은 자진신고로 면제",
+      "summary": "(요약 없음 — 원문 확인 필요)",
+      "source_url": "https://www.ceojhn.com/news/articleView.html?idxno=10985",
+      "published_at": "24시간 전"
+    },
+    {
+      "category": "news",
+      "category_label": "뉴스 보도내용",
+      "competitor": "SK그룹",
+      "keyword": "공정거래위원회",
+      "headline": "주지홍 사조그룹 부회장, 밀가루·전분당 '이중 담합' 과징금 3,832억…영업이익의 4~5.5배",
+      "summary": "(요약 없음 — 원문 확인 필요)",
+      "source_url": "https://www.ceojhn.com/news/articleView.html?idxno=10997",
+      "published_at": "24시간 전"
+    }
+  ],
+  "generated_at": "2026-11-21T23:35:11.017Z",
+  "_meta": {
+    "sources": [
+      "ftc.go.kr(보도자료)",
+      "ftc.go.kr(위원회 소식)",
+      "serper.dev/news"
+    ],
+    "windowHours": {
+      "press": 48,
+      "committee": 168,
+      "news": 24
+    },
+    "gapDays": 1,
+    "committeeCandidates": 3,
+    "boards": {
+      "committee": {
+        "boardsRead": 1,
+        "boardsTotal": 1,
+        "rowsSeen": 10,
+        "matched": 3
+      },
+      "press": {
+        "boardsRead": 2,
+        "boardsTotal": 2,
+        "rowsSeen": 20,
+        "matched": 0
+      }
+    },
+    "affiliateCompanies": 28,
+    "affiliateCollected": 14,
+    "categoryCounts": {
+      "press": 0,
+      "committee": 0,
+      "news": 25
+    },
+    "collected": 39,
+    "deduped": 25,
+    "errors": []
+  }
+}
