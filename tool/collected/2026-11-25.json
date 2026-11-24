@@ -1,0 +1,438 @@
+{
+  "id": "2026-11-25",
+  "date": "2026-11-25",
+  "title": "공정거래위원회 일일동향 (초안 — 38건, 제목 다듬기 필요)",
+  "summary": "항목을 취사선택·순서조정한 뒤 저장하면 Claude Code가 제목/요약을 다듬어 배포합니다.",
+  "competitors": [
+    "공정거래위원회"
+  ],
+  "keywords": [
+    "공정위",
+    "과징금",
+    "현장조사",
+    "담합"
+  ],
+  "items": [
+    {
+      "category": "press",
+      "category_label": "공정위 보도자료",
+      "headline": "26년 체육시설업 가격 등 표시의무 점검",
+      "dept": "소비자정책총괄과",
+      "summary": "(PDF 원문 확인 필요 — 배포 전 Claude Code가 요약)",
+      "source_url": "https://www.ftc.go.kr/www/selectBbsNttView.do?pageUnit=10&pageIndex=1&searchCnd=all&key=12&bordCd=3&searchCtgry=01,02&nttSn=48270",
+      "published_at": "2026-11-24",
+      "pdfPath": null,
+      "pdfText": "- 1 -\n보도자료\n보도시점 2026. 11. 24.(화) 12:00\n< 11. 25.(수) 조간 >\n/ 배포 2026. 11. 24.(화) 08:30\n`26 년 체육시설업 가격 등 표시의무 점검\n- 헬스장, 요가업, 필라테스업 2,500 개 중 최종 2,489 개가 이용 요금 · 환불 기준 공개 -\n공정거래위원회 (위원장 주병기, 이하 ‘ 공정위 ’) 는 체력단련장 (이하 ‘ 헬스장 ’) 과\n요가업 및 필라테스업\n*\n분야 총 2,500 개 사업자 를 대상으로 2026 년도\n체육시설업 가격 등 표시의무 준수 여부 에 대한 실태조사를 실시\n**\n하고,\n그 결과를 발표 하였다.\n* 「 중요한 표시 · 광고사항 고시 」 개정 (`25.11.) 으로 요가업 및 필라테스업이 가격표시제\n적용 대상에 추가됨에 따라, 금년도 조사부터 해당 업종을 조사 대상에 포함\n** 전문 조사업체 (㈜ 메트릭스알앤씨) 에 위탁하여 `26 년 3 월부터 10 월까지 실시\n이번 실태조사는 일상 속 건강관리부터 전문적 체력단련까지 폭넓게\n활용되고 있는 헬스장 1 천 3 백 개\n*\n와 요가업 4 백 개 및 필라테스업 8 백 개\n* *\n사업장을 방문하여 가격 등 표시의무\n* * *\n준수 여부를 점검 하고, 미준수 업체를\n대상으로 제도를 이행 하도록 하는 방식으로 진행되었다.\n* `24 년 말 기준 전국 헬스장 15,548 개 중 약 8% 에 해당 (문화체육관광부, 「 2025 전국\n등록 · 신고 체육시설업 현황 」)\n** `25 년 기준 전국 요가업 및 필라테스업 20,523 개 중 약 6% 에 해당 (소상공인시장진흥공단\n상권정보)\n*** 종합체육시설, 수영장, 체력단련장, 체육교습업 및 요가업, 필라테스업 사업자는\n서비스 내용 및 요금체계, 환불 기준, 보증보험 등 피해보상 수단 가입 여부 등의\n중요정보 를 사업장 게시물과 등록신청서에 모두 표시하여야 함 (「 표시 · 광고의 공정화에\n관한 법률 」 (이하 ‘ 표시광고법 ’) 제 4 조 제 1 항에 따른 「 중요한 표시 · 광고사항 고시 」)\n특히 작년 11 월 에 가격 등 표시의무가 새로이 추가된 요가업 및 필라테스업 에\n대해서는 해당 제도를 충분히 숙지하고 소비자에게 가격 등 중요정보를\n올바르게 제공할 수 있도록 제도 홍보물 (리플렛) 을 배포하는 등 교육 · 홍보\n활동을 병행 하였다.\n- 2 -\n실태조사 결과 최초 현장 방문 시에는 상당 수 업체가 가격표시제를\n미 준 수 하 고 있 었 으 나, 세 차 례 에 걸 친 현 장 방 문 과 계 도 를 거 쳐\n최 종 적 으 로 조 사 대 상 총 2,500 개 사 업 자 중 2,489 개 (\n헬스장\n1,292 개,\n요가업\n399 개,\n필라테스업\n798 개) 업체가 가 격 등 표 시의무를 이행하게 하였고, 11 개 (\n헬스장\n8 개,\n요가업\n1 개,\n필라테스업\n2 개) 업체가 최종 미이행 한 것으로 확인되었다.\n< 헬스장, 요가업 및 필라테스업의 가격 등 표시의무 점검 결과 >\n지역\n*\n구분\n서울 인천 경기\n대전\n세종\n충남 / 북\n대구\n경북\n부산\n울산\n경남\n광주\n전남 / 북\n강원\n제주\n합계\n조사\n업체\n헬스장 333 71 329 127 110 182 101 47 1,300\n요가업 97 19 112 36 31 53 28 24 400\n필라테스업 195 37 224 72 63 105 56 48 800\n미이행\n업체\n헬스장 3 - 1 - 4 - - - 8\n요가업 - - 1 - - - - - 1\n필라테스업 2 - - - - - - - 2\n* 조사 지역을 전국으로 하며, 해당 지역 업체 수 등을 감안하여 지역별 조사대상 업체 선정\n공정위는 이번 실태조사 결과를 토대로 서비스 내용과 이용 요금,\n환불 기준, 피해보상 수단 가입 여부 등의 표시 의무를 제대로 이행하지\n않은 것으로 판단 되는 사업자에 대하여 과태료 부과\n*\n등 후속 조치를\n검토 할 예정이다.\n* 중요정보 표시 의무를 위반한 사업자에 대해서는 1 억 원 이하의 과태료 부과 가능\n(표시광고법 제 20 조 제 2 항 제 1 호)\n아울러 공정위는 미이행 업체들의 주요 미이행 사유\n*\n를 고려 하여\n관 련 협 회 및 지방자치단체와 연계 하여 사업자 대상 홍보 · 교육을\n강화하고 사업자의 이행 부담을 줄이는 방안\n**\n도 검토할 예정이다.\n* 표시 기준에 대한 이해 부족, 표준 서식 부족, 필수 표시항목 누락 등\n** 지자체 사업장 점검 시 가격 등 표시의무 이행 여부 병행 확인, 신규 사업자 등록 시\n홍보물 배포, 사업장 등록 관련 서식 상단에 안내 문구 배치 등\n앞으로도 공정위는 건강관리 서비스 분야의 거래정보 투명성을 높여\n소비자가 충분한 정보를 바탕으로 안심하고 서비스를 선택할 수 있는\n- 3 -\n거래환경을 지속적으로 조성 해 나갈 계획이다.\n담당 부서\n소비자정책국\n책임자 과 장 황태호 (044-200-4405)\n소비자정책총괄과\n담당자 조사관 서도현 (044-200-4416)"
+    },
+    {
+      "category": "press",
+      "category_label": "공정위 보도자료",
+      "headline": "2026년도 공정위·한국경쟁포럼·산업연구원 공동 심포지엄 개최",
+      "dept": "시장분석팀",
+      "summary": "(PDF 원문 확인 필요 — 배포 전 Claude Code가 요약)",
+      "source_url": "https://www.ftc.go.kr/www/selectBbsNttView.do?pageUnit=10&pageIndex=1&searchCnd=all&key=12&bordCd=3&searchCtgry=01,02&nttSn=48269",
+      "published_at": "2026-11-24",
+      "pdfPath": null,
+      "pdfText": "- 1 -\n보도참고자료\n보도시점 2026. 11. 24.(화) 15:00 / 배포 2026. 11. 24.(화) 08:30\n공정거래위원회 · 한국경쟁포럼 · 산업연구원\n공동 심포지엄 개최\n- ‘AI· 플랫폼 시대의 시장지배력 ’ 주제로 진행 -\n< 행사 개요 >\n▪ 일 시: 2026. 11. 24. (화) 13:45~17:10\n▪ 장 소: 코트야드 바이 메리어트 세종 4 층 미팅룸 5~6\n▪ 주 최: 공정거래위원회, 한국경쟁포럼, 산업연구원\n▪ 주 제: AI· 플랫폼 시대의 시장지배력\n공정거래위원회 (위원장 주병기, 이하 ' 공정위 ') 는 11 월 24 일 (화) 코트야드 바이\n메리 어트 세종 에서 한국경쟁포럼 (회장 전성훈), 산업연구원 (원장 권남훈) 과 함께\n'AI· 플랫폼 시대의 시장지배력 ' 을 주제로 공동 심포지엄을 개최하였다.\n이번 공동 심포지엄은 AI 기술 발전에 따라 거대 플랫폼의 시장 집중\n우려 가 커지는 가운데, 국책 연구기관, 학계, 외부 전문가 등과 함께 AI·\n플랫 폼 시대의 시장지배력과 관련한 다양한 이슈들에 대해 논의하기 위해\n마련되었다.\n주병기 위원장은 “AI 와 플랫폼 혁신이 경제 전반을 재편하는 거대한\n전환기에 직면해 있다 ” 면서 “ 대전환의 시기일수록 우리 경제가 지속 가능한\n성장 동력을 유지하기 위해서는 건강한 디지털 생태계가 필요하다 ” 고\n하면서 “ 공정한 시장질서를 지키는 경쟁정책의 역할이 그 어느때보다\n중요하다 ” 고 강조하였 다.\n또한 “ 지난달 신설된 경제분석국이 개별 사건 처리 지원을 넘어 시장\n구조 전반을 조망하고 중장기 정책 방향을 제시하는, 공정위 싱크탱크로\n자리잡도록 하겠다 ” 고 덧붙였다.\n- 2 -\n전성훈 한국경쟁포럼 회 장은 “AI 플랫폼의 시장지배력이라는 중요한 경쟁\n정책 현안을 논의한 자리일 뿐 아니라, 경쟁정책 전문가들의 오랜 염원이었던\n공정위 경제분석국의 신설을 축하하는 뜻깊은 자리였다 ” 고 말했다.\n권남훈 산업연구원 장은 “ 경쟁정책과 산업정책은 서로를 이해하고 조화를\n이루어 나갈 필요가 있다며, 기업의 혁신, 소비자 보호, 국민경제의 균형발전이\n라는 공통 목표를 달성하기 위해 산업정책적 고민을 이해하고 경쟁정책의\n발전에 반영할 필요가 있다 ” 고 말했다.\n이 날 공동 심포지엄에서는\n❶ 「\nAI 와 플랫폼 경쟁: 주요 쟁점과 정책 과제 」 (KDI\n김민정 연구위원),\n❷ 「\n플랫폼 기업결합과 데이터의 경쟁효과 」 (공정위 김상현 산업\n경 제분석과장),\n❸ 「\nAI 에이전트 시대의 새로운 게이트키퍼 」 (산업연구원 이홍 부연구위원)\n세 가 지 주제에 대한 발표가 진행되었다.\n이어서 복홍석 전문위원 (법무법인 태평양), 김규현 변호사 (법무법인 율촌),\n김윤정 선임 연구위원 (한국법제연구원) 이 참여하여 열띤 토론을 펼쳤다.\n공정위는 오늘 심포지엄에서 논의된 AI· 플랫폼 관련 경쟁 이슈들에 대한\n전문가 들의 의견을 향후 정책 마련 및 법 집행 과정에서 반영해 나갈 계획\n이며, 앞으로도 학회 · 연구기관 등 외부 전문가, 업계 · 소비자 등 이해관계자들과\n적극적으로 소통해 나갈 예정이다.\n담당 부서\n경제분석국\n시장분석팀\n책임자 과 장 김상현 (044-200-5352)\n담당자 사무관 김강현 (044-200-5374)"
+    },
+    {
+      "category": "committee",
+      "category_label": "위원회 소식",
+      "headline": "2026-11-25 위원회 소식",
+      "summary": "(PDF 원문 확인 필요 — 배포 전 Claude Code가 요약)",
+      "source_url": "https://www.ftc.go.kr/www/selectBbsNttView.do?pageUnit=10&pageIndex=1&searchCnd=all&key=15&bordCd=5&nttSn=48271",
+      "published_at": "2026-11-24",
+      "pdfPath": "tool/pending/today-pdfs/2026-11-24_2026-11-25_위원회_소식.pdf",
+      "pdfText": "- 1 -\n위원회소식 공정거래위원회 회보 2026-205 (2026. 11. 25. 수)\n【주요일정】\n□ 위 원 장 □ 부위원장\n10:00 전원회의 (심판정) 10:00 법안소위 (국회)\n자료 제공 및 회보 게재 문의: 운영지원과\n◆ 목 표: 독과점 구조개혁과 공정성장 기반 조성\n◆ 과 제: 민생분야 공정거래질서 확립, 경제주체 간 힘의 불균형 완화, 디지털 시장 혁신 생태계 조성,\n대기업집단 경제력 집중 완화"
+    },
+    {
+      "category": "news",
+      "category_label": "뉴스 보도내용",
+      "competitor": "공정거래위원회",
+      "keyword": "과징금",
+      "headline": "국고채 과징금 RWA, 소송 끝나야 턴다…PD 반납해도 당장 효과 없어",
+      "summary": "(요약 없음 — 원문 확인 필요)",
+      "source_url": "https://kbthink.com/news-list/view.html?newsId=20261125081003314",
+      "published_at": "25분 전"
+    },
+    {
+      "category": "news",
+      "category_label": "뉴스 보도내용",
+      "competitor": "공정거래위원회",
+      "keyword": "현장조사",
+      "headline": "올리면 담합, 버티면 적자···족쇄에 갇힌 식품가 ‘비명’",
+      "summary": "(요약 없음 — 원문 확인 필요)",
+      "source_url": "http://www.enewstoday.co.kr/news/articleView.html?idxno=2496355",
+      "published_at": "35분 전"
+    },
+    {
+      "category": "news",
+      "category_label": "뉴스 보도내용",
+      "competitor": "SK 계열사",
+      "keyword": "공정거래위원회",
+      "headline": "최태원, 노소영에 9440억 전액 지급…대한상의 떠나 SK 전념",
+      "summary": "(요약 없음 — 원문 확인 필요)",
+      "source_url": "https://www.jabon.co.kr/news/articleView.html?idxno=9144",
+      "published_at": "35분 전"
+    },
+    {
+      "category": "news",
+      "category_label": "뉴스 보도내용",
+      "competitor": "공정거래위원회",
+      "keyword": "현장조사",
+      "headline": "건설사, 해외선 뒷걸음… 안방선 ‘무경쟁 수주’",
+      "summary": "(요약 없음 — 원문 확인 필요)",
+      "source_url": "https://www.chosun.com/economy/real_estate/2026/11/25/ABJUCHR22RCFZJB4OMNCCPDIRE/",
+      "published_at": "8시간 전"
+    },
+    {
+      "category": "news",
+      "category_label": "뉴스 보도내용",
+      "competitor": "공정거래위원회",
+      "keyword": "과징금",
+      "headline": "李대통령 국고채 담합 과징금 과하지 않아…제재가 너무 약했다",
+      "summary": "(요약 없음 — 원문 확인 필요)",
+      "source_url": "https://biz.sbs.co.kr/article/20000348624",
+      "published_at": "14시간 전"
+    },
+    {
+      "category": "news",
+      "category_label": "뉴스 보도내용",
+      "competitor": "공정거래위원회",
+      "keyword": "과징금",
+      "headline": "김앤장 쓴 삼성-신한 1925억 감면…국고채 담합의 이면 : 네이버 블로그",
+      "summary": "(요약 없음 — 원문 확인 필요)",
+      "source_url": "https://blog.naver.com/PostView.naver?blogId=dealsite&logNo=224490258567&redirect=Dlog",
+      "published_at": "14시간 전"
+    },
+    {
+      "category": "news",
+      "category_label": "뉴스 보도내용",
+      "competitor": "공정거래위원회",
+      "keyword": "과징금",
+      "headline": "국고채 담합 과징금 1조 6,266억부터 깜짝 청구서까지 - 영상 | 멀티미디어",
+      "summary": "(요약 없음 — 원문 확인 필요)",
+      "source_url": "https://www.korea.kr/multi/mediaNewsView.do?newsId=148976416",
+      "published_at": "14시간 전"
+    },
+    {
+      "category": "news",
+      "category_label": "뉴스 보도내용",
+      "competitor": "SK하이닉스",
+      "keyword": "공정거래위원회",
+      "headline": "AI 투자 늘리려 금산분리 완화한다지만…대기업에 자금·권한 쏠림 우려",
+      "summary": "(요약 없음 — 원문 확인 필요)",
+      "source_url": "https://wikyung.com/news/article?news=6437",
+      "published_at": "14시간 전"
+    },
+    {
+      "category": "news",
+      "category_label": "뉴스 보도내용",
+      "competitor": "공정거래위원회",
+      "keyword": "현장조사",
+      "headline": "쿠팡 vs 공정위 전방위 힘겨루기…봉인된 USB 놓고 대법원까지 간다",
+      "summary": "(요약 없음 — 원문 확인 필요)",
+      "source_url": "https://www.ilyo.co.kr/?ac=article_view&entry_id=513779",
+      "published_at": "15시간 전"
+    },
+    {
+      "category": "news",
+      "category_label": "뉴스 보도내용",
+      "competitor": "공정거래위원회",
+      "keyword": "현장조사",
+      "headline": "경기도교육청, 교복 입찰 담합 의혹 수사 의뢰",
+      "summary": "(요약 없음 — 원문 확인 필요)",
+      "source_url": "https://www.sisaon.co.kr/news/articleView.html?idxno=206366",
+      "published_at": "15시간 전"
+    },
+    {
+      "category": "news",
+      "category_label": "뉴스 보도내용",
+      "competitor": "SK쉴더스",
+      "keyword": "공정거래위원회",
+      "headline": "[재계 일감 지도] 신규 대기업집단 11곳 내부거래 첫 공개…엘티·채움은 매출 100%가 계열사",
+      "summary": "(요약 없음 — 원문 확인 필요)",
+      "source_url": "http://www.dailypop.kr/news/articleView.html?idxno=104870",
+      "published_at": "15시간 전"
+    },
+    {
+      "category": "news",
+      "category_label": "뉴스 보도내용",
+      "competitor": "공정거래위원회",
+      "keyword": "공정위",
+      "headline": "공정위 ‘兆 단위’ 과징금 행진에… 李 “설립 이래 최대 업적”",
+      "summary": "(요약 없음 — 원문 확인 필요)",
+      "source_url": "https://m.sedaily.com/article/20118329",
+      "published_at": "16시간 전"
+    },
+    {
+      "category": "news",
+      "category_label": "뉴스 보도내용",
+      "competitor": "공정거래위원회",
+      "keyword": "공정위",
+      "headline": "공정위, 올해 체육시설업 가격 등 표시의무 점검",
+      "summary": "(요약 없음 — 원문 확인 필요)",
+      "source_url": "https://www.asiaa.co.kr/news/articleView.html?idxno=272661",
+      "published_at": "16시간 전"
+    },
+    {
+      "category": "news",
+      "category_label": "뉴스 보도내용",
+      "competitor": "공정거래위원회",
+      "keyword": "공정위",
+      "headline": "공정거래위원회, ‘예약 뻥튀기 취소’ 200% 배상",
+      "summary": "(요약 없음 — 원문 확인 필요)",
+      "source_url": "https://ilyosisa.co.kr/mobile/article.html?no=259135",
+      "published_at": "16시간 전"
+    },
+    {
+      "category": "news",
+      "category_label": "뉴스 보도내용",
+      "competitor": "SK하이닉스",
+      "keyword": "공정거래위원회",
+      "headline": "[채권-마감] 금리 혼조세…주가 급등에도 外人 매수에 방향성 제한",
+      "summary": "(요약 없음 — 원문 확인 필요)",
+      "source_url": "https://kbthink.com/news-list/view.html?newsId=20261124164300219",
+      "published_at": "16시간 전"
+    },
+    {
+      "category": "news",
+      "category_label": "뉴스 보도내용",
+      "competitor": "SK하이닉스",
+      "keyword": "공정거래위원회",
+      "headline": "AI와 플랫폼의 시대, 공정경쟁 유지 위한 전략적 해답은?",
+      "summary": "(요약 없음 — 원문 확인 필요)",
+      "source_url": "https://www.gokorea.kr/news/articleView.html?idxno=887113",
+      "published_at": "17시간 전"
+    },
+    {
+      "category": "news",
+      "category_label": "뉴스 보도내용",
+      "competitor": "SK에코플랜트",
+      "keyword": "공정거래위원회",
+      "headline": "공공주택 보상 협조 주민에 최대 30% 장려금",
+      "summary": "(요약 없음 — 원문 확인 필요)",
+      "source_url": "https://www.lenews.co.kr/news/articleView.html?idxno=107660",
+      "published_at": "17시간 전"
+    },
+    {
+      "category": "news",
+      "category_label": "뉴스 보도내용",
+      "competitor": "공정거래위원회",
+      "keyword": "공정위",
+      "headline": "공정위, AI·플랫폼 시대 시장지배력 이슈 논의",
+      "summary": "(요약 없음 — 원문 확인 필요)",
+      "source_url": "https://www.intn.co.kr/news/articleView.html?idxno=3000457",
+      "published_at": "18시간 전"
+    },
+    {
+      "category": "news",
+      "category_label": "뉴스 보도내용",
+      "competitor": "공정거래위원회",
+      "keyword": "공정위",
+      "headline": "공정위, AI시대 플랫폼 시장지배력 대응 방안 모색",
+      "summary": "(요약 없음 — 원문 확인 필요)",
+      "source_url": "https://www.yna.co.kr/view/AKR20261124109800002",
+      "published_at": "18시간 전"
+    },
+    {
+      "category": "news",
+      "category_label": "뉴스 보도내용",
+      "competitor": "공정거래위원회",
+      "keyword": "공정위",
+      "headline": "공정위, 체육시설 2500곳 점검…11곳 표시의무 위반",
+      "summary": "(요약 없음 — 원문 확인 필요)",
+      "source_url": "https://www.factinnews.co.kr/news/articleView.html?idxno=301184",
+      "published_at": "18시간 전"
+    },
+    {
+      "category": "news",
+      "category_label": "뉴스 보도내용",
+      "competitor": "공정거래위원회",
+      "keyword": "공정위",
+      "headline": "공정위, AI 플랫폼 경쟁 논의…경제분석국 싱크탱크 육성",
+      "summary": "(요약 없음 — 원문 확인 필요)",
+      "source_url": "https://m.dailian.co.kr/news/view/1718831",
+      "published_at": "18시간 전"
+    },
+    {
+      "category": "news",
+      "category_label": "뉴스 보도내용",
+      "competitor": "공정거래위원회",
+      "keyword": "공정위",
+      "headline": "2026년도 공정위·한국경쟁포럼·산업연구원 공동 심포지엄 개최",
+      "summary": "(요약 없음 — 원문 확인 필요)",
+      "source_url": "https://go.seoul.co.kr/news/prnewsView.php?id=458634",
+      "published_at": "19시간 전"
+    },
+    {
+      "category": "news",
+      "category_label": "뉴스 보도내용",
+      "competitor": "공정거래위원회",
+      "keyword": "공정위",
+      "headline": "'남는 것도 없는데 가격까지 죄나'…공정위 전방위 조사에 식품업계가 뿔난 이유",
+      "summary": "(요약 없음 — 원문 확인 필요)",
+      "source_url": "https://www.techm.kr/news/articleView.html?idxno=157745",
+      "published_at": "19시간 전"
+    },
+    {
+      "category": "news",
+      "category_label": "뉴스 보도내용",
+      "competitor": "공정거래위원회",
+      "keyword": "현장조사",
+      "headline": "공정위, 헬스장·요가·필라테스 조사…표시 의무 미이행 11곳 과태료",
+      "summary": "(요약 없음 — 원문 확인 필요)",
+      "source_url": "https://www.nursenews.co.kr/news/articleView.html?idxno=47252",
+      "published_at": "19시간 전"
+    },
+    {
+      "category": "news",
+      "category_label": "뉴스 보도내용",
+      "competitor": "공정거래위원회",
+      "keyword": "과징금",
+      "headline": "李 대통령 “국고채 담합 과징금, 과하지 않아”",
+      "summary": "(요약 없음 — 원문 확인 필요)",
+      "source_url": "https://www.kfenews.co.kr/news/articleView.html?idxno=668645",
+      "published_at": "20시간 전"
+    },
+    {
+      "category": "news",
+      "category_label": "뉴스 보도내용",
+      "competitor": "공정거래위원회",
+      "keyword": "현장조사",
+      "headline": "헬스장·요가·필라테스 가격 표시의무 미이행 11곳 적발…2,500개 업장 점검",
+      "summary": "(요약 없음 — 원문 확인 필요)",
+      "source_url": "https://m.yonhapnewstv.co.kr/news/AKR20261124121358GFF",
+      "published_at": "20시간 전"
+    },
+    {
+      "category": "news",
+      "category_label": "뉴스 보도내용",
+      "competitor": "공정거래위원회",
+      "keyword": "과징금",
+      "headline": "공정위 고액과징금 논란에도...李 \"너무 잘하고 있다\"",
+      "summary": "(요약 없음 — 원문 확인 필요)",
+      "source_url": "https://www.chosun.com/politics/politics_general/2026/11/24/Q6VHN7IYPVD3PJ2WXU5LWWRSOA/",
+      "published_at": "21시간 전"
+    },
+    {
+      "category": "news",
+      "category_label": "뉴스 보도내용",
+      "competitor": "11번가",
+      "keyword": "공정거래위원회",
+      "headline": "[경제, 알고 보면] 블랙프라이데이 '70% 할인', 실제로 아끼는 돈은 얼마일까",
+      "summary": "(요약 없음 — 원문 확인 필요)",
+      "source_url": "https://www.polinews.co.kr/news/articleView.html?idxno=749067",
+      "published_at": "21시간 전"
+    },
+    {
+      "category": "news",
+      "category_label": "뉴스 보도내용",
+      "competitor": "공정거래위원회",
+      "keyword": "공정위",
+      "headline": "태평양, 민혜영 前 공정위 기업집단정책과장 영입..공정거래 자문 강화 [로펌소식]",
+      "summary": "(요약 없음 — 원문 확인 필요)",
+      "source_url": "https://www.fnnews.com/news/202611240955283709",
+      "published_at": "22시간 전"
+    },
+    {
+      "category": "news",
+      "category_label": "뉴스 보도내용",
+      "competitor": "공정거래위원회",
+      "keyword": "과징금",
+      "headline": "李대통령 \"국고채 담합 과징금 과하지 않다…그동안 제재가 너무 약했던 것\"(종합)",
+      "summary": "(요약 없음 — 원문 확인 필요)",
+      "source_url": "https://news.einfomax.co.kr/news/articleView.html?idxno=4446220",
+      "published_at": "22시간 전"
+    },
+    {
+      "category": "news",
+      "category_label": "뉴스 보도내용",
+      "competitor": "공정거래위원회",
+      "keyword": "과징금",
+      "headline": "李대통령, 1.6조 국고채 담합 과징금 \"아직도 적은 것 같다\"",
+      "summary": "(요약 없음 — 원문 확인 필요)",
+      "source_url": "https://www.asiae.co.kr/realtime/sokbo_viewNew.htm?idxno=2026112411110494514",
+      "published_at": "22시간 전"
+    },
+    {
+      "category": "news",
+      "category_label": "뉴스 보도내용",
+      "competitor": "공정거래위원회",
+      "keyword": "현장조사",
+      "headline": "소니인터랙티브엔터테인먼트코리아, 공정위 현장조사…플레이스테이션 게임 유통 '지배력 남용' 의혹",
+      "summary": "(요약 없음 — 원문 확인 필요)",
+      "source_url": "http://www.ceojhn.com/news/articleView.html?idxno=11072",
+      "published_at": "22시간 전"
+    },
+    {
+      "category": "news",
+      "category_label": "뉴스 보도내용",
+      "competitor": "SK하이닉스",
+      "keyword": "공정거래위원회",
+      "headline": "금호건설 하도급법 위반 경고 조치",
+      "summary": "(요약 없음 — 원문 확인 필요)",
+      "source_url": "http://www.inews24.com/view/2029644",
+      "published_at": "22시간 전"
+    },
+    {
+      "category": "news",
+      "category_label": "뉴스 보도내용",
+      "competitor": "공정거래위원회",
+      "keyword": "현장조사",
+      "headline": "소니 'PS스토어 독점 판매구조' 도마",
+      "summary": "(요약 없음 — 원문 확인 필요)",
+      "source_url": "http://www.gamey.kr/news/articleViewAmp.html?idxno=3019898",
+      "published_at": "24시간 전"
+    },
+    {
+      "category": "news",
+      "category_label": "뉴스 보도내용",
+      "competitor": "SK 계열사",
+      "keyword": "공정거래위원회",
+      "headline": "[기업인사이드] 10대 대기업 3Q 누적 법인세 50조 냈다...SK하이닉스·삼성전자, 나머지 8곳의 9.5배",
+      "summary": "(요약 없음 — 원문 확인 필요)",
+      "source_url": "https://m.thebigdata.co.kr/view.php?ud=202611231450046465bbceadc3c9_23",
+      "published_at": "24시간 전"
+    }
+  ],
+  "generated_at": "2026-11-24T23:35:08.306Z",
+  "_meta": {
+    "sources": [
+      "ftc.go.kr(보도자료)",
+      "ftc.go.kr(위원회 소식)",
+      "serper.dev/news"
+    ],
+    "windowHours": {
+      "press": 48,
+      "committee": 168,
+      "news": 24
+    },
+    "gapDays": 1,
+    "committeeCandidates": 4,
+    "boards": {
+      "committee": {
+        "boardsRead": 1,
+        "boardsTotal": 1,
+        "rowsSeen": 10,
+        "matched": 4
+      },
+      "press": {
+        "boardsRead": 2,
+        "boardsTotal": 2,
+        "rowsSeen": 20,
+        "matched": 2
+      }
+    },
+    "affiliateCompanies": 28,
+    "affiliateCollected": 14,
+    "categoryCounts": {
+      "press": 2,
+      "committee": 1,
+      "news": 35
+    },
+    "collected": 44,
+    "deduped": 35,
+    "errors": []
+  }
+}
