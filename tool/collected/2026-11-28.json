@@ -1,0 +1,609 @@
+{
+  "id": "2026-11-28",
+  "date": "2026-11-28",
+  "title": "공정거래위원회 일일동향 (초안 — 55건, 제목 다듬기 필요)",
+  "summary": "항목을 취사선택·순서조정한 뒤 저장하면 Claude Code가 제목/요약을 다듬어 배포합니다.",
+  "competitors": [
+    "공정거래위원회"
+  ],
+  "keywords": [
+    "공정위",
+    "과징금",
+    "현장조사",
+    "담합"
+  ],
+  "items": [
+    {
+      "category": "press",
+      "category_label": "공정위 보도자료",
+      "headline": "공정거래위원회-한국공정거래조정원-한국규제학회 공동 학술대회 개최",
+      "dept": "시장구조개선정책과",
+      "summary": "(PDF 원문 확인 필요 — 배포 전 Claude Code가 요약)",
+      "source_url": "https://www.ftc.go.kr/www/selectBbsNttView.do?pageUnit=10&pageIndex=1&searchCnd=all&key=12&bordCd=3&searchCtgry=01,02&nttSn=48289",
+      "published_at": "2026-11-27",
+      "pdfPath": null,
+      "pdfText": "- 1 -\n보도참고자료\n보도시점 2026. 11. 27.(금) 15:00 / 배포 2026. 11. 27.(금) 08:30\n공정거래위원회 - 한국공정거래조정원 -\n한국규제학회 공동 학술대회 개최\n- ‘ 경쟁제한 규제 혁신 및 경쟁영향분석 제도 고도화 방안 ’ 주제로 진행 -\n< 행사 개요 >\n▪ 일 시: 2026. 11. 27.(금) 13:30 ∼ 18:00\n▪ 장 소: 서울역 LW 컨벤션 (서울 중구) 그랜드볼룸, 중회의실\n▪ 주 최: 공정거래위원회, 한국공정거래조정원, 한국규제학회, 서울연구원\n▪ 주 제: 경쟁제한 규제 혁신 및 경쟁영향분석 제도 고도화 방안\n공정거래위원회 (위원장 주병기, 이하 ‘ 공정위 ’) 는 11 월 27 일 (금) 서울역 LW\n컨벤션 (서울 중구) 에서 한국공정거래조정원 (원장 김정기, 이하 ‘ 조정원 ’) 및 한국규제\n학회 (회장 이민창) 등과 함께 ‘ 경쟁제한 규제 혁신 및 경쟁영향분석 제도 고도화\n방안 ’ 을 주제로 공동 학술대회를 개최하였다.\n이번 학술대회는 학계 및 법조계 전문가와 공정위 ․ 조정원 관계자 등이\n참석하여\n▲\n자동차 대여 및 공유모빌리티 시장의 경쟁 활성화,\n▲\n고령친화\n사업 등의 경쟁제한 규제 사례와 개선 방안,\n▲\n지방정부 규제 혁신과 공공\n기관의 규제 합리화 방법 등 최신 규제 환경 변화에 대응하기 위한 규제\n혁신 방향과 과제를 논의하기 위해 마련되었다.\n남동일 공정위 부위원장은 환영사를 통해 “ 급변하는 경제 환경 속, 지속 가능한\n성장을 위해서는 기업의 창의적인 사업 활동을 뒷받침하는 경쟁 친화적\n환경 조성이 필수적 ” 이라고 강조하면서, “ 공정위는 경쟁주창자로서 정부정책과\n제도 전반에 경쟁의 원리가 확산될 수 있도록 노력할 것 ” 이라고 하였다.\n- 2 -\n또한 논의 주제인 자동차 대여 및 공유모빌리티 시장의 경쟁활성화와 관련\n하여 “ 자동차 대여 시장은 차량 공유 서비스와 모빌리티 기술의 발전으로 소비자\n이동 편의를 획기적으로 개선한 대표적 생활 밀착형 시장 ” 이라며, “ 최근 비대면\n카세어링과 구독 서비스 대중화로 이용률과 산업적 가치가 크게 상승했다 ” 라고\n평가했다. 아울러, “ 오늘 이 자리에서 자동차 대여 시장의 경쟁활성화 방안을\n논의하는 것은 매우 의미가 있는 일 ” 이라고 강조했다.\n김정기 조정원장은 “ 기술혁신 및 인구구조 변화로 시장 환경이 급격히\n변화함에 따라, 기존 규제의 타당성과 효과를 새로운 관점에서 재검토할\n필요가 있다 ” 라고 하면서 “ 이번 학술대회를 통해 학계와 정책 현장의 경험이\n통합되어 실질적인 규제 개선 방안을 도출하길 기대한다 ” 라고 밝혔다.\n이번 학술대회는 그랜드볼룸 (공정위, 조정원) 과 중회의실 (서울연구원, 학술\n학회) 에서 2 개 분과로 나눠 각각 2 개 회의로 진행되었다. 1 분과의 첫 번째\n회의인 공정위 부문에서는 ‘ 자동차 대여 및 공유모빌리티 시장의 경쟁활성화\n방안과 규제개선 ’ 이라는 주제로\n▲\n자동차 대여 시장의 경쟁과 규제,\n▲\n공유\n모빌리티 생태계의 성장과 규제에 대한 발표와 토론이 이루어졌다.\n이어서 두 번째 회의인 조정원 부문에서 경쟁제한 규제 사례 및 개 선방안을\n주제로\n▲\n2026 년 경쟁영향평가 사례분석,\n▲\n고령친화산업 경쟁제한 사례분석을\n진행하였고, 2 분과인 서울연구원 부문과 한국규제학회 부문에서 각각 지방규제\n혁신 고도화 방안, 공공기관 규제 합리화의 방법과 쟁점에 대한 발표와 토론이\n진행되었다.\n공정위는 오늘 학술대회를 통해 이루어진 논의를 바탕으로 정책 실무\n경험과 학계의 이론적 · 실증적 분석을 통합하여 경쟁제한적 규제 개선 업무를\n적극 추진할 방침이다. 아울러, 전문가들과 지속적인 협력을 통해 소통을\n더욱 강화할 계획이다.\n< 붙임 > 1. 공정거래위원회 · 공정거래조정원 · 한국규제학회 공동 학술대회 개요\n담당 부서\n경쟁정책국\n시장구조개선정책과\n책임자 과 장 김동연 (044-200-4351)\n담당자 사무관 이수진 (044-200-4355)\n- 3 -\n붙임 공정위 - 조정원 - 한국규제학회 공동 학술대회 개요\n1. 행사 개요\n□ (주제) 경쟁제한 규제 혁신 및 경쟁영향분석 제도 고도화 방안\n□ (일시 / 장소) ’ 26. 11. 27. (금) 13:30~18:00 / 서울역 LW 컨벤션 (서울 중구)\n2. 프로그램 (안)\n시간 구분 1 분과 (그랜드볼룸) 2 분과 (중회의실)\n개회식 및 시상식 (13:30 ∼ 14:30)\n13:30~13:40 개회식 사회: 김경동 총무위원장, 대회사: 이민창 한국규제학회장\n13:40~14:00 축사\n환영사: 남동일 공정거래위원회 부위원장\n축사: 손동균 국무조정실 규제조정실장\n축사: 김정기 한국공정거래조정원 원장\n14:00~14:30 시상식\n규제개혁 대학원생 논문발표대회 시상식\n※ 행사 당일 오전 대회 진행 (시상: 국조실, 한국개발연구원, 한국규제학회)\n1 회의 (14:30 ∼ 16:00)\n14:30~14:35 소개\n공정거래위원회 세션 서울연구원 세션\n자동차 대여 및 공유모빌리티 시장의\n경쟁활성화 방안과 규제개선\n사회: 이민창 교수 (조선대)\n지방규제혁신의 고도화 방안\n사회: 이혁우 교수 (배재대)\n14:35~14:55 발표 ⓵\n최윤정 (연세대)\n자동차 대여 시장의 경쟁과 규제\n정기용 (한국지방행정연구원)\n지방정부 규제개선 건의의 사전검토 문제와\nAI 기반 판단지원\n14:55~15:15 발표 ⓶\n이승훈 (연세대)\n공유모빌리티 생태계의 성장과 규제\n임현정, 오찬섭 (서울연구원)\n지방정부의 규제혁신 성과관리 개선방안\n15:15~15:45 토론\n탁현우 (한국교통대), 박규동 (서울시립대),\n고영준 (충남대), 원소연 (한국행정연구원)\n김경동 (광운대), 김기만 (좋은규제시민포럼),\n김필 (부산대), 이기영 (서울대 한국행정연구소),\n이민호 (한국행정연구원)\n2 회의 (16:00 ∼ 17:30)\n16:00~16:05 소개\n한국공정거래조정원 세션 한국규제학회 세션\n경쟁제한 규제 사례 및 개선 방안\n사회: 원소연 박사 (한국행정연구원)\n공공기관 규제합리화의 방법과 쟁점\n사회: 김주찬 교수 (광운대)\n16:05~16:25 발표 ⓵\n이한나 (한국공정거래조정원)\n2026 년 경쟁영향평가 사례분석\n탁현우 (한국교통대)\n: 공공기관 규제사례의 발굴 방안\n16:25~16:45 발표 ⓶\n이기영 (서울대 한국행정연구소)\n고령친화산업 경쟁제한 사례분석\n박규동 (서울시립대)\n공공기관 규제등록제 도입에 관한 연구\n16:45~17:15 토론\n조형수 서기관 (공정거래위원회),\n최수정 (중기연구원), 김경동 (광운대),\n임희선 (한국행정연구원)\n고영준 (충남대), 홍민준 (한국행정연구원),\n이희철 (한국교통대), 김다은 (한국교통대)\n17:30~18:00 총회"
+    },
+    {
+      "category": "press",
+      "category_label": "공정위 보도자료",
+      "headline": "공정위‧조정원, 상생협력 모범사례 및 하도급대금 연동 우수사례 발표회 개최",
+      "dept": "기업거래정책과",
+      "summary": "(PDF 원문 확인 필요 — 배포 전 Claude Code가 요약)",
+      "source_url": "https://www.ftc.go.kr/www/selectBbsNttView.do?pageUnit=10&pageIndex=1&searchCnd=all&key=12&bordCd=3&searchCtgry=01,02&nttSn=48287",
+      "published_at": "2026-11-27",
+      "pdfPath": null,
+      "pdfText": "- 1 -\n보도참고자료\n보도시점 2026. 11. 27.(금) 15:00 / 배포 2025. 11. 27.(금) 08:30\n공정위 ‧ 조정원, 상생협력 모범사례 및\n하도급대금 연동 우수사례 발표회 개최\n- 공정거래협약 이행 우수기업 및 연동 우수기업 64 개 사 표창 수여 -\n- 하도급 · 가맹 · 유통 · 대리점 분야 상생협력 및 연동 우수사례 공유 -\n공정거래위원회 (위원장 주병기, 이하 ‘ 공정위 ’) 와 한국공정거래조정원 (원장\n김정기) 은 11 월 27 일 (금) 대한상공회의소에서 「 2026 년 상생협력 모범사례\n및 연동제 우수사례 발표회 」 를 개최하였다.\n이번 발표회는 대 · 중소기업 간 공정거래 및 상생협력 문화를 확산 하기\n위해 마련된 자리로, 지난해 각각 개최하였던 ‘ 상생협력 모범사례 발표회 ’ 와\n‘ 하도급대금 연동 우수기업 발표회 ’ 를 올해에는 함께 진행하여 대표적인\n대 · 중소기업간 상생협력 모델인 ‘ 공정거래 협약이행 ’ 과 ‘ 하도급대금 연동제 ’ 를\n놓고 다양한 분야 의 기업들이 서로 상생협력 성과를 공유 하면서, 값진 경험과\n노하우를 배우는 기회의 장이 되었다.\n< 2026 년 상생협력 모범사례 및 연동제 우수사례 발표회 개요 >\n◇ 일 시: 2026 년 11 월 27 일 (금) 13:30 ~ 16:00\n◇ 장 소: 대한상공회의소 국제회의장\n◇ 참 석: 주병기 공정거래위원회 위원장, 김정기 한국공정거래조정원장,\n대 · 중견기업 75 여개 사 임직원 150 여 명\n◇ 주요내용: 공정거래협약 이행 우수기업 및 하도급대금 연동 우수기업 표창 수여,\n상생협력 모범사례 및 연동 우수사례 발표\n◇ 발표사: (하도급) ① 포스코 ② SK ③ 원익큐앤씨, (가맹) ④ 파리크라상,\n(유통) ⑤ 호텔롯데, (대리점) ⑥ 매일유업, (연동 우수기업) ⑦ 현대모비스\n- 2 -\n< 제도 개요 >\n공정거래협약 제도 는 대 · 중견기업과 중소 협력사, 가맹점, 납품업체,\n대리점 등 거래 당사자들이 자율적 으로 공정거래 관련 법령의 준수와\n상생협력을 약속하고 실천하는 제도 이다.\n공정위는 매년 협약을 체결한 기업들의 법 위반 예방 노력, 거래조건\n개선, 금융 · 기술지원 등 상생협력 실적을 평가 하여, 우수한 성과를 거둔\n기업에 직권조사 면제 등 혜택을 부여하고 최우수 등급 평가 를 받은 기업\n및 임직원에게 공정거래위원장 표창을 수여 하고 있다.\n하도급대금 연동제 는 원재료비 등 원가가 급격하게 변동하는 경우 하도급\n대금을 이에 맞춰 변동시켜 원 · 수급 사업자 간에 원가부담을 공정하게 분담\n하는 제도로서, 올해 8 월부터 기존 원재료비 변동뿐만 아니라, 전기 · 연료 등\n에너지 비용 변동 의 경우에도 적용되고 있다.\n공정위는 연동계약 체결 및 대금 조정 실적, 제도 확산 노력 등이 우수한\n기업을 연동 우수기업 으로 선정하여 표창 하고, 직권조사 면제 및 공정거래\n협약 이행평가 가점 등 다양한 혜택을 제공하고 있다.\n< 우수기업 표창 및 우수사례 발표 >\n공정위는 올해 하도급 · 가맹 · 유통 · 대리점 분야 의 총 268 개 기업 을 대상으로\n공정거래협약 이행실적을 평가 하였으며, 그 결과 총 57 개 최우수 등급 기업 에\n표창을 수여하였다. 이번 행사에서는 하도급 · 가맹 · 유통 · 대리점 각 분야에서\nSK, 포스코, 원익큐엔씨, 파리크라상, 호텔롯데, 매일유업 6 개 기업이 법인\n표창 을 대표 수상하였다.\n또한 해당 기업 소속으로 상생협력에 공적이 있는 총 35 인의 임직원 에게\n도 개인 표창을 수여하였고, 이번 행사에서는 삼성전자, 파리크라상, 신세계,\n남양유업 소속 임직원 4 명이 대표로 개인 표창 을 수상하였다.\n아울러 하도급대금 연동제 를 모범적으로 실천하고 연동제 체결 문화 확산에\n기여한 SK 인텔릭스, LS 전선, LG 에너지솔루션, 이랜드월드, 카카오, 현대\n모비스, 현대케피코 7 개 기업 을 하도급 대금 연동 우수기업 으로 선정하여\n공정거래위원장 표창 을 수여하였다.\n- 3 -\n이어진 모범사례 발표회 에서는 공정거래협약 이행평가 분야 최우수기업인\nSK, 포스코, 원익큐엔씨, 파리크라상, 호텔롯데, 매일유업 과 하도급대금 연동\n분야 우수기업 현대모비스 등 총 7 개 기업 이 대표로 자신들의 상생협력\n경험과 성과 를 발표 하고 참석자들과 공유하였다.\n먼저 상생협력 모범사례의 경우, ▲ AI 역량 교육 및 채용 지원 을 통한\n협력사 경쟁력 강화, ▲ 동반성장 프로그램 운영 및 2·3 차 협력사 까지의\n상생협력 확대, ▲ 공정거래 자율준수 체계 구축 과 협력사 기술보호, ▲ 가맹점 ·\n대리점에 대한 금융 · 경영 · 판로 지원 등 다양한 모범사례가 소개되었다.\n하도급대금 연동 우수사례의 경우, 현대모비스가 연동제 시행 이전 부터\n자발적 으로 납품단가 연동제를 운영 하고, 환율 변동 등 현행 연동제 적용\n대상에 해당하지 않는 거래 에도 연동제를 적용 하는 등 하도급 연동제 활성화에\n기여한 사례를 소개하였다. (구체적인 내용은 ‘ 붙임 1. 주요 상생협력 모범사례 ’ 참조)\n< 향후 계획 >\n공정위는 앞으로도 기업들의 자발적인 상생협력 노력 이 산업 전반으로\n확산 될 수 있도록 이번 발표회에서 소개된 모범사례를 사례집으로 발간 하여\n공유할 계획이다.\n아울러, 더 많은 기업들이 공정거래협약과 하도급대금 연동제에 참여하고\n그 성과가 더욱 확대될 수 있도록 협약 이행평가 기준 개선, 연동제 인식\n제고를 위한 교육 확대 등 제도 개선과 지원도 지속 추진할 계획이다.\n< 붙임 > 1. 주요 상생협력 모범사례 및 하도급 연동제 우수사례\n2. 공정거래위원회 위원장 인사 말씀\n3. 한국공정거래조정원장 축사\n담당 부서\n기업협력정책관\n기업거래정책과\n책임자 과 장 전상훈 (044-200-4945)\n담당자 사무관 박진웅 (044-200-4958)\n담당자 사무관 곽인서 (044-200-4948)\n담당자 조사관 조희정 (044-200-4955)\n기업협력정책관\n가맹거래정책과\n책임자 과 장 김동명 (044-200-4990)\n담당자 조사관 권다혜 (044-200-4994)\n기업협력정책관\n유통대리점정책과\n책임자 과 장 김대영 (044-200-4960\n담당자 사무관 박선욱 (044-200-4961)\n담당자 사무관 박준영 (044-200-4965)\n한국공정거래조정원\n협약이행평가팀\n책임자 팀 장 이민우 (02-6363-9211)\n담당자 조사관 황재윤 (02-6363-9218)\n한국공정거래조정원\n공정거래이행관리팀\n(하도급대금연동 확산 지원본부)\n책임자 팀 장 정광재 (02-6363-9230)\n담당자 조사관 박솔이 (02-6363-9231)\n- 4 -\n< AI 역량 지원 및 동반성장 프로그램 통한 상생협력 문화 정착 ＞\n① (SK) AI, SW 개발 등 9 개 분야 SK 상생아카데미\n*\n를 통해 중소 · 중견기업 재직자\nAI 역량 강화하고 채용 연계형 AI 실무교육 (’SKALA’) 을 활용해 신규인재 확보를\n지원하는 등 협력사 경쟁력 강화\n* 총 865 개 협력사 6,015 명 직원을 대상으로 AI 서비스 개발 · 기획, 프로젝트 관리, 데이터 엔지니어링 등\n역량 강화 프로그램 제공\n② (포스코) 중소 협력사에 납품대금 전액 현금지급, 명절 조기 대금지급 (4,368 억원,\n‘26 년 추석) 등 상생 대금지급문화 확산에 기여, 동반성장 5 대 프로그램\n*\n, 1·2·3 차\n협력사 (103 개사) 와 상생협약\n**\n체결 등 통해 상생협력 문화 정착에 기여\n* 성과공유제, 동반성장지원단, PHP 제도, 거래사 금융지원, 벤처 및 인재육성\n** 대금 현금지불 (10 일 내 현금지급 등), 상생결제시스템 활성화, 금융 · 기술 · 경영안정 프로그램 지원 등\n＜ 투명한 공정거래 질서 확립을 통한 협력사와의 거래 신뢰 구축 >\n③ (원익큐앤씨) 전자시스템 구축을 통해 서면계약관리 및 계약 검토기간 (평균 3.7 일)\n단축, 협력사 기술자료 보안 및 접근권한 통제 및 자동 폐기 등 유출 · 유용 예방,\n협력사 동반성장정책 지원으로 자금지원, 역량향상 교육 지원 등 제공\n④ (호텔롯데) 컴플라이언스 부문 전담조직을 구성 · 운영하여 협력사 지원 · 협업\n활성화, 협력사\n▲\n금융지원 (상생펀드 500 억원 조성, 317 억원 저리대출 등),\n▲\n홍보지원\n(누적 80 여개사 상품 온라인 기획전 등),\n▲\n소통 활성화 (동행 컨퍼런스 · 간담회 운영) 등\n< 협력사 경영 지원을 통한 경쟁력 및 시장 역량 제고 ＞\n⑤ (매일유업) 약 535 억 원 판매활동 지원\n*\n을 포함한 판로 지원, 냉장물류 지원 등\n▲\n매출성장지원, 대리점 상생펀드 (15.3 억원 대출이자 지원) · 인건비 · 담보비용 등\n▲\n금융 · 자금지원,\n▲\n복리후생 (자녀학자금, 가족휴가, 경조사 등) 지원 통한 협력사 상생지원\n* 공급가 할인 및 거래유지 목적 판매장비 지원, 진열제품 판촉활동 지원\n⑥ (파리크라상) 약 3,300 개 점포 대상 상생지원, 고임차료 점포 지원, 가맹점\n환경개선 지원 등의\n▲\n투자 · 손익지원과 가맹점 운영 활성화를 위한 컨설팅 제공,\n광고 · 판촉 지원, 교육 및 인건비 · 채용 지원 등\n▲\n기술 · 교육 지원 제공\n< 하도급대금 연동제 ＞\n⑦ (현대모비스) ‘26 년 약 26.6 만 건의 연동제 적용을 통해 협력사에 1,085 억 원의\n연동금액 순인상 효과를 제공, 그 외에도 법정 연동대상이 아닌 환율도 포함하여\n시행하였으며 소식지 배포, 협력사 방문 설명 등을 통해 연동제 활성화에 기여\n붙임 1 주요 상생협력 모범사례"
+    },
+    {
+      "category": "press",
+      "category_label": "공정위 보도자료",
+      "headline": "[설명] 뉴시스(11.26.) 과잉생산 한숨 돌렸더니...“백악관, 韓 쿠팡 9000억대 과징금 비난” 등 보도 관련",
+      "dept": "서비스업감시과",
+      "summary": "(PDF 원문 확인 필요 — 배포 전 Claude Code가 요약)",
+      "source_url": "https://www.ftc.go.kr/www/selectBbsNttView.do?pageUnit=10&pageIndex=1&searchCnd=all&key=13&bordCd=3&searchCtgry=03&nttSn=48286",
+      "published_at": "2026-11-27",
+      "pdfPath": null,
+      "pdfText": "- 1 -\n보도설명자료\n보도시점 수신 즉시 보도 가능 배포 2026. 11. 26.(목)\n공정위는 국적에 따라 기업을 차별하지 않으며,\n관련 법령과 적법 절차에 따라\n충분한 방어권을 보장하고 있습니다.\n□ 2026.11.26. 뉴시스 ｢ 과잉생산 한숨 돌렸더니...“ 백악관, 韓 쿠팡 9000 억대\n과징금 비난 ” ｣, 연합인포맥스 ｢ 美 백악관, 쿠팡 과징금 韓 정부 비판...“ 트럼프와\n약속 어겨 ” ｣, 한국일보 ｢ 백악관 “ 한국, 쿠팡 공정대우 약속 어겼다 ”...\n韓 과징금 정면 비판 ｣ 보도 관련입니다.\n< 공정거래위원회 입장 >\n□ 공정위는 조사 · 제재 등 모든 법집행에 있어 국적 에 따라 기업을 차별 하지 않습니다.\nㅇ 미국기업과 한국기업, 제 3 국 기업들 모두 관련 법령과 적법 절차 에 따라\n동등한 대우 를 받으며, 공정위는 이들에게 충분한 방어권을 보장 하고 있습니다.\nㅇ 쿠팡 에 대한 공정위의 조사 · 제재 역시 관련 법령과 적법 절차 에 따라\n이루어졌으며, 쿠팡에게는 충분한 의견제출 및 진술 기회 가 주어졌습니다.\n□ 이번에 제재 대상이 된 ‘ 최혜대우요구 행위 ’ 는 반독점법 · 경쟁법 상 일반적으로\n금지 되는 행위로, 미국 등 선진 경쟁당국에서도 규제\n*\n하고 있는 행위입니다.\n* (美) FTC 는 아마존의 “Anti-discounting”(최혜대우요구) 행위에 대해 ’23.9 월 반독점 소 제기\n(EU) 「 디지털시장법 (DMA) 」 (’24) 게이트키퍼 (Gatekeeper) 의 MFN 금지\nㅇ 또한 공정위는 쿠팡의 행위가 국내에 미친 영향 을 고려해 그에 상응하는\n과징금을 부과 했습니다.\n- 2 -\n□ 따라서 ‘ 한국 정부가 미국 기업 에 불공정한 법집행 을 하고 있다 ’ 는 부분은\n사실과 다르니 보도에 유의 하여 주시기 바랍니다.\n□ 공정위는 관련 부처와 함께 이번 조치 관련 미국 측의 불필요한 오해 가\n없도록 적극 소통 하겠습니다.\n담당 부서\n시장감시국\n서비스업감시과\n책임자 과 장 이준헌 (044-200-4499)\n담당자 사무관 예윤주 (044-200-4462)"
+    },
+    {
+      "category": "news",
+      "category_label": "뉴스 보도내용",
+      "competitor": "공정거래위원회",
+      "keyword": "과징금",
+      "headline": "美, 한국 공정위 쿠팡 제재에 “한미동맹 훼손”…대응 정책 옵션 검토",
+      "summary": "(요약 없음 — 원문 확인 필요)",
+      "source_url": "https://www.spnews.co.kr/news/articleView.html?idxno=113018",
+      "published_at": "21분 전"
+    },
+    {
+      "category": "news",
+      "category_label": "뉴스 보도내용",
+      "competitor": "SK텔레콤",
+      "keyword": "공정거래위원회",
+      "headline": "트럼프 행정부, 공정위 쿠팡 제재에 정책 대응 검토",
+      "summary": "(요약 없음 — 원문 확인 필요)",
+      "source_url": "https://catn.kr/View.aspx?No=4333769",
+      "published_at": "39분 전"
+    },
+    {
+      "category": "news",
+      "category_label": "뉴스 보도내용",
+      "competitor": "공정거래위원회",
+      "keyword": "과징금",
+      "headline": "美국무부, 쿠팡 제재에 \"공정위가 한미동맹 훼손\" 강하게 비판",
+      "summary": "(요약 없음 — 원문 확인 필요)",
+      "source_url": "https://www.newsworks.co.kr/news/articleView.html?idxno=904780",
+      "published_at": "41분 전"
+    },
+    {
+      "category": "news",
+      "category_label": "뉴스 보도내용",
+      "competitor": "공정거래위원회",
+      "keyword": "과징금",
+      "headline": "美국무부, 쿠팡 제재에 \"공정위가 한미동맹 훼손\"…대응 검토",
+      "summary": "(요약 없음 — 원문 확인 필요)",
+      "source_url": "https://t.co/pRFR7X9eMP",
+      "published_at": "5시간 전"
+    },
+    {
+      "category": "news",
+      "category_label": "뉴스 보도내용",
+      "competitor": "공정거래위원회",
+      "keyword": "담합",
+      "headline": "피해보상은 물론 거래구조도 전면 개편 촉구",
+      "summary": "(요약 없음 — 원문 확인 필요)",
+      "source_url": "http://www.korpin.com/news/view.php?idx=16381",
+      "published_at": "12시간 전"
+    },
+    {
+      "category": "news",
+      "category_label": "뉴스 보도내용",
+      "competitor": "SK 계열사",
+      "keyword": "공정거래위원회",
+      "headline": "카카오, 공정위 위원장 표창 수상…납품대금 연동제 확산·동반성장 공로 인정",
+      "summary": "(요약 없음 — 원문 확인 필요)",
+      "source_url": "https://www.joongangenews.com/news/articleView.html?idxno=567238",
+      "published_at": "14시간 전"
+    },
+    {
+      "category": "news",
+      "category_label": "뉴스 보도내용",
+      "competitor": "SK하이닉스",
+      "keyword": "공정거래위원회",
+      "headline": "공정위·조정원, 협약이행·연동제 발표회 첫 통합 개최…주병기 \"사상 최대 수출에도 사회적 가치 파급효과 미미\"",
+      "summary": "(요약 없음 — 원문 확인 필요)",
+      "source_url": "https://www.asiae.co.kr/article/2026112718395412529",
+      "published_at": "14시간 전"
+    },
+    {
+      "category": "news",
+      "category_label": "뉴스 보도내용",
+      "competitor": "공정거래위원회",
+      "keyword": "과징금",
+      "headline": "대법, 공정위 'HD현대중공업 127억 재산정 과징금'도 제동…\"여전히 37배 불균형\"",
+      "summary": "(요약 없음 — 원문 확인 필요)",
+      "source_url": "https://www.wikileaks-kr.org/news/articleView.html?idxno=195427",
+      "published_at": "15시간 전"
+    },
+    {
+      "category": "news",
+      "category_label": "뉴스 보도내용",
+      "competitor": "공정거래위원회",
+      "keyword": "담합",
+      "headline": "공정위 1.6조원 과징금 적정성 논란... 국고채 시장에 부담 가중되나",
+      "summary": "(요약 없음 — 원문 확인 필요)",
+      "source_url": "https://www.lkp.news/news/articleView.html?idxno=86610",
+      "published_at": "15시간 전"
+    },
+    {
+      "category": "news",
+      "category_label": "뉴스 보도내용",
+      "competitor": "SK 계열사",
+      "keyword": "공정거래위원회",
+      "headline": "카카오, 하도급대금 연동 우수기업 공정위원장 표창...소비자 관심도 상승",
+      "summary": "(요약 없음 — 원문 확인 필요)",
+      "source_url": "https://m.thebigdata.co.kr/view.php?ud=202611271733546284bbceadc3c9_23",
+      "published_at": "15시간 전"
+    },
+    {
+      "category": "news",
+      "category_label": "뉴스 보도내용",
+      "competitor": "SK하이닉스",
+      "keyword": "공정거래위원회",
+      "headline": "LG에너지솔루션, 하도급대금 연동 우수기업 선정…공정위 표창",
+      "summary": "(요약 없음 — 원문 확인 필요)",
+      "source_url": "http://www.inews24.com/view/2031401",
+      "published_at": "15시간 전"
+    },
+    {
+      "category": "news",
+      "category_label": "뉴스 보도내용",
+      "competitor": "SK온",
+      "keyword": "공정거래위원회",
+      "headline": "미투온, 최대주주 카카오게임즈로 변경·지분율 39.56%",
+      "summary": "(요약 없음 — 원문 확인 필요)",
+      "source_url": "https://www.datatooza.com/article/20261127174201375052ef36b980_80",
+      "published_at": "15시간 전"
+    },
+    {
+      "category": "news",
+      "category_label": "뉴스 보도내용",
+      "competitor": "공정거래위원회",
+      "keyword": "과징금",
+      "headline": "대법 \"공정위, HD현대중공업 과징금 127억 원도 과중\" 제동",
+      "summary": "(요약 없음 — 원문 확인 필요)",
+      "source_url": "https://www.yonhapnewstv.co.kr/news/AKR20261127160757m8T",
+      "published_at": "16시간 전"
+    },
+    {
+      "category": "news",
+      "category_label": "뉴스 보도내용",
+      "competitor": "공정거래위원회",
+      "keyword": "과징금",
+      "headline": "‘기부금 리베이트’ 의혹…CJ프레시웨이, 최대 200억 과징금 위기 [재계톡톡]",
+      "summary": "(요약 없음 — 원문 확인 필요)",
+      "source_url": "https://www.mk.co.kr/news/business/12220286",
+      "published_at": "16시간 전"
+    },
+    {
+      "category": "news",
+      "category_label": "뉴스 보도내용",
+      "competitor": "공정거래위원회",
+      "keyword": "현장조사",
+      "headline": "포스코·SK·현대모비스 등 상생 앞장…공정위, 공정거래협약·연동 우수사례 발표회 개최",
+      "summary": "(요약 없음 — 원문 확인 필요)",
+      "source_url": "https://www.pointe.co.kr/news/articleView.html?idxno=88577",
+      "published_at": "16시간 전"
+    },
+    {
+      "category": "news",
+      "category_label": "뉴스 보도내용",
+      "competitor": "공정거래위원회",
+      "keyword": "현장조사",
+      "headline": "예가람저축은행, 외부 전문가 초청해 공정거래 준법교육",
+      "summary": "(요약 없음 — 원문 확인 필요)",
+      "source_url": "https://www.ftoday.co.kr/news/articleView.html?idxno=370757",
+      "published_at": "16시간 전"
+    },
+    {
+      "category": "news",
+      "category_label": "뉴스 보도내용",
+      "competitor": "공정거래위원회",
+      "keyword": "현장조사",
+      "headline": "LG에너지솔루션, 하도급대금 연동 우수기업 선정…공정위 표창",
+      "summary": "(요약 없음 — 원문 확인 필요)",
+      "source_url": "https://biz.sbs.co.kr/article/20000349442",
+      "published_at": "16시간 전"
+    },
+    {
+      "category": "news",
+      "category_label": "뉴스 보도내용",
+      "competitor": "공정거래위원회",
+      "keyword": "담합",
+      "headline": "[초점] '국고채 담합' 과징금 1.6조, 정당했을까",
+      "summary": "(요약 없음 — 원문 확인 필요)",
+      "source_url": "http://www.newswatch.kr/news/articleView.html?idxno=82110",
+      "published_at": "16시간 전"
+    },
+    {
+      "category": "news",
+      "category_label": "뉴스 보도내용",
+      "competitor": "SK텔레콤",
+      "keyword": "공정거래위원회",
+      "headline": "KT·SKT 연말 인사, 보안 책임과 실적이 변수…LG유플은 승진 중심",
+      "summary": "(요약 없음 — 원문 확인 필요)",
+      "source_url": "https://www.newsworks.co.kr/news/articleView.html?idxno=904738",
+      "published_at": "16시간 전"
+    },
+    {
+      "category": "news",
+      "category_label": "뉴스 보도내용",
+      "competitor": "SK텔레콤",
+      "keyword": "공정거래위원회",
+      "headline": "쿠팡 \"10만원 배상하라\" 압박... 타사 정보유출 사건엔 눈감은 시민단체 - 머니투데이",
+      "summary": "(요약 없음 — 원문 확인 필요)",
+      "source_url": "https://www.mt.co.kr/amp/living/2026/11/27/2026112716154437393",
+      "published_at": "16시간 전"
+    },
+    {
+      "category": "news",
+      "category_label": "뉴스 보도내용",
+      "competitor": "SK텔레콤",
+      "keyword": "공정거래위원회",
+      "headline": "카카오, 협력사 원자재 가격 부담 완화..하도급대금 연동 우수기업 선정",
+      "summary": "(요약 없음 — 원문 확인 필요)",
+      "source_url": "https://kpenews.com/View.aspx?No=4333139",
+      "published_at": "16시간 전"
+    },
+    {
+      "category": "news",
+      "category_label": "뉴스 보도내용",
+      "competitor": "SK 계열사",
+      "keyword": "공정거래위원회",
+      "headline": "카카오, 하도급대금 연동 우수기업 공정위원장 표창 수상",
+      "summary": "(요약 없음 — 원문 확인 필요)",
+      "source_url": "https://www.newsdream.kr/news/articleView.html?idxno=123231",
+      "published_at": "16시간 전"
+    },
+    {
+      "category": "news",
+      "category_label": "뉴스 보도내용",
+      "competitor": "SK하이닉스",
+      "keyword": "공정거래위원회",
+      "headline": "카카오, 하도급대금 연동 우수기업 선정…공정위 표창 수상",
+      "summary": "(요약 없음 — 원문 확인 필요)",
+      "source_url": "http://www.srtimes.kr/news/articleView.html?idxno=218897",
+      "published_at": "16시간 전"
+    },
+    {
+      "category": "news",
+      "category_label": "뉴스 보도내용",
+      "competitor": "SK이노베이션",
+      "keyword": "공정거래위원회",
+      "headline": "공정위, 대·중소기업 상생협력 확산 추진…공정거래협약·하도급대금 연동 우수기업 표창",
+      "summary": "(요약 없음 — 원문 확인 필요)",
+      "source_url": "https://www.mssnews.com/news/articleView.html?idxno=3672",
+      "published_at": "16시간 전"
+    },
+    {
+      "category": "news",
+      "category_label": "뉴스 보도내용",
+      "competitor": "공정거래위원회",
+      "keyword": "과징금",
+      "headline": "HD현대중공업 손 또 들어준 대법…“공정위 과징금 과중”",
+      "summary": "(요약 없음 — 원문 확인 필요)",
+      "source_url": "https://www.sisajournal.com/news/articleView.html?idxno=395541",
+      "published_at": "17시간 전"
+    },
+    {
+      "category": "news",
+      "category_label": "뉴스 보도내용",
+      "competitor": "공정거래위원회",
+      "keyword": "현장조사",
+      "headline": "[단독] 갑질했나…공정위, 삼성 반도체 장비 자회사 현장 조사",
+      "summary": "(요약 없음 — 원문 확인 필요)",
+      "source_url": "https://biz.sbs.co.kr/article/20000349399",
+      "published_at": "17시간 전"
+    },
+    {
+      "category": "news",
+      "category_label": "뉴스 보도내용",
+      "competitor": "SK그룹",
+      "keyword": "공정거래위원회",
+      "headline": "주병기 공정위원장 “대기업 수출 최대지만 낙수효과 미미…상생협력 필수”",
+      "summary": "(요약 없음 — 원문 확인 필요)",
+      "source_url": "https://www.etoday.co.kr/news/view/2654006",
+      "published_at": "17시간 전"
+    },
+    {
+      "category": "news",
+      "category_label": "뉴스 보도내용",
+      "competitor": "SK그룹",
+      "keyword": "공정거래위원회",
+      "headline": "주병기 \"사상 최대 수출에도 공급망 파급효과 미미\"…상생 강조",
+      "summary": "(요약 없음 — 원문 확인 필요)",
+      "source_url": "https://stock.mk.co.kr/news/view/1207239",
+      "published_at": "17시간 전"
+    },
+    {
+      "category": "news",
+      "category_label": "뉴스 보도내용",
+      "competitor": "SK하이닉스",
+      "keyword": "공정거래위원회",
+      "headline": "공정위, 상생협력·하도급대금 연동 우수기업 64곳 표창",
+      "summary": "(요약 없음 — 원문 확인 필요)",
+      "source_url": "https://www.ajunews.com/view/20261127145133707",
+      "published_at": "17시간 전"
+    },
+    {
+      "category": "news",
+      "category_label": "뉴스 보도내용",
+      "competitor": "SK AX",
+      "keyword": "공정거래위원회",
+      "headline": "700억원 이상 공공SW, 대기업 참여 길 열리나…14년 만에 규제 손질",
+      "summary": "(요약 없음 — 원문 확인 필요)",
+      "source_url": "https://www.itdaily.kr/news/articleView.html?idxno=243289",
+      "published_at": "17시간 전"
+    },
+    {
+      "category": "news",
+      "category_label": "뉴스 보도내용",
+      "competitor": "공정거래위원회",
+      "keyword": "과징금",
+      "headline": "\"같은 위반에 격차 커\"…대법, HD현대중공업 127억 과징금 제동 - 머니투데이",
+      "summary": "(요약 없음 — 원문 확인 필요)",
+      "source_url": "https://www.mt.co.kr/amp/society/2026/11/27/2026112712131880822",
+      "published_at": "18시간 전"
+    },
+    {
+      "category": "news",
+      "category_label": "뉴스 보도내용",
+      "competitor": "SK그룹",
+      "keyword": "공정거래위원회",
+      "headline": "공정위, 상생협력 최우수기업 57곳 표창…연동 우수 7곳 선정",
+      "summary": "(요약 없음 — 원문 확인 필요)",
+      "source_url": "https://www.dailian.co.kr/news/view/1720568/%EA%B3%B5%EC%A0%95%EC%9C%84-%EC%83%81%EC%83%9D%ED%98%91%EB%A0%A5-%EC%B5%9C%EC%9A%B0%EC%88%98%EA%B8%B0%EC%97%85-57%EA%B3%B3-%ED%91%9C-2026",
+      "published_at": "18시간 전"
+    },
+    {
+      "category": "news",
+      "category_label": "뉴스 보도내용",
+      "competitor": "SK그룹",
+      "keyword": "공정거래위원회",
+      "headline": "SK·포스코 등 6개 기업, 공정위 상생협력 모범기업 표창",
+      "summary": "(요약 없음 — 원문 확인 필요)",
+      "source_url": "https://news.einfomax.co.kr/news/articleView.html?idxno=4446977",
+      "published_at": "18시간 전"
+    },
+    {
+      "category": "news",
+      "category_label": "뉴스 보도내용",
+      "competitor": "SK 계열사",
+      "keyword": "공정거래위원회",
+      "headline": "SK·포스코 등 6개 기업, 공정위 상생협력 모범기업 표창",
+      "summary": "(요약 없음 — 원문 확인 필요)",
+      "source_url": "https://kbthink.com/news-list/view.html?newsId=20261127150002702",
+      "published_at": "18시간 전"
+    },
+    {
+      "category": "news",
+      "category_label": "뉴스 보도내용",
+      "competitor": "SK하이닉스",
+      "keyword": "공정거래위원회",
+      "headline": "삼성전자·SK하이닉스, 中 낸드 특허 활용…400단 시대 기술 경쟁 새 국면",
+      "summary": "(요약 없음 — 원문 확인 필요)",
+      "source_url": "https://www.joongangenews.com/news/articleView.html?idxno=567184",
+      "published_at": "18시간 전"
+    },
+    {
+      "category": "news",
+      "category_label": "뉴스 보도내용",
+      "competitor": "공정거래위원회",
+      "keyword": "과징금",
+      "headline": "백악관까지 나선 ‘쿠팡 옹호’…공정위 “국적 따른 ‘차별 조사’ 없다” 반박",
+      "summary": "(요약 없음 — 원문 확인 필요)",
+      "source_url": "https://www.hani.co.kr/arti/economy/economy_general/1289408.html",
+      "published_at": "21시간 전"
+    },
+    {
+      "category": "news",
+      "category_label": "뉴스 보도내용",
+      "competitor": "공정거래위원회",
+      "keyword": "과징금",
+      "headline": "공정위, HD현대중공업 과징금 77억 깎았는데…대법 \"여전히 과중\"",
+      "summary": "(요약 없음 — 원문 확인 필요)",
+      "source_url": "https://www.yna.co.kr/view/AKR20261127078000004",
+      "published_at": "21시간 전"
+    },
+    {
+      "category": "news",
+      "category_label": "뉴스 보도내용",
+      "competitor": "공정거래위원회",
+      "keyword": "현장조사",
+      "headline": "원재료서 라면·식자재까지…공정위 ‘전방위 칼날’에 꽁꽁 언 식품업계",
+      "summary": "(요약 없음 — 원문 확인 필요)",
+      "source_url": "https://m.fntimes.com/html/view.php?ud=202611271042447689923defd0cc_18",
+      "published_at": "21시간 전"
+    },
+    {
+      "category": "news",
+      "category_label": "뉴스 보도내용",
+      "competitor": "공정거래위원회",
+      "keyword": "담합",
+      "headline": "캐터필러 딜러 혜인, 군용 불도저 담합 5년 만에 이번엔 불도저 출력 부풀려 광고",
+      "summary": "(요약 없음 — 원문 확인 필요)",
+      "source_url": "http://www.inews24.com/view/2031192",
+      "published_at": "21시간 전"
+    },
+    {
+      "category": "news",
+      "category_label": "뉴스 보도내용",
+      "competitor": "공정거래위원회",
+      "keyword": "담합",
+      "headline": "공정위가 고발 안 한 8개사도 수사하나… ‘국고채 담합’에 긴장하는 금융권",
+      "summary": "(요약 없음 — 원문 확인 필요)",
+      "source_url": "https://biz.chosun.com/topics/law_firm/2026/11/27/UJTJSFWIY5H2DFKV72AU4GMO4M/",
+      "published_at": "21시간 전"
+    },
+    {
+      "category": "news",
+      "category_label": "뉴스 보도내용",
+      "competitor": "공정거래위원회",
+      "keyword": "현장조사",
+      "headline": "식자재업계 '기부금 리베이트' 조사 확대, 현대그린푸드까지 [뉴스Q]",
+      "summary": "(요약 없음 — 원문 확인 필요)",
+      "source_url": "https://www.newsq.co.kr/news/articleView.html?idxno=501078",
+      "published_at": "22시간 전"
+    },
+    {
+      "category": "news",
+      "category_label": "뉴스 보도내용",
+      "competitor": "SK텔레콤",
+      "keyword": "공정거래위원회",
+      "headline": "美 백악관·의회 韓 디지털 규제 압박…공정위 빅테크 제재에 '외교 변수'",
+      "summary": "(요약 없음 — 원문 확인 필요)",
+      "source_url": "https://www.asiae.co.kr/article/economic-general/2026112708573260027",
+      "published_at": "22시간 전"
+    },
+    {
+      "category": "news",
+      "category_label": "뉴스 보도내용",
+      "competitor": "SK하이닉스",
+      "keyword": "공정거래위원회",
+      "headline": "예가람저축은행, 외부 전문가 초청해 준법경영 강화",
+      "summary": "(요약 없음 — 원문 확인 필요)",
+      "source_url": "http://www.finomy.com/news/articleView.html?idxno=268132",
+      "published_at": "22시간 전"
+    },
+    {
+      "category": "news",
+      "category_label": "뉴스 보도내용",
+      "competitor": "SK온",
+      "keyword": "공정거래위원회",
+      "headline": "금감원 노조 '반쪽짜리 쇄신' 반발…\"금융위 의사결정 구조부터 개편해야\"",
+      "summary": "(요약 없음 — 원문 확인 필요)",
+      "source_url": "https://www.newsworks.co.kr/news/articleView.html?idxno=904669",
+      "published_at": "22시간 전"
+    },
+    {
+      "category": "news",
+      "category_label": "뉴스 보도내용",
+      "competitor": "공정거래위원회",
+      "keyword": "현장조사",
+      "headline": "[조동근 칼럼] 공정위의 과징금을 무기로 한 사실상 강제조사, ‘조사와 심판기능’ 분리해야",
+      "summary": "(요약 없음 — 원문 확인 필요)",
+      "source_url": "https://www.pennmike.com/news/articleView.html?idxno=132901",
+      "published_at": "23시간 전"
+    },
+    {
+      "category": "news",
+      "category_label": "뉴스 보도내용",
+      "competitor": "공정거래위원회",
+      "keyword": "현장조사",
+      "headline": "애플, 또 한국 속였나… ‘AI 기능’ 소비자 기만 의혹 확산",
+      "summary": "(요약 없음 — 원문 확인 필요)",
+      "source_url": "https://m.sedaily.com/article/20119714",
+      "published_at": "23시간 전"
+    },
+    {
+      "category": "news",
+      "category_label": "뉴스 보도내용",
+      "competitor": "공정거래위원회",
+      "keyword": "담합",
+      "headline": "공정위, 국고채 담합 과징금 4위 빼고 11위 고발…'건수' 비공개",
+      "summary": "(요약 없음 — 원문 확인 필요)",
+      "source_url": "https://www.numbers.co.kr/news/articleView.html?idxno=23248",
+      "published_at": "23시간 전"
+    },
+    {
+      "category": "news",
+      "category_label": "뉴스 보도내용",
+      "competitor": "공정거래위원회",
+      "keyword": "담합",
+      "headline": "고양시, 교복 입찰 담합 의혹에 유감…철저한 진상 규명 촉구",
+      "summary": "(요약 없음 — 원문 확인 필요)",
+      "source_url": "https://news.bbsi.co.kr/news/articleView.html?idxno=4121318",
+      "published_at": "23시간 전"
+    },
+    {
+      "category": "news",
+      "category_label": "뉴스 보도내용",
+      "competitor": "SK텔레콤",
+      "keyword": "공정거래위원회",
+      "headline": "[김재섭의 뒤집어보기] 이동통신 3사 뒷돈으로 '월 0~500원' 알뜰폰 요금제 난무, 또 잘못된 정책이 시장 왜곡?",
+      "summary": "(요약 없음 — 원문 확인 필요)",
+      "source_url": "https://www.businesspost.co.kr/BP?command=article_view&num=453086",
+      "published_at": "23시간 전"
+    },
+    {
+      "category": "news",
+      "category_label": "뉴스 보도내용",
+      "competitor": "SK그룹",
+      "keyword": "공정거래위원회",
+      "headline": "금감원 노조 \"반쪽짜리 감독 쇄신 거부\"…금융위 위원 구성부터 바꿔야",
+      "summary": "(요약 없음 — 원문 확인 필요)",
+      "source_url": "https://www.dailian.co.kr/news/view/1720323/%EA%B8%88%EA%B0%90%EC%9B%90-%EB%85%B8%EC%A1%B0-%EB%B0%98%EC%AA%BD%EC%A7%9C%EB%A6%AC-%EA%B0%90%EB%8F%85-%EC%87%84%EC%8B%A0-%EA%B1%B0%EB%B6%80-2026",
+      "published_at": "23시간 전"
+    },
+    {
+      "category": "news",
+      "category_label": "뉴스 보도내용",
+      "competitor": "SK바이오팜",
+      "keyword": "공정거래위원회",
+      "headline": "메리츠, 금감원·금융위·기재부 관(官) 출신 '7인' 라인업",
+      "summary": "(요약 없음 — 원문 확인 필요)",
+      "source_url": "https://www.numbers.co.kr/news/articleView.html?idxno=23247",
+      "published_at": "23시간 전"
+    },
+    {
+      "category": "news",
+      "category_label": "뉴스 보도내용",
+      "competitor": "공정거래위원회",
+      "keyword": "현장조사",
+      "headline": "대한축구협회, 국제 친선경기 승인권 남용·쿠팡 특혜 의혹 부인…\"공정위 조사에 성실히 임할 것\"",
+      "summary": "(요약 없음 — 원문 확인 필요)",
+      "source_url": "https://www.gukjenews.com/news/articleView.html?idxno=3764716",
+      "published_at": "24시간 전"
+    }
+  ],
+  "generated_at": "2026-11-27T23:35:08.993Z",
+  "_meta": {
+    "sources": [
+      "ftc.go.kr(보도자료)",
+      "ftc.go.kr(위원회 소식)",
+      "serper.dev/news"
+    ],
+    "windowHours": {
+      "press": 48,
+      "committee": 168,
+      "news": 24
+    },
+    "gapDays": 1,
+    "committeeCandidates": 5,
+    "boards": {
+      "committee": {
+        "boardsRead": 1,
+        "boardsTotal": 1,
+        "rowsSeen": 10,
+        "matched": 5
+      },
+      "press": {
+        "boardsRead": 2,
+        "boardsTotal": 2,
+        "rowsSeen": 20,
+        "matched": 3
+      }
+    },
+    "affiliateCompanies": 28,
+    "affiliateCollected": 40,
+    "categoryCounts": {
+      "press": 3,
+      "committee": 0,
+      "news": 52
+    },
+    "collected": 67,
+    "deduped": 52,
+    "errors": []
+  }
+}
